@@ -1,0 +1,75 @@
+{
+    "domain": "sinfulservice.dk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "prod-router"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sinfulservice\\.dk\\/api\\/v1\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-router"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sinful.co.uk",
+                "www.sinful.se"
+            ]
+        },
+        {
+            "rule": "sinfulservice\\.dk\\/api\\/v1\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-router"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "020eff3aefc534de1be301aa1c02dc4cec6c53e303b5edf78a0a567b8e1c4c78"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sinful.co.uk",
+                "www.sinful.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns2.wannafind.dk",
+        "ns1.wannafind.dk"
+    ]
+}

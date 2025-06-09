@@ -1,0 +1,104 @@
+{
+    "domain": "comitiumanalytics.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "static",
+        "publisher"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "comitiumanalytics\\.com\\/js\\/client\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "9ab6345956e26aa8fac7084cfb446ace47b3f2090bf8237f853bf152749c7132"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ca_uid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                },
+                "ca_stat": {
+                    "ttl": 14648601,
+                    "length": 197,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "65ymas.com",
+                "www.autopista.es",
+                "www.berria.eus",
+                "www.elplural.com",
+                "www.fcbarcelonanoticias.com",
+                "www.hibridosyelectricos.com"
+            ]
+        },
+        {
+            "rule": "comitiumanalytics\\.com\\/stats\\/save",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publisher"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "65ymas.com",
+                "www.autopista.es",
+                "www.berria.eus",
+                "www.elplural.com",
+                "www.fcbarcelonanoticias.com",
+                "www.hibridosyelectricos.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 6
+    },
+    "nameservers": [
+        "henry.ns.cloudflare.com",
+        "melinda.ns.cloudflare.com"
+    ]
+}

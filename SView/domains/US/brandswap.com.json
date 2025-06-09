@@ -1,0 +1,120 @@
+{
+    "domain": "brandswap.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "assets",
+        "tagapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "brandswap\\.com\\/assets\\/tag\\/production\\/brandswop\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "a830d5d5393468c391e00f57a1b61799b3d79b587e097fb53db10cda18c9fd60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovoko.fr",
+                "screwfix.com",
+                "www.laptopsdirect.co.uk",
+                "www.ninjakitchen.de",
+                "www.screwfix.com"
+            ]
+        },
+        {
+            "rule": "brandswap\\.com\\/tag\\/access",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovoko.fr",
+                "www.ninjakitchen.de"
+            ]
+        },
+        {
+            "rule": "brandswap\\.com\\/tag\\/access",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "2e33da17a03fcea9787555c8e10e2c5094459fe99a56eef599d02e94bee98e25"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovoko.fr",
+                "www.laptopsdirect.co.uk",
+                "www.ninjakitchen.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "dwin1.com",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "ovoko.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "pointandplace.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Preflight": 2,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c2.googledomains.com"
+    ]
+}

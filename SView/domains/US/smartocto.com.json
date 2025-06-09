@@ -1,0 +1,487 @@
+{
+    "domain": "smartocto.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000566,
+    "sites": 80,
+    "subdomains": [
+        "tentacles",
+        "api",
+        "ingestion"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "smartocto\\.com\\/ten\\/tentacle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tentacles"
+            ],
+            "apis": {
+                "window.localStorage": 61,
+                "Date.prototype.getTime": 54
+            },
+            "sites": 69,
+            "prevalence": 0.000488,
+            "cnames": [],
+            "responseHashes": [
+                "ae91fedaa3a43bff8989cb4007b48c3effd080aaa5f3edae394951025673d6f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.suedostschweiz.ch",
+                "www.leidschdagblad.nl",
+                "www.noordhollandsdagblad.nl",
+                "dnevnik.hr",
+                "www.omropfryslan.nl",
+                "sportske.jutarnji.hr",
+                "inews.co.uk",
+                "www.theepochtimes.com",
+                "www.chicagobusiness.com",
+                "ksl.com",
+                "www.dailymaverick.co.za",
+                "krenizdravo.dnevnik.hr",
+                "www.index.hr",
+                "www.berliner-zeitung.de",
+                "www.at5.nl",
+                "sport.aktuality.sk",
+                "www.sportdog.gr",
+                "n1info.si",
+                "www.epochtimes.de",
+                "www.gva.be"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/ten\\/ingestion\\.js",
+            "cookies": 0.00041,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tentacles"
+            ],
+            "apis": {
+                "Screen.prototype.availWidth": 57,
+                "Screen.prototype.availHeight": 57,
+                "Date.prototype.getTime": 58,
+                "Document.cookie getter": 46,
+                "window.devicePixelRatio": 58,
+                "window.innerWidth": 58,
+                "window.innerHeight": 58,
+                "Document.cookie setter": 58
+            },
+            "sites": 67,
+            "prevalence": 0.000474,
+            "cnames": [],
+            "responseHashes": [
+                "cc0687de6670cd2e069d6c6d16ee2ecf707e5dfe79a1b272293fe46d81c01598"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sotmsid": {
+                    "ttl": 1800,
+                    "length": 43,
+                    "prevalence": 0.0003324468085106383,
+                    "uniqueness": 1
+                },
+                "_sotmpid": {
+                    "ttl": 15552000,
+                    "length": 43,
+                    "prevalence": 0.0003324468085106383,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.epochtimes.de",
+                "www.theepochtimes.com",
+                "www.standaard.be",
+                "www.jobat.be",
+                "sport.aktuality.sk",
+                "www.aachener-zeitung.de",
+                "www.omroepflevoland.nl",
+                "www.oost.nl",
+                "www.vecernji.hr",
+                "m.vecernji.hr",
+                "n1info.si",
+                "www.leidschdagblad.nl",
+                "www.omroepzeeland.nl",
+                "www.omroepbrabant.nl",
+                "www.pulse.com.gh",
+                "www.nhnieuws.nl",
+                "www.star.gr",
+                "www.monitor.co.ug",
+                "www.omroepwest.nl",
+                "dvhn.nl"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/api\\/brands\\/tentacles",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 68,
+            "prevalence": 0.000481,
+            "cnames": [],
+            "responseHashes": [
+                "7d4bc2ee8e0f6f3a9c0536ca85662cf65f24d37ce59c112fbcc358ebb24f264c",
+                "390367ee0cfd75f5638eca7ac7c94cb44c7a0eb1a4cab19559d643b68359ba2b",
+                "2e6e19e0fe71d54395ff7ec8ed0f2efaa6b113fccbb75e27cb4de7a72c2012f7",
+                "a886178d242b27032535f17b4ad154b0c8f8f5e1268b9fb3d6e1ab8b84da75ee",
+                "abf6e52b7eb4b0bfdd617e2f331e5f8f44d41ab43465e9a9e14834240d45471d",
+                "79a5260ddcb7fdf3cd8262eb110ee374ccd6ba7f81050a5118bce86756b3fbd7",
+                "3dbafb84e007610f5bce3cc1822ac7343f0b14b1d1e8c6bced9a62a3d9b2958a",
+                "ca3e9ca24de77440e3916999d7eaffeda4f37c5a74d7a27d40b4627deb14979a",
+                "65193f85be63ffaa51183561ef210fa189cc73dfc8d3a1f344fb973dbf471f3b",
+                "a176b55d2d0b191a1786e03aa339c78a0983410647a1af4bca91427417d6de6a",
+                "97b435660e3728552b38de712e412e4ff40a4915be6259d31cd0847a29b2a509",
+                "592adba73a07f6ab2d51982e844f1706f56000060d2d3d50c59edb55c2203f0f",
+                "8f07486d5d9a82ef8fe2ac17122295bd9bf0662d2d6dce7061b7e7508c8aaa53",
+                "1897188a82685393d61e6413457eabfc84ea12417a8d4ca09686ff6936e876d3",
+                "f1f2d69540c41f32734ed53e7dd8ea37c668b883024a25732a3079e1d25088e6",
+                "1127151ba8392f1c0c2353598070163dfd008d13e6ab3c4c0fc1510df09f5714",
+                "c117eb50cbc221f5a9c0c2b1a2d6217f6b88a0fb1ab271258bf5585bc117c4c6",
+                "cb7ae24ddfe9e65ea115e809b71500142cb8ff48a2e5f5fb43adbf4c6815a033",
+                "bb0c3d0418e137032b3a1352b73e270c72396fdf55a669a398dfa5a15b1ace70",
+                "527c0d19b35f869c570ecb8892ace08eeac31f7148a60af73102d8a26020ba33",
+                "95a5b94e0ac467f078ec8f8025cd10c737db008a4e0b11643b8ea1fe0cee65cc",
+                "0d09289e2d726aa2df9ff0bbf20709bc6977e69c07a2b2f1585c628278ed26bc",
+                "44e7e7a153cfd59401d3bb8d230bc04d286620b222c48efa8d04768fbd75efbb",
+                "b7af9a7f38933f16ee49dae3a16a684dd3b67737674ba4f9b61cdf2b5b549b0b",
+                "c38a85304a5e0313b6384d5b3bc88a61085ce1a31669fc4a091fd75d124d68c6",
+                "4ad704025432a0cd94c0b2f8031e2487f2255b75827ec1004f70eb7385ffd685",
+                "fa49df03bfaf1ff4ab5c80f8038c1184784e6b72ec2a804d5539551536e51c36",
+                "1c5d7dd0b613addf7b23921891855bf0c2015cd7fad38657c22c7c969bbd02af",
+                "600344ede8839d80b6793c0ab8d92c34619beabe14e6dffa1b2a55348871c942",
+                "26277cd63f9e1db799911ccacf8de9323f29539d506e4dbfeb5dd8a0993eed75",
+                "d247651dd388173589507d908ffdeac209f275f7de77f3dc937f05d7a75281b3",
+                "86bfd855d8c5d79ba112e820edf2fae2fa5064ed0ce33911c6408f36913108f1",
+                "4f24d1ca902fa3b00ebc1008fb4053bb3454e35fbce46433633dcd2cf90e0e78",
+                "4523b46c40633d4cdc1512f6f85772f32f9cdd80565ed7ca3a256dda58206a5a",
+                "e0169ea0af37fab1f8b5015a4fce8d55e1051450b7d85b678ee09068d4e7ff25",
+                "1ad261f6e7badd4daf2408ce23855576edb0adc004da2ea29a2d91196f9a80c8",
+                "6329bdfe1590c8b4a3d269d4b9415a3b19532e3a7066600731025a0ba8ee530f",
+                "e217b0794c9b9ea8a2382305829779bcbe5c4f9cb562fc7510b07eb5b382c9b1",
+                "6c36e3106c145d2ccce565f78262cdf3289216c7e7c6a34f78979c7e3ac8fdb8",
+                "e04f6a2c9fe5faaec2c23446280c4f35e2377660155755d44401bc398966202e",
+                "bfab61a79d282535eb150e0d0db53c0a533191288251c2125785121623cc4690",
+                "60f349ede8bca6b81bf1ae7d1bdec1f9a588c4961b39ab9e8f5cd980810d4242",
+                "f6a1141fc492eb117f49bf07184006aaa3dfdbef954d265f0bd6f453adf7a8d6",
+                "a541eb33fe677e0c5bf999ae4beb7c4eb9781032968178fe7867ad5d96c98dc3",
+                "7c5539245f7467efcb1ad988cfb4cc5e4e582559d448b47ceb277f53b80cdf60",
+                "91c6315bcb5c55a26dae097e1c79acffdd1e6eb7084cc014c25b98ead89c2405",
+                "d36ebf52e4c0b2f2effcb0b96f778f4cf23662e0a2c2dec07440558ddfdf03f2",
+                "7855779407bfa3f7cb577b1cea40b5fbdd0c0f6aa753d8c3daffdffcd3942325",
+                "b8285beb60c3b4886c8b08841ecb4fd07081c9e4a381c339ea54582781760983",
+                "6cdb44bab8dc5afd2f2000e8afbf0924338678532d5de6313040d3ff4a831e10",
+                "6f224f74828daba9161d5861ac6eac256b313ec74d733fd39188e8bef76ba19a",
+                "e447bf01b721d10ab49d047081bda33a489d985e6a2adbb7c7c6b7090beb4629",
+                "1ac24baeed788235178be3390120e32ecb0f7fd4d07df390ac4b60995fb71872",
+                "c93885cd2c8fea475b3fd98b4362673bd5e479be171c9d85bd5d5a24d95a4294",
+                "03518d6b2218cb3a94a94f567c6ec5e3c2bac53513316feb538e3c90b9f4d6cb",
+                "45965d05112abfbfdd30a40b329b44cfe6122621d45b0e3ff304c17dd091f6c8",
+                "10d0d8b33b2a540226734200213c5fb23dd0fb320552904785725f4d5c369a48",
+                "f66b616158b3d13bddd73c9b1346c93f511e1e75f44c8fea8fcc1ac18c848be3",
+                "01ecfb44a81d4a779f1d68b43e3077802a7456206193b79cd3621af4b586344a",
+                "46d7aa96421fddbd7d7605f87c56c731407858742cb2103f67e2484446ab7aed"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.aachener-zeitung.de",
+                "m.vecernji.hr",
+                "www.aerotime.aero",
+                "www.vijesti.me",
+                "www.blikk.hu",
+                "www.limburger.nl",
+                "sporza.be",
+                "www.omroepwest.nl",
+                "www.leidschdagblad.nl",
+                "punchng.com",
+                "www.nhnieuws.nl",
+                "www.gva.be",
+                "www.suedostschweiz.ch",
+                "www.dailymaverick.co.za",
+                "www.kerknet.be",
+                "nos.nl",
+                "www.noordhollandsdagblad.nl",
+                "www.rtvdrenthe.nl",
+                "www.danas.rs",
+                "theconversation.com"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingestion"
+            ],
+            "apis": {},
+            "sites": 68,
+            "prevalence": 0.000481,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "landingPage": 0.0000070733363512901765,
+                "lotame_domain_check": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "www.vecernji.hr",
+                "nation.africa",
+                "nos.nl",
+                "n1info.si",
+                "www.otheo.be",
+                "www.rtvutrecht.nl",
+                "m.vecernji.hr",
+                "www.omroepflevoland.nl",
+                "www.rtvdrenthe.nl",
+                "www.berliner-zeitung.de",
+                "theconversation.com",
+                "www.standaard.be",
+                "www.hbvl.be",
+                "www.gva.be",
+                "www.omropfryslan.nl",
+                "www.noordhollandsdagblad.nl",
+                "www.rtl.nl",
+                "www.aerotime.aero",
+                "www.vrt.be",
+                "www.omroepwest.nl"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/ten\\/reading-time\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tentacles"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 39,
+                "window.innerHeight": 22
+            },
+            "sites": 41,
+            "prevalence": 0.00029,
+            "cnames": [],
+            "responseHashes": [
+                "672d5accb14b20c5610ea0afa8da1010106312dc2d00e9b0f0378fec28b2a58f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.chicagobusiness.com",
+                "www.aachener-zeitung.de",
+                "www.epochtimes.de",
+                "www.rtvdrenthe.nl",
+                "sport.aktuality.sk",
+                "www.omroepflevoland.nl",
+                "punchng.com",
+                "www.oz-online.de",
+                "www.blic.rs",
+                "n1info.hr",
+                "www.omroepzeeland.nl",
+                "www.fanatik.ro",
+                "www.aerotime.aero",
+                "www.gld.nl",
+                "www.index.hr",
+                "m.vecernji.hr",
+                "www.nhnieuws.nl",
+                "www.laola1.at",
+                "inews.co.uk",
+                "n1info.rs"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/r",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingestion"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.00024,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "www.rtl.nl",
+                "www.vecernji.hr",
+                "www.omropfryslan.nl",
+                "theconversation.com",
+                "www.abola.pt",
+                "inews.co.uk",
+                "www.rtvnoord.nl",
+                "nos.nl",
+                "www.jobat.be",
+                "www.omroepwest.nl",
+                "www.sportdog.gr",
+                "www.nhnieuws.nl",
+                "www.epochtimes.de",
+                "www.laola1.at",
+                "www.leidschdagblad.nl",
+                "www.fanatik.ro",
+                "n1info.rs",
+                "n1info.hr",
+                "sporza.be",
+                "www.rtvdrenthe.nl"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingestion"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000191,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "www.rtvutrecht.nl",
+                "n1info.si",
+                "www.abola.pt",
+                "n1info.rs",
+                "www.jobat.be",
+                "www.berliner-kurier.de",
+                "www.star.gr",
+                "www.kerknet.be",
+                "www.leidschdagblad.nl",
+                "lc.nl",
+                "www.rtl.nl",
+                "punchng.com",
+                "www.limburger.nl",
+                "www.sportdog.gr",
+                "www.noordhollandsdagblad.nl",
+                "www.omroepzeeland.nl",
+                "www.rtvdrenthe.nl",
+                "n1info.hr",
+                "sport.aktuality.sk",
+                "www.vecernji.hr"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/insights\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tentacles"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0670f380d84b7337e386a2a73e6d2b45365e98a8d5448118afa4ef235cc3f84e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ain_cid": {
+                    "ttl": 1803,
+                    "length": 32,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_ain_uid": {
+                    "ttl": 15552003,
+                    "length": 31,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aerotime.aero",
+                "www.aerotime.aero"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00046,
+    "topInitiators": [
+        {
+            "domain": "regiogroei.cloud",
+            "prevalence": 0.37894736842105264
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3736842105263158
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14210526315789473
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.02631578947368421
+        },
+        {
+            "domain": "requestmetrics.com",
+            "prevalence": 0.021052631578947368
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.021052631578947368
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.010526315789473684
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.005263157894736842
+        },
+        {
+            "domain": "vrt.be",
+            "prevalence": 0.005263157894736842
+        },
+        {
+            "domain": "epoch.cloud",
+            "prevalence": 0.005263157894736842
+        }
+    ],
+    "types": {
+        "Script": 179,
+        "XHR": 197
+    },
+    "nameservers": [
+        "ns-1669.awsdns-16.co.uk",
+        "ns-49.awsdns-06.com",
+        "ns-937.awsdns-53.net",
+        "ns-1238.awsdns-26.org"
+    ]
+}

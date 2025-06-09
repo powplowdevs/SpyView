@@ -1,0 +1,161 @@
+{
+    "domain": "braze.eu",
+    "owner": {
+        "name": "Braze, Inc.",
+        "displayName": "Braze"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [
+        "sdk.fra-01",
+        "customer.fra-01",
+        "sdk.fra-02"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "braze\\.eu\\/api\\/v3\\/data\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk.fra-01",
+                "customer.fra-01",
+                "sdk.fra-02"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tonies.com",
+                "www.blablacar.de",
+                "www.getyourguide.de",
+                "www.kununu.com",
+                "www.vivino.com"
+            ]
+        },
+        {
+            "rule": "braze\\.eu\\/api\\/v3\\/data\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk.fra-01",
+                "customer.fra-01",
+                "sdk.fra-02"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "5bf3a544df4fc7dfff444f3c622fea72f23556fbba9632c0a8724319e10fafe2",
+                "a0dbbdc3a2e33191ea0344c25aca2a8eeb4b420b2b38875c9a31911358a60f3e",
+                "e2a2d7090fa65b8182dd2183fb3cc09da1fee07d0efe5f7bc40adb0ea3a716a9",
+                "78790a05d09156fe30baaba8c7fc0c1d092ea3e7ce8ef7641b25cf37c69b63ab"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tonies.com",
+                "www.blablacar.de",
+                "www.getyourguide.de",
+                "www.kununu.com",
+                "www.vivino.com"
+            ]
+        },
+        {
+            "rule": "braze\\.eu\\/api\\/v3\\/content_cards\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer.fra-01",
+                "sdk.fra-01"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blablacar.de",
+                "www.blablacar.de",
+                "www.getyourguide.de",
+                "www.kununu.com"
+            ]
+        },
+        {
+            "rule": "braze\\.eu\\/api\\/v3\\/content_cards\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer.fra-01",
+                "sdk.fra-01"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "1472cfd6a6ec8fdac5e3996961126af8bbf1d9732b966e9ea00506958530904e",
+                "75f2b6625bdc522315b32fefb375be5ddc218f322ac91830d5295668c673f4e9",
+                "21f60aae12c9e267458e61bf1cc8ab3e3ceae2909e5e7c86865bf4c5b52a1ba8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blablacar.de",
+                "www.blablacar.de",
+                "www.getyourguide.de",
+                "www.kununu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "getyourguide.com",
+            "prevalence": 0.5416666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.20833333333333334
+        },
+        {
+            "domain": "blablacar.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "ubembed.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Preflight": 9,
+        "XHR": 9
+    },
+    "nameservers": [
+        "ns-1212.awsdns-23.org",
+        "ns-1935.awsdns-49.co.uk",
+        "ns-273.awsdns-34.com",
+        "ns-527.awsdns-01.net"
+    ]
+}

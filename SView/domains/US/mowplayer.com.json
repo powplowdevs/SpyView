@@ -1,0 +1,80 @@
+{
+    "domain": "mowplayer.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "ejs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mowplayer\\.com\\/dist\\/ui\\/css\\/mowplayer\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0426552186f1b24a1727eda930a3b4b871f078668ae4a24da278d35263b58885"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elheraldo.co",
+                "www.lacapital.com.ar"
+            ]
+        },
+        {
+            "rule": "mowplayer\\.com\\/js\\/player\\/mLc2JQUbE1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ejs"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1ab30746bbdae96c5853f784897a018bb8fd3b1727ecfd01fa5724c042820bf5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacapital.com.ar",
+                "www.lacapital.com.ar"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns21.domaincontrol.com",
+        "ns22.domaincontrol.com"
+    ]
+}

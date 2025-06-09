@@ -1,0 +1,110 @@
+{
+    "domain": "rul.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "console"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "rul\\.ai\\/wd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "console"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9b11c0151fcb5d505cf8f00d29129d452411c1e884331f818f152ef383b9b450"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "michelinman.com",
+                "www.michelinman.com"
+            ]
+        },
+        {
+            "rule": "rul\\.ai\\/portal\\/bot\\/4b951b09593d47a59cdc2926e253226b\\/0\\/integration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "console"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "62e3a1bbac34ba6ecd02b645a1e8ae53481f9b164dd8ff77e4be262d56eabc34"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "michelinman.com",
+                "www.michelinman.com"
+            ]
+        },
+        {
+            "rule": "rul\\.ai\\/widget_d\\/dist\\/widgetload\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "console"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appName": 1,
+                "window.sessionStorage": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ae8acfe6b3941023d5ca51d7c5c5d3e893086f54750109904d7ce547bb507871"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "michelinman.com",
+                "www.michelinman.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cisco.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "cloudimg.io",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "mns02.domaincontrol.com",
+        "mns01.domaincontrol.com"
+    ]
+}

@@ -1,0 +1,284 @@
+{
+    "domain": "ap-southeast-2.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000233,
+    "sites": 33,
+    "subdomains": [
+        "2izdf50zr2.execute-api",
+        "k8s-infrastr-nginxext-ff1d54d30d-dc8a55b2479619ce.elb",
+        "domain-static.s3",
+        "zitcha-snowplow.s3"
+    ],
+    "cnames": [
+        {
+            "original": "l.ffx.io",
+            "resolved": "k8s-infrastr-nginxext-ff1d54d30d-dc8a55b2479619ce.elb.ap-southeast-2.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ap-southeast-2\\.amazonaws\\.com\\/live\\/uuid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "2izdf50zr2.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c32b86a856221e949486804d79eeba9b78593c4205268d79e808b6559574178f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monash.edu",
+                "lens.monash.edu"
+            ]
+        },
+        {
+            "rule": "ap-southeast-2\\.amazonaws\\.com\\/live\\/uuid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "2izdf50zr2.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monash.edu",
+                "lens.monash.edu"
+            ]
+        },
+        {
+            "rule": "ap-southeast-2\\.amazonaws\\.com\\/live\\/stats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "2izdf50zr2.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1e0dcd79d4252f025d2b876920421f47bc20c705cd75c2350356ad5c8fa9fa70"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monash.edu",
+                "lens.monash.edu"
+            ]
+        },
+        {
+            "rule": "ap-southeast-2\\.amazonaws\\.com\\/live\\/stats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "2izdf50zr2.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monash.edu",
+                "lens.monash.edu"
+            ]
+        },
+        {
+            "rule": "ap-southeast-2\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k8s-infrastr-nginxext-ff1d54d30d-dc8a55b2479619ce.elb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "l.ffx.io",
+                    "resolved": "k8s-infrastr-nginxext-ff1d54d30d-dc8a55b2479619ce.elb.ap-southeast-2.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afr.com",
+                "www.afr.com"
+            ]
+        },
+        {
+            "rule": "ap-southeast-2\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k8s-infrastr-nginxext-ff1d54d30d-dc8a55b2479619ce.elb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "l.ffx.io",
+                    "resolved": "k8s-infrastr-nginxext-ff1d54d30d-dc8a55b2479619ce.elb.ap-southeast-2.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afr.com",
+                "www.afr.com"
+            ]
+        },
+        {
+            "rule": "ap-southeast-2\\.amazonaws\\.com\\/domain\\/domain-insights\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "domain-static.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1cb9b4068aeedf9002eb9eb6bfa2a68393819e38dba3c83a7f928b68ec330bb5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domain.com.au",
+                "www.domain.com.au"
+            ]
+        },
+        {
+            "rule": "ap-southeast-2\\.amazonaws\\.com\\/snowplow-zitcha\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "zitcha-snowplow.s3"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e89e1861f1050742b223daeeed0b2503669695fa024e5eb9d46f72eaa0dded32"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sp_ses.621b": {
+                    "ttl": 1828,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_id.621b": {
+                    "ttl": 63072028,
+                    "length": 103,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noelleeming.co.nz",
+                "www.thewarehouse.co.nz",
+                "www.warehousestationery.co.nz"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.917098445595855
+        },
+        {
+            "domain": "freshchat.com",
+            "prevalence": 0.025906735751295335
+        },
+        {
+            "domain": "d31nhj1t453igc.cloudfront.net",
+            "prevalence": 0.02072538860103627
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.015544041450777202
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.015544041450777202
+        },
+        {
+            "domain": "humm-au.com",
+            "prevalence": 0.0051813471502590676
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Preflight": 6,
+        "Fetch": 2,
+        "Image": 2,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns1.amzndns.co.uk",
+        "ns1.amzndns.com",
+        "ns1.amzndns.net",
+        "ns1.amzndns.org",
+        "ns2.amzndns.co.uk",
+        "ns2.amzndns.com",
+        "ns2.amzndns.net",
+        "ns2.amzndns.org"
+    ]
+}

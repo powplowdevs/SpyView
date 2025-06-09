@@ -1,0 +1,170 @@
+{
+    "domain": "opinary.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "widgets",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "opinary\\.com\\/a\\/desiblitz\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "416b4f246b8725fbbc66a4c42bf98ed0e09fbb1d2171956dd734cc6e81e5c83d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desiblitz.com",
+                "www.desiblitz.com"
+            ]
+        },
+        {
+            "rule": "opinary\\.com\\/customer-config\\/desiblitz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "1d85564d62f30547c3f51915be75c3a8fd42ba0b70c1fcad9d24bcbc7930ff42"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desiblitz.com",
+                "hi.desiblitz.com",
+                "www.desiblitz.com"
+            ]
+        },
+        {
+            "rule": "opinary\\.com\\/v1\\/ams\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a746be4e971c1a02bc1c823b8a3df3fc2fe6a1bcc574d789704d400584e562e3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desiblitz.com",
+                "www.desiblitz.com"
+            ]
+        },
+        {
+            "rule": "opinary\\.com\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "98c4922bb641c65c7a30b7bcafdf230b9b00b6693631c56146ab25b2786ee4a3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desiblitz.com",
+                "hi.desiblitz.com",
+                "www.desiblitz.com"
+            ]
+        },
+        {
+            "rule": "opinary\\.com\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desiblitz.com",
+                "hi.desiblitz.com",
+                "www.desiblitz.com"
+            ]
+        },
+        {
+            "rule": "opinary\\.com\\/v1\\/integrations\\/ams",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e27833aa6f828f112afc1528bab45a69c594e56d2c1d456eea3845b1142bd7f2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desiblitz.com",
+                "www.desiblitz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 10,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a4.googledomains.com"
+    ]
+}

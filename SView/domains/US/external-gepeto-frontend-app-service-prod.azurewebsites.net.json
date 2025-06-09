@@ -1,0 +1,59 @@
+{
+    "domain": "external-gepeto-frontend-app-service-prod.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "external-gepeto-frontend-app-service-prod\\.azurewebsites\\.net\\/index_bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d3d7b926f321da3f05a931fe87a0e76b18dec92859b1dd8bae8698ce9f3120db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kitco.com",
+                "online.kitco.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

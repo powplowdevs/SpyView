@@ -1,0 +1,646 @@
+{
+    "domain": "qualtrics.com",
+    "owner": {
+        "name": "Silver Lake Technology Management, L.L.C.",
+        "displayName": "Silver Lake"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00275,
+    "sites": 27,
+    "subdomains": [
+        "znahoepseztqpb2gv-wbgwebvisitor.siteintercept",
+        "zn8l9hquzk9i3pdgd-nidx.siteintercept",
+        "znb2b6wn008pbgkwn-autodeskfeedback.siteintercept",
+        "zn2hs1mfcgrt6to8u-analogdeviceslistens.siteintercept",
+        "zn9qqgp5dwqp1x5zv-etsy.siteintercept",
+        "zncv1onfo8kuflf0n-kickstarter.siteintercept",
+        "zn394yygoj0zd35dd-cbs.siteintercept",
+        "siteintercept",
+        "zn9uva5xkjwrsomrw-smarteurope.siteintercept",
+        "znaid9q7g0kclquju-hpexperience.siteintercept",
+        "zn2trismmfljkalnq-docker.siteintercept",
+        "zndikywqsjiuwn0q5-nlmenterprise.siteintercept",
+        "zn7ngvh48sidro926-gendigital.siteintercept",
+        "zndotr9lvegi5bezy-aldinordlocations.siteintercept",
+        "zn0o4kzvkbkodsteo-gendigital.siteintercept",
+        "zn0uoqs9oegkc5vb0-bbraun.siteintercept",
+        "znbbyoenzgkzfcutm-continentaltires.siteintercept",
+        "znagz4jo87lmiuo1k-fedex.siteintercept",
+        "zn0vxykjxsxo4lipw-healthline.siteintercept",
+        "zn4mbdaokn6kcahtg-cypress.siteintercept",
+        "zn42f6o366pyyg3rg-healthline.siteintercept",
+        "zn2aqpugsjybnn5zr-morningstarcx.siteintercept",
+        "zn0fdviqqxgrk7xay-ns.siteintercept",
+        "zn03f7m80qsrnw1gc-pgatour.siteintercept",
+        "iad1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "qualtrics\\.com\\/WRSiteInterceptEngine\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "znahoepseztqpb2gv-wbgwebvisitor.siteintercept",
+                "zn8l9hquzk9i3pdgd-nidx.siteintercept",
+                "znb2b6wn008pbgkwn-autodeskfeedback.siteintercept",
+                "zn2hs1mfcgrt6to8u-analogdeviceslistens.siteintercept",
+                "zn9qqgp5dwqp1x5zv-etsy.siteintercept",
+                "zncv1onfo8kuflf0n-kickstarter.siteintercept",
+                "zn394yygoj0zd35dd-cbs.siteintercept"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "27889035ecf0a35d043a64665bbee6a8b005feff11911bef051c8ccc0721d992",
+                "9ddb79ecc4e677a1f61f0577c2fe8d41775c6145bdf92d0d9dfd2a4f783c541f",
+                "06a6eec104564f0c6ccb0c2708b321952772c7a8519dca54e453df16a0aee188",
+                "6d2a3651956a86f64f588e2cc8a4bdc3239803378bd1ad114e8ce9bbb7c0b815",
+                "e813ddd41a37f4bb4949349b6b9f86bf18e8a6272fa730678e937f9a00a90956"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldbank.org",
+                "forums.ni.com",
+                "forums.autodesk.com",
+                "www.analog.com",
+                "www.autodesk.com",
+                "www.etsy.com",
+                "www.kickstarter.com",
+                "www.last.fm"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/dxjsmodule\\/8\\.b8b768ed34bc7505f919\\.chunk\\.js",
+            "cookies": 0.00112,
+            "fingerprinting": 1,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {
+                "Document.cookie getter": 17,
+                "window.sessionStorage": 18,
+                "window.localStorage": 18,
+                "Document.cookie setter": 11,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 25,
+            "prevalence": 0.00255,
+            "cnames": [],
+            "responseHashes": [
+                "bb1d55688ce08a55e582d74c064e7e8c507335a8038c33a93b4eb6b6cc1e19ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1747361477,
+                    "length": 1,
+                    "prevalence": 0.0009178990311065783,
+                    "uniqueness": 0.1111111111111111
+                },
+                "QSI_HistorySession": {
+                    "ttl": null,
+                    "length": 43,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h30434.www3.hp.com",
+                "hub.docker.com",
+                "www.etsy.com",
+                "www.healthline.com",
+                "www.ncbi.nlm.nih.gov",
+                "www.infineon.com",
+                "www.medicalnewstoday.com",
+                "www.continental-reifen.de",
+                "pmc.ncbi.nlm.nih.gov",
+                "www.aldi-nord.de",
+                "www.last.fm",
+                "www.fedex.com",
+                "www.bbraun.de",
+                "forums.ni.com",
+                "www.ns.nl",
+                "worldbank.org",
+                "de.smart.com",
+                "pubchem.ncbi.nlm.nih.gov",
+                "www.analog.com",
+                "forums.autodesk.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/WRSiteInterceptEngine\\/Targeting\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00235,
+            "cnames": [],
+            "responseHashes": [
+                "010b8dfaf72cddb51a037f2ec1baf588d5cd8456614ef005df2fc339611a40b4",
+                "db430e45abe0c8fdbf645cae2478be4b5c3a633389ef2ef117260677f9d26f19",
+                "79dfb0b52e8374412b705f8c9aea0a5ac7f2928856dd35fb86a3b45f230b6b19",
+                "3cf19cb941f4c78135674ad3a192311308930e5016a84ab7312259741a165f49",
+                "eb1ae308a8f360df514d7151cc1f9ec18f3ee5a8a2032c6030655cf612f35643",
+                "df8be9fa8fb5e6ee773133e1b73d1d37326234d26268f846a5c101846780727a",
+                "191c90e801eda262d5d782185a06b18569d22fa74974b8e907900f3a32543ff9",
+                "aac8cbb4b4daa9514faf2d264ad1670adcd375dcf2a513982aac2a4dee4643d1",
+                "4b5775753bd8787f658e3e1f975f727d7ffbc36c9cc5d20d7cb39eaef0ad67e5",
+                "e119b38f3cd33439d3462ded63e162541884cb980646228fc68d1db408e0c989",
+                "b9b031d77d894c8a4b95a88a525d7f5bcc4e970572b8d6835e5cdcdfe38e60c7",
+                "a487692dbde512d43d48d86ab4920688a7f94dcab165d19095fb07d0918491a8",
+                "2c9bdf167ceb9ff7f0e9986cc1ffdb5c077749cde5d3b6667fa1ce68bc71b6d6",
+                "04d7fce92b027503e6ed9717f184aa30ef0f6dfb61e444dae2b77b069ea59572",
+                "3f043a0f9efb2e4accdc348776af69c75db37eb58e84bf2d7f5c92f1958e0ef3",
+                "689894db6af447ddc5e424c8c45217146c31f32eb8086d8ba09608c8106aef8f",
+                "60db81e6913b49dc353b0a5ccba33475d134dbde8436c0ab5c8f848208142b1c",
+                "08c7923a5a4bfcc6e52fd9723f4df32fb0fd815494fd45c8e71d743d011809e0",
+                "3e48cfbc044c7cb69aa40000534139dfeebd0844a4868c83de5a6a1c4764d0d5",
+                "911286cc9c4ced579d768020efdbede5f1cd0129f4bff2ee4611e17c814b2eca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h30434.www3.hp.com",
+                "hub.docker.com",
+                "www.etsy.com",
+                "www.healthline.com",
+                "www.ncbi.nlm.nih.gov",
+                "forums.ni.com",
+                "www.analog.com",
+                "www.bbraun.de",
+                "pmc.ncbi.nlm.nih.gov",
+                "support.norton.com",
+                "worldbank.org",
+                "www.pgatour.com",
+                "www.last.fm",
+                "pubchem.ncbi.nlm.nih.gov",
+                "www.medicalnewstoday.com",
+                "pubmed.ncbi.nlm.nih.gov",
+                "www.ns.nl",
+                "www.aldi-nord.de",
+                "www.continental-reifen.de",
+                "www.fedex.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/dxjsmodule\\/CoreModule\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 5,
+                "window.sessionStorage": 10,
+                "window.innerHeight": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 14,
+            "prevalence": 0.00143,
+            "cnames": [],
+            "responseHashes": [
+                "952115ce7eda8d2a93f08f46f83efa4d8637708aa3b9c392073e5c121fba5410"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldbank.org",
+                "h30434.www3.hp.com",
+                "pmc.ncbi.nlm.nih.gov",
+                "pubchem.ncbi.nlm.nih.gov",
+                "pubmed.ncbi.nlm.nih.gov",
+                "support.norton.com",
+                "www.analog.com",
+                "www.bbraun.de",
+                "www.etsy.com",
+                "www.fedex.com",
+                "www.infineon.com",
+                "www.ncbi.nlm.nih.gov",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/dxjsmodule\\/5\\.d3874cd52b47a77b4475\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "f8dd4abab193522387a83f2b716854eb94528e315bd8bd847c381129a2375696"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldbank.org",
+                "h30434.www3.hp.com",
+                "pmc.ncbi.nlm.nih.gov",
+                "pubchem.ncbi.nlm.nih.gov",
+                "pubmed.ncbi.nlm.nih.gov",
+                "www.analog.com",
+                "www.bbraun.de",
+                "www.etsy.com",
+                "www.fedex.com",
+                "www.infineon.com",
+                "www.ncbi.nlm.nih.gov",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/dxjsmodule\\/1\\.faadef8bceb94e053f79\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "e58838308dd9a2036bf683ac7ada2250d25fa4542aac80e93629f89618efd784"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldbank.org",
+                "h30434.www3.hp.com",
+                "pmc.ncbi.nlm.nih.gov",
+                "pubchem.ncbi.nlm.nih.gov",
+                "pubmed.ncbi.nlm.nih.gov",
+                "www.analog.com",
+                "www.bbraun.de",
+                "www.etsy.com",
+                "www.fedex.com",
+                "www.infineon.com",
+                "www.ncbi.nlm.nih.gov",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/SIE\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zn9uva5xkjwrsomrw-smarteurope.siteintercept",
+                "znaid9q7g0kclquju-hpexperience.siteintercept",
+                "zn2trismmfljkalnq-docker.siteintercept",
+                "zndikywqsjiuwn0q5-nlmenterprise.siteintercept",
+                "zn7ngvh48sidro926-gendigital.siteintercept",
+                "zndotr9lvegi5bezy-aldinordlocations.siteintercept",
+                "zn0o4kzvkbkodsteo-gendigital.siteintercept",
+                "zn0uoqs9oegkc5vb0-bbraun.siteintercept",
+                "znbbyoenzgkzfcutm-continentaltires.siteintercept",
+                "znagz4jo87lmiuo1k-fedex.siteintercept",
+                "zn0vxykjxsxo4lipw-healthline.siteintercept",
+                "zn4mbdaokn6kcahtg-cypress.siteintercept",
+                "zn42f6o366pyyg3rg-healthline.siteintercept",
+                "zn2aqpugsjybnn5zr-morningstarcx.siteintercept",
+                "zn0fdviqqxgrk7xay-ns.siteintercept",
+                "zn03f7m80qsrnw1gc-pgatour.siteintercept"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00194,
+            "cnames": [],
+            "responseHashes": [
+                "79f04c76a5f8d4a417577f8e5947fb4b40225baa240d6864bcdf3ca1974d8815",
+                "7cc82da91a6ceeb21d8a63d5fefd0a9797de98554b93e2465b862438248dbe61",
+                "e0efda6dd44b59f0b51bf07a72c60fd8c0cb3928cb7f72fa1d90a04ed8ce0c80",
+                "c95dbc3a4ebd78bb9cb7e68d2abf57e7a99d20fa115fb8da36b368add1883d20",
+                "338c7f6c67f9087cc695bab8b0cae5a64b23d719e4c14b3ecdbca50dba8fba0c",
+                "356071f502fc87efc4c82cc292ed151a9aed8045b92d0373ffe079aecd7fa6bc",
+                "e7252f27d83c0699ee5d329671e78b75d345468ab836586353bdae0ed207ac54",
+                "b93dfad24b17da05af19a6fac140d99cc347019f29e499da27b7d9fb26c557ff",
+                "80b60ac1c4447320859712aaca1aad15fdbe141646f9af8b9bb2ab616b70f2c8",
+                "cde94360f3bc5d2036e842478492a7481855eac93d1efbfb136808f7a6aa910c",
+                "adafef4acc4d563447cd9c689d16bf60d76d650cb354ba256c9780f1a625ba54",
+                "da6816b32066ad10dd6c56e208e5833453e6736b48b9bc9571013ed8f7c2d6f7",
+                "ad7b6d65aa3f61868556fad228b50ec729819b6e34821be159235261483f5b25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "h30434.www3.hp.com",
+                "hub.docker.com",
+                "pmc.ncbi.nlm.nih.gov",
+                "pubchem.ncbi.nlm.nih.gov",
+                "pubmed.ncbi.nlm.nih.gov",
+                "support.norton.com",
+                "www.aldi-nord.de",
+                "www.avira.com",
+                "www.bbraun.de",
+                "www.continental-reifen.de",
+                "www.fedex.com",
+                "www.healthline.com",
+                "www.infineon.com",
+                "www.medicalnewstoday.com",
+                "www.morningstar.com",
+                "www.ncbi.nlm.nih.gov",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/dxjsmodule\\/FeedbackButtonModule\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.languages": 3
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "106e1980869ee55ce29976909407a8ddbeb800eaeddbc2a73e96e5caf0a3bd50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hp.com",
+                "pmc.ncbi.nlm.nih.gov",
+                "www.analog.com",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/WRSiteInterceptEngine\\/Asset\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "2290705699b1a380577b98fd3cb14f22eb496eb2527a09baec59be846841f3dc",
+                "7912c2423ca55fd828b5ddd739b2fd45d332846843358897e9427f0b8e1028ea",
+                "79ba56ff6b3f32c5dcb14d039b3a51a0e7ad851cb3ee980d2a8294e2486d82d0",
+                "ca9628903fa808f51ae804582d0be5e0ad7657d16b135c56da1dba0d43812145",
+                "434d321ddcc2c8ac15a0eee3c3524072b50c80fafcbcc4981fa62849ca179702",
+                "ea4755beb4cc42083a54e3e97cfe59d69d85b66ba1c0f04b2fd2c89f42e41861",
+                "1cdb6445f33cd044e7b1d2b0e26031b819c290481948cea6c587480cc19d4d3c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hp.com",
+                "h30434.www3.hp.com",
+                "pmc.ncbi.nlm.nih.gov",
+                "www.analog.com",
+                "www.bbraun.de",
+                "www.infineon.com",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/WRSiteInterceptEngine\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "f47f21063dfdcbdeffed3d97689b45efae7a52401cd7fc5b8d07c42d2f232ab9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hp.com",
+                "pmc.ncbi.nlm.nih.gov",
+                "www.analog.com",
+                "www.infineon.com",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/WRQualtricsShared\\/Graphics\\/siteintercept\\/wr-dialog-close-btn-black\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "53f1297e31df04414ba9aa3db5597fac5e0b0eccc84782452d9a5b496f19a7a0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hp.com",
+                "www.analog.com",
+                "www.bbraun.de",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/static\\/q-siteintercept\\/~\\/img\\/wr-dialog-close-btn-black\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "53f1297e31df04414ba9aa3db5597fac5e0b0eccc84782452d9a5b496f19a7a0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hp.com",
+                "www.analog.com",
+                "www.bbraun.de",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/static\\/q-siteintercept\\/46dae377f59f266333c0c0d5492761552f3ea736\\/img\\/wr-dialog-close-btn-black\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "53f1297e31df04414ba9aa3db5597fac5e0b0eccc84782452d9a5b496f19a7a0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hp.com",
+                "www.analog.com",
+                "www.bbraun.de",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/static\\/q-siteintercept\\/\\.blob\\/903d4c43fed535fb4d325b1612c605e48417dc74_wr-dialog-close-btn-black\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "siteintercept"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "53f1297e31df04414ba9aa3db5597fac5e0b0eccc84782452d9a5b496f19a7a0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hp.com",
+                "www.analog.com",
+                "www.bbraun.de",
+                "www.ns.nl",
+                "www.pgatour.com"
+            ]
+        },
+        {
+            "rule": "qualtrics\\.com\\/WRQualtricsSiteIntercept\\/Graphic\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iad1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0443cfae63728ec58d45b95ca9edc5318a8bad98391006af365505e53be70b9e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nih.gov",
+                "www.infineon.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.00112,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6875
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.10416666666666667
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.052083333333333336
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.03125
+        },
+        {
+            "domain": "btttag.com",
+            "prevalence": 0.020833333333333332
+        },
+        {
+            "domain": "dockerstatic.com",
+            "prevalence": 0.020833333333333332
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.020833333333333332
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.020833333333333332
+        }
+    ],
+    "types": {
+        "Script": 97,
+        "XHR": 37,
+        "Image": 22
+    },
+    "nameservers": [
+        "dns3.p01.nsone.net",
+        "pdns111.ultradns.com",
+        "dns2.p01.nsone.net",
+        "pdns111.ultradns.net",
+        "dns4.p01.nsone.net",
+        "dns1.p01.nsone.net",
+        "pdns111.ultradns.org",
+        "pdns111.ultradns.biz"
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "domain": "data.gov",
+    "owner": {
+        "name": "U.S. General Services Administration",
+        "displayName": "U.S. General Services Administration"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "api-open-fec-gov.domains.api",
+        "api-foia-gov.domains.api"
+    ],
+    "cnames": [
+        {
+            "original": "api.foia.gov",
+            "resolved": "api-foia-gov.domains.api.data.gov"
+        },
+        {
+            "original": "api.open.fec.gov",
+            "resolved": "api-open-fec-gov.domains.api.data.gov"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "data\\.gov\\/v1\\/calendar-dates\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-open-fec-gov.domains.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.open.fec.gov",
+                    "resolved": "api-open-fec-gov.domains.api.data.gov"
+                }
+            ],
+            "responseHashes": [
+                "19cb6f7605f160cea32f27990d37d33126dfdd01f7cc56fcbd33fc99634a9b27"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fec.gov",
+                "www.fec.gov"
+            ]
+        },
+        {
+            "rule": "data\\.gov\\/api\\/agency_components",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-foia-gov.domains.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.foia.gov",
+                    "resolved": "api-foia-gov.domains.api.data.gov"
+                }
+            ],
+            "responseHashes": [
+                "18a9fab6465267dd87b959e136ade1d447983fdbb0b52a2e715939619ae99898"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foia.gov",
+                "www.foia.gov"
+            ]
+        },
+        {
+            "rule": "data\\.gov\\/api\\/agency_components",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-foia-gov.domains.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.foia.gov",
+                    "resolved": "api-foia-gov.domains.api.data.gov"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foia.gov",
+                "www.foia.gov"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "types": {
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1354.awsdns-41.org",
+        "ns-1826.awsdns-36.co.uk",
+        "ns-60.awsdns-07.com",
+        "ns-965.awsdns-56.net"
+    ]
+}

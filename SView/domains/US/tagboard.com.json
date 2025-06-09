@@ -1,0 +1,126 @@
+{
+    "domain": "tagboard.com",
+    "owner": {
+        "name": "Tagboard",
+        "displayName": "Tagboard"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [
+        "static",
+        "event-logger"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tagboard\\.com\\/embed\\/assets\\/js\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "62d50af4d6e9cf0bfec78f7104d8c54c281b73b318b5aa56d373fc613cea19ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vt.edu",
+                "discovernewfields.org",
+                "gocolumbialions.com",
+                "www.activision.com",
+                "www.commanders.com",
+                "www.monsterjam.com",
+                "www.steelers.com",
+                "www.supercrosslive.com",
+                "www.ucdavis.edu",
+                "www.usabaseball.com",
+                "www.usaswimming.org",
+                "www.yesnetwork.com"
+            ]
+        },
+        {
+            "rule": "tagboard\\.com\\/event\\/card",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event-logger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vt.edu",
+                "commencement.vt.edu"
+            ]
+        },
+        {
+            "rule": "tagboard\\.com\\/event\\/card",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event-logger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vt.edu",
+                "commencement.vt.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4166666666666667
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-481.awsdns-60.com",
+        "ns-513.awsdns-00.net",
+        "ns-1684.awsdns-18.co.uk",
+        "ns-1245.awsdns-27.org"
+    ]
+}

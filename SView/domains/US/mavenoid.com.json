@@ -1,0 +1,438 @@
+{
+    "domain": "mavenoid.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000269,
+    "sites": 38,
+    "subdomains": [
+        "app",
+        "gardena",
+        "kohler",
+        "radiosystemscorp",
+        "api",
+        "api-gardena",
+        "api-husqvarna",
+        "widget-hosts",
+        "husqvarna"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mavenoid\\.com\\/embedded\\/embedded\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app",
+                "gardena",
+                "kohler",
+                "radiosystemscorp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 23,
+                "Navigator.prototype.languages": 22,
+                "window.localStorage": 22,
+                "Date.prototype.getTime": 16,
+                "Notification.permission": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 26,
+            "prevalence": 0.000184,
+            "cnames": [],
+            "responseHashes": [
+                "74dce9ca5d35a20ccffd2fd2b2e90379e1dc9240a11e87b7163a38dd9bda0f8b",
+                "87c48a601a9c8eff5f8b7580351c63bd72a85f5eaed3876f4d38c2105ce92902",
+                "caf35a5251a55fb25d47fba55774ba20ae5ef105f3039401481311f1308eb869",
+                "8ff8f79ca31cf5ed317790f5e91353c5da5877f194d8b207ab64119d14c38f99",
+                "8a3572516ec31f594104262abee6307610fc40d78eb81f308ef26d042d3779c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambientweather.com",
+                "help.gardena.com",
+                "broan-nutone.com",
+                "chefiq.com",
+                "www.kohlershowers.com",
+                "help.rode.com",
+                "support.generac.com",
+                "kohlershowers.com",
+                "super73.com",
+                "www.delonghi.com",
+                "www.aldimobile.com.au",
+                "www.grote.com",
+                "worx.com",
+                "support.ecobee.com",
+                "www.atlasied.com",
+                "www.sena.com",
+                "help.hunterdouglas.com",
+                "kohler.com",
+                "www.sportdog.com",
+                "www.echo-usa.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/api\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api-gardena",
+                "api-husqvarna"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000198,
+            "cnames": [],
+            "responseHashes": [
+                "69469373ce42333ddfdccb34731aa3592a0f547ebb5b3681ad0c57c77b867fb0",
+                "8c765d880d33fd3ddc7bf137f666489f7288bec85890b4cffd5df06613f3148e",
+                "9a9fc373d1a4dca8df2bb18480a289782f232555e2a2cd068f9209c9b3d10b2f",
+                "3f2699ad9d0fd2f388418cb3a775f20fef3caeb029a465df73bf93649cfa4b1d",
+                "8575f2802015992219f55a197a15d6afe6c867a93e324367a5e759a9af923284",
+                "e66967d343660124b72052f81e80e474fdbb947429140372c986a8c26a140fa2",
+                "f692c4ea014707b26d771985f9efcce60ab64b5d1873effd8418f8cf60a95f0a",
+                "ed6c04ef712471fab136590047411724c9d7984cbaf9bfa3761ac231f16c60f8",
+                "11850b5cc3ce0e58279d5bb67856b033b76dd1254a5bcb7383fc9536d1257ccf",
+                "2b8704c042c6d17d48c2f6f077fc92602a7f3c175709566f73fbec9288586f2a",
+                "e100fb03ecf674740988c565d3e2c6e501adbe9b7f54b3a37977048605d53e58",
+                "112ca6477e0779c0720022b12267303ff7fbfed666903585ed5286d0e070c34b",
+                "285652408f0b245598a0f16a076a4c9257134453e0e3bbd7cc9ca597248dd517",
+                "a9a73d835757ca058738a40c01df93a7d1a018e1bf8fbd59d4215c58b0ae537a",
+                "8106330f59004056f7b324126c74cb0846f9369fd00ac6e0696079dc6ac8dcfd",
+                "1ec904cb8e317444068205e431b5e6f397f5bc1da28b42a77e844873bf123735",
+                "ac29ed99724f935a3ef098b87fdd45151cba58e33abc2fe773f4814148330774",
+                "eb4caf2d40a2b84239b1d9ef331b4fecda020ec4307fda6b27e96528e1678850",
+                "a1a4bacaede3127437d95540e3b584d1f5b26c4e8c3f01c5c2c00599f3036641",
+                "68d776aca24f8c995242007f38322ac9c4ba681fc843e744c35872674582e2ca"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.wagnerspraytech.com",
+                "ambientweather.com",
+                "chefman.com",
+                "assist.kohler.com",
+                "www.kohler.com",
+                "chefiq.com",
+                "kohler.com",
+                "www.sportdog.com",
+                "www.grote.com",
+                "www.aldimobile.com.au",
+                "super73.com",
+                "www.kohlershowers.com",
+                "help.rode.com",
+                "worx.com",
+                "www.atlasied.com",
+                "www.echo-usa.com",
+                "us-support.husqvarna.com",
+                "support.ecobee.com",
+                "broan-nutone.com",
+                "kohlershowers.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/custom-embedding-scripts\\/kohler-helpcenter-prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-hosts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "61256d73874e370d5e4e49eabe8f8197982caa12227185f44ef5c7e69dd45b28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kohler.com",
+                "assist.kohler.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/fonts\\/TTInterphases-Medium\\.BASIC_LATIN\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "42d88905b1e0e0c2bbf18f0de7b4ed72da75c33e22d198843cce50ffcb16da25"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kohler.com",
+                "assist.kohler.com",
+                "chefman.com",
+                "community.sena.com",
+                "help.rode.com",
+                "support.ecobee.com",
+                "us-support.husqvarna.com",
+                "www.aldimobile.com.au",
+                "www.atlasied.com",
+                "www.grote.com",
+                "www.wagnerspraytech.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/fonts\\/TTInterphases-DemiBold\\.BASIC_LATIN\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "3bc9029ac4016eb64206b1d35c988483b3a94e7d4cd3ff92fa9cc370572ddb2e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefman.com",
+                "community.sena.com",
+                "help.rode.com",
+                "support.ecobee.com",
+                "us-support.husqvarna.com",
+                "www.aldimobile.com.au",
+                "www.atlasied.com",
+                "www.grote.com",
+                "www.wagnerspraytech.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/custom-embedding-scripts\\/kohler-khs-prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget-hosts"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a5da6d5989a9636b62166c331446687b5b17ff9e055f11b8d84401f4911cf2f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kohlershowers.com",
+                "www.kohlershowers.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/custom-embedding-scripts\\/kohler-prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget-hosts"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ae629dc3c07916de249dfad4ff0e44e6d3348e4c0d9cbbd2183aff20ddfd9865"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kohler.com",
+                "www.kohler.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/husqvarna-help-center\\/husqvarna-north-america-help-center-scripts\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget-hosts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e7f8b44e987683ad99806eeed45fd629c0c5c97d4412b142c1e86090b4984d85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "husqvarna.com",
+                "us-support.husqvarna.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/fonts\\/HQ-bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "husqvarna"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1ae36d0f3ed3fc4c4bcbc4f5a120c55a387a1fcfb6255f9aca88bcf519b7fa94"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "husqvarna.com",
+                "us-support.husqvarna.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/geoip\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "husqvarna"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9b202ecbc6d45c6d8901d989a918878397a3eb9d00e8f48022fc051b19d21a1d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "husqvarna.com",
+                "us-support.husqvarna.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/custom-embedding-scripts\\/husqvarna-north-america-external-scripts\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-hosts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c943eb9c3fa7d9e6270dfe154a2b47677b6ee3de45078a590307e1eeeeafb107"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "husqvarna.com",
+                "us-support.husqvarna.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/fonts\\/TTInterphases-Medium\\.PUNCTUATION\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "78ec5bc47a1862ddd394133fddc6b38ff33f79498b24d9fd847c36e6b6da332d"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "husqvarna.com",
+                "us-support.husqvarna.com"
+            ]
+        },
+        {
+            "rule": "mavenoid\\.com\\/custom-embedding-scripts\\/positec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-hosts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4699c69d1ab5b695104f16fa36910890eef03535b003589f8c0aec36b3a5255f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worx.com",
+                "www.worx.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9047619047619048
+        },
+        {
+            "domain": "sdiapi.com",
+            "prevalence": 0.05952380952380952
+        },
+        {
+            "domain": "ethyca.com",
+            "prevalence": 0.023809523809523808
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.011904761904761904
+        }
+    ],
+    "types": {
+        "Script": 38,
+        "Fetch": 30,
+        "Font": 24
+    },
+    "nameservers": [
+        "crystal.ns.cloudflare.com",
+        "marvin.ns.cloudflare.com"
+    ]
+}

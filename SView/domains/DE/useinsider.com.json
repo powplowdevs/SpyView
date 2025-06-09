@@ -1,0 +1,193 @@
+{
+    "domain": "useinsider.com",
+    "owner": {
+        "name": "Sosyo Plus Bilgi Bilişim Tekn. Dan. Hiz. Tic. A.Ş.",
+        "displayName": "Insider"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "chargemap.api",
+        "hunkemoller.api",
+        "singaporeairlines.api",
+        "locationv2.api",
+        "hit.api",
+        "aryuder.api",
+        "log.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "useinsider\\.com\\/ins\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "chargemap.api",
+                "hunkemoller.api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Date.prototype.getTime": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.permissions": 2,
+                "window.indexedDB": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5b2d68b9a45ce27f6cdcfd222e8364c62fd649a717cd56702780893c48e77a3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chargemap.com",
+                "www.hunkemoller.de"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/worker-new\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chargemap.api",
+                "hunkemoller.api",
+                "singaporeairlines.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "407b53a7416c7d2ead78587205c48f6b9d9d8402a4a205c7d3044beefce27f45"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chargemap.com",
+                "www.hunkemoller.de",
+                "www.singaporeair.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "locationv2.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0863e6e717fee2e0094606ab8ab8541ccbc27bc91ac02a5d2053b0a3512df39e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chargemap.com",
+                "www.hunkemoller.de"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/hit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chargemap.com",
+                "de.chargemap.com",
+                "www.hunkemoller.de"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/v3\\/status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aryuder.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.hunkemoller.de"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/v2\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.hunkemoller.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 3,
+        "XHR": 7,
+        "Image": 2
+    },
+    "nameservers": [
+        "eva.ns.cloudflare.com",
+        "eric.ns.cloudflare.com"
+    ]
+}

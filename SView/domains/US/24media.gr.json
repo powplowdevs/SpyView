@@ -1,0 +1,58 @@
+{
+    "domain": "24media.gr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "matchcenter-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "24media\\.gr\\/v1\\/api-graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matchcenter-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "816faa8486fdbd9e7bb0e7c1ebc09bf3e009939ab94bbbd038c5a24484e05d35"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sport24.gr",
+                "www.sport24.gr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.9411764705882353
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "may.ns.cloudflare.com",
+        "margo.ns.cloudflare.com"
+    ]
+}

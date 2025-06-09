@@ -1,0 +1,128 @@
+{
+    "domain": "apptracer.ru",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "sdk-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "apptracer\\.ru\\/api\\/perf\\/upload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ok.ru",
+                "m.ok.ru",
+                "www.rustore.ru"
+            ]
+        },
+        {
+            "rule": "apptracer\\.ru\\/api\\/perf\\/upload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ok.ru",
+                "www.rustore.ru"
+            ]
+        },
+        {
+            "rule": "apptracer\\.ru\\/api\\/crash\\/trackSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vkvideo.ru",
+                "m.vkvideo.ru",
+                "vk.me"
+            ]
+        },
+        {
+            "rule": "apptracer\\.ru\\/api\\/crash\\/trackSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vkvideo.ru",
+                "m.vkvideo.ru",
+                "vk.me"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "okcdn.ru",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "vk.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Preflight": 5,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns3.ok.ru",
+        "ns1.ok.ru",
+        "ns2.ok.ru"
+    ]
+}

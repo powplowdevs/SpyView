@@ -1,0 +1,172 @@
+{
+    "domain": "demoup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [
+        "events",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "demoup\\.com\\/callback\\/pageload_event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaup24.ee",
+                "www.bader.de",
+                "www.calumetphoto.de",
+                "www.carrefour.it",
+                "www.contorion.de",
+                "www.empik.com",
+                "www.fotokoch.de",
+                "www.fust.ch",
+                "www.gedimat.fr",
+                "www.karkkainen.com",
+                "www.lidl.fr",
+                "www.promart.pe"
+            ]
+        },
+        {
+            "rule": "demoup\\.com\\/callback\\/pageload_event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bader.de",
+                "www.calumetphoto.de",
+                "www.carrefour.it",
+                "www.contorion.de",
+                "www.empik.com",
+                "www.fotokoch.de",
+                "www.fust.ch",
+                "www.gedimat.fr",
+                "www.karkkainen.com",
+                "www.lidl.fr",
+                "www.promart.pe"
+            ]
+        },
+        {
+            "rule": "demoup\\.com\\/callback\\/video-event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calumetphoto.de",
+                "www.fotokoch.de"
+            ]
+        },
+        {
+            "rule": "demoup\\.com\\/callback\\/video-event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calumetphoto.de",
+                "www.fotokoch.de"
+            ]
+        },
+        {
+            "rule": "demoup\\.com\\/lidl\\.fr\\/playbuttonListener\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ea95992b05d85526ae95d9143d537894027c2b3b055dd82fa9c681109631666d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lidl.fr",
+                "www.lidl.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9032258064516129
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "pigugroup.eu",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Preflight": 14,
+        "XHR": 13,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-504.awsdns-63.com",
+        "ns-1058.awsdns-04.org",
+        "ns-796.awsdns-35.net",
+        "ns-1736.awsdns-25.co.uk"
+    ]
+}

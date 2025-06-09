@@ -1,0 +1,2782 @@
+{
+    "domain": "gbqofs.com",
+    "owner": {
+        "name": "Glassbox Ltd.",
+        "displayName": "Glassbox"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00118,
+    "sites": 167,
+    "subdomains": [
+        "cdn",
+        "cdn2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gbqofs\\.com\\/citi-na-prod\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "06bdb03443a0a4c446232ab17edf198e6c047b6f221490d9ac7bf418e4315ed2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citi.com",
+                "citibank.com",
+                "citicards.citi.com",
+                "online.citi.com",
+                "www.cardbenefits.citi.com",
+                "www.citi.com",
+                "www.citibank.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/citi-na-prod\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "59ec4e9d8da74655f22c6482e643e149787a672013b211354135f29725da9550"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citi.com",
+                "citicards.citi.com",
+                "www.cardbenefits.citi.com",
+                "www.citi.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/citi-na-prod\\/detector\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "window.devicePixelRatio": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.connection": 4,
+                "window.innerHeight": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Element.prototype.getClientRects": 1,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "42740dc5475bc360e2ec773cbc3644fd4ade64b2deedc534acf275fe2c16326b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680017,
+                    "length": 36,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                },
+                "cls_e": {
+                    "ttl": null,
+                    "length": 51,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citi.com",
+                "citicards.citi.com",
+                "www.cardbenefits.citi.com",
+                "www.citi.com",
+                "www.thankyou.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/citi-na-prod\\/detector\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.outerHeight": 3,
+                "window.innerHeight": 3,
+                "window.outerWidth": 3,
+                "window.innerWidth": 3,
+                "Navigator.prototype.connection": 4,
+                "URL.createObjectURL": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "c9ffbe966a9fa8c36ed068d5380ebc90e287464bad1d17e3d41d8516ec58e5d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citi.com",
+                "citicards.citi.com",
+                "www.cardbenefits.citi.com",
+                "www.citi.com",
+                "www.thankyou.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/jpm\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "13e67b32514a6f5a06e4d52d9b2349a003a3c6ff8f0b7fbb1c6f1373bbd79f5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpmorgan.com",
+                "am.jpmorgan.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/jpm\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6b031bdc5c5f1e15c4d37f193ce1661fcca0d759f5feae1e8d38d71d9e0380b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpmorgan.com",
+                "am.jpmorgan.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/sv\\/b\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.000219,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 40,
+                "window.localStorage": 40,
+                "window.sessionStorage": 40,
+                "Document.cookie getter": 37,
+                "window.devicePixelRatio": 33,
+                "Date.prototype.getTime": 34,
+                "Document.cookie setter": 31,
+                "Navigator.prototype.connection": 33,
+                "window.innerHeight": 34,
+                "Screen.prototype.width": 31,
+                "Screen.prototype.height": 31,
+                "window.innerWidth": 32,
+                "Notification.permission": 26,
+                "Navigator.prototype.plugins": 25,
+                "Element.prototype.getClientRects": 10,
+                "Navigator.prototype.onLine": 9,
+                "window.name": 4
+            },
+            "sites": 58,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "653ac885e5f82aeb56a6790edcdd8395bf104c5d83b8f748d90728ff761c284f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680009,
+                    "length": 36,
+                    "prevalence": 0.00021927342688999547,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.00021927342688999547,
+                    "uniqueness": 1
+                },
+                "cls_e": {
+                    "ttl": null,
+                    "length": 52,
+                    "prevalence": 0.00007073336351290176,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.00015561339972838389,
+                    "uniqueness": 0.045454545454545456
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.cignadentalplans.com",
+                "www.langleyfcu.org",
+                "www.bcaa.com",
+                "www.napacanada.com",
+                "stopandshop.com",
+                "bluebottlecoffee.com",
+                "www.lorealparisusa.com",
+                "www.empiretoday.com",
+                "www.shelterinsurance.com",
+                "www.cabotstain.com",
+                "www.gov.il",
+                "www.goodnes.com",
+                "athome.starbucks.com",
+                "www.ameriprise.com",
+                "www.sherwin-williams.com",
+                "www.dentalplans.com",
+                "iprefer.com",
+                "am.jpmorgan.com",
+                "giantfood.com",
+                "www.officedepot.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/sv\\/b\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 32,
+                "URL.createObjectURL": 26,
+                "Navigator.prototype.connection": 32,
+                "Document.cookie getter": 9,
+                "window.outerHeight": 5,
+                "window.innerHeight": 5,
+                "window.outerWidth": 5,
+                "window.innerWidth": 5,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 46,
+            "prevalence": 0.000325,
+            "cnames": [],
+            "responseHashes": [
+                "1c44c206dd847c293d14f70afd3e636a0c1a832005c5b0d0c450fced76128ea5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.napacanada.com",
+                "www.verybestbaking.com",
+                "www.rushtruckcenters.com",
+                "www.cigar.com",
+                "www.coloradotech.edu",
+                "www.finedininglovers.com",
+                "www.ppg.com",
+                "www.maybelline.com",
+                "www.thompsonswaterseal.com",
+                "www.krylon.com",
+                "giantfood.com",
+                "www.sherwin-williams.com",
+                "maybelline.com",
+                "myaccount.quicken.com",
+                "www.goodnes.com",
+                "www.shelterinsurance.com",
+                "www.empiretoday.com",
+                "www.napaonline.com",
+                "www.cspire.com",
+                "www.thompsoncigar.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/starbucksathome\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "13e67b32514a6f5a06e4d52d9b2349a003a3c6ff8f0b7fbb1c6f1373bbd79f5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starbucks.com",
+                "athome.starbucks.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/starbucksathome\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "942160331af07cd8975c7ff85ce9b1f66b786a018b4eae598faae1ed3403fcb2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starbucks.com",
+                "athome.starbucks.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/uhg\\/optumcom\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c0c319a774e00f57a4e87bd3f0e11136ecef52d8b41c7fd21136ad71eaaf3ff2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optum.com",
+                "www.optum.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/uhg\\/optumcom\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "37656c3220a6ef78b58a4366efde99b78c4e42939acb6ef0d78d89d3c5781c0f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optum.com",
+                "www.optum.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/uhg\\/common\\/p\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "window.localStorage": 11,
+                "window.sessionStorage": 11,
+                "window.devicePixelRatio": 10,
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 10,
+                "Document.cookie setter": 10,
+                "Navigator.prototype.connection": 10,
+                "window.innerHeight": 10,
+                "Screen.prototype.width": 10,
+                "Screen.prototype.height": 10,
+                "window.innerWidth": 10,
+                "Element.prototype.getClientRects": 6,
+                "Navigator.prototype.onLine": 7,
+                "Notification.permission": 5,
+                "Navigator.prototype.plugins": 5
+            },
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "653ac885e5f82aeb56a6790edcdd8395bf104c5d83b8f748d90728ff761c284f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680008,
+                    "length": 36,
+                    "prevalence": 0.00007073336351290176,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.00007073336351290176,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.00007073336351290176,
+                    "uniqueness": 0.1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optum.com",
+                "uhc.com",
+                "welcome.optumrx.com",
+                "www.healthmarkets.com",
+                "www.healthsafe-id.com",
+                "www.optumbank.com",
+                "www.optum.com",
+                "www.uhc.com",
+                "www.uhchearing.com",
+                "www.uhcprovider.com",
+                "www.uhone.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/uhg\\/common\\/p\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "URL.createObjectURL": 10,
+                "Navigator.prototype.connection": 10,
+                "Document.cookie getter": 7,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "1c44c206dd847c293d14f70afd3e636a0c1a832005c5b0d0c450fced76128ea5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optum.com",
+                "uhc.com",
+                "welcome.optumrx.com",
+                "www.healthmarkets.com",
+                "www.optumbank.com",
+                "www.optum.com",
+                "www.uhc.com",
+                "www.uhchearing.com",
+                "www.uhcprovider.com",
+                "www.uhone.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/sv\\/b\\/glassvox\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "10bb280db685bc790677aeb7f50ab4ee15c347de3e90c0ca7b1baccc5d028cb9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ielts.org",
+                "myaccount.quicken.com",
+                "www.coleparmer.com",
+                "www.mapfreinsurance.com",
+                "www.quicken.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/sv\\/a\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "window.sessionStorage": 6,
+                "window.devicePixelRatio": 5,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.connection": 5,
+                "window.innerHeight": 5,
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 3,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "Date.prototype.getTime": 5,
+                "Element.prototype.getClientRects": 1,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "9b31e8e86a1624c30661218411d424e3236ff2a0207502ae9c17aa8e948ed6ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680004,
+                    "length": 36,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "cls_e": {
+                    "ttl": null,
+                    "length": 52,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "israelpost.co.il",
+                "www.cenhud.com",
+                "www.leonardo-hotels.com",
+                "www.moorings.com",
+                "www.msg.com",
+                "www.nisbets.co.uk",
+                "www.quarkexpeditions.com",
+                "www.spectrum.com",
+                "www.vitalproteins.com",
+                "www.zippo.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/sv\\/a\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.outerHeight": 2,
+                "window.innerHeight": 2,
+                "window.outerWidth": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.connection": 5,
+                "Document.cookie getter": 1,
+                "URL.createObjectURL": 3
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "51388f7f381c19a53ce3a92bdc212f66b6464c70c08fdb26fd43e9080f435e65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "israelpost.co.il",
+                "www.cenhud.com",
+                "www.leonardo-hotels.com",
+                "www.moorings.com",
+                "www.msg.com",
+                "www.nisbets.co.uk",
+                "www.vitalproteins.com",
+                "www.zippo.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/merrickbnk\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merrickbank.com",
+                "www.merrickbank.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/merrickbnk\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "156a614ba0d6c7e2f0eb2bb7df94a213fb33162d5776aa83a775d6c804b730b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merrickbank.com",
+                "www.merrickbank.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/merrickbnk\\/detector\\/p\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "add7c03da7d07655dd84d1c80bcbab63cdf050402959a53c2476a68431b92716"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merrickbank.com",
+                "www.merrickbank.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/loreal\\/usa\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lorealparisusa.com",
+                "maybelline.com",
+                "www.garnierusa.com",
+                "www.lorealparisusa.com",
+                "www.maybelline.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/loreal\\/usa\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "a4e7c0b20060c3a742234846db30ac9a0ef08a4f4fc2533cd4163348294a02f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lorealparisusa.com",
+                "maybelline.com",
+                "www.garnierusa.com",
+                "www.lorealparisusa.com",
+                "www.maybelline.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/quicken\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quicken.com",
+                "www.quicken.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/quicken\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quicken.com",
+                "www.quicken.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/common\\/glassvox\\/6\\.6\\.100\\/glassvox\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quicken.com",
+                "www.quicken.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/bellcanada\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "c591a00f96445dd1a1f08f9ed21b0824da996ff5b448b68c62be889396aa4145"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bell.ca",
+                "support.bell.ca",
+                "virginmobile.ca",
+                "www.virginplus.ca"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/bellcanada\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7fc36acffe6a6e4b68aa4b9b35e78a8f3efa7df9529835c41ef09d4d0f09c034"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bell.ca",
+                "support.bell.ca"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/bellcanada\\/detector\\/p\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerHeight": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dcc8dcc949f15e88322469f15887ae9951c0f11fa4d81cf351af904b4b76a6d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680017,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bell.ca",
+                "support.bell.ca"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/bellcanada\\/detector\\/p\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4237774b13536a08959316cb3118c083161a6ad5985845a9edab3918c89cb8ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bell.ca",
+                "support.bell.ca"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/uhg\\/uhc\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "608cfec0325382da63dbbf538905e1b1fe17366aacea2ddbf31566b6b750007b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uhc.com",
+                "www.uhc.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/uhg\\/uhc\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b15167716a1fb106ef240bcee233ec0eea177fbab8878d31dc52f668efd2f012"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uhc.com",
+                "www.uhc.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/uhg\\/mr\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "window.devicePixelRatio": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.connection": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "URL.createObjectURL": 1,
+                "window.innerHeight": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3af1429229c4f20836e8178471575bc8b20fc57a0e22d34053f9d6452a38a058"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680003,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarpmedicareplans.com",
+                "www.aarpmedicareplans.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/mt\\/dentalplans\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "472e93f47918f49d5dfea1cd4d7c1da92acaa451bd66d2efd6e9c6c0ebe9c4d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aetnadentaloffers.com",
+                "www.cignadentalplans.com",
+                "www.dentalplans.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/mt\\/dentalplans\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "efb3a9c81d8478c285be1d6dfa75b68614e98cff2a908844a2b85a35ff8ec280"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aetnadentaloffers.com",
+                "www.cignadentalplans.com",
+                "www.dentalplans.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/alliantenergy\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "472e93f47918f49d5dfea1cd4d7c1da92acaa451bd66d2efd6e9c6c0ebe9c4d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alliantenergy.com",
+                "www.alliantenergy.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/alliantenergy\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ec9f5bbf3e04afd2371dff3f3e5723990c332c8f881f3c6b5285950e0855f627"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alliantenergy.com",
+                "www.alliantenergy.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/mt\\/ama\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ama-assn.org",
+                "www.ama-assn.org"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/ameriprise\\/client\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "13e67b32514a6f5a06e4d52d9b2349a003a3c6ff8f0b7fbb1c6f1373bbd79f5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ameriprise.com",
+                "www.ameriprise.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/ameriprise\\/client\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "67a5b65cf5eb38c1fe8ca85c836df9cdfeb2b0fb6ea2b8b952fba24a55d7a2e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ameriprise.com",
+                "www.ameriprise.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/swp\\/dutchboy\\/cbg\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "c591a00f96445dd1a1f08f9ed21b0824da996ff5b448b68c62be889396aa4145"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cabotstain.com",
+                "www.cabotstain.com",
+                "www.hgtvhomebysherwinwilliams.com",
+                "www.krylon.com",
+                "www.minwax.com",
+                "www.thompsonswaterseal.com",
+                "www.valspar.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/swp\\/dutchboy\\/cbg\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "3e489ea111cd4519f603ca88432120b8b893899ec16e704b4c254f37c08e9a28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cabotstain.com",
+                "www.cabotstain.com",
+                "www.krylon.com",
+                "www.minwax.com",
+                "www.thompsonswaterseal.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/chartil\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "472e93f47918f49d5dfea1cd4d7c1da92acaa451bd66d2efd6e9c6c0ebe9c4d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottetilbury.com",
+                "www.charlottetilbury.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/chartil\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "49aed2c050a5797ee55e24cecd2c52cb63ea31acd836a481de0c7970e8dcb6c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottetilbury.com",
+                "www.charlottetilbury.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/bss\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cigarbid.com",
+                "www.cigar.com",
+                "www.cigarsinternational.com",
+                "www.thompsoncigar.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/bss\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "6984a00956ab8d70d7e0fd3d3746a106090c7ea0215b3f155d556a301c904e42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cigar.com",
+                "www.cigarbid.com",
+                "www.cigar.com",
+                "www.cigarsinternational.com",
+                "www.thompsoncigar.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/coleparmer\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cc458679644770dc536d57d2bf0ecd0993901c1d101f47ac82cbc3be365fc991"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coleparmer.com",
+                "www.coleparmer.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/coleparmer\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0b2a66fdd082fc782bfc7df30777cc27113cf4df0020ef134cf54814f93d5e6b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coleparmer.com",
+                "www.coleparmer.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/corebridge\\/corporate\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "corebridgefinancial.com",
+                "www.corebridgefinancial.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/corebridge\\/corporate\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6eb5c2f666a1dfdc2515a13ca74899aa1c34f6b09fddf31ace9ece3a6cbf73ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "corebridgefinancial.com",
+                "www.corebridgefinancial.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/corebridge\\/common\\/p\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "Element.prototype.getClientRects": 1,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dcc8dcc949f15e88322469f15887ae9951c0f11fa4d81cf351af904b4b76a6d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680003,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "corebridgefinancial.com",
+                "www.corebridgefinancial.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/corebridge\\/common\\/p\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.connection": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4237774b13536a08959316cb3118c083161a6ad5985845a9edab3918c89cb8ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "corebridgefinancial.com",
+                "www.corebridgefinancial.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/credit\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "13e67b32514a6f5a06e4d52d9b2349a003a3c6ff8f0b7fbb1c6f1373bbd79f5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "credit.com",
+                "www.credit.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/credit\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "051d87163adcdda8a996055e43113cbcc76c3ff9d193990f625b31bd20586587"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "credit.com",
+                "www.credit.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/credit\\/common\\/p\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerHeight": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Element.prototype.getClientRects": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "08f3434e14ebcdb2c3461b8d31151d6f0db7ef62285ee51a42c0f8480139f38a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680003,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "credit.com",
+                "www.credit.com",
+                "www.lexingtonlaw.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/credit\\/common\\/p\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.connection": 2,
+                "Document.cookie getter": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ee08670d3f36134f579efabb3709302f61fce29426ecb9996abe47e6d87c5c46"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "credit.com",
+                "www.credit.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/cspire\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cspire.com",
+                "www.cspire.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/cspire\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f782cf094c2e250aba75ff1b06230b681394dd37353dfc6b7dabde61bcfa3028"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cspire.com",
+                "www.cspire.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/lendingtree\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "13e67b32514a6f5a06e4d52d9b2349a003a3c6ff8f0b7fbb1c6f1373bbd79f5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "depositaccounts.com",
+                "www.valuepenguin.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/lendingtree\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "340b22a8a2471d873d4df13c7e4ee084295db69e4e6dd44ae442a1703424eb6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "depositaccounts.com",
+                "www.valuepenguin.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/lendingtree\\/common\\/p\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerHeight": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "029034e6bb70666fdca41059d000973cd7d2dae175a644f556644c5e86d536ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680023,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "depositaccounts.com",
+                "www.valuepenguin.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/lendingtree\\/common\\/p\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.connection": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c909f3593aa48d8ed682b355abbacaa77f609381c38cedc81805126afbe49c59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "depositaccounts.com",
+                "www.valuepenguin.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/nestle\\/food\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "c591a00f96445dd1a1f08f9ed21b0824da996ff5b448b68c62be889396aa4145"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodnes.com",
+                "www.goodnes.com",
+                "www.verybestbaking.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/nestle\\/food\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5ef236f3f1bb82f4b51d0ee4e7b55ac3f7579f61c049d2e3bea4942e42483a5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodnes.com",
+                "www.verybestbaking.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/jordans\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9f7f0e2326bf35257a75f6d6c4665961f6543d9c61370c3486c5a1dea8428137"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jordans.com",
+                "www.jordans.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/jordans\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9873cc8a13cda414b8f5b84a2dc93db649a4bec790ce230b4b187ced2b991807"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jordans.com",
+                "www.jordans.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/jsx\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jsx.com",
+                "www.jsx.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/jsx\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f04f9ade091b27c60e669062ecec07d5db8246ccc65fd3cec358bdd030891599"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jsx.com",
+                "www.jsx.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/kaspersky\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "13e67b32514a6f5a06e4d52d9b2349a003a3c6ff8f0b7fbb1c6f1373bbd79f5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaspersky.com.tr",
+                "www.kaspersky.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/kaspersky\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaspersky.com.tr",
+                "www.kaspersky.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/lfuc\\/public\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "langleyfcu.org",
+                "www.langleyfcu.org"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/lfuc\\/public\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e650d55a35d7620045aa18e065a7eee3decfb3f2e79037ac3526c9fd3d2ef643"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "langleyfcu.org",
+                "www.langleyfcu.org"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/molinahealth\\/molina-public\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "13e67b32514a6f5a06e4d52d9b2349a003a3c6ff8f0b7fbb1c6f1373bbd79f5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "molinahealthcare.com",
+                "www.molinahealthcare.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/molinahealth\\/molina-public\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cb7a0569205b6b3d7fe8e8b910c7f7d45aedfefee452b3f9755090dafb0d634b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "molinahealthcare.com",
+                "www.molinahealthcare.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/molinahealth\\/common\\/p\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerHeight": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Element.prototype.getClientRects": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "029034e6bb70666fdca41059d000973cd7d2dae175a644f556644c5e86d536ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680004,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "molinahealthcare.com",
+                "www.molinahealthcare.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/molinahealth\\/common\\/p\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.connection": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c909f3593aa48d8ed682b355abbacaa77f609381c38cedc81805126afbe49c59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "molinahealthcare.com",
+                "www.molinahealthcare.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/mt\\/travelopia\\/moorings\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c591a00f96445dd1a1f08f9ed21b0824da996ff5b448b68c62be889396aa4145"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moorings.com",
+                "www.moorings.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/mt\\/travelopia\\/moorings\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a7505f066915e6346f823ae367997f45bf22b1d59c43990920d76182431eeee2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moorings.com",
+                "www.moorings.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/gpc\\/nol\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "napacanada.com",
+                "www.napacanada.com",
+                "www.napaonline.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/gpc\\/nol\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6b027228dca4c3b706f9ec834896639cf8d3e92451ebc323b52101f7ae3fad16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "napacanada.com",
+                "www.napacanada.com",
+                "www.napaonline.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/shiseido\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "13e67b32514a6f5a06e4d52d9b2349a003a3c6ff8f0b7fbb1c6f1373bbd79f5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narscosmetics.com",
+                "www.shiseido.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/shiseido\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narscosmetics.com",
+                "www.shiseido.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/onemain\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onemainfinancial.com",
+                "www.onemainfinancial.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/onemain\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a215d3a076fbb98421e95e4a860140ab09cab145d2b64198d1b58dab6363056a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onemainfinancial.com",
+                "www.onemainfinancial.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/onemain\\/common\\/p\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "029034e6bb70666fdca41059d000973cd7d2dae175a644f556644c5e86d536ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680012,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onemainfinancial.com",
+                "www.onemainfinancial.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/onemain\\/common\\/p\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c909f3593aa48d8ed682b355abbacaa77f609381c38cedc81805126afbe49c59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onemainfinancial.com",
+                "www.onemainfinancial.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/paylocity\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paylocity.com",
+                "www.paylocity.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/mt\\/ppg\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f622a0af5e2151febb626730108cc195956e043f09d15236ac1c29e6836bc1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ppg.com",
+                "www.ppg.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/mt\\/ppg\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "176fab9be5ae288ee80ba169336b7eb80e2a12c8cc6c2a2fd3496644d321e3bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ppg.com",
+                "www.ppg.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/thehartford\\/common\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c591a00f96445dd1a1f08f9ed21b0824da996ff5b448b68c62be889396aa4145"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehartford.com",
+                "www.thehartford.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/thehartford\\/common\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4aed72ea33c130f1b24897d24fbf4cc6d853c873a01400b844f1802ba27d9c27"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehartford.com",
+                "www.thehartford.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/thehartford\\/common\\/p\\/detector-bootstrap\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "window.devicePixelRatio": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerHeight": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.name": 2,
+                "Element.prototype.getClientRects": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ed3001410c1d7ab29798272fe316f89fddbf1d09eb5e80a3dd2ff4b820243016"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680008,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "rto": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehartford.com",
+                "www.thehartford.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/thehartford\\/common\\/p\\/detector-lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.connection": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e737cab5c8d1969c84c7d18cbf1881bc590c07b748b1342ca3484ecba95913bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehartford.com",
+                "www.thehartford.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/uhg\\/seamless\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "608cfec0325382da63dbbf538905e1b1fe17366aacea2ddbf31566b6b750007b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uhcprovider.com",
+                "www.uhcprovider.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/uhg\\/seamless\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f3b15713d9e822fb769e674665be6e43f0ce0b9bb325eed4de8867d4fede718d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uhcprovider.com",
+                "www.uhcprovider.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/zippo\\/p\\/detector-dom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c591a00f96445dd1a1f08f9ed21b0824da996ff5b448b68c62be889396aa4145"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zippo.com",
+                "www.zippo.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.com\\/zippo\\/p\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a6e7c0dc428decb3c82ab96bdb7c6e9538fc40c3a073204a301966c42c4dad65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zippo.com",
+                "www.zippo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000615,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.46511627906976744
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.19933554817275748
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.1362126245847176
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.07308970099667775
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.03986710963455149
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.029900332225913623
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.013289036544850499
+        },
+        {
+            "domain": "kaspersky.de",
+            "prevalence": 0.013289036544850499
+        },
+        {
+            "domain": "hfdstatic.com",
+            "prevalence": 0.009966777408637873
+        },
+        {
+            "domain": "citi.com",
+            "prevalence": 0.006644518272425249
+        }
+    ],
+    "types": {
+        "Script": 366
+    },
+    "nameservers": [
+        "dina.ns.cloudflare.com",
+        "dilbert.ns.cloudflare.com"
+    ]
+}

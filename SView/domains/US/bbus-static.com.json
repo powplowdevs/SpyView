@@ -1,0 +1,56 @@
+{
+    "domain": "bbus-static.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "prod9-static"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bbus-static\\.com\\/api\\/shain\\/v1\\/dataservice\\/ResizeImage\\/$value",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod9-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "87af7cd9a04072191e44228c51890bfd1790050939b9ebe7cc4e9ad88e662ea7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "britbox.com",
+                "www.britbox.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-214.awsdns-26.com",
+        "ns-958.awsdns-55.net",
+        "ns-1382.awsdns-44.org",
+        "ns-2001.awsdns-58.co.uk"
+    ]
+}

@@ -1,0 +1,1805 @@
+{
+    "domain": "sportradar.com",
+    "owner": {
+        "name": "Sportradar AG",
+        "displayName": "Sportradar"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000177,
+    "sites": 25,
+    "subdomains": [
+        "tm.ads",
+        "widgets.media",
+        "tracker.ads",
+        "uswidgets.fn",
+        "license.sir",
+        "img"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sportradar\\.com\\/dist\\/tag-manager\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm.ads"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 16,
+            "prevalence": 0.000113,
+            "cnames": [],
+            "responseHashes": [
+                "0170a8fd2298df190f0ba71646d37c05573372234761ab664da7a4825b7208c0",
+                "4818214b2575fa4ce44ceab2a6ca73f4235c384d67b729b0f485f666d5f30c3b",
+                "4e5edb5684f5ec685eced3157f56817da9406f43cb1ac2bd642687fe6ee42d14",
+                "bf96d5baaa7511941371191659f5372e89c43bd04aecc4717e80dedbdb74ca94",
+                "4590d4bc95ddc34f2c72e88f7193937cd8f2da499f71694de3fdbe5ea7e5d386",
+                "5e0f7b56fd05fb5964283de07697e3154e487d45a288091fb3de5b4a47fa7f9f",
+                "1447f7e6ad569b378e183ecb44c74d31a3422120cd25702c22166614cd9684cb",
+                "2c721f86942fa0896ef903ccbea4013d6b15b4c2ede0c6e25aa189e92f8df274",
+                "d92b2abc851b686b9295402f30e4be97d7a0639abb6ceacf62392ba07281906e",
+                "1deecb0865e1c8c7641dc63186f5ac4d2499fea5b28517ea58399185adc68d54",
+                "50fbf329934590d59850364d7cd6dc2076541976eeafb69afd59554819df709b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betway.com",
+                "mrq.com",
+                "shop.bet9ja.com",
+                "sports.bet9ja.com",
+                "sportsbook.draftkings.com",
+                "www.baji999.in",
+                "www.bet9ja.com",
+                "www.betway.co.za",
+                "www.draftkings.com",
+                "www.estrelabet.bet.br",
+                "www.jackpotcity.com",
+                "www.jackpotcitycasino.com",
+                "www.jeetbuzz.com",
+                "www.mcluck.com",
+                "www.nagad88.com",
+                "www.playojo.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/minutemedia\\/widgetloader",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "b9e118008d8d3eba9bcdd14f069ebd8ed11e0122f645eb1d1e20e9d3368fdc73"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cubbiescrib.com",
+                "redbirdrants.com",
+                "riggosrag.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/dist\\/tracker\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tracker.ads"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "Navigator.prototype.maxTouchPoints": 10
+            },
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "063237f5f52863c3f711ef56625653397a5650eca2da3fa375dc181985a1badb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrq.com",
+                "shop.bet9ja.com",
+                "sports.bet9ja.com",
+                "sportsbook.draftkings.com",
+                "www.baji999.in",
+                "www.bet9ja.com",
+                "www.betway.co.za",
+                "www.draftkings.com",
+                "www.estrelabet.bet.br",
+                "www.jackpotcity.com",
+                "www.jackpotcitycasino.com",
+                "www.jeetbuzz.com",
+                "www.mcluck.com",
+                "www.nagad88.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/dist\\/\\/sp-3\\.8\\.0\\.js",
+            "cookies": 0.0000637,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracker.ads"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 9,
+                "Navigator.prototype.doNotTrack": 9,
+                "Date.prototype.getTime": 9,
+                "window.localStorage": 9,
+                "Document.cookie setter": 9,
+                "Document.cookie getter": 9,
+                "Navigator.prototype.cookieEnabled": 9,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "Screen.prototype.colorDepth": 9,
+                "Date.prototype.getTimezoneOffset": 9,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 8
+            },
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "6361e3a49a38d1fdc74ec96bd29ee1ecd7c30045ccb0e5f361413d65cbf5ef87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sp_srt_ses.24df": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_id.24df": {
+                    "ttl": 47304002,
+                    "length": 103,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_ses.55ca": {
+                    "ttl": 1824,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_sp_srt_id.55ca": {
+                    "ttl": 47304024,
+                    "length": 103,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_sp_srt_ses.16f4": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_id.16f4": {
+                    "ttl": 47304006,
+                    "length": 103,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_ses.c302": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_id.c302": {
+                    "ttl": 47304003,
+                    "length": 103,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_ses.80c6": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_id.80c6": {
+                    "ttl": 47304004,
+                    "length": 103,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_ses.9218": {
+                    "ttl": 1818,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_id.9218": {
+                    "ttl": 47304018,
+                    "length": 103,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_ses.422e": {
+                    "ttl": 1813,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_srt_id.422e": {
+                    "ttl": 47304013,
+                    "length": 103,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrq.com",
+                "shop.bet9ja.com",
+                "sports.bet9ja.com",
+                "sportsbook.draftkings.com",
+                "www.baji999.in",
+                "www.bet9ja.com",
+                "www.betway.co.za",
+                "www.draftkings.com",
+                "www.estrelabet.bet.br",
+                "www.jackpotcity.com",
+                "www.jackpotcitycasino.com",
+                "www.jeetbuzz.com",
+                "www.mcluck.com",
+                "www.nagad88.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/masn\\/widgetloader",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "351ab2df529038016c5cfd7e7d11cc56588978f8f14ae9507157e4debacab4b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.45087\\.5c6303ed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3f402dedec8c7f537c5fddff9e16e1ddba0e53094867e0c2275cbc2abd7ecd6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.87468\\.acf041e3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cc4d564b708a3a768d943bb3b34a5e21dcdb987d374fedfc22c130256d52831c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.99714\\.7d4b00bd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9303e47786fe9ed20a730f7939b132036cfb1cc5497dec816394d794fc3fd1f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.82794\\.8d6b009e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "60c84adf449910359ab9a217a59672042309ab38599b6e3e77443ca55ef18b9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.79968\\.1d530a8d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d2d3c71d7b6a926a77d2926adb8b79619fff0667e214ff96fa41894c4ed399d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.13013\\.d9776f3e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6655203c704709f74acecd28f804a7c422bc9670a7aee723cf652eafc073bf90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.92883\\.b15642b0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4045915b9262891876f39338fd76701f6c44714975c774de7dc92879467e4a9a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/css\\/chunk\\.2516\\.038b93c2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3ec486186ee749a269b83c979f761d4efce5703bfb5aea7b610d5c06fbe396b6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.2516\\.7e6666f5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "29a6b237904c131687ae72f63dd0ef4a94931e5bd170d6a66f7d7fe0d1351b72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.62382\\.e1d71c08\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9844b03ffeffd98f7518c8b3ec7d4d31ce5086069dfed0eed10fa3f07fcd35c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.64172\\.6c0e5fb5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "feca18eb8aefdfba7d82bae6bbe15a880ae990f9c3da1e45a26a22694ee55805"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.53184\\.488c4ead\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f288b90b9b6b0d7c513c83c32b1d0f2e55f2f7354772e64f5400fcfb258d49f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.93454\\.6814d3a1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "87c3233f0f200e0659261eadba669f41aa811dea3bcfa1a9c579ffbbd9f55456"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.64420\\.ec7b4678\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "94ed56cd15a5b1296c3f5b2aa341d9e5b258b81d05d5f29b21ad1ca91dea54f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.58712\\.c9eab00a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a97e22b2bd80aaa171189b2a429b99a120a5d6b35eeec7dfa97f2849f01a9b2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.28000\\.39d6c9a1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "30d305c0eb7032302a1f2cbf0cfed01c7328f748d5745708b6764d61f0d0b393"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.86766\\.85ad115d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "78f8d085b803fdd6dfbf92ee6538ce3627f977e45465003b84048cecdb0c4123"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.78536\\.468f4a5d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6de46c572c6c1c7629bcd82a91dbcc5564644eb8e1378cdebeda70b885ac45db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.47825\\.96a2f3dd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "370f55dc1565e6d5d7068cc1aa4d5e2a99e96db4d543598c70537e5ab50dd803"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.78593\\.2c7a122b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "283196651297109b522493988efec072c99370489b58655576899b4c7a4b9c4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.50802\\.4fd13ce5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f84b3214b90491f19a21e64a97cd371667307017c280dab047d67bf6e89845be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.68547\\.07d24673\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "63fdfdab0261d1e9c58fb90585383ba79a792facbd228932b2d163380f0abd16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.33601\\.39ff946b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "748e9878d3cb8082ca1cf5928c512d692533958ee2d5d962d8f2b4fea9b03bb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.80271\\.753f2ac0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7616a868cccd3731291286e3317205690b073cf67f2c73a4e2bf44e343db5c2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.41361\\.27c0fdce\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "08554940fee1ad998b0764392212720f465fc2703317423541d4fdfe03b160f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/css\\/chunk\\.us\\.common\\.scoreTicker\\.a2b8200f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "778c5202e9ada501c38a1e5351334252a3c17d5cfe94a30d495fd0d63ecde8ae"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.us\\.common\\.scoreTicker\\.12122fee\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1539be9c3c8f4355e8a83141c583ac061147133aeb006f611e499f386682cb61"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.react\\.27489dcc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "18f7b1500d40770e4f0e2ea26a2b3a3f52029391d83e50de723ccd9ed0783ffd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/translations\\/en_us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "64316f49bcb54c9ffeeb570482f3d5b841a3c040672291babdd6f010b2dd3179"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/masn\\/css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9ab5575a0e4c384e40ed42abf48dab2e36351472bd39ad5d0d2097c0ddb2597f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/masn\\/licensing",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "191f1389dc0fee0761183aa4bcd4915f667bbc09d0e4236eb193875d580d437b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/gismo\\/uniquetournament_info\\/27653",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9009dacba365f38dc4b2bdc1c8ae1ff58681ed2b362940c6398986d201a54e29"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/gismo\\/uniquetournament_info\\/648",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "58c74f8acac74e9dbc45d857f501cd60e234f8fad416787c708b49117160b1ba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "license.sir"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/gismo\\/stats_season_teams2\\/127983",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "895ee7e73dc40e6dbce26d55a9c2f163e6456412e803d2624e4784dcc713363c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.55779\\.7961c04d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fc74353b4c6c8d398f75ab5297c9eca1e28b0c894e6fa4627896a86316acd965"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/gismo\\/stats_season_teams2\\/117435",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1e44b01d4e530d5dd0f7c592f26ed0a1b3d137016046ad0381faf9e51588132b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/assets\\/js\\/chunk\\.53796\\.67906861\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f714c5e8e10eea8e3c6fe3cadb48fc20b78a10ce9a3add0a443b31bda413ca7f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/gismo\\/uniquetournament_info\\/109",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c9906b30fac20bef82d772845e4b9f51ca5797a131813a38bbd31a6612329959"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/gismo\\/stats_season_meta\\/125735",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "10d6f56c051d2273895a2bbb617dffd999779fef3538a37fd19e926ecb727670"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/gismo\\/livescore_season_fixtures\\/125735",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6a14bb8abb74953237fefbeb5f3260f1ceb82cd4b0c4fd6e76b80063a8a37406"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/gismo\\/uniquetournament_info\\/803",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ceff7df25d91c9854e7ae222d07cea4f92b27d161fa94b66a1cad02cac210dac"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/gismo\\/livescore_season_fixtures\\/125835",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5bcabca704a4172d16a9faae5b0ab81860d4c6984b787f0ae9b25ae421af1dbe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3628\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c4d81dc517755c3ff5cbfb0cccb74b8de7efdabd0ce2bfd2585e37f1408004af"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/5930\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "aabecf9f786c2485a488679fddd254f8342e8b852d4e844d7de6215390837d2d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3647\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "425f486cbe0c237a5c673e471b7ce8e9a1bde3b23bc71bef4c6c26e9b70b072a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3656\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "71db9051c9ed8986ca0b217f76ba469b202ea90a34c1c08af7743a5da257e335"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3651\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f5d2368abd839174973c2fae95c10ed8f926e6b7ca461c3eb90a2dcd174c991f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3649\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1dd84a7fdd15f0e19f4fc364f491c358e72cbd4d1a669383f498764ceb6396c4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3655\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "875bebc9b0217977508902d6f263893e7f0db9407ab86b65f983080b2345e714"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3652\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "465a6f6061511033d53ba0710da005d754f1731c13249cbfcac0fe03fb0d1f62"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/5929\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ce82ed2e5b61d80fd5df5490a8c9bde0a73cac755613018920111b763bbb13fa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3644\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b536a584823ecaa754db1725cdf045f0800b7b91e0928414c264f1edb62d5a7e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3636\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4c7594e4494bfa6f997bf9fdb714d1225ce34a858c5ad579fd07f113b6de0769"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3633\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a8f22f97d88d9159e228a7a5232a0946e30bea5c35ee6d5ccaafe94155efd2e1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3645\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "043df6ee2650156dceae2515ef73ada9989bf1f9a42d8895b1a11cc267c18085"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3638\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d5be572d5a294c2fc02bced5a5b0fa626366bb10a447a9675736b6239e5f840e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3653\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "205fe35445a8b856f1d9bffba10c0ea38ecdb5342a4ffe792bb9a9c394638c96"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/ls\\/crest\\/medium\\/3642\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d38a8999ee6b56ab1abb4f21b89bf469307dc50e66317a1102b4abf5dd0e75d9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/graph\\/match_get\\/55308775",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5824114c9fdb23f1bdbfc5262fde745d11ce73609f84e2cc1de441852a385eba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/graph\\/match_get\\/55308341",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a19552449595073e7db5ac71526a8cf06655e5dd1f34fea656e12dcdea467937"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/graph\\/match_get\\/55308359",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b94167a4c3990bfa6845a095b5676c016bd59f39adcb227cac5b31ab3ebdc2cb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/graph\\/match_get\\/55308997",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bdb97b43956cb5f5693d208ad707ff8e4a1431c359d0730a43625d7a67271c90"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/graph\\/match_get\\/55310779",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cbcf174e6d96a802cf55dee6542d9a878664a25d587e0e2121ab62c471b0aa82"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/graph\\/match_pbp_delta\\/55308341",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5316371038dfd4e98a2a5d9868615a69153c012a473581dbc718d9a4dc555d0a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/graph\\/match_pbp_delta\\/55308997",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b913414a5e69e07609b1dfe5ff654072cd594054c1a9e0e58a77071d76dda99b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        },
+        {
+            "rule": "sportradar\\.com\\/sportradarmlb\\/en_us\\/Etc:UTC\\/graph\\/match_pbp_delta\\/55310879",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uswidgets.fn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fc4b4dbbe5314ef5110bb864a52b2b225e9e39632eb843abd0ffd91698d12e62"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masnsports.com",
+                "www.masnsports.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5172413793103449
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3793103448275862
+        },
+        {
+            "domain": "minutemediacdn.com",
+            "prevalence": 0.10344827586206896
+        }
+    ],
+    "types": {
+        "Script": 105,
+        "Stylesheet": 4,
+        "XHR": 40,
+        "Fetch": 2,
+        "Image": 32
+    },
+    "nameservers": [
+        "ns-1100.awsdns-09.org",
+        "ns-1583.awsdns-05.co.uk",
+        "ns-168.awsdns-21.com",
+        "ns-902.awsdns-48.net"
+    ]
+}

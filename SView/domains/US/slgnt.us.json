@@ -1,0 +1,111 @@
+{
+    "domain": "slgnt.us",
+    "owner": {
+        "name": "Selligent",
+        "displayName": "Selligent"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "site-azp",
+        "offer"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "slgnt\\.us\\/frontend\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "www.suncountry.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/frontend\\/api\\/track",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "www.freshdirect.com",
+                "www.suncountry.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/5041e0cb33d943a9aca64456969d8119\\/1b4989922a384c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "windows.net",
+            "prevalence": 0.46153846153846156
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.38461538461538464
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 3,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns14.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com",
+        "ns10.dnsmadeeasy.com"
+    ]
+}

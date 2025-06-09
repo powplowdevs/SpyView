@@ -1,0 +1,248 @@
+{
+    "domain": "livechatinc.com",
+    "owner": {
+        "name": "LiveChat Inc",
+        "displayName": "LiveChat",
+        "privacyPolicy": "https://www.livechatinc.com/legal/privacy-policy/",
+        "url": "http://livechatinc.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000714,
+    "sites": 7,
+    "subdomains": [
+        "cdn",
+        "api",
+        "api-fra",
+        "secure",
+        "secure-fra"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "livechatinc\\.com\\/tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.platform": 7,
+                "window.sessionStorage": 7,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Notification.permission": 6,
+                "Navigator.prototype.plugins": 6
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "eff4e256034623924ebfbe44b55b351e551cc449f5d103a0c2c4f0bb98a5cfef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prusa3d.com",
+                "jlcpcb.com",
+                "www.imobie.com",
+                "www.livingactive.de",
+                "www.prusa3d.com",
+                "www.synology.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/global-mapper\\/lc_license_id\\/9644675\\/region",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a32d46d89ecd8c525819cf720602cdb868f805fdd6a0c442709047a4eb08d092"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prusa3d.com",
+                "www.prusa3d.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/v3\\.6\\/customer\\/action\\/get_dynamic_configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api-fra"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "41fcfb53351223900d09cb71dac9aa852682956898b1adc34070b980889aa7db",
+                "1ee3fe38eec9e3f1b61e279e8989d2e16eb8b7da32045e73e9a6a5d728fc0dc8",
+                "0b44fb70d4cc81d5c382b7e991a520b1f310fb2a7c977bb779c6c37e76ea6126",
+                "be9d66516b5fbd5b337048ae351a807f08a3f420d3f6c71d347d9e2b9d14e67c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jlcpcb.com",
+                "www.imobie.com",
+                "www.livingactive.de",
+                "www.prusa3d.com",
+                "www.synology.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/v3\\.5\\/customer\\/action\\/get_configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api-fra"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "8d2a9ea809d573c79693f67a556239a1fe7e52a4f7add1e6fd3000a82a9a18df",
+                "18cf1f44e4e32e68b6bdbfb1d4dba5bb37951ffb75d7bd383eb07f3ebaf9f6e5",
+                "39f9c7ad9f58ca9e53410ece7488363ab373c0aeecff1999ac9c6761e8ddc731",
+                "c98ffb55cd2726a0ba20b602588a89c2c7b4510ac7035d3f46527214e627d003"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jlcpcb.com",
+                "www.imobie.com",
+                "www.livingactive.de",
+                "www.prusa3d.com",
+                "www.synology.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/customer\\/action\\/open_chat",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure",
+                "secure-fra"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jlcpcb.com",
+                "www.imobie.com",
+                "www.livingactive.de",
+                "www.prusa3d.com",
+                "www.synology.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/v3\\.5\\/customer\\/action\\/get_localization",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api-fra"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "12b9c2f60c49c677927dfefbba8c023cd65f8eb1a9421d9c8ee641ec5b0d123f",
+                "b74aff078581bc1b696d24b9cd3547b90aced79b86a1713dd8f1f0e05c51b232",
+                "ddcabaf93df40f86a28f3124e7e9e062dd89cbd92fd0abd3522154febbd7b426",
+                "18fc1c10addeb1474f1f190f38e1b2aaee771fbfc5ffad20e33c9c720b1fd9eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jlcpcb.com",
+                "www.imobie.com",
+                "www.livingactive.de",
+                "www.prusa3d.com",
+                "www.synology.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/global-mapper\\/lc_license_id\\/13486359\\/region",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a379b1707064386da00957301b6eb053249cfb462047d44e4fb6d52898f5b78b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wickedweasel.com",
+                "www.wickedweasel.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content",
+        "Support Chat Widget"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "imobie-resource.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "Document": 6
+    },
+    "nameservers": [
+        "ruth.ns.cloudflare.com",
+        "vin.ns.cloudflare.com"
+    ]
+}

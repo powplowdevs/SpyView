@@ -1,0 +1,79 @@
+{
+    "domain": "trustprofile.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "dashboard"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trustprofile\\.com\\/banners\\/4000164\\/4034024\\/1699357366\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dashboard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c9a1a3227e414caf5dde27e9a21a846626f4afcef186512d110fcbcaae642718"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atu.de",
+                "www.atu.de"
+            ]
+        },
+        {
+            "rule": "trustprofile\\.com\\/minify\\/stylesheet\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dashboard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reifendirekt.de",
+                "www.reifendirekt.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ehi-siegel.de",
+            "prevalence": 0.7857142857142857
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.21428571428571427
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "barbara.ns.cloudflare.com",
+        "tony.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "domain": "slpy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "slpy\\.com\\/lib\\/mlgl\\/latest\\/maplibre-gl\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "564818cfcbe53ec227749731c040d9280771e2bf8083b1dc2c13cfe146c9ad91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "county-courthouse.com",
+                "www.postallocations.com"
+            ]
+        },
+        {
+            "rule": "slpy\\.com\\/lib\\/mlgl\\/latest\\/maplibre-gl\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "792ac997dcf6ae6f643eb4e2dee4630c85e7056526bd8fb85ffe83c67d6c41b4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "county-courthouse.com",
+                "www.postallocations.com"
+            ]
+        },
+        {
+            "rule": "slpy\\.com\\/style\\/slpy-mgl-style\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "caf9cf7920e1033504860ac1d1d0c7a37b8c729001150eaa45387b262acce5ce"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "county-courthouse.com",
+                "www.postallocations.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ada.ns.cloudflare.com",
+        "eoin.ns.cloudflare.com"
+    ]
+}

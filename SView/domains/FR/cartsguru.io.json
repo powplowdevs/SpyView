@@ -1,0 +1,110 @@
+{
+    "domain": "cartsguru.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000819,
+    "sites": 8,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "cartsguru\\.io\\/scripts\\/20210823\\/dist\\/prestashop-client\\.min\\.js",
+            "cookies": 0.000409,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 6,
+                "Notification.permission": 6,
+                "Navigator.prototype.plugins": 6,
+                "window.devicePixelRatio": 6,
+                "OfflineAudioContext.prototype.constructor": 5,
+                "Screen.prototype.availTop": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.availLeft": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.availHeight": 5,
+                "AudioBuffer.prototype.getChannelData": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.languages": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Navigator.prototype.deviceMemory": 5,
+                "Navigator.prototype.hardwareConcurrency": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "window.indexedDB": 4,
+                "Navigator.prototype.platform": 4,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 4,
+                "HTMLCanvasElement.prototype.toDataURL": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000819,
+            "cnames": [],
+            "responseHashes": [
+                "c14602561beb20aec0645b34925d93d204d62a38155f0f2eeb835175960476cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1747372663,
+                    "length": 1,
+                    "prevalence": 0.00040941658137154553,
+                    "uniqueness": 0.25
+                },
+                "trkcg_fid": {
+                    "ttl": 2591059,
+                    "length": 48,
+                    "prevalence": 0.00040941658137154553,
+                    "uniqueness": 1
+                },
+                "trkcg_sid": {
+                    "ttl": 1822,
+                    "length": 64,
+                    "prevalence": 0.0003070624360286592,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoportee-discount.fr",
+                "www.beastybike.com",
+                "www.brico-phone.com",
+                "www.chapellerie-traclet.com",
+                "www.labonnepompe.com",
+                "www.maisondelaliterie.fr",
+                "www.monkitsolaire.fr",
+                "www.serresvaldeloire.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000409,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns-1503.awsdns-59.org",
+        "ns-1639.awsdns-12.co.uk",
+        "ns-461.awsdns-57.com",
+        "ns-738.awsdns-28.net"
+    ]
+}

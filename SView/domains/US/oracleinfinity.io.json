@@ -1,0 +1,2583 @@
+{
+    "domain": "oracleinfinity.io",
+    "owner": {
+        "name": "Oracle Corporation",
+        "displayName": "Oracle",
+        "privacyPolicy": "https://www.oracle.com/legal/privacy/privacy-policy.html",
+        "url": "http://oracle.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000594,
+    "sites": 84,
+    "subdomains": [
+        "c",
+        "d",
+        "dc"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/evey2dnr2r\\/js\\/testdev_build\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "494358aef95e81622d67d0a647412ba295a2b58550e1da3d73e9de7f0f5651d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "build.com",
+                "www.build.com",
+                "www.faucetdirect.com",
+                "www.fergusonhome.com",
+                "www.lightingdirect.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.46\\/common\\.js",
+            "cookies": 0.0000495,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7,
+                "window.localStorage": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Navigator.prototype.language": 7,
+                "Navigator.prototype.appName": 7,
+                "Screen.prototype.pixelDepth": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "Document.cookie getter": 7,
+                "Navigator.prototype.doNotTrack": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Document.cookie setter": 7,
+                "Navigator.prototype.javaEnabled": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "5233b8e628617f99719b3b7ae193f9b5e5b5897c181d06f578a82f140c38dfda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113856,
+                    "length": 2,
+                    "prevalence": 0.00004951335445903124,
+                    "uniqueness": 0.14285714285714285
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "build.com",
+                "www.build.com",
+                "www.faucetdirect.com",
+                "www.fergusonhome.com",
+                "www.lightingdirect.com",
+                "www.pacificpower.net",
+                "www.rockymountainpower.net"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/evey2dnr2r\\/js\\/testdev_build\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTimezoneOffset": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "7d533624ff05b977d34d1d34c9b206d9d5114fc41d5b645e0358c15559f42d60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "build.com",
+                "www.build.com",
+                "www.faucetdirect.com",
+                "www.fergusonhome.com",
+                "www.lightingdirect.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/evey2dnr2r\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "c6c959a55e54b78d14c4dc41d38ade7cc2b607a18f642001c9b1f96e71dcbe21",
+                "6d40fa8c552ef5d9973507cdce3fbea2025b71550e1deabfd97cd18284118764",
+                "22be56b57950fbc11520097779405ba12f9496eac7c1a71595ddc8f5eb9781c7",
+                "5ccf38f36df6ba30fb9f2177a75daf3f9f73b3117aae17461218add74f6c549c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "build.com",
+                "www.build.com",
+                "www.faucetdirect.com",
+                "www.fergusonhome.com",
+                "www.lightingdirect.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/evey2dnr2r\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dy_fs_page": 0.00003536668175645088
+            },
+            "exampleSites": [
+                "build.com",
+                "www.build.com",
+                "www.faucetdirect.com",
+                "www.fergusonhome.com",
+                "www.lightingdirect.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/dd53yin5mw\\/js\\/dowchem\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d88d6e4c3599a4f7b64ea6d8a99ea302ff8e6f5ec9e271e96116efddea521830"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dow.com",
+                "www.dow.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/dd53yin5mw\\/js\\/dowchem\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c9ab2f45838157552bd9d56660cbb18e70ac7f32a3f07efc72a5277967fa87a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dow.com",
+                "www.dow.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/common\\/js\\/1\\.3\\.43\\/common\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.appName": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.javaEnabled": 2,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e459686ed93cae4bd847128b0b0984cc9816bb1670a950e891b56b8a1e6338c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113868,
+                    "length": 2,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "WTPERSIST": {
+                    "ttl": 31536017,
+                    "length": 11,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dow.com",
+                "www.dow.com",
+                "www.nationalacademies.org"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/dd53yin5mw\\/js\\/dowchem\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a605589e9e6839ca5b287f6b97231a41feb34c8c2c2f5bf96d9fec5a4b79e9fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dow.com",
+                "www.dow.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/dd53yin5mw\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3d9ccfd891afa453db08ecb2d166fdff5c752c7524b73a4b35c8ca341245fb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dow.com",
+                "www.dow.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/dd53yin5mw\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "WTPERSIST": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "dow.com",
+                "www.dow.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/heul299ijy\\/js\\/main\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "fff12ecc5296ce11b276bf995c45f9913b9752da7f3b784b3504454143b0050b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spirit.com",
+                "customersupport.spirit.com",
+                "www.spirit.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/heul299ijy\\/js\\/main\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "9474cda3a892f8360817f0e8a10bfdbfd55c881f365c072141d5a8c24e1a7ed1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spirit.com",
+                "customersupport.spirit.com",
+                "www.spirit.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.49\\/common\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.appName": 4,
+                "Screen.prototype.pixelDepth": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.javaEnabled": 3,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "b2cdf3f36926827e86ba5dfd750d2c47bc22a0ea5e975b44be40da3d0addd277"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113869,
+                    "length": 2,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "FPC": {
+                    "ttl": 63113856,
+                    "length": 2,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "WTPERSIST": {
+                    "ttl": 31536005,
+                    "length": 11,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spirit.com",
+                "customersupport.spirit.com",
+                "www.hmhco.com",
+                "www.ingersollrand.com",
+                "www.medmutual.com",
+                "www.oppd.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/heul299ijy\\/js\\/main\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eb3b72339890fb04bc29815b440fad869f8be009286e133ffb145e2d2950df71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spirit.com",
+                "customersupport.spirit.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/heul299ijy\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8152c0463a8ee6db6272e22de6efd6042d563b1c65dc88e2f77c99b43befad5b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spirit.com",
+                "customersupport.spirit.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/heul299ijy\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spirit.com",
+                "customersupport.spirit.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.45\\/common\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.appName": 5,
+                "Screen.prototype.pixelDepth": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.javaEnabled": 2
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "154ad6de6380d2749374c82b8e61f172eb2f7614861592040c5ab783c23aaa2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113858,
+                    "length": 2,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hrsa.gov",
+                "macys.com",
+                "member.medmutual.com",
+                "www.csai.canon.com",
+                "www.macys.com",
+                "www.nvenergy.com",
+                "www.toronto.ca",
+                "www.usa.canon.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/8b70855c24194bfe45f406c2b214c35c\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hrsa.gov",
+                "data.hrsa.gov"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/616407edcb4a4ab7a80907fef309508a\\/js\\/maxymiser_prod\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d6fac6e818f78dafb52fd42d9c7ebbd95d460e2c4bff685d0aa551fb3deff0e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aegeanair.com",
+                "en.aegeanair.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.52\\/common\\.js",
+            "cookies": 0.000099,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "window.localStorage": 14,
+                "Navigator.prototype.language": 12,
+                "Navigator.prototype.appName": 12,
+                "Screen.prototype.pixelDepth": 11,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "window.innerWidth": 13,
+                "window.innerHeight": 13,
+                "Document.cookie getter": 14,
+                "Navigator.prototype.doNotTrack": 14,
+                "Document.cookie setter": 14,
+                "Date.prototype.getTime": 14,
+                "Navigator.prototype.userAgent": 14,
+                "Date.prototype.getTimezoneOffset": 10,
+                "Navigator.prototype.javaEnabled": 2
+            },
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "f4e328fb2b692b862276e4802ce9e35998b6a2874791c0037a48aaddd510b919"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113855,
+                    "length": 2,
+                    "prevalence": 0.00008488003621548212,
+                    "uniqueness": 0.08333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aegeanair.com",
+                "en.aegeanair.com",
+                "www.cancertherapyadvisor.com",
+                "www.clinicaladvisor.com",
+                "www.dermatologyadvisor.com",
+                "www.empr.com",
+                "www.foxtheatre.org",
+                "www.infectiousdiseaseadvisor.com",
+                "www.mcknights.com",
+                "www.mmm-online.com",
+                "www.rarediseaseadvisor.com",
+                "www.renalandurologynews.com",
+                "www.thecardiologyadvisor.com",
+                "www.utas.edu.au"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/616407edcb4a4ab7a80907fef309508a\\/js\\/maxymiser_prod\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "40043b67a7aa19e449d39329ea70941f63c408eb7ac30ffef8acc26cf282a990"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aegeanair.com",
+                "en.aegeanair.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/personalization\\/616407edcb4a4ab7a80907fef309508a\\/production\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7e0b0ba76cb9367d7132d875bd65c50f097b8c75417303cbbfa7bf349359a71a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aegeanair.com",
+                "en.aegeanair.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/616407edcb4a4ab7a80907fef309508a\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6a43c662d1ebd28924dc298c93364bfdba7de214fc59330999f3af8e12083842"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aegeanair.com",
+                "en.aegeanair.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/616407edcb4a4ab7a80907fef309508a\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aegeanair.com",
+                "en.aegeanair.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/t3ctwioupl\\/js\\/frontier\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "65262a33f678418e69f71ea0b469f11875839da8a0e89ee4811d1b98bc4e2551"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyfrontier.com",
+                "www.flyfrontier.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/b8329d0ce88880c0e053ae14000a63e5\\/js\\/macys\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1ce668bf8f439ea21b64871a6e547d456b98ca303138b0ac87522438c4b4cf90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macys.com",
+                "www.macys.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/a548072b1841434b697aea773de5330f\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "934a787a376b298fca295f5546a0b4ccc3ab265c2a7bb86ed906c49012aeee6b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medmutual.com",
+                "www.medmutual.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/a548072b1841434b697aea773de5330f\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medmutual.com",
+                "www.medmutual.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/j00n6tclrh\\/js\\/tms\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "c849d83dab498b6d6d7bc6fc3a99283d739a181ef7461bf55d2eee546fd9b7ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theoutnet.com",
+                "www.mrporter.com",
+                "www.net-a-porter.com",
+                "www.theoutnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/uiiyot1djz\\/js\\/business\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.doNotTrack": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "699c9d779673c1addc67888de66aeb67a1f829f4d549c837964e1c88b0b9af42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
+                "www.business.att.com",
+                "www.firstnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/uiiyot1djz\\/js\\/business\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "86b6935988f358fb1ec1227b4e0694a2c38f5f53fb838cd316bda9566b9ce388"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
+                "www.business.att.com",
+                "www.firstnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.50\\/common\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.appName": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6955dddaafcf5303405de3a35127dd153095ffa56d3a11b08b3ac9bf726b90ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113856,
+                    "length": 2,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
+                "www.business.att.com",
+                "www.firstnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/uiiyot1djz\\/js\\/business\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "829725d996dab0444664a61262f90b1f2d02c76dda9874840b72e24d0651a808"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
+                "www.business.att.com",
+                "www.firstnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/personalization\\/uiiyot1djz\\/production\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "c77f0e9439dafe26549be8a351148d07c56063f497135d3c02c95e8016920b96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
+                "www.business.att.com",
+                "www.firstnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/uiiyot1djz\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "267164b0afacb667142993a8e9cc45f76cbe43ee44e96c314618d34f4d00cad0",
+                "cda8ffa1e691f7b25d6f0927457345d77dc9409e7b544ea066f9b303c7deb52e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "att.com",
+                "www.business.att.com",
+                "www.firstnet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/js\\/cta_tag\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9eaa4e2887a72e83b9bba735eed20ee29e5309bbef49a63421199463c6614c25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancertherapyadvisor.com",
+                "www.cancertherapyadvisor.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/js\\/cta_tag\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4c7c842f3fed492ec81c4c146f87f86d1477f7f2a1530937bf6b7367f7fea5fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancertherapyadvisor.com",
+                "www.cancertherapyadvisor.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/personalization\\/63aeeb6470e44a09fe5c5e9427c00dff\\/production\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "2da9992b3d2d7fbc1853637234d50582f82d0a6527ecc0b8d41280c5f5e59de0",
+                "6e106f7681504444439aec26df1e70bb9b669df5748de80cafd540ff71e62196"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancertherapyadvisor.com",
+                "www.cancertherapyadvisor.com",
+                "www.clinicaladvisor.com",
+                "www.dermatologyadvisor.com",
+                "www.empr.com",
+                "www.infectiousdiseaseadvisor.com",
+                "www.mcknights.com",
+                "www.mmm-online.com",
+                "www.rarediseaseadvisor.com",
+                "www.renalandurologynews.com",
+                "www.thecardiologyadvisor.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "319f574bf6d1c77e61d939aae09ea07179d176553cb41d4d748adfb42a8479a5",
+                "9e1ac61406039d1df474e3c050028ee813fccc83f1af1f9365bf3512614a91e3",
+                "e9046d7922cbcdf093f64255c4fa4320e2f766fced89abfb8fddfdf11b2bba62",
+                "2d24b753e4a7e11bca72cc2ead8762dd2a2ebbf801b3ca24dc72a7f1c214b44b",
+                "0ee4d0945ee5b1b767b13eaf9c4eb1f5d11499f4b40c194da49d2ce7a06348d8",
+                "f39e0a214fadfbb5c06e6cccf058ec0f64ebb5017d6c4f5589a9b5e33fc7344b",
+                "c47eb1e2deb9acb321dbe2c7e2e3446ca9d7f4bc3cf35482d25fb4dddb0a7e60",
+                "50a42ade4bf8863c4ea411e9b254e5ab989d8767fa7f573d4b71a61c32b5fd98",
+                "7cd63a0212a504655012076869c1b53c42375f9ddc000a20fd89a003567bb9d8",
+                "ade3c1522cabb7ddfbc4889b8ba498f4e42e567c001cf0ad2d0e845aeef4c181"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancertherapyadvisor.com",
+                "www.cancertherapyadvisor.com",
+                "www.clinicaladvisor.com",
+                "www.dermatologyadvisor.com",
+                "www.empr.com",
+                "www.infectiousdiseaseadvisor.com",
+                "www.mcknights.com",
+                "www.mmm-online.com",
+                "www.rarediseaseadvisor.com",
+                "www.renalandurologynews.com",
+                "www.thecardiologyadvisor.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/63aeeb6470e44a09fe5c5e9427c00dff\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancertherapyadvisor.com",
+                "www.cancertherapyadvisor.com",
+                "www.clinicaladvisor.com",
+                "www.dermatologyadvisor.com",
+                "www.empr.com",
+                "www.infectiousdiseaseadvisor.com",
+                "www.mcknights.com",
+                "www.mmm-online.com",
+                "www.rarediseaseadvisor.com",
+                "www.renalandurologynews.com",
+                "www.thecardiologyadvisor.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.51\\/common\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 5,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.appName": 4,
+                "Screen.prototype.pixelDepth": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.javaEnabled": 1,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "322eed70cb5550687ee9038d8e0b34ec0943af92cc63d28c13fc8d2355093d1e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_FPC": {
+                    "ttl": 63113854,
+                    "length": 2,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cashnetusa.com",
+                "www.emerson.com",
+                "www.khaleejtimes.com",
+                "www.massimodutti.com",
+                "www.trinet.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/js\\/ca_tag\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e7d947d3a532b29cbc3b9f119741813b02ed23581614c2af37c785b08db53371"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clinicaladvisor.com",
+                "www.clinicaladvisor.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/js\\/ca_tag\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4c7c842f3fed492ec81c4c146f87f86d1477f7f2a1530937bf6b7367f7fea5fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clinicaladvisor.com",
+                "www.clinicaladvisor.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/f486qt8ud6\\/js\\/canon\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "10e49084cedec83c5895866a293ee7b5eb21891561067f7c30138e4013337a1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.com",
+                "www.usa.canon.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/f486qt8ud6\\/js\\/canon\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "aa0a3b8717783a90c946cf4c3cf5719fcf3074bdb618a98f256d34d56b77cfb8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.com",
+                "www.usa.canon.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/f486qt8ud6\\/js\\/canon\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d972af86525cce3d548880fc720474cc60da19361022b12bc9d1e346cc8e682a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.com",
+                "www.usa.canon.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/f486qt8ud6\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "be0e1d3f46f55c453eeaa8bc7452a597d59d449a010a79b0671713a1b75cf91d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.com",
+                "www.usa.canon.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/f486qt8ud6\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.com",
+                "www.usa.canon.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/js\\/da_tag\\/odc\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.doNotTrack": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "01af81e014aef296269897f3f155c02118766bba607512b3f2fa21422f8ea0df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ORA_PERS": {
+                    "ttl": 63113855,
+                    "length": 2276,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermatologyadvisor.com",
+                "www.dermatologyadvisor.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/js\\/da_tag\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4c7c842f3fed492ec81c4c146f87f86d1477f7f2a1530937bf6b7367f7fea5fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermatologyadvisor.com",
+                "www.dermatologyadvisor.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/display\\/v1\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/state",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermatologyadvisor.com",
+                "www.dermatologyadvisor.com",
+                "www.mcknights.com",
+                "www.mmm-online.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/display\\/v1\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/state",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "f3c69183d19b9bbcf4b7b23edf7169da93f55765f0e9810b680ed99ef7285c09",
+                "5fcb11b6918488bcbfb90ceaab86075ae190a87edd4488c40b3818247a2fceda"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermatologyadvisor.com",
+                "www.dermatologyadvisor.com",
+                "www.mcknights.com",
+                "www.mmm-online.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/7d3c759373f94878d249d3a9ec714d41\\/js\\/domyown\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "870d0c1d3d85d4c3fbe3ff98c563c4a61b4e9707200cbdacb55f24b79eeb5b70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domyown.com",
+                "www.domyown.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/1\\.3\\.44\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.appName": 1,
+                "Screen.prototype.pixelDepth": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.javaEnabled": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domyown.com",
+                "www.domyown.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/7d3c759373f94878d249d3a9ec714d41\\/js\\/domyown\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domyown.com",
+                "www.domyown.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/7d3c759373f94878d249d3a9ec714d41\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domyown.com",
+                "www.domyown.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/7d3c759373f94878d249d3a9ec714d41\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domyown.com",
+                "www.domyown.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/js\\/empr_tag\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "980c05cd1516ad7f13bb59f46e27b539e60fb5878413549c6dfb5d62f92fb72e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "empr.com",
+                "www.empr.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/63aeeb6470e44a09fe5c5e9427c00dff\\/js\\/empr_tag\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4c7c842f3fed492ec81c4c146f87f86d1477f7f2a1530937bf6b7367f7fea5fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "empr.com",
+                "www.empr.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/evey2dnr2r\\/js\\/production_environment\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8e96de3435f4f762ac6ca4806b2eea5afcdce428077ad51c7fe546a9065ba19a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ferguson.com",
+                "www.ferguson.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/9c48e6e9ed704f26a7312609c2579f84\\/js\\/hmh\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "be8d840f8be13851af1ca12951ab1dc32d37ef7383e059bd057318862d196f63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hmhco.com",
+                "www.hmhco.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/9c48e6e9ed704f26a7312609c2579f84\\/js\\/hmh\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "01018b99a48e15d885bb83bd8f572ec968aa82791278f1a0888b46ad487f6b9d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hmhco.com",
+                "www.hmhco.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/9c48e6e9ed704f26a7312609c2579f84\\/js\\/hmh\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "84d5df901744b0c5c46e54ebd4143261c31bbfac90bebe2b7b3dd5e563836346"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hmhco.com",
+                "www.hmhco.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/9c48e6e9ed704f26a7312609c2579f84\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "45742aec61b62383faa2d26db6f4f2eb2a95cf93a95684011632f41cbd21e9dd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hmhco.com",
+                "www.hmhco.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/9c48e6e9ed704f26a7312609c2579f84\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hmhco.com",
+                "www.hmhco.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/4924f52ea6a44e99017f23db7caeed8a\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ingersollrand.com",
+                "www.ingersollrand.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/3635138d8e594c2c1be5bc1f505e5b30\\/js\\/media_bu\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5ce91b7956fc26d9eea503d0a7b7d0219f83ad9caf8f912e1c1bfa8c727f5fdf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khaleejtimes.com",
+                "www.khaleejtimes.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/3635138d8e594c2c1be5bc1f505e5b30\\/js\\/media_bu\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "002edc78a451f048b1098281b14609ca38b0d547334d063d7cdb148dfa2dac86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khaleejtimes.com",
+                "www.khaleejtimes.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/personalization\\/3635138d8e594c2c1be5bc1f505e5b30\\/production\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c77f0e9439dafe26549be8a351148d07c56063f497135d3c02c95e8016920b96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khaleejtimes.com",
+                "www.khaleejtimes.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/common\\/js\\/recommender\\/4\\.0\\.1\\/recommender\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dde4c6a30185509ab937c69abc84b3e07080724f17aee859edd471f3e6d8378e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khaleejtimes.com",
+                "www.khaleejtimes.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/3635138d8e594c2c1be5bc1f505e5b30\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "de37df0884bc21e757ca6b731012d2280cea2ca9c7a847bfb60b2e72057b9cf7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khaleejtimes.com",
+                "www.khaleejtimes.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/3635138d8e594c2c1be5bc1f505e5b30\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khaleejtimes.com",
+                "www.khaleejtimes.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/704297e51812451f88726367389e9dd3\\/js\\/gtm\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4c33b037de8771e6c9b3ab9b9646b213440ec231e286cda155760638c6a75933"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "massimodutti.com",
+                "www.massimodutti.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/704297e51812451f88726367389e9dd3\\/js\\/gtm\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "180cd4c3a024cc55d7cfcf4721b5a41628ec3a452a9eaf205236a59a9e59c6d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "massimodutti.com",
+                "www.massimodutti.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/704297e51812451f88726367389e9dd3\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "24bfe72a86528c8a97a8812b3b6148f24921d0c0764a64739f91eff70775ee62"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "massimodutti.com",
+                "www.massimodutti.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/a548072b1841434b697aea773de5330f\\/js\\/medmutual\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d05ba38ada3999b997c7b29db25f35a08c359bd59f80a91c9e5c8da5730c51c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medmutual.com",
+                "www.medmutual.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/a548072b1841434b697aea773de5330f\\/js\\/medmutual\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e81af625802065f431e29c825f26dab8ae05bf0107777719683ac4bcd2fc5629"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medmutual.com",
+                "www.medmutual.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/a548072b1841434b697aea773de5330f\\/js\\/medmutual\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "811cd118ee1ace12bc79ec2e534ac15de1474a5e810fcd60d3dde932d7130c9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medmutual.com",
+                "www.medmutual.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/71d0e8ea7528454dc1a589b9850ae269\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalacademies.org",
+                "www.nationalacademies.org"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/f1b66dd938f9483018795bb87054be64\\/js\\/nve\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "539961ac2f80935f74cf81b1eaf9aed88afe2311ddd0f1851d409c435c88b118"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/f1b66dd938f9483018795bb87054be64\\/js\\/nve\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "033daf9c8f0e7150d26fbb3189b17f390eb529deedc2cebc7bdc2923b7fad1fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/f1b66dd938f9483018795bb87054be64\\/js\\/nve\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b4d6e564cc9f9825502b551bd04022da6274b20774a43184a684f633514fd859"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/f1b66dd938f9483018795bb87054be64\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "2efbd1a0fa64e5e3aca1a71232df60e9d81be474ededb00b74b2297e2eb0bd7f",
+                "1aaa9c5ae5be92bebb1f2af32f3846d68d50ffa04d4af0771095b62e1502ae6b",
+                "1db4831cd27a36276676d8d88802da26b28977d4d66440dfdd0ab375671a6b08"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com",
+                "www.pacificpower.net",
+                "www.rockymountainpower.net"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/f1b66dd938f9483018795bb87054be64\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/f1b66dd938f9483018795bb87054be64\\/js\\/pac\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "f21c3d0cac8aa33f6dad4d0198ebae464e95214a1cdc5a21005e0b5dac601a8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pacificpower.net",
+                "www.pacificpower.net",
+                "www.rockymountainpower.net"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/f1b66dd938f9483018795bb87054be64\\/js\\/pac\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "1ce97781c193d2a23e69144b0c1de268ef8ea38eaa82eace622d3747afc7e127"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pacificpower.net",
+                "www.pacificpower.net",
+                "www.rockymountainpower.net"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/f1b66dd938f9483018795bb87054be64\\/js\\/pac\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "645818f6858ea8ed7ed4950bb212097f7ce71672fdfb5e7cd98655b2c5f39538"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pacificpower.net",
+                "www.pacificpower.net",
+                "www.rockymountainpower.net"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/97j62divdr\\/js\\/main\\/odc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "841e0247bc5dc4e742fef4b93957dee495f30e3a87d78a253557c1f8815fe68a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toronto.ca",
+                "www.toronto.ca"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/acs\\/account\\/97j62divdr\\/js\\/main\\/analytics-production\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4132c1141454edc12b7cb4653eeaf00c955820a4cf6eefe32c9a1fe52c2590c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toronto.ca",
+                "www.toronto.ca"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/infy\\/acs\\/account\\/97j62divdr\\/js\\/main\\/analytics-production\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "651fca4789ebdcf8167edf9b5e91307ef772190c7f2d86cdf062c22da1c74a2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toronto.ca",
+                "www.toronto.ca"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/v4\\/account\\/97j62divdr\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2084cebe261fdf1a309b649a6d27292cdfffdc6c110744479dca0a9afa5d5d34"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toronto.ca",
+                "www.toronto.ca"
+            ]
+        },
+        {
+            "rule": "oracleinfinity\\.io\\/97j62divdr\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toronto.ca",
+                "www.toronto.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000389,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.45149253731343286
+        },
+        {
+            "domain": "oraclecloud.com",
+            "prevalence": 0.23134328358208955
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11194029850746269
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.09701492537313433
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.026119402985074626
+        },
+        {
+            "domain": "bsnconnect.com",
+            "prevalence": 0.022388059701492536
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.018656716417910446
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.014925373134328358
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.011194029850746268
+        },
+        {
+            "domain": "powerapps.com",
+            "prevalence": 0.007462686567164179
+        }
+    ],
+    "types": {
+        "Script": 182,
+        "XHR": 43,
+        "Image": 42,
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns3.p201.dns.oraclecloud.net",
+        "ns1.p201.dns.oraclecloud.net",
+        "ns2.p201.dns.oraclecloud.net",
+        "ns4.p201.dns.oraclecloud.net"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "domain": "vodafone.nl",
+    "owner": {
+        "name": "Vodafone Group Services Limited",
+        "displayName": "Vodafone Group Services"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "vodafone\\.nl\\/account\\/inloggen",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "21175d490c684abec8898f2d9d73625678927b93713d432c7e50255ed11fe876"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ziggo.nl",
+                "www.ziggo.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "dnsit01.vodafone.nl",
+        "dnsit02.vodafone.nl"
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "domain": "ab21.xyz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "h"
+    ],
+    "cnames": [
+        {
+            "original": "voorkeuren.tvgids.nl",
+            "resolved": "h.ab21.xyz"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ab21\\.xyz\\/v1\\/_",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "voorkeuren.tvgids.nl",
+                    "resolved": "h.ab21.xyz"
+                }
+            ],
+            "responseHashes": [
+                "4726b361d09aca46cd414c28bc1b8f479e91861b72abe4c307c09b0baaa94972"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvgids.nl",
+                "www.tvgids.nl"
+            ]
+        },
+        {
+            "rule": "ab21\\.xyz\\/v1\\/_",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "voorkeuren.tvgids.nl",
+                    "resolved": "h.ab21.xyz"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvgids.nl",
+                "www.tvgids.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "tvgidsassets.nl",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d2.googledomains.com"
+    ]
+}

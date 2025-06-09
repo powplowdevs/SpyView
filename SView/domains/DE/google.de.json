@@ -1,0 +1,439 @@
+{
+    "domain": "google.de",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.074,
+    "sites": 726,
+    "subdomains": [
+        "www",
+        "cse",
+        "ampcid"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "google\\.de\\/ads\\/ga-audiences",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 690,
+            "prevalence": 0.0704,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0915859255481897,
+                "_ym_d": 0.0010198878123406426
+            },
+            "exampleSites": [
+                "9gag.com",
+                "alternativeto.net",
+                "brainly.com",
+                "forum.wordreference.com",
+                "nypost.com",
+                "screenrant.com",
+                "techcrunch.com",
+                "whatismyipaddress.com",
+                "www.azlyrics.com",
+                "www.britannica.com",
+                "www.superprof.de",
+                "ocw.mit.edu",
+                "www.letras.com",
+                "www.todoist.com",
+                "odysee.com",
+                "hausbauberater.de",
+                "ev-database.org",
+                "www.grossesblutbild.de",
+                "manporn.xxx",
+                "ffxiv.consolegameswiki.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/coop\\/cse\\/brand",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cse",
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 7,
+                "Navigator.prototype.platform": 7
+            },
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "6395e6f9f6fbcd953f0ffa40615094c565d86c265fb5028e64dd2dc872b5ce69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aktivbruecke.de",
+                "druckeselbst.de",
+                "www.bezahlen.net",
+                "www.biologie-schule.de",
+                "www.internetchemie.info",
+                "www.mmnews.de",
+                "www.steuerschroeder.de",
+                "www.wassertemperatur.org"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-conversion\\/1053038284\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heizungsdiscount24.de",
+                "www.heizungsdiscount24.de"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-user-list\\/1070530749\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narayana-verlag.de",
+                "www.narayana-verlag.de"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-user-list\\/1005566788\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.com",
+                "www.ebay.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-user-list\\/1070599711\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.com",
+                "www.ebay.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/v1\\/publisher:getClientId",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ampcid"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "economist.com",
+                "www.mylife.com",
+                "www.wattpad.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-user-list\\/813564836\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ionos.com",
+                "www.ionos.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-user-list\\/809305256\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ionos.com",
+                "www.ionos.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-user-list\\/809410904\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ionos.com",
+                "www.ionos.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-user-list\\/10939122841\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "keychron.com",
+                "www.keychron.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-user-list\\/860856797\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "poppen.de",
+                "www.poppen.de"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-user-list\\/10847845336\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shelly.com",
+                "www.shelly.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-conversion\\/1041110894\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "victorinox.com",
+                "www.victorinox.com"
+            ]
+        },
+        {
+            "rule": "google\\.de\\/pagead\\/1p-conversion\\/11388035365\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zerogpt.plus",
+                "www.zerogpt.plus"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7553699284009546
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.11933174224343675
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.07279236276849642
+        },
+        {
+            "domain": "googleadservices.com",
+            "prevalence": 0.041766109785202864
+        },
+        {
+            "domain": "rageagainstthesoap.com",
+            "prevalence": 0.002386634844868735
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.002386634844868735
+        },
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.002386634844868735
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.0011933174224343676
+        },
+        {
+            "domain": "cheqzone.com",
+            "prevalence": 0.0011933174224343676
+        },
+        {
+            "domain": "mysingleromance.com",
+            "prevalence": 0.0011933174224343676
+        }
+    ],
+    "types": {
+        "Image": 714,
+        "Script": 8,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns2.google.com",
+        "ns1.google.com",
+        "ns4.google.com",
+        "ns3.google.com"
+    ]
+}

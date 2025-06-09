@@ -1,0 +1,96 @@
+{
+    "domain": "eruptr.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000269,
+    "sites": 38,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eruptr\\.io\\/epd\\.js",
+            "cookies": 0.000163,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 21,
+                "Document.cookie getter": 23,
+                "window.localStorage": 23,
+                "Document.cookie setter": 23
+            },
+            "sites": 27,
+            "prevalence": 0.000191,
+            "cnames": [],
+            "responseHashes": [
+                "9af942cb64db379e63d1d986f292b3d3b2e071972864cbf132fafbf2670c4fd9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_epd": {
+                    "ttl": null,
+                    "length": 192,
+                    "prevalence": 0.00016268673607967407,
+                    "uniqueness": 0.8260869565217391
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ahs.atlantichealth.org",
+                "uthealtheasttexas.com",
+                "teamtoc.com",
+                "www.avera.org",
+                "www.mhs.net",
+                "www.methodisthealthsystem.org",
+                "bilh.org",
+                "usdigestivehealth.com",
+                "www.childrensnational.org",
+                "www.catholichealthli.org",
+                "childrenswi.org",
+                "www.stanfordchildrens.org",
+                "www.childrensmercy.org",
+                "www.getcare.elcaminohealth.org",
+                "health.uconn.edu",
+                "www.atlantichealth.org",
+                "www.inova.org",
+                "lovelace.com",
+                "www.evergreenhealth.com",
+                "atlantichealth.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000233,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.15
+        },
+        {
+            "domain": "piwik.pro",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 27
+    },
+    "nameservers": [
+        "emerson.ns.cloudflare.com",
+        "marlowe.ns.cloudflare.com"
+    ]
+}

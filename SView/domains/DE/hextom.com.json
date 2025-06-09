@@ -1,0 +1,77 @@
+{
+    "domain": "hextom.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "tms"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "hextom\\.com\\/tms_load_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "hextom\\.com\\/tms_load_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9f060101d88e8150b7fe882393a2e231130277b79ade9f3f01cfba87bb0d72c7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1484.awsdns-57.org",
+        "ns-1851.awsdns-39.co.uk",
+        "ns-60.awsdns-07.com",
+        "ns-704.awsdns-24.net"
+    ]
+}

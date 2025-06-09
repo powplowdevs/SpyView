@@ -1,0 +1,442 @@
+{
+    "domain": "megaphone.fm",
+    "owner": {
+        "name": "Spotify AB",
+        "displayName": "Spotify"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000276,
+    "sites": 39,
+    "subdomains": [
+        "feeds",
+        "traffic",
+        "playlist",
+        "dcs-spotify"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "megaphone\\.fm\\/WWO4092921469",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feeds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7221e0de71e75c7241c305b24a46eecbcf37997ce36ef40f55934caafc84530a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bonginoreport.com",
+                "silverloch.com"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/WWO5104307095\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bonginoreport.com",
+                "silverloch.com"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playlist"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00017,
+            "cnames": [],
+            "responseHashes": [
+                "946b09e1f012ae31c1da04fec94463c32f9ab5707381751e23031ab6d67445ce",
+                "ffba6fa56c416d6fe200b453bd4aa0c498153205aaa350f1b68380e396ac4c27",
+                "3a23b7f916125648e7aa826e4c970bda1ec1a8c89ae86e263115809a6a770d4c",
+                "1edc9b6fb6909da7e050300d4353f5cc6a5374304937a3df0c30d28fbc84aed6",
+                "916bbd0543855b2e5232eb5e6bf72379772fb8904c70100758db092e4cd68136",
+                "8604d13bb16977982e8ee1290ac60fa6c05f726d4bd61aed6511f86a86fb4f03",
+                "7ec4b5bbf41abd8eb085ea8fe5d04c4178f5cceda1df14564d1970c3de1a1947",
+                "c7e694ca3227ba609e76f30be6e337899e34a242fa684f783ece18d151d29e4e",
+                "84cd2228ce6ecfff0f5aca7452ae5025a96165559864910cadd3b44fddfb6cda"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.politico.com",
+                "catholictalkshow.com",
+                "www.morningbrew.com",
+                "cup.columbia.edu",
+                "www.wbap.com",
+                "thedispatch.com",
+                "www.komando.com",
+                "www.billoreilly.com",
+                "virginiatech.sportswar.com",
+                "www.tmz.com",
+                "radio.foxnews.com",
+                "www.today.it",
+                "www.behindthesteelcurtain.com",
+                "www.milanotoday.it",
+                "truthout.org",
+                "www.endtime.com",
+                "www.the-race.com",
+                "www.metal-hammer.de",
+                "www.ibj.com",
+                "www.celticsblog.com"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/assets\\/application-91f5eab2e8b9577328404af470d2b2cc2c9d1844264fc75bfda472626e269c72\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playlist"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "2823df6728bb07a41b34c490bdbfaa044558c80f043d6ef0228c52274bd113b7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "columbia.edu",
+                "www.airdna.co",
+                "www.ibj.com",
+                "www.metal-hammer.de",
+                "www.milanotoday.it",
+                "www.morningbrew.com",
+                "www.romatoday.it",
+                "www.theblock.co",
+                "www.tmz.com",
+                "www.today.it"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/assets\\/application-f439fe6b8a6870bce9b2796ffb3feadb7b021ba0ca9789cd59c2c06d997fae07\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "playlist"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 3,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "5c348c5ff6ad65b113ba80c954e56899a52d0c7b03864d6c0f3cf27f862e50f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "columbia.edu",
+                "www.airdna.co",
+                "www.ibj.com",
+                "www.metal-hammer.de",
+                "www.milanotoday.it",
+                "www.morningbrew.com",
+                "www.romatoday.it",
+                "www.theblock.co",
+                "www.tmz.com",
+                "www.today.it"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/assets\\/fonts\\/pnply-font-medium-0ae5c154fe56f2579512503905ce24e8b3146f09ba2f1a9ce21c8ac5f8ffdb0b\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playlist"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "ad84a47bb45bfeca5a9031d3c59db9527da4b283aa9a841f5905806abf5bee56"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "columbia.edu",
+                "www.airdna.co",
+                "www.ibj.com",
+                "www.metal-hammer.de",
+                "www.milanotoday.it",
+                "www.morningbrew.com",
+                "www.romatoday.it",
+                "www.theblock.co",
+                "www.tmz.com",
+                "www.today.it"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/assets\\/fonts\\/pnply-icons-dc6472be6045d490471281743fc51d5146eba74762c673a12febbf11c01ee276\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playlist"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "df04689ee0e4b8a9fabf1812d89d66c02f407f7b89d7bb575ef3d05768a2161b"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "columbia.edu",
+                "www.airdna.co",
+                "www.ibj.com",
+                "www.metal-hammer.de",
+                "www.milanotoday.it",
+                "www.morningbrew.com",
+                "www.romatoday.it",
+                "www.theblock.co",
+                "www.tmz.com",
+                "www.today.it"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/assets\\/megaphone-play-EVYWJQ6F\\.digested\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playlist"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "222b4222abc946b3f56e1c0d18d2bfa148f4eaf91106824802a4e94a4952bcba"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "columbia.edu",
+                "www.airdna.co",
+                "www.ibj.com",
+                "www.metal-hammer.de",
+                "www.milanotoday.it",
+                "www.morningbrew.com",
+                "www.romatoday.it",
+                "www.theblock.co",
+                "www.tmz.com",
+                "www.today.it"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/GLT7223729648\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic",
+                "dcs-spotify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theringer.com",
+                "nbadraft.theringer.com"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/CXW1857870697\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic",
+                "dcs-spotify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossway.org",
+                "www.crossway.org"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/CSIS5217379828\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic",
+                "dcs-spotify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csis.org",
+                "www.csis.org"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/CSIS7894112076\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic",
+                "dcs-spotify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csis.org",
+                "www.csis.org"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/CSIS8696270393\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic",
+                "dcs-spotify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csis.org",
+                "www.csis.org"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/CSIS2613674911\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic",
+                "dcs-spotify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csis.org",
+                "www.csis.org"
+            ]
+        },
+        {
+            "rule": "megaphone\\.fm\\/HNAST8469618432\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "traffic",
+                "dcs-spotify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rch.org.au",
+                "www.rch.org.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9772727272727273
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.022727272727272728
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Media": 16,
+        "Document": 24,
+        "Stylesheet": 10,
+        "Script": 10,
+        "Font": 20,
+        "Image": 10
+    },
+    "nameservers": [
+        "ns-1732.awsdns-24.co.uk",
+        "ns-390.awsdns-48.com",
+        "ns-1344.awsdns-40.org",
+        "ns-553.awsdns-05.net"
+    ]
+}

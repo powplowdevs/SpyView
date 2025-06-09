@@ -1,0 +1,399 @@
+{
+    "domain": "botframework.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000396,
+    "sites": 56,
+    "subdomains": [
+        "cdn",
+        "unitedstates.directline",
+        "directline",
+        "webchat"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "botframework\\.com\\/botframework-webchat\\/latest\\/webchat\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 15,
+                "Navigator.prototype.language": 15,
+                "Navigator.prototype.mediaDevices": 13,
+                "window.localStorage": 15,
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.platform": 3,
+                "Element.prototype.getClientRects": 3,
+                "Date.prototype.getTime": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 20,
+            "prevalence": 0.000141,
+            "cnames": [],
+            "responseHashes": [
+                "74f25e06ca7e129830d80ce20633807ee402c2163b758a9642a1845c59cadb14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azmvdnow.gov",
+                "carle.org",
+                "dds.georgia.gov",
+                "edfinancial.studentaid.gov",
+                "help.summitracing.com",
+                "jfs.ohio.gov",
+                "knowledge.exlibrisgroup.com",
+                "login.flvs.net",
+                "make.powerautomate.com",
+                "med.noridianmedicare.com",
+                "wexnermedical.osu.edu",
+                "www.aberdeencity.gov.uk",
+                "www.abrsm.org",
+                "www.conference-board.org",
+                "www.dau.edu",
+                "www.flores247.com",
+                "www.flvs.net",
+                "www.flydulles.com",
+                "www.geld.nl",
+                "www.vec.virginia.gov"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/v3\\/directline\\/conversations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unitedstates.directline",
+                "directline",
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "7295d0f2080c789ac038cd135a9d53aa9caaea873d6f47c28d54e14c47705335",
+                "7b8c295d744159fcf08ccc07c7a6c0d65bc39d60c3b009fbfbe647f82a7434a3",
+                "74bc3b816c3b0cec613df8e189e553d08bcf01a32d59682d7d7ba10f3be6256f",
+                "a3e80313f64d398a844663d7078664ed536627e8daae49e61b402ef412c1164b",
+                "cb6f9b8dea09317e0d8f5672d9add926b3c76780d2eb0cb0bb8a74cdd7ba716b",
+                "febf0965d6fa50667dbc50417fdbef95feafb693f4f3fb45beb557eee7cb0d79",
+                "9654e6f378444e706062a52ab111864207cf4b59bf59e5e9704de06a79138687",
+                "66070cad9b4f3bbe75dcbf7fd551187ad30ece428908a28a4bc3cfa801039c07",
+                "b5876ffc68e40939c1ae385372fa7bf5432b4bf183e966af4f7455d885da5c6f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "studentaid.gov",
+                "edfinancial.studentaid.gov",
+                "wits.worldbank.org",
+                "www.aberdeencity.gov.uk",
+                "www.flores247.com",
+                "www.mypinellasclerk.gov",
+                "www.ncrec.gov",
+                "www.northlanarkshire.gov.uk",
+                "www.synaptics.com",
+                "www.tim.it",
+                "www.vec.virginia.gov",
+                "www.wsscwater.com",
+                "www.zebra.com"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/v3\\/directline\\/conversations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unitedstates.directline",
+                "directline"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "studentaid.gov",
+                "wits.worldbank.org",
+                "www.aberdeencity.gov.uk",
+                "www.flores247.com",
+                "www.indianaunclaimed.gov",
+                "www.ncrec.gov",
+                "www.northlanarkshire.gov.uk",
+                "www.synaptics.com",
+                "www.tim.it",
+                "www.vec.virginia.gov",
+                "www.wsscwater.com",
+                "www.zebra.com"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/botframework-webchat\\/4\\.14\\.1\\/webchat\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 7,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.mediaDevices": 4
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "19251e221ced2fb5cbad60a5f514df5b976ff0da77bbe62319896a8d03c5a889"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "columbiagasohio.com",
+                "myaccount.nipsco.com",
+                "www.boschtools.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.dremel.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/v3\\/directline\\/conversations\\/KYIP3ZEbX8nGwdst4T4lES-us\\/activities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "directline"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ef17d8104464d260ad15fbb47a99a9a6d03eeb4b28898635e503a5c52a0dd61b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indianaunclaimed.gov",
+                "www.indianaunclaimed.gov"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/embed\\/pinellasclerklanguageservice1-bot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mypinellasclerk.gov",
+                "www.mypinellasclerk.gov"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/embed\\/pinellasclerklanguageservice1-bot\\/gemini",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "334864ecef1ff214f7ff8c56831863a97e674bd2543ded9de4aabe09376c9c05"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mypinellasclerk.gov",
+                "www.mypinellasclerk.gov"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/embed\\/pinellasclerklanguageservice1-bot\\/config",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "317f871ca9bcf0f7b0cc397920adaf81e114d7d10f764928779695e4fac36a4d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mypinellasclerk.gov",
+                "www.mypinellasclerk.gov"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/botframework-webchat\\/4\\.15\\.1\\/webchat-es5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cfcab7fa1b2e5f57e7a89695de1017806604b9d51c137f9be1b9f9549c200efc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mypinellasclerk.gov",
+                "www.mypinellasclerk.gov"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/embed\\/pinellasclerklanguageservice1-bot\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mypinellasclerk.gov",
+                "www.mypinellasclerk.gov"
+            ]
+        },
+        {
+            "rule": "botframework\\.com\\/botframework-webchat\\/4\\.17\\.0\\/webchat\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.mediaDevices": 1,
+                "window.localStorage": 1,
+                "URL.createObjectURL": 1,
+                "Navigator.prototype.platform": 1,
+                "Element.prototype.getClientRects": 1,
+                "Date.prototype.getTime": 1,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "northlanarkshire.gov.uk",
+                "www.snhu.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7032967032967034
+        },
+        {
+            "domain": "powerapps.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "virtualpeople.ai",
+            "prevalence": 0.06593406593406594
+        },
+        {
+            "domain": "motioncxapps.com",
+            "prevalence": 0.04395604395604396
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.03296703296703297
+        },
+        {
+            "domain": "powerapps.us",
+            "prevalence": 0.03296703296703297
+        },
+        {
+            "domain": "us-nc-paas-cfh-chathealthbotprod.azurewebsites.net",
+            "prevalence": 0.01098901098901099
+        },
+        {
+            "domain": "windows.net",
+            "prevalence": 0.01098901098901099
+        },
+        {
+            "domain": "uvawebappfrontendprodphase2.azurewebsites.net",
+            "prevalence": 0.01098901098901099
+        },
+        {
+            "domain": "microsoft.com",
+            "prevalence": 0.01098901098901099
+        }
+    ],
+    "types": {
+        "Script": 32,
+        "XHR": 13,
+        "Preflight": 12,
+        "Fetch": 6,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns1-205.azure-dns.com",
+        "ns4-205.azure-dns.info",
+        "ns2-205.azure-dns.net",
+        "ns3-205.azure-dns.org"
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "domain": "t2bkonx.x.incapdns.net",
+    "owner": {
+        "name": "Imperva Inc.",
+        "displayName": "Imperva"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.airtransat.com",
+            "resolved": "t2bkonx.x.incapdns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "t2bkonx\\.x\\.incapdns\\.net\\/en-CA\\/Services\\/FlightRoutes\\/GetAirports",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.airtransat.com",
+                    "resolved": "t2bkonx.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "3defe3f231cfadbcc5ab12ecbd0829b770239eaa05c1455f360a31dbf309b017"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airtransat.com",
+                "www.airtransat.com"
+            ]
+        },
+        {
+            "rule": "t2bkonx\\.x\\.incapdns\\.net\\/en-CA\\/Services\\/Campaign\\/GetFlights",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.airtransat.com",
+                    "resolved": "t2bkonx.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "b6ccbb6c5ee19ca2f4d2b727cb079a153ba646b86afc27ec50e32e6ca048a95c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airtransat.com",
+                "www.airtransat.com"
+            ]
+        },
+        {
+            "rule": "t2bkonx\\.x\\.incapdns\\.net\\/en-CA\\/Services\\/FlightCalendar\\/GetDatesByType",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.airtransat.com",
+                    "resolved": "t2bkonx.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "02d05aea3c05427a888ba66ca623e2d63abf2e224269a92ab7fa7366652f240e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airtransat.com",
+                "www.airtransat.com"
+            ]
+        },
+        {
+            "rule": "t2bkonx\\.x\\.incapdns\\.net\\/en-CA\\/Services\\/BestPrice\\/GetBestPricePerMonth",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.airtransat.com",
+                    "resolved": "t2bkonx.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "d0bbcf19be63916f96a5833e81e2c82156d35db44c413928221c30d8709995c6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airtransat.com",
+                "www.airtransat.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.8461538461538461
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "XHR": 8
+    },
+    "nameservers": []
+}

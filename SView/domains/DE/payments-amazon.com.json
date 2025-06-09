@@ -1,0 +1,175 @@
+{
+    "domain": "payments-amazon.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00306,
+    "sites": 30,
+    "subdomains": [
+        "static-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "payments-amazon\\.com\\/OffAmazonPayments\\/de\\/lpa\\/js\\/Widgets\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-eu"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f927eaeacbf0ea159728002bb77acad3a5c9b06eb9f4a45e4ae0f1eceae2b584"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "apay-session-set": {
+                    "ttl": 31536007,
+                    "length": 71,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asgoodasnew.de",
+                "www.akkushop.de"
+            ]
+        },
+        {
+            "rule": "payments-amazon\\.com\\/v2\\/login\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-eu"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e90444bf275e9667d35e2158864bbe5dc42fc84030beb1357991e113941058bb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asgoodasnew.de",
+                "www.akkushop.de"
+            ]
+        },
+        {
+            "rule": "payments-amazon\\.com\\/checkout\\.js",
+            "cookies": 0.000816,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-eu"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "Navigator.prototype.languages": 7,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8,
+                "Navigator.prototype.connection": 7,
+                "Navigator.prototype.userAgent": 8,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4
+            },
+            "sites": 28,
+            "prevalence": 0.00286,
+            "cnames": [],
+            "responseHashes": [
+                "0d528ce8ffa1dc9ae1f5be54c8b10bea0c5a48bd820165e3fe1396ee90bfbc42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "language": {
+                    "ttl": 86406,
+                    "length": 5,
+                    "prevalence": 0.0007139214686384497,
+                    "uniqueness": 0.14285714285714285
+                },
+                "ledgerCurrency": {
+                    "ttl": 86406,
+                    "length": 3,
+                    "prevalence": 0.0007139214686384497,
+                    "uniqueness": 0.14285714285714285
+                },
+                "apay-session-set": {
+                    "ttl": 31536007,
+                    "length": 70,
+                    "prevalence": 0.000815910249872514,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.grow-shop24.de",
+                "www.samenhaus.de",
+                "elektroland24.de",
+                "www.elektro4000.de",
+                "shop.ahw-shop.de",
+                "www.lucky-bike.de",
+                "dvs-beregnung.de",
+                "www.ofen.de",
+                "www.trigema.de",
+                "www.csl-computer.com",
+                "samen.de",
+                "www.tintenmarkt.de",
+                "www.bogensportwelt.de",
+                "www.office-partner.de",
+                "www.motorrad-ersatzteile24.de",
+                "www.gotools.de",
+                "shop.zweirad-stadler.de",
+                "www.native-plants.de",
+                "www.foto-erhardt.de",
+                "www.dubaro.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Federated Login",
+        "Online Payment",
+        "Badge",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 32
+    },
+    "nameservers": [
+        "pdns4.ultradns.org",
+        "pdns5.ultradns.info",
+        "pdns6.ultradns.co.uk",
+        "pdns2.ultradns.net",
+        "udns1.ultradns.net",
+        "pdns1.ultradns.net",
+        "pdns3.ultradns.org"
+    ]
+}

@@ -1,0 +1,622 @@
+{
+    "domain": "ampproject.org",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00153,
+    "sites": 15,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ampproject\\.org\\/v0\\.js",
+            "cookies": 0.000408,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 6,
+                "window.name": 6,
+                "window.localStorage": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.matchMedia(\"prefers-color-scheme\")": 1,
+                "Navigator.prototype.maxTouchPoints": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "27f09232a4cd828446c1f25dc7d1f94cd309e27421e737925dc7228b377d2b91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "-test-amp-cookie-tmp": {
+                    "ttl": 1,
+                    "length": 6,
+                    "prevalence": 0.000407955124936257,
+                    "uniqueness": 0.25
+                },
+                "_ga": {
+                    "ttl": 31536006,
+                    "length": 26,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                },
+                "amp-access": {
+                    "ttl": 31536001,
+                    "length": 26,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "AMP-CONSENT": {
+                    "ttl": 31536003,
+                    "length": 26,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "dictionary.cambridge.org",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de",
+                "www.igenea.com",
+                "www.nacktsonnen.com",
+                "www.oracletutorial.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-bind-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "URL.createObjectURL": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "e540afeebe9d00ccbe31c1d8548a6a095e755f980b6a4e542d72431dfba1f69e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "dictionary.cambridge.org",
+                "www.coolibri.de",
+                "www.igenea.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-form-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "b065704066bc46d7b6bf944dc7f34fa4ee46029201c9eb78bff6d53975fd64a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "dictionary.cambridge.org",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-analytics-0\\.1\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "021845c3d78ddf5b4a575a6f929e7111e2f953c115efd4a9478b0716e5a0cc19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "-test-amp-cookie-tmp": {
+                    "ttl": 5,
+                    "length": 6,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de",
+                "www.nacktsonnen.com",
+                "www.oracletutorial.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-ad-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "8c0cec093fdcbe04aa4a06425f7598a24ec90dfba02b7ece60b4574baaeabbc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "exxpress.at",
+                "fontsgeek.com",
+                "itler.net",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012504091801000\\/v0\\/amp-auto-lightbox-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "28019b1d5cbaadc2bfb33bcb9d59378e164155dd32cf119798f0c580f9dfd1cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de",
+                "www.igenea.com",
+                "www.nacktsonnen.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012504091801000\\/ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "a85b262693eb6bfabcaad5470966b63c4946170e5d80d63bb73eea0f3b79fca2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "dictionary.cambridge.org",
+                "www.coolibri.de",
+                "www.igenea.com",
+                "www.schramm.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012504091801000\\/v0\\/amp-loader-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "e15cddf5674096e6df431cc5c64daf302e8c62962f4bf32340b39de3ec6a00ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "dictionary.cambridge.org",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de",
+                "www.igenea.com",
+                "www.schramm.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012504091801000\\/v0\\/analytics-vendors\\/gtag\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0cdc1d09aac29df4b32648b075b088d83174193624fe3c219cfd777692c9ba81"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "lyrik.antikoerperchen.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-fit-text-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5dfbd7795313aef75f10a61655289cabeb4b0b7433b97c1b086d58d3ec56369c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book8.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-sidebar-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "30a5cd5811ddbfdaaf0dcc6010dc059ef7cb86fc0f8ed186aff09910942c120e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.coolibri.de",
+                "www.igenea.com",
+                "www.nacktsonnen.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-accordion-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6ebecdf384486947426b5beab87481d276bb54932b178a6d061ee21be03e6d76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.igenea.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-list-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "405f378d6a062cde37f577618d4aafb5474acf5157d823709ebb7d19d341d7fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-mustache-0\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a254000ce4b4fa0695c8b312b46fcb04bf8782b0871ffaf0b3d947a1daebdd3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-user-notification-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "fcc9c304aea4f7beffb5b410a682b6876cfd4916d388f9a06b8f2aa04619d851"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "lyrik.antikoerperchen.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-lightbox-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "385e91759086c8b2b840ac947eab86577ab7060fc28a964b0b0038279392c0d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.igenea.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-consent-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "200a430510022672e886f451f0a6448a82926fbac223ab38d0d3f02927df224f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antikoerperchen.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-iframe-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "8625a0cad1fe534ec70fe37ef8a22df2be51416db59afbf4f62939a52cd29206"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antikoerperchen.de",
+                "www.coolibri.de",
+                "www.igenea.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-position-observer-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "db29f80c328e63c0104dbdaa9f5b94f2397cc4d8e6921068714d9aad9aaae00a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antikoerperchen.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-animation-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "795be60055c4230ee00ae63d83dc45ff730a6b705f08be1dbebda11d0dbd94ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antikoerperchen.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-auto-ads-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3a892e7200343207b3ba287f281037b11c489326ddd36152dd89af83a316d60a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "schaedlingebekaempfen.de",
+                "www.doolia.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-carousel-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f8d629f2dd04d477b0ec6c3e0d4edddb7b2fec4989db0db9503d3869e4efa3fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "igenea.com",
+                "www.nacktsonnen.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00051,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.11904761904761904
+        },
+        {
+            "domain": "increaserev.com",
+            "prevalence": 0.023809523809523808
+        }
+    ],
+    "types": {
+        "Script": 65,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "ns1.google.com",
+        "ns4.google.com",
+        "ns2.google.com",
+        "ns3.google.com"
+    ]
+}

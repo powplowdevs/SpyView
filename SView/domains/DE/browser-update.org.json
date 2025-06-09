@@ -1,0 +1,65 @@
+{
+    "domain": "browser-update.org",
+    "owner": {
+        "name": "Browser Update",
+        "displayName": "Browser Update"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "browser-update\\.org\\/update\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.languages": 4,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.platform": 6,
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "5bfde4a215ed099f3f3bcc725ac8aa0149fbb23a40829b842e64d738114254ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boardgamearena.com",
+                "de.artprice.com",
+                "www.rittal.com",
+                "www.sonepar.de",
+                "www.steuerzahler.de",
+                "www.visit-x.net"
+            ]
+        }
+    ],
+    "categories": [
+        "Badge",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "rose.ns.cloudflare.com",
+        "vick.ns.cloudflare.com"
+    ]
+}

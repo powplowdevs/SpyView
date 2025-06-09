@@ -1,0 +1,126 @@
+{
+    "domain": "aa.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "idp",
+        "jobs"
+    ],
+    "cnames": [
+        {
+            "original": "idp.aa.com",
+            "resolved": "idp.aa.com.edgekey.net"
+        },
+        {
+            "original": "jobs.aa.com",
+            "resolved": "jobs.aa.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aa\\.com\\.edgekey\\.net\\/as\\/authorization\\.oauth2",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "idp.aa.com",
+                    "resolved": "idp.aa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com",
+                "retirees.aa.com",
+                "travelplanner.etp.aa.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\.edgekey\\.net\\/platform\\/bootstrap\\/3\\.4\\.1\\/css\\/bootstrap\\.min\\.css",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jobs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "jobs.aa.com",
+                    "resolved": "jobs.aa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6d92dfc1700fd38cd130ad818e23bc8aef697f815b2ea5face2b5dfad22f2e11"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com",
+                "www.jobs.aa.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\.edgekey\\.net\\/platform\\/bootstrap\\/3\\.4\\.1\\/js\\/bootstrap\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jobs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "jobs.aa.com",
+                    "resolved": "jobs.aa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9ee2fcff6709e4d0d24b09ca0fc56aade12b4961ed9c43fd13b03248bfb57afe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com",
+                "www.jobs.aa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": []
+}

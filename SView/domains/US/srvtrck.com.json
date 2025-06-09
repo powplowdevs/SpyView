@@ -1,0 +1,74 @@
+{
+    "domain": "srvtrck.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "srvtrck\\.com\\/v1\\/js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "fb14952db8f8579dbcc3fbb1ec3492cf39f825ba56f08bebffb8388c4b6b9477"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vidyk": {
+                    "ttl": 31536013,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "svidyk": {
+                    "ttl": 1813,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spreadsheetpoint.com",
+                "www.buffed.de",
+                "www.erfahrungen.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1151.awsdns-15.org",
+        "ns-1609.awsdns-09.co.uk",
+        "ns-394.awsdns-49.com",
+        "ns-619.awsdns-13.net"
+    ]
+}

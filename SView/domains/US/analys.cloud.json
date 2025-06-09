@@ -1,0 +1,84 @@
+{
+    "domain": "analys.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "matomo",
+        "matomo.scb"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "analys\\.cloud\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matomo",
+                "matomo.scb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pollenrapporten.se",
+                "www.scb.se",
+                "www.umu.se"
+            ]
+        },
+        {
+            "rule": "analys\\.cloud\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matomo",
+                "matomo.scb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "40881299c24fb1fdc3fbd75c55a0161b6c3e169ab17bff3618b90ff8d8814b6d",
+                "bf15bba356ab0d4aecb799720026cc2f1cf037f487edfbfb1426b6f31e582013"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pollenrapporten.se",
+                "www.scb.se",
+                "www.umu.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Ping": 3,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns2.namesystem.se",
+        "ns1.namesystem.se",
+        "ns3.namesystem.se"
+    ]
+}

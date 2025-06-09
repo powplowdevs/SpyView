@@ -1,0 +1,134 @@
+{
+    "domain": "wixapps.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00123,
+    "sites": 12,
+    "subdomains": [
+        "panorama",
+        "podcasts"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wixapps\\.net\\/api\\/v1\\/bulklog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "panorama"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apponfly.com",
+                "www.apponfly.com",
+                "www.barneforlaget.no",
+                "www.entropic.energy",
+                "www.expedition33.com",
+                "www.fair.no",
+                "www.generasjonspartiet.no",
+                "www.nattjazz.no",
+                "www.prindsenhage.no",
+                "www.spireserien.no",
+                "www.theoatrix.net",
+                "www.thisisactuallyhappening.com",
+                "www.wix.com"
+            ]
+        },
+        {
+            "rule": "wixapps\\.net\\/api\\/v1\\/bulklog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "panorama"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00123,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apponfly.com",
+                "www.barneforlaget.no",
+                "www.entropic.energy",
+                "www.expedition33.com",
+                "www.fair.no",
+                "www.generasjonspartiet.no",
+                "www.nattjazz.no",
+                "www.prindsenhage.no",
+                "www.spireserien.no",
+                "www.theoatrix.net",
+                "www.thisisactuallyhappening.com",
+                "www.wix.com"
+            ]
+        },
+        {
+            "rule": "wixapps\\.net\\/api\\/feed\\/graphql",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "podcasts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "01b8c6b712e7951a766cc3381eab0c5f04646cf73f8a3c93f311e3100e3841ef"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thisisactuallyhappening.com",
+                "www.thisisactuallyhappening.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "parastorage.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4726027397260274
+        },
+        {
+            "domain": "ravenjs.com",
+            "prevalence": 0.02054794520547945
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.00684931506849315
+        }
+    ],
+    "types": {
+        "Ping": 13,
+        "Fetch": 12,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dns2.p04.nsone.net",
+        "dns3.p04.nsone.net",
+        "dns4.p04.nsone.net",
+        "dns1.p04.nsone.net"
+    ]
+}

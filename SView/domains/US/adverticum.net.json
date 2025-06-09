@@ -1,0 +1,198 @@
+{
+    "domain": "adverticum.net",
+    "owner": {
+        "name": "Adverticum Zrt.",
+        "displayName": "Adverticum Zrt"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "ad"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adverticum\\.net\\/cc\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "fbe66041d2cfa36943be40800e2110511eaf53130d4b9b61003561b923f812ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hvg.hu",
+                "m.hvg.hu",
+                "rtl.hu"
+            ]
+        },
+        {
+            "rule": "adverticum\\.net\\/g3\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.plugins": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Date.prototype.getTime": 3,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "37b37fbb63fb7f1cbfd5b1ec43b25312fdc2eef8418842601c882b9e4e7b9edc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_goa3B": {
+                    "ttl": 63072003,
+                    "length": 68,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_goa3GDPR": {
+                    "ttl": 63072004,
+                    "length": 47,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "_goa3": {
+                    "ttl": 63072007,
+                    "length": 30,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_goa3test": {
+                    "ttl": 63072007,
+                    "length": 35,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "_goa3session": {
+                    "ttl": 7204,
+                    "length": 26,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hvg.hu",
+                "m.hvg.hu",
+                "topszotar.hu",
+                "www.ceginformacio.hu"
+            ]
+        },
+        {
+            "rule": "adverticum\\.net\\/scripts\\/goa3\\/main\\/2\\.15\\.2b5\\/goa3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "37b37fbb63fb7f1cbfd5b1ec43b25312fdc2eef8418842601c882b9e4e7b9edc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hvg.hu",
+                "m.hvg.hu",
+                "topszotar.hu",
+                "www.ceginformacio.hu"
+            ]
+        },
+        {
+            "rule": "adverticum\\.net\\/z",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "529f2e0091770f35309959b5229968d81d1ef9b2107e07ca01a44110f8538807",
+                "b7d34c862d7596f12dae676db1809b567d286cf211ef63395bebb1324e3288eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hvg.hu",
+                "m.hvg.hu",
+                "www.ceginformacio.hu"
+            ]
+        },
+        {
+            "rule": "adverticum\\.net\\/s",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "445bc4002585881c6ec5407ae55efe69dba15d23276bc578a89a7641de85758d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hvg.hu",
+                "m.hvg.hu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 16
+    },
+    "nameservers": [
+        "ns0.prim.hu",
+        "ns1.prim.hu"
+    ]
+}

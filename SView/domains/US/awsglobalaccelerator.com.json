@@ -1,0 +1,635 @@
+{
+    "domain": "awsglobalaccelerator.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000276,
+    "sites": 39,
+    "subdomains": [
+        "a80a9201ee101bbc3",
+        "a3230edb2343ce6cc",
+        "ab50c11a81c4fa41b",
+        "a4a0fc20005d06613",
+        "a45ceba41e2bc3264"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.ableton.com",
+            "resolved": "ab50c11a81c4fa41b.awsglobalaccelerator.com"
+        },
+        {
+            "original": "api.mimicpc.com",
+            "resolved": "a45ceba41e2bc3264.awsglobalaccelerator.com"
+        },
+        {
+            "original": "apis-vid.spectrum.net",
+            "resolved": "a4a0fc20005d06613.awsglobalaccelerator.com"
+        },
+        {
+            "original": "apis.spectrum.net",
+            "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+        },
+        {
+            "original": "apis.spectrumbusiness.net",
+            "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+        },
+        {
+            "original": "collector.cdp.cnn.com",
+            "resolved": "a80a9201ee101bbc3.awsglobalaccelerator.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "awsglobalaccelerator\\.com\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a80a9201ee101bbc3"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "collector.cdp.cnn.com",
+                    "resolved": "a80a9201ee101bbc3.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "cnnespanol.cnn.com",
+                "edition.cnn.com",
+                "us.cnn.com",
+                "www.cnn.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a80a9201ee101bbc3"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "collector.cdp.cnn.com",
+                    "resolved": "a80a9201ee101bbc3.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "arabic.cnn.com",
+                "cnnespanol.cnn.com",
+                "edition.cnn.com",
+                "us.cnn.com",
+                "www.cnn.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/id\\/services\\/v1\\/on-plant",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "236c635294efb89e6bced3e9f412ddc446987bb3e3e180b75391378ec00c18ab",
+                "1fc5ca047bd7418edd47d0ba44b0468e7c27e4429cffb81ad97b5aac7f09e0a5",
+                "732da5ac739b0e815c9cc4b7a605b7d3cec756afdf9ab366d044b13f5ff83036"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baynews9.com",
+                "mynews13.com",
+                "ny1.com",
+                "spectrumlocalnews.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/id\\/services\\/v1\\/on-plant",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baynews9.com",
+                "mynews13.com",
+                "ny1.com",
+                "spectrumlocalnews.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/auth\\/oauth\\/v2\\/consumer\\/tve\\/dcr-token\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "c0a3eb04a7d4194d3225f3eef1af1e932caed56ac8ee7e9ee9dec90fc09b7735",
+                "07f5c08cf36dd21733c14ba46b8c1f96c97743e176fe487546cd750b81bc4431",
+                "1f07977a0ff682e4fe1a9f942ea366f4b74c928a064ff6051fcbd32060b8ccb4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baynews9.com",
+                "mynews13.com",
+                "ny1.com",
+                "spectrumlocalnews.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/auth\\/oauth\\/v2\\/consumer\\/tve\\/dcr-token\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baynews9.com",
+                "mynews13.com",
+                "ny1.com",
+                "spectrumlocalnews.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/js\\/container_R5JVetMm\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ab50c11a81c4fa41b"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "analytics.ableton.com",
+                    "resolved": "ab50c11a81c4fa41b.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "b3d44e0760c3f6a84cda7c32f3f5943c60e2962c7ea78d37f2abe2d8d07c7876"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ableton.com",
+                "forum.ableton.com",
+                "help.ableton.com",
+                "www.ableton.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/tdcs\\/public\\/inform",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc",
+                "a4a0fc20005d06613"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                },
+                {
+                    "original": "apis-vid.spectrum.net",
+                    "resolved": "a4a0fc20005d06613.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "mail3.spectrum.net",
+                "spectrum.com",
+                "watch.spectrum.net",
+                "www.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/tdcs\\/public\\/inform",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc",
+                "a4a0fc20005d06613"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                },
+                {
+                    "original": "apis-vid.spectrum.net",
+                    "resolved": "a4a0fc20005d06613.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "de0a83763d29224d306584778e0d7dee49931805f47dc613a150ba520be61e47",
+                "898672ab52f79963541664d46a6a1887cb42a262062b6fbc8369bb161b6a8b2b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "mail3.spectrum.net",
+                "spectrum.com",
+                "watch.spectrum.net",
+                "www.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/selfservice\\/vox-con\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "mail3.spectrum.net",
+                "spectrum.com",
+                "www.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/selfservice\\/vox-con\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "079d090235e3f5a851733651f32d7d62cdf40dc5a59b3cdfca244013f72bc3ad",
+                "f6801a3c6f8e6a1c32cb2746bdb40edafb096455038a4cd41f0aee52e2f89385"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "mail3.spectrum.net",
+                "spectrum.com",
+                "www.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/tdcs\\/public\\/errors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "mail3.spectrum.net",
+                "spectrum.com",
+                "www.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/tdcs\\/public\\/errors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "177e09446f3757619f4b42955d6981345bd9412e07dbf59b8d22394266c1ef21"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "mail3.spectrum.net",
+                "spectrum.com",
+                "www.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/selfservice\\/graphauxiliary",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                },
+                {
+                    "original": "apis.spectrumbusiness.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "mail3.spectrum.net",
+                "mail2.spectrum.net",
+                "spectrum.com",
+                "watch.spectrum.net",
+                "www.spectrumbusiness.net",
+                "www.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/selfservice\\/graphauxiliary",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                },
+                {
+                    "original": "apis.spectrumbusiness.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "16c9debb159dc99eeff667a5cd5c59d336cc6b7c9c8c7722f51592c53de1539e",
+                "a3e01968c1d61eacdae5cbacf064efa02ae355f97f34f30aaa5d5cc18941d363"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "mail3.spectrum.net",
+                "mail2.spectrum.net",
+                "spectrum.com",
+                "watch.spectrum.net",
+                "www.spectrumbusiness.net",
+                "www.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/auth\\/oauth\\/v2\\/consumer\\/aa\\/ip\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "watch.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/auth\\/oauth\\/v2\\/consumer\\/aa\\/ip\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a3230edb2343ce6cc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "apis.spectrum.net",
+                    "resolved": "a3230edb2343ce6cc.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "5b00e19a34ebce3a297ec2f6927dc328d6989c6c8da4880a1aede5446cb80315"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrum.net",
+                "watch.spectrum.net"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/security\\/guest\\/gen",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a45ceba41e2bc3264"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.mimicpc.com",
+                    "resolved": "a45ceba41e2bc3264.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mimicpc.com",
+                "www.mimicpc.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/security\\/guest\\/gen",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a45ceba41e2bc3264"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.mimicpc.com",
+                    "resolved": "a45ceba41e2bc3264.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "096c9624a675b5d572efe2012fefaf8a3119d6348ec9c7efc1003b6485de2be3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mimicpc.com",
+                "www.mimicpc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000106,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7619047619047619
+        },
+        {
+            "domain": "spectrum.net",
+            "prevalence": 0.19047619047619047
+        },
+        {
+            "domain": "d4j85rjepgcta.cloudfront.net",
+            "prevalence": 0.047619047619047616
+        }
+    ],
+    "types": {
+        "Preflight": 37,
+        "XHR": 36,
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1484.awsdns-57.org",
+        "ns-1949.awsdns-51.co.uk",
+        "ns-409.awsdns-51.com",
+        "ns-609.awsdns-12.net"
+    ]
+}

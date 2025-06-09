@@ -1,0 +1,3574 @@
+{
+    "domain": "nc0.co",
+    "owner": {
+        "name": "Ensighten, Inc",
+        "displayName": "Ensighten",
+        "privacyPolicy": "https://www.ensighten.com/privacy-policy/",
+        "url": "http://ensighten.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00111,
+    "sites": 157,
+    "subdomains": [
+        "twdc-dtci.edge",
+        "citi.edge",
+        "anntaylor.edge",
+        "statefarm.edge",
+        "toyotanational.edge",
+        "cq-learcapital.edge",
+        "symantec.edge",
+        "delta.edge",
+        "easyjet.edge",
+        "cq-korn-ferry.edge",
+        "nationaltrust.edge",
+        "bhfoto.edge",
+        "suncorp.edge",
+        "dell.edge",
+        "tronc.edge",
+        "vaa.edge",
+        "mandg.edge",
+        "janieandjack.edge",
+        "postoffice.edge",
+        "cq-zoll.edge",
+        "johnlewis.edge",
+        "loft.edge",
+        "subzero.edge",
+        "t",
+        "capitalone.edge",
+        "experianus.edge",
+        "maurices.edge",
+        "wyndham.edge"
+    ],
+    "cnames": [
+        {
+            "original": "activate.anntaylor.com",
+            "resolved": "anntaylor.edge.nc0.co"
+        },
+        {
+            "original": "activate.latimes.com",
+            "resolved": "tronc.edge.nc0.co"
+        },
+        {
+            "original": "activate.loft.com",
+            "resolved": "loft.edge.nc0.co"
+        },
+        {
+            "original": "assets1.suncorpbank.com.au",
+            "resolved": "suncorp.edge.nc0.co"
+        },
+        {
+            "original": "cookieconsent.kornferry.com",
+            "resolved": "cq-korn-ferry.edge.nc0.co"
+        },
+        {
+            "original": "dcf.espn.com",
+            "resolved": "twdc-dtci.edge.nc0.co"
+        },
+        {
+            "original": "ddc.statefarm.com",
+            "resolved": "statefarm.edge.nc0.co"
+        },
+        {
+            "original": "ensighten.bhphoto.com",
+            "resolved": "bhfoto.edge.nc0.co"
+        },
+        {
+            "original": "ensighten.maurices.com",
+            "resolved": "maurices.edge.nc0.co"
+        },
+        {
+            "original": "ensighten.norton.com",
+            "resolved": "symantec.edge.nc0.co"
+        },
+        {
+            "original": "ensighten.postoffice.co.uk",
+            "resolved": "postoffice.edge.nc0.co"
+        },
+        {
+            "original": "nexus.toyota.com",
+            "resolved": "toyotanational.edge.nc0.co"
+        },
+        {
+            "original": "privacy-digital.mandg.com",
+            "resolved": "mandg.edge.nc0.co"
+        },
+        {
+            "original": "privacy-digital.pru.co.uk",
+            "resolved": "mandg.edge.nc0.co"
+        },
+        {
+            "original": "privacy.easyjet.com",
+            "resolved": "easyjet.edge.nc0.co"
+        },
+        {
+            "original": "privacy.learcapital.com",
+            "resolved": "cq-learcapital.edge.nc0.co"
+        },
+        {
+            "original": "privacy.zoll.com",
+            "resolved": "cq-zoll.edge.nc0.co"
+        },
+        {
+            "original": "sst.dell.com",
+            "resolved": "dell.edge.nc0.co"
+        },
+        {
+            "original": "sst.johnlewis.com",
+            "resolved": "johnlewis.edge.nc0.co"
+        },
+        {
+            "original": "sst.subzero-wolf.com",
+            "resolved": "subzero.edge.nc0.co"
+        },
+        {
+            "original": "t.janieandjack.com",
+            "resolved": "janieandjack.edge.nc0.co"
+        },
+        {
+            "original": "tagmanager1.citi.com",
+            "resolved": "citi.edge.nc0.co"
+        },
+        {
+            "original": "tagmanager1.citibankonline.com",
+            "resolved": "citi.edge.nc0.co"
+        },
+        {
+            "original": "tags.wyndhamhotels.com",
+            "resolved": "wyndham.edge.nc0.co"
+        },
+        {
+            "original": "tms.capitalone.com",
+            "resolved": "capitalone.edge.nc0.co"
+        },
+        {
+            "original": "tms.delta.com",
+            "resolved": "delta.edge.nc0.co"
+        },
+        {
+            "original": "tms.experian.com",
+            "resolved": "experianus.edge.nc0.co"
+        },
+        {
+            "original": "tms.nationaltrust.org.uk",
+            "resolved": "nationaltrust.edge.nc0.co"
+        },
+        {
+            "original": "tms.virginatlantic.com",
+            "resolved": "vaa.edge.nc0.co"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/Bootstrap\\.js",
+            "cookies": 0.000184,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.000262,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "7557e65a9b0599091c11dcb77fdfb846559094d309491280b508831b2ce998ee",
+                "f494bab20ab6830801102ca044225996c2192081e19321e74130b9b5bc612254",
+                "76c5be05dae9ce7abaf3f7da86eeac9543d5579ec40086bf84bf9747457a20a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "s_ensNR": {
+                    "ttl": 2592002,
+                    "length": 17,
+                    "prevalence": 0.000120246717971933,
+                    "uniqueness": 1
+                },
+                "s_ensCDS": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0001273200543232232,
+                    "uniqueness": 0.1111111111111111
+                },
+                "_dcf": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0001273200543232232,
+                    "uniqueness": 0.05555555555555555
+                },
+                "s_ensNSL": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0001273200543232232,
+                    "uniqueness": 0.05555555555555555
+                },
+                "s_ensRegion": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.0001273200543232232,
+                    "uniqueness": 0.05555555555555555
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abcnews.go.com",
+                "www.espn.com",
+                "www.starwars.com",
+                "movies.disney.com",
+                "abc7news.com",
+                "www.marvel.com",
+                "www.espn.in",
+                "www.espn.co.uk",
+                "abc7ny.com",
+                "www.espncricinfo.com",
+                "m.espn.com",
+                "www.disney.com",
+                "www.fxnetworks.com",
+                "fxnow.fxnetworks.com",
+                "my.disney.com",
+                "plus.espn.com",
+                "abc7.com",
+                "abc13.com",
+                "www.natgeokids.com",
+                "6abc.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/embed_privacy_prod\\/Bootstrap\\.js",
+            "cookies": 0.0000495,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "88651762bb63ae0a6cb0aed811215addb0ed0d559a280342a589082d118aaa48"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "s_ensNR": {
+                    "ttl": 2592010,
+                    "length": 17,
+                    "prevalence": 0.00004244001810774106,
+                    "uniqueness": 1
+                },
+                "s_ensCDS": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00004951335445903124,
+                    "uniqueness": 0.2857142857142857
+                },
+                "_dcf": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00004951335445903124,
+                    "uniqueness": 0.2857142857142857
+                },
+                "s_ensNSL": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00004951335445903124,
+                    "uniqueness": 0.2857142857142857
+                },
+                "s_ensRegion": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00004951335445903124,
+                    "uniqueness": 0.14285714285714285
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "6abc.com",
+                "abc30.com",
+                "abc7.com",
+                "abc7news.com",
+                "abc7ny.com",
+                "abc11.com",
+                "abcnews.go.com",
+                "abc7chicago.com",
+                "abc13.com",
+                "kids.nationalgeographic.com",
+                "www.goodmorningamerica.com",
+                "www.natgeokids.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00017,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "8181c03b9f7bbb61e64a6608dccfbd96c0b0c641e5d21dcbfd61eb46abcb498a",
+                "c13ea75bb20dd16c4be01000a756da1a801126797df0ead91ce4b0b90d6dd6ac",
+                "5460d620da3206826a69cc1d1e1dccf27cdab3dcafb2eb963eee81633242e6ae",
+                "4dc79abfb4742488ccb95907b329c867b4a1c8881c333c99fe4c34f85b4a4b43",
+                "3bebf6ad83f74d7ea45502165386ea2bb5603b30372c473edc07f7a72317229e",
+                "40298717ed905a130cd4b8eed906a18283013393adecdb13c8c2b7f1b55ab2ce",
+                "c15b6ae499a47443dbce4c4449d430d4c587d29db2acd24b9f0fb521c029529f",
+                "1a0a8e5a072dda8c07d3c04da574907842cb77112bad7a56a472b6b010e0d781",
+                "b780d27094e1cefe8c737c662a96539e31e7b22a5be3c23bde86f0994ffa910f",
+                "9609b6fed4dda7488e93ca92cb6ca3f1c5defedb7d3b6fa8be3b0eea26bc2aba",
+                "efce3f0c975bfd143675bbbd50c4b9196b57d7f781cf17a05f53a2af58400e94",
+                "04f8a5e6ce6e05016884cfc81007471ae333f8478768c2ea8db1ff86eeccf4be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "abcnews.go.com",
+                "www.starwars.com",
+                "www.disney.com",
+                "abc7news.com",
+                "www.nationalgeographic.com",
+                "plus.espn.com",
+                "www.goodmorningamerica.com",
+                "abc30.com",
+                "fivethirtyeight.com",
+                "news.disney.com",
+                "abc7chicago.com",
+                "abc13.com",
+                "www.fxnetworks.com",
+                "6abc.com",
+                "www.espncricinfo.com",
+                "kids.nationalgeographic.com",
+                "www.natgeokids.com",
+                "my.disney.com",
+                "movies.disney.com",
+                "ondisneyplus.disney.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/baee905b56e7a6c2285ef0902f8548f4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "2ed37f996bcc908e8d864b9055c9410da3426891b5966fb4fedbf4da3cfe87f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "6abc.com",
+                "abc11.com",
+                "abc13.com",
+                "abc30.com",
+                "abc7.com",
+                "abc7news.com",
+                "abc7ny.com",
+                "abcnews.go.com",
+                "abc7chicago.com",
+                "fivethirtyeight.com",
+                "kids.nationalgeographic.com",
+                "www.goodmorningamerica.com",
+                "www.natgeokids.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/ed9cc89e72efe4115d590b2b9169c222\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000163,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "09aa197b780bfe7b955974d6d0445d27e123088102766ce969315233d7379aad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abcnews.go.com",
+                "www.disney.com",
+                "kids.nationalgeographic.com",
+                "news.disney.com",
+                "www.espncricinfo.com",
+                "plus.espn.com",
+                "abc7ny.com",
+                "www.nationalgeographic.com",
+                "abc11.com",
+                "www.goodmorningamerica.com",
+                "abc7chicago.com",
+                "movies.disney.com",
+                "abc7news.com",
+                "www.natgeokids.com",
+                "www.fxnetworks.com",
+                "my.disney.com",
+                "abc30.com",
+                "www.starwars.com",
+                "abc7.com",
+                "ondisneyplus.disney.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/940afb35d4eee23dc3fc381947fee780\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "3d7016b54d8ffa756ba527f5a259342af5ef408775bcfb0890e50a931694524d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "6abc.com",
+                "abc11.com",
+                "abc13.com",
+                "abc30.com",
+                "abc7.com",
+                "abc7news.com",
+                "abc7ny.com",
+                "abc7chicago.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/b400259dd7280831d6b0398e5d01cf99\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000163,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "42392849624813641ed09991d27750df621afb5c1591cfc711d2144ea1b5994b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abcnews.go.com",
+                "www.natgeokids.com",
+                "abc30.com",
+                "www.starwars.com",
+                "movies.disney.com",
+                "abc13.com",
+                "abc7ny.com",
+                "www.disney.com",
+                "abc7news.com",
+                "abc7chicago.com",
+                "news.disney.com",
+                "ondisneyplus.disney.com",
+                "www.goodmorningamerica.com",
+                "abc7.com",
+                "abc11.com",
+                "plus.espn.com",
+                "www.espncricinfo.com",
+                "kids.nationalgeographic.com",
+                "www.nationalgeographic.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/cdaa4707244b57ce288e83c8c65a5d21\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 3,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "65a12e20b78a3608fff6ee037fde350140bd142a622874ed8b171e0b166ac0f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "6abc.com",
+                "abc11.com",
+                "abc13.com",
+                "abc30.com",
+                "abc7.com",
+                "abc7news.com",
+                "abc7ny.com",
+                "abc7chicago.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/7cab57eb37764fad932c77a821b7f83d\\.js",
+            "cookies": 0.0000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "bad79dce8e52101a8bcb7463ef219f5fe93ade62a4088d875a2dbe546d1e3794"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_19916ABB53224B2C0A490D45%40AdobeOrg": {
+                    "ttl": 63072019,
+                    "length": 222,
+                    "prevalence": 0.00005658669081032141,
+                    "uniqueness": 1
+                },
+                "AMCVS_19916ABB53224B2C0A490D45%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00005658669081032141,
+                    "uniqueness": 0.125
+                },
+                "s_ac": {
+                    "ttl": -1747293773,
+                    "length": 13,
+                    "prevalence": 0.0000636600271616116,
+                    "uniqueness": 0.1111111111111111
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.0000636600271616116,
+                    "uniqueness": 0.1111111111111111
+                },
+                "AMCV_C7A21CFE532E6E920A490D45%40AdobeOrg": {
+                    "ttl": 63072007,
+                    "length": 222,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "AMCVS_C7A21CFE532E6E920A490D45%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "6abc.com",
+                "abc11.com",
+                "abc13.com",
+                "abc30.com",
+                "abc7.com",
+                "abc7news.com",
+                "abc7ny.com",
+                "abcnews.go.com",
+                "abc7chicago.com",
+                "fivethirtyeight.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/b110ec77a0fc105810fb6b632cf54ec8\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "64e7f3d9e9ddc9a4de82e626b78fd0565aecaf12ce2c1fe399c5af3083d65f96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "6abc.com",
+                "abc11.com",
+                "abc13.com",
+                "abc30.com",
+                "abc7.com",
+                "abc7news.com",
+                "abc7ny.com",
+                "abc7chicago.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/6727611e5364bf02b6de92d7e920e2e5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e149873a493524efc1f39a0efcb2134c102bd7829560274943b18a3e18f487c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "6abc.com",
+                "abc11.com",
+                "abc13.com",
+                "abc30.com",
+                "abc7.com",
+                "abc7news.com",
+                "abc7ny.com",
+                "abcnews.go.com",
+                "abc7chicago.com",
+                "fivethirtyeight.com",
+                "www.goodmorningamerica.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/6f54e7661fd3432a6b24628e26163c10\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 3,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "40b74ddab6dfda994c0d808a31fb7141909fa58a5e70d89eeec5ce1b49286b86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "abcnews.go.com",
+                "fivethirtyeight.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/4f4b616fab0a57ef7da2a480b721c3d2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "a4e694add653905424463fc69c81d63a990c42985885d2c5d3495ba6c24f875f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "abcnews.go.com",
+                "fivethirtyeight.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/fd0593ca6a5e395e14fc2656ebe8d27e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "8af6733e39ee429e1f5496a52cbdb445fcbe366a9c74376ee5a6c10bb7373dba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "abcnews.go.com",
+                "fivethirtyeight.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/citi\\/cc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "citi.edge"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [
+                {
+                    "original": "tagmanager1.citi.com",
+                    "resolved": "citi.edge.nc0.co"
+                },
+                {
+                    "original": "tagmanager1.citibankonline.com",
+                    "resolved": "citi.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "c4c81548168adb13c829ffeb923178c9772ca481a5a6fdf8441f80b7eb00eeab"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citi.com",
+                "accountonline.citi.com",
+                "citicards.citi.com",
+                "citiretailservices.citibankonline.com",
+                "online.citi.com",
+                "www.cardbenefits.citi.com",
+                "www.citi.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/one\\/v1\\/profiles\\/ec171c211bd5bc3b26241d1a35cc1593269b0778561f37ade28c2972ac53bcaf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "citi.edge"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "tagmanager1.citi.com",
+                    "resolved": "citi.edge.nc0.co"
+                },
+                {
+                    "original": "tagmanager1.citibankonline.com",
+                    "resolved": "citi.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "8bb76d9f60cebb70ecccbcb0445548aa8e48d7c39897cdd417800e5b55834321"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citi.com",
+                "citicards.citi.com",
+                "citiretailservices.citibankonline.com",
+                "www.cardbenefits.citi.com",
+                "www.citi.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/one\\/v1\\/profiles\\/4aeae96815641c489240106b1f0476886f329bdcabc329f2c22e00124dbed60f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "citi.edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "tagmanager1.citi.com",
+                    "resolved": "citi.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "a82ecd78fc95de2ba5029f0c48ca31e562600a43f3f47c6bce9e5ea7ba18eca6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citi.com",
+                "online.citi.com",
+                "www.citi.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/anntaylor-map\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "anntaylor.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "activate.anntaylor.com",
+                    "resolved": "anntaylor.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__ogfpid": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "anntaylor.com",
+                "www.anntaylor.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/statefarm\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "statefarm.edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "ddc.statefarm.com",
+                    "resolved": "statefarm.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "6f0ec1e6b22b40f9f3666c765fa0229f7d253df3f09ce29f3dc59570ec9f7abc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "statefarm.com",
+                "jobs.statefarm.com",
+                "newsroom.statefarm.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/statefarm\\/prod\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "statefarm.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ddc.statefarm.com",
+                    "resolved": "statefarm.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "6f0ec1e6b22b40f9f3666c765fa0229f7d253df3f09ce29f3dc59570ec9f7abc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "statefarm.com",
+                "www.statefarm.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/toyotanational\\/t-pco-p\\/Bootstrap\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "toyotanational.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "nexus.toyota.com",
+                    "resolved": "toyotanational.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "3ce2b5cb1da8351cd2cd584279b048f6f3619c60a6f2368e16b9affa33d338d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "autoparts.toyota.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/privacy\\/v1\\/b\\/b\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toyotanational.edge",
+                "twdc-dtci.edge",
+                "cq-learcapital.edge",
+                "symantec.edge",
+                "delta.edge",
+                "easyjet.edge",
+                "cq-korn-ferry.edge",
+                "nationaltrust.edge"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000106,
+            "cnames": [
+                {
+                    "original": "nexus.toyota.com",
+                    "resolved": "toyotanational.edge.nc0.co"
+                },
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                },
+                {
+                    "original": "privacy.learcapital.com",
+                    "resolved": "cq-learcapital.edge.nc0.co"
+                },
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                },
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                },
+                {
+                    "original": "privacy.easyjet.com",
+                    "resolved": "easyjet.edge.nc0.co"
+                },
+                {
+                    "original": "cookieconsent.kornferry.com",
+                    "resolved": "cq-korn-ferry.edge.nc0.co"
+                },
+                {
+                    "original": "tms.nationaltrust.org.uk",
+                    "resolved": "nationaltrust.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "autoparts.toyota.com",
+                "kids.nationalgeographic.com",
+                "learcapital.com",
+                "movies.disney.com",
+                "norton.com",
+                "ondisneyplus.disney.com",
+                "us.norton.com",
+                "www.delta.com",
+                "www.easyjet.com",
+                "www.kornferry.com",
+                "www.lexus.com",
+                "www.natgeokids.com",
+                "www.nationaltrust.org.uk",
+                "www.toyota.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/bhfoto\\/prodPrivacy\\/Bootstrap\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bhfoto.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.bhphoto.com",
+                    "resolved": "bhfoto.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "5e5e2197d30936127e8f5a59a44a6b93d6b681c66fb9a83136ddedcb316c30d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "BHFOTO_ENSIGHTEN_PRIVACY_BANNER_LOADED": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bhphotovideo.com",
+                "www.bhphotovideo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/bhfoto\\/apertureprod\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bhfoto.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.bhphoto.com",
+                    "resolved": "bhfoto.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "de2cf9621fb24f8e4b41c78baee7e2c977e19036a80d013d9c42c9e4b2675d6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bhphotovideo.com",
+                "www.bhphotovideo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/bhfoto\\/apertureprod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bhfoto.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.bhphoto.com",
+                    "resolved": "bhfoto.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "f22b9ba1c86016d0e86385f5f1520be92940fba41743abd8d9224963ed4e9ee5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bhphotovideo.com",
+                "www.bhphotovideo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/bhfoto\\/apertureprod\\/code\\/c63d0e64278cd86aad4bfb175fd2b859\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bhfoto.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.bhphoto.com",
+                    "resolved": "bhfoto.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "6cf2cdfb267c554ad8ac4f6b20f07a7d1b7b07e3dd1c7812c51977817606398a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bhphotovideo.com",
+                "www.bhphotovideo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/bhfoto\\/apertureprod\\/code\\/6b43e05401cd573b5bc425de97c6d21b\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bhfoto.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.bhphoto.com",
+                    "resolved": "bhfoto.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "835969102874305015edfe3f699e39445d4214eea09e1c93d987df7f55648d0b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bhphotovideo.com",
+                "www.bhphotovideo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/bhfoto\\/apertureprod\\/code\\/5b8f4e3e2374c963649e8796ea0de9ec\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bhfoto.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.bhphoto.com",
+                    "resolved": "bhfoto.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "cbdc9656ab6f1627d88f4c978c8a7126d815461276d29298eea7d4beee52fba5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bhphotovideo.com",
+                "www.bhphotovideo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/bhfoto\\/apertureprod\\/code\\/e23d78f8d30f44813e09ac7894fc72b4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bhfoto.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.bhphoto.com",
+                    "resolved": "bhfoto.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "c2c442b3be8c56105a75d547ade5f6fb7a31e8c796c9259550954d881cbb0f34"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bhphotovideo.com",
+                "www.bhphotovideo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/error\\/e\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bhfoto.edge",
+                "symantec.edge",
+                "delta.edge",
+                "suncorp.edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "ensighten.bhphoto.com",
+                    "resolved": "bhfoto.edge.nc0.co"
+                },
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                },
+                {
+                    "original": "tms.delta.com",
+                    "resolved": "delta.edge.nc0.co"
+                },
+                {
+                    "original": "assets1.suncorpbank.com.au",
+                    "resolved": "suncorp.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bhphotovideo.com",
+                "lifelock.norton.com",
+                "www.delta.com",
+                "www.suncorpbank.com.au"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/dell\\/sst",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dell.edge"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "sst.dell.com",
+                    "resolved": "dell.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/caltimes\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tronc.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "activate.latimes.com",
+                    "resolved": "tronc.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latimes.com",
+                "enewspaper.latimes.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/privacy\\/v1\\/b\\/r\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vaa.edge",
+                "symantec.edge",
+                "mandg.edge",
+                "janieandjack.edge",
+                "postoffice.edge",
+                "cq-zoll.edge"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [
+                {
+                    "original": "tms.virginatlantic.com",
+                    "resolved": "vaa.edge.nc0.co"
+                },
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                },
+                {
+                    "original": "privacy-digital.pru.co.uk",
+                    "resolved": "mandg.edge.nc0.co"
+                },
+                {
+                    "original": "t.janieandjack.com",
+                    "resolved": "janieandjack.edge.nc0.co"
+                },
+                {
+                    "original": "privacy-digital.mandg.com",
+                    "resolved": "mandg.edge.nc0.co"
+                },
+                {
+                    "original": "ensighten.postoffice.co.uk",
+                    "resolved": "postoffice.edge.nc0.co"
+                },
+                {
+                    "original": "privacy.zoll.com",
+                    "resolved": "cq-zoll.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "virginatlantic.com",
+                "flights.virginatlantic.com",
+                "flywith.virginatlantic.com",
+                "help.virginatlantic.com",
+                "lifelock.norton.com",
+                "mypru.pru.co.uk",
+                "www.janieandjack.com",
+                "www.mandg.com",
+                "www.postoffice.co.uk",
+                "www.virginatlantic.com",
+                "www.zoll.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/privacy\\/v1\\/c\\/r\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vaa.edge",
+                "janieandjack.edge",
+                "postoffice.edge",
+                "cq-zoll.edge"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [
+                {
+                    "original": "tms.virginatlantic.com",
+                    "resolved": "vaa.edge.nc0.co"
+                },
+                {
+                    "original": "t.janieandjack.com",
+                    "resolved": "janieandjack.edge.nc0.co"
+                },
+                {
+                    "original": "ensighten.postoffice.co.uk",
+                    "resolved": "postoffice.edge.nc0.co"
+                },
+                {
+                    "original": "privacy.zoll.com",
+                    "resolved": "cq-zoll.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "virginatlantic.com",
+                "flights.virginatlantic.com",
+                "flywith.virginatlantic.com",
+                "help.virginatlantic.com",
+                "www.janieandjack.com",
+                "www.postoffice.co.uk",
+                "www.virginatlantic.com",
+                "www.zoll.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/johnlewis\\/sst",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "johnlewis.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "sst.johnlewis.com",
+                    "resolved": "johnlewis.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "johnlewis.com",
+                "www.johnlewis.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/bc4dbe3df8722cf37c874fc47b995bd9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "48298a80f84fcc61b506133df65e30be9ab523285190edee3da82610362f523c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "kids.nationalgeographic.com",
+                "www.natgeokids.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/978004d4abe19437f4e6ab7f76d914de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "942030f7c154d3606a6d57b20e45626c4a8d75d829aa1c0ab1bddb068e1998e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "kids.nationalgeographic.com",
+                "www.natgeokids.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/a281877dc7076ebf8a710549f4da9bf8\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "3d825f815baa65392a03ce952faa19c96ce46966fc6c810b60e73dffebaf1eb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_5BFD123F5245AECB0A490D45%40AdobeOrg": {
+                    "ttl": 63072005,
+                    "length": 122,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "AMCVS_5BFD123F5245AECB0A490D45%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "s_ac": {
+                    "ttl": -1747300446,
+                    "length": 13,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "kids.nationalgeographic.com",
+                "www.natgeokids.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/6c5eb272f480cef19c188a6045274cd0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "b0b7121347ae140e191d8dff544247240e6f3f4a751b82deb646d1244338af3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "kids.nationalgeographic.com",
+                "www.natgeokids.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/privacy\\/v1\\/c\\/b\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cq-learcapital.edge",
+                "twdc-dtci.edge",
+                "symantec.edge",
+                "easyjet.edge",
+                "cq-korn-ferry.edge"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "privacy.learcapital.com",
+                    "resolved": "cq-learcapital.edge.nc0.co"
+                },
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                },
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                },
+                {
+                    "original": "privacy.easyjet.com",
+                    "resolved": "easyjet.edge.nc0.co"
+                },
+                {
+                    "original": "cookieconsent.kornferry.com",
+                    "resolved": "cq-korn-ferry.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "learcapital.com",
+                "movies.disney.com",
+                "ondisneyplus.disney.com",
+                "us.norton.com",
+                "www.easyjet.com",
+                "www.kornferry.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/lifelock\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "db03dc33d410d6b68baf4b063e0f00553018c14df0609911e98d86cb3cbbf5d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "lifelock.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/lifelock\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "f073e959f17d6289b28ef698c22406fa12624e65de5a99f2de0d40a53d9cc9f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "lifelock.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/lifelock\\/code\\/39e221a7ac4ca5dd3b35a998be63fa44\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "ac4ddf05160ffabc7e772a8bbfe724455fddc13e40240415585274d0c00c9bbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "lifelock.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/lifelock\\/code\\/4b5a3521447b10283b45b5b49d73e334\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "aa5864e19f8fac663418f9bbe29de793ba0d8b0fc9d82eee532fa75f41968177"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "lifelock.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/lifelock\\/code\\/eada8dfd5b46a865e68c490fe337ed6f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "54640a97e83b1f7efa74b3314284b68ee50088d518833239c3f5b1bf6cf8bb9a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "lifelock.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/loft-map\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loft.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "activate.loft.com",
+                    "resolved": "loft.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__ogfpid": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "loft.com",
+                "www.loft.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/24212b5303106f2320ec1e9312c1af83\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "0a97cb63b6d933d9d719ce361c5afa362cb8dd2f12c4c6f57177dfad8d0b97b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disney.com",
+                "movies.disney.com",
+                "news.disney.com",
+                "ondisneyplus.disney.com",
+                "www.disney.com",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/fd0c478172b5d5d9e317bcc5efc72789\\.js",
+            "cookies": 0.0000424,
+            "fingerprinting": 2,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "5bb5ab81b47ec6aad4252c8fdd821f9e21778e890172881c19bec99e20a07716"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_CC0A3704532E6FD70A490D44%40AdobeOrg": {
+                    "ttl": 63072005,
+                    "length": 222,
+                    "prevalence": 0.00004244001810774106,
+                    "uniqueness": 1
+                },
+                "AMCVS_CC0A3704532E6FD70A490D44%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00004244001810774106,
+                    "uniqueness": 0.16666666666666666
+                },
+                "s_ac": {
+                    "ttl": -1747328706,
+                    "length": 13,
+                    "prevalence": 0.00004244001810774106,
+                    "uniqueness": 0.16666666666666666
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00004244001810774106,
+                    "uniqueness": 0.16666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disney.com",
+                "movies.disney.com",
+                "news.disney.com",
+                "ondisneyplus.disney.com",
+                "www.disney.com",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/d17b54df2ca7fc2432e215b02d8602f7\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "94abe94df4df3d033e76aee1cbd310e64cd5615119bb80fe50a77a2316d9a2e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disney.com",
+                "movies.disney.com",
+                "my.disney.com",
+                "news.disney.com",
+                "ondisneyplus.disney.com",
+                "www.disney.com",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/e6aadde1982315e8a76eafa32e9d7043\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "b65c7ac7d3624a051d250b3ba61221dd0140f65c40ec0b58089eddf5cae5874a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disney.com",
+                "my.disney.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/a13f8378a24ca19bca3aad064166b365\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "6be35ad20e4b9bda44376ce36c83008f8aaeb005bef0dd1ee662afb0d2e3b2d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_C83C02BE532E70D50A490D4C%40AdobeOrg": {
+                    "ttl": 63072008,
+                    "length": 222,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "AMCVS_C83C02BE532E70D50A490D4C%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "s_ac": {
+                    "ttl": -1747329906,
+                    "length": 13,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disney.com",
+                "my.disney.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/971d0c3eac5547532e02764d9fdd847e\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "8100cfafa8c374bbd6f52d48a42d97a819795d4f40dd32db36fde4b9fd9e51a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disney.com",
+                "news.disney.com",
+                "www.disney.com",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/8d7cdbcb10059af7f0a1a0373f224c06\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "bf47e537f6245aa175715daa9008e70049270287686988468d5e849a6343afc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "disney.com",
+                "news.disney.com",
+                "www.disney.com",
+                "www.starwars.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/aemprod\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "db60ce3bb2b7d073a3f0ce4f75a133a074e21ae2352d8622ce2897c0a85829a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "us.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/aemprod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "8dd79cb86506af6903294952f736147f278ee6432d8d86b294fe83cbacf3d236"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "norton.com",
+                "us.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/aemprod\\/code\\/80a47f1d4855989671cb7edf13e1c914\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "691105f5b49f9ec9327a0c9e99360b75a8a0eb03f324b103a1e4b80916f0f017"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "us.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/aemprod\\/code\\/883d1b51fee6950b3ad15fad75537102\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "793d4a36c86ee7d165cb7d9bf1425f94671bfacc38761b1b3f158df71b6ee598"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "us.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/aemprod\\/code\\/af95d06b411dfdd2028d916c86a084fc\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "4ed29a127069b874b7df62eec7af153eeb72ae03d2874b22699ee291ee18241f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "us.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/aemprod\\/code\\/39f18db6db50ed7209e241ba67a7acd6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "0b4e952d32dbf2fad151a2d19d6163b28c9fa6b9f50ede7223f72d8a629a8875"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "us.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/symantec\\/aemprod\\/code\\/d720f1cd0a91f086014a881ac0b98afd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "symantec.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.norton.com",
+                    "resolved": "symantec.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "287899b10efa9cab70c832d80226d91f9386dd281d7cf01590442d2021d8942d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "us.norton.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/subzero\\/prod\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "subzero.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "sst.subzero-wolf.com",
+                    "resolved": "subzero.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "6119b6755010d668be45a3be068fe52c9cb445597896f8bc69c832e37d53ef88"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "subzero-wolf.com",
+                "www.subzero-wolf.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/subzero\\/sst",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "subzero.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "sst.subzero-wolf.com",
+                    "resolved": "subzero.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "subzero-wolf.com",
+                "www.subzero-wolf.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/demoretail\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hp.com",
+                "support.hp.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/capitalone\\/prod\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "capitalone.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tms.capitalone.com",
+                    "resolved": "capitalone.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e97a442e7b85ea026784164d510a49925b80e9f312b76d17db977c2f1ec1de92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalone.com",
+                "verified.capitalone.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/capitalone\\/prod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capitalone.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tms.capitalone.com",
+                    "resolved": "capitalone.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "84a87bcb2b05bb34a4b21d06f3fca0fd8cd0fde4721b7fc1bb8143c1160a6b4f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalone.com",
+                "verified.capitalone.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/capitalone\\/prod\\/code\\/f15ab527ba9b44dafe2d48ff058f1f86\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "capitalone.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tms.capitalone.com",
+                    "resolved": "capitalone.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "cbf9e2f0fd1a255922a5eb276b29f99195b9f6b9a490ea304365ca962767e4ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalone.com",
+                "verified.capitalone.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/capitalone\\/prod\\/code\\/b62b1176cb9aaf9c65fe877bcf2355c6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capitalone.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tms.capitalone.com",
+                    "resolved": "capitalone.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "0290d98ecb0a5b797d6fe4d0361d87178ae7817e425c274588d4fb8f52ea422e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalone.com",
+                "verified.capitalone.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/capitalone\\/prod\\/code\\/712ff787f143e2fedc740cf96cd0f80b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capitalone.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tms.capitalone.com",
+                    "resolved": "capitalone.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "ce674d66d3b3716b71e616dd8aa4e7f12f7a605b31c2281d59b192d005cff1ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalone.com",
+                "verified.capitalone.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/capitalone\\/prod\\/code\\/f3290ad6a74d8c986a85c004d2cdb4b0\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "capitalone.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tms.capitalone.com",
+                    "resolved": "capitalone.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "ba1cf780b26513025c92593ef6f6c2f720b32676c2b7d342a47d05b8d9fe91ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalone.com",
+                "verified.capitalone.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/easyjet\\/en\\/Bootstrap\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "easyjet.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "privacy.easyjet.com",
+                    "resolved": "easyjet.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "a7318a9de5b0b11896be37dbbcaf5cac08e6304f215d33a342b82fff3808c9b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easyjet.com",
+                "www.easyjet.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/easyjet\\/en\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "easyjet.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "privacy.easyjet.com",
+                    "resolved": "easyjet.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "77b505748e23fcb1ec0539498a241fc34acfa4d0d7080ca20402441f2e7ef4ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easyjet.com",
+                "www.easyjet.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/easyjet\\/en\\/code\\/f90c0d66f04ff9166a315b9e731c0a48\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "easyjet.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "privacy.easyjet.com",
+                    "resolved": "easyjet.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "d6ceaf1e1abd65be972e18c34418ef6585c5e44ce687bbcc8a70a16271cda946"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easyjet.com",
+                "www.easyjet.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/de9f36b9c2b37cebc7ca27a74d1dd34b\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "72e82b1913e0a27f9a6647de2f8e26e63a6cd61953e7dc9ffa9a9fb11e1525e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espncricinfo.com",
+                "www.espncricinfo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/eb726907aefe5e98ebe4fd1a9e4bb450\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "2c1c18a5215a1aba371f0c7808dedacf288c97c91106e69ca05d24e22030eb70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espncricinfo.com",
+                "www.espncricinfo.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/experianus\\/expcom\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "experianus.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tms.experian.com",
+                    "resolved": "experianus.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "440b9d88a6b4b7cd562d9c7935621180d455aa280e8ac644b36ef0bb841b11a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "experian.com",
+                "www.experian.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/a1caa050db5a2bb9d502a9d67270986e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "31e0ad5a66562674632c886e29e0cb7ec52c0f2db37b24556f63b0d5ae39adbd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fxnetworks.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/7b4fc8760291cc521ac6ed60f936ab34\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "6f306ff2564df0c006821ed5af4cfe8ad2ef598e50aa32db77040d55d3c730fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fxnetworks.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/432739ce40ac75e2070310bffda57891\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "0706ec7bb4cbcbb029d251a046875d22e990e1fa6b6850d87730198964e5d9c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fxnetworks.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/2508b13689b72859775860fee4a10bde\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "2d72cb303f300a1e97dd74bad2f2a98ed10727db99828fb5bd3b1b5f803115ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fxnetworks.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/08e0acaf14bfd72b459e783fa8c33e38\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "2c8c18487895ad773796bf778db49d5e4564934aa39871c0b09bd055f3f25b49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_5BFD123F5245AECB0A490D45%40AdobeOrg": {
+                    "ttl": 63072011,
+                    "length": 122,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "AMCVS_5BFD123F5245AECB0A490D45%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "s_ac": {
+                    "ttl": -1747340186,
+                    "length": 13,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fxnetworks.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/93074390dbe5b958692897e52bc8f9a1\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "f0b45405409a9b7e7261b3f5b77750fadae6c95a7ed815fd2acf50357b5ab82f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fxnetworks.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/3079b5fd4eea1ada8d6cf1a90602890e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "4c5ae334ecfb20b01520f9bfd37395baade5bc953c706d7172f4aa92219c461f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fxnetworks.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/87e96ab90f717183ab0ec36ff4d85e19\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e67b71fc432c599e01985faf8e543b47b3c6b281903a79ad0656dcd41b30ff6a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fxnetworks.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/443fdf0b12dcadac21db0f1a9a761aec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "adab96dd785b6ed336fa0531be57e0e7a08a96f77bb1386da736a56b77888ae6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fxnetworks.com",
+                "www.fxnetworks.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/39a15536c10c7176791d76694eadf98d\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "3ffa58bb1155f464dca4312bc4257f8b557407dcce46ec8d8ce148068aa3ead4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMCV_C7A21CFE532E6E920A490D45%40AdobeOrg": {
+                    "ttl": 63072018,
+                    "length": 222,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "AMCVS_C7A21CFE532E6E920A490D45%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "s_ac": {
+                    "ttl": -1747325147,
+                    "length": 13,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "s_cc": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodmorningamerica.com",
+                "www.goodmorningamerica.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/90ad041ccc107401e41a345827976ed0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "d67c2c445a5e0afd286ab92c09e2f34c2b9771927be3224c49b83088c240d5a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodmorningamerica.com",
+                "www.goodmorningamerica.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/67d4b753e3021985e968337c79644261\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "486c3798f9c98acb9bbc554f7e18b05dafe90ca97ef5c52143e678d706fb98b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodmorningamerica.com",
+                "www.goodmorningamerica.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/2d74b94feb5d51ad542577fe9993d006\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "0ee64e288f625a8987c62c3028a2b2d74e19e031e91aadba0ab775a1a4cbebc1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodmorningamerica.com",
+                "www.goodmorningamerica.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/cq_Korn_Ferry\\/prod\\/Bootstrap\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cq-korn-ferry.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cookieconsent.kornferry.com",
+                    "resolved": "cq-korn-ferry.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "73708b1adb99161419484a6f69a8788de67c1f5817f2dbf45c50f465868c80c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kornferry.com",
+                "www.kornferry.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/pc\\/cq_Korn_Ferry\\/privacy",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cq-korn-ferry.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cookieconsent.kornferry.com",
+                    "resolved": "cq-korn-ferry.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "29529a75d83dc5a7cfef0add131911a963ca4f95564f1d87484dd7c5e73ebfd2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kornferry.com",
+                "www.kornferry.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/cq_Korn_Ferry\\/prod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cq-korn-ferry.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cookieconsent.kornferry.com",
+                    "resolved": "cq-korn-ferry.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "acf253c5b23dab50c68533aa64292325eefcf898a47a3b3a0a590bacefdf2168"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kornferry.com",
+                "www.kornferry.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/maurices\\/prod\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "maurices.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.maurices.com",
+                    "resolved": "maurices.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "783aac78484a8dc73bcd9b6023e29197dc53b70c6e6c2940fa51e6fc34ab566e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maurices.com",
+                "www.maurices.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/maurices\\/prod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "maurices.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.maurices.com",
+                    "resolved": "maurices.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "af15ad1d3081b7559e2b3e4bd3731f4c5e33503364368b203c552d7525be7b94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maurices.com",
+                "www.maurices.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/maurices\\/prod\\/code\\/d50b357585b94ccea7aea02783fcf22a\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "maurices.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.maurices.com",
+                    "resolved": "maurices.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "7ca67e5f5232ae41b4d7db119b2a2d33f1906bf6d8e3667d82367cafa4fb948f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maurices.com",
+                "www.maurices.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/maurices\\/prod\\/code\\/39e304e63fd331244d8d0f1889ce4b6e\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "maurices.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ensighten.maurices.com",
+                    "resolved": "maurices.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "284e68f6c02386ca8a94e2756a8896b15a3892f2fde9512b3771e164534237ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maurices.com",
+                "www.maurices.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/a70d918820ea99264ad412ed99c948c0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "2e6d420c8720ec98acc41106e09021ac2076169f3a1682cc6b3afcdda912192b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/acc15648b8e64ac67d4cf39248348f47\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "e82b6e5af01f71fc9913b1a2deabe2e8ceb98a7089d842e2f113e0ba7109668a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/601451833bb37a1e8c4883722409e0ac\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "754d698f6075be66ec0f9765b4f9ec44b6186779cc1de1cf3c9d6b54e1b13e29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/TWDC-DTCI\\/prod\\/code\\/31c4a76c5a81b6688446272f9e390c06\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "twdc-dtci.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dcf.espn.com",
+                    "resolved": "twdc-dtci.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "dbf553222da546b7759dd37b8beae18185e8cf19e2a2f07221138ae72cdc983e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/nationaltrust\\/prod\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nationaltrust.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tms.nationaltrust.org.uk",
+                    "resolved": "nationaltrust.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "68f37a66fa8eb9cb170de6c49df0069a2921529ba110148298ffdb0a52b04de0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaltrust.org.uk",
+                "www.nationaltrust.org.uk"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/toyotanational\\/t-com-p\\/Bootstrap\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "toyotanational.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "nexus.toyota.com",
+                    "resolved": "toyotanational.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "5a80f6aa5b50921381598e6eab5104ecd85d4b7070257e00f98342ca30390fb2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "www.toyota.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/vaa\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vaa.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tms.virginatlantic.com",
+                    "resolved": "vaa.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "f35017f1a8ca5860ae96a76755f07d5b6d06e7c5ca85abb355d7d40731d9f62f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "virginatlantic.com",
+                "www.virginatlantic.com"
+            ]
+        },
+        {
+            "rule": "nc0\\.co\\/wyndham\\/wyndhamhotels-prod\\/Bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wyndham.edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tags.wyndhamhotels.com",
+                    "resolved": "wyndham.edge.nc0.co"
+                }
+            ],
+            "responseHashes": [
+                "a6944d0f780dfb146d18ef1c92c0dce97b8a840d49b234454c653b36380a898e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wyndhamhotels.com",
+                "www.wyndhamhotels.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6763990267639902
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.072992700729927
+        },
+        {
+            "domain": "go.com",
+            "prevalence": 0.04866180048661801
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.043795620437956206
+        },
+        {
+            "domain": "abcotvs.net",
+            "prevalence": 0.0413625304136253
+        },
+        {
+            "domain": "nationalgeographic.com",
+            "prevalence": 0.031630170316301706
+        },
+        {
+            "domain": "disney.io",
+            "prevalence": 0.021897810218978103
+        },
+        {
+            "domain": "px-cloud.net",
+            "prevalence": 0.0170316301703163
+        },
+        {
+            "domain": "abcnews.com",
+            "prevalence": 0.012165450121654502
+        },
+        {
+            "domain": "st8fm.com",
+            "prevalence": 0.0072992700729927005
+        }
+    ],
+    "types": {
+        "Script": 360,
+        "XHR": 17,
+        "Fetch": 4,
+        "Image": 48,
+        "Ping": 9
+    },
+    "nameservers": [
+        "ns-1332.awsdns-38.org",
+        "ns-1781.awsdns-30.co.uk",
+        "ns-341.awsdns-42.com",
+        "ns-663.awsdns-18.net"
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "domain": "jcrew.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "chat"
+    ],
+    "cnames": [
+        {
+            "original": "chat.jcrew.com",
+            "resolved": "chat.jcrew.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "jcrew\\.com\\.edgekey\\.net\\/api\\/v2\\/Agent\\/CheckSkillStatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "chat.jcrew.com",
+                    "resolved": "chat.jcrew.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcrew.com",
+                "factory.jcrew.com",
+                "www.jcrew.com"
+            ]
+        },
+        {
+            "rule": "jcrew\\.com\\.edgekey\\.net\\/api\\/v2\\/Agent\\/CheckSkillStatus",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "chat.jcrew.com",
+                    "resolved": "chat.jcrew.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6a0b11d52570b9185350155619a7391963d336fa1e59425c61052c474723d6fb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcrew.com",
+                "factory.jcrew.com",
+                "www.jcrew.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000424,
+    "topInitiators": [
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": []
+}

@@ -1,0 +1,102 @@
+{
+    "domain": "payments-amazon.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000719,
+    "sites": 7,
+    "subdomains": [
+        "static-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "payments-amazon\\.com\\/checkout\\.js",
+            "cookies": 0.000103,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-eu"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.languages": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.connection": 1,
+                "Navigator.prototype.userAgent": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1
+            },
+            "sites": 7,
+            "prevalence": 0.000719,
+            "cnames": [],
+            "responseHashes": [
+                "0d528ce8ffa1dc9ae1f5be54c8b10bea0c5a48bd820165e3fe1396ee90bfbc42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "language": {
+                    "ttl": 86405,
+                    "length": 5,
+                    "prevalence": 0.0001026694045174538,
+                    "uniqueness": 1
+                },
+                "ledgerCurrency": {
+                    "ttl": 86405,
+                    "length": 3,
+                    "prevalence": 0.0001026694045174538,
+                    "uniqueness": 1
+                },
+                "apay-session-set": {
+                    "ttl": 31536005,
+                    "length": 74,
+                    "prevalence": 0.0001026694045174538,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beliani.ch",
+                "dike.works",
+                "samen.de",
+                "shop.ahw-shop.de",
+                "www.beliani.ch",
+                "www.gartenhaus.ch",
+                "www.samenhaus.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Federated Login",
+        "Online Payment",
+        "Badge",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000103,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "pdns3.ultradns.org",
+        "pdns4.ultradns.org",
+        "pdns1.ultradns.net",
+        "pdns2.ultradns.net",
+        "pdns5.ultradns.info",
+        "pdns6.ultradns.co.uk"
+    ]
+}

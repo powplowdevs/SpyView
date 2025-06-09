@@ -1,0 +1,138 @@
+{
+    "domain": "lemonde.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "cmp.lemonde.fr",
+            "resolved": "lemonde.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lemonde\\.map\\.fastly\\.net\\/js\\/lemonde\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cmp.lemonde.fr",
+                    "resolved": "lemonde.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "19fd225ef2af873907a3f06ead96cab56d2e8e6b59b53ffe0cbb45d6bc2224be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemonde.fr",
+                "www.lemonde.fr"
+            ]
+        },
+        {
+            "rule": "lemonde\\.map\\.fastly\\.net\\/html\\/lemonde\\/wall\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cmp.lemonde.fr",
+                    "resolved": "lemonde.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "ceca11551c0ab3c6502f4e7e2642a3ce486909c844c992e45b523890d4daa8e2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemonde.fr",
+                "www.lemonde.fr"
+            ]
+        },
+        {
+            "rule": "lemonde\\.map\\.fastly\\.net\\/api\\/impression",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cmp.lemonde.fr",
+                    "resolved": "lemonde.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemonde.fr",
+                "www.lemonde.fr"
+            ]
+        },
+        {
+            "rule": "lemonde\\.map\\.fastly\\.net\\/api\\/impression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cmp.lemonde.fr",
+                    "resolved": "lemonde.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemonde.fr",
+                "www.lemonde.fr"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Script": 2,
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

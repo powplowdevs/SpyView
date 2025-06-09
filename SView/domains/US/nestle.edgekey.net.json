@@ -1,0 +1,116 @@
+{
+    "domain": "nestle.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "profiles.purina.com",
+            "resolved": "nestle.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nestle\\.edgekey\\.net\\/udc\\/widget\\/main\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "profiles.purina.com",
+                    "resolved": "nestle.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2e96e775f4713915dc00758861e11549e7b5930a2c70d441a1f1cffab3f7a370"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "purina.com",
+                "www.purina.com"
+            ]
+        },
+        {
+            "rule": "nestle\\.edgekey\\.net\\/udc\\/widget\\/widgets",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "profiles.purina.com",
+                    "resolved": "nestle.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "purina.com",
+                "www.purina.com"
+            ]
+        },
+        {
+            "rule": "nestle\\.edgekey\\.net\\/udc\\/widget\\/widgets",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "profiles.purina.com",
+                    "resolved": "nestle.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "purina.com",
+                "www.purina.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "d1a5qjjt8mb7fh.cloudfront.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

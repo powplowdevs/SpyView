@@ -1,0 +1,148 @@
+{
+    "domain": "wildcard3-net-alb-545423735.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "b.bostonglobemedia.com",
+            "resolved": "wildcard3-net-alb-545423735.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wildcard3-net-alb-545423735\\.us-east-1\\.elb\\.amazonaws\\.com\\/plugin\\/plugin\\/6e7cbdeea088aa03767bcd8c4c742ef1",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "b.bostonglobemedia.com",
+                    "resolved": "wildcard3-net-alb-545423735.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "daa5d1e1079ee90b6b2ef9d9d6a0ae09d565272ff73922086c0cb4a54406340e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boston.com",
+                "www.bostonglobe.com"
+            ]
+        },
+        {
+            "rule": "wildcard3-net-alb-545423735\\.us-east-1\\.elb\\.amazonaws\\.com\\/plugin\\/library\\/9a2d0268451752b3072994dfe190a58e",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "b.bostonglobemedia.com",
+                    "resolved": "wildcard3-net-alb-545423735.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "bb9e9b77454bc4f58e57539c8fad36333b8366db16509e3a5ac7a00021eeb613"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boston.com",
+                "www.bostonglobe.com"
+            ]
+        },
+        {
+            "rule": "wildcard3-net-alb-545423735\\.us-east-1\\.elb\\.amazonaws\\.com\\/DG\\/DEFAULT\\/rest\\/rpc\\/459",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "b.bostonglobemedia.com",
+                    "resolved": "wildcard3-net-alb-545423735.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "79d4c1f4f87d50051d5f69ed45ca959386cf543676aabb7664d23b317f31fd41"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "BCSessionID": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "bostonglobe.com",
+                "www.bostonglobe.com"
+            ]
+        },
+        {
+            "rule": "wildcard3-net-alb-545423735\\.us-east-1\\.elb\\.amazonaws\\.com\\/DG\\/DEFAULT\\/cs",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "b.bostonglobemedia.com",
+                    "resolved": "wildcard3-net-alb-545423735.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "119b82e535ce3f802cd992053cd7108dfbc262b1bfdc7a7cf639536592bac82f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "BCSessionID": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "bostonglobe.com",
+                "www.statnews.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "blueconic.net",
+            "prevalence": 0.8823529411764706
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.11764705882352941
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 2
+    },
+    "nameservers": []
+}

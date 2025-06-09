@@ -1,0 +1,78 @@
+{
+    "domain": "360connect.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "efw",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "360connect\\.com\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "efw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "40e91448ae899bdc38b826866c705cf4a3fd03b2338d923e705c114ee727dd33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barndominiumzone.com",
+                "buildingelements.com"
+            ]
+        },
+        {
+            "rule": "360connect\\.com\\/efw\\/v3\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barndominiumzone.com",
+                "buildingelements.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-336.awsdns-42.com",
+        "ns-828.awsdns-39.net",
+        "ns-1659.awsdns-15.co.uk",
+        "ns-1050.awsdns-03.org"
+    ]
+}

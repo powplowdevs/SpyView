@@ -1,0 +1,98 @@
+{
+    "domain": "digiseg.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "digiseg\\.net\\/audiences",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indidansk.dk",
+                "migogkbh.dk",
+                "www.boligsiden.dk",
+                "www.guloggratis.dk",
+                "www.lav-det-selv.dk",
+                "www.proff.dk",
+                "www.tilbudsugen.dk"
+            ]
+        },
+        {
+            "rule": "digiseg\\.net\\/audiences",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "51fe4517228b5e52886952ca06fa65ab8a8b534761ca49ab2b87f5e5c032e83f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indidansk.dk",
+                "migogkbh.dk",
+                "www.boligsiden.dk",
+                "www.guloggratis.dk",
+                "www.lav-det-selv.dk",
+                "www.proff.dk",
+                "www.tilbudsugen.dk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "requestmetrics.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "instana.io",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Preflight": 7,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "ns1.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns3.digitalocean.com"
+    ]
+}

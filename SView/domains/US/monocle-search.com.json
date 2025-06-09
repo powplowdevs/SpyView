@@ -1,0 +1,124 @@
+{
+    "domain": "monocle-search.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "edge"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "monocle-search\\.com\\/search-embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "bed6b2969f0965d104897a4f1e41d879a8edacf0580761cae4563fe36663f7b8",
+                "404bbe1098557651c8cf4c68d8e710beea4ab58dda34461b5b31d16eefc12a2f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mashupmath.com",
+                "www.mashupmath.com",
+                "www.sqspthemes.com"
+            ]
+        },
+        {
+            "rule": "monocle-search\\.com\\/api\\/search\\/configured\\/site_u_nxRSK7N7",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mashupmath.com",
+                "www.mashupmath.com"
+            ]
+        },
+        {
+            "rule": "monocle-search\\.com\\/api\\/search\\/cached-settings\\/site_u_nxRSK7N7",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0a429cbfc15746663935a682a70c62c85dfe912ba8a655dc9e40e476ed90b074"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mashupmath.com",
+                "www.mashupmath.com"
+            ]
+        },
+        {
+            "rule": "monocle-search\\.com\\/search\\/site_u_nxRSK7N7\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "27ab0d02dc09ae89ed11b5d15d3180912da7797642dea8e0bdc0b0cb19234be7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mashupmath.com",
+                "www.mashupmath.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Ping": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "kiki.bunny.net",
+        "coco.bunny.net"
+    ]
+}

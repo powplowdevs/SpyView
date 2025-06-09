@@ -1,0 +1,87 @@
+{
+    "domain": "rapidedge.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "metrics",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rapidedge\\.io\\/gamera\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e370440efd54bcbfae81b45d230e2ea14a6e51b2e97e936b6ac5daad86427a04"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gamera_user_id": {
+                    "ttl": 31536021,
+                    "length": 36,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iplocation.net",
+                "www.vesselfinder.com"
+            ]
+        },
+        {
+            "rule": "rapidedge\\.io\\/gamera\\/tracker\\/production\\/3pcs\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iplocation.net",
+                "www.vesselfinder.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "fuseplatform.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "garret.ns.cloudflare.com",
+        "jill.ns.cloudflare.com"
+    ]
+}

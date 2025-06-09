@@ -1,0 +1,75 @@
+{
+    "domain": "evolvemediallc.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000849,
+    "sites": 12,
+    "subdomains": [
+        "secureassets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "evolvemediallc\\.com\\/prebid\\/prebid9\\.17\\.0\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "secureassets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6,
+                "window.sessionStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "f7d38d7b7b8b64633032b83816928d92819ffb1ffc0a49c400706149cd9869e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "hb_insticator_uid": {
+                    "ttl": 2592002,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cattime.com",
+                "dogtime.com",
+                "www.comingsoon.net",
+                "www.mandatory.com",
+                "www.realitytea.com",
+                "www.superherohype.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "tara.ns.cloudflare.com",
+        "piotr.ns.cloudflare.com"
+    ]
+}

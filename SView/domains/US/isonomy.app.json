@@ -1,0 +1,162 @@
+{
+    "domain": "isonomy.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "isonomy\\.app\\/v5\\/\\/dist\\/index\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "9cbd7521e9addfad50758b889054f872b4e8d8a9ef133268df9b0d472bf33f65"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "owlvans.com",
+                "redmond.life",
+                "woodencork.com",
+                "www.penboutique.com"
+            ]
+        },
+        {
+            "rule": "isonomy\\.app\\/v5\\/dist\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "speechSynthesis.__proto__.getVoices": 4,
+                "window.localStorage": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "42e21f7846258f2447335797b3ac2c0e7f0b0a98e14ea0fc76d7d8e1c881b682"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "owlvans.com",
+                "redmond.life",
+                "woodencork.com",
+                "www.penboutique.com"
+            ]
+        },
+        {
+            "rule": "isonomy\\.app\\/v5\\/src\\/Languages\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "0a27023470135100d046bff0845f2692d0a6ad8db9169da2f090d92b31986edc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "owlvans.com",
+                "redmond.life",
+                "woodencork.com",
+                "www.penboutique.com"
+            ]
+        },
+        {
+            "rule": "isonomy\\.app\\/v5\\/src\\/Frontend\\/assets\\/svgs\\/sprite\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "f44fc076fb8fd43050871f5904d4a71610f46ab6e299692ed1bfc8cd3f2c21e3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "owlvans.com",
+                "redmond.life",
+                "woodencork.com",
+                "www.penboutique.com"
+            ]
+        },
+        {
+            "rule": "isonomy\\.app\\/v5\\/src\\/Frontend\\/assets\\/css\\/widget\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "67957fcc44b5243c38bf95d292daca67c9dad815ea2c79494a9900d90c08e83d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "owlvans.com",
+                "redmond.life",
+                "woodencork.com",
+                "www.penboutique.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Stylesheet": 8,
+        "Script": 4,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "ns1.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns3.digitalocean.com"
+    ]
+}

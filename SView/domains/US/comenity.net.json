@@ -1,0 +1,122 @@
+{
+    "domain": "comenity.net",
+    "owner": {
+        "name": "Alliance Data Systems",
+        "displayName": "Alliance Data Systems"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "smetrics",
+        "www",
+        "c"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "comenity\\.net\\/id",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1b0df8c875af1655b33a1b1294de6aa992ef61b2ec3355803312b79c0541f010"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breadfinancial.com",
+                "www.breadfinancial.com"
+            ]
+        },
+        {
+            "rule": "comenity\\.net\\/victoriassecret",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "victoriassecret.com",
+                "www.victoriassecret.com"
+            ]
+        },
+        {
+            "rule": "comenity\\.net\\/victoriassecret\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "victoriassecret.com",
+                "www.victoriassecret.com"
+            ]
+        },
+        {
+            "rule": "comenity\\.net\\/ac\\/victoriassecret\\/public\\/home",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "victoriassecret.com",
+                "www.victoriassecret.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Other": 6
+    },
+    "nameservers": [
+        "dalgss.alldata.net",
+        "colgss.alldata.net"
+    ]
+}

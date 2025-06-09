@@ -1,0 +1,159 @@
+{
+    "domain": "fontplus.jp",
+    "owner": {
+        "name": "SoftBank Group Corp.",
+        "displayName": "SoftBank"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "webfont",
+        "ricoh.static",
+        "yanmar.static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fontplus\\.jp\\/accessor\\/script\\/fontplus\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webfont"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "document.fonts.check": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fd13f795ebc7569c7ee925a78da46625bc80396710d0e23229ea8347536e7711"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kintetsu.co.jp",
+                "www.konami.com"
+            ]
+        },
+        {
+            "rule": "fontplus\\.jp\\/accessor\\/reql",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webfont"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kintetsu.co.jp",
+                "www.konami.com"
+            ]
+        },
+        {
+            "rule": "fontplus\\.jp\\/css\\/fonts\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ricoh.static",
+                "yanmar.static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "0a3d358ff150561d77a70c4b78f45c51703f691560aa091e92de080cfc75d11a",
+                "ceb62952fba92175787707115a8e1471d93bc9e016a76f16df0a0106ab66bc30"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ricoh-usa.com",
+                "www.ricoh-usa.com",
+                "www.yanmar.com"
+            ]
+        },
+        {
+            "rule": "fontplus\\.jp\\/fonts\\/FrutigerLTPro-Roman\\/0\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ricoh.static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "88f5018613a3acaee5b25d83098e98664d0d23c915587c7ca514eb6e2b5ef6e0"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ricoh-usa.com",
+                "www.ricoh-usa.com"
+            ]
+        },
+        {
+            "rule": "fontplus\\.jp\\/fonts\\/FrutigerLTPro-Bold\\/0\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ricoh.static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "69a47578f4a9d74eb00d65a6d242580095708cb5759f8656d5c6b695b6c2a58c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ricoh-usa.com",
+                "www.ricoh-usa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2,
+        "Stylesheet": 3,
+        "Font": 4
+    },
+    "nameservers": [
+        "ns-311.awsdns-38.com",
+        "ns-1064.awsdns-05.org",
+        "ns-910.awsdns-49.net",
+        "ns-1706.awsdns-21.co.uk"
+    ]
+}

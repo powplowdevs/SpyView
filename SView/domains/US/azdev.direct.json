@@ -1,0 +1,59 @@
+{
+    "domain": "azdev.direct",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "assets.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "azdev\\.direct\\/contact-center-webchat\\/lib\\/webchat\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.prod"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cbcf1cdc4a77cb77f00d60819934e6f7d9af2e9976cdf198158f2cd4d4a46e10"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allianzdirect.de",
+                "www.allianzdirect.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1431.awsdns-50.org",
+        "ns-2043.awsdns-63.co.uk",
+        "ns-128.awsdns-16.com",
+        "ns-529.awsdns-02.net"
+    ]
+}

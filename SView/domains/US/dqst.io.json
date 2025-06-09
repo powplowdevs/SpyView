@@ -1,0 +1,181 @@
+{
+    "domain": "dqst.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "cdn",
+        "request"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dqst\\.io\\/assets\\/ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mamotoja.pl",
+                "smakosze.pl",
+                "swiatgwiazd.pl",
+                "viva.pl",
+                "www.kobieta.pl",
+                "www.salon24.pl",
+                "ziare.com"
+            ]
+        },
+        {
+            "rule": "dqst\\.io\\/static\\/prod\\/jsIntegration\\/71f4a927d76f5ddf5f3c\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7,
+                "window.localStorage": 7,
+                "BroadcastChannel.prototype.constructor": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "be4a7aa6272d715edd07518a9060ae877e493b62757cf9d040a92eff7e93b106"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mamotoja.pl",
+                "polki.pl",
+                "smakosze.pl",
+                "swiatgwiazd.pl",
+                "viva.pl",
+                "www.kobieta.pl",
+                "www.salon24.pl",
+                "ziare.com"
+            ]
+        },
+        {
+            "rule": "dqst\\.io\\/static\\/prod\\/jsIntegration\\/e15b1a8014a62c4a0868\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "62eb079b810503112452d2745fec76663f7a6c7666eb1ce3e987fff08ee4dd2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mamotoja.pl",
+                "polki.pl",
+                "smakosze.pl",
+                "swiatgwiazd.pl",
+                "viva.pl",
+                "www.kobieta.pl",
+                "www.salon24.pl",
+                "ziare.com"
+            ]
+        },
+        {
+            "rule": "dqst\\.io\\/static\\/prod\\/ntsh\\/ntsh\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mamotoja.pl",
+                "polki.pl",
+                "smakosze.pl",
+                "swiatgwiazd.pl",
+                "viva.pl",
+                "www.kobieta.pl",
+                "www.salon24.pl"
+            ]
+        },
+        {
+            "rule": "dqst\\.io\\/reader",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "request"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "93a7480b2767f9fcbc5fcbcc1170192a2602110fc33d9ddfa8d07af325ec7e48",
+                "12a1fe2b2d5492dfacdf1142070db07f06417e45c2898cc3de65b3dbed4d1cdb",
+                "937c58a8eb6bf15ec89cc3a024553ad773a6339ca5f4590d8f5d7efc521500fd",
+                "0e225968a28057e29a4cf77585a336f1e254f406ab6bfd7267f784e5be693b3f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mamotoja.pl",
+                "polki.pl",
+                "viva.pl",
+                "www.kobieta.pl",
+                "www.salon24.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "questvert.pl",
+            "prevalence": 0.9743589743589743
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.02564102564102564
+        }
+    ],
+    "types": {
+        "Fetch": 12,
+        "Script": 16,
+        "Document": 7
+    },
+    "nameservers": [
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a4.googledomains.com"
+    ]
+}

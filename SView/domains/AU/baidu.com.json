@@ -1,0 +1,330 @@
+{
+    "domain": "baidu.com",
+    "owner": {
+        "name": "Baidu, Inc.",
+        "displayName": "Baidu"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00148,
+    "sites": 14,
+    "subdomains": [
+        "hm",
+        "pos",
+        "eclick"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "baidu\\.com\\/hm\\.js",
+            "cookies": 0.00117,
+            "fingerprinting": 2,
+            "subdomains": [
+                "hm"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.cookieEnabled": 11,
+                "Navigator.prototype.javaEnabled": 9,
+                "Navigator.prototype.language": 11,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "Screen.prototype.colorDepth": 11,
+                "Screen.prototype.orientation": 11,
+                "window.innerWidth": 11,
+                "window.localStorage": 11,
+                "Document.cookie getter": 11,
+                "window.sessionStorage": 11,
+                "Date.prototype.getTime": 11,
+                "Document.cookie setter": 11,
+                "window.innerHeight": 11
+            },
+            "sites": 12,
+            "prevalence": 0.00127,
+            "cnames": [],
+            "responseHashes": [
+                "45f216eb3a29426112e16947b80ae54f450acd018f325bcc801c937468dfb5ef",
+                "493f870150599ddf48d32d76b70e22bb58d01ce6972fa2e35df4f32550728692",
+                "b4bd1431380c3e63967c8486cf85c32012b9d3f6b7b2e3615993dceeceedd50d",
+                "cb287bffd064de9f63bd153e4ee93c2fc388c8e053f2dd1f7937d9e6ba65cdd1",
+                "0de49c7960ad53f193f07a123ddce37995af292130758ebd7fd7d6a26086c746",
+                "f53754b01365c3cb53572a3530706ea607650bd058f9d7e8c5ac02e530127468",
+                "b1c7ec1ad2f638e40f99258874cb03483b807feabaefeb2822577f1a2871d18f",
+                "deb2ed01b715df7725a4f7e326db3d0a5bac0efbb1d942fdd463524c97df2f09",
+                "302f72989f5db6b00cb6613b097e99367a11bf07b463add767a8817927a961ba",
+                "9b5d1671476bcf4862ef1e6e9bcea5746beadacb99f4aa18f13dbd3934c42ba1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac": {
+                    "ttl": 31536019,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "HMACCOUNT": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.001165995336018656,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_1d5ba5cbc559273825f37fdd6ecdfe28": {
+                    "ttl": 31536015,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_1d5ba5cbc559273825f37fdd6ecdfe28": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_da0619047856c9fcb34c38649c466107": {
+                    "ttl": 31536009,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_da0619047856c9fcb34c38649c466107": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_a7025e25c8500c732b8f48cc46e21467": {
+                    "ttl": 31536005,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_a7025e25c8500c732b8f48cc46e21467": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_9b5771e463d0599e345ad9f76084fec5": {
+                    "ttl": 31536014,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_9b5771e463d0599e345ad9f76084fec5": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_49837ffab1a11b30b9dc9143593b0499": {
+                    "ttl": 31536017,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_49837ffab1a11b30b9dc9143593b0499": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_59317e5849f38e9ec82d03f6fb1a84d7": {
+                    "ttl": 31536011,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_59317e5849f38e9ec82d03f6fb1a84d7": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_427c0b22bf914797e3b57a7be7db74fe": {
+                    "ttl": 31536006,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_427c0b22bf914797e3b57a7be7db74fe": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_6938d83bb85e91d847d101cabee8e096": {
+                    "ttl": 31536008,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_6938d83bb85e91d847d101cabee8e096": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_29a864290497a710230e7714241ecd96": {
+                    "ttl": 31536006,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_29a864290497a710230e7714241ecd96": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49": {
+                    "ttl": 31536007,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010599957600169599,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csdn.net",
+                "docs.espressif.com",
+                "fanfox.net",
+                "mangapark.net",
+                "www.ceicdata.com",
+                "www.fiio.com",
+                "www.mangatown.com",
+                "www.similarweb.com",
+                "www.smsl-audio.com",
+                "www.ventoy.net",
+                "www.yha.com.au",
+                "www.zhihu.com"
+            ]
+        },
+        {
+            "rule": "baidu\\.com\\/hm\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hm"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00117,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "HMACCOUNT": 0.001165995336018656,
+                "lotame_domain_check": 0.00010599957600169599
+            },
+            "exampleSites": [
+                "csdn.net",
+                "docs.espressif.com",
+                "fanfox.net",
+                "mangapark.net",
+                "www.ceicdata.com",
+                "www.fiio.com",
+                "www.mangatown.com",
+                "www.similarweb.com",
+                "www.smsl-audio.com",
+                "www.yha.com.au",
+                "www.zhihu.com"
+            ]
+        },
+        {
+            "rule": "baidu\\.com\\/s",
+            "cookies": 0.000106,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pos"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sohu.com",
+                "www.sohu.com"
+            ]
+        },
+        {
+            "rule": "baidu\\.com\\/se\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eclick"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sohu.com",
+                "www.sohu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00138,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5217391304347826
+        },
+        {
+            "domain": "baidustatic.com",
+            "prevalence": 0.34782608695652173
+        },
+        {
+            "domain": "csdnimg.cn",
+            "prevalence": 0.043478260869565216
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.043478260869565216
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Image": 13,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns3.baidu.com",
+        "ns4.baidu.com",
+        "ns2.baidu.com",
+        "dns.baidu.com",
+        "ns7.baidu.com"
+    ]
+}

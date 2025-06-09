@@ -1,0 +1,77 @@
+{
+    "domain": "wbx2.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "wdm-a"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wbx2\\.com\\/wdm\\/api\\/v1\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wdm-a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3bc5bb13beec17353d78ca055f271afeeb064d40593ed82739858f6a03ba5fe4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "webex.com",
+                "web.webex.com"
+            ]
+        },
+        {
+            "rule": "wbx2\\.com\\/wdm\\/api\\/v1\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wdm-a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "webex.com",
+                "web.webex.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-322.awsdns-40.com",
+        "ns-1616.awsdns-10.co.uk",
+        "ns-1516.awsdns-61.org",
+        "ns-699.awsdns-23.net"
+    ]
+}

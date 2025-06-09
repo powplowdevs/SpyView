@@ -1,0 +1,79 @@
+{
+    "domain": "server-side-tagging-q6nk4xfvhq-uc.a.run.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "server-side-tagging-q6nk4xfvhq-uc\\.a\\.run\\.app\\/g\\/collect",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00005658669081032141
+            },
+            "exampleSites": [
+                "joinhomebase.com",
+                "app.joinhomebase.com",
+                "www.joinhomebase.com"
+            ]
+        },
+        {
+            "rule": "server-side-tagging-q6nk4xfvhq-uc\\.a\\.run\\.app\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joinhomebase.com",
+                "app.joinhomebase.com",
+                "www.joinhomebase.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.4444444444444444
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Document": 3
+    },
+    "nameservers": []
+}

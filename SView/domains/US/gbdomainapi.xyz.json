@@ -1,0 +1,75 @@
+{
+    "domain": "gbdomainapi.xyz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "gbcapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "gbdomainapi\\.xyz\\/GBCalculatorSettingsAPICSharpProdV1\\/CurrencyRates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gbcapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldback.com",
+                "www.goldback.com"
+            ]
+        },
+        {
+            "rule": "gbdomainapi\\.xyz\\/GBCalculatorSettingsAPICSharpProdV1\\/CurrencyRates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gbcapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "26ccd7bdec1708df85c7822c38758d673aa6aa12583270c5d32d5f71c456412c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldback.com",
+                "www.goldback.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dns2.registrar-servers.com",
+        "dns1.registrar-servers.com"
+    ]
+}

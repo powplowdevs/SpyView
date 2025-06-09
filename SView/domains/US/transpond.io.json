@@ -1,0 +1,114 @@
+{
+    "domain": "transpond.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "transpond\\.io\\/tracker",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a4d6dcff4a87cbd16498f72853292724072caaccdf3720d2a535a7f2f0a58e19",
+                "522eadc4c98dad96bca14778233371766ddac0cc7e132a2d62f953287590e1e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mpz": {
+                    "ttl": 251654986571,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openssl.org",
+                "docs.openssl.org",
+                "www.openssl.org"
+            ]
+        },
+        {
+            "rule": "transpond\\.io\\/tracker",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ccbc6726842d83aea07933c211d212d83713fd67442f8d13bd743ad93fb89bc3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openssl.org",
+                "docs.openssl.org",
+                "www.openssl.org"
+            ]
+        },
+        {
+            "rule": "transpond\\.io\\/tracker",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openssl.org",
+                "docs.openssl.org",
+                "www.openssl.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns2.dnsimple.com",
+        "ns1.dnsimple.com",
+        "ns4.dnsimple.com",
+        "ns3.dnsimple.com"
+    ]
+}

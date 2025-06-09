@@ -1,0 +1,72 @@
+{
+    "domain": "brsimg-com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [
+        {
+            "original": "cdn.brsimg.com",
+            "resolved": "cdn.brsimg-com.akadns.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "brsimg-com\\.akadns\\.net\\/gdpr\\/9ee521b1-9a8c-49fe-9f98-c662be561bbc\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cdn.brsimg.com",
+                    "resolved": "cdn.brsimg-com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "cbad9555021cd3f1a57508be246c4e306c3d10be991a1f66d28009fa437f3af0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.boursorama.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "boursobank.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

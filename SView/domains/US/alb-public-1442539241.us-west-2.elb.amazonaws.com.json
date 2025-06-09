@@ -1,0 +1,122 @@
+{
+    "domain": "alb-public-1442539241.us-west-2.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "gtm-sp.prod-np.simplepractice.com",
+            "resolved": "alb-public-1442539241.us-west-2.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "alb-public-1442539241\\.us-west-2\\.elb\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "gtm-sp.prod-np.simplepractice.com",
+                    "resolved": "alb-public-1442539241.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_fbp": 0.00004244001810774106
+            },
+            "exampleSites": [
+                "simplepractice.com",
+                "secure.simplepractice.com",
+                "www.simplepractice.com"
+            ]
+        },
+        {
+            "rule": "alb-public-1442539241\\.us-west-2\\.elb\\.amazonaws\\.com\\/g\\/collect",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "gtm-sp.prod-np.simplepractice.com",
+                    "resolved": "alb-public-1442539241.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "2ebf0202a07a0785eb7646dcd85ef7c8752257c3db37f5fbe0593ace03064506",
+                "820bccd341ac9b322b17425f39365cbb2b50745399ad670fed9ec61c919341fa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "simplepractice.com",
+                "secure.simplepractice.com",
+                "www.simplepractice.com"
+            ]
+        },
+        {
+            "rule": "alb-public-1442539241\\.us-west-2\\.elb\\.amazonaws\\.com\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "gtm-sp.prod-np.simplepractice.com",
+                    "resolved": "alb-public-1442539241.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "d36b373b44b77f016e4b7df913ba2da2a8025456f016bc794861f210c0e3ada3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simplepractice.com",
+                "secure.simplepractice.com",
+                "www.simplepractice.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Fetch": 3,
+        "Document": 3
+    },
+    "nameservers": []
+}

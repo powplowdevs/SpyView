@@ -1,0 +1,120 @@
+{
+    "domain": "redbrace.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "armslist"
+    ],
+    "cnames": [
+        {
+            "original": "redbrace.armslist.com",
+            "resolved": "armslist.redbrace.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "redbrace\\.com\\/adManager\\/adHandler",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "armslist"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "redbrace.armslist.com",
+                    "resolved": "armslist.redbrace.com"
+                }
+            ],
+            "responseHashes": [
+                "92c2c8e3704b0404632bd809eb3481e81bbc89f815186d473d39c3d699a2cd94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armslist.com",
+                "www.armslist.com"
+            ]
+        },
+        {
+            "rule": "redbrace\\.com\\/css\\/adHandler\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "armslist"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "redbrace.armslist.com",
+                    "resolved": "armslist.redbrace.com"
+                }
+            ],
+            "responseHashes": [
+                "dae0ccce2ce53d004b401331492b908a202700006aeeac3ae700a69d28616ae5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armslist.com",
+                "www.armslist.com"
+            ]
+        },
+        {
+            "rule": "redbrace\\.com\\/adManager\\/impressionTrack",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "armslist"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "redbrace.armslist.com",
+                    "resolved": "armslist.redbrace.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armslist.com",
+                "www.armslist.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns63.domaincontrol.com",
+        "ns64.domaincontrol.com"
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "domain": "vizzit.se",
+    "owner": {
+        "name": "Vizzit International AB",
+        "displayName": "Vizzit International"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "tag",
+        "www",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vizzit\\.se\\/traffic\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "___vizzit": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "kronofogden.se",
+                "www.naturvardsverket.se",
+                "www.riksbank.se",
+                "www.slu.se",
+                "www.umea.se"
+            ]
+        },
+        {
+            "rule": "vizzit\\.se\\/myvizzit\\/api\\/tag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "2024e750d65fcb19b80fc321dac6b0c41040ffcf282da3beb72d245802582dcc",
+                "853a537c624fe9ed20bc21bfda1d3fe796d6714cf74dd5d7e48157b38833dc44",
+                "10cad23cbe44fa471530df35ff7bf03ba888c0dc1e4dda91f1cdddce6fa2920d",
+                "a6a3fb5ea9a8c329b8f593125940d4be9486420c4a3e422cae94175fd26b9efc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kronofogden.se",
+                "www.naturvardsverket.se",
+                "www.riksbank.se",
+                "www.slu.se",
+                "www.umea.se"
+            ]
+        },
+        {
+            "rule": "vizzit\\.se\\/integration\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.javaEnabled": 2,
+                "Document.cookie getter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "8e006af29aecdd1b40ce8fb6e482390757d1fbbc0df58d9fc384ee5aaa278aed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naturvardsverket.se",
+                "www.riksbank.se",
+                "www.slu.se",
+                "www.umea.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns1.loopia.se",
+        "ns2.loopia.se"
+    ]
+}

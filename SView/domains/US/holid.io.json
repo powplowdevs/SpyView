@@ -1,0 +1,167 @@
+{
+    "domain": "holid.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000163,
+    "sites": 23,
+    "subdomains": [
+        "helloworld",
+        "ip",
+        "ads"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "holid\\.io\\/openrtb2\\/auction",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "helloworld"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "f2dd7c231184a3090b9b536f27c170860a1e6c0b9e8cc2d241325d9e06def8f3",
+                "f62ee94364a5ffd2b19c8c108dd5dad94a1e2074af8ba7d7a713146606d948d2",
+                "1ffcb090ec9e36f44824151815e4a6a3c54e6b82f9c81b005f68af22419410ad",
+                "b11d467c8eef21eb0dffc74562a1be9fbc0125dc4b88c4560f9b660140b645e8",
+                "6f3f649223187793ea8b26094538f5d2f2302443f151fcd7526d7884f46d019e",
+                "f44eb79e087af526ce6170b16317f277ba070ac52ac6014be577247c17f2a83c",
+                "c087c6ec2f4c4f88b9b02b7c6399e4e677b8db85e406065b910d6648dd3e2487",
+                "f16cc50147e2401a1a2caa2dcce1a3ec6f2c90df33adffda60bf9fce1dace25b",
+                "e17900a7b88d995e4917c9bbdbe874bb87719e56a50eaf259a92965e81e0ea3c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byggebolig.no",
+                "modette.se",
+                "nhi.no",
+                "nyheter24.se",
+                "pdfresizer.com",
+                "whatsmyip.com",
+                "www.aperitif.no",
+                "www.familjeliv.se",
+                "www.flightradar24.com",
+                "www.forskning.no",
+                "www.jetphotos.com",
+                "www.sportbible.com",
+                "www.synonymer.se",
+                "www.tyla.com"
+            ]
+        },
+        {
+            "rule": "holid\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ip"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "9b202ecbc6d45c6d8901d989a918878397a3eb9d00e8f48022fc051b19d21a1d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podtail.com",
+                "podtail.se",
+                "thatsup.se",
+                "whatsmyip.com",
+                "www.mobil.se",
+                "www.vibilagare.se"
+            ]
+        },
+        {
+            "rule": "holid\\.io\\/prebid\\.9\\.19\\.gdpr\\.meta\\.highestbid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 5,
+                "NavigatorUAData.prototype.platform": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Notification.permission": 5,
+                "Navigator.prototype.plugins": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "392ea53b596fcb723b80babb7291978304aadf5a5111a99777c5bff427fc16c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podtail.com",
+                "podtail.se",
+                "thatsup.se",
+                "www.mobil.se",
+                "www.vibilagare.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.2054794520547945
+        },
+        {
+            "domain": "stpd.cloud",
+            "prevalence": 0.2054794520547945
+        },
+        {
+            "domain": "adnuntius.com",
+            "prevalence": 0.1643835616438356
+        },
+        {
+            "domain": "lwadm.com",
+            "prevalence": 0.1506849315068493
+        },
+        {
+            "domain": "inmobi.com",
+            "prevalence": 0.0821917808219178
+        },
+        {
+            "domain": "rubiconproject.com",
+            "prevalence": 0.0821917808219178
+        },
+        {
+            "domain": "relevant-digital.com",
+            "prevalence": 0.0547945205479452
+        },
+        {
+            "domain": "aditude.io",
+            "prevalence": 0.0410958904109589
+        },
+        {
+            "domain": "tradera.net",
+            "prevalence": 0.0136986301369863
+        }
+    ],
+    "types": {
+        "Fetch": 20,
+        "Script": 5
+    },
+    "nameservers": [
+        "betty.ns.cloudflare.com",
+        "sam.ns.cloudflare.com"
+    ]
+}

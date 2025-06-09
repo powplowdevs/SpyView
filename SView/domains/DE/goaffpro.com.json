@@ -1,0 +1,56 @@
+{
+    "domain": "goaffpro.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "goaffpro\\.com\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2927c0403ce4642d3b4255827c7ed9cdd3edf81529274e1929c35bf708c1aa52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aceflex.de",
+                "www.creality.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "noah.ns.cloudflare.com",
+        "ivy.ns.cloudflare.com"
+    ]
+}

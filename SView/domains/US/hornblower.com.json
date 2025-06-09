@@ -1,0 +1,120 @@
+{
+    "domain": "hornblower.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "my"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hornblower\\.com\\/assets\\/scripts\\/polyfill\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cityexperiences.com",
+                "www.thestoryoftexas.com"
+            ]
+        },
+        {
+            "rule": "hornblower\\.com\\/sdk\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b2228f82ec9aa8a46f7d26965bc36f6a7f57c8532129969e5d84a25710086b42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cityexperiences.com",
+                "www.thestoryoftexas.com"
+            ]
+        },
+        {
+            "rule": "hornblower\\.com\\/api\\/nearbyCities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f9a27b1a64513688ce07456fa2b9bd71f5eb595767fffa28d4bced9e28cb891"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cityexperiences.com",
+                "www.cityexperiences.com"
+            ]
+        },
+        {
+            "rule": "hornblower\\.com\\/api\\/structuredEventData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "33adf9653a36c05099d0ceaec11d5f11980dbe775d19828c037a7555dd367eea"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cityexperiences.com",
+                "www.cityexperiences.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "cortney.ns.cloudflare.com",
+        "james.ns.cloudflare.com"
+    ]
+}

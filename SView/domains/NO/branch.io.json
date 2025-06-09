@@ -1,0 +1,191 @@
+{
+    "domain": "branch.io",
+    "owner": {
+        "name": "Branch Metrics, Inc.",
+        "displayName": "Branch Metrics",
+        "privacyPolicy": "https://branch.io/policies/",
+        "url": "http://branch.io"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00153,
+    "sites": 15,
+    "subdomains": [
+        "cdn",
+        "api2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "branch\\.io\\/branch-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 8,
+                "window.innerHeight": 8,
+                "window.innerWidth": 8,
+                "window.sessionStorage": 8,
+                "NavigatorUAData.prototype.getHighEntropyValues": 6,
+                "window.localStorage": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.width": 6,
+                "Navigator.prototype.language": 6,
+                "window.devicePixelRatio": 6,
+                "Navigator.prototype.languages": 6
+            },
+            "sites": 11,
+            "prevalence": 0.00113,
+            "cnames": [],
+            "responseHashes": [
+                "35a276e0a6add6cd9a6b0a345412ccc6615991c71095058b726cea44cec50bc1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medium.com",
+                "koer.no",
+                "www.alltrails.com",
+                "www.bible.com",
+                "www.eventbrite.com",
+                "www.nbcnews.com",
+                "www.newyorker.com",
+                "www.pressreader.com",
+                "www.redbubble.com",
+                "www.thetrainline.com",
+                "www.theknot.com"
+            ]
+        },
+        {
+            "rule": "branch\\.io\\/v1\\/open",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000921,
+            "cnames": [],
+            "responseHashes": [
+                "6efcc6a5943f18eb8c9329bbb6a7082909c8eaa2ffc03f0add88e873ad379c1c",
+                "d82fa423e2a4c421412386c70e0de4560a0c829d27f36f7d83bd499675f47ced",
+                "3c8bc6617c635304fe03eff0fe23831f86e191faf7b660a53b1de5e77dc4d133",
+                "82b8db32a209d4a02db65eb1103d6697cffbe37f523266f7b12921e012fc6653",
+                "dd919522154e84c7efa2bfb0573e1dd1e11d64e66f902fd2392a13bee098b905",
+                "c307ac3e8a6dd95ff7448974530a295d69d7cb6437c738ac488b7ff9b5c13287",
+                "bf6cb5db38c8d0a56c296ad469b9ec3538d6eff4034a600cf2b6efbda5e5c5c6",
+                "e839c08fcdf40695b5f70879e73cfb44f8fcaab01344055e6748514f90b41400"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "koer.no",
+                "medium.com",
+                "www.bible.com",
+                "www.eventbrite.com",
+                "www.hoopladigital.com",
+                "www.newyorker.com",
+                "www.pressreader.com",
+                "www.redbubble.com",
+                "www.theknot.com"
+            ]
+        },
+        {
+            "rule": "branch\\.io\\/v1\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "a82dc28d43942326b346f92907df3bea5e38b2325ef97176f3b6234966bf19eb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "koer.no",
+                "m.imdb.com",
+                "medium.com",
+                "www.alltrails.com",
+                "www.bible.com",
+                "www.discoveryplus.com",
+                "www.eventbrite.com",
+                "www.hoopladigital.com",
+                "www.newyorker.com",
+                "www.pressreader.com",
+                "www.redbubble.com",
+                "www.thetrainline.com",
+                "www.theknot.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "app.link",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "prcdn.co",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "evbstatic.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "inspectlet.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "dqpnq362acqdi.cloudfront.net",
+            "prevalence": 0.027777777777777776
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.027777777777777776
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.027777777777777776
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "XHR": 22
+    },
+    "nameservers": [
+        "ns-1091.awsdns-08.org",
+        "ns-1809.awsdns-34.co.uk",
+        "ns-236.awsdns-29.com",
+        "ns-991.awsdns-59.net"
+    ]
+}

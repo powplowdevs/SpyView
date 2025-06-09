@@ -1,0 +1,63 @@
+{
+    "domain": "d38yx2x58j5qnq.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "side-api.tvtime.com",
+            "resolved": "d38yx2x58j5qnq.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "d38yx2x58j5qnq\\.cloudfront\\.net\\/sidecar\\/tvtcached",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "side-api.tvtime.com",
+                    "resolved": "d38yx2x58j5qnq.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "4a94d65d5a96058ba6d94a9b86eca1839dd15c6910c2e087013aa112eb932eb5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvtime.com",
+                "www.tvtime.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1245.awsdns-27.org",
+        "ns-2037.awsdns-62.co.uk",
+        "ns-281.awsdns-35.com",
+        "ns-556.awsdns-05.net"
+    ]
+}

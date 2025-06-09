@@ -1,0 +1,95 @@
+{
+    "domain": "neverbounce.com",
+    "owner": {
+        "name": "Metrics Delivered LLC",
+        "displayName": "Metrics Delivered"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000099,
+    "sites": 14,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "neverbounce\\.com\\/widget\\/dist\\/NeverBounce\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 4,
+                "console.memory": 4
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "c99d11cb4960d6e1918ed55d5bcbb316d38b51098e2efc1201904d7274d3273e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drwillcole.com",
+                "oceanconservancy.org",
+                "thetrustees.org",
+                "www.jasper.ai",
+                "www.kaseya.com",
+                "www.kingarthurbaking.com",
+                "www.mural.co",
+                "www.rossvideo.com",
+                "www.theretirementgroup.com",
+                "www.timedoctor.com"
+            ]
+        },
+        {
+            "rule": "neverbounce\\.com\\/v4\\/poe\\/notify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "6d88f1353b525f48f361af9734a8b36104da725fe6988ecf78854514456db457",
+                "35f9562ebc281ae9808e12c699c3161480bdc3d1e9958ad667235f3d8bd752f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drwillcole.com",
+                "oceanconservancy.org",
+                "thetrustees.org",
+                "www.jasper.ai"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "pat.ns.cloudflare.com",
+        "jacob.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,1679 @@
+{
+    "domain": "guardian.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "dualstack"
+    ],
+    "cnames": [
+        {
+            "original": "api.nextgen.guardianapps.co.uk",
+            "resolved": "guardian.map.fastly.net"
+        },
+        {
+            "original": "assets.guim.co.uk",
+            "resolved": "dualstack.guardian.map.fastly.net"
+        },
+        {
+            "original": "contributions.guardianapis.com",
+            "resolved": "dualstack.guardian.map.fastly.net"
+        },
+        {
+            "original": "observer.theguardian.com",
+            "resolved": "guardian.map.fastly.net"
+        },
+        {
+            "original": "sourcepoint.theguardian.com",
+            "resolved": "dualstack.guardian.map.fastly.net"
+        },
+        {
+            "original": "static.guim.co.uk",
+            "resolved": "dualstack.guardian.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "observer.theguardian.com",
+                    "resolved": "guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "observer.guardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/polyfill\\.io\\/v3\\/polyfill\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/frameworks\\.client\\.web\\.67d0c75d3e9ceb8409bc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/index\\.client\\.web\\.92b2f2228dfe2b58a8bd\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/bbbb2a74601d7f9b77c4\\/graun\\.standalone\\.commercial\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/static\\/frontend\\/fonts\\/guardian-headline\\/noalts-not-hinted\\/GHGuardianHeadline-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e2f1fe353fe883938e8edc73c457405dbfde972021c2c801be477e387569237d"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/static\\/frontend\\/fonts\\/guardian-textegyptian\\/noalts-not-hinted\\/GuardianTextEgyptian-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "726db62701edfd6ce9075a06df2894ce2c08fa3c0095b09311bad64614e04d47"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/polyfill\\.io\\/v3\\/polyfill\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "d98a90c5ca673bc086842e5cd3189cd2bbd9915b82b2f64fbd5211e9b0d6d79b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/frameworks\\.client\\.web\\.67d0c75d3e9ceb8409bc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "1393516b2ad8606cd35d20a83bbf4d9aae81d616a71311aa60e591e586bef61b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/index\\.client\\.web\\.92b2f2228dfe2b58a8bd\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "83b14f2ed4199a4fae9289b45df920a60d8456ff38b4e5449a048d9a1ee7adee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/bbbb2a74601d7f9b77c4\\/graun\\.standalone\\.commercial\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "606a10ddc3be4b43c87d94140d0fbbaaa324478b7899eba73101654d739e7c46"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/static\\/frontend\\/css\\/print\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5c49093d9ad901fb894a270ec95dd58f50b026647d06ff6b5008edf4096541ff"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/static\\/frontend\\/fonts\\/guardian-textsans\\/noalts-not-hinted\\/GuardianTextSans-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "0f9ee4eaf041ee79b61b9b58f07656acc934de4252af28b813ef8fbd48388c0d"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/static\\/frontend\\/fonts\\/guardian-textsans\\/noalts-not-hinted\\/GuardianTextSans-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "ec4a43b1c783172f7ef61801047b50f08bdee3140d939de22efa47052c734d1c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/static\\/frontend\\/fonts\\/guardian-headline\\/noalts-not-hinted\\/GHGuardianHeadline-Medium\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "79064bb745de36d0e2bd5be4867d2c940f0fde4582c0bcb1bf3e5c6c0d668308"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/static\\/frontend\\/manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "489ac58303c94185939fcd8a52c40b44aea7ff16d287caf10ec469fcdc96f15c"
+            ],
+            "type": "Manifest",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/images\\/favicon-32x32\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "static.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5b61b51acc3be37209b42e8396bcd818fd0bec24dbe5018b09d78d957fbd41f3"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/static\\/frontend\\/icons\\/homescreen\\/roundel\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "acf9e589893b2e3ca9e7193d35a2bf2654de8637b5aa1714ac5f8c95907dabf6"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/Metrics-importable\\.client\\.web\\.79e0e567bbd2b79feb4b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e8a1c3ce4c744ca7af2902dfbc4331324c835decbd6db4cd5a4dda9d092289d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/SetABTests-importable\\.client\\.web\\.8eff6ed2d0121af56053\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "37af5dfc6ca2b59494c664954a70a47d582fd5e7a34055769b2746df7e75a84f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/SetAdTargeting-importable\\.client\\.web\\.48159eba41576be4dd23\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "b0b1b81c36cc8193fb6404c42a442eec5bebce4085e93949973d76b7f7af25fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/1562\\.client\\.web\\.5e049e2efc07718b8f0f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e66584606b0309a6991f2eb7288554cb39829c27d869fce9d7b72aa121b8ed07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/1823\\.client\\.web\\.bebaf99dc915eb149b6e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "23696e676677df1953c8827f59e52f422bdba6125400552ff38c20ebb8dcd0fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/2161\\.client\\.web\\.194c27576be4b28a14c7\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "02aedf98413d8d6a6dd025471e774571e0f4d922cb2ff60be92b8caacfafb0c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/TopBar-importable\\.client\\.web\\.db610ad25864252a1f98\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "06950a6ea8e231c14bbc5acc2f90f6f4e7187c18c0994c7590592dc254eb0232"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/864\\.client\\.web\\.f188b9d80c56f2fd7b35\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "9d3cd18d148340c8ed9b39f0be06fc1a350c48519bce58de68dd241de6cc00fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/4308\\.client\\.web\\.3a5b973aaa99dc571f1e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "b244117be66d001dbedaa4bb99f60b6bb6e78ee8407ddc1014058e4d382de52b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/6555\\.client\\.web\\.1458fa2b8efe0c32f000\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "a3c19adb69c4fb63a9b6beeb8db016d7237e33cb486e73b94f107694812e29fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/Titlepiece-importable\\.client\\.web\\.d051353ab8e413243022\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "9a61e1563ed601ddbc906b774f12981aa650964b8ce89e56118dc49e49fdbb9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/unified\\/wrapperMessagingWithoutDetection\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "6f71b6d033a6425219afe59c27b9527b0e10631bc8a1cbebb5526fe6ec07bd35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/unified\\/4\\.33\\.0\\/usnat-uspapi\\.3d8c961a25fdcd4bf84d\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "861993cd95dfbe9686570fc1b0a276980643e092163c76556d06d1dd1d70c497"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/wrapper\\/v2\\/meta-data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "74a1a2e19c341ca752e5f45021dc207dd95a094b1c906fb234425fa0bfaed054"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/header",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "contributions.guardianapis.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/header",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "contributions.guardianapis.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "f84fd59fe9dac665999e529a49236defc51ef413cd6d82ccc46b81ee3a2dd089",
+                "d3679f92c227aa24459ae0bd6f67cbdf27574a3ef82000d20768faf530b49ed4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/wrapper\\/v2\\/messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "30ecf5bc5d82299c0b918fa6b2c665f8b3851920bc06a847b1b8204a392329f0",
+                "482b0f175f35284a288848bf5dc182c13e148197212ee591f228af578fdc3fa1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/wrapper\\/v2\\/pv-data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/wrapper\\/v2\\/pv-data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "3602e908b0571a9e5ef12dd5ba723a14853a4154dc1954a6bd8982812ddca6d7",
+                "4bf07e79368458311d92438254eb0dc188ff27248a86bef37c5d100171fd7b09"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/bfad928bd7c05438a582\\/graun\\.922\\.commercial\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "6ee03cf5e371aaf8d94a083e71ad94794417deddbc6a0e1ebc11ea8972f97300"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/b4a9d0ae6c5046eb6e42\\/graun\\.289\\.commercial\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "bc4e26a63c945eef66318903fb0fe9bc0c5293b5e3ab948b0153be15c8d3f48f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/6b2f988cb9ad394d2604\\/graun\\.819\\.commercial\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "aa3520798b6c6d08fd7db5e391d15ae6b208dfbecbb174a55c7c938d6cdf0f25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/8671d203e1f712a62da0\\/graun\\.consented-advertising\\.commercial\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "fd0c17498769132db220ce9f677e03bc0f106dc9f970f26b155a3e3ce8814c6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/us_pm\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b2ca7d2a3c3866839d79f17c1dad3eb84a825c7bf0f77f9b481578d304bede"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/PrivacyManagerUS\\.b4569\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "4bdd9ea2aea8627394d8fa6a005dc2c62ae7c0554508077b420856d23b393736"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/polyfills\\.355e5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "533b23c57b1770cc3ee9c15b998b2eb494fa0adb2d6929fd22a9b78adfade3a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/PrivacyManagerUS\\.05133\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "fa5dd844b5c978bcc69e3d4bbd5a683e007711e0542fb95fda9439f765008590"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/db8b5dfa80c660c45312\\/graun\\.326\\.commercial\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "a336b6601ce6675b667e0790d6675d08555334038556e11d426402f57cc72cad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/45a28ad79f5f598f6f50\\/graun\\.Prebid\\.js\\.commercial\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "4c30285faab3416caeeb59ade72b283468ef12456ee1054330a07042037d27db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/9376\\.client\\.web\\.ee87ee42255137032292\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "bba0f6e5d08b889588002b0cf27353e21b6972c0a8efdf56444f0619ca7eb091"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/6873\\.client\\.web\\.5aa4e0b548ffe229c440\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "07116c39d706114fc897256e9db7e6b830961ba937d622fbaf062aee9a3f7815"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/mms\\/v2\\/message",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sourcepoint.theguardian.com",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "328ef07333f363b79efda7f6190e68353883c8851e476c4f8db37bae012f5a22"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/tpc-test\\/v2\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.uk",
+                "www.theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/assets\\/index\\.client\\.web\\.198aea22917516dd0efb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theguardian.com",
+                "www.theguardian.com"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/commercial\\/dd698510285c2efff877\\/graun\\.standalone\\.commercial\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "assets.guim.co.uk",
+                    "resolved": "dualstack.guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theguardian.com",
+                "www.theguardian.com"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/crosswords\\/quick\\/17168\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.nextgen.guardianapps.co.uk",
+                    "resolved": "guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "fba9d4fb2b410142eae45fcfc503858e0fdcb0bec940ad0787ea5254627adb16"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/crosswords\\/quick\\/17167\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.nextgen.guardianapps.co.uk",
+                    "resolved": "guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "9494e366aae9dfe0507ab2921f5f6196734bd9fc8f73dbfbcdccb3ce2809bd86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/crosswords\\/quick\\/17166\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.nextgen.guardianapps.co.uk",
+                    "resolved": "guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "ba9e3d9700536183b3dd2d833bcb64bb9569b8c571bc4553c3572dfce0caab31"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/crosswords\\/quick\\/17165\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.nextgen.guardianapps.co.uk",
+                    "resolved": "guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "aef1373a2f8b64e026f4c6954ae01fbf4453088e55c959baeec0191b2be8228d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theguardian.com",
+                "www.theguardian.co.uk"
+            ]
+        },
+        {
+            "rule": "guardian\\.map\\.fastly\\.net\\/us-news\\/live\\/2025\\/may\\/15\\/donald-trump-birthright-citizenship-supreme-court-us-politics-updates-news\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.nextgen.guardianapps.co.uk",
+                    "resolved": "guardian.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "823bafc505089421cb3a8242acb3375724c900bf9ac08a3ba4b3ca540a5f8039"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theguardian.com",
+                "www.theguardian.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.39097744360902253
+        },
+        {
+            "domain": "theguardian.com",
+            "prevalence": 0.3609022556390977
+        },
+        {
+            "domain": "guim.co.uk",
+            "prevalence": 0.21804511278195488
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.03007518796992481
+        }
+    ],
+    "types": {
+        "Document": 8,
+        "Other": 20,
+        "Font": 15,
+        "Script": 78,
+        "Stylesheet": 6,
+        "Manifest": 3,
+        "XHR": 9,
+        "Preflight": 6,
+        "Fetch": 8,
+        "Image": 8
+    },
+    "nameservers": []
+}

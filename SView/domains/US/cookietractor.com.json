@@ -1,0 +1,92 @@
+{
+    "domain": "cookietractor.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "cdn-eu",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cookietractor\\.com\\/cookietractor\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-eu",
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "NavigatorUAData.prototype.brands": 4,
+                "Element.prototype.getClientRects": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "db2663ba06953e187d0be7863bdd652a0ace12ad92301eaaa294215cbe7f8fba",
+                "1b18191ccae63dc9bfce87b6f87aba0b7c0403bab16fd7ec3a7ed91bd6bf5430"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liseberg.se",
+                "www.matteboken.se",
+                "www.pluggakuten.se",
+                "www.regeringen.se",
+                "www.tartanregister.gov.uk",
+                "www.visitstockholm.com"
+            ]
+        },
+        {
+            "rule": "cookietractor\\.com\\/ext\\/c8153769-23bd-4d52-b11d-3f99725901e8\\/www\\.visitstockholm\\.com\\/en-US\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cda6501686179e708b01009f0cd7440c0eb0bd782e57704d71a283e9f95e8625"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitstockholm.com",
+                "www.visitstockholm.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "marek.ns.cloudflare.com",
+        "jen.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "domain": "wsimg.com",
+    "owner": {
+        "name": "Starfield Technologies, LLC",
+        "displayName": "Starfield"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000837,
+    "sites": 8,
+    "subdomains": [
+        "img1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "wsimg\\.com\\/traffic-assets\\/js\\/tccl-tti\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "img1"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000523,
+            "cnames": [],
+            "responseHashes": [
+                "3c37a4aa3cf6aaae6921a4b750c0e4f81fd338d6878be90b0faf2f921039cb23"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femaleled.info",
+                "havengreens.ca",
+                "jackkruse.com",
+                "oneworldinformation.com",
+                "torontoforyou.com"
+            ]
+        },
+        {
+            "rule": "wsimg\\.com\\/signals\\/js\\/clients\\/scc-c2\\/scc-c2\\.min\\.js",
+            "cookies": 0.000418,
+            "fingerprinting": 2,
+            "subdomains": [
+                "img1"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie setter": 4,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Date.prototype.getTime": 4,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 7,
+            "prevalence": 0.000732,
+            "cnames": [],
+            "responseHashes": [
+                "c48b1fb3987eabff87f56d5f4c54d0b60484f1b949ce0e0cc9b24982a16926f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_tccl_visitor": {
+                    "ttl": 31536014,
+                    "length": 36,
+                    "prevalence": 0.0004183225266680611,
+                    "uniqueness": 1
+                },
+                "_tccl_visit": {
+                    "ttl": 1814,
+                    "length": 36,
+                    "prevalence": 0.0004183225266680611,
+                    "uniqueness": 1
+                },
+                "_scc_session": {
+                    "ttl": 1201,
+                    "length": 2,
+                    "prevalence": 0.00020916126333403055,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femaleled.info",
+                "havengreens.ca",
+                "html-color.codes",
+                "jackkruse.com",
+                "madeincanadadirectory.ca",
+                "oneworldinformation.com",
+                "torontoforyou.com"
+            ]
+        },
+        {
+            "rule": "wsimg\\.com\\/signals\\/js\\/clients\\/tti\\/tti\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img1"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000523,
+            "cnames": [],
+            "responseHashes": [
+                "3c37a4aa3cf6aaae6921a4b750c0e4f81fd338d6878be90b0faf2f921039cb23"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femaleled.info",
+                "havengreens.ca",
+                "jackkruse.com",
+                "oneworldinformation.com",
+                "torontoforyou.com"
+            ]
+        },
+        {
+            "rule": "wsimg\\.com\\/traffic-assets\\/js\\/tccl\\.min\\.js",
+            "cookies": 0.000209,
+            "fingerprinting": 1,
+            "subdomains": [
+                "img1"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [],
+            "responseHashes": [
+                "c48b1fb3987eabff87f56d5f4c54d0b60484f1b949ce0e0cc9b24982a16926f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_tccl_visitor": {
+                    "ttl": 31536013,
+                    "length": 36,
+                    "prevalence": 0.00020916126333403055,
+                    "uniqueness": 1
+                },
+                "_tccl_visit": {
+                    "ttl": 1813,
+                    "length": 36,
+                    "prevalence": 0.00020916126333403055,
+                    "uniqueness": 1
+                },
+                "_scc_session": {
+                    "ttl": 1213,
+                    "length": 2,
+                    "prevalence": 0.00020916126333403055,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "html-color.codes",
+                "madeincanadadirectory.ca"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000732,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 19
+    },
+    "nameservers": [
+        "cns1.secureserver.net",
+        "cns2.secureserver.net"
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "domain": "smartemailing.cz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smartemailing\\.cz\\/js\\/tracking\\/tracker\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "efc5cb39eef89c6508f24ea06481869a30a1549af9b929e1714e0900a63dc92b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_se20session": {
+                    "ttl": 31536020,
+                    "length": 32,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "compari.ro",
+                "www.pazaruvaj.com"
+            ]
+        },
+        {
+            "rule": "smartemailing\\.cz\\/tracking\\/tracker\\/track",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "aa3d48475682ef39c645b2bd2fdd2e074a6dd941c58f554d0b9615efe4d6fb9a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "compari.ro",
+                "www.pazaruvaj.com"
+            ]
+        },
+        {
+            "rule": "smartemailing\\.cz\\/tracking\\/tracker\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "compari.ro",
+                "www.pazaruvaj.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "becky.ns.cloudflare.com",
+        "ram.ns.cloudflare.com"
+    ]
+}

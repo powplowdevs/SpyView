@@ -1,0 +1,56 @@
+{
+    "domain": "contester.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "contester\\.net\\/api\\/public\\/scripts\\/routing\\/awin\\/19810\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "82365152053955bfbdbafce5f045c3b9021760ecf5fab41293b783e5750aed58"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.de",
+                "www.ninjakitchen.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ara.ns.cloudflare.com",
+        "nash.ns.cloudflare.com"
+    ]
+}

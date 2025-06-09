@@ -1,0 +1,60 @@
+{
+    "domain": "www-u44-pnc-com-1507087647.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "www.u44.pnc.com",
+            "resolved": "www-u44-pnc-com-1507087647.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "www-u44-pnc-com-1507087647\\.us-east-1\\.elb\\.amazonaws\\.com\\/783807\\/calc\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "www.u44.pnc.com",
+                    "resolved": "www-u44-pnc-com-1507087647.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "d2de300abb53608e767a4da89d5db8eed8f3833b8a0f52899ac1fd23233d8ebb",
+                "db2e5b05857965943417cd54b04fd91d3e044a0b324bc1a0ece63ac81835b89e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pnc.com",
+                "secure.pnc.com",
+                "www.pnc.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000212,
+    "types": {
+        "Script": 3
+    },
+    "nameservers": []
+}

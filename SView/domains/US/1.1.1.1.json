@@ -1,0 +1,66 @@
+{
+    "domain": "1.1.1.1",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "1\\.1\\.1\\.1\\/cdn-cgi\\/trace",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0e4d884c1d5e1d83d1de7578ec7730e7d6f1ad84c3f311c3a35373ecce881519"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joybird.com",
+                "www.faceit.com"
+            ]
+        },
+        {
+            "rule": "1\\.1\\.1\\.1\\/cdn-cgi\\/trace",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e4916db17d5e146ee526844b40aa1c49993879aca404340c61fd72aace7f43b2",
+                "ba576d4a78706e6f4dfb95d945b6084ea346d0b45a3e52a00964949f3e2cf5b7",
+                "d25d069ac89aa0d4590c9816e332e147701e981613cd0a9f7b8a7c1e61ae1a01"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gl-inet.com",
+                "www.gl-inet.com",
+                "www.prensalibre.com",
+                "www.retailmenot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "XHR": 2,
+        "Fetch": 4
+    },
+    "nameservers": []
+}

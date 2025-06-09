@@ -1,0 +1,84 @@
+{
+    "domain": "festool.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "api",
+        "assets.cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "festool\\.io\\/ecommercev2\\/v1\\/Carts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "725daaec3555f540e5d6168f98190dfd9f84e38f028b7a48efa53739245d3818"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "festool.de",
+                "www.festool.de"
+            ]
+        },
+        {
+            "rule": "festool\\.io\\/festool-favicon\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c2f05002e94af8882c119d28c3f17352b38d789495f37023304f060bcfd0445c"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "festool.de",
+                "www.festool.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns1-07.azure-dns.com",
+        "ns3-07.azure-dns.org",
+        "ns2-07.azure-dns.net",
+        "ns4-07.azure-dns.info"
+    ]
+}

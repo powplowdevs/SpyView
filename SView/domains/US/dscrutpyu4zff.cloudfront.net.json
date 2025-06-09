@@ -1,0 +1,88 @@
+{
+    "domain": "dscrutpyu4zff.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dscrutpyu4zff\\.cloudfront\\.net\\/public\\/syrenis-cookie-management\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "d871d70a3111009b43dfbdece501f6052bb2d570212aa7e8ffc9a7b96ee51bb4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lilly.com",
+                "mounjaro.lilly.com",
+                "tirzepatide.lilly.com",
+                "www.lilly.com",
+                "zepbound.lilly.com"
+            ]
+        },
+        {
+            "rule": "dscrutpyu4zff\\.cloudfront\\.net\\/public\\/syrenis-cookie-management\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "b987f259007752cc75f4ef5598f219c168ab2a5b416448b1528f1061d323f635"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lilly.com",
+                "mounjaro.lilly.com",
+                "tirzepatide.lilly.com",
+                "www.lilly.com",
+                "zepbound.lilly.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 5,
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-1527.awsdns-62.org",
+        "ns-1822.awsdns-35.co.uk",
+        "ns-55.awsdns-06.com",
+        "ns-793.awsdns-35.net"
+    ]
+}

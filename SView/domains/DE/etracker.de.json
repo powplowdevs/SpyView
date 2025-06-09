@@ -1,0 +1,128 @@
+{
+    "domain": "etracker.de",
+    "owner": {
+        "name": "etracker GmbH",
+        "displayName": "etracker",
+        "privacyPolicy": "https://www.gametracker.com/about/privacy.php",
+        "url": "http://gametracker.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0125,
+    "sites": 123,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "etracker\\.de\\/cntcc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 123,
+            "prevalence": 0.0125,
+            "cnames": [],
+            "responseHashes": [
+                "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb",
+                "677f7edc071a4938fc33274e8a3eeb40fe97819258ac98a9fd41885c2e5b88e3",
+                "47402430e683ee7067852f6ca56ed73fe8fa9b9711db01f67171d87502733cf2",
+                "8cd9204e8d64326307deb70544c08d24b0ebc9fe1e56af828542502bdcef9ac0",
+                "50469dff7b2fa2b81a0e6345ff3b0b0c52b17649b8a2e0bd470550f1329ef11d",
+                "23f526a3f4f7963c08f1440c1634245e0325fd96b8f2b909b0a9f938b2bd87ae",
+                "787360f087ad9a2dbe9ce0c36b81bb8c7551db4195725ae9615cd6cf77805254",
+                "77a3262d31421faf4b027b02d92a56f1195890373220dfa307f2152f9021bbd1",
+                "f3035206616550475e419ff4b32075f69eb003d18112727eae43c01a27c88017",
+                "a0e781d3a0fccc9b657339fc6dc7832a27a671136fd289cdc7bf03dbbf927b7f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_et_coid": 0.0009178990311065783
+            },
+            "exampleSites": [
+                "www.dguv.de",
+                "www.rwe.com",
+                "www.englisch-hilfen.de",
+                "www.stadt-koeln.de",
+                "www.psychologie-heute.de",
+                "www.sparda-h.de",
+                "www.frankfurt-main.ihk.de",
+                "www.vb-muensterland.de",
+                "www.verbundvolksbank-owl.de",
+                "www.lotto-berlin.de",
+                "oeffentlicher-dienst-news.de",
+                "www.svlfg.de",
+                "www.gtai.de",
+                "www.olb.de",
+                "www.genobroker.de",
+                "www.iwkoeln.de",
+                "www.juraindividuell.de",
+                "www.patienteninfo-service.de",
+                "olymp.com",
+                "www.hannoversche-volksbank.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.de\\/api\\/v6\\/tracking\\/webEvents",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "156d75149d6cec8bd125ee7bbf4a48eef8e992ce8937bb92eb48315ab1c3da04"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rothenberger.com",
+                "www.din.de",
+                "www.dinmedia.de",
+                "www.energie-fachberater.de",
+                "www.gruene.de",
+                "www.leichtathletik.de",
+                "www.psychologie-heute.de",
+                "www.pz-news.de",
+                "www.vector.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "etracker.com",
+            "prevalence": 0.9664429530201343
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.020134228187919462
+        },
+        {
+            "domain": "epccm19.com",
+            "prevalence": 0.013422818791946308
+        }
+    ],
+    "types": {
+        "Script": 123,
+        "XHR": 9
+    },
+    "nameservers": [
+        "ns2.iphh.de",
+        "ns3.iphh.net",
+        "ns1.iphh.de"
+    ]
+}

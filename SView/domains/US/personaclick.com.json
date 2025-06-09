@@ -1,0 +1,97 @@
+{
+    "domain": "personaclick.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "personaclick\\.com\\/push\\/custom",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ikea.com.tr",
+                "www.ikea.com.tr"
+            ]
+        },
+        {
+            "rule": "personaclick\\.com\\/push\\/custom",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ikea.com.tr",
+                "www.ikea.com.tr"
+            ]
+        },
+        {
+            "rule": "personaclick\\.com\\/products\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3810334bb661f5b0dedd21c19d8140746c8e54356786a994c80f99c924eedf80"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ikea.com.tr",
+                "www.ikea.com.tr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "bayan.ns.cloudflare.com",
+        "joan.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "domain": "wwiops.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "clientip-classifier.prod.ops.us-east-1.aws"
+    ],
+    "cnames": [
+        {
+            "original": "cipc.weightwatchers.com",
+            "resolved": "clientip-classifier.prod.ops.us-east-1.aws.wwiops.io"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wwiops\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clientip-classifier.prod.ops.us-east-1.aws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cipc.weightwatchers.com",
+                    "resolved": "clientip-classifier.prod.ops.us-east-1.aws.wwiops.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weightwatchers.com",
+                "www.weightwatchers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-528.awsdns-02.net",
+        "ns-1561.awsdns-03.co.uk",
+        "ns-119.awsdns-14.com",
+        "ns-1469.awsdns-55.org"
+    ]
+}

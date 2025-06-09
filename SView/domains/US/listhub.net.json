@@ -1,0 +1,187 @@
+{
+    "domain": "listhub.net",
+    "owner": {
+        "name": "Listhub",
+        "displayName": "Listhub"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000177,
+    "sites": 25,
+    "subdomains": [
+        "tracking"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "listhub\\.net\\/scripts\\/la\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "4c40e1a9443398b42ea0ff278d9b030f67cd813d9e1b7649f88cb502c7189222",
+                "a35520cb253e37dc9f145ae0ca5bc6b99d367f00c0b9b7d83e382833c1b21c64",
+                "eb0374d3b56a8a483e9ccc864bfed63182afdb4c49c179cff4f478846fb8dc2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "century21.com",
+                "commercial.century21.com",
+                "www.century21.com",
+                "www.har.com"
+            ]
+        },
+        {
+            "rule": "listhub\\.net\\/la\\.min\\.js",
+            "cookies": 0.0000849,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "29803727a7e14eecc404ef7f5cd5043d13ca3d0aa48bad8564bc33f926aee4f1",
+                "ce8991abcdbd57fffee21c38de9ec2a9d9fe0712e6c47ed9b0a0d24b876d44de",
+                "b382a3fd5e61714577ebb4fc64f7a1a997d95d5ab7ce1881f394061f1745563d",
+                "495292b6c80fca1041392a68998758a336037eab6afc5f6729d8f03c3f416e38",
+                "bfcc433f354be2ff997679c9eb15db691fc3b60da15dbf35c71e35d217b2f856",
+                "25c02aeaea12ccdc88aba6244d7eb46baa4e4a7c6eeb575a0a6d929590b37cf3",
+                "20ce5389d551897ef5501cc4f330ff08c45e706129560bc3ba060d190082ab5b",
+                "1ca3226a3f4e9c27a88eac6a56df75c1f9e837d16821dcc71765da7ba0c12c4e",
+                "e924ff35c0d1700f6dd1ef391523ef80628cd0757b942fc744051bcb7cb24421",
+                "494f981386a36ebf4322ae3f341a1b766a60112c4a698fefd2f654f75e9c6d97",
+                "d09fe23ca4b70ec14dca17ce2d3cfb7815a89432bbfbd5f284fff224fbbf2771"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "propwire.com",
+                "uphomes.com",
+                "www.bhhsneproperties.com",
+                "www.coldwellbanker.com",
+                "www.homesandland.com",
+                "www.lakehouse.com",
+                "www.land.com",
+                "www.landandfarm.com",
+                "www.landwatch.com",
+                "www.longandfoster.com",
+                "www.mobilehome.net",
+                "www.onekeymls.com"
+            ]
+        },
+        {
+            "rule": "listhub\\.net\\/tracker",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uphomes.com",
+                "www.coldwellbanker.com",
+                "www.har.com",
+                "www.landandfarm.com",
+                "www.landsearch.com",
+                "www.landwatch.com"
+            ]
+        },
+        {
+            "rule": "listhub\\.net\\/batch",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lakehouse.com",
+                "www.mobilehome.net"
+            ]
+        },
+        {
+            "rule": "listhub\\.net\\/scripts\\/la\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3cf13468684b23e26fee45f5b9a645b92b8a44891994ca3571ada67aee5e32f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newhomesource.com",
+                "www.newhomesource.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000177,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8125
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15625
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.03125
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "Image": 6,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-244.awsdns-30.com",
+        "ns-563.awsdns-06.net",
+        "ns-1307.awsdns-35.org",
+        "ns-1995.awsdns-57.co.uk"
+    ]
+}

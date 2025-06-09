@@ -1,0 +1,74 @@
+{
+    "domain": "at.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "gtm.idealo"
+    ],
+    "cnames": [
+        {
+            "original": "gtm.idealo.at",
+            "resolved": "gtm.idealo.at.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "at\\.edgekey\\.net\\/webvitals",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm.idealo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "gtm.idealo.at",
+                    "resolved": "gtm.idealo.at.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idealo.at",
+                "www.idealo.at"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Image": 2
+    },
+    "nameservers": []
+}

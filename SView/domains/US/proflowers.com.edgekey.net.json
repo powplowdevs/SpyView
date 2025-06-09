@@ -1,0 +1,86 @@
+{
+    "domain": "proflowers.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "api-gateway"
+    ],
+    "cnames": [
+        {
+            "original": "api-gateway.proflowers.com",
+            "resolved": "api-gateway.proflowers.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "proflowers\\.com\\.edgekey\\.net\\/catalog\\/proflowers\\/api\\/v2\\/product-details\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api-gateway.proflowers.com",
+                    "resolved": "api-gateway.proflowers.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "proflowers.com",
+                "www.proflowers.com"
+            ]
+        },
+        {
+            "rule": "proflowers\\.com\\.edgekey\\.net\\/catalog\\/proflowers\\/api\\/v2\\/product-details\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api-gateway.proflowers.com",
+                    "resolved": "api-gateway.proflowers.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "94ab0697127a223eafc772a316072826db7e6921d20487371e8878044f0befd1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "proflowers.com",
+                "www.proflowers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

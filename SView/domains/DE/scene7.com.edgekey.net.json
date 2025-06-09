@@ -1,0 +1,550 @@
+{
+    "domain": "scene7.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00224,
+    "sites": 22,
+    "subdomains": [
+        "san6-ion",
+        "vsan",
+        "san-ion.secure3",
+        "san.secure4"
+    ],
+    "cnames": [
+        {
+            "original": "assets.st.com",
+            "resolved": "san-ion.secure3.scene7.com.edgekey.net"
+        },
+        {
+            "original": "images.hugoboss.com",
+            "resolved": "vsan.scene7.com.edgekey.net"
+        },
+        {
+            "original": "imgs7.hessnatur.com",
+            "resolved": "san.secure4.scene7.com.edgekey.net"
+        },
+        {
+            "original": "media.deloitte.com",
+            "resolved": "san6-ion.scene7.com.edgekey.net"
+        },
+        {
+            "original": "s7.future.smart.com",
+            "resolved": "san6-ion.scene7.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/is\\/content\\/smarteurope\\/smart\\/smart-dam\\/digital\\/website\\/videos\\/marketing\\/homepage\\/SMARTxBRABUS_8-sec_2\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san6-ion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "s7.future.smart.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "de.smart.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/s7viewers\\/html5\\/js\\/VideoViewer\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "san6-ion",
+                "vsan",
+                "san-ion.secure3"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [
+                {
+                    "original": "s7.future.smart.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "media.deloitte.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "assets.st.com",
+                    "resolved": "san-ion.secure3.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d82b6189d33d527ca045ffac74eae025c4f29a6eb357b5f7ccfc32a063d7cc8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "www.deloitte.com",
+                "www.hugoboss.com",
+                "www.st.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/s7viewersdk\\/2025\\.4\\/VideoViewer\\/js\\/s7sdk\\/utils\\/Utils\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "san6-ion",
+                "vsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "s7.future.smart.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3745e46e5a2aa367f54d471a89c1d651b7c7b96c36224cfa31cd735b4ddfe684"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "www.hugoboss.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/s7sdk\\/2025\\.4\\/images\\/sdk\\/dlgemail_cap\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san6-ion",
+                "vsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "s7.future.smart.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6c9e30e5d9f1c9d8b3d93e1cb52ae17e3cc8ea92566c975bf08278d997369958"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "www.hugoboss.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/s7sdk\\/2025\\.4\\/images\\/sdk\\/close_up\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san6-ion",
+                "vsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "s7.future.smart.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7db06afbcfd6fb0f975c59d2ba0e9339ff9a49492ad708cf703b32170c6fc716"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "www.hugoboss.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/s7sdk\\/2025\\.4\\/images\\/sdk\\/dlgaddplus_up\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san6-ion",
+                "vsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "s7.future.smart.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4fc5828460678952a9d0f05671673318a6ff8009749f542248b125dac22dee93"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "www.hugoboss.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/s7sdk\\/2025\\.4\\/images\\/sdk\\/dlgembed_cap\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san6-ion",
+                "vsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "s7.future.smart.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "86bedb9f472bc1b3171ffb542ba0066f10fdf5ec3659e5564cd477dcc78b3618"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "www.hugoboss.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/s7sdk\\/2025\\.4\\/images\\/sdk\\/cboxbtndn_up\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san6-ion",
+                "vsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "s7.future.smart.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "62aa348d3d4a837daf049b2006fe8ef70468f79a73b50b0dc9dda9442e6fd49e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "www.hugoboss.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/s7sdk\\/2025\\.4\\/images\\/sdk\\/dlglink_cap\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san6-ion",
+                "vsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "s7.future.smart.com",
+                    "resolved": "san6-ion.scene7.com.edgekey.net"
+                },
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b3b520f68646e84a6555ccfc30702a0fbffbd5900981bcfc1d9357c04f16d7cf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smart.com",
+                "www.hugoboss.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/is\\/image\\/HessNatur\\/hyb_redes_detail_main\\/Streifen_Hemdblusen_Kleid_Midi_Relaxed-56774_16_7\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san.secure4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "imgs7.hessnatur.com",
+                    "resolved": "san.secure4.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "eeb55281eb9071836469d6148fe16999cd65db94900ee9574cca2a689d26e906"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hessnatur.com",
+                "www.hessnatur.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/is\\/image\\/HessNatur\\/hyb_redes_detail_main\\/Canvas_Sneaker_mit_Bio_Baumwolle-57004_17_7\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san.secure4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "imgs7.hessnatur.com",
+                    "resolved": "san.secure4.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "65d0d4b93db720cc43d7847f7b5f9a4fc5f0148e1505cf1cf7e997fae19bf46d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hessnatur.com",
+                "www.hessnatur.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/is\\/image\\/HessNatur\\/hyb_redes_detail_main\\/Shirt_Relaxed_aus_reiner_Bio_Baumwolle-56478_17_7\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san.secure4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "imgs7.hessnatur.com",
+                    "resolved": "san.secure4.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a926893a37b31a10d98de765bda51f45fe1031f945f5fa77d30282504ed7b77f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hessnatur.com",
+                "www.hessnatur.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/is\\/image\\/HessNatur\\/hyb_redes_detail_main\\/Hose_ENEA_Regular_aus_Bio_Baumwolle_mit_Leinen-56766_17_7\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san.secure4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "imgs7.hessnatur.com",
+                    "resolved": "san.secure4.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b565413a17464373f0635b73027ad6718b2064068c1482f9136a598b07e5b09f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hessnatur.com",
+                "www.hessnatur.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/is\\/image\\/HessNatur\\/hyb_redes_detail_main\\/Streifen_Heavy_Jersey_Slub_T_Shirt_Relaxed_aus_reiner_Bio_Baumwolle-56627_01_7\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san.secure4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "imgs7.hessnatur.com",
+                    "resolved": "san.secure4.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e8e408997c27b0f2a10fd9c3e6fc1be511b5d7d20c368a6aee6b9f63314c2930"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hessnatur.com",
+                "www.hessnatur.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/is\\/image\\/hugobosscsprod\\/Video",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "af3e569de7c8799c2bc103f88d71edfe399e19e79e9ceb93e2ad2c893a18d1c7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hugoboss.com",
+                "www.hugoboss.com"
+            ]
+        },
+        {
+            "rule": "scene7\\.com\\.edgekey\\.net\\/is\\/image\\/hugobosscsprod",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsan"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "images.hugoboss.com",
+                    "resolved": "vsan.scene7.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hugoboss.com",
+                "www.hugoboss.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "hyundai.de",
+            "prevalence": 0.13636363636363635
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Media": 2,
+        "Script": 6,
+        "Image": 24,
+        "XHR": 2
+    },
+    "nameservers": []
+}

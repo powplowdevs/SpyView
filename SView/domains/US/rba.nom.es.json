@@ -1,0 +1,63 @@
+{
+    "domain": "rba.nom.es",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rba\\.nom\\.es\\/ads\\/prebid8-full\\.2802\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 5,
+                "NavigatorUAData.prototype.platform": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.appName": 5,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "668dba3c974f2399a8e5e693f114c348ce448dd64223f0f4735693eb5ffd2311"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cuerpomente.com",
+                "www.elmueble.com",
+                "www.lecturas.com",
+                "www.nationalgeographic.com.es",
+                "www.semana.es"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "henry.ns.cloudflare.com",
+        "nola.ns.cloudflare.com"
+    ]
+}

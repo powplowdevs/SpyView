@@ -1,0 +1,62 @@
+{
+    "domain": "clearent.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "gateway"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clearent\\.net\\/js-sdk\\/js\\/clearent-host\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "80355546c53bc3aa0c0d77f6c65a5cf5a9d6dbdfbaa58dcba57cc52950bd4bbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "schedulicity.com",
+                "www.schedulicity.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.p10.dynect.net",
+        "ns3.p10.dynect.net",
+        "ns2.p10.dynect.net",
+        "ns4.p10.dynect.net",
+        "ns1-03.azure-dns.com",
+        "ns2-03.azure-dns.net",
+        "ns3-03.azure-dns.org",
+        "ns4-03.azure-dns.info"
+    ]
+}

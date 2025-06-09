@@ -1,0 +1,114 @@
+{
+    "domain": "dyn-rev.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00562,
+    "sites": 53,
+    "subdomains": [
+        "bundle"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dyn-rev\\.app\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bundle"
+            ],
+            "apis": {},
+            "sites": 53,
+            "prevalence": 0.00562,
+            "cnames": [],
+            "responseHashes": [
+                "acddd21bbdeda7ae2939270c4028992f403275953a134bb09cb9fb7d003578d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.crumpler.com",
+                "www.valhallatactical.com.au",
+                "www.vetnpetdirect.com.au",
+                "www.interiorsecrets.com.au",
+                "www.mtbdirect.com.au",
+                "mrsimple.com.au",
+                "bprimal.com.au",
+                "maplestore.com.au",
+                "www.nourishedlife.com.au",
+                "creswickwool.com",
+                "www.billabong.com.au",
+                "www.hobbyco.com.au",
+                "www.sheike.com.au",
+                "www.karmaeast.com.au",
+                "www.remotepro.com.au",
+                "www.aussiepharmadirect.com.au",
+                "carusosnaturalhealth.com.au",
+                "scooterhut.com.au",
+                "www.quiksilver.com.au",
+                "itechworld.com.au"
+            ]
+        },
+        {
+            "rule": "dyn-rev\\.app\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bundle"
+            ],
+            "apis": {
+                "window.sessionStorage": 17
+            },
+            "sites": 42,
+            "prevalence": 0.00445,
+            "cnames": [],
+            "responseHashes": [
+                "f1e936a64accacb02d6cf2344dee262101b0fdff137213aa8675ddd99f360a2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maplestore.com.au",
+                "australherbs.com.au",
+                "milligram.com",
+                "www.interiorsecrets.com.au",
+                "theoodie.com",
+                "www.sds.com.au",
+                "www.birkenstock.com.au",
+                "itechworld.com.au",
+                "threadcollective.com.au",
+                "www.valhallatactical.com.au",
+                "www.sheike.com.au",
+                "www.crumpler.com",
+                "www.easyr.com.au",
+                "www.lovisa.com.au",
+                "ppdperformance.com.au",
+                "rbsellars.com.au",
+                "lucentglobe.com",
+                "elkthelabel.com",
+                "www.mtbdirect.com.au",
+                "www.watchdepot.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 95
+    },
+    "nameservers": [
+        "jose.ns.cloudflare.com",
+        "aitana.ns.cloudflare.com"
+    ]
+}

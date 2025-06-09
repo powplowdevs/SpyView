@@ -1,0 +1,180 @@
+{
+    "domain": "reo.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00051,
+    "sites": 5,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "reo\\.dev\\/api\\/v1\\/auth\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "docs.n8n.io",
+                "n8n.io"
+            ]
+        },
+        {
+            "rule": "reo\\.dev\\/api\\/v1\\/auth\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "7b76c7746fb948e0a457a27969ef9427ffa829c0898249fa2e4331c3ab037887",
+                "ba12f8f7cb08ad05869d62cbcf89e5224f811364102998e30dc2cb5faa75c617"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "docs.n8n.io",
+                "n8n.io"
+            ]
+        },
+        {
+            "rule": "reo\\.dev\\/api\\/v1\\/ghost\\/e5c43044c5ca246b92e2518418cc6c68",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "ebb2409baa8c9d336dee08c7aaf557c48ec11e2782d2c60bd704e4705a91aa5c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__sec__fid": 0.00030596634370219276
+            },
+            "exampleSites": [
+                "plotly.com",
+                "docs.n8n.io",
+                "n8n.io"
+            ]
+        },
+        {
+            "rule": "reo\\.dev\\/api\\/v1\\/ghost\\/e5c43044c5ca246b92e2518418cc6c68",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__sec__fid": 0.00030596634370219276
+            },
+            "exampleSites": [
+                "plotly.com",
+                "docs.n8n.io",
+                "n8n.io"
+            ]
+        },
+        {
+            "rule": "reo\\.dev\\/api\\/v1\\/ghost\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "921ebd13dfd0b1204780e26270f71de6720146ffe2421ab23f9bdf254251d7fd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "docs.n8n.io",
+                "n8n.io"
+            ]
+        },
+        {
+            "rule": "reo\\.dev\\/api\\/v1\\/ghost\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "docs.n8n.io",
+                "n8n.io"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000306,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7058823529411765
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.23529411764705882
+        },
+        {
+            "domain": "gitbook.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Preflight": 9,
+        "Fetch": 9
+    },
+    "nameservers": [
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b3.googledomains.com"
+    ]
+}

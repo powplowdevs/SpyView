@@ -1,0 +1,80 @@
+{
+    "domain": "owgr.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "apiweb.owgr.com",
+            "resolved": "owgr.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "owgr\\.com\\.edgekey\\.net\\/api\\/owgr\\/events\\/getEventsToDateHeader",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "apiweb.owgr.com",
+                    "resolved": "owgr.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "owgr.com",
+                "www.owgr.com"
+            ]
+        },
+        {
+            "rule": "owgr\\.com\\.edgekey\\.net\\/api\\/owgr\\/events\\/getEventsToDateHeader",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "apiweb.owgr.com",
+                    "resolved": "owgr.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2819184fbd2cd4ada7b0b1f2b1f6fbde19f63202e3115ebd00977f5b735da19b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "owgr.com",
+                "www.owgr.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

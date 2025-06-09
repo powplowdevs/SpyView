@@ -1,0 +1,94 @@
+{
+    "domain": "wixapps.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000732,
+    "sites": 7,
+    "subdomains": [
+        "panorama"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wixapps\\.net\\/api\\/v1\\/bulklog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "panorama"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000837,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wix.com",
+                "fr.wix.com",
+                "www.augustinianorder.org",
+                "www.cinemabeaubien.com",
+                "www.euphoriagirls.com",
+                "www.ottawafestivals.ca",
+                "www.projectarrow.ca",
+                "www.wix.com"
+            ]
+        },
+        {
+            "rule": "wixapps\\.net\\/api\\/v1\\/bulklog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "panorama"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000523,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "augustinianorder.org",
+                "www.augustinianorder.org",
+                "www.ottawafestivals.ca",
+                "www.projectarrow.ca",
+                "www.wix.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000105,
+    "topInitiators": [
+        {
+            "domain": "parastorage.com",
+            "prevalence": 0.5818181818181818
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.01818181818181818
+        }
+    ],
+    "types": {
+        "Ping": 8,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "dns1.p04.nsone.net",
+        "dns2.p04.nsone.net",
+        "dns3.p04.nsone.net",
+        "dns4.p04.nsone.net"
+    ]
+}

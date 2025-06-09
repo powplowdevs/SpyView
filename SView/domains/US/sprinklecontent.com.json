@@ -1,0 +1,106 @@
+{
+    "domain": "sprinklecontent.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000099,
+    "sites": 14,
+    "subdomains": [
+        "widgets",
+        "images"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sprinklecontent\\.com\\/v2\\/sprinkle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.appName": 10,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "828035fb334314947410dfa3da5397b4df8990f474dd24cba87daeed03aab9e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "live.joj.sk",
+                "www.at5.nl",
+                "www.hazipatika.com",
+                "www.joj.sk",
+                "www.l1nieuws.nl",
+                "www.nhnieuws.nl",
+                "www.nosalty.hu",
+                "www.religiondigital.org",
+                "www.voice.fi"
+            ]
+        },
+        {
+            "rule": "sprinklecontent\\.com\\/500\\/0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e94c61be29bf0b07d83d7292d0d98cff13d48af282d6807ae41fa9b9b130685b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mandiner.hu",
+                "www.gp.se",
+                "www.land.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7333333333333333
+        },
+        {
+            "domain": "p24.hu",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "r2b2.cz",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns-693.awsdns-22.net",
+        "ns-438.awsdns-54.com",
+        "ns-1565.awsdns-03.co.uk",
+        "ns-1392.awsdns-46.org"
+    ]
+}

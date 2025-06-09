@@ -1,0 +1,58 @@
+{
+    "domain": "logbase.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "upsell-app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "logbase\\.io\\/lb-upsell\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "upsell-app"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6714f98802a4d2e273b7e5b057421bafa49720453c33a9fa8c16fe93cfdc0fc4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bambulab.com",
+                "eu.store.bambulab.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-379.awsdns-47.com",
+        "ns-778.awsdns-33.net",
+        "ns-1307.awsdns-35.org",
+        "ns-1911.awsdns-46.co.uk"
+    ]
+}

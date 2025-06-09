@@ -1,0 +1,143 @@
+{
+    "domain": "google.fr",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000134,
+    "sites": 19,
+    "subdomains": [
+        "maps",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "google\\.fr\\/maps\\/vt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "maps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "99c9223f98eecf9e6d17432859576f4445d38d8d1d9dfd3011c0e8e2549d3c6d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "louisvuitton.com",
+                "fr.louisvuitton.com"
+            ]
+        },
+        {
+            "rule": "google\\.fr\\/maps\\/vt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "maps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d986849595b999b19f3af91f1826d755405a23d58879a12ed477cd304f0c7764"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "louisvuitton.com",
+                "fr.louisvuitton.com"
+            ]
+        },
+        {
+            "rule": "google\\.fr\\/ads\\/ga-audiences",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedienungsanleitu.ng",
+                "www.bruksanvisni.ng",
+                "www.bruksanvisningpdf.no",
+                "www.handleidi.ng",
+                "www.instrukcjaobslugipdf.pl",
+                "www.kayttooh.je",
+                "www.manualeduso.it",
+                "www.manuals.co.uk",
+                "www.manualscat.com",
+                "www.manualspdf.ru",
+                "www.modesdemploi.fr",
+                "www.tech2geek.net"
+            ]
+        },
+        {
+            "rule": "google\\.fr\\/coop\\/cse\\/brand",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.platform": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6395e6f9f6fbcd953f0ffa40615094c565d86c265fb5028e64dd2dc872b5ce69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infocalories.fr",
+                "www.lecalendrier.fr",
+                "www.paroles.cc"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 14,
+        "Script": 5
+    },
+    "nameservers": [
+        "ns1.google.com",
+        "ns2.google.com",
+        "ns4.google.com",
+        "ns3.google.com"
+    ]
+}

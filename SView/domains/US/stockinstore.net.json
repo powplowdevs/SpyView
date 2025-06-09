@@ -1,0 +1,123 @@
+{
+    "domain": "stockinstore.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "assets",
+        "logusage"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stockinstore\\.net\\/widgets\\/stockinstore-global\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "79ff54609d346f88e33a337b5de323ee3739c4ff80a294eefcd3b2e9c6c1837f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_SIS_UID": {
+                    "ttl": 31536023,
+                    "length": 18,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_SIS_SESSID": {
+                    "ttl": 1823,
+                    "length": 32,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sussan.com.au",
+                "www.toyworld.com.au"
+            ]
+        },
+        {
+            "rule": "stockinstore\\.net\\/widget\\/initWidgetSession",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1631c99ff8d7c96f91b5724b328400674d649cb814311c17d5adfdee27e70494"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sussan.com.au",
+                "www.toyworld.com.au"
+            ]
+        },
+        {
+            "rule": "stockinstore\\.net\\/widget\\/logUsage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logusage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ab140244cd2fd2892fec183c503c0f9522f9935f5e6c5ace01e92924a7e2e90e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sussan.com.au",
+                "www.toyworld.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "terry.ns.cloudflare.com",
+        "anahi.ns.cloudflare.com"
+    ]
+}

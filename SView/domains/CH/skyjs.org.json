@@ -1,0 +1,55 @@
+{
+    "domain": "skyjs.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000308,
+    "sites": 3,
+    "subdomains": [
+        "i1.weather"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "skyjs\\.org\\/api\\/forecast",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i1.weather"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "5e7739b8ec9e6a6eae96ea4db1fb8034d9cc42e46c250e935c5b102e31d2973c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluewin.ch",
+                "www.bluewin.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000308,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns3.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns1.digitalocean.com"
+    ]
+}

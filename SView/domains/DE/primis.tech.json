@@ -1,0 +1,76 @@
+{
+    "domain": "primis.tech",
+    "owner": {
+        "name": "McCann Disciplines Ltd.",
+        "displayName": "McCann",
+        "privacyPolicy": "https://www.primis.tech",
+        "url": "http://primis.tech"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000816,
+    "sites": 8,
+    "subdomains": [
+        "live"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "primis\\.tech\\/live\\/liveView\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "live"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "Navigator.prototype.platform": 6
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "a39c9e817075284f9dd22f8c4dc45aed614c17cc2f82aa12e9ca1a617b4f37ba",
+                "08e9f82ec162c1185b35dc0feaa51f9c274d031d4544d41e1f9c6dd558a243dc",
+                "ba6f3bbe43f4309ac9cc3749ceb3d6eb6c827d5b48ff09d11d0068ed268e156c",
+                "7c28c37d707f8e636345b86727329067e41809573362c9328c068c5fd47aef31",
+                "2c401791f33a8a9f08dccb0bda81d9a4b2325fbc25a323b2ca222a3dcb863b98",
+                "eb8f46df4986b24c143048b94d94a42d9958513238dcea86c5473f2135e6caf6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "climate-data.org",
+                "ffxiv.consolegameswiki.com",
+                "www.craiyon.com",
+                "www.flightradar24.com",
+                "www.gsmarena.com",
+                "www.moddb.com",
+                "www.songlyrics.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "ns-1896.awsdns-45.co.uk",
+        "ns-672.awsdns-20.net",
+        "ns-1492.awsdns-58.org",
+        "ns-285.awsdns-35.com"
+    ]
+}

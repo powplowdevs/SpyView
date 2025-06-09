@@ -1,0 +1,77 @@
+{
+    "domain": "lectura.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "lectura\\.de\\/g\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "lectura-specs.com",
+                "www.lectura-specs.com"
+            ]
+        },
+        {
+            "rule": "lectura\\.de\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lectura-specs.com",
+                "www.lectura-specs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "lauryn.ns.cloudflare.com",
+        "thaddeus.ns.cloudflare.com"
+    ]
+}

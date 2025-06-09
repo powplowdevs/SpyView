@@ -1,0 +1,56 @@
+{
+    "domain": "f5silverline.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "p6ekqm.ocado.gslb"
+    ],
+    "cnames": [
+        {
+            "original": "accounts.ocado.com",
+            "resolved": "p6ekqm.ocado.gslb.f5silverline.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "f5silverline\\.com\\/auth-service\\/sso\\/authorize",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p6ekqm.ocado.gslb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "accounts.ocado.com",
+                    "resolved": "p6ekqm.ocado.gslb.f5silverline.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ocado.com",
+                "www.ocado.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "ns2.defense.net",
+        "ns1.defense.net"
+    ]
+}

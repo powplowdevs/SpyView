@@ -1,0 +1,105 @@
+{
+    "domain": "loudcrowd.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "pub"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "loudcrowd\\.com\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pub"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "a34e7060813456c643776bf715503afa8850350ba0927dde9b8f3c3dede506df",
+                "30ae34dafe05d6895e04289ea707400e411cad7137fcd0a5f9d7600308a38475"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boohoo.com",
+                "us.boohoo.com",
+                "www.boohoo.com",
+                "www.livingproof.com"
+            ]
+        },
+        {
+            "rule": "loudcrowd\\.com\\/storefront-2793a89a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pub"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1a1deda1aea1dc21b7fb2789c2adf5e5581dc09d38f9acde495c37e3641c165f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boohoo.com",
+                "www.boohoo.com"
+            ]
+        },
+        {
+            "rule": "loudcrowd\\.com\\/storefront-aa11e911\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pub"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "3f430d9a5227f70c84711ba7f138ee9782439eaeeb7e5207f0d8aa6448136de4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boohoo.com",
+                "www.boohoo.com",
+                "www.livingproof.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "venus.ns.cloudflare.com",
+        "burt.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,544 @@
+{
+    "domain": "privacy-center.org",
+    "owner": {
+        "name": "Didomi",
+        "displayName": "Didomi"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00775,
+    "sites": 76,
+    "subdomains": [
+        "sdk",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "privacy-center\\.org\\/6049ab13-a5f3-4c15-b66b-edae53142afc\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "114f3ef8f01c47ee41ef0e80b9493bf6c92050ae8f0a8efdc8f25ae430aac01b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bessergesundleben.de",
+                "gedankenwelt.de"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/sdk\\/c7b868dbc31421b1cb3bc274b4672039f2a2a660\\/modern\\/sdk\\.c7b868dbc31421b1cb3bc274b4672039f2a2a660\\.js",
+            "cookies": 0.00734,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 68,
+                "window.localStorage": 75,
+                "Date.prototype.getTimezoneOffset": 65,
+                "Navigator.prototype.vendor": 75,
+                "Navigator.prototype.userAgent": 75,
+                "Document.cookie getter": 66,
+                "Navigator.prototype.languages": 75,
+                "Document.cookie setter": 72
+            },
+            "sites": 76,
+            "prevalence": 0.00775,
+            "cnames": [],
+            "responseHashes": [
+                "47c7a4577abde521551215e8c9f570052411b83aeaf498842cfbcb8bbde80b9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "didomi_token": {
+                    "ttl": 31622403,
+                    "length": 186,
+                    "prevalence": 0.006527281998980112,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "giphy.com",
+                "www.cbc.ca",
+                "www.researchgate.net",
+                "www.viamichelin.de",
+                "www.europcar.de",
+                "de.chargemap.com",
+                "www.france24.com",
+                "www.euronews.com",
+                "www.film.at",
+                "www.rund-ums-baby.de",
+                "www.engelvoelkers.com",
+                "www.flightradar24.com",
+                "www.benzinpreis-blitz.de",
+                "on.orf.at",
+                "www.willhaben.at",
+                "www.decathlon.de",
+                "decathlon.de",
+                "www.nestoria.de",
+                "www.centerparcs.de"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/sdk\\/c7b868dbc31421b1cb3bc274b4672039f2a2a660\\/modern\\/ui-web-de-web\\.c7b868dbc31421b1cb3bc274b4672039f2a2a660\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.innerWidth": 26,
+                "window.innerHeight": 1
+            },
+            "sites": 27,
+            "prevalence": 0.00275,
+            "cnames": [],
+            "responseHashes": [
+                "fe9d013b454a18fad06a4990bba6ded191108afa342bd5d7c3cad3c07d318b54"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wamiz.de",
+                "www.aachener-zeitung.de",
+                "www.gamepro.de",
+                "decathlon.de",
+                "www.prospektmaschine.de",
+                "www.manomano.de",
+                "www.moviepilot.de",
+                "fm4.orf.at",
+                "www.doctolib.de",
+                "bessergesundleben.de",
+                "www.euromaster.de",
+                "on.orf.at",
+                "www.plantura.garden",
+                "de.chargemap.com",
+                "www.mallorcazeitung.es",
+                "www.michelin.de",
+                "www.gamestar.de",
+                "www.hilti.de",
+                "www.decathlon.de",
+                "news.orf.at"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/b32da769-c008-4f3b-a042-7a73c6bfb07d\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "37944f5aa084b759da5e18bb50b2b404c98f66cd1ca1dc63caba5eae040dac9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euronews.com",
+                "www.euronews.com"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/929521d8-0c53-458b-9f07-852d7d00d609\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7f02fbb927a7c650fc7f5ec9cd2df6a860ff434afff8a30a38bf1affb57feb1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "decathlon.de",
+                "www.decathlon.de"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/sdk\\/c7b868dbc31421b1cb3bc274b4672039f2a2a660\\/modern\\/ui-web-en-web\\.c7b868dbc31421b1cb3bc274b4672039f2a2a660\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.innerWidth": 34,
+                "window.innerHeight": 1
+            },
+            "sites": 35,
+            "prevalence": 0.00357,
+            "cnames": [],
+            "responseHashes": [
+                "e4c09a02e11a38d638ac13bb5713f7394bfadc07580024c9c7dfeae4930737cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "giphy.com",
+                "www.researchgate.net",
+                "www.filmstarts.de",
+                "www.reverso.net",
+                "www.societe.com",
+                "www.utorrent.com",
+                "www.goodgamestudios.com",
+                "www.benzinpreis-blitz.de",
+                "exxpress.at",
+                "www.handyhase.de",
+                "qonto.com",
+                "www.ecosia.org",
+                "theconversation.com",
+                "www.nestoria.de",
+                "www.blablacar.de",
+                "www.traceparts.com",
+                "www.france24.com",
+                "www.boredpanda.com",
+                "futurezone.at"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/ec37cbb0-e91d-42b8-abef-51639d3499c3\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "8eeefcc3245e3f8fc7f8d3c180496102e313c743a81ecfe931c782d472b79b3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "news.orf.at",
+                "on.orf.at",
+                "tv.orf.at"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/893c340d-e8ae-4a34-8b5f-794afb2ae060\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futurezone.at",
+                "kurier.at",
+                "www.film.at"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/05fbb42d-1fe3-44a7-ac44-cb7a23f0db91\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d6ef71d877e312a783509f8a22b80847f2c823313f5fca054008260b75827a96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reverso.net",
+                "www.reverso.net"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wamiz.de",
+                "www.engelvoelkers.com",
+                "www.funda.nl",
+                "www.krone.at",
+                "www.rund-ums-baby.de"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wamiz.de",
+                "www.engelvoelkers.com",
+                "www.funda.nl",
+                "www.krone.at",
+                "www.rund-ums-baby.de"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/sdk\\/c7b868dbc31421b1cb3bc274b4672039f2a2a660\\/modern\\/ui-web-fr-web\\.c7b868dbc31421b1cb3bc274b4672039f2a2a660\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.innerWidth": 6,
+                "window.innerHeight": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "13a91a149aa720560f7b1a74bcc2761fefcb659c3852d284c636629ce81bc71a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allocine.fr",
+                "www.francetvinfo.fr",
+                "www.leboncoin.fr",
+                "www.planity.com",
+                "www.radiofrance.fr",
+                "www.seloger.com"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/sdk\\/c7b868dbc31421b1cb3bc274b4672039f2a2a660\\/modern\\/gpp-library\\.c7b868dbc31421b1cb3bc274b4672039f2a2a660\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "58ec1b9c4e8603d2252b935c13fbfbd23821971b31b8a59a5aee9ade5468b3b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boredpanda.com",
+                "www.flightradar24.com"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/e9ceb1e6-ffcf-4da7-b46a-c9873eaace75\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "814f873b152f6ca4d74013e1570214b3bbec35018210ddc6f217190cf106f3d7",
+                "68784a0310c708f7267598a180bcf911ef58c97e4fb4f4563b048324d9a6cdb2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dealdoktor.de",
+                "www.handyhase.de",
+                "www.kostenlos.de"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/969f779f-570e-47ae-af54-36b8692b345e\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "a37b53890446b7c2b7e17854c3edbe68d0d24bf4aa815741a91ea973cc36e598",
+                "7908ce201029022a600746448be84e467e79bcb236a52b930f23d1d485f569ff",
+                "0fe040b13482cb19b349a933903346bbcaef7b65d820193b7d94d189251bb6e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "filmstarts.de",
+                "www.gamepro.de",
+                "www.gamestar.de",
+                "www.moviepilot.de"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/645b65e6-0665-4634-b4e4-98e7024b6598\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7b79388d7d606e53005733fd0098ed1967d7732bc79f7d8a6ee74efed768e044"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idealista.com",
+                "www.idealista.it"
+            ]
+        },
+        {
+            "rule": "privacy-center\\.org\\/758b10ac-a0a7-421d-b3a2-f77eaa2897e8\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f0a9e55c5663d27e7b3cdb083b6310c645efbdbd401fc5bd43b8c43886353524"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leboncoin.fr",
+                "www.leboncoin.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00734,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.898876404494382
+        },
+        {
+            "domain": "prisa.com",
+            "prevalence": 0.011235955056179775
+        },
+        {
+            "domain": "atomik.vip",
+            "prevalence": 0.011235955056179775
+        },
+        {
+            "domain": "blablacar.com",
+            "prevalence": 0.011235955056179775
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.011235955056179775
+        },
+        {
+            "domain": "franceinfo.fr",
+            "prevalence": 0.011235955056179775
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.011235955056179775
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.011235955056179775
+        },
+        {
+            "domain": "d2skjte8udjqxw.cloudfront.net",
+            "prevalence": 0.011235955056179775
+        },
+        {
+            "domain": "cpex.cz",
+            "prevalence": 0.011235955056179775
+        }
+    ],
+    "types": {
+        "Script": 172,
+        "Preflight": 5,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns-166.awsdns-20.com",
+        "ns-820.awsdns-38.net",
+        "ns-1982.awsdns-55.co.uk",
+        "ns-1073.awsdns-06.org"
+    ]
+}

@@ -1,0 +1,331 @@
+{
+    "domain": "woosmap.com",
+    "owner": {
+        "name": "Web Geo Services",
+        "displayName": "Web Geo Services"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000219,
+    "sites": 31,
+    "subdomains": [
+        "api",
+        "sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "woosmap\\.com\\/geolocation\\/position\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "36bd68f3c4116271573dfbe2442c31d806ea613f0bc76d84c8eb884ee67e4fe0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diy.com",
+                "www.castorama.fr",
+                "www.diy.com",
+                "www.hunkemoller.de"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/multisearch\\/multisearch\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eb7805940b4dc60adb65ca97e44c61cf0fc5fdc3251fbe4d98e82e72c803ba09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricoman.fr",
+                "www.pizzaexpress.com"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/localities\\/style\\.2\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f96fa9ed7a9c2111534a987b5272315363f250aa5dc7b3fc9c61d7303022b9b0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "burgerking.fr",
+                "www.halfords.ie"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/localities\\/localitieswidget\\.2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "f8248d669c1a2dcd9f9f33630c4d09196161c4d0e9904703a92bf224ade76ce5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "burgerking.fr",
+                "www.cosentino.com",
+                "www.halfords.ie",
+                "www.hunkemoller.de",
+                "www.intimissimi.com",
+                "www.spoticar.fr",
+                "www.tezenis.com"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/locator\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "920a0469c8c2cb514ad8d5872c245135847eab294fb663336cc5981ac6426096"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "burgerking.fr",
+                "www.harvester.co.uk",
+                "www.millerandcarter.co.uk"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/localities\\/localities\\.2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "ad8110dfb7c6a7e2f7e62f95b1135985350f23d2ce57be3e5a816bca62b1b4f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carrefour.it",
+                "www.castorama.fr",
+                "www.sephora.de",
+                "www.sephora.fr",
+                "www.sephora.it",
+                "www.sephora.pl",
+                "www.toolstation.com"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/geolocation\\/position\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "36bd68f3c4116271573dfbe2442c31d806ea613f0bc76d84c8eb884ee67e4fe0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diy.com",
+                "www.diy.ie",
+                "www.trade-point.co.uk"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/map\\/map\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "URL.createObjectURL": 1,
+                "Navigator.prototype.languages": 1,
+                "window.devicePixelRatio": 1,
+                "Navigator.prototype.userAgent": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "210f0d5fe619036890851933c60deb9a8f81db0374be37a95dbc582cf31dfaaf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elcorteingles.pt",
+                "www.lahalle.com",
+                "www.nice.aeroport.fr"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/localities\\/localities\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a3fb8c88c236709a06c4d16bc988b443429761ae93c5371715daf5230bebd8f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "electrodepot.fr",
+                "www.harvester.co.uk",
+                "www.millerandcarter.co.uk"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/localities\\/autocomplete\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0820f760cbbd836aa7b02ee96ee6e4d125742fcd813eaeeb962f4d9522580fd6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halfords.ie",
+                "www.hunkemoller.de"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/locator\\/1\\.4\\/locastore\\.nojquery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1734849cfd6d301e52fa08768835c09c240c9fc56237e1bdbcf42de774e46c29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harvester.co.uk",
+                "www.millerandcarter.co.uk"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/project\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ef497ea367d1f91f9da8d8c4ec2ac0bb46e5e331f0655179b2f0bd5bb665eb5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harvester.co.uk",
+                "www.millerandcarter.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 8,
+        "Script": 27,
+        "Stylesheet": 2,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "chad.ns.cloudflare.com",
+        "jasmine.ns.cloudflare.com"
+    ]
+}

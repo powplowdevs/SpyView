@@ -1,0 +1,338 @@
+{
+    "domain": "scarabresearch.com",
+    "owner": {
+        "name": "SAP SE",
+        "displayName": "SAP"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00194,
+    "sites": 19,
+    "subdomains": [
+        "cdn",
+        "static",
+        "recommender",
+        "recommender-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "scarabresearch\\.com\\/js\\/17ACD038F8BBCA5C\\/scarab-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c5cee7253d51ce344b72f0faac7f6606bb8565db6a44a7b78328bfd6387aa8f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com"
+            ]
+        },
+        {
+            "rule": "scarabresearch\\.com\\/wpjs\\/wploader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "7877577ae2c12b345bfa57e5afa2e535ce9a3b4cd4cbcf7ea17ae4e430f7d53d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "eu.puma.com",
+                "lampenwelt.de",
+                "puma.com",
+                "www.armedangels.com",
+                "www.caparol.de",
+                "www.creality.com",
+                "www.doccheck.com",
+                "www.lampenwelt.de",
+                "www.livejasmin.com",
+                "www.nkd.com",
+                "www.radonline.de"
+            ]
+        },
+        {
+            "rule": "scarabresearch\\.com\\/wpjs\\/wpes6\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.vendor": 12,
+                "Navigator.prototype.platform": 12,
+                "window.localStorage": 12,
+                "window.sessionStorage": 12,
+                "Navigator.prototype.product": 12,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "window.innerWidth": 11,
+                "window.innerHeight": 11,
+                "Navigator.prototype.plugins": 11,
+                "Navigator.prototype.appVersion": 11,
+                "Date.prototype.getTimezoneOffset": 11,
+                "Document.cookie getter": 10,
+                "Notification.permission": 1
+            },
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "8f40cdf7b4b1e0bd064dca5aa0f4ea73dbbee328f0b1d4303e0de4a8c3b3df3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "eu.puma.com",
+                "lampenwelt.de",
+                "puma.com",
+                "www.armedangels.com",
+                "www.caparol.de",
+                "www.creality.com",
+                "www.doccheck.com",
+                "www.lampenwelt.de",
+                "www.livejasmin.com",
+                "www.nkd.com",
+                "www.radonline.de"
+            ]
+        },
+        {
+            "rule": "scarabresearch\\.com\\/merchants\\/17ACD038F8BBCA5C\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommender"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com"
+            ]
+        },
+        {
+            "rule": "scarabresearch\\.com\\/merchants\\/1E028D1BEC1BAF46\\/",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommender-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com"
+            ]
+        },
+        {
+            "rule": "scarabresearch\\.com\\/is_alive",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommender-eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "63167c76418239c60347619af4246e68357d2de441efbb78bd20a77edda8539d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "eu.puma.com",
+                "puma.com",
+                "www.armedangels.com"
+            ]
+        },
+        {
+            "rule": "scarabresearch\\.com\\/js\\/1D3B04BBF8BCF3C8\\/scarab-v2\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "69074abfb4b92ac5fbb65d48150d8c4e4c420785288e566408c2abb818ddd8fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "scarab.visitor": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampenwelt.de",
+                "www.lampenwelt.de"
+            ]
+        },
+        {
+            "rule": "scarabresearch\\.com\\/merchants\\/1D3B04BBF8BCF3C8\\/",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommender"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4369418156959f61514cb717b0cc78e209ae04b683998377e57dfd82cd09669f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampenwelt.de",
+                "www.lampenwelt.de"
+            ]
+        },
+        {
+            "rule": "scarabresearch\\.com\\/js\\/198DE47607F5EBDB\\/scarab-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitdefender.com",
+                "www.bitdefender.de"
+            ]
+        },
+        {
+            "rule": "scarabresearch\\.com\\/merchants\\/11167ECFF94860EA\\/",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommender"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "55270644e28f9f089689980cfdce0295516fa01aca7eecc4381786063a556eb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nkd.com",
+                "www.nkd.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {},
+    "cookies": 0.00133,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6136363636363636
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.22727272727272727
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "dditscdn.com",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "dccdn.de",
+            "prevalence": 0.022727272727272728
+        }
+    ],
+    "types": {
+        "Script": 36,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-955.awsdns-55.net",
+        "ns-1550.awsdns-01.co.uk",
+        "ns-350.awsdns-43.com",
+        "ns-1265.awsdns-30.org"
+    ]
+}

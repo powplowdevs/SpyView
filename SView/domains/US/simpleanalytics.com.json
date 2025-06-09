@@ -1,0 +1,128 @@
+{
+    "domain": "simpleanalytics.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "external"
+    ],
+    "cnames": [
+        {
+            "original": "sa.anwalt.de",
+            "resolved": "external.simpleanalytics.com"
+        },
+        {
+            "original": "sa.serlo.org",
+            "resolved": "external.simpleanalytics.com"
+        },
+        {
+            "original": "sal.ente.io",
+            "resolved": "external.simpleanalytics.com"
+        },
+        {
+            "original": "si.iosref.com",
+            "resolved": "external.simpleanalytics.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "simpleanalytics\\.com\\/latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "external"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sa.serlo.org",
+                    "resolved": "external.simpleanalytics.com"
+                },
+                {
+                    "original": "sal.ente.io",
+                    "resolved": "external.simpleanalytics.com"
+                },
+                {
+                    "original": "sa.anwalt.de",
+                    "resolved": "external.simpleanalytics.com"
+                }
+            ],
+            "responseHashes": [
+                "5005011822d4a8845e78f1acd4e86bd42a8c26572af221d7b92ccc95765f67ba",
+                "38e14010239f900bdaf0ae68daa2e28b2e7594ee8bd418d6af8e392cb0009a8e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "serlo.org",
+                "ente.io",
+                "www.anwalt.de"
+            ]
+        },
+        {
+            "rule": "simpleanalytics\\.com\\/simple\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "external"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "sa.serlo.org",
+                    "resolved": "external.simpleanalytics.com"
+                },
+                {
+                    "original": "sal.ente.io",
+                    "resolved": "external.simpleanalytics.com"
+                },
+                {
+                    "original": "si.iosref.com",
+                    "resolved": "external.simpleanalytics.com"
+                },
+                {
+                    "original": "sa.anwalt.de",
+                    "resolved": "external.simpleanalytics.com"
+                }
+            ],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "serlo.org",
+                "ente.io",
+                "iosref.com",
+                "www.anwalt.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 4
+    },
+    "nameservers": [
+        "carter.ns.cloudflare.com",
+        "megan.ns.cloudflare.com"
+    ]
+}

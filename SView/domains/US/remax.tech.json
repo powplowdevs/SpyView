@@ -1,0 +1,77 @@
+{
+    "domain": "remax.tech",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "public-api-gateway-prod.kube.remax.eng"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "remax\\.tech\\/listings\\/autocomplete",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api-gateway-prod.kube.remax.eng"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "remax.com",
+                "www.remax.com"
+            ]
+        },
+        {
+            "rule": "remax\\.tech\\/listings\\/autocomplete",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api-gateway-prod.kube.remax.eng"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "73cde5cfbbf1f34ac434876ad037ef7a157635636524b996ccbd9fe14f11a73a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "remax.com",
+                "www.remax.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1157.awsdns-16.org",
+        "ns-997.awsdns-60.net",
+        "ns-1659.awsdns-15.co.uk",
+        "ns-92.awsdns-11.com"
+    ]
+}

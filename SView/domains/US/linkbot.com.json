@@ -1,0 +1,94 @@
+{
+    "domain": "linkbot.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000849,
+    "sites": 12,
+    "subdomains": [
+        "bot",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "linkbot\\.com\\/bot\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bot"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "c7d21611f2583d94979a41e1e0e68759eb84ea688d613387a02ff7c6e1846827"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tryfi.com",
+                "crestsandarms.com",
+                "discover.texasrealfood.com",
+                "hannity.com",
+                "paininjuryrelief.com",
+                "www.factualamerica.com",
+                "www.hawaii-aloha.com",
+                "www.perspektiveausland.com",
+                "www.usenourish.com"
+            ]
+        },
+        {
+            "rule": "linkbot\\.com\\/InjectKeywords",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+                "c67900c16a9985374f71c6646cacfe41d561cfd035c5e9068ca5efbbe41a2282"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tryfi.com",
+                "crestsandarms.com",
+                "discover.texasrealfood.com",
+                "hannity.com",
+                "paininjuryrelief.com",
+                "www.factualamerica.com",
+                "www.perspektiveausland.com",
+                "www.usenourish.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 8
+    },
+    "nameservers": [
+        "ns-2027.awsdns-61.co.uk",
+        "ns-84.awsdns-10.com",
+        "ns-736.awsdns-28.net",
+        "ns-1252.awsdns-28.org"
+    ]
+}

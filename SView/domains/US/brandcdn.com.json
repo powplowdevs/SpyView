@@ -1,0 +1,1340 @@
+{
+    "domain": "brandcdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00172,
+    "sites": 243,
+    "subdomains": [
+        "adservices",
+        "insight-event",
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "brandcdn\\.com\\/pixel\\/cv_pixel\\.js",
+            "cookies": 0.00115,
+            "fingerprinting": 1,
+            "subdomains": [
+                "adservices"
+            ],
+            "apis": {
+                "Document.cookie getter": 23,
+                "Date.prototype.getTime": 23,
+                "Document.cookie setter": 21
+            },
+            "sites": 164,
+            "prevalence": 0.00116,
+            "cnames": [],
+            "responseHashes": [
+                "bc530c3c75bb87677cb79d645697759ea411ab9ca7ba55cb28d5e040ff44f603"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "brandcdn_uid": {
+                    "ttl": 31536015,
+                    "length": 36,
+                    "prevalence": 0.00014146672702580352,
+                    "uniqueness": 1
+                },
+                "referralId": {
+                    "ttl": null,
+                    "length": 6,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "nxstoryVariation": {
+                    "ttl": 62208003,
+                    "length": 23,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.metroparks.com",
+                "roundrockisd.org",
+                "www.chemeketa.edu",
+                "www.rilot.com",
+                "www.copcp.com",
+                "www.weingartz.com",
+                "www.firstcommunity.com",
+                "www.novec.com",
+                "www.longs.com",
+                "thechicagodogs.com",
+                "www.cardis.com",
+                "www.ariens.com",
+                "www.firstcommunitybank.com",
+                "www.bayportcu.org",
+                "www.cheyenne.org",
+                "www.texasmonthly.com",
+                "www.tryonmed.com",
+                "www.weber.edu",
+                "www.wsav.com",
+                "www.ecc.edu"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/pixel\\/cv",
+            "cookies": 0.00041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adservices"
+            ],
+            "apis": {},
+            "sites": 68,
+            "prevalence": 0.000481,
+            "cnames": [],
+            "responseHashes": [
+                "6d4bfc379f8f81d76a205639ac01b9e876aa346c3eec763d2c0ce8c5b709a2fe"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "brandcdn_uid": 0.00016268673607967407,
+                "lotame_domain_check": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "premierortho.com",
+                "currituckcountync.gov",
+                "boardofwatersupply.com",
+                "www.mslottery.com",
+                "www.njit.edu",
+                "goodbuygear.com",
+                "www.thesteadmanclinic.com",
+                "www.bayportcu.org",
+                "www.vcu.com",
+                "illinoisstate.edu",
+                "www.rochebros.com",
+                "www.cheyenne.org",
+                "www.midwestone.bank",
+                "www.pridemobility.com",
+                "www.thefreedomtrail.org",
+                "www.delcopa.gov",
+                "www.weber.edu",
+                "www.donaanacounty.org",
+                "history.nebraska.gov",
+                "www.wake.gov"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/track\\/evnt\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insight-event"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "ac554a4ea8b34bbb80db013e14be195ebc986f82f24e5b18b0ea9032ef561f57",
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orbitonline.com",
+                "community.orbitonline.com",
+                "www.excelsior.edu",
+                "www.first.bank",
+                "www.pridemobility.com",
+                "www.wfmd.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/track\\/conv\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insight-event"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "d9e59641a8f690d854acb9ef992583e66381ce366a15c647043024a105852f96",
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orbitonline.com",
+                "community.orbitonline.com",
+                "www.epelectric.com",
+                "www.excelsior.edu",
+                "www.first.bank",
+                "www.firstcommunity.com",
+                "www.pridemobility.com",
+                "www.reeds.com",
+                "www.wfmd.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/pixel\\/cv_img",
+            "cookies": 0.0000495,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adservices"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "2ae01f5534cdabc9918de7f805bc85ac59ccdb6f2289aad4d6ed5c879c2544c9",
+                "b0183f9b406b226ad670df64375013df3873c10f8287fd1d95324abc5c45ab03"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orbitonline.com",
+                "community.orbitonline.com",
+                "www.excelsior.edu",
+                "www.first.bank",
+                "www.pridemobility.com",
+                "www.umcu.org",
+                "www.wfmd.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/fastenal_vfdwrmvfntzhm2c9\\/Fastenal_Corporate\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fastenal.com",
+                "www.fastenal.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/pixel\\/cv_confirm\\.png",
+            "cookies": 0.000106,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adservices"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000106,
+            "cnames": [],
+            "responseHashes": [
+                "13f86bd1a6d578ee82ca0c54a9a634e03d8d7db09380d72590b158f173f53790"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "brandcdn_uid": 0.00009902670891806247
+            },
+            "exampleSites": [
+                "flynashville.com",
+                "handandstone.com",
+                "hvmag.com",
+                "illinoisstate.edu",
+                "imagecarecenters.com",
+                "pasadena.edu",
+                "www.alturacu.com",
+                "www.connexuscu.org",
+                "www.copcp.com",
+                "www.epiphanydermatology.com",
+                "www.marcs.com",
+                "www.nscc.edu",
+                "www.portlandnursery.com",
+                "www.thealamo.org",
+                "www.wku.edu"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/mediacom_vfdwtmvrmuvwwg89\\/NewCustomer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "58d23e2aa27a6fcd9cd9a3d2003902b6a440cc1762dac4e8d8ba0cc5c51d128b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediacomcable.com",
+                "support.mediacomcable.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/americanmilitaryuniversity_vfzsuk5fntzhelu9\\/AMU_Nexstar\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c029f2f61c5425071cccba49785070f33f21cf94cb3cad66ec6e3f5ca65c9afb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apus.edu",
+                "www.amu.apus.edu"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/aprilaire_vfdwuk0wnxfvwg89\\/Aprilaire\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8495f8d812c85b92999d428edb696a7d4ad27dfdb83a1d060bd51e1b9773e442"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aprilaire.com",
+                "www.aprilaire.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/ariens_vfhwtmvvnxfwwgc9\\/Ariens\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6936f051a962fd6ea3a328ce638c8b9387211cd7e1f0f37def4dd7ea6b4568ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ariens.com",
+                "www.ariens.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/arienszt_vfhwvmvfmtzsvfu9\\/Ariens_ZT\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cad2a084024b005fde7756675e8445e485e88fb188524fe0312194ee93f1ad71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ariens.com",
+                "www.ariens.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/ariensrazor_vfhwvmvfmtztwgs9\\/Ariens_Razor\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "323d0bb1cda1276bd1372d08e80015c1d80224c4377a9981b1a4555802ca7ebb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ariens.com",
+                "www.ariens.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/ariensztdisplay_vfhwvmvvnuvuwg89\\/Ariens_ZT___Display\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dd3b4c5df753f7df0c2a41595d8b9230c8ac890566008521f7686d40408566ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ariens.com",
+                "www.ariens.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/ariensrazordisplay_vfhwvmvvnuvuwgs9\\/Ariens_Razor___Display\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0eb4414bb05810775a328b207bb4fc17133c150162b7a6f3a05cd453d1fc7a4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ariens.com",
+                "www.ariens.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/biggbycoffee_vfzswmqwnvvxvda9\\/biggbycoffee\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0a70b5c3da8c96eb382de98b44f6d7f1fa8a8282eed75ac0e4cce783639ab3e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biggby.com",
+                "www.biggby.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/forumcorporatemarketingbrainerd_vfhwtmvrntzwve09\\/Forum_Corporate_Marketing_Brainerd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brainerddispatch.com",
+                "www.brainerddispatch.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/centralfloridaexpresswayauthority_vfdwbmqwouvzeja9\\/Central_Florida_Expressway_Authority\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e43ad46c8276f5c663622ecef8bc0d0fc8f42a57fa91ebb5b6cd82690c28bd88"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cfxway.com",
+                "www.cfxway.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/visitfortwayne_vg1wrk1fnuvwvda9\\/visitfortwayne\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "43fe01cec8d082fb1287631a6682bf23e86d480c5e268664c3089b39fb3f59f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cityoffortwayne.org",
+                "www.visitfortwayne.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/centralohioprimarycare_vfzscmvfovvxwgc9\\/Central%20Ohio%20Primary%20Care\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b87a36e74d38a1513b793c4db053408a7136814787640799a367ca914be0a60b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "copcp.com",
+                "www.copcp.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/calstateuniversitysanbernardino_vgtsumvrmtzuvfe9\\/cal_state_university_san_bernardino\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ba430bf1f6b936614eb0c864c6de83bdcc74247ee557b1517e4f9ca5e6c5bd72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csusb.edu",
+                "www.csusb.edu"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/deadwoodchambervisitorsbureau_vfdwak0wntnqvda9\\/deadwoodchamber\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a22272070f3f4cf2be542f85ef872228d4206f10c3b84959dc39243453477400"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadwood.com",
+                "www.deadwood.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/donatospizzacleveland_vgtsqk1fovvswgs9\\/Donatos_Pizza_Cleveland\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "30f71e0344066aea46665ca3d94a1287749eba19f4c15c914ba1b06faefd80ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donatos.com",
+                "www.donatos.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/forumcorporatemarketingduluth_vfhwtmvrntzwwgs9\\/Forum_Corporate_Marketing_Duluth\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8a9662b7abdf9c597efd2be57046e6e4e16ae47e001b492aba5a7b5b4062d439"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duluthnewstribune.com",
+                "www.duluthnewstribune.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/epiphanydermatology_vgtstmvrnxfswg89\\/Epiphany_Dermatology\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bb897b21f451439e157f445dbed213588a6b7206ef12375480d06e5be43bc27d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epiphanydermatology.com",
+                "www.epiphanydermatology.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/evergyhps_vfdwvmvvnvvvwg89\\/Evergy_HPS\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "406f019678b17c6521ef1bbc00d8783b62690c405b691631e8a93d150428699e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evergy.com",
+                "www.evergy.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/evergyev_vfhwuk5vnxfxvfe9\\/Evergy%20EV\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2be66b789d4a7f14ad55f7479570692fe44aa4d6c841ccd1f42f4af4e1101060"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evergy.com",
+                "www.evergy.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/evergytou_vgtssk1rouvhekk9\\/evergy_tou\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "875a85d92ebb2859d8c192392b9095c6d978c7f915ce1175eef74794b5a768cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evergy.com",
+                "www.evergy.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/First_Community_Credit_Union\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7875821f2d22196305613e3150db927eb1bcf83abbcab92ad1b7df0a66c43334"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstcommunity.com",
+                "www.firstcommunity.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/gatlinburgtourism_vfhwtmvfnxfaekk9\\/Gatlinburg_Tourism\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6bd4465e72298dd5c97dfdca77eea60c0dffe2fce56e67b09ace68206906c3fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gatlinburg.com",
+                "www.gatlinburg.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/forumcorporatemarketinggrandforks_vfhwtmvrntzwveu9\\/Forum_Corporate_Marketing_Grand_Forks\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b8e2612575553a93321a90a8885f7807956cfe779304b51d0d596fdf71420c42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grandforksherald.com",
+                "www.grandforksherald.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/houstonpublicmedia_vgxsqk5fmtzvvfe9\\/Houston_Public_Media\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3c749bdf6491e571ff2655004e0f262222c0c5cb9154c1df4f5a7bda459e5026"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houstonpublicmedia.org",
+                "www.houstonpublicmedia.org"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/forumcorporatemarketingfargo_vfhwtmvrntzwwg89\\/Forum_Corporate_Marketing_Fargo\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "19786c82cf587742f1140c4e33b1c99d9ad84f557c7aecff2101ec46f0639d3a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inforum.com",
+                "www.inforum.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/middleeastmediaresearchinstitute_vgtsrk1fmtztwgc9\\/Middle_East_Media_Research_Institute\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "98c08f59f748edc0e67036c11f8be777afd4c49a3daf9e3143ea4f8169c5931d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "memri.org",
+                "www.memri.org"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/mississippilottery_vgtsrmvrnuvrwgs9\\/Mississippi_Lottery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6e5e6b533b984b45f025fe10a824f519874c5602d7cdb97a26f56baa84a84ddd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mslottery.com",
+                "www.mslottery.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/abbiagency_vfhwvmvfmtzzelu9\\/Abbi_Agency\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e094a37796fe27af8ebc7e07b830879d3d9fd219a0ed8949b52ef7afe1e5105d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ndow.org",
+                "www.ndow.org"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/portlandnursery_vfdwrmqwmxfhek09\\/Portland_Nursery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9935bf347931f82eeadac32172c7e32eb26eea523a923e53d6106bdcc672f653"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "portlandnursery.com",
+                "www.portlandnursery.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/forumcorporatemarketingrochester_vfhwtmvrntzwvfe9\\/Forum_Corporate_Marketing_Rochester\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "75f835ae1476abe8bc1ff6639954f4ec60aab4a2b34508541f1ed43c10a71dd6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postbulletin.com",
+                "www.postbulletin.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/reedsjewelers_vfdwsk1rouvuve09\\/reedsjewelers\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fbccc37b1e80d487e2026bfa3ec95b383b02232cecd175de367546f490881b81"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reeds.com",
+                "www.reeds.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/Reeds_Jewelers\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f355c5ff2efe7e377118b9127df86ffa93e9a115d0e40cd6a794bc4fb7918e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reeds.com",
+                "www.reeds.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/razorfishng_vgxsqk0wmvvxvee9\\/Razorfish_NG\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1784305a72fe1797519590ae3c63227a025e9a3ccc9d8db9999c5ac3445eb9f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stripes.com",
+                "www.stripes.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/summerfesttech_vfdwvk1vmvvrvfe9\\/Summerfest_Tech\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0d46a21e33ec274006f501b3e145d06255678d3a3c5076122bf0703c12ad5c68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "summerfest.com",
+                "www.summerfest.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/texasmonthly_vfhwvk1fmvvxve09\\/Texas%20Monthly\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "159645e569a7b14e9d51f3a4cc1d12eec2a0f9706daa003a803b426966457c85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "texasmonthly.com",
+                "www.texasmonthly.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/alamotrustinc_vgtssk1rmuvxvfe9\\/alamo_trust_inc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8be761b92878ebe127f1ef7317fafa6280dc85570ce7c1a6b0c1217422e5977f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thealamo.org",
+                "www.thealamo.org"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/uwcreditunion_vfzsuk1fovvswgm9\\/UW_CREDIT_UNION\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "55b3cb0298d7f0fc1aad5800ad98830016c89555fe2d722c6b8c76cbb8c5d841"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uwcu.org",
+                "www.uwcu.org"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/raleighcvbresident_vfzstk1vmvvaek09\\/Raleigh_CVB_-_Resident\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e298bba563d4d59df09e52a728072125b9a6a0eeeacf171ba5d060025deed05f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitraleigh.com",
+                "www.visitraleigh.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/raleighcvb_vfzssk5vnuvwwgc9\\/RaleighCVB\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "93e317f6554e7eb2f3c2eb6ffc6338bfe92d1bb0b93d7f39ca06bb6f4bd98db2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitraleigh.com",
+                "www.visitraleigh.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/visitsarasotacounty_vgtssk0wouvwveu9\\/Visit_Sarasota_County\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9d6aa47b3375f7c417f74f8704b55494e2865e9eb4d7021f709daa28f8fc195a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitsarasota.com",
+                "www.visitsarasota.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/wakecountychildwelfarehumanservice_vfdwtmvvmuvsvfu9\\/_Wake_County_Child_Welfare_Human_Services\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "21ee7f70f179e7abe50484a34bef2f2b3fd99e724965d6c3599cc36eebe6f009"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wake.gov",
+                "www.wake.gov"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/wakecountypublicschoolsystem_vfzstk1fouvzeke9\\/Wake_County_Public_School_System\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ecfbf5705c97ad7e80d6e357dca05e3b861df1c3e48643a35c4354ce2c2f7654"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wcpss.net",
+                "www.wcpss.net"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/weingartz_vgxsrmvvntzaeku9\\/Weingartz\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "734df17114cb4141bde95a6fa7a893e7d639d0ff33f0916ba98fc5a4325c76e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weingartz.com",
+                "www.weingartz.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/westernkentuckyuniversitylou_vfzsqmvfmvvrvek9\\/WESTERNKENTUCKYUNIVERSITYLOU\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e2c21ee6d5467d8b151b0a7c05e74f5090f6bf9c524a52e33f9160236a87683c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wku.edu",
+                "www.wku.edu"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/wsavpromotions_vfzswmqwntzsvda9\\/wsavwheeloffortunemay2021\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e8cc8ff37f122b6b5bb0ecf11e11bfe1fc844d7459629a3879d2f4a4ddd67e2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wsav.com",
+                "www.wsav.com"
+            ]
+        },
+        {
+            "rule": "brandcdn\\.com\\/autoscript\\/wsavpromotions_vfdwrk5fmuvheku9\\/Q2_Jeopardy_Display\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6aa0320432118a568485e60dcd4de0737fb55a126a718fcfcaade592c295588f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wsav.com",
+                "www.wsav.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00144,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5227272727272727
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.43506493506493504
+        },
+        {
+            "domain": "d3plfjw9uod7ab.cloudfront.net",
+            "prevalence": 0.025974025974025976
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.006493506493506494
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.006493506493506494
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.003246753246753247
+        }
+    ],
+    "types": {
+        "Script": 260,
+        "Document": 68,
+        "Image": 37
+    },
+    "nameservers": [
+        "ns-225.awsdns-28.com",
+        "ns-1663.awsdns-15.co.uk",
+        "ns-1497.awsdns-59.org",
+        "ns-528.awsdns-02.net"
+    ]
+}

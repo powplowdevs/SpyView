@@ -1,0 +1,77 @@
+{
+    "domain": "d33mkeffdxg4qy.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d33mkeffdxg4qy\\.cloudfront\\.net\\/a3a4ef34\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "653b80a8983603d3f4274e467f7b0575ad9e8339c12477cbaa922994013c698d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_blkp_xps": {
+                    "ttl": 251654962771,
+                    "length": 38,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baggallini.com",
+                "www.baggallini.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1096.awsdns-09.org",
+        "ns-1563.awsdns-03.co.uk",
+        "ns-180.awsdns-22.com",
+        "ns-842.awsdns-41.net"
+    ]
+}

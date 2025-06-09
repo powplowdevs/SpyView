@@ -1,0 +1,94 @@
+{
+    "domain": "icpublic.com",
+    "owner": {
+        "name": "Instacart",
+        "displayName": "Instacart"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "rpc-rise-config-data-eng"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "icpublic\\.com\\/rpc\\/instacart\\.rise\\.config\\.v1\\.ConfigService\\/ClientConfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc-rise-config-data-eng"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "publix.com",
+                "delivery.publix.com",
+                "sameday.dollartree.com",
+                "sameday.costco.ca",
+                "shop.aldi.us",
+                "shop.sprouts.com",
+                "www.harmonsgrocery.com"
+            ]
+        },
+        {
+            "rule": "icpublic\\.com\\/rpc\\/instacart\\.rise\\.config\\.v1\\.ConfigService\\/ClientConfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc-rise-config-data-eng"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "a85751fce5882bbb76e9f0e870805c42b92678d4d5c1451f7711af292cc04839"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "publix.com",
+                "delivery.publix.com",
+                "sameday.dollartree.com",
+                "sameday.costco.ca",
+                "shop.aldi.us",
+                "shop.sprouts.com",
+                "www.harmonsgrocery.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "d2guulkeunn7d8.cloudfront.net",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Preflight": 7,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "ns-212.awsdns-26.com",
+        "ns-694.awsdns-22.net",
+        "ns-1758.awsdns-27.co.uk",
+        "ns-1407.awsdns-47.org"
+    ]
+}

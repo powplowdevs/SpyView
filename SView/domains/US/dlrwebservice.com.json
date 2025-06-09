@@ -1,0 +1,117 @@
+{
+    "domain": "dlrwebservice.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [
+        "ad"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dlrwebservice\\.com\\/www\\/delivery\\/asyncjs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "ba6fe0836c145782c7c1c24c4d63760e1b4666d7f9c588ab67723b6d96f94380"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rvusa.com",
+                "www.coachmenrvsource.com",
+                "www.forestriverrvsource.com",
+                "www.keystonervsource.com",
+                "www.rvusa.com"
+            ]
+        },
+        {
+            "rule": "dlrwebservice\\.com\\/www\\/delivery\\/asyncspc\\.php",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "138a36b9e41a80f1258e5ed09e0bd833874cfe958d79203dc5d53c711b353261",
+                "eeb36c096d90c7868d481ed73f3d7a21854db4eccf11dfcdba79df02677da91f",
+                "9b9f3ec9f9c82144dd2d9289658e7d8434c4453f07e72182ee347c29612d8000"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coachmenrvsource.com",
+                "www.forestriverrvsource.com",
+                "www.keystonervsource.com",
+                "www.rvusa.com"
+            ]
+        },
+        {
+            "rule": "dlrwebservice\\.com\\/www\\/delivery\\/lg\\.php",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coachmenrvsource.com",
+                "www.forestriverrvsource.com",
+                "www.keystonervsource.com",
+                "www.rvusa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.72
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.17
+        },
+        {
+            "domain": "unpkg.com",
+            "prevalence": 0.11
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 4,
+        "Image": 4
+    },
+    "nameservers": [
+        "bob.ns.cloudflare.com",
+        "edna.ns.cloudflare.com"
+    ]
+}

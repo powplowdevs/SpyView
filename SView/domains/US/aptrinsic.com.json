@@ -1,0 +1,413 @@
+{
+    "domain": "aptrinsic.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000149,
+    "sites": 21,
+    "subdomains": [
+        "web-sdk",
+        "web-sdk-us2",
+        "esp",
+        "esp-us2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aptrinsic\\.com\\/api\\/aptrinsic\\.js",
+            "cookies": 0.000092,
+            "fingerprinting": 2,
+            "subdomains": [
+                "web-sdk",
+                "web-sdk-us2"
+            ],
+            "apis": {
+                "window.localStorage": 12,
+                "Document.cookie getter": 13,
+                "Navigator.prototype.userAgent": 13,
+                "window.sessionStorage": 13,
+                "Navigator.prototype.platform": 12,
+                "Date.prototype.getTime": 13,
+                "Document.cookie setter": 13,
+                "window.innerHeight": 13,
+                "window.innerWidth": 13
+            },
+            "sites": 18,
+            "prevalence": 0.000127,
+            "cnames": [],
+            "responseHashes": [
+                "d11b00b78109c96b09d0583162d0c785f9acdaf1f9013e49259d8a27a15a539c",
+                "00e5d5df3201e931782d7ca40250de33fa8dbf1275aadaba136d20ee67db121c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "apt.uid": {
+                    "ttl": 31536006,
+                    "length": 44,
+                    "prevalence": 0.00009195337256677229,
+                    "uniqueness": 1
+                },
+                "apt.sid": {
+                    "ttl": 1807,
+                    "length": 40,
+                    "prevalence": 0.00009195337256677229,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docusign.com",
+                "community.docusign.com",
+                "community.f5.com",
+                "geospatial.trimble.com",
+                "help.sketchup.com",
+                "help.sonatype.com",
+                "my.f5.com",
+                "pass.securly.com",
+                "static.practicefusion.com",
+                "student.naviance.com",
+                "techdocs.f5.com",
+                "www.eou.edu",
+                "www.fossilera.com",
+                "www.gradescope.com",
+                "www.partssource.com",
+                "www.richandthompson.com",
+                "www.sketchup.com",
+                "www.trimble.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-RTI2Y5MANW70-2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6260e9daf53b16c2a6a311a37efe29a39ad41bf7a0f867488449f9a96445635e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docusign.com",
+                "community.docusign.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-sdk",
+                "web-sdk-us2"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "60ec4783f17368f6f08562b73fe100097a1735289a9de3f154ff98062b6ad7b5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docusign.com",
+                "community.docusign.com",
+                "community.f5.com",
+                "geospatial.trimble.com",
+                "help.sketchup.com",
+                "help.sonatype.com",
+                "my.f5.com",
+                "pass.securly.com",
+                "static.practicefusion.com",
+                "student.naviance.com",
+                "techdocs.f5.com",
+                "www.fossilera.com",
+                "www.gradescope.com",
+                "www.partssource.com",
+                "www.richandthompson.com",
+                "www.sketchup.com",
+                "www.trimble.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/command",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp",
+                "esp-us2"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "3e72370be9797a3da7fa8ec7130e6e3e24107f1c2648cd69ba957104991400e5",
+                "89b440b84a22790009d504017e6090d308e46bc33caa60a6703a18ce7554c76b",
+                "7d80cb0725191b9d67b568562fb41268c031f1d7b220ed56770b5027b95a8ac1",
+                "2f1ce8d0b3091f2481d4ca0053ad3c95fd696e1cb5a757cb7ab33079d7f2cd46",
+                "714c6259f85d0ddd5f0e9570da4192fa6cac86b8d2967f889c583cb85bca9c38",
+                "7a92acc13821016d790a466b5535257f7c51855733b8a96eea1aaa547cbb3bf1",
+                "ba962654c994527b1731b4e06e5a97d9da3d72b381fdcff1e89e9210905aa94d",
+                "b52123bdbf38b6cc5300e813ee3be682525c0d7da2f759011c966c09bf65cef4",
+                "7c3164281d2814085a33a3a8d74f1e89aa53a612de5e05480cf8b2cc9d313aa8",
+                "43baa623c050c012085f9708f83efdd51af2bb2adf0b5ea163bd6385a94aa1ec",
+                "6bab940823813099d0460519e69424f7681aee58e98a81625f5098a44c4036a3",
+                "91f38bbbdbbf3632176cd14bba978357cd258bdb45d4afb96504b4f33f15683d",
+                "ee905a9bbabef9ba7fa20ffdd6381bf63b8f3c64df34174beb1de81ae9f87de4",
+                "000c84fe736bb1e5de05ff2465b0500bc580646ec6ba1137c67d8c1a36e2353d",
+                "1af010ef68591a8af5a8bf17ee384847d75540458d607771f8d1bf8d16fcaf7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "apt.sid": 0.00008488003621548212
+            },
+            "exampleSites": [
+                "docusign.com",
+                "community.docusign.com",
+                "community.f5.com",
+                "geospatial.trimble.com",
+                "help.sketchup.com",
+                "help.sonatype.com",
+                "my.f5.com",
+                "pass.securly.com",
+                "static.practicefusion.com",
+                "student.naviance.com",
+                "techdocs.f5.com",
+                "www.fossilera.com",
+                "www.gradescope.com",
+                "www.partssource.com",
+                "www.richandthompson.com",
+                "www.sketchup.com",
+                "www.trimble.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/api\\/v1\\/feature\\/client",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp",
+                "esp-us2"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "b96f504431c6585bf65d8cb6f08b4019e3328fc3a37cf7ec96258b3f5f40db25",
+                "0577c1298ad2607fa47af4cc6d82e87a8b564b7a54b081423b8f38f04571ffc6",
+                "6c6b6d836cdf05b51d2c13a96c66cc0d92f2b3fe16f6e25c63997fd7fc847d31",
+                "e6c2e2788492092cba882803ae6064ee34a3e15ef2c4135eacde628973c3044f",
+                "5ccbb4dee47c414a1db567537b0c8360912a241a3e93d9da7008bcabe0b377fc",
+                "e9f645c1e7c56a66097a90f93741a571c19feecf3be43324a13dcdf66b5bf77e",
+                "6cc59a7b772db1cf7c91af1eb6aead29179cf6da2801bcb947f0215c4db39900"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "apt.sid": 0.00008488003621548212
+            },
+            "exampleSites": [
+                "docusign.com",
+                "community.docusign.com",
+                "community.f5.com",
+                "geospatial.trimble.com",
+                "help.sketchup.com",
+                "help.sonatype.com",
+                "my.f5.com",
+                "pass.securly.com",
+                "static.practicefusion.com",
+                "student.naviance.com",
+                "techdocs.f5.com",
+                "www.fossilera.com",
+                "www.gradescope.com",
+                "www.partssource.com",
+                "www.richandthompson.com",
+                "www.sketchup.com",
+                "www.trimble.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/inapp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp",
+                "esp-us2"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "3cfd108196bea0513d1855f0f3fb92d8e7f3bdd5cdaaa68749648ab78ebb38ed"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "apt.sid": 0.00009195337256677229
+            },
+            "exampleSites": [
+                "docusign.com",
+                "community.docusign.com",
+                "community.f5.com",
+                "geospatial.trimble.com",
+                "help.sketchup.com",
+                "help.sonatype.com",
+                "my.f5.com",
+                "pass.securly.com",
+                "static.practicefusion.com",
+                "student.naviance.com",
+                "techdocs.f5.com",
+                "www.fossilera.com",
+                "www.gradescope.com",
+                "www.partssource.com",
+                "www.richandthompson.com",
+                "www.sketchup.com",
+                "www.trimble.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v3\\/kc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "f5.com",
+                "community.f5.com",
+                "www.fossilera.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-UNM677VB2XAD-2-2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a58993ed8e3a418d8798200d9600c1ee3fbec030e7a5b76bcda4af38466be118"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trimble.com",
+                "help.sketchup.com",
+                "www.sketchup.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-NITRFA1GYZ8C-2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "0710464dfdec536c44df4b2dd222172ccdc610340e1c5c9f33907d6b7313b773"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "f5.com",
+                "my.f5.com",
+                "techdocs.f5.com"
+            ]
+        },
+        {
+            "rule": "aptrinsic\\.com\\/rte\\/v1\\/configuration\\/AP-1BQVLBSZC216-2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "esp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "da9cc09bc4251bcd6f5c2fe4d5ddf79a98505a185adab20c95427805f82a8f4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gradescope.com",
+                "www.gradescope.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000113,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6323529411764706
+        },
+        {
+            "domain": "hiverhq.com",
+            "prevalence": 0.17647058823529413
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.08823529411764706
+        },
+        {
+            "domain": "bizible.com",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.029411764705882353
+        },
+        {
+            "domain": "aaiscloud.com",
+            "prevalence": 0.014705882352941176
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "XHR": 64,
+        "Stylesheet": 17
+    },
+    "nameservers": [
+        "ns34.domaincontrol.com",
+        "ns33.domaincontrol.com"
+    ]
+}

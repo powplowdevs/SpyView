@@ -1,0 +1,77 @@
+{
+    "domain": "fcl.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "identity-auth-ui.edge.soar"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fcl\\.cloud\\/accountData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity-auth-ui.edge.soar"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightcentre.com.au",
+                "www.flightcentre.com.au"
+            ]
+        },
+        {
+            "rule": "fcl\\.cloud\\/accountData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity-auth-ui.edge.soar"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "37f7375264f7d53c82c1c362c3a249fc32b0d856c76ebab07fe1f5f7f98fb6e7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightcentre.com.au",
+                "www.flightcentre.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1337.awsdns-39.org",
+        "ns-1836.awsdns-37.co.uk",
+        "ns-412.awsdns-51.com",
+        "ns-640.awsdns-16.net"
+    ]
+}

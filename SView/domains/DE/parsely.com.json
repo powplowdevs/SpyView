@@ -1,0 +1,221 @@
+{
+    "domain": "parsely.com",
+    "owner": {
+        "name": "Parsely, Inc.",
+        "displayName": "Parsely",
+        "privacyPolicy": "https://www.parse.ly/privacy-policy/",
+        "url": "http://parse.ly"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00418,
+    "sites": 41,
+    "subdomains": [
+        "api",
+        "p1",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "parsely\\.com\\/v2\\/profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "ea18fa530ce3329cf8bccdeed582f4987c8a4f03adc81616b747d9df0dee9391",
+                "48f00be2c07cc12f564b94cfdf0139b9218877a19747c8f366c2defed64fa478",
+                "a372b455478d2f487643ce39589b6c8e92b9ef39bdb49efe404f1b388ba087d9",
+                "c67efff17034e291ba9163aa847980213286d4e419a3ec4a73d11c36b4129505",
+                "52d3b2a3037c1a503c95359d461dcf504d7c3b3f341aec3d6d5aa3b32e324e4f",
+                "b22eebee0f28aaf38a22b22c5e6d91725d8aa523b663491ef9298fb0640788a8",
+                "0eadca0a62c834e0f74f381eede0a2e04b4d71cf82bf91f7b23e7200fb8963fe",
+                "407439dd48b77af22bca55f382be9d1316376a16e2da30c1e6aad4366bef7422"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "9to5mac.com",
+                "blogs.vmware.com",
+                "editorial.rottentomatoes.com",
+                "science.nasa.gov",
+                "thecinemaholic.com",
+                "www.digitaltrends.com",
+                "www.nasa.gov",
+                "www.politico.eu",
+                "www.vice.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/px\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9to5mac.com",
+                "beebom.com",
+                "blogs.vmware.com",
+                "de.catholicnewsagency.com",
+                "editorial.rottentomatoes.com",
+                "science.nasa.gov",
+                "techcrunch.com",
+                "thecinemaholic.com",
+                "www.morningstar.com",
+                "www.nasa.gov",
+                "www.nbcnews.com",
+                "www.vice.com",
+                "www.wowhead.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/plogger\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00275,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "time.com",
+                "www.accuweather.com",
+                "www.digitaltrends.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.thesun.co.uk",
+                "www.tomshardware.com",
+                "www.politico.eu",
+                "www.pcgamer.com",
+                "www.guidingtech.com",
+                "www.refinery29.com",
+                "www.gamesradar.com",
+                "thedirect.com",
+                "www.theverge.com",
+                "www.livescience.com",
+                "www.cyclingweekly.com",
+                "www.cyclingnews.com",
+                "ra.co",
+                "www.space.com",
+                "www.polygon.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/v2\\/related",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "fe32dfea16d30f6da134645271023bfa7630cf0029fb7fd0d82fc55b4c6c465b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theverge.com",
+                "www.theverge.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/vice\\.com\\/p\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6250b2cd84963675ac7f200e78e0a0dcbc97a09b0c349d2f628959e7cbdde515"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vice.com",
+                "www.vice.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {},
+    "cookies": 0.00398,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8166666666666667
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11666666666666667
+        },
+        {
+            "domain": "d1z2jf7jlzjs58.cloudfront.net",
+            "prevalence": 0.03333333333333333
+        },
+        {
+            "domain": "zamimg.com",
+            "prevalence": 0.03333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 11,
+        "Image": 40,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-973.awsdns-57.net",
+        "ns-1076.awsdns-06.org",
+        "ns-1808.awsdns-34.co.uk",
+        "ns-217.awsdns-27.com"
+    ]
+}

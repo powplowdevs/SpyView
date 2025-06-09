@@ -1,0 +1,97 @@
+{
+    "domain": "506.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000408,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "aca"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "506\\.io\\/eg\\/script\\.js",
+            "cookies": 0.000408,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "cf2fc1b8a7635da3bd93eca4f4c2955b1fe576791d6791e4e8cb79168e310f31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nothing.tech",
+                "navimow.segway.com",
+                "reformhaus.de",
+                "www.fairment.de"
+            ]
+        },
+        {
+            "rule": "506\\.io\\/public\\/store",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aca"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "d0fcc96d56e938c4b664922a8251493b9bb0bf2cb53559c7760f5cf6899a5404",
+                "f21b170bb4b5f27c524beb7b6089228a2d7a53977300d5b1bb58e8bb028e7105"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nothing.tech",
+                "navimow.segway.com",
+                "reformhaus.de",
+                "www.fairment.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "trafficly.site",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns2.digitalocean.com",
+        "ns1.digitalocean.com",
+        "ns3.digitalocean.com"
+    ]
+}

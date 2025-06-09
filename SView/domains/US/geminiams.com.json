@@ -1,0 +1,139 @@
+{
+    "domain": "geminiams.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "geminiams\\.com\\/mann-lake\\/geminichat",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3be3245015f5970d56a30262be6d2bd6415b465cc6403479e2fe6b8cbcbdc5a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "geminichat": {
+                    "ttl": 432000,
+                    "length": 22,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mannlakeltd.com",
+                "www.mannlakeltd.com"
+            ]
+        },
+        {
+            "rule": "geminiams\\.com\\/mann-lake\\/chatbot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "66294f631b5ae3dd9abb487516fcaca86f07b59143d1d28b9d5ff631715f4359"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mannlakeltd.com",
+                "www.mannlakeltd.com"
+            ]
+        },
+        {
+            "rule": "geminiams\\.com\\/mann-lake\\/chatbot\\/openicon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "128721f03b7a11fba1d5001b90ad085ca58ab27b4b3d515b10dd785e8125328c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mannlakeltd.com",
+                "www.mannlakeltd.com"
+            ]
+        },
+        {
+            "rule": "geminiams\\.com\\/mann-lake\\/chatbot\\/closeicon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1ca6840377eb849304ccc8e8f527adc4faed09f09ec712ffff8b4c707bce6c67"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mannlakeltd.com",
+                "www.mannlakeltd.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns61.domaincontrol.com",
+        "ns62.domaincontrol.com"
+    ]
+}

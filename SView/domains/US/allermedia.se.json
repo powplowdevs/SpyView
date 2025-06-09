@@ -1,0 +1,64 @@
+{
+    "domain": "allermedia.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "allermedia\\.se\\/se-aller-ads\\/prod\\/4\\.0\\.72\\/aller-ads\\.bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.innerWidth": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "d067e5d12683e1e5c0ff7f6b7fc0c7aeae3608426a4b7968dad0094a1ae4ff55"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allas.se",
+                "www.elle.se",
+                "www.femina.se",
+                "www.hant.se",
+                "www.mabra.com",
+                "www.seiska.fi",
+                "www.svenskdam.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "naya.ns.cloudflare.com",
+        "alexis.ns.cloudflare.com"
+    ]
+}

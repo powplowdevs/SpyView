@@ -1,0 +1,106 @@
+{
+    "domain": "fabapps.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "cdn.marquee",
+        "cdn.feedbackbutton"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fabapps\\.co\\/js\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.marquee",
+                "cdn.feedbackbutton"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "674ba3b998700578bc68fcde2dd97d816f57eadcb0d9c464839b8348b702ee62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berninifountains.com",
+                "www.bee-link.com"
+            ]
+        },
+        {
+            "rule": "fabapps\\.co\\/config\\/bee-link\\.myshopify\\.com\\.config\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.feedbackbutton"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "946f212d8fecdec1a62ad202d6ecb434af2828e4918843298a03aac72a2769a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bee-link.com",
+                "www.bee-link.com"
+            ]
+        },
+        {
+            "rule": "fabapps\\.co\\/fonts\\/SF-Pro-Display-Regular\\.otf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.feedbackbutton"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5cd50705f611249b78cafe5a3eff5815c63ff91f60d7a874b43a15962bd86f04"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bee-link.com",
+                "www.bee-link.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ashley.ns.cloudflare.com",
+        "guss.ns.cloudflare.com"
+    ]
+}

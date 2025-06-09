@@ -1,0 +1,75 @@
+{
+    "domain": "chefsdeal.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "backend"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "chefsdeal\\.app\\/api\\/product\\/prices",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefsdeal.com",
+                "www.chefsdeal.com"
+            ]
+        },
+        {
+            "rule": "chefsdeal\\.app\\/api\\/product\\/prices",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a05539b8b7617e6bb989da00b5a56d70303c92b570394c494cc8b1e07495a3f1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefsdeal.com",
+                "www.chefsdeal.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "kip.ns.cloudflare.com",
+        "cass.ns.cloudflare.com"
+    ]
+}

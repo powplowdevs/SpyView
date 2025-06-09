@@ -1,0 +1,185 @@
+{
+    "domain": "appsflyer.com",
+    "owner": {
+        "name": "AppsFlyer",
+        "displayName": "AppsFlyer"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00184,
+    "sites": 18,
+    "subdomains": [
+        "websdk",
+        "onelinksmartscript",
+        "wa"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "appsflyer\\.com\\/",
+            "cookies": 0.000306,
+            "fingerprinting": 3,
+            "subdomains": [
+                "websdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "window.localStorage": 13,
+                "window.sessionStorage": 13,
+                "Navigator.prototype.webdriver": 12,
+                "Navigator.prototype.language": 13,
+                "Screen.prototype.colorDepth": 13,
+                "Navigator.prototype.cookieEnabled": 13,
+                "Navigator.prototype.deviceMemory": 13,
+                "window.devicePixelRatio": 12,
+                "Screen.prototype.width": 13,
+                "Screen.prototype.height": 13,
+                "Screen.prototype.orientation": 13,
+                "Screen.prototype.availWidth": 13,
+                "Screen.prototype.availHeight": 13,
+                "Date.prototype.getTimezoneOffset": 13,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 13,
+                "window.indexedDB": 13,
+                "Navigator.prototype.platform": 13,
+                "Navigator.prototype.doNotTrack": 13,
+                "Navigator.prototype.languages": 13,
+                "Navigator.prototype.javaEnabled": 7,
+                "PerformanceTiming.prototype.navigationStart": 13,
+                "Date.prototype.getTime": 13,
+                "Document.cookie getter": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Document.cookie setter": 3
+            },
+            "sites": 15,
+            "prevalence": 0.00153,
+            "cnames": [],
+            "responseHashes": [
+                "2a00fb51cdbaf78302a4111b33366e56cd06c7f2f106a273d3d65d8762cd613d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "afUserId": {
+                    "ttl": 63072019,
+                    "length": 38,
+                    "prevalence": 0.00030596634370219276,
+                    "uniqueness": 1
+                },
+                "AF_SYNC": {
+                    "ttl": 604819,
+                    "length": 13,
+                    "prevalence": 0.00030596634370219276,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "backmarket.de",
+                "notino.de",
+                "skylum.com",
+                "suno.com",
+                "weather.com",
+                "wolt.com",
+                "www.backmarket.de",
+                "www.blockchain.com",
+                "www.corriere.it",
+                "www.lastminute.de",
+                "www.max.com",
+                "www.plantura.garden",
+                "www.smartbrokerplus.de",
+                "www.weg.de",
+                "www.yazio.com"
+            ]
+        },
+        {
+            "rule": "appsflyer\\.com\\/onelink-smart-script-latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "onelinksmartscript"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "cd7b220104e46c1083e29dc20045e07d039d31cbf714a77716849af03e19bc3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "suno.com",
+                "www.etoro.com",
+                "www.viki.com"
+            ]
+        },
+        {
+            "rule": "appsflyer\\.com\\/events",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "0bba29e980abd50d66e6b9cb037255f771eef052dd8abdb2d9e3e7f8e5e60065",
+                "bdfecfbb920e2ffe24d8bff85bbb74f91d93d683cce055575b5a305dd9186399",
+                "db301502c7c559bba8ef5ecece6644e878cc5cc56eb9c91e41068cf5e2b6d054"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "suno.com",
+                "www.bitget.com",
+                "www.max.com",
+                "www.yazio.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5652173913043478
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.21739130434782608
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.08695652173913043
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.08695652173913043
+        },
+        {
+            "domain": "etorostatic.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-659.awsdns-18.net",
+        "ns-326.awsdns-40.com",
+        "ns-1429.awsdns-50.org",
+        "ns-1547.awsdns-01.co.uk"
+    ]
+}

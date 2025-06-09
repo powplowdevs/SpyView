@@ -1,0 +1,492 @@
+{
+    "domain": "gigya-api.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00122,
+    "sites": 12,
+    "subdomains": [
+        "8173854",
+        "9415462",
+        "7528771",
+        "653852678119",
+        "400482867624",
+        "353607680710",
+        "124964306379",
+        "7827621",
+        "896509145315",
+        "762219448840",
+        "598061811971",
+        "124893829730"
+    ],
+    "cnames": [
+        {
+            "original": "accounts.frankfurt-airport.com",
+            "resolved": "124964306379.gigya-api.com"
+        },
+        {
+            "original": "auth-id.nfl.com",
+            "resolved": "7827621.gigya-api.com"
+        },
+        {
+            "original": "eulogin.repubblica.it",
+            "resolved": "598061811971.gigya-api.com"
+        },
+        {
+            "original": "gigya.account.wago.com",
+            "resolved": "896509145315.gigya-api.com"
+        },
+        {
+            "original": "gigya.corsair.com",
+            "resolved": "353607680710.gigya-api.com"
+        },
+        {
+            "original": "gigya.wago.com",
+            "resolved": "124893829730.gigya-api.com"
+        },
+        {
+            "original": "identity.accounts.aldi-nord.de",
+            "resolved": "762219448840.gigya-api.com"
+        },
+        {
+            "original": "idp-prod.uefa.com",
+            "resolved": "9415462.gigya-api.com"
+        },
+        {
+            "original": "login-eu.geberit.de",
+            "resolved": "8173854.gigya-api.com"
+        },
+        {
+            "original": "login.abc.net.au",
+            "resolved": "7528771.gigya-api.com"
+        },
+        {
+            "original": "login.aldi-nord.de",
+            "resolved": "400482867624.gigya-api.com"
+        },
+        {
+            "original": "login.aldi-onlineshop.de",
+            "resolved": "653852678119.gigya-api.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gigya-api\\.com\\/JS\\/gigya\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "8173854"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "login-eu.geberit.de",
+                    "resolved": "8173854.gigya-api.com"
+                }
+            ],
+            "responseHashes": [
+                "8f4009fd2009bc187fdb1de8249f73f9da70a05e3e5c9832d07a1cf7c95a4ca7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geberit.de",
+                "www.geberit.de"
+            ]
+        },
+        {
+            "rule": "gigya-api\\.com\\/sdk\\.config\\.get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "8173854",
+                "9415462",
+                "7528771",
+                "653852678119",
+                "400482867624",
+                "353607680710",
+                "124964306379",
+                "7827621",
+                "896509145315"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [
+                {
+                    "original": "login-eu.geberit.de",
+                    "resolved": "8173854.gigya-api.com"
+                },
+                {
+                    "original": "idp-prod.uefa.com",
+                    "resolved": "9415462.gigya-api.com"
+                },
+                {
+                    "original": "login.abc.net.au",
+                    "resolved": "7528771.gigya-api.com"
+                },
+                {
+                    "original": "login.aldi-onlineshop.de",
+                    "resolved": "653852678119.gigya-api.com"
+                },
+                {
+                    "original": "login.aldi-nord.de",
+                    "resolved": "400482867624.gigya-api.com"
+                },
+                {
+                    "original": "gigya.corsair.com",
+                    "resolved": "353607680710.gigya-api.com"
+                },
+                {
+                    "original": "accounts.frankfurt-airport.com",
+                    "resolved": "124964306379.gigya-api.com"
+                },
+                {
+                    "original": "auth-id.nfl.com",
+                    "resolved": "7827621.gigya-api.com"
+                },
+                {
+                    "original": "gigya.account.wago.com",
+                    "resolved": "896509145315.gigya-api.com"
+                }
+            ],
+            "responseHashes": [
+                "91a82795d35981e952648e8e139cefba8e8d34c4d1866705d740a63a9c0d32f8",
+                "47528a9fc6d3ecead359547a6809c8c7505ed2d866bfa57ddd752d25e4fc2ff9",
+                "84b435a02506c862467319d544c05470c17c575f1ed0c465d1d4f051f9d776f8",
+                "d76b51941364008683e7453d0c3d0f7fd67dab02ba7d147919f88326366ac681",
+                "101cb3abca5ee1493a0586dcd183409b96a6454216467163f78a9bbffac13de4",
+                "de67a5848a2ffac34a26643fc493a40ba78d37f9caaf3ce9461866911a3f0324",
+                "00d127a5e3b627078ea02ffd50a3f96dfbf5ed00cfb652a09ed3fad9199edf8e",
+                "2ae0dc0585648ad53ffe07b0c6c7c0f611ab08e061f355c8ce872afcdf93fd1d",
+                "f87fcd81e4f430db7f5386a6f4bfce296e2232e4d409fb0a724c50b474609a76",
+                "927ee9275068c08b9f6819914cd53e7a5a557766fb319cf40e4ad80fb4036944"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geberit.de",
+                "de.uefa.com",
+                "www.abc.net.au",
+                "www.aldi-onlineshop.de",
+                "www.aldi-nord.de",
+                "www.corsair.com",
+                "www.frankfurt-airport.com",
+                "www.geberit.de",
+                "www.nfl.com",
+                "www.uefa.com",
+                "www.wago.com"
+            ]
+        },
+        {
+            "rule": "gigya-api\\.com\\/accounts\\.webSdkBootstrap",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "8173854",
+                "9415462",
+                "7528771",
+                "653852678119",
+                "762219448840",
+                "353607680710",
+                "124964306379",
+                "7827621",
+                "598061811971",
+                "124893829730"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [
+                {
+                    "original": "login-eu.geberit.de",
+                    "resolved": "8173854.gigya-api.com"
+                },
+                {
+                    "original": "idp-prod.uefa.com",
+                    "resolved": "9415462.gigya-api.com"
+                },
+                {
+                    "original": "login.abc.net.au",
+                    "resolved": "7528771.gigya-api.com"
+                },
+                {
+                    "original": "login.aldi-onlineshop.de",
+                    "resolved": "653852678119.gigya-api.com"
+                },
+                {
+                    "original": "identity.accounts.aldi-nord.de",
+                    "resolved": "762219448840.gigya-api.com"
+                },
+                {
+                    "original": "gigya.corsair.com",
+                    "resolved": "353607680710.gigya-api.com"
+                },
+                {
+                    "original": "accounts.frankfurt-airport.com",
+                    "resolved": "124964306379.gigya-api.com"
+                },
+                {
+                    "original": "auth-id.nfl.com",
+                    "resolved": "7827621.gigya-api.com"
+                },
+                {
+                    "original": "eulogin.repubblica.it",
+                    "resolved": "598061811971.gigya-api.com"
+                },
+                {
+                    "original": "gigya.wago.com",
+                    "resolved": "124893829730.gigya-api.com"
+                }
+            ],
+            "responseHashes": [
+                "cd5419067a2387c2529ddcc0305596596eeea4a2038e679cf8bf4728ab18d0be",
+                "77f00130de13cb52e18fdc9cabc030787695f7c47e42f6c5120e977ef7ba1167",
+                "7c4dfcd34a9586406a0b2709c17a7e3ad5acd5367de46b507f95e65d0902ed92",
+                "031a82b4b904144665253c2b2d3fca386d3fb7c8f2e462a274cba89918ecba2c",
+                "85f8c4c8ec8ce25e3ee517165441522c2260a19550212d653dcc3317e9968148",
+                "c2a9579a4fa494ff37ffc0add2cee934b729c50bce50907eb992e7a1f693f3eb",
+                "0f6a3f198c8fc8957b42035e12bd850b45cb2edd0140ea7bf5ed3d303b618bda",
+                "704c63a2273e42f4e707e045909c206ed0fdfbafced1db81591726bd4cb4995b",
+                "847fc95f2941f34e1cf2137ebfc602a43ec2a994f5fdd821982cfbde7da02f98"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "al_siteName": 0.00010198878123406426,
+                "al_siteSubsection": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "geberit.de",
+                "de.uefa.com",
+                "www.abc.net.au",
+                "www.aldi-onlineshop.de",
+                "www.aldi-nord.de",
+                "www.corsair.com",
+                "www.frankfurt-airport.com",
+                "www.geberit.de",
+                "www.nfl.com",
+                "www.repubblica.it",
+                "www.uefa.com",
+                "www.wago.com"
+            ]
+        },
+        {
+            "rule": "gigya-api\\.com\\/js\\/gigya\\.js",
+            "cookies": 0.000306,
+            "fingerprinting": 2,
+            "subdomains": [
+                "9415462",
+                "7528771",
+                "124964306379"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [
+                {
+                    "original": "idp-prod.uefa.com",
+                    "resolved": "9415462.gigya-api.com"
+                },
+                {
+                    "original": "login.abc.net.au",
+                    "resolved": "7528771.gigya-api.com"
+                },
+                {
+                    "original": "accounts.frankfurt-airport.com",
+                    "resolved": "124964306379.gigya-api.com"
+                }
+            ],
+            "responseHashes": [
+                "6a64c6179d9d9824d86f13b73e2d97f48e27c0055a4da10f83723a8c58a20e4f",
+                "17b167721db4d307989192a7b404ce34c90431aa5d7bd00a21d65137ab2b0764",
+                "bd34d78fce9623ddf70fde410ecb6703875633ae9460ebc94fe4bed65b64ebe2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uefa.com",
+                "www.abc.net.au",
+                "www.frankfurt-airport.com",
+                "www.uefa.com"
+            ]
+        },
+        {
+            "rule": "gigya-api\\.com\\/gs\\/webSdk\\/Api\\.aspx",
+            "cookies": 0.000816,
+            "fingerprinting": 2,
+            "subdomains": [
+                "9415462",
+                "7528771",
+                "653852678119",
+                "400482867624",
+                "353607680710",
+                "124964306379",
+                "7827621",
+                "896509145315"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [
+                {
+                    "original": "idp-prod.uefa.com",
+                    "resolved": "9415462.gigya-api.com"
+                },
+                {
+                    "original": "login.abc.net.au",
+                    "resolved": "7528771.gigya-api.com"
+                },
+                {
+                    "original": "login.aldi-onlineshop.de",
+                    "resolved": "653852678119.gigya-api.com"
+                },
+                {
+                    "original": "login.aldi-nord.de",
+                    "resolved": "400482867624.gigya-api.com"
+                },
+                {
+                    "original": "gigya.corsair.com",
+                    "resolved": "353607680710.gigya-api.com"
+                },
+                {
+                    "original": "accounts.frankfurt-airport.com",
+                    "resolved": "124964306379.gigya-api.com"
+                },
+                {
+                    "original": "auth-id.nfl.com",
+                    "resolved": "7827621.gigya-api.com"
+                },
+                {
+                    "original": "gigya.account.wago.com",
+                    "resolved": "896509145315.gigya-api.com"
+                }
+            ],
+            "responseHashes": [
+                "1c0239979c31239dd238a454586f2b11707b96d62943b11acc74f33fddb59346",
+                "bcf077be038b2d0be8404877dac354f6bf721bdbe00efe2494e11bb5fdca27aa",
+                "f92f2d8e80d093ef7ba21ddeb4489dec0437b61de21bfd946c6d2432ba410df6",
+                "9c53fceaee7e51d2283feed04a559fee35e44992657bfeee0f68c15dc130d6d1",
+                "73dedf891c93f373192af8a2b01f1b2ba533185df9c9737cf070d6d4136b09a8",
+                "6b36885d41d1492af9971fc5cf3164abd88b6d50c6b19878567d8d0818c850a0",
+                "ee8438a85a1cb08218899db09ac532364857152cd5c6fa97f7dfde2763ab6b21",
+                "19ff2d6faec4ab33115c3c488e962e1300eb4784918e4a8161b467671e1b5c45"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uefa.com",
+                "www.abc.net.au",
+                "www.aldi-onlineshop.de",
+                "www.aldi-nord.de",
+                "www.corsair.com",
+                "www.frankfurt-airport.com",
+                "www.nfl.com",
+                "www.uefa.com",
+                "www.wago.com"
+            ]
+        },
+        {
+            "rule": "gigya-api\\.com\\/gs\\/sso\\.htm",
+            "cookies": 0.000408,
+            "fingerprinting": 2,
+            "subdomains": [
+                "9415462",
+                "653852678119",
+                "400482867624",
+                "353607680710",
+                "124964306379",
+                "7827621",
+                "896509145315"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [
+                {
+                    "original": "idp-prod.uefa.com",
+                    "resolved": "9415462.gigya-api.com"
+                },
+                {
+                    "original": "login.aldi-onlineshop.de",
+                    "resolved": "653852678119.gigya-api.com"
+                },
+                {
+                    "original": "login.aldi-nord.de",
+                    "resolved": "400482867624.gigya-api.com"
+                },
+                {
+                    "original": "gigya.corsair.com",
+                    "resolved": "353607680710.gigya-api.com"
+                },
+                {
+                    "original": "accounts.frankfurt-airport.com",
+                    "resolved": "124964306379.gigya-api.com"
+                },
+                {
+                    "original": "auth-id.nfl.com",
+                    "resolved": "7827621.gigya-api.com"
+                },
+                {
+                    "original": "gigya.account.wago.com",
+                    "resolved": "896509145315.gigya-api.com"
+                }
+            ],
+            "responseHashes": [
+                "86f30073e3a97c2804dd7e722e2390a5a8ffd95fcac790dc299ac4017ff9802d",
+                "e217900a4b8248ee2540ea0736c67755704208f591f946d75078f0ec95375fef"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uefa.com",
+                "de.uefa.com",
+                "www.aldi-onlineshop.de",
+                "www.aldi-nord.de",
+                "www.corsair.com",
+                "www.frankfurt-airport.com",
+                "www.nfl.com",
+                "www.uefa.com",
+                "www.wago.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00122,
+    "topInitiators": [
+        {
+            "domain": "gigya.com",
+            "prevalence": 0.9722222222222222
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.027777777777777776
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 11,
+        "XHR": 12,
+        "Document": 18
+    },
+    "nameservers": [
+        "dns1.p06.nsone.net",
+        "ns-1502.awsdns-59.org",
+        "ns-2039.awsdns-62.co.uk",
+        "ns-20.awsdns-02.com",
+        "dns4.p06.nsone.net",
+        "dns3.p06.nsone.net",
+        "dns2.p06.nsone.net",
+        "ns-594.awsdns-10.net"
+    ]
+}

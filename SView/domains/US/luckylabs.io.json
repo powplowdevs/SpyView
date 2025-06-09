@@ -1,0 +1,127 @@
+{
+    "domain": "luckylabs.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "luckylabs\\.io\\/prd\\/lucky-local\\/org\\/integration-scripts\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "9596c1507fca10a4765eae95e85fb8e9c3d8d0532b0bda20f8a9ea80a6a11bf0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcade1up.com",
+                "bedjet.com",
+                "higherdose.com",
+                "terrakaffe.com"
+            ]
+        },
+        {
+            "rule": "luckylabs\\.io\\/prd\\/lucky-local\\/org\\/built-sources\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.vendor": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.devicePixelRatio": 1,
+                "OfflineAudioContext.prototype.constructor": 1,
+                "Screen.prototype.availTop": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availLeft": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availHeight": 1,
+                "AudioBuffer.prototype.getChannelData": 1,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "5a4bfbd9b5d1c206be27cc4784fc36b6efae38ea3b8eb52f0c938592f06e8d2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcade1up.com",
+                "bedjet.com",
+                "higherdose.com",
+                "terrakaffe.com"
+            ]
+        },
+        {
+            "rule": "luckylabs\\.io\\/prd\\/store-locator\\/org\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "31da730f4ac4440978d942f7361070f53e89a1270e06612535aad5d94df72e22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcade1up.com",
+                "bedjet.com",
+                "higherdose.com",
+                "terrakaffe.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12
+    },
+    "nameservers": [
+        "ns-1247.awsdns-27.org",
+        "ns-396.awsdns-49.com",
+        "ns-951.awsdns-54.net",
+        "ns-2041.awsdns-63.co.uk"
+    ]
+}

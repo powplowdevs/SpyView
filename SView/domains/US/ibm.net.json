@@ -1,0 +1,181 @@
+{
+    "domain": "ibm.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "www-api"
+    ],
+    "cnames": [
+        {
+            "original": "www-api.ibm.com",
+            "resolved": "www-api.ibm.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ibm\\.net\\/data-sync\\/dbdm-data",
+            "cookies": 0.0000566,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www-api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [
+                {
+                    "original": "www-api.ibm.com",
+                    "resolved": "www-api.ibm.net"
+                }
+            ],
+            "responseHashes": [
+                "a39ebf33d0e963fa0b735d44c308a4a5803f9232b492c0d7e8e1a35a0ab9df33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibm.com",
+                "community.ibm.com",
+                "developer.ibm.com",
+                "newsroom.ibm.com",
+                "public.dhe.ibm.com",
+                "research.ibm.com",
+                "www.ibm.com",
+                "www.redbooks.ibm.com"
+            ]
+        },
+        {
+            "rule": "ibm\\.net\\/unified-chat-auth\\/api\\/v1\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "www-api.ibm.com",
+                    "resolved": "www-api.ibm.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibm.com",
+                "www.ibm.com",
+                "www.redbooks.ibm.com"
+            ]
+        },
+        {
+            "rule": "ibm\\.net\\/unified-chat-auth\\/api\\/v1\\/token",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "www-api.ibm.com",
+                    "resolved": "www-api.ibm.net"
+                }
+            ],
+            "responseHashes": [
+                "e81a60854308103fba83767917e1c5520521e8c304e163efc9d9e8249ced0fe7",
+                "42be7fcefe61916bf6f45cd6d913c0bfc9e158612d6ae8b613ba17f7217d67e5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibm.com",
+                "www.ibm.com",
+                "www.redbooks.ibm.com"
+            ]
+        },
+        {
+            "rule": "ibm\\.net\\/unified-chat-state\\/api\\/v1\\/state",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "www-api.ibm.com",
+                    "resolved": "www-api.ibm.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibm.com",
+                "www.redbooks.ibm.com"
+            ]
+        },
+        {
+            "rule": "ibm\\.net\\/unified-chat-state\\/api\\/v1\\/state",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "www-api.ibm.com",
+                    "resolved": "www-api.ibm.net"
+                }
+            ],
+            "responseHashes": [
+                "5f76077b5eb98ba2c464bf5f3528a1a014416b5446149e7cc9e894d303a2c3b9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibm.com",
+                "www.redbooks.ibm.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000707,
+    "topInitiators": [
+        {
+            "domain": "s81c.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Preflight": 5,
+        "XHR": 5
+    },
+    "nameservers": [
+        "dns2.p05.nsone.net",
+        "dns1.p05.nsone.net",
+        "dns4.p05.nsone.net",
+        "dns3.p05.nsone.net"
+    ]
+}

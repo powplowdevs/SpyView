@@ -1,0 +1,116 @@
+{
+    "domain": "acsbapp.com",
+    "owner": {
+        "name": "accessiBe Inc.",
+        "displayName": "accessiBe"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00607,
+    "sites": 58,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "acsbapp\\.com\\/apps\\/app\\/dist\\/js\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Notification.permission": 34,
+                "Navigator.prototype.plugins": 36,
+                "window.localStorage": 7,
+                "NavigatorUAData.prototype.brands": 6,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 3
+            },
+            "sites": 54,
+            "prevalence": 0.00565,
+            "cnames": [],
+            "responseHashes": [
+                "82480e8734750eeaa15426f12e7db9bccdb07abb9e0cf24855e77d63c8d8f45a",
+                "7a63a354f966ae164b68c03814ed9ed149fdaccf8b79a70f2e1b8b3aa35c6965"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.bulkbarn.ca",
+                "vionicshoes.ca",
+                "www.actiontrucks.com",
+                "www.ncl.com",
+                "www.suzuki.ca",
+                "www.cactusclubcafe.com",
+                "www.globalgolf.ca",
+                "www.performancebike.com",
+                "environmentaldefence.ca",
+                "www.wickedweasel.com",
+                "www.duca.com",
+                "www.payments.ca",
+                "www.beckett.com",
+                "www.csi.ca",
+                "bike.shimano.com",
+                "vcacanada.com",
+                "trreb.ca",
+                "www.gadventures.com",
+                "www.yamaha-motor.ca",
+                "www.uclahealth.org"
+            ]
+        },
+        {
+            "rule": "acsbapp\\.com\\/apps\\/app\\/assets\\/js\\/acsb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000418,
+            "cnames": [],
+            "responseHashes": [
+                "82480e8734750eeaa15426f12e7db9bccdb07abb9e0cf24855e77d63c8d8f45a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "earls.ca",
+                "www.canex.ca",
+                "www.dynacare.ca",
+                "www.rvusa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7922077922077922
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16883116883116883
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.025974025974025976
+        },
+        {
+            "domain": "acsbap.com",
+            "prevalence": 0.012987012987012988
+        }
+    ],
+    "types": {
+        "Script": 58
+    },
+    "nameservers": [
+        "bill.ns.cloudflare.com",
+        "davina.ns.cloudflare.com"
+    ]
+}

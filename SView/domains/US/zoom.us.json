@@ -1,0 +1,1281 @@
+{
+    "domain": "zoom.us",
+    "owner": {
+        "name": "Zoom Video Communications, Inc.",
+        "displayName": "Zoom Video Communications"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000453,
+    "sites": 64,
+    "subdomains": [
+        "us01ccistatic",
+        "log-gateway",
+        "us01campaign",
+        "us01apizva",
+        "us01cciapi",
+        "file-paa",
+        "file",
+        "st1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/chat-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.platform": 9,
+                "Navigator.prototype.language": 9,
+                "window.localStorage": 16,
+                "window.sessionStorage": 16,
+                "NavigatorUAData.prototype.brands": 7,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 6,
+                "Date.prototype.getTime": 13,
+                "Navigator.prototype.onLine": 10,
+                "Navigator.prototype.connection": 10
+            },
+            "sites": 19,
+            "prevalence": 0.000134,
+            "cnames": [],
+            "responseHashes": [
+                "a4ebed7313be228c33152cfa4b3410e61f239bd66624c400ca562750078c910a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plangrid.com",
+                "help.hinge.co",
+                "help.turo.com",
+                "nabp.pharmacy",
+                "ring.com",
+                "support.ancestry.com",
+                "support.blinkforhome.com",
+                "support.buildingconnected.com",
+                "support.fubo.tv",
+                "support.myfitnesspal.com",
+                "support.seatgeek.com",
+                "support.steelseries.com",
+                "support.tastytrade.com",
+                "support.zoom.com",
+                "www.blenderseyewear.com",
+                "www.camsmgt.com",
+                "www.energylink.com",
+                "www.zoom.com",
+                "www.zwift.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/cross-storage\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 42,
+            "prevalence": 0.000297,
+            "cnames": [],
+            "responseHashes": [
+                "fa9b26738c2e9625c68571c4b3bc3f60dc8297e2d03836cf9e0c51880411019f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dukesmayo.com",
+                "saatva.com",
+                "cricut.com",
+                "support.zoom.com",
+                "www.wrightmfg.com",
+                "knowledge.broadcom.com",
+                "support.tastytrade.com",
+                "www.energylink.com",
+                "support.seatgeek.com",
+                "www.firstib.com",
+                "www.intermatic.com",
+                "www.zoom.com",
+                "www.independentbank.com",
+                "support.ancestry.com",
+                "www.bobmillsfurniture.com",
+                "help.turo.com",
+                "germanna.edu",
+                "support.broadcom.com",
+                "www.englewoodhealth.org",
+                "help.cricut.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/zcc-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "NavigatorUAData.prototype.brands": 9,
+                "Navigator.prototype.platform": 10,
+                "Navigator.prototype.language": 11,
+                "window.localStorage": 16,
+                "window.sessionStorage": 15,
+                "Navigator.prototype.onLine": 12,
+                "Navigator.prototype.connection": 12,
+                "Date.prototype.getTime": 11,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3
+            },
+            "sites": 24,
+            "prevalence": 0.00017,
+            "cnames": [],
+            "responseHashes": [
+                "a4ebed7313be228c33152cfa4b3410e61f239bd66624c400ca562750078c910a",
+                "f7233810b0a504ce56d1be173c05c9b0feafc9f9406b28ff8fd1b27340c3cc02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saatva.com",
+                "www.msufcu.org",
+                "knowledge.broadcom.com",
+                "www.cruise.com",
+                "www.firstib.com",
+                "www.englewoodhealth.org",
+                "dukesmayo.com",
+                "www.wrightmfg.com",
+                "support.sharkclean.com",
+                "www.saatva.com",
+                "www.fullcompass.com",
+                "help.cricut.com",
+                "www.independentbank.com",
+                "cricut.com",
+                "www.bobmillsfurniture.com",
+                "www.bankofstockton.com",
+                "www.tiremart.com",
+                "www.rockymountainatvmc.com",
+                "support.ninjakitchen.com",
+                "www.stellarmls.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/web-campaign\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.platform": 12,
+                "Navigator.prototype.product": 11,
+                "Navigator.prototype.language": 11,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 11,
+                "NavigatorUAData.prototype.brands": 11,
+                "Date.prototype.getTime": 11,
+                "Document.cookie getter": 10,
+                "window.localStorage": 8,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 28,
+            "prevalence": 0.000198,
+            "cnames": [],
+            "responseHashes": [
+                "25fa70a232d177f06de516293383f70338f3c98e02a2f2d49431770b797efc43"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "support.myfitnesspal.com",
+                "support.ancestry.com",
+                "www.stellarmls.com",
+                "www.tiremart.com",
+                "www.independentbank.com",
+                "www.zoom.com",
+                "www.intermatic.com",
+                "ring.com",
+                "support.broadcom.com",
+                "support.blinkforhome.com",
+                "support.zoom.com",
+                "www.energylink.com",
+                "www.zwift.com",
+                "www.fullcompass.com",
+                "dukesmayo.com",
+                "help.cricut.com",
+                "support.sharkclean.com",
+                "www.saatva.com",
+                "www.rockymountainatvmc.com",
+                "saatva.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/nws\\/join\\/logger\\/zccfelog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log-gateway"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "dukesmayo.com",
+                "saatva.com",
+                "support.ancestry.com",
+                "support.sharkclean.com",
+                "support.zoom.com",
+                "www.cruise.com",
+                "www.fullcompass.com",
+                "www.independentbank.com",
+                "www.intermatic.com",
+                "www.saatva.com",
+                "www.tiremart.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/v1\\/zcc\\/campaign\\/language\\/list",
+            "cookies": 0.000149,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01campaign"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000149,
+            "cnames": [],
+            "responseHashes": [
+                "a901825651abb25bdbc3a76ca14e30480dac374af87b1b6ceee5ba279fa6eb34"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.firstib.com",
+                "support.fubo.tv",
+                "www.zwift.com",
+                "support.myfitnesspal.com",
+                "support.sharkclean.com",
+                "support.ancestry.com",
+                "saatva.com",
+                "www.saatva.com",
+                "www.energylink.com",
+                "cricut.com",
+                "nabp.pharmacy",
+                "www.tiremart.com",
+                "www.independentbank.com",
+                "dukesmayo.com",
+                "www.rockymountainatvmc.com",
+                "www.msufcu.org",
+                "ring.com",
+                "help.cricut.com",
+                "www.intermatic.com",
+                "www.stellarmls.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/v1\\/zcc\\/campaign\\/styleByApiKey",
+            "cookies": 0.000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01campaign"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000141,
+            "cnames": [],
+            "responseHashes": [
+                "07ef3088a1f68113ebf4097a1816a4b6070ee3295527936d80f88f4b2b9657e3",
+                "0826bc6ce8ff267bbaa794b574fa3382ea21488c5e0ae079e03a4f5d78a9f09f",
+                "8a4abaaff60a8d875a1889d14458dc4648a5f8974caeaf3b185d1a7bcb298173",
+                "6a4e0d9da9c6cb8f2499339a0be131bd25b8886c51b37d9699ef70fb657cc1ec",
+                "5abb187dbe36d7b51f02d91f3cbdd2d093ce3cb0f1ef266116c5c86abc81c62f",
+                "9118034df8e1766e9fdd460c2b84f7e3a6a5ff6b9867fb167df86b67f8f894ee",
+                "16e15f41476a812edc673fc88ed14bb4fd1c21f64327591be07750df07e4a79f",
+                "558574fba1624e945305ec1f2b402242548371efb3845a931fba8bf9df29b6b3",
+                "917dfe66ffac8ec0de3c724446082e04bfbaa52b2bd97f0a4c14f1461a88fcf2",
+                "b53202c70d21d55ec2b3a993b5c8f64b8d9ccd7b2a568deb3efa4223e283a794",
+                "d4e82e83660b8723532406dba38acc31f10b4fcdfb093d74b9a057a80fb50dc1",
+                "0f1cf1b4aa0c0c7ade6f2defb5c6cd555e258bcdd643710b02ed51785dec1c4f",
+                "eccb3abdc5682e0b42b75bd86cf7e5203fd47ef7014f97e5e64b2a65eecfc751"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "cricut.com",
+                "dukesmayo.com",
+                "help.cricut.com",
+                "ring.com",
+                "saatva.com",
+                "support.ancestry.com",
+                "support.blinkforhome.com",
+                "support.fubo.tv",
+                "support.myfitnesspal.com",
+                "support.sharkclean.com",
+                "www.energylink.com",
+                "www.firstib.com",
+                "www.independentbank.com",
+                "www.intermatic.com",
+                "www.msufcu.org",
+                "www.rockymountainatvmc.com",
+                "www.saatva.com",
+                "www.stellarmls.com",
+                "www.tiremart.com",
+                "www.zwift.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/v1\\/live-sdk-version\\/fast",
+            "cookies": 0.000156,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01campaign"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.000156,
+            "cnames": [],
+            "responseHashes": [
+                "cf55a8e6cdba7989c0940ddd524d8fefc2ee29719945662c39c507b60f59134b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.camsmgt.com",
+                "www.stellarmls.com",
+                "www.independentbank.com",
+                "nabp.pharmacy",
+                "www.saatva.com",
+                "www.rockymountainatvmc.com",
+                "www.intermatic.com",
+                "www.energylink.com",
+                "ring.com",
+                "www.tiremart.com",
+                "support.sharkclean.com",
+                "saatva.com",
+                "support.myfitnesspal.com",
+                "help.cricut.com",
+                "dukesmayo.com",
+                "www.msufcu.org",
+                "support.blinkforhome.com",
+                "www.firstib.com",
+                "cricut.com",
+                "support.fubo.tv"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/v1\\/websdk\\/version",
+            "cookies": 0.000149,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01apizva"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000149,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tiremart.com",
+                "help.cricut.com",
+                "dukesmayo.com",
+                "www.firstib.com",
+                "support.sharkclean.com",
+                "www.msufcu.org",
+                "support.ancestry.com",
+                "support.fubo.tv",
+                "www.stellarmls.com",
+                "www.zwift.com",
+                "www.independentbank.com",
+                "support.myfitnesspal.com",
+                "www.saatva.com",
+                "www.rockymountainatvmc.com",
+                "cricut.com",
+                "www.intermatic.com",
+                "saatva.com",
+                "www.energylink.com",
+                "support.blinkforhome.com",
+                "ring.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/v1\\/websdk\\/version",
+            "cookies": 0.000149,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01apizva"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000149,
+            "cnames": [],
+            "responseHashes": [
+                "a2d824e70b2272530374caf8ef0061a889a5fa06c521d1e07efddf79d022c71f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.msufcu.org",
+                "www.rockymountainatvmc.com",
+                "www.tiremart.com",
+                "support.myfitnesspal.com",
+                "support.blinkforhome.com",
+                "saatva.com",
+                "www.saatva.com",
+                "help.cricut.com",
+                "support.sharkclean.com",
+                "ring.com",
+                "www.intermatic.com",
+                "cricut.com",
+                "dukesmayo.com",
+                "www.zwift.com",
+                "support.ancestry.com",
+                "www.firstib.com",
+                "support.fubo.tv",
+                "www.independentbank.com",
+                "nabp.pharmacy",
+                "www.stellarmls.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/v1\\/livesdk\\/info",
+            "cookies": 0.000156,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01cciapi"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.000156,
+            "cnames": [],
+            "responseHashes": [
+                "388fdad460a4e306f30ceda5e1e60edbe8466fddd1b9c8c903387e5feb6dd868"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.zwift.com",
+                "support.ancestry.com",
+                "help.cricut.com",
+                "support.blinkforhome.com",
+                "www.independentbank.com",
+                "saatva.com",
+                "support.fubo.tv",
+                "www.firstib.com",
+                "support.myfitnesspal.com",
+                "support.sharkclean.com",
+                "nabp.pharmacy",
+                "www.stellarmls.com",
+                "www.camsmgt.com",
+                "dukesmayo.com",
+                "www.msufcu.org",
+                "www.saatva.com",
+                "ring.com",
+                "www.energylink.com",
+                "www.rockymountainatvmc.com",
+                "www.intermatic.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/V3GH58EaQ0-gjvwjEzTVDg\\/MS4yLmMZ57ksbxtUJy9E9IU-DgUPln5_WuQPZxxmoPp7daiK\\/EuclidCircularB-WebXL-400",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c402b7f0555e897385f2e775c7bc02e3f790722048f28e168a34fb4f524d339e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "help.cricut.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/wUJMAEeZQmeyqJnEeqpTZA\\/MS4yLncR7w6NRyDLnEIhQH7XwOD5Oya1XNeveJTLXX774aYG\\/EuclidCircularB-WebXL-400",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c402b7f0555e897385f2e775c7bc02e3f790722048f28e168a34fb4f524d339e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "help.cricut.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/X22DdcbFTemCVeKTklxenw\\/MS4yLv4xoIw_VxoXk_8xVBVStjxNwUSXHh55rEVI31eCvB38\\/chat_bubble\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "35b9cd8cd33c56deadfc002f7fb6af17c202f23073f2159c826963c5f08ddc89"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "help.cricut.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/7313\\/chat-client-zcc-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.product": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "window.sessionStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "URL.createObjectURL": 1
+            },
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "09a311f380610ed38d4870125fcec135c476c45eb4f29f7354034d76b4161512"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "dukesmayo.com",
+                "help.cricut.com",
+                "nabp.pharmacy",
+                "www.firstib.com",
+                "www.independentbank.com",
+                "www.intermatic.com",
+                "www.rockymountainatvmc.com",
+                "www.tiremart.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/file\\/txnUl1oURGmRaGXqoWFpCA",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "help.cricut.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/KBvGopr8TuGMMPKMUEcPZQ\\/MS4yLuIRC0e4WK1av4cZKlmOUS-PLMXTTAFfBSiCgFXZKL2t\\/Wx5b-nv-Sf2Afvi_Q3dp3w\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3218dee8b4b0ca56e79172da5b82bd6200e26ff63e55e8057766f82021d80051"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "help.cricut.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/text_formate_web_worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "a12255dd1f00d9a5c90e1878be292697370c8e6322fda66ba978c9695fb702c1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "help.cricut.com",
+                "ring.com",
+                "support.fubo.tv",
+                "support.myfitnesspal.com",
+                "www.energylink.com",
+                "www.firstib.com",
+                "www.independentbank.com",
+                "www.saatva.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/file\\/PbkKVnUSShCD7yp0Cv-5mQ\\/attach\\/preview\\/ZCBn7w_STi6NhIE5G4f28g",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "help.cricut.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/7089\\/chat-client-zva-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "df72bb2132dc30dfb3828be668a4978dd6b0531522426870df9129e7a1fa797c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ring.com",
+                "saatva.com",
+                "support.blinkforhome.com",
+                "support.fubo.tv",
+                "support.myfitnesspal.com",
+                "www.energylink.com",
+                "www.saatva.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/PVni3e0iRH6yEw4pz_wUoA\\/MS4yLqNJYf3_7ZpjJnEBQZjd0-OASEivfy8XuwGdHm1s3Nqj\\/1L37gFYAT4msZ57XJu-BBQ_bot_avatar_preview_file_name",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blinkforhome.com",
+                "support.blinkforhome.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/assets\\/locale\\/chat\\/en-GB\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "04820f28362bd9ffb20e6dfc08fee728840631556d84de536499fae7abbb9a9f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blinkforhome.com",
+                "support.blinkforhome.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/-iDYj2VXR8-nOcQkyLjyKQ\\/MS4yLkaHO176UC23vNANLOx_fJW_47AwQ1vlP7O8DA6iURC5\\/1L37gFYAT4msZ57XJu-BBQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blinkforhome.com",
+                "support.blinkforhome.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/v1\\/campaign\\/assetsByAPIKey",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01apizva"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fubo.tv",
+                "support.fubo.tv"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/v1\\/campaign\\/assetsByAPIKey",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01apizva"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a4c8b4ee9a8012990c6cc6b87a1c3cf7921fe555930befd3aa40a09c77ea31eb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fubo.tv",
+                "support.fubo.tv"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/file\\/3OEHGQpBQqaevtxbNMERvg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fubo.tv",
+                "support.fubo.tv"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/qz7Qr5FkT7a1OOSrfriJ9g\\/MS4yLsiyyQipF5ebxQ4xMX6u0pzyG8gAMWVXO8h51WwmRt8L\\/OXFzoMJTRL6AY1aEXCMvpw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5a3d945f0074abab7a11cd711298f6b2f4276ca507671da5b574fcb8c3af8578"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fubo.tv",
+                "support.fubo.tv"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/file\\/stg6dI5lStKcNN4C3wp5nA\\/attach\\/preview\\/UOjwXeL8RNaQzJbf1zFTrg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fubo.tv",
+                "support.fubo.tv"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/fc_1li_eQq6NlBhpZwJoMA\\/MS4yLtmMqvcLy5JW8bizg3jW_ip_1Q2Z1hGWnAfiAUO-79rc\\/RESJk4HDS9S3IX7i3QJ6Gg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myfitnesspal.com",
+                "support.myfitnesspal.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/web-campaign\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "25fa70a232d177f06de516293383f70338f3c98e02a2f2d49431770b797efc43"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zoom.com",
+                "www.independentbank.com",
+                "www.intermatic.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/7313\\/video-client-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "independentbank.com",
+                "www.msufcu.org"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/us01cci\\/web-sdk\\/7313\\/v-chunks\\/index-BEPAL2oP\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us01ccistatic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "independentbank.com",
+                "www.msufcu.org"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/VmWo8XdKTwCQbZGBWOcALg\\/MS4yLrhfgQUteyLvLEqPSIKhVPatH-2pMGpd017nBNjnZPD_\\/vXZD68SaRsCwE--_Q-g08w\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "078c9685537fa06092eb57f531c5a6e524a20676d1d158999db8cdfeb8c848b5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockymountainatvmc.com",
+                "www.rockymountainatvmc.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/SdexJxEgT6qfT-7BRMpNOQ\\/MS4yLh3CnacOODvf9WaUpIv1ULu6eQFREzO1UVHcak5wA3Zg\\/qHKMAQXcROGYvnt4gq9Y6w\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b9486a402cb5abb5a40558e06c2d0016b20a9d48effe31b1319e339b07c29d7b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockymountainatvmc.com",
+                "www.rockymountainatvmc.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/spYL8SiGQqudhzHzhAvnCw\\/MS4yLlnVcrcm7UnItjkxZ7YBPgRoryqkWg1RyHDiQd9R60WS\\/IKXGrhzGRKG_fWeVnNbODg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f8e69c4d5e24dbb6279c25cd9e5fa9077980296d3b3b2673de52bce0a904a2c0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockymountainatvmc.com",
+                "www.rockymountainatvmc.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/zUemDGGKRTGQD0ZySt6b2A\\/MS4yLhbAVdXhz-YokHJxtlbcEGkTmRuLgdF6UcqQmu6Fg_Lm\\/gK3y-45vQ12ZYiCQRE27Kw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "be86321a3a01573bbe7f1f8d8eb458526097f381b913874f44bfd19eb7880424"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockymountainatvmc.com",
+                "www.rockymountainatvmc.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/TBKygzreRJqKcV1m5sRj4A\\/MS4yLmhFIQ2KBZXDMvxHbwBafxU1B9pnFhlHZlDsw5IFQoYj\\/FaA-ObC-R3q7M5XZBQpFgw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a294141fb296dc1ba252f475f7c059bffe74cf83af39208225e7d9e440e1e3a8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockymountainatvmc.com",
+                "www.rockymountainatvmc.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/qwsOc9n8TQG73b9vJ2fTIg\\/MS4yLlXBU4LrU3_DmQJnXcjLpN4OyCPogUzGFFI_n7TYWV0G\\/03Yku40OTFeXzJtmGc0AQw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5b862aefb167c6dc94c46378e2253e88964d32f9caa64733d018ddb435b26096"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockymountainatvmc.com",
+                "www.rockymountainatvmc.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/yiaFKT__Tj6P5sO-fPQklA\\/MS4yLvv8BqBvlXQ-wV9_tRx7gmKyVN_MyLUnftXHYXDZOJ95\\/Mb18eykZQjmjEMntXyAr1w\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-paa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saatva.com",
+                "www.saatva.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/file\\/3qK16UrSSbu1jBD5I-Vnmw\\/attach\\/preview\\/xvgveoEITVytbLK7fahx8A",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saatva.com",
+                "www.saatva.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/market_verify\\/v2",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a023ca17ef80529656fb7166abbef9c8a19eca4702ae3cba6cd826d5e67affda"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zoom.com",
+                "www.zoom.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/static\\/6\\.3\\.27919\\/js\\/app\\/billing\\/lib\\/shopping_bag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "st1"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "456ed32cbf03fd464a4c80b88d9d2a9ea393ca7331c63b3bc01f36208d44e57b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zoom.com",
+                "www.zoom.com"
+            ]
+        },
+        {
+            "rule": "zoom\\.us\\/buy\\/cart\\/persist",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zoom.com",
+                "www.zoom.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.695364238410596
+        },
+        {
+            "domain": "instana.io",
+            "prevalence": 0.09271523178807947
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.039735099337748346
+        },
+        {
+            "domain": "ancestrycdn.com",
+            "prevalence": 0.033112582781456956
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.033112582781456956
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.019867549668874173
+        },
+        {
+            "domain": "knowledge_article_v2.js",
+            "prevalence": 0.019867549668874173
+        },
+        {
+            "domain": "zoom_support_header.js",
+            "prevalence": 0.013245033112582781
+        },
+        {
+            "domain": "optimizely.com",
+            "prevalence": 0.013245033112582781
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.013245033112582781
+        }
+    ],
+    "types": {
+        "Script": 93,
+        "Document": 44,
+        "Ping": 12,
+        "Fetch": 152,
+        "Preflight": 23,
+        "Font": 4,
+        "Image": 6,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1772.awsdns-29.co.uk",
+        "ns-387.awsdns-48.com",
+        "ns-888.awsdns-47.net",
+        "ns-1137.awsdns-14.org"
+    ]
+}

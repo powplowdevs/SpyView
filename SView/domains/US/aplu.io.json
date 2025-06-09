@@ -1,0 +1,56 @@
+{
+    "domain": "aplu.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "push"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aplu\\.io\\/push-notify\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "push"
+            ],
+            "apis": {
+                "Notification.permission": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6e4abff5b6faf13df6072a498960176e17112f9f3dea77f3466439cc83af1f32"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anideacame.com",
+                "cgvvm.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "naomi.ns.cloudflare.com",
+        "zod.ns.cloudflare.com"
+    ]
+}

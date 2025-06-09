@@ -1,0 +1,77 @@
+{
+    "domain": "metro-marketplace.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "app-buyer-categories.prod.de"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "metro-marketplace\\.cloud\\/api\\/categories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-buyer-categories.prod.de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "metro.de",
+                "www.metro.de"
+            ]
+        },
+        {
+            "rule": "metro-marketplace\\.cloud\\/api\\/categories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-buyer-categories.prod.de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "297db30b20554bc24d52136eaaec1fb5ff6d17b23789596920365ebd0b642e4e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "metro.de",
+                "www.metro.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

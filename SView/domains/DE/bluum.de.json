@@ -1,0 +1,104 @@
+{
+    "domain": "bluum.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "bw",
+        "backend"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bluum\\.de\\/job_widget\\/jobiqo_job_widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bw"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "bde26f2eeed763f7f646ce49d3f42290d170e157616528a0bb816ab635789c4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lr-online.de",
+                "www.moz.de",
+                "www.swp.de"
+            ]
+        },
+        {
+            "rule": "bluum\\.de\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lr-online.de",
+                "www.moz.de",
+                "www.swp.de"
+            ]
+        },
+        {
+            "rule": "bluum\\.de\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "b80ca0c5ff0fe61a1f81e7019f15a2431977281ac2dd02d33d1a1f45788ada65",
+                "4387277fcf6cc73e5efc87b11c2a4940c6b2c40dab2da48a44e6dca5b0eaa1ec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lr-online.de",
+                "www.moz.de",
+                "www.swp.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns7.za-internet.net",
+        "ns11.zainternet.net",
+        "ns8.za-domain.de"
+    ]
+}

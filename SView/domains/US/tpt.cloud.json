@@ -1,0 +1,75 @@
+{
+    "domain": "tpt.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "visor"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tpt\\.cloud\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "visor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextavenue.org",
+                "www.nextavenue.org"
+            ]
+        },
+        {
+            "rule": "tpt\\.cloud\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "visor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4fdd08407f1ea5fbbc3fbcd31ba546ba83f93300553525b50cade2897c4d04f3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextavenue.org",
+                "www.nextavenue.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dell.ns.cloudflare.com",
+        "owen.ns.cloudflare.com"
+    ]
+}

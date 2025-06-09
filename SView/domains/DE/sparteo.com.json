@@ -1,0 +1,129 @@
+{
+    "domain": "sparteo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000816,
+    "sites": 8,
+    "subdomains": [
+        "sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sparteo\\.com\\/crossfire\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "c7907dab813c51db9716318fe708764492ba67c3de3ccbbafd3f1928c8d42191"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketscreener.com",
+                "www.astroportal.com",
+                "www.kingmods.net",
+                "www.kita.de",
+                "www.koordinaten-umrechner.de",
+                "www.majorgeeks.com",
+                "www.marketscreener.com"
+            ]
+        },
+        {
+            "rule": "sparteo\\.com\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d12c53f1727cd3ab69871dcf72af6552a39ea9645be26f6b24874565b4562d84"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astroportal.com",
+                "www.kita.de"
+            ]
+        },
+        {
+            "rule": "sparteo\\.com\\/setuid",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "831b0d6cde4541d363bb7a67eb49010fc5fd717dda4b9c3187dd3207b1da56cd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astroportal.com",
+                "www.astroportal.com",
+                "www.kita.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "viously.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "flashb.id",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "casalemedia.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "adapex.io",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "fastcmp.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 2,
+        "Image": 3
+    },
+    "nameservers": [
+        "veronica.ns.cloudflare.com",
+        "alan.ns.cloudflare.com"
+    ]
+}

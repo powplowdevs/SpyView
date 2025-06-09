@@ -1,0 +1,241 @@
+{
+    "domain": "salesforceliveagent.com",
+    "owner": {
+        "name": "Salesforce.com, Inc.",
+        "displayName": "Salesforce.com",
+        "privacyPolicy": "https://www.salesforce.com/company/privacy/",
+        "url": "http://salesforce.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00133,
+    "sites": 13,
+    "subdomains": [
+        "d.la1-c1cs-lo2",
+        "d.la1-core1.sfdc-yzvdd4",
+        "d.la13-core1.sfdc-lywfpd",
+        "d.la11-core1.sfdc-urlt2q",
+        "d.la3-c1-fra",
+        "d.la3-c1-cdg",
+        "d.la11-core1.sfdc-yzvdd4",
+        "d.la4-c1-dfw",
+        "d.la1-c1-lon",
+        "d.la11-core1.sfdc-cehfhs",
+        "d.la1-c1-frf"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "salesforceliveagent\\.com\\/chat\\/rest\\/EmbeddedService\\/EmbeddedServiceConfig\\.jsonp",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d.la1-c1cs-lo2",
+                "d.la1-core1.sfdc-yzvdd4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "54dc55560437db31dc32a06cddc229da2ee77e7c2e97a86163b980c82b522c3b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fraenk.de",
+                "www.berge-meer.de"
+            ]
+        },
+        {
+            "rule": "salesforceliveagent\\.com\\/chat\\/rest\\/Visitor\\/Settings\\.jsonp",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d.la1-c1cs-lo2",
+                "d.la1-core1.sfdc-yzvdd4",
+                "d.la13-core1.sfdc-lywfpd",
+                "d.la11-core1.sfdc-urlt2q"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "4d2856e5364f3833aab6e11fc0bbedca62b6fe42004db7394964c225af58cd0e",
+                "a9e9d06c1e8fbc91a7e339029b52003e47102f5bdd87d9ad065fb202ed719ef8",
+                "be973a598b8db26c2160d17d21f4af5f8ee12945be3f8b834db301c551dd4e88"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "liveagent_sid": 0.0002039775624681285,
+                "liveagent_ptid": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "fraenk.de",
+                "www.berge-meer.de",
+                "www.crucial.de",
+                "www.nissan.de"
+            ]
+        },
+        {
+            "rule": "salesforceliveagent\\.com\\/chat\\/rest\\/EmbeddedService\\/EmbeddedServiceMenu\\.jsonp",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d.la3-c1-fra",
+                "d.la11-core1.sfdc-urlt2q",
+                "d.la3-c1-cdg",
+                "d.la11-core1.sfdc-yzvdd4"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "cecfdf25455189dce644316db42a62cb1220a64a991902d59e42d8c12a363575",
+                "cf3a5bec0c28e16d44a513c45055e15addfaa611f981f627b31ebc01d36035a0",
+                "8139a87feb8fa110af92ef716b393144a252f65c5faab10052eb6673c87c6bf6",
+                "cf8ce27d9d92f1e4375b5e6e729d3c570746bc4d1f687b843982f4d4a9e1d7d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citroen.de",
+                "www.citroen.de",
+                "www.igus.de",
+                "www.opel.de",
+                "www.peugeot.de",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "salesforceliveagent\\.com\\/content\\/test\\/webdriver\\/logChannelMenu\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d.la11-core1.sfdc-urlt2q",
+                "d.la11-core1.sfdc-yzvdd4"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "aeb7d63d06cb5140befa75c1509c0a62ad6ce2fc452a456580cd557fd3d7ec0c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citroen.de",
+                "www.igus.de",
+                "www.opel.de",
+                "www.peugeot.de",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "salesforceliveagent\\.com\\/content\\/test\\/webdriver\\/channelMenuLogging\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d.la11-core1.sfdc-urlt2q"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "98d44bd96c1982a96c0d973d4d8445e90dd90b908ac036c08b70d53b89228e84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citroen.de",
+                "www.opel.de",
+                "www.peugeot.de"
+            ]
+        },
+        {
+            "rule": "salesforceliveagent\\.com\\/chat\\/rest\\/System\\/MultiNoun\\.jsonp",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d.la4-c1-dfw",
+                "d.la1-c1-lon",
+                "d.la11-core1.sfdc-cehfhs",
+                "d.la1-c1-frf"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "cfc7165c52689cadfb3b7144204db8fede215955642c910ea9d2e0f6a2a2c549",
+                "aedeb4744d573420fad2fec9a3e05ca169e483508cedc1d6a15a09d4bb1a162e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crucial.de",
+                "www.nissan.de",
+                "www.nxp.com",
+                "www.thetimes.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content",
+        "Support Chat Widget"
+    ],
+    "performance": {},
+    "cookies": 0.00112,
+    "topInitiators": [
+        {
+            "domain": "force.com",
+            "prevalence": 0.43333333333333335
+        },
+        {
+            "domain": "salesforce.com",
+            "prevalence": 0.23333333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23333333333333334
+        },
+        {
+            "domain": "avantorsciences.com",
+            "prevalence": 0.03333333333333333
+        },
+        {
+            "domain": "nissan-cdn.net",
+            "prevalence": 0.03333333333333333
+        },
+        {
+            "domain": "salesforce-sites.com",
+            "prevalence": 0.03333333333333333
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "Document": 5
+    },
+    "nameservers": [
+        "dns01.salesforce.com",
+        "dns02.salesforce.com",
+        "dns03.salesforce.com",
+        "dns04.salesforce.com",
+        "dns05.salesforce.com",
+        "dns06.salesforce.com",
+        "u2dns1.salesforce.com",
+        "u2dns2.salesforce.com"
+    ]
+}

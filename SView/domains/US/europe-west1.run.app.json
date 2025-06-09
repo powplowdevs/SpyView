@@ -1,0 +1,89 @@
+{
+    "domain": "europe-west1.run.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "gtm-server-eu-764864566315",
+        "puls-events-2-618508745207"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "europe-west1\\.run\\.app\\/data",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm-server-eu-764864566315"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgmforum.com",
+                "ilgm.com",
+                "www.ilovegrowingmarijuana.com"
+            ]
+        },
+        {
+            "rule": "europe-west1\\.run\\.app\\/puls\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "puls-events-2-618508745207"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visir.is",
+                "www.visir.is"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "XHR": 2
+    },
+    "nameservers": []
+}

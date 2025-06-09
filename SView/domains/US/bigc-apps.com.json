@@ -1,0 +1,79 @@
+{
+    "domain": "bigc-apps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "king-arthur-baking"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bigc-apps\\.com\\/api\\/flex\\/zinrelo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "king-arthur-baking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kingarthurbaking.com",
+                "shop.kingarthurbaking.com"
+            ]
+        },
+        {
+            "rule": "bigc-apps\\.com\\/api\\/flex\\/zinrelo",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "king-arthur-baking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9cd2389e8ebee2a5368444fe87456f6992f04850376d0e9b06775477d14e00de"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kingarthurbaking.com",
+                "shop.kingarthurbaking.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "carter.ns.cloudflare.com",
+        "joan.ns.cloudflare.com"
+    ]
+}

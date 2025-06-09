@@ -1,0 +1,129 @@
+{
+    "domain": "because-scripts.s3.us-east-2.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000127,
+    "sites": 18,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "because-scripts\\.s3\\.us-east-2\\.amazonaws\\.com\\/prod\\/because-widget\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "876f712bc664e7f0382d2da9ae239e754135a1a23ad205cd9ab86e904ee0f238"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drmotionsocks.com",
+                "dukecannon.com",
+                "mmlafleur.com",
+                "www.freshseafood.com",
+                "www.sanrio.com"
+            ]
+        },
+        {
+            "rule": "because-scripts\\.s3\\.us-east-2\\.amazonaws\\.com\\/prod\\/sync\\/app\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.languages": 4,
+                "window.localStorage": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "587028e55ae12699a7c07ac91ace2e12a37581a0b7674993b2e31a82d50f0c13"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_because_sv": {
+                    "ttl": 31536013,
+                    "length": 200,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edenbrothers.com",
+                "hyperlitemountaingear.com",
+                "tomboyx.com",
+                "www.edenbrothers.com",
+                "www.gloriousgaming.com",
+                "www.puffco.com"
+            ]
+        },
+        {
+            "rule": "because-scripts\\.s3\\.us-east-2\\.amazonaws\\.com\\/prod\\/shim\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "64b095a345458776793e1625ca5618b1be7a53ba17ad1171a605487b6e905e68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "publicrec.com",
+                "www.freshseafood.com",
+                "www.sanrio.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8947368421052632
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.10526315789473684
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "ns-1428.awsdns-50.org",
+        "ns-1974.awsdns-54.co.uk",
+        "ns-90.awsdns-11.com",
+        "ns-1009.awsdns-62.net"
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "domain": "cookieyes.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0108,
+    "sites": 106,
+    "subdomains": [
+        "log",
+        "directory"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cookieyes\\.com\\/api\\/v1\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log"
+            ],
+            "apis": {},
+            "sites": 106,
+            "prevalence": 0.0108,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.psychologytoday.com",
+                "www.urbandictionary.com",
+                "solow.nl",
+                "groeneparadijs.nl",
+                "help.prusa3d.com",
+                "www.bijzondere-accommodaties.nl",
+                "airfryeronline.nl",
+                "redgifs-creators.com",
+                "www.icreatemagazine.nl",
+                "www.bankenvergelijking.nl",
+                "www.duco.eu",
+                "www.socialschools.nl",
+                "ahrefs.com",
+                "www.historischnieuwsblad.nl",
+                "verkeersdrukte.nl",
+                "www.foodiesmagazine.nl",
+                "www.route.nl",
+                "wasje.nl",
+                "www.allwayshealthy.nl",
+                "huispedia.nl"
+            ]
+        },
+        {
+            "rule": "cookieyes\\.com\\/api\\/v1\\/ip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "directory"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.00378,
+            "cnames": [],
+            "responseHashes": [
+                "f2e423fbbd8173d32b388df31cf5ef5b0bbfd02db945de6c1c0e43f8a2db8c35"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.psychologytoday.com",
+                "www.urbandictionary.com",
+                "cybernews.com",
+                "www.pixelcut.ai",
+                "macpaw.com",
+                "www.france-voyage.com",
+                "corporatefinanceinstitute.com",
+                "www.oorlogsmuseum.nl",
+                "www.cda.nl",
+                "www.techzine.nl",
+                "www.nieuwsbegrip.nl",
+                "www.pitchup.com",
+                "www.filosofie.nl",
+                "ahrefs.com",
+                "www.toolshero.nl",
+                "www.dekbed-discounter.nl",
+                "www.ivn.nl",
+                "www.prijsvergelijken.nl",
+                "www.worthpoint.com",
+                "www.gardenersworldmagazine.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cdn-cookieyes.com",
+            "prevalence": 0.9391891891891891
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.060810810810810814
+        }
+    ],
+    "types": {
+        "Ping": 106,
+        "Fetch": 37
+    },
+    "nameservers": [
+        "clarissa.ns.cloudflare.com",
+        "anton.ns.cloudflare.com"
+    ]
+}

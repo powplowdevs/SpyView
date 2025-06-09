@@ -1,0 +1,344 @@
+{
+    "domain": "ay.delivery",
+    "owner": {
+        "name": "Assertive Yield B.V.",
+        "displayName": "Assertive Yield"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00337,
+    "sites": 33,
+    "subdomains": [
+        "n3smqczqmnxwq4wpb",
+        "vrtngjbrtn4xaetga",
+        "6a4pi2yjehha8g6rq",
+        "i3gomlvdpzg8kutdn",
+        "tohsknmgaokx3as26",
+        "8ktdwatidwku9hlqf",
+        "pmtae6gdwwnlfghxs",
+        "xan7abkna2qpszcsy",
+        "ubn3k2x9bfd2yw3n3",
+        "br9hchaaijfkbaujo",
+        "vm2mdrlpwgdkfdycf",
+        "7odcs2a8nxtfyxndn",
+        "yzqtxpscxhkg6rzje"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ay\\.delivery\\/manager-script\\/yield-manager-script-v3\\.5\\.0-prod",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "n3smqczqmnxwq4wpb",
+                "vrtngjbrtn4xaetga",
+                "6a4pi2yjehha8g6rq",
+                "i3gomlvdpzg8kutdn",
+                "tohsknmgaokx3as26",
+                "8ktdwatidwku9hlqf"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 3,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 3,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "d7caca7ce0752c6a40ec831aa951566f771028e47e1ed9bdefe897d3ab1539c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9gag.com",
+                "finviz.com",
+                "konjugator.reverso.net",
+                "www.film.at",
+                "www.helles-koepfchen.de",
+                "www.reverso.net"
+            ]
+        },
+        {
+            "rule": "ay\\.delivery\\/client-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "n3smqczqmnxwq4wpb",
+                "pmtae6gdwwnlfghxs",
+                "xan7abkna2qpszcsy",
+                "vrtngjbrtn4xaetga",
+                "6a4pi2yjehha8g6rq",
+                "ubn3k2x9bfd2yw3n3",
+                "i3gomlvdpzg8kutdn",
+                "tohsknmgaokx3as26",
+                "br9hchaaijfkbaujo",
+                "vm2mdrlpwgdkfdycf",
+                "8ktdwatidwku9hlqf",
+                "7odcs2a8nxtfyxndn"
+            ],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 16,
+                "window.localStorage": 18,
+                "Navigator.prototype.connection": 18,
+                "Date.prototype.getTime": 16,
+                "window.innerWidth": 18,
+                "window.innerHeight": 18,
+                "window.sessionStorage": 18
+            },
+            "sites": 19,
+            "prevalence": 0.00194,
+            "cnames": [],
+            "responseHashes": [
+                "c70cd09dec87d2634b63415310683411b8b6dfd2cf7ac800c1ad3dfe9bdfec4f",
+                "05d605dd8f3ecc011312bdc93c80e37ed71be689b77e8e1d774f1c39cf62713b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9gag.com",
+                "apollo-news.net",
+                "exxpress.at",
+                "faktastisch.de",
+                "finviz.com",
+                "konjugator.reverso.net",
+                "merkurist.de",
+                "weltwoche.ch",
+                "www.aachener-zeitung.de",
+                "www.film.at",
+                "www.finanzen.at",
+                "www.finanzen.ch",
+                "www.helles-koepfchen.de",
+                "www.livestrong.com",
+                "www.newsweek.com",
+                "www.pctipp.ch",
+                "www.reverso.net",
+                "www.vielfliegertreff.de",
+                "www.vesselfinder.com"
+            ]
+        },
+        {
+            "rule": "ay\\.delivery\\/hash",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "n3smqczqmnxwq4wpb",
+                "6a4pi2yjehha8g6rq",
+                "tohsknmgaokx3as26",
+                "br9hchaaijfkbaujo",
+                "8ktdwatidwku9hlqf"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "0e17daca5f3e175f448bacace3bc0da47d0655a74c8dd0dc497a3afbdad95f1f",
+                "845aab778f5f137db62ee9d8f87c24797456ad8f6b148d8f38acf858ce11ef80"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9gag.com",
+                "konjugator.reverso.net",
+                "www.helles-koepfchen.de",
+                "www.livestrong.com",
+                "www.reverso.net"
+            ]
+        },
+        {
+            "rule": "ay\\.delivery\\/test\\/client-venatus\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "yzqtxpscxhkg6rzje"
+            ],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 11,
+                "window.localStorage": 11,
+                "Navigator.prototype.connection": 11,
+                "Date.prototype.getTime": 11,
+                "window.innerWidth": 11,
+                "window.innerHeight": 11,
+                "window.sessionStorage": 11
+            },
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "b22c88d383f8a9bea6012dbfd3895d767c25193216c00c8976edf4a42d00d4a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fortnite.gg",
+                "openguessr.com",
+                "prosettings.net",
+                "wh40k.lexicanum.com",
+                "www.futbin.com",
+                "www.overtake.gg",
+                "www.pcgamingwiki.com",
+                "www.pokemoncoders.com",
+                "www.planetminecraft.com",
+                "www.systemrequirementslab.com",
+                "www.trueachievements.com"
+            ]
+        },
+        {
+            "rule": "ay\\.delivery\\/floorPrice\\/v5\\/YzQTxPsCxHKg6rzje",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "yzqtxpscxhkg6rzje"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "e4dff80d651e49bbf4e0471274b132ddfece1459b782fc42faf2b87ba78dbd61",
+                "ce7df9e75a3f17049cfebae127658c09ef2a083fff016b9d72085e63c0890ed6",
+                "a0a1a6f2f3db5fb4dba311d50165e14a8c678fed7c683d8350d10e14d60273de",
+                "ad83ef58430d6a80739b2fd85af6528c781921bb8bb69bbacd780532cda2c392",
+                "3eb38dd1fde2042c467d3dc1961e405cf11626d9eb8c888362038eba144a14e6",
+                "7d9fd9d5ece50dd03419a8c4efb598d9457b1ea5b750c541b50adb14885e6fb6",
+                "4bfe35bd023f1c81fbc3360f299e29b2197b936a76e9a59bc47abdf780903a4f",
+                "7ef19bfa6d7fa31940da099eb981e3fd3c23a0d4c5f9ff0bef01f8921865d95f",
+                "164fd2048a0fb5c1a03d2c59094ad38619dbe530950a8649fa1ea25fa4d2c811",
+                "f6ec30431ffbe9ed7f5c7abfa423734ec05429a57f906162d3e9f888d2849298"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fortnite.gg",
+                "openguessr.com",
+                "prosettings.net",
+                "wh40k.lexicanum.com",
+                "www.futbin.com",
+                "www.overtake.gg",
+                "www.pcgamingwiki.com",
+                "www.pokemoncoders.com",
+                "www.planetminecraft.com",
+                "www.systemrequirementslab.com",
+                "www.trueachievements.com"
+            ]
+        },
+        {
+            "rule": "ay\\.delivery\\/s2s-client-v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "yzqtxpscxhkg6rzje",
+                "7odcs2a8nxtfyxndn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3afdce90b87bb877552f64863f018612970b1e0db009d7b45767fde10b9f548"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mtggoldfish.com",
+                "www.vesselfinder.com"
+            ]
+        },
+        {
+            "rule": "ay\\.delivery\\/ivt\\/post",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yzqtxpscxhkg6rzje",
+                "7odcs2a8nxtfyxndn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "999d8db4a1ecc6296660313365dea1b7f24b84a548fab7c79b98ae7360307634"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamingwiki.com",
+                "www.vesselfinder.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4262295081967213
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.22950819672131148
+        },
+        {
+            "domain": "vntsm.com",
+            "prevalence": 0.18032786885245902
+        },
+        {
+            "domain": "netpoint-media.de",
+            "prevalence": 0.04918032786885246
+        },
+        {
+            "domain": "fuseplatform.net",
+            "prevalence": 0.03278688524590164
+        },
+        {
+            "domain": "investingchannel.com",
+            "prevalence": 0.01639344262295082
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.01639344262295082
+        },
+        {
+            "domain": "cmtags.io",
+            "prevalence": 0.01639344262295082
+        },
+        {
+            "domain": "thecontentserver.com",
+            "prevalence": 0.01639344262295082
+        },
+        {
+            "domain": "hit360.tech",
+            "prevalence": 0.01639344262295082
+        }
+    ],
+    "types": {
+        "Script": 49,
+        "XHR": 5,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "zahir.ns.cloudflare.com",
+        "lauryn.ns.cloudflare.com"
+    ]
+}

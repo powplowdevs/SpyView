@@ -1,0 +1,118 @@
+{
+    "domain": "peerius.com",
+    "owner": {
+        "name": "Peerius Ltd",
+        "displayName": "Peerius"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "nisbetsuk",
+        "uat"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "peerius\\.com\\/tracker\\/peerius\\.page",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nisbetsuk",
+                "uat"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fd97cb2cc4e63bb63d5fa5d38371cfb18e1ccb9ce4a25aa227737891982f358d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "peerius_rid": {
+                    "ttl": 12,
+                    "length": 2,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "peerius_ct": {
+                    "ttl": 13,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "uat_peerius_rid": {
+                    "ttl": 3,
+                    "length": 2,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "uat_peerius_ct": {
+                    "ttl": 4,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nisbets.co.uk",
+                "www.yamahaboats.com"
+            ]
+        },
+        {
+            "rule": "peerius\\.com\\/tracker\\/tracker\\.page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nisbetsuk",
+                "uat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "utag_main_adobe1": 0.0000070733363512901765,
+                "utag_main_adobe2": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "nisbets.co.uk",
+                "www.yamahaboats.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ashley.ns.cloudflare.com",
+        "lamar.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "domain": "imgdn.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "frankonia-traffic"
+    ],
+    "cnames": [
+        {
+            "original": "bilder.frankonia.de",
+            "resolved": "frankonia-traffic.imgdn.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "imgdn\\.net\\/fsicache\\/server",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frankonia-traffic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "bilder.frankonia.de",
+                    "resolved": "frankonia-traffic.imgdn.net"
+                }
+            ],
+            "responseHashes": [
+                "5bb761b2411ddbbe9d8db83b8674b8e3e0fa2a109aad2f4a3b18853624e06543"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frankonia.de",
+                "www.frankonia.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2
+    },
+    "nameservers": [
+        "dns200.anycast.me",
+        "ns200.anycast.me"
+    ]
+}

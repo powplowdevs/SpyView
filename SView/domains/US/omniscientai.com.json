@@ -1,0 +1,68 @@
+{
+    "domain": "omniscientai.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "omnitag"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "omniscientai\\.com\\/omnitag\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "omnitag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.indexedDB": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ba3a5053f61afdac70a9b9f8bc1256122ad7d5acada8d684b0f41c9b2487e00d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honto.jp",
+                "www.hmv.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-20-b.gandi.net",
+        "ns-112-c.gandi.net",
+        "ns-61-a.gandi.net"
+    ]
+}

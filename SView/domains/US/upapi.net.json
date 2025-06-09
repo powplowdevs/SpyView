@@ -1,0 +1,82 @@
+{
+    "domain": "upapi.net",
+    "owner": {
+        "name": "Blockthrough Inc.",
+        "displayName": "Blockthrough"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "mrb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "upapi\\.net\\/code",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mrb"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "1ad1d928beb6ec5a0f35a3a00b9e42c742e6176a248d6be0ea83db3c24be9ef5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mako.co.il",
+                "www.mako.co.il",
+                "www.n12.co.il"
+            ]
+        },
+        {
+            "rule": "upapi\\.net\\/pb\\/ex",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ynet.co.il",
+                "www.ynet.co.il"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "anuj.ns.cloudflare.com",
+        "anna.ns.cloudflare.com"
+    ]
+}

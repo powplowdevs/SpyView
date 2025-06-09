@@ -1,0 +1,151 @@
+{
+    "domain": "affirm.ca",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "cdn1",
+        "www",
+        "api-cf"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "affirm\\.ca\\/js\\/v2\\/affirm\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.localStorage": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6381bcec37305357bc21e97ec833c85ceb2406d52df364521a911b5b9d947312"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "checkout_continuity_service": {
+                    "ttl": 157680005,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "tracker_device": {
+                    "ttl": 157680005,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "cookietest": {
+                    "ttl": -1747295776,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sleepcountry.ca",
+                "www.iqair.com",
+                "www.leevalley.com"
+            ]
+        },
+        {
+            "rule": "affirm\\.ca\\/api\\/v2\\/session\\/touch_track",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "api-cf"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "41abb4001d59eb27642418319f56b66e5dfb56c881db4ec109ef074834b7462a",
+                "a49b6de065ce3c7fdce41e1f083d54896e1e7ab40b94109fd5e247d690b716d9",
+                "0de15ca7b390f929367c4adb60454fb9172e65fe8b1d02664174c89a23d92f29"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sleepcountry.ca",
+                "www.bissell.com",
+                "www.dirtydieselcustom.ca",
+                "www.iqair.com",
+                "www.leevalley.com"
+            ]
+        },
+        {
+            "rule": "affirm\\.ca\\/api\\/v2\\/cookie_sent",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "924aebf24af414b12986f4af470b2ac7b61d765897f9e222c0af15805de9ae40"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sleepcountry.ca",
+                "en.sleepcountry.ca",
+                "www.bissell.com",
+                "www.dirtydieselcustom.ca",
+                "www.iqair.com",
+                "www.leevalley.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5789473684210527
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.3684210526315789
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 11
+    },
+    "nameservers": [
+        "ns-1548.awsdns-01.co.uk",
+        "ns-149.awsdns-18.com",
+        "ns-586.awsdns-09.net",
+        "ns-1368.awsdns-43.org"
+    ]
+}

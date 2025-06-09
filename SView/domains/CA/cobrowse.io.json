@@ -1,0 +1,71 @@
+{
+    "domain": "cobrowse.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000209,
+    "sites": 2,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cobrowse\\.io\\/CobrowseIO\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.onLine": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [],
+            "responseHashes": [
+                "b338bd9b1d6705a55887c3ace8158036226b214e90351b42589514f2c3ddc943"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.hyundaicanada.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "d2tnd5rm3qyjbv.cloudfront.net",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "optimycdn.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1467.awsdns-55.org",
+        "ns-1914.awsdns-47.co.uk",
+        "ns-3.awsdns-00.com",
+        "ns-521.awsdns-01.net"
+    ]
+}

@@ -1,0 +1,227 @@
+{
+    "domain": "tiktok.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "mcs-ttp2.us",
+        "us",
+        "login-no1a.www"
+    ],
+    "cnames": [
+        {
+            "original": "login-no1a.www.tiktok.com",
+            "resolved": "login-no1a.www.tiktok.com.edgesuite.net"
+        },
+        {
+            "original": "mcs-ttp2.us.tiktok.com",
+            "resolved": "mcs-ttp2.us.tiktok.com.edgesuite.net"
+        },
+        {
+            "original": "us.tiktok.com",
+            "resolved": "us.tiktok.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tiktok\\.com\\.edgesuite\\.net\\/v1\\/user\\/webid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mcs-ttp2.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mcs-ttp2.us.tiktok.com",
+                    "resolved": "mcs-ttp2.us.tiktok.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktok\\.com\\.edgesuite\\.net\\/v1\\/user\\/webid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mcs-ttp2.us"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "mcs-ttp2.us.tiktok.com",
+                    "resolved": "mcs-ttp2.us.tiktok.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "106e20eb787a887a708036e398bda6ee89848f87d08ce99fb1647d694effe4fb",
+                "1551b45baaeeb9a056d29fae427aeea8b1e4f29ce84437bda5300487b9266f88"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "m.tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktok\\.com\\.edgesuite\\.net\\/v1\\/list",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mcs-ttp2.us"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "mcs-ttp2.us.tiktok.com",
+                    "resolved": "mcs-ttp2.us.tiktok.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "m.tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktok\\.com\\.edgesuite\\.net\\/v1\\/list",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mcs-ttp2.us"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "mcs-ttp2.us.tiktok.com",
+                    "resolved": "mcs-ttp2.us.tiktok.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "948190a15ae7d94bc1d62d16316370c5365c520310b32a4e3719a93d9a05f78f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "m.tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktok\\.com\\.edgesuite\\.net\\/passport\\/web\\/store_region\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us",
+                "login-no1a.www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "us.tiktok.com",
+                    "resolved": "us.tiktok.com.edgesuite.net"
+                },
+                {
+                    "original": "login-no1a.www.tiktok.com",
+                    "resolved": "login-no1a.www.tiktok.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "msToken": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktok\\.com\\.edgesuite\\.net\\/passport\\/web\\/store_region\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us",
+                "login-no1a.www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "us.tiktok.com",
+                    "resolved": "us.tiktok.com.edgesuite.net"
+                },
+                {
+                    "original": "login-no1a.www.tiktok.com",
+                    "resolved": "login-no1a.www.tiktok.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "0b1e4cdc8824e1aed9b36a053fcde0837c38bde0962c889f53fc2a796879372b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "msToken": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "tiktok.com",
+                "www.tiktok.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "tiktokcdn-us.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 7,
+        "XHR": 6,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

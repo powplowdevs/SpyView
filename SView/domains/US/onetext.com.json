@@ -1,0 +1,56 @@
+{
+    "domain": "onetext.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "onetext\\.com\\/sdk\\/onetext\\.min\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "52045d9c9b369c4d5c96425c6b8e34d614bcfae2a06b26792be8a76421b30fcc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drclarkstore.com",
+                "vandycrisps.com",
+                "viasox.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns1.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns3.digitalocean.com"
+    ]
+}

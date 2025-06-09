@@ -1,0 +1,133 @@
+{
+    "domain": "dpgmedia.be",
+    "owner": {
+        "name": "Ringier AG",
+        "displayName": "Ringier"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "myprivacy",
+        "pg"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dpgmedia\\.be\\/consent",
+            "cookies": 0.0000495,
+            "fingerprinting": 0,
+            "subdomains": [
+                "myprivacy"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "9fd47b14e0867cc18106de08514d2953cb515f95c80695b8b2a71bb286cc6b54",
+                "83435f3a126ffcdb0b453e6a8f778c797d68ba40e889067e795dcb9da4d1b01c",
+                "386396b7c17df1224ddbdbdf268e5fea1b2d096fedb7b39231623f94003d268d",
+                "461a64a688babf6a8f7d6932791e67e046ddfd6bf406429f53fe71ee86e3d860",
+                "051cbb93df6409593ccbeeebabb5fa22439ecd3ae64e38836bfc8cf621b100c7",
+                "ad072fc6bde1bc22a4a4079c6bbb5815dd84c9882ba72b027edd7dc4b9cd40b9"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vtm.be",
+                "www.7sur7.be",
+                "www.demorgen.be",
+                "www.hln.be",
+                "www.humo.be",
+                "www.spaargids.be",
+                "www.vtmgo.be"
+            ]
+        },
+        {
+            "rule": "dpgmedia\\.be\\/api\\/consent",
+            "cookies": 0.0000566,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pg"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "f7129a353d91e840dc20c05727b971ed52ebae8f5345c11e5c62cfc215050294",
+                "35d3f41f88e193e463369fc2631c05b66c3479b38e5e42c34b63e390b23f0440"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vtm.be",
+                "www.7sur7.be",
+                "www.demorgen.be",
+                "www.hln.be",
+                "www.humo.be",
+                "www.livios.be",
+                "www.spaargids.be",
+                "www.vtmgo.be"
+            ]
+        },
+        {
+            "rule": "dpgmedia\\.be\\/favicon\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "myprivacy"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "e7fc9697876a85cf717602581e926f8ffc561d8c25a31f1b74c608d8e5a762f8"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vtm.be",
+                "www.7sur7.be",
+                "www.demorgen.be",
+                "www.hln.be",
+                "www.humo.be",
+                "www.livios.be",
+                "www.spaargids.be",
+                "www.vtmgo.be"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000566,
+    "topInitiators": [
+        {
+            "domain": "dpgmedia.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 7,
+        "Fetch": 8,
+        "Other": 8
+    },
+    "nameservers": [
+        "use5.akam.net",
+        "eur6.akam.net",
+        "eur2.akam.net",
+        "use2.akam.net",
+        "eur5.akam.net",
+        "usc2.akam.net",
+        "ns1-25.akam.net",
+        "ns1-125.akam.net"
+    ]
+}

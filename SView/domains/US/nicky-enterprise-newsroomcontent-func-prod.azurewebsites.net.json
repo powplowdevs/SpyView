@@ -1,0 +1,68 @@
+{
+    "domain": "nicky-enterprise-newsroomcontent-func-prod.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "newsroom.ky.gov",
+            "resolved": "nicky-enterprise-newsroomcontent-func-prod.azurewebsites.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "nicky-enterprise-newsroomcontent-func-prod\\.azurewebsites\\.net\\/_layouts\\/15\\/Fwk\\.Webparts\\.Agency\\.Ui\\/ActivityStream\\/GetActivities\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "newsroom.ky.gov",
+                    "resolved": "nicky-enterprise-newsroomcontent-func-prod.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "6c279d0f6e8ca0a07706b40f3a2e4a6ed16c7ce6984339c345f00a937ca3ef32",
+                "72fe560ad957cbf3aafc3c4c798175cfc706b1738a92fb093e21497d8da29da5",
+                "9b33265ac4f9b4cd7b5a70f4dd347ed1045d38cdf0bbe9b19884e2caa308f2eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ky.gov",
+                "eec.ky.gov",
+                "revenue.ky.gov",
+                "www.sos.ky.gov"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

@@ -1,0 +1,180 @@
+{
+    "domain": "askem.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "cdn",
+        "feedback"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "askem\\.com\\/plugin\\/askem\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "f81fbf5937a9099fb4b08e4c16a321149186bdf66048a81d5756eeb4c1600949"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opintopolku.fi",
+                "www.tampere.fi",
+                "www.terveyskyla.fi"
+            ]
+        },
+        {
+            "rule": "askem\\.com\\/fonts\\/open-sans-v17\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ed2c8a5af29a151a7407b1063f22745800a61d8ef46870d3f8d6693af384361d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opintopolku.fi",
+                "www.tampere.fi",
+                "www.terveyskyla.fi"
+            ]
+        },
+        {
+            "rule": "askem\\.com\\/api\\/v2\\/plugin",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "989f1b8c42ba0ccb9876959313b39c17ce3030e40ef251fe7f1d14f67b7549e8",
+                "39d1769d699f9cfcc29f2ce57d36e99451a7382140322d9fa2ef9b952d437a1d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opintopolku.fi",
+                "www.tampere.fi",
+                "www.terveyskyla.fi"
+            ]
+        },
+        {
+            "rule": "askem\\.com\\/fonts\\/open-sans-v17\\/open-sans-v17-latin-ext_cyrillic_latin_cyrillic-ext-600\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "78110948becea674f2b0983e8290b477f8cce872e23fb70db46723ccac7661be"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opintopolku.fi",
+                "www.tampere.fi",
+                "www.terveyskyla.fi"
+            ]
+        },
+        {
+            "rule": "askem\\.com\\/fonts\\/open-sans-v17\\/open-sans-v17-latin-ext_cyrillic_latin_cyrillic-ext-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "3ab221d5152dbeb0337dae79773abafb1d2fc55ae3cf987fefc0f9056aebc481"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opintopolku.fi",
+                "www.tampere.fi",
+                "www.terveyskyla.fi"
+            ]
+        },
+        {
+            "rule": "askem\\.com\\/api\\/v2\\/action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feedback"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "5ed04047792d91867d5074d8d50e9542c3b85bf936bf826e7348ad57aca57671"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opintopolku.fi",
+                "www.tampere.fi",
+                "www.terveyskyla.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Stylesheet": 3,
+        "Fetch": 6,
+        "Font": 6
+    },
+    "nameservers": [
+        "ns-448.awsdns-56.com",
+        "ns-834.awsdns-40.net",
+        "ns-1145.awsdns-15.org",
+        "ns-1874.awsdns-42.co.uk"
+    ]
+}

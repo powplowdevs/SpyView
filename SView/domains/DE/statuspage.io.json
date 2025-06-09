@@ -1,0 +1,232 @@
+{
+    "domain": "statuspage.io",
+    "owner": {
+        "name": "Atlassian Corporation plc",
+        "displayName": "Atlassian"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00122,
+    "sites": 12,
+    "subdomains": [
+        "anaconda",
+        "f99hbcdmsb16",
+        "bghgsx0hcy0k",
+        "ms1frkqnsp7r",
+        "sqvvxmkr4r26",
+        "cdn",
+        "5b4dcn321xtp",
+        "nl3597xjtlm2",
+        "4tdc8ll7wtnf",
+        "2p66nmmycsj3"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "statuspage\\.io\\/embed\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "anaconda",
+                "f99hbcdmsb16",
+                "bghgsx0hcy0k",
+                "ms1frkqnsp7r"
+            ],
+            "apis": {
+                "Screen.prototype.width": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "7f857abe35d25272541f58a2ff904cec93a4502db8247ace2f23a59b05e73a39",
+                "7bbcf33be4f2f35eb2ebf210653847a28d8778279df9c62a490069999835f278",
+                "1bbc3d4d127a2e375e2ecc204009fefacde4269c07929b0fa6b0de7eef088c21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anaconda.org",
+                "community.qlik.com",
+                "support.sonos.com",
+                "www.postman.com"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/embed\\/frame",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sqvvxmkr4r26",
+                "f99hbcdmsb16",
+                "bghgsx0hcy0k",
+                "ms1frkqnsp7r"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "f4617bcee418296e4001149b3a54c9979d5dba9f9435db52760004e448e8559a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anaconda.org",
+                "community.qlik.com",
+                "support.sonos.com",
+                "www.postman.com"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/se-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e2de85007c28d01d2a973cbd4efd90bda8f52771727ea5db199bd425f0720a37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balena.io",
+                "www.langchain.com"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/api\\/v2\\/summary\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "5b4dcn321xtp",
+                "nl3597xjtlm2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "daba949562ea3a6c2de319ac0ac75f19748f916ee47bc85263ca65b0fb018b8d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balena.io",
+                "www.langchain.com"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/api\\/v2\\/status\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "4tdc8ll7wtnf",
+                "2p66nmmycsj3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "5cd521bc7f6a268c9ba125ef74dcfe9df46322c5bada754ebbaddb7c2e3e2bbe",
+                "ff7e7a59de3785fb4953d95c058ea9f78d88bcff95787daaebe65fac4888ac93"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ionos.de",
+                "login.ionos.de",
+                "www.python.org"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/api\\/v2\\/scheduled-maintenances\\/active\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "4tdc8ll7wtnf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "597e9fcf0f64315114fe911c48f40d1380128881dac0432d30192c84ab93e0cf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ionos.de",
+                "login.ionos.de"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/api\\/v2\\/incidents\\/unresolved\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "4tdc8ll7wtnf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "55dd06cb7f00ec4b19542094bdfa5676861c89fd206adb28a36ec15898895ecf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ionos.de",
+                "login.ionos.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.85
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.05
+        },
+        {
+            "domain": "d3e54v103j8qbb.cloudfront.net",
+            "prevalence": 0.05
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 4,
+        "XHR": 9
+    },
+    "nameservers": [
+        "ns-951.awsdns-54.net",
+        "ns-1407.awsdns-47.org",
+        "ns-209.awsdns-26.com",
+        "ns-1560.awsdns-03.co.uk"
+    ]
+}

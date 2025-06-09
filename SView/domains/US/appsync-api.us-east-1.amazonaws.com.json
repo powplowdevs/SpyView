@@ -1,0 +1,139 @@
+{
+    "domain": "appsync-api.us-east-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "3gso5evnnzbr7l4ubazdtfa4wq",
+        "drwaiqwbfbh5tnyqhfr7dknnei",
+        "nt7k57xx3neirgye6ggqext4vm",
+        "p5632r54wnfx5lk6zinpjbth5u",
+        "agmb2kjbmvblxfjajzk72d6cuu"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "appsync-api\\.us-east-1\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "3gso5evnnzbr7l4ubazdtfa4wq",
+                "drwaiqwbfbh5tnyqhfr7dknnei",
+                "nt7k57xx3neirgye6ggqext4vm",
+                "p5632r54wnfx5lk6zinpjbth5u",
+                "agmb2kjbmvblxfjajzk72d6cuu"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knowt.com",
+                "thebulletin.org",
+                "us.typology.com",
+                "welcometorockville.com",
+                "worldathletics.org",
+                "www.dailydot.com",
+                "www.discovery.com"
+            ]
+        },
+        {
+            "rule": "appsync-api\\.us-east-1\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "3gso5evnnzbr7l4ubazdtfa4wq",
+                "drwaiqwbfbh5tnyqhfr7dknnei",
+                "p5632r54wnfx5lk6zinpjbth5u",
+                "agmb2kjbmvblxfjajzk72d6cuu"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "c8e93fa7f2f197161081f84784a60cae02efe4cdde7cc99487b4bf439777a583",
+                "c9d8996d9fcb7b68705b92878adbaff51d1c9468ea34e1d4da2e8ec7c79ae0a5",
+                "c0cbf0efb8510e4432204c3d5d5fe3926c796896f917c2af570eeddc192a6e56",
+                "b911ae603ee22201c0fdd42b6c41dbf0820053292e531353198209b966826fd1",
+                "3e17a9f9a9822e945262b7544ddd50146abfb7c4205210160a5335a93c76ba61"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knowt.com",
+                "thebulletin.org",
+                "welcometorockville.com",
+                "worldathletics.org",
+                "www.dailydot.com",
+                "www.discovery.com"
+            ]
+        },
+        {
+            "rule": "appsync-api\\.us-east-1\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nt7k57xx3neirgye6ggqext4vm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f9ea011dd01af2417ab1bd35d83b1a76522a9d2b5b8505e487c377c9107e6ae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "typology.com",
+                "us.typology.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.782608695652174
+        },
+        {
+            "domain": "aloompa.com",
+            "prevalence": 0.17391304347826086
+        },
+        {
+            "domain": "publicgood.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "Preflight": 7,
+        "Fetch": 6,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-45.awsdns-05.com",
+        "ns-975.awsdns-57.net",
+        "ns-1274.awsdns-31.org",
+        "ns-1707.awsdns-21.co.uk"
+    ]
+}

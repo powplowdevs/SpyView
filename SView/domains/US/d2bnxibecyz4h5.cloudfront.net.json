@@ -1,0 +1,109 @@
+{
+    "domain": "d2bnxibecyz4h5.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00017,
+    "sites": 24,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d2bnxibecyz4h5\\.cloudfront\\.net\\/runtimejs\\/intercept\\/intercept\\.js",
+            "cookies": 0.0000849,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 12,
+                "Navigator.prototype.appVersion": 12,
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.appName": 12,
+                "Date.prototype.getTime": 11,
+                "Document.cookie setter": 12
+            },
+            "sites": 18,
+            "prevalence": 0.000127,
+            "cnames": [],
+            "responseHashes": [
+                "ed98d8e2fd0624aaa3f6f2c53ba848bf2d50976bcefa16dd4287b14724f4bf7b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sg_b_v": {
+                    "ttl": 7776004,
+                    "length": 18,
+                    "prevalence": 0.00008488003621548212,
+                    "uniqueness": 1
+                },
+                "_sg_b_p": {
+                    "ttl": 1204,
+                    "length": 37,
+                    "prevalence": 0.00008488003621548212,
+                    "uniqueness": 0.5
+                },
+                "_sg_b_n": {
+                    "ttl": 157680001,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ea.com",
+                "answers.ea.com",
+                "buy.gazelle.com",
+                "community.acer.com",
+                "drpower.com",
+                "forums.ea.com",
+                "help.ea.com",
+                "makezine.com",
+                "nylottery.ny.gov",
+                "store.directsupply.com",
+                "www.bluecrossvt.org",
+                "www.drpower.com",
+                "www.generacpowerproducts.com",
+                "www.goodrx.com",
+                "www.kolzchut.org.il",
+                "www.oggi.it",
+                "www.piercecountywa.gov",
+                "www.suntrackerboats.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00012,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7916666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 18
+    },
+    "nameservers": [
+        "ns-1032.awsdns-01.org",
+        "ns-1676.awsdns-17.co.uk",
+        "ns-504.awsdns-63.com",
+        "ns-797.awsdns-35.net"
+    ]
+}

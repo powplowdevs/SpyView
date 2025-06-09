@@ -1,0 +1,381 @@
+{
+    "domain": "aliexpress.com",
+    "owner": {
+        "name": "Alibaba Group",
+        "displayName": "Alibaba"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "s.click",
+        "best",
+        "www",
+        "acs",
+        "ase",
+        "fourier",
+        "wp",
+        "login"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "aliexpress\\.com\\/deep_link\\.htm",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s.click"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6dd8e5ef38afc02eb8c03f833fadbe227688a764f3920df5f57a3564e2150ad3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravocompanyusa.com",
+                "torrbrowser.ru",
+                "www.planetsuzy.org"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "best",
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "4f91cfe1d428e3b1fbd22db02ba137f181dc678c18d47a3d05361c89ac0336f5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.nude.hu",
+                "www.planetsuzy.org",
+                "you-stories.com",
+                "zooporner.com"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/h5\\/mtop\\.aliexpress\\.address\\.shipto\\.division\\.get\\/1\\.0\\/",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org",
+                "you-stories.com"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/upload\\/web\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ase"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.daraz.com.bd",
+                "www.daraz.lk",
+                "www.daraz.com.np",
+                "www.daraz.pk",
+                "www.planetsuzy.org",
+                "you-stories.com"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/upload\\/web\\/info",
+            "cookies": 0.0000495,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ase"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "fcc3bcad931fa525479d9e3caee4dd8f49ce558c9785e7525b05099f29d67f05",
+                "8217a12ce9b7d17a6e0054b095ad961de74f6687ba5ca49012c6524996a2ebee",
+                "df4d2fabb5fbc01b1c1d130632037cc90422189a715c4a33134c2cd1c16762ec",
+                "12741f18c2cfb627033e474d11f53b08fd6cb26727d6750946c7addedd1da58f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.daraz.com.bd",
+                "www.daraz.lk",
+                "www.daraz.com.np",
+                "www.daraz.pk",
+                "www.planetsuzy.org",
+                "you-stories.com"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/ts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fourier"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org",
+                "you-stories.com"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/wp\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org",
+                "you-stories.com"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/h5\\/mtop\\.aliexpress\\.trade\\.cart\\.count\\/1\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/h5\\/mtop\\.aliexpress\\.geoip\\.in\\.gdpr\\/1\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/h5\\/mtop\\.relationrecommend\\.aliexpressrecommend\\.recommend\\/1\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/h5\\/mtop\\.aliexpress\\.fc\\.gateway\\.campaign\\.data\\/1\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/h5\\/mtop\\.aliexpress\\.address\\.addressinfo\\.get\\/1\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/join\\/login_page_config\\.htm",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/h5\\/mtop\\.aliexpress\\.member\\.web\\.login\\.guide\\/1\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "torrbrowser.ru",
+                "www.planetsuzy.org"
+            ]
+        },
+        {
+            "rule": "aliexpress\\.com\\/sync_cookie_read\\.htm",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nude.hu",
+                "zooporner.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "alicdn.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "aliexpress-media.com",
+            "prevalence": 0.475
+        },
+        {
+            "domain": "lazcdn.com",
+            "prevalence": 0.025
+        }
+    ],
+    "types": {
+        "Document": 13,
+        "Script": 9,
+        "Preflight": 7,
+        "XHR": 15,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns1.alibabadns.com",
+        "ns2.alibabadns.com"
+    ]
+}

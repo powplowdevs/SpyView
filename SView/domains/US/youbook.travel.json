@@ -1,0 +1,75 @@
+{
+    "domain": "youbook.travel",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "public.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "youbook\\.travel\\/v3\\/products\\/list",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marseille-tourisme.com",
+                "www.marseille-tourisme.com"
+            ]
+        },
+        {
+            "rule": "youbook\\.travel\\/v3\\/products\\/list",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f541efcaf28e56e940a300a6eaf84e2d1825d0a32e3ef41ccb64bf3914c3e5b2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marseille-tourisme.com",
+                "www.marseille-tourisme.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dns106.ovh.net",
+        "ns106.ovh.net"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "domain": "chatmeter.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "live"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "chatmeter\\.com\\/reviewBuilder\\/widget\\/script",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "live"
+            ],
+            "apis": {
+                "Notification.permission": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "d2b59eaf482501595fbf1d516d041ad33076485fb109edfb86b01cbd255be8c2",
+                "d84d16ba6d03ed04203ae0e7d0b1f1e3d6b3a538ba3d3d21a2602eef3ff73f2a",
+                "0ceb993a3a02085a755dabb7b33e38331c5628e388ee66d7adef2f0d24cbea6b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wyndhamdestinations.com",
+                "clubwyndham.wyndhamdestinations.com",
+                "www.caliber.com",
+                "www.oceanstatejoblot.com"
+            ]
+        },
+        {
+            "rule": "chatmeter\\.com\\/reviewBuilder\\/widget\\/render\\/5f93171443c19721fbb71359",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wyndhamdestinations.com",
+                "clubwyndham.wyndhamdestinations.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-79.awsdns-09.com",
+        "ns-995.awsdns-60.net",
+        "ns-1849.awsdns-39.co.uk",
+        "ns-1360.awsdns-42.org"
+    ]
+}

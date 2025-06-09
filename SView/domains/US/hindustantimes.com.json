@@ -1,0 +1,133 @@
+{
+    "domain": "hindustantimes.com",
+    "owner": {
+        "name": "HT Media Ltd.",
+        "displayName": "HT Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "www",
+        "dap"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "hindustantimes\\.com\\/cdp\\/user\\/hs",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "34d012bb12387b7b9186e0998a9b0e297da50e42d34bb824ae1deb2b08ebf841"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthshots.com",
+                "www.healthshots.com"
+            ]
+        },
+        {
+            "rule": "hindustantimes\\.com\\/internalSync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthshots.com",
+                "www.healthshots.com",
+                "www.livehindustan.com",
+                "www.slurrp.com"
+            ]
+        },
+        {
+            "rule": "hindustantimes\\.com\\/internalSync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthshots.com",
+                "www.healthshots.com",
+                "www.livehindustan.com",
+                "www.slurrp.com"
+            ]
+        },
+        {
+            "rule": "hindustantimes\\.com\\/cdp\\/api\\/v1\\/adserve\\/slurrp",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2dbb764de28da67094555b46475c99403c3155d8816567ab5aa44105691b1b52"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slurrp.com",
+                "www.slurrp.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "htmedia.in",
+            "prevalence": 0.4444444444444444
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "XHR": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "a20-65.akam.net",
+        "a7-66.akam.net",
+        "a1-232.akam.net",
+        "a16-67.akam.net",
+        "a18-64.akam.net"
+    ]
+}

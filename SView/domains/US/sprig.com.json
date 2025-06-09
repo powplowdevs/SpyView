@@ -1,0 +1,1364 @@
+{
+    "domain": "sprig.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000672,
+    "sites": 95,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sprig\\.com\\/shim\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 42,
+                "window.localStorage": 42,
+                "window.indexedDB": 46,
+                "Navigator.prototype.storage": 21,
+                "Navigator.prototype.plugins": 3,
+                "Notification.permission": 2
+            },
+            "sites": 51,
+            "prevalence": 0.000361,
+            "cnames": [],
+            "responseHashes": [
+                "321c0089f9965d9169f27711c4432cccab8da504eb05eed43903487f31987db3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeadvisor.com",
+                "bibleproject.com",
+                "rakuten.com",
+                "stanforddaily.com",
+                "docs.sonarsource.com",
+                "help.webflow.com",
+                "help.calendly.com",
+                "support.ramp.com",
+                "www.surfline.com",
+                "www.alltrails.com",
+                "asu.edu",
+                "www.pff.com",
+                "support.bose.com",
+                "hillspet.com",
+                "evolve.com",
+                "community.tableau.com",
+                "outlier.ai",
+                "www.hillspet.com",
+                "www.mitsubishicars.com",
+                "tuition.asu.edu"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/-WhuFHvkgjy2\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "angi.com",
+                "homeadvisor.com",
+                "www.angi.com",
+                "www.homeadvisor.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/-WhuFHvkgjy2\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "123fbc3a4e422e45d9d26185c41b842ee54089b4aca88cde8dbbe3fcad4fb8ca"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "angi.com",
+                "homeadvisor.com",
+                "www.angi.com",
+                "www.homeadvisor.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/dependencies\\/record-2\\.0\\.0-alpha\\.17\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Notification.permission": 5,
+                "Navigator.prototype.plugins": 4
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "18792a7b838c3d9a8b0c5d9136495cabc4dd60981e16e6e13e37b2976dddbccb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "angi.com",
+                "homeadvisor.com",
+                "rakuten.com",
+                "support.ramp.com",
+                "www.angi.com",
+                "www.codecademy.com",
+                "www.homeadvisor.com",
+                "www.mindvalley.com",
+                "www.opendoor.com",
+                "www.rakuten.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/QHY5fVzctXqS\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tableau.com",
+                "community.tableau.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/QHY5fVzctXqS\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3286944e0b711153924a8414f9649dfa3dd35339be1b090673d32025179690f8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tableau.com",
+                "community.tableau.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/0b640532-43fb-467b-8409-6d112a026b82\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "12f404d10bb766dd72479cbc0ebcde283284fb9067b2f4bd873fb75868dce37b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tableau.com",
+                "community.tableau.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/0b640532-43fb-467b-8409-6d112a026b82\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tableau.com",
+                "community.tableau.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/R1vNINtA1U\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paypal.com",
+                "developer.paypal.com",
+                "securepayments.paypal.com",
+                "www-v2.sandbox.paypal.com",
+                "www.sandbox.paypal.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/R1vNINtA1U\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "95ae472a762f0d50cbd27cff8e88f3217de32d39aa5bff560faea04a5164dce6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paypal.com",
+                "developer.paypal.com",
+                "securepayments.paypal.com",
+                "www-v2.sandbox.paypal.com",
+                "www.sandbox.paypal.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/PZOIfnbk1ROP\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2d71c1eebb0d7ab47f84a242f56a1b8adec69728a816a137cae2222d0f83a33d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforce.com",
+                "developer.salesforce.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/PZOIfnbk1ROP\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforce.com",
+                "developer.salesforce.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/SXxPZrICp7fm\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonarsource.com",
+                "docs.sonarsource.com",
+                "www.sonarsource.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/SXxPZrICp7fm\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "03d4757719046f4c10cf26a0a614f9db2b3292cabb9fdeec842ceca7bb72afa0",
+                "eca581247869d0e27e25359c83503f350068b37efee5cd2d8af6a3605afaff85"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonarsource.com",
+                "docs.sonarsource.com",
+                "www.sonarsource.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/x7LUly6nqa9D\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "factor75.com",
+                "www.factor75.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/x7LUly6nqa9D\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2b2be84222581779379361aa471261a36be03b894ab962c8fdf4754d65fb8c70"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "factor75.com",
+                "www.factor75.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/dependencies\\/record-2\\.0\\.0-alpha\\.6\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8a88e2876210c1960f05cd59e66681b27ee9a1da2f33bc229f250e8301ef071f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "factor75.com",
+                "www.factor75.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/W3P86uHNPd\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforce.com",
+                "help.salesforce.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/W3P86uHNPd\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6f99f2b3cbe36da7bc0010f6eeb01d1312f4b35e69071d55e047e70e0e73ba2f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforce.com",
+                "help.salesforce.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/a2ef6d5d-a63b-4179-b7a0-5ddf33645ba3\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforce.com",
+                "help.salesforce.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/a2ef6d5d-a63b-4179-b7a0-5ddf33645ba3\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c49be166f130b55ce42174d14d41d3b743c87ab86bfb948387b1e21ceee9f548"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforce.com",
+                "help.salesforce.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/-a7VjAgflTo-\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masterclass.com",
+                "www.masterclass.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/-a7VjAgflTo-\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "09cfbec41b2de2de9d93a7a61d96e464474852fec61ea63399e70d3eb368da4e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masterclass.com",
+                "www.masterclass.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/hI9njRx_x_3k\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outdoorsy.com",
+                "www.outdoorsy.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/hI9njRx_x_3k\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outdoorsy.com",
+                "www.outdoorsy.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/kgEKxiY_4yxQ\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.com",
+                "www.ebates.com",
+                "www.rakuten.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/kgEKxiY_4yxQ\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "c2f4ea6ea4026d14de7bcd3ad1150d51d6aa1c701ae150d4a5e22ffd81836325"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.com",
+                "www.ebates.com",
+                "www.rakuten.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/y3AViNWJaIy5\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bose.com",
+                "support.bose.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/y3AViNWJaIy5\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fd8cca4cf974a8e7750e213d0a69061cbb7b93659e8a5d989e24dc67546a46e6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bose.com",
+                "support.bose.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/oGM8JOcYkp2I\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afterall.com",
+                "www.afterall.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/c59VJhBu_ftt\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "caad02231a71374194cb7c7983509d4dbd10864fba278a794478da22d789c2db"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elca.org",
+                "www.elca.org"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/c59VJhBu_ftt\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elca.org",
+                "www.elca.org"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/x7LUly6nqa9D\\/visitors\\/b26bbd80-940d-481d-bcf1-25f0288b775a\\/attributes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "factor75.com",
+                "www.factor75.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/x7LUly6nqa9D\\/visitors\\/b26bbd80-940d-481d-bcf1-25f0288b775a\\/attributes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "factor75.com",
+                "www.factor75.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/YrX2rPQTtq\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e779eb320df15e5f8a81b414ef0106e39778d43f4868a5ee4d787c1fa3b55e06"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellofresh.co.uk",
+                "www.hellofresh.com",
+                "www.hellofresh.de",
+                "www.hellofresh.nl"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/YrX2rPQTtq\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellofresh.co.uk",
+                "www.hellofresh.com",
+                "www.hellofresh.de",
+                "www.hellofresh.nl"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/YrX2rPQTtq\\/visitors\\/5b1454e0-6e62-4767-a1c1-a52316077dc8\\/attributes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellofresh.co.uk",
+                "www.hellofresh.co.uk"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/YrX2rPQTtq\\/visitors\\/5b1454e0-6e62-4767-a1c1-a52316077dc8\\/attributes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellofresh.co.uk",
+                "www.hellofresh.co.uk"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/09942c0f-04ff-48de-977b-ea3068cfd1e9\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeadvisor.com",
+                "www.homeadvisor.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/09942c0f-04ff-48de-977b-ea3068cfd1e9\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3a1c9c4013d3fe61f8ea2e5d588e3dfa09fea7ad45e9de37b51aa1a72179aa5f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeadvisor.com",
+                "www.homeadvisor.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/-a7VjAgflTo-\\/visitors\\/24df5964-6719-4fb5-9ceb-cf2b002d0659\\/attributes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masterclass.com",
+                "www.masterclass.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/-a7VjAgflTo-\\/visitors\\/24df5964-6719-4fb5-9ceb-cf2b002d0659\\/attributes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masterclass.com",
+                "www.masterclass.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/24df5964-6719-4fb5-9ceb-cf2b002d0659\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masterclass.com",
+                "www.masterclass.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/24df5964-6719-4fb5-9ceb-cf2b002d0659\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "de7bb90f3b500ba22f7ea47a3c24c6b38ea95d1f6442f17b9dfb705dc9bc7a57"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "masterclass.com",
+                "www.masterclass.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/48062e2a-e61f-495a-8e7c-aeeccb781f2d\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "notion.com",
+                "www.notion.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/48062e2a-e61f-495a-8e7c-aeeccb781f2d\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "notion.com",
+                "www.notion.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/48c0abd6-4606-437e-b11b-a9132ef972e6\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onepeloton.com",
+                "www.onepeloton.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/48c0abd6-4606-437e-b11b-a9132ef972e6\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dd126e3631f571f70f8974a33e41bb8c25c4f59f06c882b1e3b936e99793c07b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onepeloton.com",
+                "www.onepeloton.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/dyW58uSABd\\/visitors\\/38983588-0732-4533-a065-f20f161256d0\\/attributes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opendoor.com",
+                "www.opendoor.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/dyW58uSABd\\/visitors\\/38983588-0732-4533-a065-f20f161256d0\\/attributes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opendoor.com",
+                "www.opendoor.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/38983588-0732-4533-a065-f20f161256d0\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opendoor.com",
+                "www.opendoor.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/38983588-0732-4533-a065-f20f161256d0\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opendoor.com",
+                "www.opendoor.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/09091a8e-a109-4469-9dbc-150624b568be\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.com",
+                "www.rakuten.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/visitors\\/09091a8e-a109-4469-9dbc-150624b568be\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.com",
+                "www.rakuten.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/qea0DdC3aOFS\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roku.com",
+                "www.roku.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/qea0DdC3aOFS\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "67a28696d4e2ce10e6effea3b5063f08377f9427fe5cb6184d8f1f5249e7f8eb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roku.com",
+                "www.roku.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/gU1djOXuXkhA\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "caa493819c50c94103a9ff9b2f2df02eb79834de12de8ff6ef2138ee80938ee1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "the-saleroom.com",
+                "www.the-saleroom.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/LCFtbitJdeTs\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "03d4757719046f4c10cf26a0a614f9db2b3292cabb9fdeec842ceca7bb72afa0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thredup.com",
+                "www.thredup.com"
+            ]
+        },
+        {
+            "rule": "sprig\\.com\\/sdk\\/1\\/environments\\/LCFtbitJdeTs\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thredup.com",
+                "www.thredup.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6626016260162602
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.13008130081300814
+        },
+        {
+            "domain": "paypalobjects.com",
+            "prevalence": 0.06910569105691057
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.04878048780487805
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.032520325203252036
+        },
+        {
+            "domain": "userleap.com",
+            "prevalence": 0.012195121951219513
+        },
+        {
+            "domain": "clearbitscripts.com",
+            "prevalence": 0.008130081300813009
+        },
+        {
+            "domain": "fullstory.com",
+            "prevalence": 0.008130081300813009
+        },
+        {
+            "domain": "squarecdn.com",
+            "prevalence": 0.008130081300813009
+        },
+        {
+            "domain": "px-cloud.net",
+            "prevalence": 0.008130081300813009
+        }
+    ],
+    "types": {
+        "Script": 63,
+        "Preflight": 63,
+        "Fetch": 67
+    },
+    "nameservers": [
+        "ns-1076.awsdns-06.org",
+        "ns-15.awsdns-01.com",
+        "ns-1691.awsdns-19.co.uk",
+        "ns-647.awsdns-16.net"
+    ]
+}

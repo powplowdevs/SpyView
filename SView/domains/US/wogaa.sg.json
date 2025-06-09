@@ -1,0 +1,365 @@
+{
+    "domain": "wogaa.sg",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "assets",
+        "snowplow-web"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "wogaa\\.sg\\/scripts\\/wogaa\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "be27b6694a18c579f175dd670aaad775be3683528a4aaebd73a1d5a6210d5d1b",
+                "e98bb471815aafa4322d2979c1f5b99e3a171318fa29a4d83bc2e520f72eea5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "vouchers.cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/snowplow\\/3\\.13\\.1\\/sp\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 3,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.doNotTrack": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "dffead6a4371e5a178facab7cf528ebad143253fefe79b6b728b9003efe0adf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sp_ses.c0f8": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_id.c0f8": {
+                    "ttl": 63072006,
+                    "length": 103,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_id.2530": {
+                    "ttl": 63072002,
+                    "length": 152,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_ses.2530": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/sentiments\\/sentiments\\.esm\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "72e3e6844c0178ae6965494266f0a29e53fee6747bafc8f48ee92966d69c6dd7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/sentiments\\/p-fc289f5d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "16e4fb8617248dee6dde697535c775e86eaf1be814ef0697bf4bcf39b191e779"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/sentiments\\/p-5fc1df07\\.entry\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "27030c8dfcf9335121dd956aaa671adf3ab3210af2980ba36d34d3963b2a8287"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/sentiments\\/p-2a793b96\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "1cdc6124b65d98625328cc31eecc1976fa3855b3aa391c8931a3c7ef0bcdf494"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/sentiments\\/p-fb9140bf\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "4a71a7b7700a45426ddff651d52cdce9e6c1eae16eb3abae8978a1fda37d8921"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/fonts\\/stylesheet\\/3\\.6\\.4-7991172\\/production\\/sentiments\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "726afe4bc1a523c3085cac8ca9f55807f7cd58d7966bcaaf33c1d7b2246198bc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/sentiments\\/p-8213dc11\\.entry\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "99918bd29ac06c4991437302f502fc283d643a5a55a9834afef49e60b393edba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/sentiments\\/p-9651f667\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2b8657a562c2bbf8d9e5db29d3bbe8da008da815c61b2b8bac915ef35b3ac6f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/sg\\.wogaa\\/cs1",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snowplow-web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        },
+        {
+            "rule": "wogaa\\.sg\\/sg\\.wogaa\\/cs1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snowplow-web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdc.gov.sg",
+                "www.cpf.gov.sg",
+                "www.ica.gov.sg"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 26,
+        "Stylesheet": 3,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-24.awsdns-03.com",
+        "ns-1454.awsdns-53.org",
+        "ns-992.awsdns-60.net",
+        "ns-1917.awsdns-47.co.uk"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "domain": "tally.so",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000141,
+    "sites": 20,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tally\\.so\\/widgets\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.matchMedia(\"prefers-color-scheme\")": 2
+            },
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "30f00c5f6bdc7ac1ab9bdc49e344603840e79a774f8a7367e67f89db97ef1fbd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cline.bot",
+                "escort.it",
+                "hackmd.io",
+                "languatalk.com",
+                "logicballs.com",
+                "pimax.com",
+                "world-wire.com",
+                "www.chatpdf.com",
+                "www.granola.ai",
+                "www.maxicoffee.com",
+                "www.portugalist.com",
+                "www.puurfiguur.nl",
+                "www.simpleimageresizer.com",
+                "www.workinggenius.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.95
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "darwin.ns.cloudflare.com",
+        "penny.ns.cloudflare.com"
+    ]
+}

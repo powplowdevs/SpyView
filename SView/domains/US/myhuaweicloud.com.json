@@ -1,0 +1,64 @@
+{
+    "domain": "myhuaweicloud.com",
+    "owner": {
+        "name": "Huawei Technologies Co., Ltd.",
+        "displayName": "Huawei Technologies"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "quick-multilingual.obs.ap-southeast-3"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "myhuaweicloud\\.com\\/chat\\/prod\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quick-multilingual.obs.ap-southeast-3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "d8457df94dd3b9a57dadd8e2ef99e2cfc3c810fd1cd812456510b79517516d76"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newurtopia.com",
+                "www.firmoo.com",
+                "www.tendacn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "quickcep.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "csdnimg.cn",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns1.huaweicloud-dns.cn",
+        "ns1.huaweicloud-dns.org",
+        "ns1.huaweicloud-dns.net",
+        "ns1.huaweicloud-dns.com"
+    ]
+}

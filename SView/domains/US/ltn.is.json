@@ -1,0 +1,79 @@
+{
+    "domain": "ltn.is",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ltn\\.is\\/api\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headphones.com",
+                "shopduer.com",
+                "vessi.com",
+                "www.burlapandbarrel.com"
+            ]
+        },
+        {
+            "rule": "ltn\\.is\\/api\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "f587eeb282a71aa8bfb06f3798f3290bddd3404cccabce89c7bb7e19192979d5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headphones.com",
+                "shopduer.com",
+                "vessi.com",
+                "www.burlapandbarrel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

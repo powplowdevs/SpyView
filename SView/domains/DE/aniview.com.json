@@ -1,0 +1,114 @@
+{
+    "domain": "aniview.com",
+    "owner": {
+        "name": "ANIVIEW LTD",
+        "displayName": "ANIVIEW"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [
+        "player",
+        "track4",
+        "track1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aniview\\.com\\/script\\/6\\.1\\/AVmanager\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "55fe20054d62daa9469763914518b6ce6cff743dcb1cb61dcfc77f5d2eacd950"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delftstack.com",
+                "www.gamingdeputy.com"
+            ]
+        },
+        {
+            "rule": "aniview\\.com\\/track",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track4",
+                "track1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamingwiki.com",
+                "www.whatfontis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "avplayer.com",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "vntsm.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "omnitagjs.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "ad-adapex.io",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com"
+    ]
+}

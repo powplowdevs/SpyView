@@ -1,0 +1,158 @@
+{
+    "domain": "targetads.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000354,
+    "sites": 50,
+    "subdomains": [
+        "eye"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "targetads\\.io\\/web\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eye"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "pageLanding": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "adengi.ru",
+                "www.tinkoff.ru"
+            ]
+        },
+        {
+            "rule": "targetads\\.io\\/sync\\/yandex\\/",
+            "cookies": 0.000255,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eye"
+            ],
+            "apis": {},
+            "sites": 40,
+            "prevalence": 0.000283,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pravoved.ru",
+                "gdz-raketa.ru",
+                "alcofan.com",
+                "id.telegram-store.com",
+                "www.astromeridian.ru",
+                "citaty.info",
+                "rasp.yandex.ru",
+                "t.rasp.yandex.ru",
+                "skillbox.ru",
+                "remontka.pro",
+                "pishika.ru",
+                "muzhaus.com",
+                "medi.ru",
+                "www.rustore.ru",
+                "world-weather.ru",
+                "avidreaders.ru",
+                "metanit.com",
+                "zvonili.com",
+                "www.comss.ru",
+                "famiry.ru"
+            ]
+        },
+        {
+            "rule": "targetads\\.io\\/sync\\/partner",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eye"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tutu.ru",
+                "goldapple.ru",
+                "startrekfleetcommand.com",
+                "www.banki.ru"
+            ]
+        },
+        {
+            "rule": "targetads\\.io\\/web\\/pixel",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eye"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__P__wuid": 0.0000070733363512901765,
+                "stDeIdU": 0.0000070733363512901765,
+                "pageLanding": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "tbank.ru",
+                "t-j.ru",
+                "www.letu.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00029,
+    "topInitiators": [
+        {
+            "domain": "hybrid.ai",
+            "prevalence": 0.4166666666666667
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "tbank.ru",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Image": 47
+    },
+    "nameservers": [
+        "ns1.yandexcloud.net",
+        "ns2.yandexcloud.net"
+    ]
+}

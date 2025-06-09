@@ -1,0 +1,77 @@
+{
+    "domain": "iplocation.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "iplocation\\.net\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4c846f56a6a351746ada01f14e1b4d3aa1dadb46e4c15bb871190999dba6e6f7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libertymutual.com",
+                "www.globalcitizensolutions.com"
+            ]
+        },
+        {
+            "rule": "iplocation\\.net\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5398557befe754006c65cdfe6917308c03f869ce4b9f5df62e0340b29b12d284"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "getblys.com",
+                "www.teladochealth.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dawn.ns.cloudflare.com",
+        "art.ns.cloudflare.com"
+    ]
+}

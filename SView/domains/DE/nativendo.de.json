@@ -1,0 +1,239 @@
+{
+    "domain": "nativendo.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00235,
+    "sites": 23,
+    "subdomains": [
+        "d",
+        "c",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nativendo\\.de\\/cds\\/delivery\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00235,
+            "cnames": [],
+            "responseHashes": [
+                "b27d07fd49512db121c2b7f21d96cc3549175b476ec6f428aa4e18e3b114b89a",
+                "013f1f828db9fc426b1473a690cb347f2902ba79bca1f0d6bff9d091a6c81c66",
+                "25c30667c1023a7a84e6b512a2f7739be4f6798ee7ff09548f9a66845f86fc5f",
+                "bd519752c7257b2d4d799dc199be591813b33ca2045315309a08296103f92e00",
+                "4d3d6786364e481711d3f0c08d9338e49ac20ba232830348b69ec982314ed627",
+                "38677db87cc5c237ecc62f2adfc8487d0a5bd8dd033060230b5b5eb9ac748719",
+                "230d3447b335c9f681d87d1210e05ca37c947a6863e1761be2ed35b07ffc72b4",
+                "9f32d5318863b70d47b5326d213a76e547791033bdcb31b67c4dce0bb274ead3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.lateinheft.de",
+                "www.zeitjung.de",
+                "www.quotenmeter.de",
+                "www.schwarzwaelder-bote.de",
+                "www.verlagshaus-jaumann.de",
+                "www.szbz.de",
+                "www.weser-kurier.de",
+                "osthessen-news.de",
+                "www.tag24.de",
+                "www.esslinger-zeitung.de",
+                "www.idowa.de",
+                "www.kurier.de",
+                "www.krzbb.de",
+                "www.frankenpost.de",
+                "www.nw.de",
+                "www.np-coburg.de",
+                "www.noz.de",
+                "www.stuttgarter-nachrichten.de",
+                "www.insuedthueringen.de",
+                "www.zvw.de"
+            ]
+        },
+        {
+            "rule": "nativendo\\.de\\/cdn\\/asset\\/js\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00235,
+            "cnames": [],
+            "responseHashes": [
+                "79943d5c6c4c411f3f7a500ae657008eadb0f3c7b8238a134089c51894a7eec5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.zeitjung.de",
+                "www.lateinheft.de",
+                "www.weser-kurier.de",
+                "www.np-coburg.de",
+                "www.verlagshaus-jaumann.de",
+                "www.insuedthueringen.de",
+                "www.stuttgarter-nachrichten.de",
+                "www.quotenmeter.de",
+                "www.idowa.de",
+                "www.nw.de",
+                "www.esslinger-zeitung.de",
+                "www.schwarzwaelder-bote.de",
+                "www.noz.de",
+                "www.kurier.de",
+                "www.pz-news.de",
+                "www.stuttgarter-zeitung.de",
+                "osthessen-news.de",
+                "www.tag24.de",
+                "www.shz.de",
+                "www.frankenpost.de"
+            ]
+        },
+        {
+            "rule": "nativendo\\.de\\/nativendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "013f1f828db9fc426b1473a690cb347f2902ba79bca1f0d6bff9d091a6c81c66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lateinheft.de",
+                "www.quotenmeter.de"
+            ]
+        },
+        {
+            "rule": "nativendo\\.de\\/cds\\/delivery\\/init\\/gdpr\\/\\/gdpr_consent\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5da1713854741b94c6ac360f0a40a8baa7d67d84b9c8032868e43076a3043d2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lateinheft.de",
+                "www.zeitjung.de"
+            ]
+        },
+        {
+            "rule": "nativendo\\.de\\/cdn\\/asset\\/js\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a35733d0b575a5ac5b9354ef67203026c0d93a580ac48efaf5843776a75572ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lateinheft.de",
+                "www.zeitjung.de"
+            ]
+        },
+        {
+            "rule": "nativendo\\.de\\/cdn\\/asset\\/css\\/nativendo\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a511301c01f3d961eaaae4675da5914022721cb5ed136e8d282b739771de3600"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lateinheft.de",
+                "www.zeitjung.de"
+            ]
+        },
+        {
+            "rule": "nativendo\\.de\\/cds\\/delivery\\/get\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "aa6bf4f7b4866896fd9a8f4a380fddb178306cae2ae1ec668569bb88d4fbb2e9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lateinheft.de",
+                "www.zeitjung.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 52,
+        "Stylesheet": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns.inwx.de",
+        "ns2.inwx.de",
+        "ns3.inwx.eu"
+    ]
+}

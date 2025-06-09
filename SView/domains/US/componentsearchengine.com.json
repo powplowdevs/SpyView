@@ -1,0 +1,112 @@
+{
+    "domain": "componentsearchengine.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "arrow",
+        "onsemi",
+        "te",
+        "dbroberts"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "componentsearchengine\\.com\\/icon\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "arrow",
+                "onsemi",
+                "te"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "4d141f3fd09da68fa09ae271b353c3d5f357ff23f60cfe44dffebe6453edccc2",
+                "2ed6222627599e49d8a1455c65f91984925f5356970eccdf0eba516d676bc5c9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arrow.com",
+                "www.onsemi.com",
+                "www.te.com"
+            ]
+        },
+        {
+            "rule": "componentsearchengine\\.com\\/common\\/plugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "arrow",
+                "dbroberts",
+                "onsemi",
+                "te"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "2c4fccfdb70d57868ff9c414a7c4bfe775ad66f00aa8044afe32fee8c9b7a79e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arrow.com",
+                "www.dbroberts.com",
+                "www.onsemi.com",
+                "www.te.com"
+            ]
+        },
+        {
+            "rule": "componentsearchengine\\.com\\/widget\\/icon",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2d6b268ea5cf10172d749e9d1f43d9cfa098f1aa303d22109391a0fefeb45a94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "datasheetarchive.com",
+                "www.datasheetarchive.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns1.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com"
+    ]
+}

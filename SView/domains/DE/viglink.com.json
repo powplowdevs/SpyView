@@ -1,0 +1,159 @@
+{
+    "domain": "viglink.com",
+    "owner": {
+        "name": "Sovrn Holdings",
+        "displayName": "Sovrn Holdings",
+        "privacyPolicy": "https://www.sovrn.com/sovrn-legal-policies/",
+        "url": "http://sovrn.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "viglink\\.com\\/api\\/vglnk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "71032845ccbdd843bb7ae8771543dd74c43e6351b350344e1d60eaed3d988d10"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stevehoffman.tv",
+                "petapixel.com"
+            ]
+        },
+        {
+            "rule": "viglink\\.com\\/api\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f60dd09ce88a8c0f18552f154aaad91bb6e17ac4ddda7af6399d00c13ea6d1c2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stevehoffman.tv",
+                "petapixel.com"
+            ]
+        },
+        {
+            "rule": "viglink\\.com\\/api\\/sync\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stevehoffman.tv",
+                "petapixel.com"
+            ]
+        },
+        {
+            "rule": "viglink\\.com\\/api\\/sync\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stevehoffman.tv",
+                "petapixel.com"
+            ]
+        },
+        {
+            "rule": "viglink\\.com\\/api\\/domains",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "164bac47c4cda7524da8a12d7512e0cb21e8652b203a1e952f50da35f6edd6bc",
+                "9b53b89fc409d9c5d3a00cede3a0fb6d21276f97a3aed648040ca771468458a5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stevehoffman.tv",
+                "forums.stevehoffman.tv",
+                "petapixel.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 5,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1677.awsdns-17.co.uk",
+        "ns-978.awsdns-58.net",
+        "ns-1524.awsdns-62.org",
+        "ns-270.awsdns-33.com"
+    ]
+}

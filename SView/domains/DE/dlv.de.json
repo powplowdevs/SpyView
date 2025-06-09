@@ -1,0 +1,56 @@
+{
+    "domain": "dlv.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "apicdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dlv\\.de\\/wetterapi\\/v1\\/ort",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apicdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "3fed31476763ae3b17ca70830d2f2a0cb3d0df8a33776f61a2f5fa1b8c8bce27",
+                "0de59f6f697dc111fa9e1d71a03e29089cb319847f5c01b875c1b9eb718c82b7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agrarheute.com",
+                "www.pirsch.de",
+                "www.wochenblatt-dlv.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns1a.dodns.net",
+        "ns2a.dodns.net"
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "domain": "cleantalk.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000918,
+    "sites": 9,
+    "subdomains": [
+        "moderate"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cleantalk\\.org\\/ct-bot-detector-wrapper\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "moderate"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "9098d0aa28cd755dbb5f9ba0316caf7af553bdab127f913bfd930c0f85f48315"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexicanum.de",
+                "schroederdennis.de",
+                "snootysims.com",
+                "wolles-elektronikkiste.de",
+                "www.gdz.bplaced.net",
+                "www.lebegeil.de"
+            ]
+        },
+        {
+            "rule": "cleantalk\\.org\\/1\\.1\\.36\\/ct-bot-detector\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "moderate"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7,
+                "window.localStorage": 7,
+                "Navigator.prototype.webdriver": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.cookieEnabled": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "04b8e45a557146e361286c0e5955f9ff4a0b9a5604314b91f0a8a6983ebc00ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexicanum.de",
+                "schroederdennis.de",
+                "snootysims.com",
+                "wolles-elektronikkiste.de",
+                "www.gdz.bplaced.net",
+                "www.lebegeil.de",
+                "www.virtualizationhowto.com"
+            ]
+        },
+        {
+            "rule": "cleantalk\\.org\\/api3\\.0\\/frontend_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "moderate"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexicanum.de",
+                "schroederdennis.de",
+                "snootysims.com",
+                "wolles-elektronikkiste.de",
+                "www.gdz.bplaced.net",
+                "www.lebegeil.de",
+                "www.virtualizationhowto.com"
+            ]
+        },
+        {
+            "rule": "cleantalk\\.org\\/api3\\.0\\/frontend_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "moderate"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "1358c21d47aa8840c15ed06bd97e3c25cf115983201e62f7f6ae4be8da6c93bb",
+                "cac94ab850898637cd0dfcaf98a3d36d18613f6e7f62d523907324b0e6394d4b",
+                "5e3c10a663fbeba203fd2e7df330e21fc840f5b4e4b9b0407ca33093bda33a2b",
+                "3f3a3abc23e8f2e7b6c73b26a6d4566ed92b9d1572b583c9b41568e34bba57d7",
+                "12e0bbc91db065267e67192a42b529f009a67b6a7b629df8b2e9f68092e1d24e",
+                "8979d46733f13c09e2ba430b6ad047e7f4d2eb400b16423748b69aeeaa5c29c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexicanum.de",
+                "schroederdennis.de",
+                "snootysims.com",
+                "wolles-elektronikkiste.de",
+                "www.gdz.bplaced.net",
+                "www.lebegeil.de",
+                "www.virtualizationhowto.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Preflight": 7,
+        "XHR": 7
+    },
+    "nameservers": [
+        "ns-1057.awsdns-04.org",
+        "ns-1897.awsdns-45.co.uk",
+        "ns-402.awsdns-50.com",
+        "ns-702.awsdns-23.net"
+    ]
+}

@@ -1,0 +1,506 @@
+{
+    "domain": "adform.net",
+    "owner": {
+        "name": "Adform A/S",
+        "displayName": "Adform",
+        "privacyPolicy": "https://site.adform.com/privacy-center/overview/",
+        "url": "http://adform.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00408,
+    "sites": 40,
+    "subdomains": [
+        "adx",
+        "cm",
+        "track",
+        "server",
+        "s2",
+        "a1",
+        "s1",
+        "c1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adform\\.net\\/adx\\/openrtb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adx"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appleinsider.com",
+                "de.wukihow.com",
+                "exxpress.at",
+                "search.ch",
+                "weltwoche.ch",
+                "www.24auto.de",
+                "www.20min.ch",
+                "www.finanzen.at",
+                "www.finanzen.ch",
+                "www.kimovil.com",
+                "www.schweizer-illustrierte.ch",
+                "www.tagesanzeiger.ch"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/cookie",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appleinsider.com",
+                "songmeanings.com",
+                "www.oracletutorial.com",
+                "www.pythontutorial.net"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/serving\\/scripts\\/trackpoint\\/async\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "track",
+                "server"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "22aea14693655e0fa33cc4aa8606714bcd6cfc66c6bc320ee70661116034ad1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batterie24.de",
+                "brill.com",
+                "mammutmarsch.de",
+                "www.leguano.eu",
+                "www.macerkopf.de",
+                "www.sunshine-live.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/banners\\/scripts\\/st\\/trackpoint-async\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s2"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "22aea14693655e0fa33cc4aa8606714bcd6cfc66c6bc320ee70661116034ad1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "adformfrpid": {
+                    "ttl": 2592015,
+                    "length": 19,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batterie24.de",
+                "forum.congstar.de",
+                "mammutmarsch.de",
+                "www.bikes.de",
+                "www.flypgs.com",
+                "www.leguano.eu",
+                "www.macerkopf.de",
+                "www.pta-in-love.de",
+                "www.smartbrokerplus.de",
+                "www.sunshine-live.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/Serving\\/TrackPoint\\/",
+            "cookies": 0.000612,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "fccf2d760eff07797e8317eb1eb5f8c3a41f7cee98c1277833b92d5502cd7dfe",
+                "47d3bdc8ad6cee2f1cf95eb820f4080cac33f5df23f2ad3bd6f310f70caffcf1",
+                "368f8e2729611c6661128510e25b6260051fd22a3223ca9ca50ae15a0347e471",
+                "3bf3f024b4fd85afdcb19b4089c766b977c441be7fd633f90fc0286efc2996b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batterie24.de",
+                "www.bikes.de",
+                "www.flypgs.com",
+                "www.leguano.eu",
+                "www.pta-in-love.de",
+                "www.smartbrokerplus.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/adfscript\\/",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track",
+                "a1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "5ecd7732181c9105bb917a3bb2447aca2d5c2812f28bfc2f0fe299006a8e350c",
+                "6f46d5d86410618b87ca5a1d69325703f9fe18924e0db0285963a232e76cee55"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deutsche-wirtschafts-nachrichten.de",
+                "livetv.sx",
+                "www.vielfliegertreff.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/mink\\/634\\/s1\\.adform\\.net\\/bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livetv.sx",
+                "www.vielfliegertreff.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/adfserve\\/",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a1",
+                "track"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livetv.sx",
+                "www.vielfliegertreff.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/csimpr\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a1",
+                "track"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livetv.sx",
+                "www.vielfliegertreff.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/adx\\/openrtb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "songmeanings.com",
+                "www.rajce.idnes.cz"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/cookie",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astroportal.com",
+                "www.kita.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/Serving\\/TrackPoint\\/",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikes.de",
+                "www.eliteprospects.com",
+                "www.hanfgartenshop.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/adfserve\\/",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "055d6847897c3b4b7fc4abbe80556b5a0b1994a384ca0a42bf376ea506990546",
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boerse-express.com",
+                "www.boerse-express.com",
+                "www.eliteprospects.com"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/serving\\/cookie\\/match",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moma.org",
+                "www.moma.org"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/imatch\\/plf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pta-in-love.de",
+                "www.pta-in-love.de"
+            ]
+        },
+        {
+            "rule": "adform\\.net\\/serving\\/cookie\\/match\\/",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techniker-forum.de",
+                "www.techniker-forum.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud",
+        "Audience Measurement"
+    ],
+    "performance": {},
+    "cookies": 0.00204,
+    "topInitiators": [
+        {
+            "domain": "ad-srv.net",
+            "prevalence": 0.14516129032258066
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.12903225806451613
+        },
+        {
+            "domain": "adnz.co",
+            "prevalence": 0.08064516129032258
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08064516129032258
+        },
+        {
+            "domain": "bidmatic.io",
+            "prevalence": 0.04838709677419355
+        },
+        {
+            "domain": "ad4m.at",
+            "prevalence": 0.04838709677419355
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.04838709677419355
+        },
+        {
+            "domain": "optad360.io",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "livetv852.me",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "ringier-advertising.ch",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Fetch": 12,
+        "Document": 4,
+        "Script": 29,
+        "Ping": 2,
+        "XHR": 2,
+        "Image": 14
+    },
+    "nameservers": [
+        "a1-125.akam.net",
+        "a10-66.akam.net",
+        "a13-64.akam.net",
+        "a11-67.akam.net",
+        "a20-66.akam.net",
+        "a14-65.akam.net"
+    ]
+}

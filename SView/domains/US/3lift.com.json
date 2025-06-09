@@ -1,0 +1,734 @@
+{
+    "domain": "3lift.com",
+    "owner": {
+        "name": "TripleLift",
+        "displayName": "TripleLift",
+        "privacyPolicy": "https://triplelift.com/privacy/",
+        "url": "http://triplelift.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0492,
+    "sites": 6957,
+    "subdomains": [
+        "tlx",
+        "eb2",
+        "dmpsync",
+        "pdmp.dcapi.dmp",
+        "pdmp.papi-public.us-east-1.dmp",
+        "pdmp.papi-public.eu-central-1.dmp"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "3lift\\.com\\/header\\/auction",
+            "cookies": 0.0181,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tlx"
+            ],
+            "apis": {},
+            "sites": 2628,
+            "prevalence": 0.0186,
+            "cnames": [],
+            "responseHashes": [
+                "0535c3bb3a17e4ac0fb7d29214d2181275662129dc2bdd2a89c35934e9fc5ba5",
+                "da0c10bbce371bbd925c2927f2b4fe89bbc59adae7222d36df23597a99924b71"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0027020144861928472,
+                "_li_dcdm_c": 0.007639203259393391,
+                "ncmp.domain": 0.00034659348121321865
+            },
+            "exampleSites": [
+                "arstechnica.com",
+                "bhg.com",
+                "biblehub.com",
+                "dictionary.cambridge.org",
+                "dictionary.reverso.net",
+                "finance.yahoo.com",
+                "goodhousekeeping.com",
+                "health.usnews.com",
+                "mashable.com",
+                "mobile-dictionary.reverso.net",
+                "www.castleconnolly.com",
+                "www.miniplay.com",
+                "www.royalsreview.com",
+                "wind.willyweather.com",
+                "surabaya.kompas.com",
+                "www.tapology.com",
+                "www.iwastesomuchtime.com",
+                "www.eadt.co.uk",
+                "ndnation.com",
+                "doom.fandom.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/sync",
+            "cookies": 0.00711,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 1222,
+            "prevalence": 0.00864,
+            "cnames": [],
+            "responseHashes": [
+                "b1b892441175be280521db236bb2c4302679ef19652ccd6383be83ab559fe98e",
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+                "47af927586dffc6cb30611140f187b6490216eaee6ffec12c2f1ff0f48c458a5",
+                "3e974674af8308c3df40820e06dd79aae7b88cded9f971c83c5ec28f3909b4f5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpp": 0.00014146672702580352,
+                "am_gpp": 0.00010610004526935264
+            },
+            "exampleSites": [
+                "247sports.com",
+                "dictionary.cambridge.org",
+                "dictionary.reverso.net",
+                "finance.yahoo.com",
+                "patch.com",
+                "slate.com",
+                "thechive.com",
+                "time.com",
+                "whatismyipaddress.com",
+                "www.dailydot.com",
+                "www.swedespeed.com",
+                "www.optimaforums.com",
+                "pontoonopedia.com",
+                "www.reelnews.com.ng",
+                "www.eliteguias.com",
+                "tools.pdf24.org",
+                "tokubai.co.jp",
+                "sciencesensei.com",
+                "timeless-hairstyles.com",
+                "www.piloteers.org"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/header\\/auction",
+            "cookies": 0.00217,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tlx"
+            ],
+            "apis": {},
+            "sites": 313,
+            "prevalence": 0.00221,
+            "cnames": [],
+            "responseHashes": [
+                "0535c3bb3a17e4ac0fb7d29214d2181275662129dc2bdd2a89c35934e9fc5ba5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000120246717971933,
+                "_li_dcdm_c": 0.00042440018107741057
+            },
+            "exampleSites": [
+                "issuu.com",
+                "finearttutorials.com",
+                "www.fordownersclub.com",
+                "www.metcheck.com",
+                "canvasrebel.com",
+                "www.halfmarathons.net",
+                "social.techjunkie.com",
+                "www.biggestuscities.com",
+                "greaterlongisland.com",
+                "www.videogamer.com",
+                "crossplaygames.com",
+                "www.meter.net",
+                "www.worldjournal.com",
+                "nowhabersham.com",
+                "silodrome.com",
+                "ledgernote.com",
+                "www.bunsinmyoven.com",
+                "www.winnieowners.com",
+                "www.pocus101.com",
+                "oursaltykitchen.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/getuid",
+            "cookies": 0.000481,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 94,
+            "prevalence": 0.000665,
+            "cnames": [],
+            "responseHashes": [
+                "2fce2feb1cb59a8c53b5b46d1d758949090324d34b2a941a972240d6ccf63db6",
+                "fe0c29c68f4a32e0104599f337ea80333e5366c517a6769567a9b6829484e991",
+                "c1f75f8ac04da8c983d91c1cad7732f7bf24b698268b9a5527353117a5a1d25a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.timeanddate.com",
+                "fadeawayworld.net",
+                "www.magicbabynames.com",
+                "scroll.in",
+                "www.emerils.com",
+                "www.dnaindia.com",
+                "deadspin.com",
+                "www.savannahnow.com",
+                "www.airliners.net",
+                "www.gasbuddy.com",
+                "www.uticaod.com",
+                "singjupost.com",
+                "www.medicaldaily.com",
+                "fox11online.com",
+                "www.eurogamer.pl",
+                "alittlesparkofjoy.com",
+                "www.montgomeryadvertiser.com",
+                "www.ibtimes.co.uk",
+                "www.nova.fr",
+                "symptoms.webmd.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/getuid",
+            "cookies": 0.0051,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2",
+                "dmpsync"
+            ],
+            "apis": {},
+            "sites": 755,
+            "prevalence": 0.00534,
+            "cnames": [],
+            "responseHashes": [
+                "1cc0f34da66aa6c5eb411685ba8e08835e72eb5850c2f136ba9cc5b4e8c62d05",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+                "c956a8bbf43bb56f60d1beefcc5a70f2cb0725083a00e8a0daf423176509fd18",
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+                "569f9f5278e9d64a217bf9161031f2368a0eeacb50337a4bac667efc73990240",
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda",
+                "370dbc0a7e85181d81ecf29999a4782fc0fde9621e538b4d17887e2d1af1522d",
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__ATA_tuuid": 0.00024756677229515617
+            },
+            "exampleSites": [
+                "hollywoodlife.com",
+                "thehill.com",
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.usatoday.com",
+                "www.r1-forum.com",
+                "www.glockforum.com",
+                "www.subaruforester.org",
+                "www.mansfieldnewsjournal.com",
+                "www.thefamouspeople.com",
+                "www.mesrecettesfaciles.fr",
+                "www.ohiogamefishing.com",
+                "www.shreveporttimes.com",
+                "www.fourfourtwo.com",
+                "cowboyswire.usatoday.com",
+                "bundangentot.wordpress.com",
+                "linuxhandbook.com",
+                "1millionideas.com",
+                "www.460ford.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/sync",
+            "cookies": 0.000516,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 78,
+            "prevalence": 0.000552,
+            "cnames": [],
+            "responseHashes": [
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "OTGPPConsent": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "popularmechanics.com",
+                "thespruceeats.com",
+                "www.cosmopolitan.com",
+                "www.lifewire.com",
+                "www.mapquest.com",
+                "www.nytimes.com",
+                "www.thespruceeats.com",
+                "www.thespruce.com",
+                "www.thoughtco.com",
+                "www.urbandictionary.com",
+                "www.productreview.com.au",
+                "www.allpeoplequilt.com",
+                "www.verywellfit.com",
+                "extratv.com",
+                "www.verywellhealth.com",
+                "delish.com",
+                "www.countryliving.com",
+                "www.learnreligions.com",
+                "play.howstuffworks.com",
+                "www.womenshealthmag.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/xuid",
+            "cookies": 0.00937,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 1456,
+            "prevalence": 0.0103,
+            "cnames": [],
+            "responseHashes": [
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+                "2fce2feb1cb59a8c53b5b46d1d758949090324d34b2a941a972240d6ccf63db6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dtm_token": 0.0001768334087822544
+            },
+            "exampleSites": [
+                "draxe.com",
+                "thespruceeats.com",
+                "www.cosmopolitan.com",
+                "www.justanswer.com",
+                "www.lifewire.com",
+                "www.mapquest.com",
+                "www.nytimes.com",
+                "www.thespruceeats.com",
+                "www.thespruce.com",
+                "www.thoughtco.com",
+                "naturesseed.com",
+                "www.redcross.org",
+                "www.usfca.edu",
+                "www.qdoba.com",
+                "www.horseillustrated.com",
+                "reference.medscape.com",
+                "www.outkick.com",
+                "www.elkay.com",
+                "locations.boscovs.com",
+                "www.chacos.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/web\\/visit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pdmp.dcapi.dmp"
+            ],
+            "apis": {},
+            "sites": 190,
+            "prevalence": 0.00134,
+            "cnames": [],
+            "responseHashes": [
+                "293551a28c5aa12199db2273a236c8e394bfd3865fc25c5b4682b54e208cb525",
+                "663a64300903e3ce1e65c94e3745865ececf281da7d8603e979a8c6fb3da38bf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.legacy.com",
+                "paleogrubs.com",
+                "mobilematters.gg",
+                "www.architecturecourses.org",
+                "canineweekly.com",
+                "wherearethosemorgans.com",
+                "sarahscoop.com",
+                "obits.lehighvalleylive.com",
+                "www.salon.com",
+                "northernnester.com",
+                "blogchef.net",
+                "www.cougarboard.com",
+                "www.macgamerhq.com",
+                "gamerviolet.com",
+                "www.fox61.com",
+                "scenicstates.com",
+                "pestsamurai.com",
+                "www.mymydiy.com",
+                "caringforaseniordog.com",
+                "faunafacts.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/v1\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pdmp.papi-public.us-east-1.dmp",
+                "pdmp.papi-public.eu-central-1.dmp"
+            ],
+            "apis": {},
+            "sites": 222,
+            "prevalence": 0.00157,
+            "cnames": [],
+            "responseHashes": [
+                "66408f267ad65b51c463b5211902602e048f971952c8259b5c2e117776c1d3cd",
+                "5fe4edd9e4f5ee997c3181427e51c95dcc33e560203edc1be70d1517fb54a649",
+                "6b964062fadea666a8d8f01da012bc5934d4f3f79b7d3dc90185ff1217db91c5",
+                "c28139228873ff1c1447699457133eec1a6689fadd110069ecbc71c5fbf7dc0c",
+                "1e6b4764953ef21b4effc75128e5c7043d479fdfa64919d5a28a4bb11fa8c3a6",
+                "bae5d54457bcef1272c87c424842a4a8a995f2fc5a2d860e9e63df1628244690",
+                "d443a524db35d1c83f062c86d5fb944ff643d7202f33bc4bc9d82a8aefc9f684",
+                "86018b942ab0f26ccac9a91d3382c5a14c28a6ec95b1342a3bf455f145f92971",
+                "577251be0c4c95fc229b92440214be394311938a2800d1ae96b5d8e3e5002a5e",
+                "87bab864ca4f6e47607eba9525d6a3f17462d7d12c617a845a64be67e33a8726",
+                "0d80bbbb6743ce425e70f6682a50732666884564b68165a57aa70442347579ea",
+                "a72b7117f4936b4644fbd6c24428b18a533d44f0d3e632b56ca184a3c7234d91",
+                "541c93fe50e5828fc7e3d980ca010a29f2620fcb07b5a516fc219ab302f49a08",
+                "4ef13444a01505ca83650cdefba4d530f8b283ae819b861ebbda7b8774f50b99",
+                "171451eedbb801a10071056b44ca7c6551980055af4da36ea7c27b6e1bb3dac1",
+                "7abc022f9d5b905463e66c4f72964e31749bca7035a77f97ba8521424e54263e",
+                "6ccec466fb75b1255009eb10061a2448af05ef3cc4c213b54d26eca973c6ce9b",
+                "5f42c85461012d0be704f4f2862a0b87ca048eccdc9270a211f40f1e65d4d589",
+                "a02de7b714b72a6726b9d69002372d7424d3a58ebb0c19bd72cfe9f21305c9bc",
+                "b182054e6556b237f9e31ef351d8441c32cd129df239b6f326643232dd58e745",
+                "c1fbd1e31017be821bea82dbeb6327bee4613a32d85a07e1da7b990a2420f5f2",
+                "2ef4e2b4121e04dddb1e056122ff59b3754750ce48dc1aa3c660d35d8d4f4bff",
+                "3363b3657190c62cd3e30d895bf598ddf0b86a98ecf8080aa7c8a8570145728c",
+                "7503f44c6f95ea51e8c01b538feb5a337da0a56836d192da4f8075fb6f82b734",
+                "3593db703009d665fecacfa3c439e871dd22dd0fc2c770e3f87d5f93f1c954f2",
+                "0263128ea8c76f7b780af95c36b839ed0e1d35a1d4b0721e61848db5e0301e2b",
+                "8d0d1f88424a02d1023a81228df88a8c58580632164d0e1eef00a333cf8197bd",
+                "b146caa3b6b07eb66848bb07a863691cd8dae83aa3589e98ac73628e37759238",
+                "7167d2ddc3ca846202dccbe5988952f8679ee880751dcdb6baac41527677c2e0",
+                "ec3afe54acb3336970375e427b7d118a1fe6d75d98bae50524ae80e08b2b8afe",
+                "aff16e2b0b54236e0265d8e6670aed1a1df542aabd263bb3e65e65d3dfdd3376",
+                "ffa13cc088126727e998b3a41fc7f226a76a6b12d6a3d67d9f614e3e9a4c6c71",
+                "7bf3e6ec69f917e5f417b68f6bf8b9465b44f783e34dfd45af032c0d56888b48",
+                "8f2fca409b2e278ce8879acd4d82a648bbf48ad27221a9604ff051b04e68442d",
+                "94131c866065e57fb4c2d8cf9e37742a32e9078ce908654bdad13cda53e0b2f0",
+                "3aeb7bae15fe16e00a592138075acdee6b6c368f03d9d6c6f7e4d1c8984de5d8",
+                "024b38f2c3830ba30e4a82ccc31e5e9e0e4024f11b2bbc62c03177be246e77f9",
+                "234dac82acc496d6d79473b3715de2d72a8f2fe6c301b7aa08ec7071ec832ecf",
+                "d16e521e80a68f15cc9b3a7e9ab4f8a8372b9375e3986a4107ca17dd55df83a5",
+                "9a3c7cf8855f74cb40add243e2593d02826954cf7481f7807d987ac22e6fde48",
+                "b376bfc918373f8259196f2b01267dc76ce66a3c3f4a58aa0b50c9bac30641f7",
+                "e15fe866d9ee5a8d82273d0b912ec4940930764ef13467bd8c5025d1ae2bebd5",
+                "f65323d380362bb202834d0e3daea5ac2558d4a527b3c2da9d9de8d19a137d43",
+                "316ce23c22a1774745192e291966300ffeeb0b3831dad59d5aa6c26baa34e32c",
+                "f17371d79938b7951aedad4730a3a52a9df27561151010ba8f824a11984e6856",
+                "2a776d63715655a7d9843844c86938e8be3ece93c6860fe41b43c0e784683ebb",
+                "6e6b06e7cba3cc42a34bd9ce5024358f713d82d4057edb4d8a03c3c5e68dd036",
+                "748e2a351565a11a93189dffbe20a7ed585de575310e47c2f433bd2bd624c928",
+                "a69b2cc104f44f41046ffe713e403a842820003c7ea2858162b18f968e3296d4",
+                "a0d9cfe44b95f7c5d7df9967ef04534ad5d810212ea827e92b1e1e7e97fef4b6",
+                "64467d557dbb7813f71d96ec2a49027da0fef63a31bb74e0d524716770a066bd",
+                "3f9d02eee248475b9a45a2e48348d9832c1005e22d560c71b1cbbc12afceca46",
+                "aa148f68e649f205e8edd66287a4ba86670ac76310666b2648a6d6ab3eecfe29",
+                "b0eb449774a93d9121d7caf3f824c607978c624b15d2dd3dc13098818c82e0de",
+                "ce984a0d4d5a5bfbb97221715f4980f2d27f6536b5fe0b16a97cef17e00cf95a",
+                "43d78327fb0aae9d05247bc41d4da155a794e528f278206d640a5e7cf972e2fa",
+                "61e181b7e6bb1645afd183b20f49e92380270d87a55082d367b3d4a0b652a0ff",
+                "e44da4319a013fde71d29e86a26bccfc936be157ed2d0f90cd7f185b5a4a92f7",
+                "14de715c07afd9dd50938a76b5ada6889be36d79269bd5ec9f6e1b176b231058",
+                "8a0db3c3b002e7d8115484246941ceb2e0d17e226c9c057af988d75e9e636512",
+                "f18b3eddc222bd476cf6d9c5d8c3e4c8f91a3916ddf3a917d6c47fc05488dee2",
+                "ca102611b6d96c6490e2092f14bd8935ba9b9c7112b6caf590683fab66e914dd",
+                "70ca45efa0a5287c85eb7461f9c0728c025e141f431765dee43e45177f47f271",
+                "e5812ad8556e17d791c2cc8ea04abaea8257ffe39e891326362d5c8320529552",
+                "55bad1b5a432e90b3ba5fba5a81f638d2953079797204945dfac861e57bdcdba",
+                "544e59d792e1205c4a8596e69087d594b2434d4ebb03384412aba316a974e404",
+                "ed079c353368260ab2016ee22579df65640fb6667cf6ece1f1ff44228fcc4ac7",
+                "06f4da29fe40ab72cc990cee07c64733f8826c671f98d260ea67970d34a1a794",
+                "abc54a95ac41457b83198f5a6f17a532b329be4884d96124f2f49e2a792afe18",
+                "2e874bc3989f54ca24046069b079adae96d5c6036c769e3cd53af710ffbd43b7",
+                "66687a87d93791b827b18be0544ff0669671920d20b8ebcc1a1f29d267690819",
+                "d925f07da5265baa6f9f8c4389a5228c8ecd56ab5a27a1358f75f396a5aaf0c6",
+                "a71edb8ea3ab9561a4f94c36d4c3290069bde78c0a469fd2585f6fc6e44df8d2",
+                "cbf6425ffc860fd595c0e26bdadb6124b81a35b9435ea1da42c3f0ac7211fac0",
+                "7de0e310ee6db773dbcb9a34a07652196400e377fb2d513926edba9a3e279746",
+                "3c883828f95cbd63057dd19041e189b868eaa46005be779d09f9b1631b353487",
+                "630403bc28396979d456c95e0079d8292a51d99927a2fe2cbb2c93d0db287566",
+                "03059dbedb8d230bddda78d6c9fc12ea527ad389e0be5c5dc2f18410249f34dd",
+                "5368fecc69b2b1d60eec4e275df26ede671aa5ba2ea30e988b2f29c68066beca",
+                "558932decb501627a80e0d89a5a721a049a1db4c6b61e22ec8e35319c437b2f6",
+                "2066909eccc5d8bc50b5baa8cfa97ef036afe12785a67ed4625f81b70ba3e93e",
+                "d0922dbbef52e212e64f4ec3bca0803e6465754d402fc5c6392f1832c0f5c1e6",
+                "9d55e59ca2f0b4f0caa17a5173310b5a7ee3e5b52a66ddcd894bac7240008a20",
+                "12c1c7c5131ac551b1d9cc0d26a81fccbe611c40c6cd8ed83fd63203c782dc56",
+                "9fa95e7e0df563a02971bddded1a5907f506fad7ff69859bd50cc1e7fc14e59b",
+                "8ae14d27ba4137d2057bad244d54d83bcb29de938cea54303f0c3fc6102e7f11",
+                "8fb485ce1101655c58db95e96f8e0c3c608200f4d12418ab58036c5b358d489e",
+                "d33744be77914923726026935eaab976e6383a1836353fb289e3ca8283bdb68b",
+                "a11787102bf20c4de8ac898b445a4864e26e1c2ae731ef0addeaa1efa770d90e",
+                "65fa686e04cb9ba0d5a3f212df4bdca1ff1a1d9c06e4da70868a5c5fcd5773b4",
+                "c0124bf481dd95b831a49213f04a3406cf838396012bb806984f3aef318569e5",
+                "6099b883ed30675956a83aee00258e8ab5a9106f1886804e8a0cb8f330f74bf2",
+                "f5c07ffeb444a4bb602773c830238360c821f2d7e551539f6aff5589fe5e8c69",
+                "4acec4105a7095dcf6dbe491d316e6367fd7bb225f5fbe58db8975a734cc5937",
+                "838454ab9cce13f0d57231a96f8a29207a8f1933292a3b6a9ec2b716cfdbcc42",
+                "804b6b0da0434468d48f6a58c982aadabf8d1098bd243ed6d2b8aa3d87d35eb7",
+                "e8c898144fe50a5736634c129a8698d1ef147a5d804972605735451a5adb7c00",
+                "11ec9bd1f2d7fe9c771407b45658b73f554e7ad0f4db768b11790b60576ebabc",
+                "151265ad2b9959f7fb5cb1a4aca3639e0bce07de86d8e0452d107389f12eeabb",
+                "dccb135fb25ed178f0cdefc3efd27bb427f46f8b4ad39fd94007abc6bf932eae",
+                "ec088aa98cbbe516eb10ed7c276c2e2a53f6c67692c3ca4bf894ac0689db718c",
+                "fe9bedf49ad8c8c4307e51f0d77418f0f1da0707b52d125838c72a6b94433342",
+                "a34675129f9bc77a4bdf567eba5fac0f9f8be0bae4c5fc867bb5c367ba07b085",
+                "e568962d72c42768b52413149a17f17b0177e8ccc9ae55ab8d0edfb62202482d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00002122000905387053,
+                "lotame_domain_check": 0.00011317338162064282,
+                "_li_dcdm_c": 0.00005658669081032141
+            },
+            "exampleSites": [
+                "www.legacy.com",
+                "carphrases.com",
+                "rusticwise.com",
+                "www.citationmachine.net",
+                "www.commentcamarche.net",
+                "www.hawaiistar.com",
+                "obits.dallasnews.com",
+                "www.booklistqueen.com",
+                "bambooplantshq.com",
+                "www.flowrestling.org",
+                "www.catholicicing.com",
+                "www.10tv.com",
+                "www.khou.com",
+                "www.wkyc.com",
+                "www.pestcontrolgurus.com",
+                "www.mathway.com",
+                "edhrec.com",
+                "alittlesparkofjoy.com",
+                "notices.nzherald.co.nz",
+                "www.fullmoonology.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/ingest\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pdmp.dcapi.dmp"
+            ],
+            "apis": {},
+            "sites": 82,
+            "prevalence": 0.00058,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.legacy.com",
+                "opticsmag.com",
+                "www.easybib.com",
+                "montco.today",
+                "theloopywhisk.com",
+                "simplicityandastarter.com",
+                "anywhereweroam.com",
+                "curatedinterior.com",
+                "www.macgamerhq.com",
+                "www.flowrestling.org",
+                "greengarageblog.org",
+                "literaturevaults.com",
+                "blogchef.net",
+                "notices.nzherald.co.nz",
+                "www.gardeningchores.com",
+                "dqydj.com",
+                "bakeplaysmile.com",
+                "griddleking.com",
+                "emergencyvetsusa.com",
+                "brooklynfarmgirl.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/sync\\/google\\/demand",
+            "cookies": 0.000184,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.timeanddate.com",
+                "www.sugarsaltmagic.com",
+                "scroll.in",
+                "www.pianodreamers.com",
+                "bikehike.org",
+                "www.emailnator.com",
+                "www.oxfordlearnersdictionaries.com",
+                "theturkeytraveler.com",
+                "wholenewmom.com",
+                "www.worldjournal.com",
+                "www.baby-chick.com",
+                "www.planespotters.net",
+                "www.thespeckledpalate.com",
+                "forum.leasehackr.com",
+                "www.tvmaze.com",
+                "bromabakery.com",
+                "onedishkitchen.com",
+                "int.soccerway.com",
+                "www.mindgames.com",
+                "fabulesslyfrugal.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/ebda",
+            "cookies": 0.000184,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32",
+                "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.timeanddate.com",
+                "onedishkitchen.com",
+                "www.sugarsaltmagic.com",
+                "www.pianodreamers.com",
+                "www.thespeckledpalate.com",
+                "wholenewmom.com",
+                "sixtyandme.com",
+                "www.walkscore.com",
+                "bromabakery.com",
+                "www.mindgames.com",
+                "inspiredbycharm.com",
+                "www.planespotters.net",
+                "theturkeytraveler.com",
+                "natashaskitchen.com",
+                "www.worldjournal.com",
+                "bikehike.org",
+                "letthebakingbegin.com",
+                "www.baby-chick.com",
+                "forum.leasehackr.com",
+                "int.soccerway.com"
+            ]
+        },
+        {
+            "rule": "3lift\\.com\\/px",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercato.com",
+                "www.mercato.com",
+                "www.quikrete.com",
+                "www.travelwisconsin.com",
+                "www.visitwilliamsburg.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.0466,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.08932555963434824
+        },
+        {
+            "domain": "adroll.com",
+            "prevalence": 0.08479090189303966
+        },
+        {
+            "domain": "simpli.fi",
+            "prevalence": 0.08083207370618296
+        },
+        {
+            "domain": "adthrive.com",
+            "prevalence": 0.06686820701072482
+        },
+        {
+            "domain": "primis.tech",
+            "prevalence": 0.06010220974591521
+        },
+        {
+            "domain": "htplayground.com",
+            "prevalence": 0.053192255092492625
+        },
+        {
+            "domain": "pub.network",
+            "prevalence": 0.04030806881163176
+        },
+        {
+            "domain": "opecloud.com",
+            "prevalence": 0.036565176707694526
+        },
+        {
+            "domain": "nocookie.net",
+            "prevalence": 0.036205283236162095
+        },
+        {
+            "domain": "criteo.com",
+            "prevalence": 0.032534369826531344
+        }
+    ],
+    "types": {
+        "Fetch": 3122,
+        "Document": 1316,
+        "XHR": 313,
+        "Image": 2353
+    },
+    "nameservers": [
+        "ns-131.awsdns-16.com",
+        "ns-1435.awsdns-51.org",
+        "ns-1640.awsdns-13.co.uk",
+        "ns-814.awsdns-37.net"
+    ]
+}

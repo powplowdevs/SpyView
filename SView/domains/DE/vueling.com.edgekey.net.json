@@ -1,0 +1,87 @@
+{
+    "domain": "vueling.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "apiwww.vueling.com",
+            "resolved": "vueling.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vueling\\.com\\.edgekey\\.net\\/api\\/Stations\\/GetAllStationsWithCountryName",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "apiwww.vueling.com",
+                    "resolved": "vueling.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e0013d0ec06919ec690052e9d01402533c5c85a12d84862f02c40a44627fd664"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vueling.com",
+                "www.vueling.com"
+            ]
+        },
+        {
+            "rule": "vueling\\.com\\.edgekey\\.net\\/api\\/VuelingGlobal\\/Origins",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "apiwww.vueling.com",
+                    "resolved": "vueling.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ba7156ad4f2294d44eb28386b6233b83dad54ecbd52a25e80a192e70b2aed297"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vueling.com",
+                "www.vueling.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": []
+}

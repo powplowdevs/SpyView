@@ -1,0 +1,667 @@
+{
+    "domain": "dynamicyield.com",
+    "owner": {
+        "name": "Dynamic Yield",
+        "displayName": "Dynamic Yield",
+        "privacyPolicy": "https://www.dynamicyield.com/platform-privacy-policy/",
+        "url": "http://dynamicyield.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00398,
+    "sites": 39,
+    "subdomains": [
+        "cdn-eu",
+        "st-eu",
+        "st",
+        "cdn",
+        "async-px",
+        "async-px-eu",
+        "shopping-muse",
+        "rcom-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dynamicyield\\.com\\/api\\/9878324\\/api_dynamic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6b2e09fad32e0e3393b82d08a307e5f7b6c30693cff5ff6747bc9c71f4893ab9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "contorion.de",
+                "www.contorion.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/api\\/9878324\\/api_static\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-eu"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0679e3041eb5f0a650f20f8cb15500b5c99d96cdf4e01f023ff9028532402293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "contorion.de",
+                "www.contorion.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/st",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "st-eu",
+                "st"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.00357,
+            "cnames": [],
+            "responseHashes": [
+                "d6e10107121a06624455f4b84091456c6269c5b5b3992d9591853089132e02ad",
+                "a3265412fd184f4e947cd936438b3088488270aeed2f45efa74904fad097a2d8",
+                "8f6f2bd092211d4ef157ee801df22d9ed8d48378b28d4392242d40efcda0dd08",
+                "5b68b63e1c5c380b2ad55c5a2777cd46e1c7af27c05c24ed6db72155c143865e",
+                "1cc0722361ede62ce426d90bca100ed67ef450295b5fba127ed8aff69b75d9ee",
+                "f2cca4bf0ad2c8744a11f4c8858e4fb0b1090c39b7121db75b0a55666a102b50",
+                "82e7697ffc26b7902cf28ecd70695b2d11e15a3a29326c689d5f1e2d7cfd3c23",
+                "25f6f8a0f31b089b072a25485f0f3a726b1634ed913dd37114e65d4ccdb52054",
+                "8ee7f33a59cc8271d6eec6b73da78696b354f7e820f944cf23b8e2ae749de5ce",
+                "57cf37f2812106b289076df0e779e85aae5f2ce17720073017ebe93d36634f4b",
+                "4dd91932d53c728571b305728875f2cb92388be5d264c9f75140b4f74db024b5",
+                "9df521d623f1f7d424e1d5de03aa97b0d7057c871fdf17b913eee934127158aa",
+                "9d4d2a1ea7e3e1ac6f930bc89a83203c13c2ef7aba8162e5390d9321da330b1b",
+                "565b889a4e1cfb69d44a5767d1234078f2bf211113a2f5159940f6d338ee80b7",
+                "7a2615785700600bab3e8113465b1b10ae381d665b5ccaae3c6c0fa04e46188c",
+                "edc2aef66693edd18483c625b3404871ea9e60e50e764cc724fc47aac27d87de",
+                "2a2f0112687305d40ec5b56bd29fb914aa8c606ec6ec95441f2b7fbb44537c74",
+                "68f79c03cc0798d5028c65336455c256273ac46c6e68d41b7cbb6ace66059528",
+                "a98da28ac55624b1e5411781ec3f6d7051bc752bcf4242750a084e7218530d14",
+                "090132164b038e6c1470f3401e7bed2802ed1e4312b3c7fc7abe6856c0916c63",
+                "46a2f52bdb10462c083b86db6842cd67d6244c18404361e2a2ae27656ed74a67",
+                "bbe6f5ca7ee2144ed3fc3097d98d9121e902967d8cae333afc9053a3d1d6df53",
+                "691cb3c83151c66663ddcc87ee8687b1c2405beb8385fea12f081f874b5340b2",
+                "790512707040a01ceac8340c6152ef057af1d397b22f3044dd52ec8722e052a9",
+                "531a5621d341d3480ce2d9e8aef0cd61218a09ee449589b2e2ceee7ed423b10a",
+                "e98612e2037a4f0c273666367fa47b4fc0b2fc6cde68cf50e1724d8dd9f1b951",
+                "337dce8fc3f5f3c56958e1d07033cb562386f7e4de80a32087c35f2734c93ee7",
+                "404038e30d7a76cc7ffb2aec4744da1c1f22d9535aca4a90c8e418284e32a96c",
+                "4f1bb875dc9cf0173294afecebedda6cc1ad42ce67937b2f858f83cc2a9c64c0",
+                "617e6005c86fe2582a327512d06c6067eb3facb94ee001bcf8f11a0b3c6aacca",
+                "206006ac6ab959fb5da8b8a838591b234e6a74d2aee8cfe06c9b4cd225463ffe",
+                "dfb9bcfc156918b8c0059a17bab95917ffcc25614a67482e3d959a32fc9dac2c",
+                "d38e2a26c362205731f85f1040f153af4e63c24fee0faa7da5aba57a093579f4",
+                "70f0ae79bc3479df927a2fcf592a6e831d782776dc3481ba475070a5181e535e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_dyjsession": 0.000407955124936257
+            },
+            "exampleSites": [
+                "soliver.de",
+                "ullapopken.de",
+                "sodastream.de",
+                "www.bershka.com",
+                "www.apotheke.de",
+                "www.contorion.de",
+                "www.sanicare.de",
+                "www.meinschiff.com",
+                "www.bike24.com",
+                "jysk.de",
+                "lascana.de",
+                "www.happy-size.de",
+                "www.soliver.de",
+                "www.asics.com",
+                "de-eu.wahoofitness.com",
+                "www.alditalk.de",
+                "www.hyundai.com",
+                "www.citroen.de",
+                "www.gesundheitsinformation.de",
+                "www.segmueller.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/scripts\\/2\\.53\\.0\\/dy-coll-nojq-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-eu",
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 26,
+                "Navigator.prototype.appName": 26,
+                "window.innerHeight": 26,
+                "Date.prototype.getTime": 25,
+                "window.innerWidth": 9,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 27,
+            "prevalence": 0.00275,
+            "cnames": [],
+            "responseHashes": [
+                "a1031822d1a7bcf32b60d58845f791265d5c91f7eae527d36b6da72796f3d455"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.lascana.de",
+                "www.jeep.de",
+                "www.segmueller.de",
+                "www.gesundheitsinformation.de",
+                "www.alditalk.de",
+                "lascana.de",
+                "www.tennis-point.de",
+                "www.soliver.de",
+                "www.peugeot.de",
+                "www.sanicare.de",
+                "sodastream.de",
+                "www.asics.com",
+                "www.fiat.de",
+                "www.roastmarket.de",
+                "www.contorion.de",
+                "www.citroen.de",
+                "www.amorelie.de",
+                "contorion.de",
+                "www.hyundai.com",
+                "jysk.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/uia",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "async-px",
+                "async-px-eu"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wahoofitness.com",
+                "ullapopken.de",
+                "www.apotheke.de",
+                "www.happy-size.de",
+                "www.meinschiff.com",
+                "www.ullapopken.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/var",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "async-px",
+                "async-px-eu"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wahoofitness.com",
+                "ullapopken.de",
+                "www.apotheke.de",
+                "www.happy-size.de",
+                "www.meinschiff.com",
+                "www.ullapopken.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "async-px",
+                "async-px-eu"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wahoofitness.com",
+                "de-eu.wahoofitness.com",
+                "ullapopken.de",
+                "www.apotheke.de",
+                "www.happy-size.de",
+                "www.meinschiff.com",
+                "www.ullapopken.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/dpx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "async-px",
+                "async-px-eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wahoofitness.com",
+                "www.apotheke.de",
+                "www.meinschiff.com"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/spa\\/json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "st",
+                "st-eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "49e2559e70c6999901fb05ea18bc9a0201f744973366a220f01bf7c1096dab20",
+                "c658f9b7368efef13985af43f5424c7bc6e8ddd101a43339bb45f699db35da71",
+                "87576ade07174e09647f2ba5144272515314effb71602b67ea9c4d901ea123c9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_dyjsession": 0.00030596634370219276,
+                "_dyid": 0.00030596634370219276
+            },
+            "exampleSites": [
+                "wahoofitness.com",
+                "www.apotheke.de",
+                "www.bike24.com",
+                "www.meinschiff.com"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/api\\/9879992\\/api_dynamic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8a2909bbc8114ab01f4c0610da9b7a286250a8560f0d255df30ce7db0684cb3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lascana.de",
+                "www.lascana.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/api\\/9879992\\/api_static\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-eu"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0679e3041eb5f0a650f20f8cb15500b5c99d96cdf4e01f023ff9028532402293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lascana.de",
+                "www.lascana.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/latest\\/shopping-muse-chat\\.iife\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopping-muse"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "6977e059d4d01045a26e0c0f103bb708a10069a88813cd3414b7821895172269"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lascana.de",
+                "ullapopken.de",
+                "www.happy-size.de",
+                "www.hoka.com",
+                "www.hugoboss.com",
+                "www.lascana.de",
+                "www.segmueller.de",
+                "www.tennis-point.de",
+                "www.ullapopken.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/v3\\/recommend\\/9879992",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rcom-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b43a35ca08e291663f456a2801f6ad36c9f1b14acf1a3427f3a792faaadefde3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lascana.de",
+                "www.lascana.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/api\\/9880355\\/api_dynamic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d8bf6c981094a5ce5fec7263d8fce2d9f17ec90cce50802b3d2506248f39fcbd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soliver.de",
+                "www.soliver.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/api\\/9880355\\/api_static\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-eu"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 1,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0679e3041eb5f0a650f20f8cb15500b5c99d96cdf4e01f023ff9028532402293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soliver.de",
+                "www.soliver.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/scripts\\/2\\.52\\.0\\/dy-coll-nojq-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appName": 5,
+                "window.innerHeight": 6,
+                "Date.prototype.getTime": 5,
+                "window.innerWidth": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "fb81c0d81f6b7b37aa6555604001848238c07ca475961bd702843e501a65bb99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ullapopken.de",
+                "www.bershka.com",
+                "www.bike24.com",
+                "www.happy-size.de",
+                "www.hugoboss.com",
+                "www.ullapopken.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/userAffinities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rcom-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ullapopken.de",
+                "www.ullapopken.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/v3\\/recommend\\/9876518",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rcom-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f31b13df36142abcab16c0c6ec10bbfce605c4b451a1cdb312e0906c9acc4ced"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ullapopken.de",
+                "www.ullapopken.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/scripts\\/2\\.53\\.0\\/dy-coll-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c7f221b5f34e79b8563af09c9e6999f3b90a2c3dd0d3db04a4564a614f14dca8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apodiscounter.de",
+                "www.apotheke.de"
+            ]
+        },
+        {
+            "rule": "dynamicyield\\.com\\/v3\\/recommend\\/9877903",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rcom-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2e8a944ee5ccbc151f61c8e5c5086cecc87a9caf69a2039cb06c5bfdc4d83926"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hugoboss.com",
+                "www.hugoboss.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8950276243093923
+        },
+        {
+            "domain": "ullapopken.de",
+            "prevalence": 0.0718232044198895
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.011049723756906077
+        },
+        {
+            "domain": "ccm19.de",
+            "prevalence": 0.011049723756906077
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.0055248618784530384
+        },
+        {
+            "domain": "instana.io",
+            "prevalence": 0.0055248618784530384
+        }
+    ],
+    "types": {
+        "Script": 82,
+        "XHR": 14,
+        "Ping": 16,
+        "Fetch": 13
+    },
+    "nameservers": [
+        "ns-1687.awsdns-18.co.uk",
+        "ns-409.awsdns-51.com",
+        "ns-1102.awsdns-09.org",
+        "ns-772.awsdns-32.net"
+    ]
+}

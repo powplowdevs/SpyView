@@ -1,0 +1,79 @@
+{
+    "domain": "jitsu.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "clh166bv10001l80fv68mcgcw.d"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "jitsu\\.com\\/api\\/s\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clh166bv10001l80fv68mcgcw.d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cheap-motels.com",
+                "www.cheap-motels.com"
+            ]
+        },
+        {
+            "rule": "jitsu\\.com\\/api\\/s\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clh166bv10001l80fv68mcgcw.d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cheap-motels.com",
+                "www.cheap-motels.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "clyde.ns.cloudflare.com",
+        "aron.ns.cloudflare.com"
+    ]
+}

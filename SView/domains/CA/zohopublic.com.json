@@ -1,0 +1,136 @@
+{
+    "domain": "zohopublic.com",
+    "owner": {
+        "name": "ZOHO Corporation",
+        "displayName": "ZOHO"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000837,
+    "sites": 8,
+    "subdomains": [
+        "salesiq",
+        "vts",
+        "us4-files"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "zohopublic\\.com\\/visitor\\/v2\\/channels\\/website",
+            "cookies": 0.000732,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000732,
+            "cnames": [],
+            "responseHashes": [
+                "bdf55acec42c1decbb15cf47460c0b4f8342999aa8e3af36fe533daa786377ad",
+                "94cc25c951e612d6c60bf29010b0048c86ed4994663028d8d0fd5d9e348ce41b",
+                "dd415461a3bd395feaadb2badc210bf3866efb4a8ee0dfaf42b8da3cb1d6406a",
+                "d816dd6f08df59bf6a3c9b806dce98158fef6b6332a2abf9134a52927d8376b3",
+                "f4b84b855416038ad2546a0f5dbf7a902a3a68d3b8365ad46e7e3843dfb9b225",
+                "afa202beccec4e01f4d1d126f70ab31726430b07f2bc4ea20468371a72c2f109"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebikebc.com",
+                "envodrive.com",
+                "thekingsleyclinic.com",
+                "www.blackcircles.ca",
+                "www.nationalnutrition.ca",
+                "www.ourkids.net",
+                "www.postgrid.ca"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/watchws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vts"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000523,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebikebc.com",
+                "envodrive.com",
+                "www.blackcircles.ca",
+                "www.ourkids.net",
+                "www.postgrid.ca"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_697866248_company_1657657604341_697866248",
+            "cookies": 0.000209,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [],
+            "responseHashes": [
+                "c7f16216067b4f50bd4f91cb1a430be235313db2285dc9df0d6ecddb0a11517d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebikebc.com",
+                "envodrive.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000837,
+    "topInitiators": [
+        {
+            "domain": "zoho.com",
+            "prevalence": 0.5238095238095238
+        },
+        {
+            "domain": "zohocdn.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.047619047619047616
+        }
+    ],
+    "types": {
+        "XHR": 7,
+        "WebSocket": 5,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns31.zns-53.com",
+        "ns21.zns-53.net",
+        "ns1.zohocorp.com",
+        "pdns90.ultradns.com",
+        "ns11.zns-53.com",
+        "pdns90.ultradns.net",
+        "pdns90.ultradns.biz",
+        "ns41.zns-53.net"
+    ]
+}

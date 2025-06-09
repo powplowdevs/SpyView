@@ -1,0 +1,88 @@
+{
+    "domain": "nunami.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "t",
+        "r"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nunami\\.ai\\/recova_client\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "3957483f7576799c1560e420081709cebde8cef7de027f07060d9a72718eeb1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sueddeutsche.de",
+                "ninjakitchen.de",
+                "www.ninjakitchen.de"
+            ]
+        },
+        {
+            "rule": "nunami\\.ai\\/redirect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "9bf044d090304a7e4cb25966a8408776ef61255b38f8779f97d3658bb0e103da",
+                "c16f475820303b3af4536d070298aa3803a4e4fa027248d0a7f3d05dd9239c97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sueddeutsche.de",
+                "ninjakitchen.de",
+                "www.ninjakitchen.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "dwin1.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

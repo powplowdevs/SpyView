@@ -1,0 +1,119 @@
+{
+    "domain": "stripe.network",
+    "owner": {
+        "name": "Stripe, Inc",
+        "displayName": "Stripe",
+        "privacyPolicy": "https://stripe.com/privacy",
+        "url": "http://stripe.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00174,
+    "sites": 17,
+    "subdomains": [
+        "m"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stripe\\.network\\/inner\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00174,
+            "cnames": [],
+            "responseHashes": [
+                "34a85e78b5402c253c2bc4cf64426c2b6b18601602e8a9a71568139fb3ee6599"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "billetto.no",
+                "itsfoss.com",
+                "ipinfo.io",
+                "kinsta.com",
+                "linuxhandbook.com",
+                "mubi.com",
+                "play.tv2.no",
+                "remarkable.com",
+                "samplefocus.com",
+                "socialblade.com",
+                "stackshare.io",
+                "tracker.gg",
+                "www.antikvariat.net",
+                "www.artstation.com",
+                "www.flexclip.com",
+                "www.fotor.com",
+                "www.ted.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.network\\/out-4\\.5\\.44\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 3
+            },
+            "sites": 7,
+            "prevalence": 0.000716,
+            "cnames": [],
+            "responseHashes": [
+                "bd6e71e0a8f18b3dd4bbeb6fd673015fec896bd92e17c11f3dc8fe96a06de1f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ipinfo.io",
+                "kinsta.com",
+                "mubi.com",
+                "samplefocus.com",
+                "socialblade.com",
+                "tracker.gg",
+                "www.flexclip.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "stripe.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 17,
+        "Script": 7
+    },
+    "nameservers": [
+        "ns-1087.awsdns-07.org",
+        "ns-1882.awsdns-43.co.uk",
+        "ns-423.awsdns-52.com",
+        "ns-705.awsdns-24.net"
+    ]
+}

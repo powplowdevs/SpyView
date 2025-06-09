@@ -1,0 +1,263 @@
+{
+    "domain": "odiso.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "psproxy12",
+        "ckproxy34",
+        "dkoproxy34",
+        "febproxy34",
+        "metproxy34"
+    ],
+    "cnames": [
+        {
+            "original": "cdn.passeportsante.net",
+            "resolved": "psproxy12.odiso.net"
+        },
+        {
+            "original": "matomo.croq-kilos.com",
+            "resolved": "ckproxy34.odiso.net"
+        },
+        {
+            "original": "matomo.deco.fr",
+            "resolved": "dkoproxy34.odiso.net"
+        },
+        {
+            "original": "matomo.fourchette-et-bikini.fr",
+            "resolved": "febproxy34.odiso.net"
+        },
+        {
+            "original": "matomo.meteocity.com",
+            "resolved": "metproxy34.odiso.net"
+        },
+        {
+            "original": "matomo.passeportsante.net",
+            "resolved": "psproxy12.odiso.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "odiso\\.net\\/fonts\\/psticon\\/psticon\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "psproxy12"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cdn.passeportsante.net",
+                    "resolved": "psproxy12.odiso.net"
+                }
+            ],
+            "responseHashes": [
+                "570cdf34573aff135ffc054f69acaac92876dfbb4e51c498eb7c9be6ee23fb6e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "passeportsante.net",
+                "www.passeportsante.net"
+            ]
+        },
+        {
+            "rule": "odiso\\.net\\/css\\/article\\.styles\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "psproxy12"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cdn.passeportsante.net",
+                    "resolved": "psproxy12.odiso.net"
+                }
+            ],
+            "responseHashes": [
+                "e16ffad3addf39eb5799f4c131ef46cd66b167abbb956586fd3ed5ff2822c635"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "passeportsante.net",
+                "www.passeportsante.net"
+            ]
+        },
+        {
+            "rule": "odiso\\.net\\/js\\/article\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "psproxy12"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cdn.passeportsante.net",
+                    "resolved": "psproxy12.odiso.net"
+                }
+            ],
+            "responseHashes": [
+                "e437cb0e7821094019f90b20ed581e6ad004ad02014096ec349fe8b06a77289c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "passeportsante.net",
+                "www.passeportsante.net"
+            ]
+        },
+        {
+            "rule": "odiso\\.net\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "psproxy12",
+                "ckproxy34",
+                "dkoproxy34",
+                "febproxy34",
+                "metproxy34"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "matomo.passeportsante.net",
+                    "resolved": "psproxy12.odiso.net"
+                },
+                {
+                    "original": "matomo.croq-kilos.com",
+                    "resolved": "ckproxy34.odiso.net"
+                },
+                {
+                    "original": "matomo.deco.fr",
+                    "resolved": "dkoproxy34.odiso.net"
+                },
+                {
+                    "original": "matomo.fourchette-et-bikini.fr",
+                    "resolved": "febproxy34.odiso.net"
+                },
+                {
+                    "original": "matomo.meteocity.com",
+                    "resolved": "metproxy34.odiso.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "passeportsante.net",
+                "www.croq-kilos.com",
+                "www.deco.fr",
+                "www.fourchette-et-bikini.fr",
+                "www.meteocity.com",
+                "www.passeportsante.net"
+            ]
+        },
+        {
+            "rule": "odiso\\.net\\/img\\/pst24\\/logo_default_colors\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "psproxy12"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cdn.passeportsante.net",
+                    "resolved": "psproxy12.odiso.net"
+                }
+            ],
+            "responseHashes": [
+                "5135ad1ed62972b4adf0728946b70282ba3bf009e50c289f415e082698b7f9ba"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "passeportsante.net",
+                "www.passeportsante.net"
+            ]
+        },
+        {
+            "rule": "odiso\\.net\\/matomo\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ckproxy34",
+                "dkoproxy34",
+                "febproxy34",
+                "metproxy34"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "matomo.croq-kilos.com",
+                    "resolved": "ckproxy34.odiso.net"
+                },
+                {
+                    "original": "matomo.deco.fr",
+                    "resolved": "dkoproxy34.odiso.net"
+                },
+                {
+                    "original": "matomo.fourchette-et-bikini.fr",
+                    "resolved": "febproxy34.odiso.net"
+                },
+                {
+                    "original": "matomo.meteocity.com",
+                    "resolved": "metproxy34.odiso.net"
+                }
+            ],
+            "responseHashes": [
+                "d7fc375178c93a2fc15fd888e30170eedf4ef3d04497e7f951ab7bfe0c921693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "croq-kilos.com",
+                "www.deco.fr",
+                "www.fourchette-et-bikini.fr",
+                "www.meteocity.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000424,
+    "types": {
+        "Font": 2,
+        "Stylesheet": 2,
+        "Script": 6,
+        "Ping": 6,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.odiso.net",
+        "ns2.odiso.net",
+        "ns3.odiso.net"
+    ]
+}

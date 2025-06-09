@@ -1,0 +1,106 @@
+{
+    "domain": "usabilla.com",
+    "owner": {
+        "name": "Momentive Inc.",
+        "displayName": "Momentive"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00235,
+    "sites": 23,
+    "subdomains": [
+        "w"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "usabilla\\.com\\/d36d47d9c835%7C8ed3983b56cd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "velux.de",
+                "www.velux.de"
+            ]
+        },
+        {
+            "rule": "usabilla\\.com\\/cae7978c119b\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "w"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "8c2e7cc2296c12651774c9f0ee6c344ecd1760fed00d84d259b545993793947a",
+                "ea4684630ac11f06fcec78d9e7420549fbc26ea48bce340c6f1ccc967e3327d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kayak.com",
+                "www.kayak.de",
+                "www.momondo.de",
+                "www.swoodoo.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8846153846153846
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.038461538461538464
+        },
+        {
+            "domain": "kayak.de",
+            "prevalence": 0.038461538461538464
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.038461538461538464
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1337.awsdns-39.org",
+        "ns-1572.awsdns-04.co.uk",
+        "ns-434.awsdns-54.com",
+        "ns-653.awsdns-17.net"
+    ]
+}

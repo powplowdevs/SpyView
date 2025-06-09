@@ -1,0 +1,92 @@
+{
+    "domain": "dnse5.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "act-api.cloud.tencent.com.eo"
+    ],
+    "cnames": [
+        {
+            "original": "act-api.cloud.tencent.com",
+            "resolved": "act-api.cloud.tencent.com.eo.dnse5.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dnse5\\.com\\/track\\/create-track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "act-api.cloud.tencent.com.eo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "act-api.cloud.tencent.com",
+                    "resolved": "act-api.cloud.tencent.com.eo.dnse5.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tencent.com",
+                "cloud.tencent.com"
+            ]
+        },
+        {
+            "rule": "dnse5\\.com\\/track\\/create-track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "act-api.cloud.tencent.com.eo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "act-api.cloud.tencent.com",
+                    "resolved": "act-api.cloud.tencent.com.eo.dnse5.com"
+                }
+            ],
+            "responseHashes": [
+                "da332188c71745824be6efe2e2e09a9c1ba866eed3866b8c1b4deb5b7821cc0c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tencent.com",
+                "cloud.tencent.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cdn-go.cn",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns2.teodns.com",
+        "ns2.teoacc.net",
+        "ns1.teodns.com",
+        "ns1.teoacc.com"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "domain": "webcontentassessor.global.ssl.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "webcontentassessor\\.global\\.ssl\\.fastly\\.net\\/scripts\\/7f6b47b885c961c1893a3d523de9cb646a29c46d8c1dd1a4259600d3e3ea5242",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Notification.permission": 3,
+                "Navigator.prototype.plugins": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "19bc9a978028aa080c2849da4fbd4fcb802aae9d830ffe12674633da6d5bacf6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "my.foxnews.com",
+                "www.foxnews.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "htlbid.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "foxnews.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": []
+}

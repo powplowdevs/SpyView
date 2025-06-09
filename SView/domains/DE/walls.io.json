@@ -1,0 +1,89 @@
+{
+    "domain": "walls.io",
+    "owner": {
+        "name": "Die Socialisten Social Software Development GmbH",
+        "displayName": "Die Socialisten Social Software Development"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "walls\\.io\\/js\\/wallsio-widget-1\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 4,
+                "window.innerHeight": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "84780e2582a4057cc7643d1efd041a939b6f59740944271b425cb9e2c2706193"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lidl.de",
+                "newsroom.porsche.com",
+                "www.rundumkoeln.de",
+                "www.uksh.de"
+            ]
+        },
+        {
+            "rule": "walls\\.io\\/assets\\/js\\/wallsio-widget-1\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "84780e2582a4057cc7643d1efd041a939b6f59740944271b425cb9e2c2706193"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caparol.de",
+                "www.tennis.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1519.awsdns-61.org",
+        "ns-2037.awsdns-62.co.uk",
+        "ns-501.awsdns-62.com",
+        "ns-570.awsdns-07.net"
+    ]
+}

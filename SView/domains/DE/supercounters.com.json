@@ -1,0 +1,112 @@
+{
+    "domain": "supercounters.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000408,
+    "sites": 4,
+    "subdomains": [
+        "widget",
+        "service"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "supercounters\\.com\\/ssl\\/online_i\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "ee80e1799cfa522898910f9b955030eb967d87ff400bf423561b6fa8b05d666a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "erofound.com",
+                "pornez.tv",
+                "simpshub.com",
+                "thotsfan.com"
+            ]
+        },
+        {
+            "rule": "supercounters\\.com\\/fc\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "service"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "cc7c6a177b2a41787d698eefce0c73f6cef95405355a0b3baea899b9b966c77f",
+                "41aaef214d02ed563cc5d15782eae5a59da2881e72c80d738fbe45ce9f524868",
+                "eab04c07faeae12c54522b238a122021b7119c4ebc1861c5f84a863189c36693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "erofound.com",
+                "pornez.tv",
+                "simpshub.com",
+                "thotsfan.com"
+            ]
+        },
+        {
+            "rule": "supercounters\\.com\\/images\\/online\\/e61c1c\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "c768fd27662c266b6907f204b3acd42ff01996ad0fc550f939d5baf0331c3d66"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "erofound.com",
+                "pornez.tv",
+                "simpshub.com",
+                "thotsfan.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Image": 4
+    },
+    "nameservers": [
+        "cody.ns.cloudflare.com",
+        "eva.ns.cloudflare.com"
+    ]
+}

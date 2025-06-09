@@ -1,0 +1,264 @@
+{
+    "domain": "judge.me",
+    "owner": {
+        "name": "Judge.me Ltd",
+        "displayName": "Judge.me"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000918,
+    "sites": 9,
+    "subdomains": [
+        "cdnwidget",
+        "cdn1",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "judge\\.me\\/widget_v3\\/base\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnwidget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7764823b8db2a285ce6710532c3752cc8d97e138bdd7c44bc71bc5c84910e57e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boc24.de",
+                "www.zendure.de"
+            ]
+        },
+        {
+            "rule": "judge\\.me\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnwidget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "bbb47404ccdfb7c2978935ab8bb739f1fa706b1938a3d85e845b7282bfc0d3d7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boc24.de",
+                "dashboardsexcel.com",
+                "www.zendure.de"
+            ]
+        },
+        {
+            "rule": "judge\\.me\\/widget\\/base\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnwidget"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2,
+                "Date.prototype.getTime": 2,
+                "window.devicePixelRatio": 2,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a3bb5f19917c2b74f7313c9c2479175a241997cb9381795c6f3e35467d22bfb6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boc24.de",
+                "dashboardsexcel.com"
+            ]
+        },
+        {
+            "rule": "judge\\.me\\/widget\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnwidget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boc24.de",
+                "dashboardsexcel.com",
+                "www.zendure.de"
+            ]
+        },
+        {
+            "rule": "judge\\.me\\/widget\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnwidget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boc24.de",
+                "dashboardsexcel.com",
+                "www.zendure.de"
+            ]
+        },
+        {
+            "rule": "judge\\.me\\/widget\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnwidget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "32e130040bd97de6a65e57aba0e4467465e422af8442bd5f1ef5330a37a4c4f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boc24.de",
+                "dashboardsexcel.com"
+            ]
+        },
+        {
+            "rule": "judge\\.me\\/widget\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnwidget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "151f0299d1fbf3a556ae4caab8c28b8cfc98b53fd65163efe0398620af60b279"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boc24.de",
+                "dashboardsexcel.com",
+                "www.zendure.de"
+            ]
+        },
+        {
+            "rule": "judge\\.me\\/assets\\/installed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "1825c22a4788253b33e9a6c0ff6f3b4b26c02a32e08e57e04d7063343013c64b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boc24.de",
+                "dashboardsexcel.com",
+                "de.nothing.tech",
+                "de.roborock.com",
+                "shop.mein-schoener-garten.de",
+                "www.keychron.com",
+                "www.titus.de",
+                "www.zendure.de"
+            ]
+        },
+        {
+            "rule": "judge\\.me\\/widget_v3\\/theme\\/align\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn",
+                "cdnwidget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "98479c24ad70a4410f91e7ed2461ac44247194b4c08acb445770841186b446a6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecoflow.com",
+                "de.ecoflow.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9090909090909091
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.06060606060606061
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.030303030303030304
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "XHR": 6,
+        "Script": 12,
+        "Other": 6
+    },
+    "nameservers": [
+        "ns4.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns1.dnsimple.com",
+        "ns2.dnsimple.com"
+    ]
+}

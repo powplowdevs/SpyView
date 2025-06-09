@@ -1,0 +1,160 @@
+{
+    "domain": "zi-scripts.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00143,
+    "sites": 14,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zi-scripts\\.com\\/zi-tag\\.js",
+            "cookies": 0.000714,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "Document.cookie setter": 7,
+                "Date.prototype.getTime": 7,
+                "URL.createObjectURL": 5
+            },
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "3d068ef00c6c828cb59cc6c9957691c1e8f32d76d2085a5f80a9a312c2956d2f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_zitok": {
+                    "ttl": 31536012,
+                    "length": 30,
+                    "prevalence": 0.0006119326874043855,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "docs.pytorch.org",
+                "dzone.com",
+                "pitchbook.com",
+                "pytorch.org",
+                "pro.arcgis.com",
+                "resources.altium.com",
+                "www.altium.com",
+                "www.fluke.com",
+                "www.mongodb.com",
+                "www.nvidia.com",
+                "www.postman.com",
+                "www.zoominfo.com"
+            ]
+        },
+        {
+            "rule": "zi-scripts\\.com\\/unified\\/v1\\/master\\/getSubscriptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "60973123cde33052149885da3af5d2124f2a0b28016cbe3b9b5a0c6f8bc0952a",
+                "700ef4895a498f14c5e3b1776e12dfe668b620eff14a747151b4f10565e67003",
+                "1532089ebae451686efc3209d90288d41817dc8708d52bfb7780572b35d324d7",
+                "47ddaf209dedbece8d096d34efeb4ae1e8293f6876ea24fc14f426fc667451b3",
+                "7941de85be99574fe427f000b5da11ebcd3380575f93173726710f7bde247911",
+                "c42c5c86d336a759d965b6e0e873c3a1edc244ced8ae0106fd4fa53c08d4ca9a",
+                "bdc100c36a41aedf11b294900a4916947b66b0119069e06035ab42d52152d436"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "dzone.com",
+                "pitchbook.com",
+                "pytorch.org",
+                "pro.arcgis.com",
+                "resources.altium.com",
+                "www.altium.com",
+                "www.mongodb.com",
+                "www.nvidia.com",
+                "www.postman.com",
+                "www.zoominfo.com"
+            ]
+        },
+        {
+            "rule": "zi-scripts\\.com\\/unified\\/v1\\/master\\/getSubscriptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "dzone.com",
+                "pitchbook.com",
+                "pytorch.org",
+                "pro.arcgis.com",
+                "resources.altium.com",
+                "www.mongodb.com",
+                "www.nvidia.com",
+                "www.postman.com",
+                "www.zoominfo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000714,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6923076923076923
+        },
+        {
+            "domain": "discourse-cdn.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "esri.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "queue-it.net",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Fetch": 11,
+        "Preflight": 10
+    },
+    "nameservers": [
+        "rita.ns.cloudflare.com",
+        "tim.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,184 @@
+{
+    "domain": "redditstatic.com",
+    "owner": {
+        "name": "Reddit Inc.",
+        "displayName": "Reddit",
+        "privacyPolicy": "https://www.redditinc.com/policies/privacy-policy",
+        "url": "http://redditinc.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0052,
+    "sites": 51,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "redditstatic\\.com\\/ads\\/pixel\\.js",
+            "cookies": 0.00449,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Screen.prototype.width": 44,
+                "Screen.prototype.height": 43,
+                "Document.cookie getter": 44,
+                "Date.prototype.getTime": 41,
+                "Document.cookie setter": 44,
+                "window.localStorage": 44
+            },
+            "sites": 50,
+            "prevalence": 0.0051,
+            "cnames": [],
+            "responseHashes": [
+                "32381af77f65ff6b4b562c4ea846edc57ae7e5b7bff1e651c7d799e4003d5929"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_rdt_uuid": {
+                    "ttl": 7776006,
+                    "length": 50,
+                    "prevalence": 0.004487506374298827,
+                    "uniqueness": 1
+                },
+                "_rdt_em": {
+                    "ttl": 7776002,
+                    "length": 64,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvtropes.org",
+                "www.ebay.com",
+                "www.zillow.com",
+                "www.faceit.com",
+                "www.accountable.de",
+                "jlcpcb.com",
+                "dransay.com",
+                "www.curseforge.com",
+                "replit.com",
+                "www.g2g.com",
+                "eu.store.bambulab.com",
+                "drfone.wondershare.de",
+                "www.prusa3d.com",
+                "www.fluke.com",
+                "www.motorola.com",
+                "www.nvidia.com",
+                "www.daz3d.com",
+                "turboscribe.ai",
+                "www.doktorabc.com",
+                "www.eufy.com"
+            ]
+        },
+        {
+            "rule": "redditstatic\\.com\\/ads\\/conversions-config\\/v1\\/pixel\\/config\\/a2_eydi8zk4g1zo_telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "98d77039ea9249b3dce91ad7b467ee382f29daa61213c3e2737bd4a8786c8801"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ui.com",
+                "www.ui.com"
+            ]
+        },
+        {
+            "rule": "redditstatic\\.com\\/ads\\/conversions-config\\/v1\\/pixel\\/config\\/a2_fq0znmo9ri02_telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "98d77039ea9249b3dce91ad7b467ee382f29daa61213c3e2737bd4a8786c8801"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wickedweasel.com",
+                "www.wickedweasel.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Action Pixels"
+    ],
+    "performance": {},
+    "cookies": 0.00449,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4189189189189189
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.40540540540540543
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.02702702702702703
+        },
+        {
+            "domain": "b-cdn.net",
+            "prevalence": 0.02702702702702703
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.013513513513513514
+        },
+        {
+            "domain": "bizible.com",
+            "prevalence": 0.013513513513513514
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.013513513513513514
+        },
+        {
+            "domain": "rudderlabs.com",
+            "prevalence": 0.013513513513513514
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.013513513513513514
+        },
+        {
+            "domain": "faceit-cdn.net",
+            "prevalence": 0.013513513513513514
+        }
+    ],
+    "types": {
+        "Script": 50,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-585.awsdns-09.net",
+        "ns-2036.awsdns-62.co.uk",
+        "ns-33.awsdns-04.com",
+        "ns-1495.awsdns-58.org"
+    ]
+}

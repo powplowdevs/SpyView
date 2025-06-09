@@ -1,0 +1,454 @@
+{
+    "domain": "target-video.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000219,
+    "sites": 31,
+    "subdomains": [
+        "player",
+        "syndication",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "target-video\\.com\\/player\\/build\\/targetvideo\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "Document.cookie getter": 10,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 14,
+                "HTMLMediaElement.prototype.canPlayType": 7,
+                "Navigator.prototype.connection": 7,
+                "Navigator.prototype.appName": 7,
+                "window.innerHeight": 7,
+                "window.innerWidth": 2,
+                "Navigator.prototype.platform": 7,
+                "URL.createObjectURL": 8,
+                "Navigator.prototype.requestMediaKeySystemAccess": 3
+            },
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "3972281260bfd212a06f27ef34b0d97a608420e1eae826abe0a71327acebbab1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "forum.finanzaonline.com",
+                "m.tuttojuve.com",
+                "puckpedia.com",
+                "rockykanaka.com",
+                "vikingsterritory.com",
+                "www.agrodolce.it",
+                "www.dreadcentral.com",
+                "www.heise.de",
+                "www.motorbox.com",
+                "www.pmi.it",
+                "www.studentville.it",
+                "www.thepinknews.com",
+                "www.tuttojuve.com"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/player\\/build\\/plugins\\/controls\\/1\\.3\\.69\\/bplr\\.controls\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "3ad20e75d4814ae899fa847117680fa0a5590cf91925a2382004f1cbbd4d9d14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "puckpedia.com",
+                "rockykanaka.com",
+                "thepoliticalinsider.com",
+                "www.dreadcentral.com",
+                "www.heise.de",
+                "www.motorbox.com",
+                "www.pmi.it"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/player\\/build\\/plugins\\/gima\\/1\\.1\\.187\\/bplr\\.gima\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "4041af85c7ce928b52cf3f04d3970b6f6935b72f924aa13ba71877d9f45ff623"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "puckpedia.com",
+                "thepoliticalinsider.com",
+                "www.dreadcentral.com",
+                "www.heise.de",
+                "www.motorbox.com",
+                "www.pmi.it"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/player\\/build\\/plugins\\/hls\\/1\\.0\\.30\\/bplr\\.hls\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "MediaSource.isTypeSupported": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "29ed102ff19aa50ca231b36fb18ea5308de66ad78b17f5d8c191e5e21a772af9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "puckpedia.com",
+                "rockykanaka.com",
+                "thepoliticalinsider.com",
+                "www.dreadcentral.com",
+                "www.heise.de"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/player\\/build\\/plugins\\/parser\\/1\\.1\\.74\\/bplr\\.parser\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "b0814a76b4e3e75ea57844581a88fedc37132fbbc023156efba68747e40d93af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "puckpedia.com",
+                "thepoliticalinsider.com",
+                "www.dreadcentral.com",
+                "www.heise.de",
+                "www.motorbox.com",
+                "www.pmi.it"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/services\\/get\\/video\\/26863\\/797286\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuttojuve.com",
+                "www.tuttojuve.com"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/player\\/build\\/plugins\\/slideinview\\/1\\.4\\.67\\/bplr\\.slideinview\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "5751b1780525ae0c1395a8205119dafe831b9f5eb714f6c5ca200aa419ed4db3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "puckpedia.com",
+                "rockykanaka.com",
+                "thepoliticalinsider.com",
+                "www.dreadcentral.com",
+                "www.motorbox.com",
+                "www.pmi.it"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/player\\/build\\/plugins\\/prebid\\/1\\.1\\.163\\/bplr\\.prebid\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "window.innerHeight": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "928aec043223df83654a2b0052f3450ec919a5b24130d9cbb60e3e97c7663252"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "puckpedia.com",
+                "thepoliticalinsider.com",
+                "www.dreadcentral.com",
+                "www.heise.de"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/player\\/build\\/plugins\\/a9\\/1\\.0\\.58\\/bplr\\.a9\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "3d42375da6dc4f6661224c7f81a0ce0819bafe979a20d2034e81a6b9fd9fe706"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "puckpedia.com",
+                "www.dreadcentral.com",
+                "www.motorbox.com",
+                "www.pmi.it"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/native-player\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "syndication"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "28fd8c8471bed74810f75dd484b88ba5b674ce9bb3c2975c8ab365c0f3d97e15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beliebte-vornamen.de",
+                "www.gesundheitswissen.de"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/native-player-component\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "syndication"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "BroadcastChannel.prototype.constructor": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7ff247165c2415d045045e7d1fe7196eb406dd37b5faefcdd8e36d8303a87aa3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beliebte-vornamen.de",
+                "www.gesundheitswissen.de"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/services\\/native_player_config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b355fb57d7a09a25dc15b1e5c844c2c284c6f0eb7e49076aa9a97ff8b452de16"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "beliebte-vornamen.de",
+                "www.gesundheitswissen.de"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/native-player-renderer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "syndication"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e4fd44e2f0df575276f450de6745129e7b0897cb266a7fb998c5974b34588976"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beliebte-vornamen.de",
+                "www.gesundheitswissen.de"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/assets\\/poweredby\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "syndication"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c36cf46894015edff154513568b57fe2500821e2f9bf7c75c45c9aa90ddfd465"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beliebte-vornamen.de",
+                "www.gesundheitswissen.de"
+            ]
+        },
+        {
+            "rule": "target-video\\.com\\/live\\/partners\\/style\\/entertainmentie\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motorbox.com",
+                "www.pmi.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5740740740740741
+        },
+        {
+            "domain": "brid.tv",
+            "prevalence": 0.17592592592592593
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.1574074074074074
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07407407407407407
+        },
+        {
+            "domain": "ay.delivery",
+            "prevalence": 0.009259259259259259
+        },
+        {
+            "domain": "bwr-media.de",
+            "prevalence": 0.009259259259259259
+        }
+    ],
+    "types": {
+        "Script": 62,
+        "XHR": 4,
+        "Fetch": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-450.awsdns-56.com",
+        "ns-1601.awsdns-08.co.uk",
+        "ns-1470.awsdns-55.org",
+        "ns-744.awsdns-29.net"
+    ]
+}

@@ -1,0 +1,391 @@
+{
+    "domain": "reevoo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000778,
+    "sites": 11,
+    "subdomains": [
+        "widgets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "reevoo\\.com\\/register-feefo\\/feefo-widgets-app\\/feefo_loader\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie setter": 4,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "c7d40995cd6dc9b3548477e2b306d33df7e83d72e8419ac9a1ba65c228e9ff09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "www.cottages.com",
+                "www.cotswoldoutdoor.com",
+                "www.currys.co.uk",
+                "www.dewalt.co.uk",
+                "www.euronics.co.uk",
+                "www.hoseasons.co.uk",
+                "www.landal.nl",
+                "www.rivieratravel.co.uk",
+                "www.tescomobile.com"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/api-feefo\\/api\\/merchants\\/widgetintegration\\/all",
+            "cookies": 0.0000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "e6352bf957a1f41129e1ce67be7bf5a13b819ed27ae0b40588e66f75068f4e5a",
+                "80119edef74117e377bd35822915a479d3600364c1004821eddacc6f30e116b8",
+                "35cb633e2ba12361046e65e5701afcc9f8e42810168021d3f415648cad8fbdd7",
+                "2632dfd75c03b141b75f6f3cf01a8bc3cf8feaa5ed50a8cc8917b29eec730373",
+                "16b6e76aac1d8140003e58b646bab8b657772acc6d6fc5fd20f3913469616b64",
+                "00c4cced3b9f43ff9dccb1ae9ce2407f11414572bb05d3ad7c6ef7acad6fc09a",
+                "f2fe9f96fb7ce2d397e1393f75b2137cc2910bb58520f82d9a18ae3e190a4a39",
+                "464c816f9413fe7d1e5940a997e59d13128a6e78582161f8ddf454e50b693dbb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "www.cottages.com",
+                "www.cotswoldoutdoor.com",
+                "www.currys.co.uk",
+                "www.dewalt.co.uk",
+                "www.euronics.co.uk",
+                "www.hoseasons.co.uk",
+                "www.landal.nl",
+                "www.rivieratravel.co.uk",
+                "www.tescomobile.com"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/register-feefo\\/badge-ui\\/feefo_adaptive_badges\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "c056705524232958123c90544d351ec4e3d2cda319b8018363e23a962d21476d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "www.cotswoldoutdoor.com",
+                "www.dewalt.co.uk",
+                "www.euronics.co.uk",
+                "www.landal.nl"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/feefo-widgets-data\\/api\\/badge",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "be5d53c200d023d000daa77993a0a5ac97cd66f7c55563312a235e66a4ed4a01"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "www.euronics.co.uk"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/api-feefo\\/api\\/10\\/reviews\\/summary\\/product",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "a85bfda3905e8f07378f29996d2ae03dd1725afec4a5424c452b123cf1d0e852",
+                "fb62370bee714f6267bdf9f0eab38bb2a7625acc53b32452982662b35b42ee06",
+                "de4ac2ce1aafcc3a2b49b41ded4b0ed68042b155e39829d794ca684009440d5f",
+                "6a1b31f6d77ab042d0922969fd2931cc200a5b1f663ae894e232715bb6d9c7f3",
+                "3a9ac33be2d28bc960bb0996df416ff2805d8acb77b08a26dad91ce1712f8934"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "business.currys.co.uk",
+                "www.cotswoldoutdoor.com",
+                "www.dewalt.co.uk",
+                "www.euronics.co.uk",
+                "www.landal.nl"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/register-feefo\\/feefo-widgets-app\\/css\\/feefo_loader\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "542965f44ede929ea3429d399bd564985a2d3907045a79d7c1600f98c806f51f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "www.cotswoldoutdoor.com",
+                "www.dewalt.co.uk",
+                "www.euronics.co.uk"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/api-feefo\\/api\\/translations\\/en_GB\\/FeefoWidget",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "dfbcc7720ca2161a322636c512b81e2b3b863703640c4adc94904cd3aaa50aba"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "www.cotswoldoutdoor.com",
+                "www.dewalt.co.uk",
+                "www.euronics.co.uk"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/api-feefo\\/api\\/10\\/reviews\\/product",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "f00eb2971d57a7e074adb7f80d2ec5c2eaf3ecf86e115a9db9785b3042b62ecf",
+                "d7314fea097cd2aedab8a9480dbed777d9f7009cff580693c04b7ac56e6c76a4",
+                "f82a19664b0a582714939c1072c8cbfa0a5dfafdabdd9e7a54bca7c1da7f0d60"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "www.cotswoldoutdoor.com",
+                "www.dewalt.co.uk",
+                "www.euronics.co.uk"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/api-feefo\\/api\\/feature\\/widget\\/product-on-page-widget",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0775da34077cfe36bb4020f4dfd16f59ad61046377030f1c74dd1dedd616faf2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "www.dewalt.co.uk"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/api-feefo\\/api\\/snippet\\/product-on-page-widget",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bf127f85ab041097c569ff6304fd56ab1c8cd0eeca0e18d1c707b12f0d17eb65"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "www.dewalt.co.uk"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/collect-feefo\\/api\\/interaction\\/widget",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "business.currys.co.uk",
+                "www.cotswoldoutdoor.com",
+                "www.euronics.co.uk",
+                "www.landal.nl"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/collect-feefo\\/api\\/interaction\\/widget",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "currys.co.uk",
+                "business.currys.co.uk",
+                "www.cotswoldoutdoor.com",
+                "www.euronics.co.uk",
+                "www.landal.nl"
+            ]
+        },
+        {
+            "rule": "reevoo\\.com\\/feefo-widgets-data\\/api\\/badge-variant",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d3884957714e3e02a7d72d2bf39c650fec0ce1d1d48e64210b47553852282a15"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dewalt.co.uk",
+                "www.landal.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6382978723404256
+        },
+        {
+            "domain": "onetrust.com",
+            "prevalence": 0.2553191489361702
+        },
+        {
+            "domain": "rivierarivercruises.com",
+            "prevalence": 0.0851063829787234
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.02127659574468085
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Fetch": 37,
+        "Stylesheet": 4,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns-978.awsdns-58.net",
+        "ns-161.awsdns-20.com",
+        "ns-1588.awsdns-06.co.uk",
+        "ns-1365.awsdns-42.org"
+    ]
+}

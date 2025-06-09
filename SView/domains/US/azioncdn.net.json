@@ -1,0 +1,91 @@
+{
+    "domain": "azioncdn.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "488p.ha"
+    ],
+    "cnames": [
+        {
+            "original": "federation.magazineluiza.com.br",
+            "resolved": "488p.ha.azioncdn.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "azioncdn\\.net\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "488p.ha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "federation.magazineluiza.com.br",
+                    "resolved": "488p.ha.azioncdn.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magazineluiza.com.br",
+                "www.magazineluiza.com.br"
+            ]
+        },
+        {
+            "rule": "azioncdn\\.net\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "488p.ha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "federation.magazineluiza.com.br",
+                    "resolved": "488p.ha.azioncdn.net"
+                }
+            ],
+            "responseHashes": [
+                "e101c77c7b1920d5f8a33fd4a91a8e6b8595d21ea19d1772fe060bc40fd57e5c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magazineluiza.com.br",
+                "www.magazineluiza.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns2.azioncdn.net",
+        "ns3.azioncdn.net",
+        "ns1.azioncdn.net"
+    ]
+}

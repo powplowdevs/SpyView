@@ -1,0 +1,544 @@
+{
+    "domain": "cookiebot.com",
+    "owner": {
+        "name": "Usercentrics GmbH",
+        "displayName": "Usercentrics"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0344,
+    "sites": 337,
+    "subdomains": [
+        "consent",
+        "consentcdn",
+        "imgsct"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cookiebot\\.com\\/uc\\.js",
+            "cookies": 0.0304,
+            "fingerprinting": 2,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Notification.permission": 224,
+                "Navigator.prototype.plugins": 295,
+                "Document.cookie getter": 326,
+                "Document.cookie setter": 298,
+                "Navigator.prototype.languages": 293,
+                "Navigator.prototype.userAgent": 309,
+                "Navigator.prototype.doNotTrack": 288,
+                "Navigator.prototype.cookieEnabled": 295,
+                "Date.prototype.getTime": 6,
+                "window.sessionStorage": 4,
+                "URL.createObjectURL": 2,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.devicePixelRatio": 1,
+                "window.localStorage": 2
+            },
+            "sites": 337,
+            "prevalence": 0.0344,
+            "cnames": [],
+            "responseHashes": [
+                "79295bd85b8f49c99fd8ed7d6648849088dfb521079900735e610cabd0951ed5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieConsent": {
+                    "ttl": -1747362850,
+                    "length": 2,
+                    "prevalence": 0.030392656807751148,
+                    "uniqueness": 0.010067114093959731
+                },
+                "resolution": {
+                    "ttl": null,
+                    "length": 6,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "issuu.com",
+                "www.raspberrypi.org",
+                "www.jobrad.org",
+                "www.cineplex.de",
+                "extraetf.com",
+                "www.wohnen.de",
+                "www.philomag.de",
+                "www.caseking.de",
+                "www.fantasywelt.de",
+                "www.vivobarefoot.com",
+                "www.vbb.de",
+                "www.walaarzneimittel.de",
+                "www.kalkhoff-bikes.com",
+                "www.bodenseee.net",
+                "www.scfreiburg.com",
+                "www.leading-medicine-guide.com",
+                "www.allgaeu.de",
+                "www.netto-online.de",
+                "rechtschreibpruefung24.de",
+                "www.deubner-steuern.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/sdk\\/bc-v4\\.min\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 334,
+            "prevalence": 0.0341,
+            "cnames": [],
+            "responseHashes": [
+                "738e5435f2d18427d291a0d6289eee0ebbc87b596d6003919f255760ac293104"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "issuu.com",
+                "www.steuerring.de",
+                "www.alnatura.de",
+                "www.bremen.de",
+                "theorg.com",
+                "www.scfreiburg.com",
+                "www.walaarzneimittel.de",
+                "www.europages.de",
+                "www.dethleffs.de",
+                "www.scirp.org",
+                "www.das-radhaus.de",
+                "www.simplon.com",
+                "www.hopkins.law",
+                "dl.acm.org",
+                "www.dtswiss.com",
+                "de.egym-wellpass.com",
+                "www.poolsana.de",
+                "www.juris.de",
+                "vergleichslabor.de",
+                "elements.envato.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/8283d89a-5ba2-4703-91f8-c768c701162d\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4dea61067a5cdd6d0492dffc3c0b82e523f29bc6d5443b863332e7bf3dd789fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "action.com",
+                "www.action.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/Framework\\/IAB\\/consent-sdk-2\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 51,
+                "window.localStorage": 1
+            },
+            "sites": 51,
+            "prevalence": 0.0052,
+            "cnames": [],
+            "responseHashes": [
+                "33317effe91b81907ddf9dd24f824d91aba7e7df5eb569701780e67841d2a8e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "issuu.com",
+                "pimeyes.com",
+                "www.heizpellets24.de",
+                "www.fastenergy.de",
+                "www.lehrerfreund.de",
+                "bank-codes.de",
+                "www.classic-trader.com",
+                "thecinemaholic.com",
+                "www.jigsawplanet.com",
+                "www.lto.de",
+                "www.dus.com",
+                "www.europages.de",
+                "www.hamburg-airport.de",
+                "www.wetter.net",
+                "www.kino-zeit.de",
+                "ber.berlin-airport.de",
+                "www.schwaebische.de",
+                "www.koeln.de",
+                "curved.de",
+                "exceltricks.blog"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgsct"
+            ],
+            "apis": {},
+            "sites": 143,
+            "prevalence": 0.0146,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "issuu.com",
+                "www.raspberrypi.org",
+                "www.gesundheitnord.de",
+                "www.kino-zeit.de",
+                "www.koeln.de",
+                "dl.acm.org",
+                "www.deubner-steuern.de",
+                "sevdesk.de",
+                "www.insta360.com",
+                "www.lynxbroker.de",
+                "www.bodenseee.net",
+                "shop.mein-schoener-garten.de",
+                "www.augsburg.de",
+                "www.vrr.de",
+                "www.wienerberger.de",
+                "www.dein-ip-check.de",
+                "www.fraenkische.com",
+                "www.gazelle.de",
+                "www.blick-aktuell.de",
+                "www.polar.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/d10f7659-aa82-4007-9cf1-54a9496002bf\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "307d8fbe2372945432d5d2ccfa59740e136bf565445181ef10b947e2510b739f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "envato.com",
+                "themeforest.net"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/111864da-487d-4ae9-a84f-9086d2a21e5c\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ccdc1ed2b977ac7895b51e664971aa27a527dd4ea34694f467b08cc859dc7193"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heizungsdiscount24.de",
+                "www.heizungsdiscount24.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/5c36244c-1684-41b3-ab4f-33ccf68a08ae\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d19110a8f3b41f5d8a3e7a218364f1002f436ff1d5a8facb3b8c5584d7fc9b37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "netto-online.de",
+                "www.netto-online.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/4a4356c7-879c-4c54-93cd-06569e9183d6\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0c0cb67b4491ee9a2db048c0ba5e48cd31dd60443c0bc706d5cc53cce5b0b009"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.de",
+                "www.ninjakitchen.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/d1499bdc-a272-42c8-9737-d0be28c795b4\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c8e4e92bcd5b74cfdffc0d7e0597f4053aad3477351f19cb4fa4fc34da09d468"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "velux.de",
+                "www.velux.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/974a091b-b231-4d73-a23d-a5dd072e07ce\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3744a2be2dbccbb7f97be1ab1d082a7586f6fbfc03cc172f8c666d0e90b3044c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vergleichslabor.de",
+                "www.vergleichslabor.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/8a424d6c-c10a-4bf7-bc0a-9e59405f8fc6\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "66717b84d4d35e6664d8cdc9c808bb3996675bbd70f7be1457ce6cc967dfdfec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biomarkt.de",
+                "www.biomarkt.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/035267ec-2df6-4272-96d0-6ab2cf26595c\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8ba9766384f1b2584279b4c5cb74158b7b7677ec0a9ff3ceab927e3f07bf14d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bingenheimersaatgut.de",
+                "www.bingenheimersaatgut.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/d262788a-dc25-450d-b014-27187eb64b5d\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "46c579b4310b2ae5398d9a12753e474bcaa8f14dc15dba6e853f40d237e733d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deubner-steuern.de",
+                "www.rechtsportal.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/40d693d9-2052-4609-ba0b-7153c8b5af39\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "33eef66328a6aacbd35c99e9e510184d6b23f8c292527ec7df76ac732905c1cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grundschulkoenig.de",
+                "www.uebungskoenig.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content",
+        "Non-Tracking",
+        "Consent Management Platform"
+    ],
+    "performance": {},
+    "cookies": 0.0305,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7189189189189189
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25675675675675674
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.005405405405405406
+        },
+        {
+            "domain": "cahosting.de",
+            "prevalence": 0.005405405405405406
+        },
+        {
+            "domain": "duisburglive.de",
+            "prevalence": 0.002702702702702703
+        },
+        {
+            "domain": "gog-statics.com",
+            "prevalence": 0.002702702702702703
+        },
+        {
+            "domain": "jabra.com.de",
+            "prevalence": 0.002702702702702703
+        },
+        {
+            "domain": "prcdn.co",
+            "prevalence": 0.002702702702702703
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.002702702702702703
+        }
+    ],
+    "types": {
+        "Script": 410,
+        "Document": 334,
+        "Image": 143
+    },
+    "nameservers": [
+        "pdns05.domaincontrol.com",
+        "pdns06.domaincontrol.com"
+    ]
+}

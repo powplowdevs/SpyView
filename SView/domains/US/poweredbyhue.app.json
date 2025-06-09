@@ -1,0 +1,128 @@
+{
+    "domain": "poweredbyhue.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "poweredbyhue\\.app\\/css\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a3e58bb4270f7f4ad809752ab350f4ba0fb6af108614a3ef6073dccda5e8911a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "credobeauty.com",
+                "us.laneige.com",
+                "www.titlenine.com"
+            ]
+        },
+        {
+            "rule": "poweredbyhue\\.app\\/js\\/main\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "9e55304468aa8eac12453034105ef802b13828bc4eb45234d275803d191b8a66",
+                "d3e48c245c37136dc55ea77e38a39becef784cc69c15e1a243c469d4c14a6156"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mp_38715f97a0d9cbc1787b44ffc8695840_mixpanel": {
+                    "ttl": 31536007,
+                    "length": 310,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "credobeauty.com",
+                "us.laneige.com",
+                "www.titlenine.com"
+            ]
+        },
+        {
+            "rule": "poweredbyhue\\.app\\/js\\/integration\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7d350f0f27be9df45fcfa4bf6bf49dd43fe4dbe1a4736693635097f474aacc51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laneige.com",
+                "www.titlenine.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-344.awsdns-43.com",
+        "ns-540.awsdns-03.net",
+        "ns-1152.awsdns-16.org",
+        "ns-1991.awsdns-56.co.uk"
+    ]
+}

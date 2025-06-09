@@ -1,0 +1,101 @@
+{
+    "domain": "appcast.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "click"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "appcast\\.io\\/homegrown-te8\\/a31\\.png",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "click"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airforce.com",
+                "www.sniffspot.com"
+            ]
+        },
+        {
+            "rule": "appcast\\.io\\/pixels\\/homegrown1-13771\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "click"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1092e1fef92e28325004b22d782acdeb12c8d888cf642a2414745ed625be435f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ccid": {
+                    "ttl": 31487654,
+                    "length": 22,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sniffspot.com",
+                "www.sniffspot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2777777777777778
+        },
+        {
+            "domain": "termly.io",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-942.awsdns-53.net",
+        "ns-2043.awsdns-63.co.uk",
+        "ns-1093.awsdns-08.org",
+        "ns-85.awsdns-10.com"
+    ]
+}

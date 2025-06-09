@@ -1,0 +1,83 @@
+{
+    "domain": "mapservices.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "tirol"
+    ],
+    "cnames": [
+        {
+            "original": "maps.innsbruck.info",
+            "resolved": "mapservices.eu"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mapservices\\.eu\\/nefos_app\\/frontend\\/resource\\/json\\/Resource\\.action",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tirol"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "innsbruck.info",
+                "www.innsbruck.info"
+            ]
+        },
+        {
+            "rule": "mapservices\\.eu\\/941cf3d1-c0f5-4631-8a73-62c5822dc67b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "maps.innsbruck.info",
+                    "resolved": "mapservices.eu"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "innsbruck.info",
+                "www.innsbruck.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns13.domaincontrol.com",
+        "ns14.domaincontrol.com"
+    ]
+}

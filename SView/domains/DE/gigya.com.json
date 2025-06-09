@@ -1,0 +1,413 @@
+{
+    "domain": "gigya.com",
+    "owner": {
+        "name": "Gigya Inc",
+        "displayName": "Gigya",
+        "privacyPolicy": "https://www.sap.com/about/legal/privacy.html",
+        "url": "http://sap.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00224,
+    "sites": 22,
+    "subdomains": [
+        "cdns",
+        "cdns.eu1",
+        "cdns.global",
+        "cdns.us1",
+        "kpmg.sslproxy",
+        "accounts.eu1",
+        "accounts.us1",
+        "cdns1"
+    ],
+    "cnames": [
+        {
+            "original": "login.kpmg.com",
+            "resolved": "kpmg.sslproxy.gigya.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gigya\\.com\\/js\\/gigya\\.js",
+            "cookies": 0.00153,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdns",
+                "cdns.eu1",
+                "cdns.global",
+                "cdns.us1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 15,
+                "Navigator.prototype.appVersion": 15,
+                "Navigator.prototype.mimeTypes": 15,
+                "window.localStorage": 15,
+                "window.sessionStorage": 15,
+                "Date.prototype.getTime": 14,
+                "Document.cookie getter": 14,
+                "Navigator.prototype.onLine": 5,
+                "Document.cookie setter": 3,
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 4,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 16,
+            "prevalence": 0.00163,
+            "cnames": [],
+            "responseHashes": [
+                "1c9e39ddf5c2ece57e09ea22444562a629de1e62b2278f579e44debc36375cb1",
+                "3a0dc65ac52d15a01a40c112395321d426d0189bf0d7cc6942b029a856d7654c",
+                "d2a56c74105dad070893459047ebe29270bb2a4c97ab8774ddc57adaa8121995",
+                "3556142aca073b76b115adc19b017dd10fb66cbcccaeb70e5260704adbe41b06",
+                "8dbf331fd0e88ad8efe1bef779ba2c260f4dc537859f6a9cd0abc94811705b08",
+                "5a87d2f16a6be60c87d4428abaf366a46dca5418bd5c50740ba82c05b7247968",
+                "99bfd12fb372a12635843f9f088529a54c5e1c1cd46c8fe404f7e6f451ebf8c7",
+                "0f520116fba1499ad462b422b6eafb828968cb854fa86dce992dce5ca88cec47",
+                "5d49cb4dfe790a5f26f16c76a6f81809370420ddce5541eaa0d6df32e655a4dc",
+                "2e16726fedae0619d9b33c04852da223f1b6a9b92bed2ad53e69128235a7d9ea",
+                "9cd70e505568eb32cbc78ac893874aa442ecedc686a14a36ece4359869a9997d",
+                "221afb909323e1a3836307a43fb572833041897e4a98a056c64a5cb16bf57c3c",
+                "6c14efa5a09b99579d457622308482f137c16bcd07eaded7e6a9a77bb462f7bd",
+                "0d27731e83493d764018973c1ddef62a13becd54f1e1b1dc2fe28f6d2e7a7170",
+                "a725a845ec60a1d9d821604e417dc7c6c46f672d5d2d2bc2454c2de9518eb2a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gig_bootstrap_4_azL3BNfXLB_XWsTbbzd9Vw": {
+                    "ttl": 31536008,
+                    "length": 10,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "gig_bootstrap_4_Pm2iEdcXqemvFXXNH9gAWg": {
+                    "ttl": 31536011,
+                    "length": 22,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "gig_bootstrap_3_Qa8TkWpIB8ESCBT8tY2TukbVKgO5F6BJVc7N1oComdwFzI7H2L9NOWdm11i_BY9f": {
+                    "ttl": 31536014,
+                    "length": 12,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yamaha.com",
+                "kpmg.com",
+                "www.aldi-nord.de",
+                "www.cambridge.org",
+                "www.corsair.com",
+                "www.dfb.de",
+                "www.elgato.com",
+                "www.harley-davidson.com",
+                "www.intimissimi.com",
+                "www.mallorcamagazin.com",
+                "www.motoguzzi.com",
+                "www.netto.de",
+                "www.nfl.com",
+                "www.repubblica.it",
+                "www.rtve.es",
+                "www.scott-sports.com"
+            ]
+        },
+        {
+            "rule": "gigya\\.com\\/sdk\\.config\\.get",
+            "cookies": 0.00214,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdns",
+                "cdns.eu1",
+                "cdns.global",
+                "cdns.us1"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00224,
+            "cnames": [],
+            "responseHashes": [
+                "abcdc3e731e8c32514c84e9035b3d58788b1d674993658efa81bc0f796ccb58f",
+                "3eda4ea04d866da13532ee1c549171f7958f08af1f15da7eae37b39daf2f8760",
+                "e170ab8a55e01eb376fc506a2bb265777fd6dc8a62fdbf325a6747b9419c7052",
+                "a82a2a365f0c5e46e830ebfbc47ca7b71113dde652f7ea43c8e4e886e66afa98",
+                "1953acc74f8f6fe634ea4e73dc71c2fb47d818bf52260afe398fd7233cf5518c",
+                "0038277399e6767a416530533fb35839f2ab4f48a707057d380ebed093410ca8",
+                "4d7abb3d428dbfc3130d271e557c83f8756ed08877c5ec737b719edea1e8e616",
+                "3cdaaf0868492a5a8c51a832bd7a6fba67f3e46095e32c1c1420d58e3e4ed5e9",
+                "694e1cf6c00ff560943d3f339951cdce5133d95c72a11f36eedc302f287d39ad",
+                "c96fa9a01c03bd9a7637298358f15a6bee13c9b9e9df2770075cb6ff8b6d6d78",
+                "18386feec708f4a887abbdd52f923c2a04ec6747f7acc75613f9840c42a7e3e5",
+                "714df731cd16cb23a9fa1426615c5076290d066e4e634865f3d03b08912af669",
+                "2e5ea77a8d92decabccbd41a49e917023624288a2ea797c3a997f0cf1867b2c0",
+                "996a70c48abe9562379a816bba6adc9a5e7824215624deab88fce71b4d3331c1",
+                "a739612c042be2cc72c0a0c28d87a915fca6a2cc1b676f3ebeb0b7e3dd9f23c2",
+                "0cb42f1ac62a90c68ad9adb0c040cdbdf72769327cadfb74056f09253cd4267a",
+                "d4d056f074408f7a918e7b011de178f5258176b00240e03f71f39f0e2961256f",
+                "a1c226ffa5fff6b8dbbef3d55381017ae517af3c76810394a8b0643b4ad07a0b",
+                "06d4caa59344255308f6c74f94c8948b56e20de21e1da5af345efe66b7ae34d8",
+                "d417e7977cb657a33ee8ace8259275f0d40edafb329c97fc1891931091cc4b08",
+                "a8a6b52c0f55aff858babf3b921a55a0dad9e6082440401520bfe661dc2070ea"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.nfl.com",
+                "www.delonghi.com",
+                "www.scott-sports.com",
+                "www.mallorcamagazin.com",
+                "www.miele.de",
+                "www.wago.com",
+                "kpmg.com",
+                "www.elgato.com",
+                "www.rtve.es",
+                "miele.de",
+                "www.intimissimi.com",
+                "www.cambridge.org",
+                "www.repubblica.it",
+                "www.aldi-nord.de",
+                "www.aldi-onlineshop.de",
+                "www.motoguzzi.com",
+                "www.corsair.com",
+                "www.harley-davidson.com",
+                "yamaha.com",
+                "www.netto.de"
+            ]
+        },
+        {
+            "rule": "gigya\\.com\\/gs\\/webSdk\\/Api\\.aspx",
+            "cookies": 0.000714,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdns.eu1",
+                "cdns.us1"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "7e052b330e78574df57cdd882577861cf3939303ee3fa0dbac3cd37b69566a13",
+                "de42e81313b7a5c359c066950cbde6a90f074364686cd6a6a3332392972a695a",
+                "9e870e186cf4a1a80bb6ab1187fe2ee9ac4f26cddc6b32cef069456c38ef5f08",
+                "87352fb55f38fc1da82b72eeb15a7a066fa5868cd1ff6b87d82faf06047809bc",
+                "792678cccd98df1383dc48d88aea1977967cb1269149ecbc4fb616b00c55e3d6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yamaha.com",
+                "miele.de",
+                "www.delonghi.com",
+                "www.dfb.de",
+                "www.intimissimi.com",
+                "www.mallorcamagazin.com",
+                "www.miele.de",
+                "www.motoguzzi.com",
+                "www.netto.de",
+                "www.pgatour.com",
+                "www.rtve.es",
+                "www.scott-sports.com"
+            ]
+        },
+        {
+            "rule": "gigya\\.com\\/accounts\\.webSdkBootstrap",
+            "cookies": 0.000612,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kpmg.sslproxy",
+                "accounts.eu1",
+                "accounts.us1"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [
+                {
+                    "original": "login.kpmg.com",
+                    "resolved": "kpmg.sslproxy.gigya.com"
+                }
+            ],
+            "responseHashes": [
+                "a61ba75f8c4e31725c3b2a8f604ae440516f2c86994ea9ca9647095f7ab20bcb",
+                "298575b56e3b05f124459b51ab410b8ab6c80451d690b5ca4aadcc95d8622be9",
+                "b040b78602dd49ef308188e5c6e8f435502df7f18bab2aa5d83ee0c1c80f089e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kpmg.com",
+                "www.delonghi.com",
+                "www.dfb.de",
+                "www.netto.de",
+                "www.pgatour.com",
+                "www.scott-sports.com"
+            ]
+        },
+        {
+            "rule": "gigya\\.com\\/JS\\/gigya\\.js",
+            "cookies": 0.00051,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdns.eu1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.mimeTypes": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.onLine": 2,
+                "Document.cookie setter": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "6658bf10ba1e2e490173e6ca840c006c58e5c3093a0133d8ee31f3c360d40788",
+                "7741c373565d4fdc6ff232d2a3cffbffb1ddb32867a1c166cd6b5a02d0a34253",
+                "91102176313a3b5d375185bc676de3df37c654b47318e56b79dad9aca581451a",
+                "82da7dc00e47cb2435a00fdc51af38eb936194807203f97c31b3f3c2945740b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gig_bootstrap_4_J6Al95A04-k5T8hEOYSuHg": {
+                    "ttl": 31536009,
+                    "length": 10,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "gig_bootstrap_4_jNcuusPvKQHlCEmtxa73lA": {
+                    "ttl": 31536006,
+                    "length": 10,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "miele.de",
+                "www.aldi-onlineshop.de",
+                "www.delonghi.com",
+                "www.miele.de",
+                "www.wago.com"
+            ]
+        },
+        {
+            "rule": "gigya\\.com\\/js\\/gigya\\.services\\.plugins\\.base\\.min\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdns1",
+                "cdns.eu1",
+                "cdns.global",
+                "cdns"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "09a225872508e2657dbb3dd98be7355d21a85c2c9ac8f92c54ec24eac26f6329"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldi-nord.de",
+                "www.delonghi.com",
+                "www.harley-davidson.com",
+                "www.netto.de"
+            ]
+        },
+        {
+            "rule": "gigya\\.com\\/gs\\/sso\\.htm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdns.eu1",
+                "cdns.us1"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.delonghi.com",
+                "www.dfb.de",
+                "www.pgatour.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "SSO",
+        "Third-Party Analytics Marketing",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00214,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7222222222222222
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.1388888888888889
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "gigya.com",
+            "prevalence": 0.027777777777777776
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.027777777777777776
+        },
+        {
+            "domain": "repstatic.it",
+            "prevalence": 0.027777777777777776
+        }
+    ],
+    "types": {
+        "Script": 25,
+        "Fetch": 22,
+        "Document": 16,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-1099.awsdns-09.org",
+        "ns-499.awsdns-62.com",
+        "ns-864.awsdns-44.net",
+        "ns-1877.awsdns-42.co.uk"
+    ]
+}

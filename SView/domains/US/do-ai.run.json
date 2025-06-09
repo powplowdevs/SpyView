@@ -1,0 +1,75 @@
+{
+    "domain": "do-ai.run",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "cluster-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "do-ai\\.run\\/v1\\/auth\\/agents\\/eb07074f-f08c-11ef-bf8f-4e013e2ddde4\\/token",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cluster-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalocean.com",
+                "docs.digitalocean.com"
+            ]
+        },
+        {
+            "rule": "do-ai\\.run\\/v1\\/auth\\/agents\\/eb07074f-f08c-11ef-bf8f-4e013e2ddde4\\/token",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cluster-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b65e51cfbda4dfa204ac527aa7a5ee2aff4196c50728dd0af4ebe6d1aea3071c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalocean.com",
+                "docs.digitalocean.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "agent-bb7c8e8f107ffaca00e0-zo6gz.ondigitalocean.app",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ursula.ns.cloudflare.com",
+        "giancarlo.ns.cloudflare.com"
+    ]
+}

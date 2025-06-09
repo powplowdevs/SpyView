@@ -1,0 +1,75 @@
+{
+    "domain": "edrington.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "edrington\\.com\\/product\\/v2\\/macallan\\/en-us\\/US\\/search\\/codes",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themacallan.com",
+                "www.themacallan.com"
+            ]
+        },
+        {
+            "rule": "edrington\\.com\\/product\\/v2\\/macallan\\/en-us\\/US\\/search\\/codes",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "550d606dc4f8c2c0ff07e115e0a06daef56aeee58965e47fe103f947a9868944"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themacallan.com",
+                "www.themacallan.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ben.ns.cloudflare.com",
+        "liv.ns.cloudflare.com"
+    ]
+}

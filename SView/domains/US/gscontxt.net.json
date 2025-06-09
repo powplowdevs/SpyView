@@ -1,0 +1,106 @@
+{
+    "domain": "gscontxt.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "wolterskluwer",
+        "netmums",
+        "bellmedia-ash",
+        "mediacorp"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "gscontxt\\.net\\/main\\/channels-json\\.cgi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wolterskluwer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aan.com",
+                "www.acog.org",
+                "www.brainandlife.org"
+            ]
+        },
+        {
+            "rule": "gscontxt\\.net\\/main\\/channels\\.cgi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "netmums",
+                "bellmedia-ash"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "netmums.com",
+                "www.noovomoi.ca",
+                "www.tsn.ca"
+            ]
+        },
+        {
+            "rule": "gscontxt\\.net\\/main\\/channels-json\\.cgi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mediacorp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "todayonline.com",
+                "www.todayonline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Script": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.p201.dns.oraclecloud.net",
+        "ns2.p201.dns.oraclecloud.net",
+        "ns3.p201.dns.oraclecloud.net",
+        "ns4.p201.dns.oraclecloud.net"
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "domain": "smartrecognition.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "portal"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smartrecognition\\.com\\/js\\/libcode3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "portal"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "ed02eced40289764f96397fd7e801aab91b42a4de1ffdb77a555dbed52a4d127"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "angara.com",
+                "dmso.com",
+                "jasemedical.com",
+                "panamajack.com",
+                "quietcoolsystems.com",
+                "www.gainbridge.io",
+                "www.medalsofamerica.com",
+                "www.propper.com"
+            ]
+        },
+        {
+            "rule": "smartrecognition\\.com\\/servlet\\/pageview",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "portal"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "325e200828b049d4d7f90749a34cf28c7c12303ab938e399e4bf5dd145eeefaa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "dmso.com",
+                "jasemedical.com",
+                "panamajack.com",
+                "quietcoolsystems.com",
+                "www.medalsofamerica.com",
+                "www.propper.com"
+            ]
+        },
+        {
+            "rule": "smartrecognition\\.com\\/servlet\\/view\\/dynamic\\/javascript\\/ajax\\/crossdomain\\/zone",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "portal"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "dmso.com",
+                "jasemedical.com",
+                "panamajack.com",
+                "www.medalsofamerica.com",
+                "www.propper.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000566,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Image": 6
+    },
+    "nameservers": [
+        "ns-1678.awsdns-17.co.uk",
+        "ns-788.awsdns-34.net",
+        "ns-1444.awsdns-52.org",
+        "ns-1.awsdns-00.com"
+    ]
+}

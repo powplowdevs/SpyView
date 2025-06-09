@@ -1,0 +1,122 @@
+{
+    "domain": "indeed.com",
+    "owner": {
+        "name": "Indeed, Inc.",
+        "displayName": "Indeed"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "prod.statics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "indeed\\.com\\/tmn\\/sp-relevant-jobs-widget\\/v1\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.statics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "96e44755747e2a8e520c26d13a81ce61f41c594dbcbc52b6eae3bd2018921492"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cpadirectory.com",
+                "joblist.com",
+                "www.joblist.com"
+            ]
+        },
+        {
+            "rule": "indeed\\.com\\/tmn\\/sp-relevant-jobs-widget\\/v1\\/js\\/WidgetScript\\.client\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.statics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "566bab22c891ec7e67e6af0e4ff96672944d8fb894060e283f4a98309876ec6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cpadirectory.com",
+                "joblist.com",
+                "www.joblist.com"
+            ]
+        },
+        {
+            "rule": "indeed\\.com\\/tmn\\/sp-relevantjobs-widget\\/v1\\/js\\/WidgetScript\\.client\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.statics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ptprogress.com",
+                "www.ptprogress.com"
+            ]
+        },
+        {
+            "rule": "indeed\\.com\\/tmn\\/sp-relevant-jobswidget\\/v1\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.statics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ptprogress.com",
+                "www.ptprogress.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 5,
+        "Script": 5
+    },
+    "nameservers": [
+        "brit.ns.cloudflare.com",
+        "kevin.ns.cloudflare.com"
+    ]
+}

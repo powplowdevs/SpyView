@@ -1,0 +1,102 @@
+{
+    "domain": "squadup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "embed",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "squadup\\.com\\/main-v2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "964aeb3719a8cce0fca3c415472de435baec736286212e6c8b76061d1f34bf2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribecafilm.com",
+                "www.tribecafilm.com"
+            ]
+        },
+        {
+            "rule": "squadup\\.com\\/api\\/v3\\/embed_config\\/a8be099e10b989128926031fbbc47494",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribecafilm.com",
+                "www.tribecafilm.com"
+            ]
+        },
+        {
+            "rule": "squadup\\.com\\/api\\/v3\\/embed_config\\/a8be099e10b989128926031fbbc47494",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a87dc026baa771fb05431967f8db5c45bc3adc3e458a9c0f867012c7454ba572"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribecafilm.com",
+                "www.tribecafilm.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "tessa.ns.cloudflare.com",
+        "glen.ns.cloudflare.com"
+    ]
+}

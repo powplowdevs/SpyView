@@ -1,0 +1,111 @@
+{
+    "domain": "ebay.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000714,
+    "sites": 7,
+    "subdomains": [
+        "slot9428",
+        "slot11847"
+    ],
+    "cnames": [
+        {
+            "original": "pages.ebay.com",
+            "resolved": "slot11847.ebay.com.edgekey.net"
+        },
+        {
+            "original": "secureir.ebaystatic.com",
+            "resolved": "slot9428.ebay.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ebay\\.com\\.edgekey\\.net\\/cr\\/v\\/c1\\/jquery\\/jquery-3\\.7\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "slot9428"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [
+                {
+                    "original": "secureir.ebaystatic.com",
+                    "resolved": "slot9428.ebay.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d8f9afbf492e4c139e9d2bcb9ba6ef7c14921eb509fb703bc7a3f911b774eff8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.de",
+                "m.ebay.de",
+                "www.ebay.de",
+                "www.ebay.com",
+                "www.ebay.at",
+                "www.ebay.co.uk"
+            ]
+        },
+        {
+            "rule": "ebay\\.com\\.edgekey\\.net\\/favicon\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "slot11847"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [
+                {
+                    "original": "pages.ebay.com",
+                    "resolved": "slot11847.ebay.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "90ac6eb8a975904c3a2e492233169f35292a129a4664e28d1158cbb2302a1355"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.de",
+                "m.ebay.de",
+                "www.ebay.de",
+                "www.ebay.com",
+                "www.ebay.at",
+                "www.ebay.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "ebaystatic.com",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Other": 6
+    },
+    "nameservers": []
+}

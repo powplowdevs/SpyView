@@ -1,0 +1,70 @@
+{
+    "domain": "ha-cdn.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "united-uimserv"
+    ],
+    "cnames": [
+        {
+            "original": "united.uimserv.net",
+            "resolved": "united-uimserv.ha-cdn.de"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ha-cdn\\.de\\/lt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "united-uimserv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "united.uimserv.net",
+                    "resolved": "united-uimserv.ha-cdn.de"
+                }
+            ],
+            "responseHashes": [
+                "d5b8d97d56187d30ed32bf693f475a07c7cb78109770c00c0cc9b1dbeb933bfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1und1.de",
+                "home.1und1.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "uicdn.net",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "anyns2.po.ui-dns.biz",
+        "ns1.po.ui-dns.de",
+        "ns4.po.ui-dns.org",
+        "anyns3.po.ui-dns.com"
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "domain": "polishedfolly.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000778,
+    "sites": 11,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "polishedfolly\\.com\\/j\\/a56326a71dc6cb3f112086d04ae55af8dedc\\.index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "87328ccd5a09964422ef758af52173a1fc05fdb36072bb68250f6f9e1edb4c84",
+                "a3948625608b2fd911656c4c2d6a99cea347bdc0a4b8424245944a5b1381a754"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketwatch.com",
+                "bigcharts.marketwatch.com",
+                "www.marketwatch.com"
+            ]
+        },
+        {
+            "rule": "polishedfolly\\.com\\/create\\/j1nknj\\/gyyzutb4jrrjhilpnndugc1nwrzq3bvi0wza",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketwatch.com",
+                "bigcharts.marketwatch.com"
+            ]
+        },
+        {
+            "rule": "polishedfolly\\.com\\/build\\/814f8b95\\/e99e5bc5a8b6dcaa59af8fd5c79e\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ccecbf6a75d1ab93e28dc5e6952e372533e1ee7e9bbb177411e0189cceab93f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investors.com",
+                "www.investors.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-151.awsdns-18.com",
+        "ns-801.awsdns-36.net",
+        "ns-1737.awsdns-25.co.uk",
+        "ns-1340.awsdns-39.org"
+    ]
+}

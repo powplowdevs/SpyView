@@ -1,0 +1,173 @@
+{
+    "domain": "first-id.fr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000918,
+    "sites": 9,
+    "subdomains": [
+        "cdn",
+        "api-v6.prod",
+        "api-pv.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "first-id\\.fr\\/sdk\\/loader\\/loader-flex-no-tcf\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "9bfb2575200054965f462be9d282a41715dbf448ec4f9e08a45a3d2ed5d98407"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressantworten.com",
+                "lexikon.stangl.eu",
+                "urlebird.com",
+                "www.digital-eliteboard.com",
+                "www.foodtempel.de",
+                "www.glasfaserforum.de",
+                "www.uamr.de",
+                "www.was-war-wann.de"
+            ]
+        },
+        {
+            "rule": "first-id\\.fr\\/sdk\\/script\\/flex-no-tcf-1\\.20\\.0\\.min\\.js",
+            "cookies": 0.000714,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.language": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Navigator.prototype.deviceMemory": 8,
+                "Navigator.prototype.hardwareConcurrency": 8,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "1af602c3c4a9e9c85740fd573b49d1c2a5ee6e881cbebe2b3a97ed0932f19a62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "firstid_flex_type": {
+                    "ttl": 15552011,
+                    "length": 1,
+                    "prevalence": 0.0007139214686384497,
+                    "uniqueness": 0.14285714285714285
+                },
+                "firstid": {
+                    "ttl": 15552011,
+                    "length": 32,
+                    "prevalence": 0.0007139214686384497,
+                    "uniqueness": 0.14285714285714285
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressantworten.com",
+                "lexikon.stangl.eu",
+                "urlebird.com",
+                "www.digital-eliteboard.com",
+                "www.foodtempel.de",
+                "www.glasfaserforum.de",
+                "www.uamr.de",
+                "www.was-war-wann.de"
+            ]
+        },
+        {
+            "rule": "first-id\\.fr\\/firstId",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-v6.prod"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressantworten.com",
+                "lexikon.stangl.eu",
+                "urlebird.com",
+                "www.digital-eliteboard.com",
+                "www.foodtempel.de",
+                "www.glasfaserforum.de",
+                "www.uamr.de",
+                "www.was-war-wann.de"
+            ]
+        },
+        {
+            "rule": "first-id\\.fr\\/pv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-pv.prod"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "firstid": 0.0007139214686384497
+            },
+            "exampleSites": [
+                "expressantworten.com",
+                "lexikon.stangl.eu",
+                "urlebird.com",
+                "www.digital-eliteboard.com",
+                "www.foodtempel.de",
+                "www.glasfaserforum.de",
+                "www.uamr.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000816,
+    "topInitiators": [
+        {
+            "domain": "themoneytizer.com",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Fetch": 15
+    },
+    "nameservers": [
+        "ns-608.awsdns-12.net",
+        "ns-1656.awsdns-15.co.uk",
+        "ns-482.awsdns-60.com",
+        "ns-1121.awsdns-12.org"
+    ]
+}

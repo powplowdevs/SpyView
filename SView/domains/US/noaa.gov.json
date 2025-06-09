@@ -1,0 +1,122 @@
+{
+    "domain": "noaa.gov",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [
+        "opengeo.ncep",
+        "services.swpc"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "noaa\\.gov\\/geoserver\\/conus\\/conus_bref_qcd\\/ows",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "opengeo.ncep"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1869df9b225bab6cf1b210d5626f5c993b02313bc9774902f5cb859d52cd631e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weather.gov",
+                "radar.weather.gov"
+            ]
+        },
+        {
+            "rule": "noaa\\.gov\\/geoserver\\/alaska\\/alaska_bref_qcd\\/ows",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "opengeo.ncep"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e44d5a55112f62c8f82f2b84eab7fdd48043270758c6eb0c4fbe42a54caeb7c7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weather.gov",
+                "radar.weather.gov"
+            ]
+        },
+        {
+            "rule": "noaa\\.gov\\/images\\/animations\\/ovation-north\\/latest\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.swpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dxsummit.fi",
+                "www.dxsummit.fi"
+            ]
+        },
+        {
+            "rule": "noaa\\.gov\\/images\\/animations\\/ovation-south\\/latest\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.swpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dxsummit.fi",
+                "www.dxsummit.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.967391304347826
+        },
+        {
+            "domain": "wildfire.gov",
+            "prevalence": 0.03260869565217391
+        }
+    ],
+    "types": {
+        "Image": 8
+    },
+    "nameservers": [
+        "ns-01.noaa.gov",
+        "ns-03.noaa.gov",
+        "ns-02.noaa.gov"
+    ]
+}

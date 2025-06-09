@@ -1,0 +1,242 @@
+{
+    "domain": "yahoo.com",
+    "owner": {
+        "name": "Yahoo Inc.",
+        "displayName": "Verizon Media"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00255,
+    "sites": 25,
+    "subdomains": [
+        "connectid.analytics",
+        "c2shb.pubgw",
+        "sp.analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "yahoo\\.com\\/connectId-gpt\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connectid.analytics"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "56351c084d8d56437d41f1e58b7eb184b563871e88bab60f6b15486c39f13996"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "connectId": {
+                    "ttl": 31536000,
+                    "length": 68,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biblehub.com",
+                "www.24auto.de",
+                "www.behindthename.com",
+                "www.marktcom.de"
+            ]
+        },
+        {
+            "rule": "yahoo\\.com\\/bidRequest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c2shb.pubgw"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macrumors.com",
+                "linuxsimply.com",
+                "www.dictionary.com",
+                "www.macrumors.com",
+                "www.thesaurus.com",
+                "www.theverge.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.com\\/bidRequest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c2shb.pubgw"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "862eacceeb473a0369a11ccb293b8d8825ed1eef6407324bacfde91267506f0a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macrumors.com",
+                "linuxsimply.com",
+                "www.macrumors.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.com\\/sp\\.pl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.analytics"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "f3882f998713d264095c3b132fade64a677f2a51ffc7a1e6703bb76aa210616f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "reolink.com",
+                "skylum.com",
+                "support.reolink.com",
+                "www.leafly.com",
+                "www.ups.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.com\\/bidRequest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c2shb.pubgw"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "402a302528cd55a1eabdc1357b4513d360543a8ace0a1b7dc01795a559844549"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.com",
+                "www.dictionary.com",
+                "www.thesaurus.com",
+                "www.theverge.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.com\\/spp\\.pl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.analytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "f3882f998713d264095c3b132fade64a677f2a51ffc7a1e6703bb76aa210616f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.com",
+                "www.ecovacs.com",
+                "www.walmart.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Federated Login"
+    ],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3953488372093023
+        },
+        {
+            "domain": "adthrive.com",
+            "prevalence": 0.20930232558139536
+        },
+        {
+            "domain": "yimg.com",
+            "prevalence": 0.09302325581395349
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "demdex.net",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "opencmp.net",
+            "prevalence": 0.023255813953488372
+        },
+        {
+            "domain": "casalemedia.com",
+            "prevalence": 0.023255813953488372
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.023255813953488372
+        },
+        {
+            "domain": "increaserev.com",
+            "prevalence": 0.023255813953488372
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 6,
+        "XHR": 3,
+        "Image": 8,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns5.yahoo.com",
+        "ns4.yahoo.com",
+        "ns2.yahoo.com",
+        "ns1.yahoo.com",
+        "ns3.yahoo.com"
+    ]
+}

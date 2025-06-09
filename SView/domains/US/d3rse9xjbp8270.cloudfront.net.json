@@ -1,0 +1,126 @@
+{
+    "domain": "d3rse9xjbp8270.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d3rse9xjbp8270\\.cloudfront\\.net\\/at\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "bc17473bff9821346e0b4b97631d64e9cac655ac5a8fbfebe9b38007b179b80d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berkeley.edu",
+                "democracyforward.org",
+                "inequality.org",
+                "navigatorresearch.org",
+                "rainn.org",
+                "www.afb.org",
+                "www.battlefields.org",
+                "www.ewg.org",
+                "www.feedingamerica.org",
+                "www.trcp.org"
+            ]
+        },
+        {
+            "rule": "d3rse9xjbp8270\\.cloudfront\\.net\\/at\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "288caf7c3d260f905a91f5c4527f98a0a12788282ef4e50669bbc25787676575"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berkeley.edu",
+                "democracyforward.org",
+                "inequality.org",
+                "navigatorresearch.org",
+                "rainn.org",
+                "www.afb.org",
+                "www.battlefields.org",
+                "www.feedingamerica.org",
+                "www.trcp.org"
+            ]
+        },
+        {
+            "rule": "d3rse9xjbp8270\\.cloudfront\\.net\\/extra\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "b138e7cd797d9cd24f1a4820dedf4dc3e7a700c73b9183a23b06003239dd1148"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berkeley.edu",
+                "democracyforward.org",
+                "inequality.org",
+                "navigatorresearch.org",
+                "rainn.org",
+                "www.afb.org",
+                "www.battlefields.org",
+                "www.feedingamerica.org"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Stylesheet": 17
+    },
+    "nameservers": [
+        "ns-1888.awsdns-44.co.uk",
+        "ns-491.awsdns-61.com",
+        "ns-729.awsdns-27.net",
+        "ns-1221.awsdns-24.org"
+    ]
+}

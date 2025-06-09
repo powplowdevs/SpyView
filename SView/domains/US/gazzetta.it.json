@@ -1,0 +1,80 @@
+{
+    "domain": "gazzetta.it",
+    "owner": {
+        "name": "La Gazzetta dello Sport Societa' Editrice a r.l.",
+        "displayName": "La Gazzetta dello Sport Societa' Editrice a r.l"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "api2-mtc",
+        "static2.abbonamenti"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "gazzetta\\.it\\/api\\/v1\\/sports\\/today\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2-mtc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7cc8a25232262478d6fbc535b9335b9d0675e0e1c3c2768e0bd6a60b3fb0e6b4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcinter1908.it",
+                "www.violanews.com"
+            ]
+        },
+        {
+            "rule": "gazzetta\\.it\\/wp-content\\/uploads\\/json\\/topBarOfferteGazzetta\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static2.abbonamenti"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b1088c0a34b0c3c285f694c2ac99099eee728b0e812f959bf98e824b83eba9fd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcinter1908.it",
+                "www.violanews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "gazzettaobjects.it",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dnsgeo5.tuonomeregistrar.com",
+        "dnsgeo6.tuonomeregistrar.net"
+    ]
+}

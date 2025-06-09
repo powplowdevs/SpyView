@@ -1,0 +1,95 @@
+{
+    "domain": "geberit.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "login-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "geberit\\.com\\/gs\\/webSdk\\/Api\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geberit.de",
+                "www.geberit.de"
+            ]
+        },
+        {
+            "rule": "geberit\\.com\\/sdk\\.config\\.get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geberit.de",
+                "www.geberit.de"
+            ]
+        },
+        {
+            "rule": "geberit\\.com\\/gs\\/sso\\.htm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login-eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geberit.de",
+                "catalog.geberit.de",
+                "www.geberit.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 5,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-geberit.is-fun.net",
+        "ns.geberit.de",
+        "ns.geberit.ch"
+    ]
+}

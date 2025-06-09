@@ -1,0 +1,83 @@
+{
+    "domain": "actblue.com",
+    "owner": {
+        "name": "ActBlue LLC",
+        "displayName": "ActBlue"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "secure"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "actblue\\.com\\/cf\\/assets\\/actblue\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "5a38d7a5b55bcc9892931395810eb9154d6894d43aceb9fa56b1cc68290cdfd7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "5calls.org",
+                "balloon-juice.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "actblue\\.com\\/cf\\/embed\\/button\\/tuNGTBRipcdEZ8VvyRcMBDet",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailykos.com",
+                "www.dailykos.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-382.awsdns-47.com",
+        "ns-956.awsdns-55.net",
+        "ns-1760.awsdns-28.co.uk",
+        "ns-1517.awsdns-61.org"
+    ]
+}

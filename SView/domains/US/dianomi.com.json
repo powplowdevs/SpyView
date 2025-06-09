@@ -1,0 +1,543 @@
+{
+    "domain": "dianomi.com",
+    "owner": {
+        "name": "Dianomi Ltd",
+        "displayName": "Dianomi"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000219,
+    "sites": 31,
+    "subdomains": [
+        "www",
+        "data",
+        "server.prebid"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dianomi\\.com\\/js\\/contextfeed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Notification.permission": 6,
+                "Navigator.prototype.plugins": 7,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5
+            },
+            "sites": 22,
+            "prevalence": 0.000156,
+            "cnames": [],
+            "responseHashes": [
+                "78beb665abaf20d8e9d52f419b5049440d3e10d1525f12eea966ac39d71ee463"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketwatch.com",
+                "www.marketwatch.com",
+                "www.dividendmax.com",
+                "www.reuters.com",
+                "oilprice.com",
+                "thegolfnewsnet.com",
+                "invezz.com",
+                "www.blackenterprise.com",
+                "www.macrotrends.net",
+                "www.lawyer-monthly.com",
+                "www.itpro.com",
+                "resident.com",
+                "www.optionsprofitcalculator.com",
+                "us.cnn.com",
+                "frontofficesports.com",
+                "dailyhodl.com",
+                "www.investors.com",
+                "www.slickcharts.com",
+                "theweek.com",
+                "clark.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/cgi-bin\\/context\\.pl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000113,
+            "cnames": [],
+            "responseHashes": [
+                "197ba23709a5b5591aa25fc030cc958205b8467cb678ec16e59a58f0d4c138a3",
+                "40f8fee2cb8d6b10802cf1469cc993c2db4031ccb75f5b4a78514bc218bfbac6",
+                "f33ad3f31203a1b401eddf54881e1380303e38c2e7835c92d5b546c026906a00",
+                "60bd616e78973b91dce4f2737024a6981c6e7ddbd72476fd090d702a7a95760e",
+                "e1ab1939074382d5bc9a2c4d8e8644c495811dec9f9b812f8b8c2587be97a43d",
+                "c452df179871662bd51470e1d485eb740d76d275da675b679d5db0f494a56577",
+                "2bd14b94ef1291a92093561d94360d23fa4bc5c57e4dd34fe464b1693e98d942",
+                "cd036ca1e9e4089a092746dbe882c07cd1f7599d8420f7b0b4d866b57f73a7fc",
+                "ab5d2816197f8e8d8e26afe0595fa8d85c2b98ee772d18c70fa1f8858f1acafa",
+                "6df46d1daa1be41dc8d9e6ba20bd5f07271529ad17bf5acfc7b716944499b962",
+                "641f7cfebc49242f8d777ac570e5d43a421cfbd314a699991355625e418a4b8f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.0000070733363512901765,
+                "categoryView": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "marketwatch.com",
+                "clark.com",
+                "dailyhodl.com",
+                "oilprice.com",
+                "thegolfnewsnet.com",
+                "theweek.com",
+                "us.cnn.com",
+                "www.blackenterprise.com",
+                "www.dividendmax.com",
+                "www.investors.com",
+                "www.lawyer-monthly.com",
+                "www.macrotrends.net",
+                "www.marketwatch.com",
+                "www.reuters.com",
+                "www.slickcharts.com",
+                "www.smithsonianmag.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/partner\\/dianomi\\/css\\/dianomi-context\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "2eb292c9e48938ed53557e4697d087c422692ef0447aa3f39f823614eab5099a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thegolfnewsnet.com",
+                "www.dividendmax.com",
+                "www.lawyer-monthly.com",
+                "www.reuters.com",
+                "www.slickcharts.com",
+                "www.smithsonianmag.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/js\\/contextfeed\\/videofeed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "05118d1a253aae872c5419371217f7dbed926fc362f4222b8714d49038c5f83a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thegolfnewsnet.com",
+                "www.slickcharts.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/smartads\\.epl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "3bc4479812cf74ffef7f2fbd997a53c8ff21706eae93ba664d42eaacf9b46ee9",
+                "3b962390281fa0dda51d72f01788401a8621274573b0b3749ea95f0a01d0409b",
+                "adc27f62fdd46d322405cae31f7939f822d75553f880ccea0974bc1e0f0ba216"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "categoryView": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "thegolfnewsnet.com",
+                "www.blackenterprise.com",
+                "www.dividendmax.com",
+                "www.macrotrends.net",
+                "www.propertychat.com.au",
+                "www.propertytax101.org",
+                "www.reuters.com",
+                "www.slickcharts.com",
+                "www.smithsonianmag.com",
+                "www.taxassessors.net",
+                "ycharts.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/cgi-bin\\/pixeltrack\\.pl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "5b9f9740cd970dd23abcdee589e7813c133274660056c7c6a5e57e36b7323edb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thegolfnewsnet.com",
+                "www.dividendmax.com",
+                "www.lawyer-monthly.com",
+                "www.reuters.com",
+                "www.slickcharts.com",
+                "www.smithsonianmag.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/js\\/contextfeed\\/videofeed-flowplayer\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "50cb7d80e00eca2c8dc680bfc88670d7f611d2fd4f8b3f95de360187a423577e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thegolfnewsnet.com",
+                "www.slickcharts.com"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/img\\/dianomi-max-200x38\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "20550e4714f2d7f97a2cc66263db388822f82869b42d45e89f688508623b2ea7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dividendmax.com",
+                "www.propertytax101.org",
+                "www.slickcharts.com",
+                "www.smithsonianmag.com",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/img\\/YAC_Icon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "b70ab9b80a21b060111742a1c9c1133e3acfd783ca241886838fc28194dd7c5d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dividendmax.com",
+                "www.propertytax101.org",
+                "www.slickcharts.com",
+                "www.smithsonianmag.com",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/js\\/contextfeed\\/tcfredirector\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "f212e0704b2f8090afe303d6acf91adf51db9ad70b4e86286737c2c07d04cb64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dividendmax.com",
+                "www.propertytax101.org",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/cdn-cgi\\/challenge-platform\\/scripts\\/jsd\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.name": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dividendmax.com",
+                "www.propertytax101.org",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/cdn-cgi\\/challenge-platform\\/h\\/g\\/scripts\\/jsd\\/6fab0cec561d\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dividendmax.com",
+                "www.propertytax101.org",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/js\\/contextfeed\\/viewabilityCV\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7d8cba74865716405c9644c9c6ba30ca4dd53782a3b762c6511c880369639bd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dividendmax.com",
+                "www.propertytax101.org",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/frontend\\/pixeljs",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "d27e9392f4fa83096f44fe40fd6ce01d0d12a25ec8a3ec41e21f9dd096b3548a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dividendmax.com",
+                "www.propertytax101.org",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/img\\/a\\/pss\\/1526\\/24\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c0a1be969fe1a92895dbd9d6cc8ac86967deb3040a279db3b2db1294992076e3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "propertytax101.org",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/prebid\\/cookie_sync\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "propertytax101.org",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/frontend\\/pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "propertytax101.org",
+                "www.taxassessors.net"
+            ]
+        },
+        {
+            "rule": "dianomi\\.com\\/cookie_sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server.prebid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "propertytax101.org",
+                "www.taxassessors.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8235294117647058
+        },
+        {
+            "domain": "futurecdn.net",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.0392156862745098
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.0196078431372549
+        },
+        {
+            "domain": "d1o9e4un86hhpc.cloudfront.net",
+            "prevalence": 0.0196078431372549
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.0196078431372549
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.0196078431372549
+        }
+    ],
+    "types": {
+        "Script": 41,
+        "Fetch": 16,
+        "Stylesheet": 8,
+        "Document": 13,
+        "Image": 16,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ben.ns.cloudflare.com",
+        "cloe.ns.cloudflare.com"
+    ]
+}

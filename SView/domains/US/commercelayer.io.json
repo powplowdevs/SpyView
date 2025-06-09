@@ -1,0 +1,121 @@
+{
+    "domain": "commercelayer.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "armani",
+        "auth"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "commercelayer\\.io\\/api\\/skus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "armani"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "16d6cd6b00d27f08c500c15f35f634412cfe8667ec36d84c60759a3192cb1aea"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armani.com",
+                "www.armani.com"
+            ]
+        },
+        {
+            "rule": "commercelayer\\.io\\/api\\/skus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "armani"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armani.com",
+                "www.armani.com"
+            ]
+        },
+        {
+            "rule": "commercelayer\\.io\\/oauth\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jamieoliver.com",
+                "www.jamieoliver.com",
+                "www.rapha.cc"
+            ]
+        },
+        {
+            "rule": "commercelayer\\.io\\/oauth\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "aaece95ad5cdd1e342802633157dd3c1acbf2eb4b019edbf4f1290baa0e0971a",
+                "9c53b774af8035771b52425222de168b74420e03a2b4da2819eb2841a49aa543"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jamieoliver.com",
+                "www.jamieoliver.com",
+                "www.rapha.cc"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "rob.ns.cloudflare.com",
+        "eva.ns.cloudflare.com"
+    ]
+}

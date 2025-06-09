@@ -1,0 +1,81 @@
+{
+    "domain": "zamg.at",
+    "owner": {
+        "name": "Zentralanstalt für Meteorologie und Geodynamik",
+        "displayName": "Zentralanstalt für Meteorologie und Geodynamik"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "warnungen"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "zamg\\.at\\/wsapp\\/api\\/\\/getWarnstatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "warnungen"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3248c065cb8f02ef99369fd4788a45a848508b5fcbc58953e83176b72b62dc12"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geosphere.at",
+                "www.geosphere.at"
+            ]
+        },
+        {
+            "rule": "zamg\\.at\\/wsapp\\/api\\/\\/getGewitterAuto",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "warnungen"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d1573a8a11e1b5f9639b05b5b4a95103cfa580bb3b0fe3f3221a23b6dced6da3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geosphere.at",
+                "www.geosphere.at"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns5.univie.ac.at",
+        "ns11.govix.at",
+        "zaadns1.zamg.ac.at",
+        "zaadns2.zamg.ac.at"
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "domain": "varify.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00195,
+    "sites": 19,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "varify\\.io\\/varify\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.sessionStorage": 16,
+                "window.localStorage": 17,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 18,
+            "prevalence": 0.00185,
+            "cnames": [],
+            "responseHashes": [
+                "3fc456b9e2cdffe2fc0d814ba2a24aa57a4869a3730cfae8faa36525e4910cfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "focus.de",
+                "november.de",
+                "praxistipps.focus.de",
+                "praxistipps.chip.de",
+                "quickline.ch",
+                "ratgeber.bunte.de",
+                "reisetopia.ch",
+                "www.bunte.de",
+                "www.chip.de",
+                "www.focus.de",
+                "www.keychron.com",
+                "www.liebscher-bracht.com",
+                "www.pflanzen-koelle.de",
+                "www.professional.ch",
+                "www.sunday.de",
+                "www.testsieger.de",
+                "www.trooper.ch",
+                "www.truenas.com"
+            ]
+        },
+        {
+            "rule": "varify\\.io\\/v\\/2421",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000308,
+            "cnames": [],
+            "responseHashes": [
+                "04f877612f900e24a6d0fc95b025acde3053bbc6a6a56dd74127027e8557775d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "focus.de",
+                "praxistipps.focus.de",
+                "www.focus.de"
+            ]
+        },
+        {
+            "rule": "varify\\.io\\/v\\/2422",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "c3ced42e43254be2fe335aed508f30ca17caaa08740d7b7d1887014a0a41b55d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chip.de",
+                "www.chip.de"
+            ]
+        },
+        {
+            "rule": "varify\\.io\\/v\\/1197",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "6465e6cebe8c280a611345d52ec2f08a2faae33625b669cb09a43434a7c22354"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bunte.de",
+                "www.bunte.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8947368421052632
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "kay.ns.cloudflare.com",
+        "alan.ns.cloudflare.com"
+    ]
+}

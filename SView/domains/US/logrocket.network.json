@@ -1,0 +1,91 @@
+{
+    "domain": "logrocket.network",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "staging-default.lb"
+    ],
+    "cnames": [
+        {
+            "original": "staging.logrocket.com",
+            "resolved": "staging-default.lb.logrocket.network"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "logrocket\\.network\\/LogRocket\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "staging-default.lb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "staging.logrocket.com",
+                    "resolved": "staging-default.lb.logrocket.network"
+                }
+            ],
+            "responseHashes": [
+                "da61f314fc435bb7c2bd007af50763d616d0bd59593e1c4ed3905e453472cf96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logrocket.com",
+                "blog.logrocket.com"
+            ]
+        },
+        {
+            "rule": "logrocket\\.network\\/logger\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "staging-default.lb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "staging.logrocket.com",
+                    "resolved": "staging-default.lb.logrocket.network"
+                }
+            ],
+            "responseHashes": [
+                "ee49d95bba90fc5d8b00ae0cdabcae84a00d16ba337ee193ba0d7a8a22781b92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logrocket.com",
+                "blog.logrocket.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "dan.ns.cloudflare.com",
+        "rita.ns.cloudflare.com"
+    ]
+}

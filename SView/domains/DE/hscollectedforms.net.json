@@ -1,0 +1,167 @@
+{
+    "domain": "hscollectedforms.net",
+    "owner": {
+        "name": "HubSpot, Inc.",
+        "displayName": "HubSpot",
+        "privacyPolicy": "https://legal.hubspot.com/privacy-policy",
+        "url": "http://hubspot.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00245,
+    "sites": 24,
+    "subdomains": [
+        "js",
+        "js-eu1",
+        "js-na2",
+        "forms",
+        "forms-eu1",
+        "forms-na2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hscollectedforms\\.net\\/collectedforms\\.js",
+            "cookies": 0.00245,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js",
+                "js-eu1",
+                "js-na2"
+            ],
+            "apis": {
+                "Notification.permission": 21,
+                "Navigator.prototype.plugins": 22,
+                "Navigator.prototype.product": 23,
+                "Navigator.prototype.userAgent": 23,
+                "Document.cookie getter": 21,
+                "window.localStorage": 23
+            },
+            "sites": 24,
+            "prevalence": 0.00245,
+            "cnames": [],
+            "responseHashes": [
+                "265c183df8874f5bef2c28a45610e37f13de92cdbb463960988e7d8fec42a769"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.gartentraum.de",
+                "www.jimdo.com",
+                "dvs-beregnung.de",
+                "www.liebscher-bracht.com",
+                "www.edenred.de",
+                "ipinfo.io",
+                "element.io",
+                "etcher.balena.io",
+                "www.artnet.de",
+                "pytorch.org",
+                "docs.pytorch.org",
+                "www.hammer-zuhause.de",
+                "netboxlabs.com",
+                "sparkbyexamples.com",
+                "www.serafinum.de",
+                "www.supermicro.com",
+                "www.ladies-phone.com",
+                "www.anahana.com",
+                "gptzero.me",
+                "www.artnet.com"
+            ]
+        },
+        {
+            "rule": "hscollectedforms\\.net\\/collected-forms\\/v1\\/config\\/json",
+            "cookies": 0.00245,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms",
+                "forms-eu1",
+                "forms-na2"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00245,
+            "cnames": [],
+            "responseHashes": [
+                "49aff8a06923c62d63ea345dd7dd76b1d4bdcedfd96a21d86872082d13f05aab",
+                "f5230b9d4600d54d6bfc68c2d40c3c8d302e01ffd2502714dfd5b5ca1cd4628e",
+                "7640bd3aa34d2a966092a31df83749f0565391e7dec64740f43d3f7c77e70e01",
+                "6270ec05d33e7232e20204016b6d48c65cb50edc41a5e7526bb61caefb121401",
+                "5bf1b95b531bcb52cad2a31e74f266585f72dbf6064a68fb9376e68f88f7338e",
+                "91bee6e0e49914a67e2fc4a6622ab26d3afe993e8b4e40441a261df7ba4ec35c",
+                "0469a2fc2f491d9c27a486e2dc930169faa95b6c30871371e69cc25bd209f63b",
+                "58946f80a5476632aafed526b5c29814fea636362635376a91fec61f727119bd",
+                "23c575cea2973a5f8257cc35d6ae20f05c132294b0cea6344837dffb19bfa46b",
+                "ddf60f8e09b82363e6d1b59f9cfbb292d06b6eed94de4de1b19b02e1615ecd90",
+                "f2bc6a8e30e4cbfb208e0729c6abe85f31f8cbffbccf142caf5406dd41a52124",
+                "961906f71d1a61825527f7d9184ef93ff587dee2a37e24de7340145c46be8f6f",
+                "d8aac61e0767b32a860a78d248c1fa4d2c938af88d8e425f2d3b71b8fc00c5b6",
+                "bbefc802e3be6e206aec061c4e4c95431b7739585802d69f9a2b43fc09511556",
+                "56f31618417f3ca0be114b11ddb21b829dc7a95be00772c7600c5cf29df2ea90",
+                "aaf4ffe6c08269ca3b80230927005e1b614cffed18ffb0659b0667a52ea6e6dd",
+                "e06097651bf27c966a8e5af092bcdab3dc1fea602a437c2fd707be37583f323f",
+                "a2c8a7dea37f8d6daeb3db74df0a603116fea3b586ca6fd81290a1339ba10e80",
+                "63fb786c2f4a800bc718bd3b948bb51ee5c9055938cb32de10c77896122ed458",
+                "a017a89212175c3d6b5c943216187b4bb4362b8b0932a9f13746c7521028a767"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "hubspotutk": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "ipinfo.io",
+                "element.io",
+                "www.anahana.com",
+                "netboxlabs.com",
+                "www.jimdo.com",
+                "www.artnet.de",
+                "www.gartentraum.de",
+                "pytorch.org",
+                "www.ladies-phone.com",
+                "www.liebscher-bracht.com",
+                "www.hammer-zuhause.de",
+                "gptzero.me",
+                "www.artnet.com",
+                "cara.care",
+                "sparkbyexamples.com",
+                "etcher.balena.io",
+                "www.operabase.com",
+                "www.serafinum.de",
+                "docs.pytorch.org",
+                "dvs-beregnung.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00245,
+    "topInitiators": [
+        {
+            "domain": "hs-scripts.com",
+            "prevalence": 0.7241379310344828
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.20689655172413793
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.034482758620689655
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.034482758620689655
+        }
+    ],
+    "types": {
+        "Script": 24,
+        "XHR": 24
+    },
+    "nameservers": [
+        "yolanda.ns.cloudflare.com",
+        "jerry.ns.cloudflare.com"
+    ]
+}

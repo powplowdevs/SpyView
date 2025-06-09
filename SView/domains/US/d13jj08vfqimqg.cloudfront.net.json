@@ -1,0 +1,111 @@
+{
+    "domain": "d13jj08vfqimqg.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d13jj08vfqimqg\\.cloudfront\\.net\\/assets\\/application-48fdb5ecc2c93445c3dd78c859e58c35bfe8b04bbf2651db663fca9c6adeb875\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d970493b0c918446f00c20553f304bea95f92c7088038aacb6ae1f8247aa165d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribecafilm.com",
+                "www.tribecafilm.com"
+            ]
+        },
+        {
+            "rule": "d13jj08vfqimqg\\.cloudfront\\.net\\/assets\\/application-25e93d62bc847ad689e56caa81826a7334c35f1d39e336160fd55f2d859dabdc\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.product": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "13d64e4fdeba8b4311648bebd54866883d98beed0ce1e2e07e578b72c69c0a9a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribecafilm.com",
+                "www.tribecafilm.com"
+            ]
+        },
+        {
+            "rule": "d13jj08vfqimqg\\.cloudfront\\.net\\/assets\\/rph-a929708ef064cc97d94a04c588a9c22160c7ee831a6623a61aa636fdb80761be\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1adaf6b5d8687ae2b19514c0039cee5b2bc59cbe67e1e7461105d23a3753181c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tribecafilm.com",
+                "www.tribecafilm.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-1191.awsdns-20.org",
+        "ns-1614.awsdns-09.co.uk",
+        "ns-493.awsdns-61.com",
+        "ns-993.awsdns-60.net"
+    ]
+}

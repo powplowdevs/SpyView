@@ -1,0 +1,419 @@
+{
+    "domain": "kxcdn.com",
+    "owner": {
+        "name": "proinity GmbH",
+        "displayName": "proinity",
+        "privacyPolicy": "https://www.keycdn.com/privacy",
+        "url": "http://keycdn.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00337,
+    "sites": 33,
+    "subdomains": [
+        "sc8a08ee72531b4fd3b2-1ef7f",
+        "sc6262abcdf2714dc988-1ef7f",
+        "in8a08ee72531b4fd3b2-1ef7f",
+        "in6262abcdf2714dc988-1ef7f",
+        "static-d8a0",
+        "searchanise-ef84",
+        "assetsop-bab8",
+        "rar-1c391",
+        "rip-1c391"
+    ],
+    "cnames": [
+        {
+            "original": "cdn-assets.office-partner.de",
+            "resolved": "assetsop-bab8.kxcdn.com"
+        },
+        {
+            "original": "ingest.blackroll.com",
+            "resolved": "in8a08ee72531b4fd3b2-1ef7f.kxcdn.com"
+        },
+        {
+            "original": "ingest.elektro-wandelt.de",
+            "resolved": "in6262abcdf2714dc988-1ef7f.kxcdn.com"
+        },
+        {
+            "original": "script.blackroll.com",
+            "resolved": "sc8a08ee72531b4fd3b2-1ef7f.kxcdn.com"
+        },
+        {
+            "original": "script.elektro-wandelt.de",
+            "resolved": "sc6262abcdf2714dc988-1ef7f.kxcdn.com"
+        },
+        {
+            "original": "static.userbenchmark.com",
+            "resolved": "static-d8a0.kxcdn.com"
+        },
+        {
+            "original": "static2.rock-am-ring.com",
+            "resolved": "rar-1c391.kxcdn.com"
+        },
+        {
+            "original": "static2.rock-im-park.com",
+            "resolved": "rip-1c391.kxcdn.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "kxcdn\\.com\\/api\\.v1\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sc8a08ee72531b4fd3b2-1ef7f",
+                "sc6262abcdf2714dc988-1ef7f"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "script.blackroll.com",
+                    "resolved": "sc8a08ee72531b4fd3b2-1ef7f.kxcdn.com"
+                },
+                {
+                    "original": "script.elektro-wandelt.de",
+                    "resolved": "sc6262abcdf2714dc988-1ef7f.kxcdn.com"
+                }
+            ],
+            "responseHashes": [
+                "a357094f4a66eb6d539e5bdc2dee728234f0ffb193fdf212539ad00f85fb58eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackroll.com",
+                "www.elektro-wandelt.de"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in8a08ee72531b4fd3b2-1ef7f",
+                "in6262abcdf2714dc988-1ef7f"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "ingest.blackroll.com",
+                    "resolved": "in8a08ee72531b4fd3b2-1ef7f.kxcdn.com"
+                },
+                {
+                    "original": "ingest.elektro-wandelt.de",
+                    "resolved": "in6262abcdf2714dc988-1ef7f.kxcdn.com"
+                }
+            ],
+            "responseHashes": [
+                "39824f2ec741ce74a8d37f33d384fd09b082368c2e93a05a8627de1561401d98"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackroll.com",
+                "www.elektro-wandelt.de"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in8a08ee72531b4fd3b2-1ef7f",
+                "in6262abcdf2714dc988-1ef7f"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "ingest.blackroll.com",
+                    "resolved": "in8a08ee72531b4fd3b2-1ef7f.kxcdn.com"
+                },
+                {
+                    "original": "ingest.elektro-wandelt.de",
+                    "resolved": "in6262abcdf2714dc988-1ef7f.kxcdn.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackroll.com",
+                "www.elektro-wandelt.de"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/resources\\/static\\/favicon\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-d8a0"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [
+                {
+                    "original": "static.userbenchmark.com",
+                    "resolved": "static-d8a0.kxcdn.com"
+                }
+            ],
+            "responseHashes": [
+                "ae5de4183db5fb2cc87d7e68656ee4064c4b25279ec51c2b201e1a874df2fbb2"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "userbenchmark.com",
+                "gpu.userbenchmark.com",
+                "www.userbenchmark.com"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/recommendation\\.40921\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "searchanise-ef84"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "8c488577b187d4bd8ccdb4bd539cba64ce49cb38e1cbefddcbc578f8e35ef54a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morenutrition.de",
+                "naturtreu.de",
+                "www.az-delivery.de"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/widgets\\.40921\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "searchanise-ef84"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "95a31a16c9e7e40d9abb7319a357a45913b0dd983f0d66269c5e77d2f05b55c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morenutrition.de",
+                "naturtreu.de",
+                "www.az-delivery.de"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/snize-autocomplete\\.40921\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "searchanise-ef84"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2ff23ad0a1931903d999444aa275eb615f6bb16becd31579ab026a24f63545d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morenutrition.de",
+                "naturtreu.de",
+                "www.az-delivery.de"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/media\\/video\\/79\\/fb\\/28\\/SamsungS23D001_SSL_LQ\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assetsop-bab8"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "cdn-assets.office-partner.de",
+                    "resolved": "assetsop-bab8.kxcdn.com"
+                }
+            ],
+            "responseHashes": [
+                "f3a010121ff814893dbd7c03a97e64b8e6004e072e0723cc7b782ce5646ed16c"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "office-partner.de",
+                "www.office-partner.de"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/assets\\/img\\/bg\\/theme-bi\\/V3-0001_RAM_Fire_Logo_04_Alpha_2_static\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rar-1c391",
+                "rip-1c391"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "static2.rock-am-ring.com",
+                    "resolved": "rar-1c391.kxcdn.com"
+                },
+                {
+                    "original": "static2.rock-im-park.com",
+                    "resolved": "rip-1c391.kxcdn.com"
+                }
+            ],
+            "responseHashes": [
+                "7bf7d7b605bf94fa3e85edb5d339e2e1d0acf2c384a11f5f647b9c9f85abdd7f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rock-am-ring.com",
+                "www.rock-im-park.com"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/assets\\/img\\/bg\\/theme-bi\\/V3-0001_RAM_Fire_Logo_04_Alpha_small_2\\.webm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rar-1c391",
+                "rip-1c391"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [
+                {
+                    "original": "static2.rock-am-ring.com",
+                    "resolved": "rar-1c391.kxcdn.com"
+                },
+                {
+                    "original": "static2.rock-im-park.com",
+                    "resolved": "rip-1c391.kxcdn.com"
+                }
+            ],
+            "responseHashes": [
+                "b82e299619372dbd730174465589371e7c699168643f40caef40abba57585c52"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rock-am-ring.com",
+                "www.rock-am-ring.com",
+                "www.rock-im-park.com"
+            ]
+        },
+        {
+            "rule": "kxcdn\\.com\\/assets\\/img\\/bg\\/theme-bi\\/V3-0001_RAM_Fire_Logo_04_Alpha_2\\.webm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rar-1c391",
+                "rip-1c391"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [
+                {
+                    "original": "static2.rock-am-ring.com",
+                    "resolved": "rar-1c391.kxcdn.com"
+                },
+                {
+                    "original": "static2.rock-im-park.com",
+                    "resolved": "rip-1c391.kxcdn.com"
+                }
+            ],
+            "responseHashes": [
+                "96c598f996a712b19351917c0641a9490b923f2be103665fbbbbf04d9190e2e8"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rock-am-ring.com",
+                "www.rock-am-ring.com",
+                "www.rock-im-park.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000714,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8548387096774194
+        },
+        {
+            "domain": "searchserverapi1.com",
+            "prevalence": 0.12096774193548387
+        },
+        {
+            "domain": "searchserverapi.com",
+            "prevalence": 0.016129032258064516
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.008064516129032258
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 2,
+        "Preflight": 2,
+        "Other": 3,
+        "Stylesheet": 3,
+        "Media": 8,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1318.awsdns-36.org",
+        "ns-1756.awsdns-27.co.uk",
+        "ns-572.awsdns-07.net",
+        "ns-437.awsdns-54.com"
+    ]
+}

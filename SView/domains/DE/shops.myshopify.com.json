@@ -1,0 +1,250 @@
+{
+    "domain": "shops.myshopify.com",
+    "owner": {
+        "name": "Shopify Inc.",
+        "displayName": "Shopify",
+        "privacyPolicy": "https://www.shopify.com/legal/privacy",
+        "url": "http://shopify.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "checkout.coffeecircle.com",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "de-checkout.woom.com",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "de-store.ifixit.com",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "secure.sq-lab.com",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "shop.beurer.com",
+            "resolved": "shops.myshopify.com"
+        },
+        {
+            "original": "us.eufy.com",
+            "resolved": "shops.myshopify.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "shops\\.myshopify\\.com\\/api\\/unstable\\/graphql\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [
+                {
+                    "original": "de-store.ifixit.com",
+                    "resolved": "shops.myshopify.com"
+                },
+                {
+                    "original": "de-checkout.woom.com",
+                    "resolved": "shops.myshopify.com"
+                },
+                {
+                    "original": "secure.sq-lab.com",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifixit.com",
+                "woom.com",
+                "www.ifixit.com",
+                "www.sq-lab.com"
+            ]
+        },
+        {
+            "rule": "shops\\.myshopify\\.com\\/api\\/unstable\\/graphql\\.json",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [
+                {
+                    "original": "de-store.ifixit.com",
+                    "resolved": "shops.myshopify.com"
+                },
+                {
+                    "original": "de-checkout.woom.com",
+                    "resolved": "shops.myshopify.com"
+                },
+                {
+                    "original": "secure.sq-lab.com",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [
+                "28fce814eff7b4a80f7155d3b5eca9fd52f9449173b4ea5d4db5fe7d8e28d56b",
+                "6e20683fba30b621a9d02e1ec9f52eae127103e44e26cf8e8ea4d57a6e719cea",
+                "0f48a5c8a569ff89c27009db2383e0f9954e3d7a477ad681cfdbffb9d9a5ec27"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifixit.com",
+                "woom.com",
+                "www.ifixit.com",
+                "www.sq-lab.com"
+            ]
+        },
+        {
+            "rule": "shops\\.myshopify\\.com\\/api\\/2025-01\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [
+                {
+                    "original": "shop.beurer.com",
+                    "resolved": "shops.myshopify.com"
+                },
+                {
+                    "original": "checkout.coffeecircle.com",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.beurer.com",
+                "www.coffeecircle.com"
+            ]
+        },
+        {
+            "rule": "shops\\.myshopify\\.com\\/api\\/2025-01\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "shop.beurer.com",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [
+                "423d61b7855c52b05386b126b228e3158b7ff4f29c641c47ebb40d97c0f27f08"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.beurer.com"
+            ]
+        },
+        {
+            "rule": "shops\\.myshopify\\.com\\/api\\/2024-01\\/graphql\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "us.eufy.com",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eufy.com",
+                "www.eufy.com"
+            ]
+        },
+        {
+            "rule": "shops\\.myshopify\\.com\\/api\\/2024-01\\/graphql\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "us.eufy.com",
+                    "resolved": "shops.myshopify.com"
+                }
+            ],
+            "responseHashes": [
+                "9073af8fd0eee7210a8103d4bb87693ee29296a11ea3cdc070460296396a3aba"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eufy.com",
+                "www.eufy.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00051,
+    "topInitiators": [
+        {
+            "domain": "pickystory.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.36
+        },
+        {
+            "domain": "kameleoonglobalscript.js",
+            "prevalence": 0.16
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "soundcoreusa.myshopify.com",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "Preflight": 9,
+        "Fetch": 8
+    },
+    "nameservers": []
+}

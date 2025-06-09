@@ -1,0 +1,1492 @@
+{
+    "domain": "epichosted.com",
+    "owner": {
+        "name": "Epic Systems Corporation",
+        "displayName": "Epic"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000127,
+    "sites": 18,
+    "subdomains": [
+        "mychart.et0996",
+        "mychart.et1326",
+        "mychart.et0978",
+        "mychart.et1007",
+        "mychart.et1131",
+        "mychart.et0876",
+        "mychart.et0816",
+        "mychart.et1030",
+        "mychart.et1334",
+        "mychart.et0578",
+        "mychart-np.et1015"
+    ],
+    "cnames": [
+        {
+            "original": "my.cooperhealth.org",
+            "resolved": "mychart.et0578.epichosted.com"
+        },
+        {
+            "original": "my.mainlinehealth.org",
+            "resolved": "mychart.et1007.epichosted.com"
+        },
+        {
+            "original": "mychart.benefis.org",
+            "resolved": "mychart.et1334.epichosted.com"
+        },
+        {
+            "original": "mychart.inova.org",
+            "resolved": "mychart.et0816.epichosted.com"
+        },
+        {
+            "original": "mychart.mdmercy.com",
+            "resolved": "mychart.et0876.epichosted.com"
+        },
+        {
+            "original": "mychart.orlandohealth.com",
+            "resolved": "mychart.et1131.epichosted.com"
+        },
+        {
+            "original": "mychart.stcharleshealthcare.org",
+            "resolved": "mychart.et1030.epichosted.com"
+        },
+        {
+            "original": "mychart.uconn.edu",
+            "resolved": "mychart.et0996.epichosted.com"
+        },
+        {
+            "original": "mychartonline.umassmemorial.org",
+            "resolved": "mychart.et0978.epichosted.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/Scripts\\/lib\\/Widget\\/widget_sdk\\.js",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et0996",
+                "mychart.et1326",
+                "mychart.et0978",
+                "mychart.et1007",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "mychart.uconn.edu",
+                    "resolved": "mychart.et0996.epichosted.com"
+                },
+                {
+                    "original": "mychartonline.umassmemorial.org",
+                    "resolved": "mychart.et0978.epichosted.com"
+                },
+                {
+                    "original": "my.mainlinehealth.org",
+                    "resolved": "mychart.et1007.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "dbd96dadb880ae4ac3303a5dd94217db11fbb60cbb31c3f6c3c996a36ea77b9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uconn.edu",
+                "health.uconn.edu",
+                "memorialhermann.org",
+                "physicians.umassmemorial.org",
+                "www.mainlinehealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/mychart\\/Scripts\\/lib\\/Widget\\/widget_sdk\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et0876",
+                "mychart.et0816"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mychart.mdmercy.com",
+                    "resolved": "mychart.et0876.epichosted.com"
+                },
+                {
+                    "original": "mychart.inova.org",
+                    "resolved": "mychart.et0816.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "dbd96dadb880ae4ac3303a5dd94217db11fbb60cbb31c3f6c3c996a36ea77b9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mdmercy.com",
+                "www.inova.org"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/Authentication\\/Login\\/LoginWidget",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "5668e7f9cd0d6ec270a7a6f92f3fc7c25fcb81b32a4ff9ca244d6d99db2b73e6",
+                "57baf128ed7763bfde48b0df833f4565c5065600915efb80f802ce98474feb66"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/localization\\/requiredoptionalindicators",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "523e07dbc020eb78d7961abc1a6143ce72eee95a542cc381e23e3f99df98dd5e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/common\\.css",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "9625e750588a187b34f7b52a684760a53e26a0993e9a268ca2d73dd251773aa3",
+                "980e03c030ed622d810db2e4ef42ea1961782b8e4f127f13c688fea4e3d1f29b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/colors\\.css",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "ff12b93a366f74a06fceb503bcba078f6e07087a500040547261b0b658cf2f26",
+                "cf9d18b9dd12115a7f7cc8d32606772f49a19b44376c84322f66e6055558993d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/themes\\.css",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "9c725c3e17352f74019ef72d5b1b41af1881fa61185367fb4e4723ae22ddddf4",
+                "c80dcf8eeb15398ceb6b770b4c41bfbd15c77eee7fed8811e22a0919e96ccf1c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/component\\.css",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "1e511914e1cec09043420b5a5fa2b5155a95e74997b1f3edc8d51681b87c7f82",
+                "c631433ddf272d3747ef506d429c1fc66a02959c792a7716fd7a43f79b0fd90f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/calendars\\.css",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "f279a1a8606a81b99fc2c64f5ad74040e6a386088271d7f417478b52647da02f",
+                "2e5c19799cb72b3753a53992876cc60ec0c4b2a4eb6a8809f859bf58242d7571"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/Content\\/EpicWP\\.css",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "693ba1f9d09dd303eeff6e418b6fe7e5013f83cc61e13e7338de0aeef10d3fad",
+                "015564f912ef30732deb3a7e56a47c703504fb46d498900c6577ac9827f3749c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/mobile_responsivesite\\.css",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "a0370fc72c8f71bb0ba6f67f77e4f764fc574395ec87ed71316840caa674de4b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/mobile_gridadapter\\.css",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "212590112088146a24de2e154862bb78208f4fe5d94d1edfcc592cd7e5b99af5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/override\\.css",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "90d5a0cffd3196197048cf3ce4c89facbf20b050d87735f69961141f16f1c8d4",
+                "06cbd612e7350eca343d6062f2f3122ce7b2d56f5cb5dcd100e24eff191e5f16"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-US\\/styles\\/bundles\\/sdk",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "861af743eb57edbfd8a42ca93c24dc00b794361bbb19df599e042eb818057c4c",
+                "aa4de871cec962354eb7132198103725dece6bf68f24c8b65f53ffc70406a842"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-US\\/images\\/MyChart_city\\.png",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "388e1af0c2e8d3d29466c9e8812b04f2225ec67c106320430ff1351f18a96bac"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-US\\/images\\/MyChartIsEpic_inline_dark\\.svg",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "0d9ea38f3846ac8bfff3900d6186ceeefc51d97c660e45f13fc1127a0146af70"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/scripts\\/external\\/jquery\\.min\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "131c0d82967fed05e1920e519e0ea6ec91ab97b7c40480f72f8af8680bba1f0a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/scripts\\/utilities\\/jqwrappers\\.min\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "7eff78089552f332aaffeffc5a94117f4ab730ba4f330aefe5eb3afe63e72ea4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/scripts\\/utilities\\/jqueryextensions\\.min\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "57afc05ba98684960d20f561e419a0269e9aa357f4ae40c6bfa20cb3f2b3b740"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/scripts\\/external\\/handlebars\\.runtime\\.min\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "16f93b365e7b047e26f4e91d4a98fba14f29d99ba6828435e89b0293dfa4b73a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/bundles\\/core-1-pre",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "30a6ba5559a16b82e82abc6e65afa3d6d8f37125799fcda7cb802a40cc565fe7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/scripts\\/ui_framework\\/core\\/uiframeworkbindings\\.min\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "6c0f4a75ddfe9dadedb9359828d81d1ff9c0407d7833698c0a0b760922107409"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/bundles\\/core-2-en-US",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "d8ac1e2d4b6a9223102c91013bb2b94a3735f146267bf66b394539170e3a6f69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/bundles\\/core-3-en-US",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "a87d70a5d288567f97712d096abd653beaecad326be73b22163d172015f41818",
+                "de9fcd7016e84ba456541c97dd7cca34c1a0155e173f1cdd33a8aebf968b0a6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/bundles\\/core-4-header",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "a215df1db13d08288a157145cb1c4908bb8d2a3e47be4e89965c0e638b2b95c7",
+                "be94247a7ce3f9344514492a91ce307030625337c7fac51e27de8e9e68746be6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/bundles\\/core-5-en-US",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "f3a2d0d6cf6b6b83ca59f54d1aecaa717eb802283995a3e4ea0e371160869a10"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/areas\\/authentication\\/scripts\\/controllers\\/loginpagecontroller\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "a801fd55afe4d8d065a457e2d6b6decbf2e96a5360f309a253cd5af3ee533e68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/loginwidget\\.css",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "54594d5df6be1f7c63527f391286e8593f0ad6e9286f04ce557b8f6ecbf15efc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-us\\/styles\\/print\\.css",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "9695d5c881069b9fb145cb22040076e3677d5d35d4de5c7ffceb228a28b068e3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/en-US\\/images\\/library\\.svg",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578",
+                "mychart.et1131"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                },
+                {
+                    "original": "mychart.orlandohealth.com",
+                    "resolved": "mychart.et1131.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "dba8542f5ddebcbeb046c6808f9d4204d2d83f6ca59c004618a75de0eb67a015",
+                "3d4bc6e8b2d93418f0a1b079ca26d20d25f2716710130594cb0a4ab0e73b97f1"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org",
+                "www.orlandohealth.com"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/fonts\\/sourcesanspro-regular-webfont\\.woff2",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et0578"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "2886d4eda18d227e2b11d3830789c6b55ce7beb260912fba1d907107118238f1"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.cooperhealth.org"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/MyChart\\/Localization\\/LogClientTimeZone",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart.et1030",
+                "mychart.et1334",
+                "mychart.et0578"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "mychart.stcharleshealthcare.org",
+                    "resolved": "mychart.et1030.epichosted.com"
+                },
+                {
+                    "original": "mychart.benefis.org",
+                    "resolved": "mychart.et1334.epichosted.com"
+                },
+                {
+                    "original": "my.cooperhealth.org",
+                    "resolved": "mychart.et0578.epichosted.com"
+                }
+            ],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stcharleshealthcare.org",
+                "www.benefis.org",
+                "www.cooperhealth.org"
+            ]
+        },
+        {
+            "rule": "epichosted\\.com\\/mycharttst\\/Content\\/EmbeddedWidget\\.css",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mychart-np.et1015"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e747b43d783fe658773b5068ac5c6573de7f6e159cc55772bda8424c380bc619"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthovirginia.com",
+                "www.orthovirginia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000127,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 51,
+        "Document": 3,
+        "Stylesheet": 53,
+        "Image": 8,
+        "Other": 4,
+        "Font": 2,
+        "XHR": 3
+    },
+    "nameservers": [
+        "vrnawi-dns-001.epichosted.com",
+        "rochmn-dns-001.epichosted.com",
+        "rochmn04-dns-001.epichosted.com",
+        "vrnawi04-dns-001.epichosted.com"
+    ]
+}

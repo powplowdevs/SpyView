@@ -1,0 +1,106 @@
+{
+    "domain": "army.delivery",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "nsfw"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "army\\.delivery\\/www\\/delivery\\/asyncjs\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nsfw"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "498e1b25e178c731c66538455395ccfa83650cc78bbdbf776ab7b0704d4581f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cliphunter.com",
+                "fleshbot.com",
+                "www.pichunter.com"
+            ]
+        },
+        {
+            "rule": "army\\.delivery\\/www\\/delivery\\/asyncspc\\.php",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsfw"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6114c75a17d47b0270ec4d8cf120bccf9e4d895e0d25fa4ab64276aee232c5b5",
+                "bb0509eb74f4a7b9f876dda04664b0b4ab8b4f9364307e5013686f41e69ab6a1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cliphunter.com",
+                "fleshbot.com",
+                "www.pichunter.com"
+            ]
+        },
+        {
+            "rule": "army\\.delivery\\/www\\/delivery\\/lg\\.php",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsfw"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cliphunter.com",
+                "fleshbot.com",
+                "www.pichunter.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3,
+        "Image": 3
+    },
+    "nameservers": [
+        "etta.ns.cloudflare.com",
+        "theo.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,170 @@
+{
+    "domain": "ca.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000209,
+    "sites": 2,
+    "subdomains": [
+        "aliant.bell",
+        "i5-cdn.walmartimages",
+        "beacon-cdn.walmart"
+    ],
+    "cnames": [
+        {
+            "original": "aliant.bell.ca",
+            "resolved": "aliant.bell.ca.akadns.net"
+        },
+        {
+            "original": "beacon.walmart.ca",
+            "resolved": "beacon-cdn.walmart.ca.akadns.net"
+        },
+        {
+            "original": "i5.walmartimages.ca",
+            "resolved": "i5-cdn.walmartimages.ca.akadns.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ca\\.akadns\\.net\\/",
+            "cookies": 0.000105,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aliant.bell"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [
+                {
+                    "original": "aliant.bell.ca",
+                    "resolved": "aliant.bell.ca.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bell.ca",
+                "service.aliant.bell.ca"
+            ]
+        },
+        {
+            "rule": "ca\\.akadns\\.net\\/dfw\\/63fd9f59-33d0\\/b9717bea-817e-455d-b1ee-720f8d58c2f1\\/v2\\/en-CA\\/_next\\/static\\/css\\/7212c29f1d9b2735\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i5-cdn.walmartimages"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [
+                {
+                    "original": "i5.walmartimages.ca",
+                    "resolved": "i5-cdn.walmartimages.ca.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "ac2fde9febbb96351207c668ec0044089d5f2eb07c5c61bd735d3d3b3fdc67c8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "walmart.ca",
+                "www.walmart.ca"
+            ]
+        },
+        {
+            "rule": "ca\\.akadns\\.net\\/dfw\\/63fd9f59-33d0\\/b9717bea-817e-455d-b1ee-720f8d58c2f1\\/v2\\/en-CA\\/_next\\/static\\/media\\/ui-icons\\.b76c8300\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i5-cdn.walmartimages"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [
+                {
+                    "original": "i5.walmartimages.ca",
+                    "resolved": "i5-cdn.walmartimages.ca.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "walmart.ca",
+                "www.walmart.ca"
+            ]
+        },
+        {
+            "rule": "ca\\.akadns\\.net\\/rum\\.gif",
+            "cookies": 0.000209,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon-cdn.walmart"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [
+                {
+                    "original": "beacon.walmart.ca",
+                    "resolved": "beacon-cdn.walmart.ca.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "13f86bd1a6d578ee82ca0c54a9a634e03d8d7db09380d72590b158f173f53790"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "walmart.ca",
+                "www.walmart.ca"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000209,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.896551724137931
+        },
+        {
+            "domain": "walmartimages.ca",
+            "prevalence": 0.05172413793103448
+        },
+        {
+            "domain": "walmartimages.com",
+            "prevalence": 0.034482758620689655
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.017241379310344827
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Stylesheet": 2,
+        "Font": 2,
+        "Ping": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,121 @@
+{
+    "domain": "dynatrace.com",
+    "owner": {
+        "name": "Dynatrace LLC",
+        "displayName": "Dynatrace"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00143,
+    "sites": 14,
+    "subdomains": [
+        "bf27383cxk.bf",
+        "bf91937iui.bf",
+        "bf11536igv.bf",
+        "bf99293tkn.bf",
+        "bf33276abq.bf",
+        "bf86358stq.bf",
+        "bf71615ufy.bf",
+        "bf16218erm.bf",
+        "bf33760onh.bf"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dynatrace\\.com\\/bf",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bf27383cxk.bf",
+                "bf91937iui.bf",
+                "bf11536igv.bf",
+                "bf99293tkn.bf",
+                "bf33276abq.bf",
+                "bf86358stq.bf",
+                "bf71615ufy.bf",
+                "bf16218erm.bf"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "4ceb6a7eea46ae74345c767ebad8d735141caefe3ca05a0ff08fdef6e9e88d15",
+                "f916611f1c2ae7efa1d28329ae2062d178e063edd7e724db1155c6fb9287f27a",
+                "b9d9667c3539bbea78bcc2ccae9f2a0233f43347dc7f917a6d99f4223d5b566c",
+                "92396e4386359bfed985beb77d0dd58ac39a523546b3b813a764b6760fc2c894",
+                "3a6e565d349a566a2173b540dc0cb6185cb396b3abb0ba72a48049d28c0c6d55"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dtCookie": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "accor.com",
+                "de.farnell.com",
+                "forums.autodesk.com",
+                "www.familysearch.org",
+                "www.hoffmann-group.com",
+                "www.instructables.com",
+                "www.premierinn.com",
+                "www.yoox.com"
+            ]
+        },
+        {
+            "rule": "dynatrace\\.com\\/bf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bf33760onh.bf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotel-bb.com",
+                "www.hotel-bb.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00051,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9333333333333333
+        },
+        {
+            "domain": "signalfx.com",
+            "prevalence": 0.03333333333333333
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.03333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 8,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dns3.p06.nsone.net",
+        "a7-67.akam.net",
+        "dns1.p06.nsone.net",
+        "a8-64.akam.net",
+        "a28-66.akam.net",
+        "a20-65.akam.net",
+        "dns2.p06.nsone.net",
+        "dns4.p06.nsone.net",
+        "a13-64.akam.net",
+        "a1-229.akam.net"
+    ]
+}

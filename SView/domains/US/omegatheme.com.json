@@ -1,0 +1,173 @@
+{
+    "domain": "omegatheme.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000198,
+    "sites": 28,
+    "subdomains": [
+        "apps",
+        "apps3",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "omegatheme\\.com\\/cookies-notification\\/client\\/save-cookies\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps",
+                "apps3"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anyalust.com",
+                "shellyparts.de",
+                "www.amazfit.com",
+                "www.badgerbalm.com",
+                "www.hoistfitness.com"
+            ]
+        },
+        {
+            "rule": "omegatheme\\.com\\/ot-order-tagger\\/backend\\/checkInstallAppStore\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cleansimpleeats.com",
+                "colorwowhair.com"
+            ]
+        },
+        {
+            "rule": "omegatheme\\.com\\/facebook-pixel\\/client\\/facebook-pixel-trigger\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6a574b9d02adb993aa10670f39f780e7f7ce618632d78d875e3d7274b5316120"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mycalmi.com",
+                "softwarekeep.com",
+                "the-foldie.com"
+            ]
+        },
+        {
+            "rule": "omegatheme\\.com\\/facebook-pixel\\/client\\/loading-custom-event\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "a2fceff77bd562f48a296acf846882e11931a93e562949502709a2ca9543355f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pawsafe.com",
+                "us.organicbasics.com",
+                "www.mondocattolico.com",
+                "www.onecompress.com"
+            ]
+        },
+        {
+            "rule": "omegatheme\\.com\\/cookies-notification\\/cookies-notification\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps3"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shellyparts.de",
+                "www.amazfit.com",
+                "www.badgerbalm.com",
+                "www.fantagraphics.com"
+            ]
+        },
+        {
+            "rule": "omegatheme\\.com\\/order-tracking\\/script_tags\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "keychron.com",
+                "www.keychron.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Fetch": 2,
+        "Script": 13
+    },
+    "nameservers": [
+        "ian.ns.cloudflare.com",
+        "linda.ns.cloudflare.com"
+    ]
+}

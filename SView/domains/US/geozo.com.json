@@ -1,0 +1,103 @@
+{
+    "domain": "geozo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "render",
+        "media"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "geozo\\.com\\/v5\\/render",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "render"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "8b504a6de8e4ddb45d8afd8f02f860e7524bf87c2beba0287a243b0e4d75a688",
+                "f42a51ef74e6f52fcfee2a04809ec139239a2e7e06e5c3f97a7af321fa26ffc0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "surfer_uuid": 0.00002122000905387053,
+                "page_load_uuid": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "bogordaily.net",
+                "fajar.co.id",
+                "www.viv.co.id"
+            ]
+        },
+        {
+            "rule": "geozo\\.com\\/\\.cdn\\/5531a5\\/faeac4\\/4a86e9a29f4b4c26864757ccf2431b64\\/d03647dd1a4598bd\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "687ed665e956d1b1ac921027125970022e371bd7a01f1adaab25e413ba9a2cd6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bogordaily.net",
+                "fajar.co.id"
+            ]
+        },
+        {
+            "rule": "geozo\\.com\\/\\.cdn\\/5531a5\\/faeac4\\/40ee820d48a244a9a4678bf29b36f693\\/d03647dd1cb5f0f6\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bogordaily.net",
+                "fajar.co.id"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Image": 4
+    },
+    "nameservers": [
+        "nora.ns.cloudflare.com",
+        "junade.ns.cloudflare.com"
+    ]
+}

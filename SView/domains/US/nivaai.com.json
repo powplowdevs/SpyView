@@ -1,0 +1,126 @@
+{
+    "domain": "nivaai.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "www",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nivaai\\.com\\/ntag\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "22a70ad64df4952fce5eec268f62616f52431a67b0e7db542514935888ccc6de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_na": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bodyhealth.com",
+                "coolmaterial.com",
+                "www.drscholls.com",
+                "www.givesendgo.com"
+            ]
+        },
+        {
+            "rule": "nivaai\\.com\\/tr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_na": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "bodyhealth.com",
+                "coolmaterial.com",
+                "www.drscholls.com",
+                "www.givesendgo.com"
+            ]
+        },
+        {
+            "rule": "nivaai\\.com\\/tr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "726bd300e2a189de671455eb50152d11182b89667b4b6903bb4fe6abc7c70b58"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_na": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "bodyhealth.com",
+                "coolmaterial.com",
+                "www.drscholls.com",
+                "www.givesendgo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6923076923076923
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3076923076923077
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e3.googledomains.com"
+    ]
+}

@@ -1,0 +1,182 @@
+{
+    "domain": "adcell.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00153,
+    "sites": 15,
+    "subdomains": [
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "adcell\\.com\\/js\\/trad\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "Screen.prototype.availWidth": 8,
+                "Screen.prototype.availHeight": 8,
+                "Screen.prototype.colorDepth": 8,
+                "Navigator.prototype.appCodeName": 10,
+                "Navigator.prototype.appName": 10,
+                "Navigator.prototype.appVersion": 10,
+                "Navigator.prototype.product": 9,
+                "Navigator.prototype.platform": 10,
+                "Navigator.prototype.vendor": 8,
+                "Navigator.prototype.vendorSub": 8,
+                "Navigator.prototype.mimeTypes": 10,
+                "Navigator.prototype.plugins": 10,
+                "Navigator.prototype.languages": 10,
+                "HTMLCanvasElement.prototype.toDataURL": 7,
+                "Navigator.prototype.javaEnabled": 3
+            },
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "1d8b483002d657cd77e9e45a7771c83186f37a630c0ff99b9ed2f578f6963ad7",
+                "77350b9ea55ef62261f960eba596fc0a1fef982c39352fd533680b91fe867ada"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fastbuds.com",
+                "ersatzteilshop.de",
+                "lizenzguru.de",
+                "mammutmarsch.de",
+                "www.bikes.de",
+                "www.ersatzteilshop.de",
+                "www.fernsehlotterie.de",
+                "www.gesundheitszentrale.eu",
+                "www.hanfgartenshop.de",
+                "www.kaufmich.com",
+                "www.pumpe24.de",
+                "www.wacken.com",
+                "www.zoxs.de"
+            ]
+        },
+        {
+            "rule": "adcell\\.com\\/js\\/inlineretarget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "8aa1da29b288998988b9c6e4c5884448930ebda3580f723b342aa2ae7d482257"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "clickid": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "lizenzguru.de",
+                "mammutmarsch.de",
+                "www.bikes.de",
+                "www.gesundheitszentrale.eu",
+                "www.hanfgartenshop.de",
+                "www.pumpe24.de",
+                "www.smartbrokerplus.de"
+            ]
+        },
+        {
+            "rule": "adcell\\.com\\/i\\/tcf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "9061c6ae3e66cd5d55c1790dee3dbdab18981e2f3f029d9f6145b0b2473507e1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lizenzguru.de",
+                "mammutmarsch.de",
+                "www.bikes.de",
+                "www.gesundheitszentrale.eu",
+                "www.hanfgartenshop.de",
+                "www.pumpe24.de",
+                "www.smartbrokerplus.de"
+            ]
+        },
+        {
+            "rule": "adcell\\.com\\/retargeting\\/track",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "64e36e146e9cb66f06dbe1f9427827f5e2728adcda1aac5abf9592e0d5e2b13a",
+                "8ba839c0074f1d0933f30059d9c41e8f54c057e250388030e324e5828b225418",
+                "c80a076d4d3215b8f29297c1ad1a3f9a5e51966b411d538ff5c7d6a6f2fbd380",
+                "e76edf217ef0aec639920e5e76ebdc1b231a77290d4145c7853554ea7e0d43c3",
+                "435bb6ca15fbda570c903f181d3f1d853ed66a48afae07df6464be1c5910f18f",
+                "b6359f82e3af2065dd7fb7d37cb23cefa677f74ce968c31d7feccd8dd50ddede"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "clickid": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "lizenzguru.de",
+                "mammutmarsch.de",
+                "www.bikes.de",
+                "www.gesundheitszentrale.eu",
+                "www.hanfgartenshop.de",
+                "www.pumpe24.de",
+                "www.smartbrokerplus.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5909090909090909
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4090909090909091
+        }
+    ],
+    "types": {
+        "Script": 27,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "lucy.ns.cloudflare.com",
+        "chris.ns.cloudflare.com"
+    ]
+}

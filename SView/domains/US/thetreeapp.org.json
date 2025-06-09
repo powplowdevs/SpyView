@@ -1,0 +1,108 @@
+{
+    "domain": "thetreeapp.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "www",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "thetreeapp\\.org\\/assets\\/js\\/tree-counter-widget\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d2684994c51f7f3682028bcc40b4e4b7bd2da93883df15c4a7911ed44b06de3a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "taw_cache": {
+                    "ttl": 86400,
+                    "length": 40,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessofapps.com",
+                "www.businessofapps.com"
+            ]
+        },
+        {
+            "rule": "thetreeapp\\.org\\/v1\\/impacts\\/trees",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessofapps.com",
+                "www.businessofapps.com"
+            ]
+        },
+        {
+            "rule": "thetreeapp\\.org\\/v1\\/impacts\\/trees",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c222e9426585693bc0f8e47a60bedf7eb9c9417cf29bae9ad4bdcb6773faeb3e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessofapps.com",
+                "www.businessofapps.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "rocco.ns.cloudflare.com",
+        "monroe.ns.cloudflare.com"
+    ]
+}

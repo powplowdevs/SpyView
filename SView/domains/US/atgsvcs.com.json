@@ -1,0 +1,153 @@
+{
+    "domain": "atgsvcs.com",
+    "owner": {
+        "name": "Oracle Corporation",
+        "displayName": "Oracle",
+        "privacyPolicy": "https://www.oracle.com/legal/privacy/privacy-policy.html",
+        "url": "http://oracle.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000778,
+    "sites": 11,
+    "subdomains": [
+        "static",
+        "rules"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "atgsvcs\\.com\\/js\\/atgsvcs\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.appName": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "c17ff28b850140b77cb7e9c1db94eb069ae4bd41ada3661dad9f61e3df72f083"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "xdVisitorId": {
+                    "ttl": null,
+                    "length": 51,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "atgRecVisitorId": {
+                    "ttl": 398573998,
+                    "length": 51,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "atgRecSessionId": {
+                    "ttl": null,
+                    "length": 74,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehartford.com",
+                "community.acer.com",
+                "officedepot.com",
+                "support.tcl.com",
+                "www.maurices.com",
+                "www.odpbusiness.com",
+                "www.officedepot.com",
+                "www.pattersondental.com"
+            ]
+        },
+        {
+            "rule": "atgsvcs\\.com\\/EERules\\/xd\\/3\\.0\\/json\\/200106306014\\/xd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rules"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d37d35794b7613f971d1078debb1dae537f43965633bc4c1f697c7460ccd269d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "officedepot.com",
+                "www.officedepot.com"
+            ]
+        },
+        {
+            "rule": "atgsvcs\\.com\\/EERules\\/xd\\/3\\.0\\/json\\/200106309587\\/xd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rules"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "becb4455414a6aea9361d25d106f3e10bc7488391d24c4c487c0ff0c8aebc291"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tcl.com",
+                "support.tcl.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "hfdstatic.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "custhelp.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 12
+    },
+    "nameservers": [
+        "a18-67.akam.net",
+        "a11-66.akam.net",
+        "a1-160.akam.net",
+        "a13-65.akam.net",
+        "ns1.p201.dns.oraclecloud.net",
+        "ns2.p201.dns.oraclecloud.net",
+        "ns3.p201.dns.oraclecloud.net",
+        "ns4.p201.dns.oraclecloud.net"
+    ]
+}

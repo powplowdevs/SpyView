@@ -1,0 +1,148 @@
+{
+    "domain": "gminfotech.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "age"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gminfotech\\.net\\/\\/assets\\/js\\/age-verification-popup\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "age"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d1177b6315d6f3e7b0d7e7f11dd93fbe4e820eb3c484eb8b8968057da1d4b7ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfortableinmyskin.com.au",
+                "www.sexdolls.com"
+            ]
+        },
+        {
+            "rule": "gminfotech\\.net\\/get_settings_api\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "age"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bde16add0a86937e8b22bf883d6fc0f21dbf46158a2975fb2e08d424be60c07e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfortableinmyskin.com.au",
+                "www.sexdolls.com"
+            ]
+        },
+        {
+            "rule": "gminfotech\\.net\\/assets\\/css\\/gm_infotech_settings2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "age"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e17b2d80cb401114bf49ba5e464019a2f9f138ce4375a6b16ceb27463caf5eba"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfortableinmyskin.com.au",
+                "www.sexdolls.com"
+            ]
+        },
+        {
+            "rule": "gminfotech\\.net\\/assets\\/css\\/gm_checkout_infotech_settings2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "age"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "af570ed85128c96e294cf64214d2e29a9e34a2794a6323699319e942bbcbb108"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfortableinmyskin.com.au",
+                "www.sexdolls.com"
+            ]
+        },
+        {
+            "rule": "gminfotech\\.net\\/assets\\/img\\/visual_images\\/default-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "age"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2b6dfe5deaef56806b421680f3844118b77a0475ac55accc2f831f86ae6d69ba"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfortableinmyskin.com.au",
+                "www.sexdolls.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2,
+        "Stylesheet": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "hans.ns.cloudflare.com",
+        "dawn.ns.cloudflare.com"
+    ]
+}

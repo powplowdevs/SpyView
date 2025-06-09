@@ -1,0 +1,145 @@
+{
+    "domain": "connectad.io",
+    "owner": {
+        "name": "ConnectAd",
+        "displayName": "ConnectAd",
+        "privacyPolicy": "https://www.connectadrealtime.com",
+        "url": "http://connectadrealtime.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00246,
+    "sites": 24,
+    "subdomains": [
+        "i",
+        "sync",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "connectad\\.io\\/api\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.00215,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dateandtime.info",
+                "www.gigacalculator.com",
+                "www.csfd.cz",
+                "songbpm.com",
+                "kotaku.com",
+                "www.tenforums.com",
+                "database.guide",
+                "www.cycletrader.com",
+                "www.iplocation.net",
+                "www.prydwen.gg",
+                "www.hifishark.com",
+                "24timezones.com",
+                "www.memedroid.com",
+                "thethaiger.com",
+                "www.elevenforum.com",
+                "www.cpubenchmark.net",
+                "singletrackworld.com",
+                "linuxconfig.org",
+                "uquiz.com",
+                "dpm.lol"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/iFrameSyncer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kotaku.com",
+                "www.mumsnet.com"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/connectmyusers\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byggebolig.no",
+                "www.iplocation.net",
+                "www.memedroid.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "fuseplatform.net",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "buysellads.net",
+            "prevalence": 0.1388888888888889
+        },
+        {
+            "domain": "kinja-static.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.027777777777777776
+        },
+        {
+            "domain": "holid.io",
+            "prevalence": 0.027777777777777776
+        },
+        {
+            "domain": "cpex.cz",
+            "prevalence": 0.027777777777777776
+        },
+        {
+            "domain": "amazon-adsystem.com",
+            "prevalence": 0.027777777777777776
+        }
+    ],
+    "types": {
+        "Fetch": 21,
+        "Document": 5
+    },
+    "nameservers": [
+        "amit.ns.cloudflare.com",
+        "elma.ns.cloudflare.com"
+    ]
+}

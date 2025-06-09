@@ -1,0 +1,97 @@
+{
+    "domain": "driveniq.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "driveniq\\.com\\/dot\\/10829",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myrtlebeach.com",
+                "www.myrtlebeach.com"
+            ]
+        },
+        {
+            "rule": "driveniq\\.com\\/vpixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ca8d2ecd31923aab4573c9796baa38bec752bd4430df44c9f7630ef49fd35b1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitsanantonio.com",
+                "www.visitsanantonio.com"
+            ]
+        },
+        {
+            "rule": "driveniq\\.com\\/dot\\/13206",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitsanantonio.com",
+                "www.visitsanantonio.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 4,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns57.domaincontrol.com",
+        "ns58.domaincontrol.com"
+    ]
+}

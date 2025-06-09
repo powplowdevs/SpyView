@@ -1,0 +1,74 @@
+{
+    "domain": "powweb.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "www",
+        "secure"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "powweb\\.com\\/secure\\/login\\.html",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1e8dec1b59b1ec3ff508485cb0f92d77a1fcf76048c1e9b1c5425aef0e90cfc4"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ipage.com",
+                "emailmg.ipage.com"
+            ]
+        },
+        {
+            "rule": "powweb\\.com\\/images\\/icons\\/favicon_pow\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bfc7036e4127c12a3c8d021fc4076927f2dac5f904c795936b7a19632793fcec"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ipage.com",
+                "emailmg.ipage.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "types": {
+        "Document": 2,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns2.powweb.com",
+        "ns3.powweb.com"
+    ]
+}

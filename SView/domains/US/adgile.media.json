@@ -1,0 +1,141 @@
+{
+    "domain": "adgile.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "atag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adgile\\.media\\/tag\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 1,
+            "subdomains": [
+                "atag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.platform": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "729ce518fc776d875a1f3320d04cf8cad4c684f1802d2624838bf65747ad4e6e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aami.com.au",
+                "www.mitsubishi-motors.com.au",
+                "www.specsavers.com.au",
+                "www.suncorpbank.com.au",
+                "www.zwift.com"
+            ]
+        },
+        {
+            "rule": "adgile\\.media\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atag"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aami.com.au",
+                "www.mitsubishi-motors.com.au",
+                "www.specsavers.com.au",
+                "www.suncorpbank.com.au",
+                "www.zwift.com"
+            ]
+        },
+        {
+            "rule": "adgile\\.media\\/",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atag"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aami.com.au",
+                "www.mitsubishi-motors.com.au",
+                "www.specsavers.com.au",
+                "www.suncorpbank.com.au",
+                "www.zwift.com"
+            ]
+        },
+        {
+            "rule": "adgile\\.media\\/1\\.gif",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ford.com.au",
+                "www.ford.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.36363636363636365
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.36363636363636365
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2727272727272727
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 5,
+        "Preflight": 5,
+        "Image": 2
+    },
+    "nameservers": [
+        "thea.ns.cloudflare.com",
+        "dante.ns.cloudflare.com"
+    ]
+}

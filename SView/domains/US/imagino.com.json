@@ -1,0 +1,99 @@
+{
+    "domain": "imagino.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "tag",
+        "4814e6cd.tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "imagino\\.com\\/jzGfZRelQDCsB8cfBfIWoA==\\/api\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "909be105ba6c1766019dcd785eec960abcf8e02f8eadeb84f213e23d6df56fc4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cairn.info",
+                "shs.cairn.info"
+            ]
+        },
+        {
+            "rule": "imagino\\.com\\/public\\/api\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag",
+                "4814e6cd.tag"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "bd998c1e9d6eff844315636e0da8d03b9174e7857499ffcdadee7250f63302e6",
+                "ae0410a6d11831aa9f6c8c1d8e4d122fbce260fd5d5b99868060c8fb97c7567b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idec.com",
+                "www.clarinsusa.com",
+                "www.operadeparis.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-59-a.gandi.net",
+        "ns-233-b.gandi.net",
+        "ns-228-c.gandi.net"
+    ]
+}

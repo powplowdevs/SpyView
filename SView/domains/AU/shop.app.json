@@ -1,0 +1,153 @@
+{
+    "domain": "shop.app",
+    "owner": {
+        "name": "Shopify Inc.",
+        "displayName": "Shopify",
+        "privacyPolicy": "https://www.shopify.com/legal/privacy",
+        "url": "http://shopify.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0314,
+    "sites": 296,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "shop\\.app\\/checkouts\\/internal\\/preloads\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 296,
+            "prevalence": 0.0314,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ozmobiles.com.au",
+                "muji.com.au",
+                "www.perricutten.com.au",
+                "australiahifi.com.au",
+                "mizuno.com.au",
+                "fjallraven.com.au",
+                "australherbs.com.au",
+                "ledlenser.com.au",
+                "www.australianlandscapesupplies.com.au",
+                "store.dremc.com.au",
+                "guitarfactory.com.au",
+                "casioau.com",
+                "www.cancercouncilshop.org.au",
+                "www.karmaeast.com.au",
+                "asianpantry.com.au",
+                "ottolenghi.co.uk",
+                "www.bathwaredirect.com.au",
+                "www.toorallie.com.au",
+                "www.toyworld.com.au",
+                "www.huntsmanproducts.com.au"
+            ]
+        },
+        {
+            "rule": "shop\\.app\\/pay\\/session",
+            "cookies": 0.0291,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 276,
+            "prevalence": 0.0293,
+            "cnames": [],
+            "responseHashes": [
+                "9b5179ea2a77fe69b294fbd2ed504eacbfbe048ede58967b43af2ca537144b1f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daily.com.au",
+                "ledlenser.com.au",
+                "baristawarehouse.com.au",
+                "www.electrickicks.com.au",
+                "decor.com.au",
+                "bikes.com.au",
+                "www.boody.com.au",
+                "www.maggiebeer.com.au",
+                "bikesonline.com.au",
+                "www.toorallie.com.au",
+                "www.nourishmeorganics.com.au",
+                "threadcollective.com.au",
+                "thecardnetwork.com.au",
+                "ivanhoecycles.com.au",
+                "carusosnaturalhealth.com.au",
+                "www.sheike.com.au",
+                "sodastream.com.au",
+                "akubra.com.au",
+                "asianpantry.com.au",
+                "whitefoxboutique.com.au"
+            ]
+        },
+        {
+            "rule": "shop\\.app\\/pay\\/sdk-session",
+            "cookies": 0.000318,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000318,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blueillusion.com",
+                "freshbeautyco.com.au",
+                "www.happyvalleyseeds.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0291,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9758620689655172
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.01206896551724138
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.005172413793103448
+        },
+        {
+            "domain": "visually-io.com",
+            "prevalence": 0.0034482758620689655
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.0017241379310344827
+        },
+        {
+            "domain": "boldapps.net",
+            "prevalence": 0.0017241379310344827
+        }
+    ],
+    "types": {
+        "Script": 296,
+        "Fetch": 276,
+        "Document": 3
+    },
+    "nameservers": [
+        "blue.foundationdns.org",
+        "blue.foundationdns.net",
+        "blue.foundationdns.com"
+    ]
+}

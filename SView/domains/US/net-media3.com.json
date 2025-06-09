@@ -1,0 +1,116 @@
+{
+    "domain": "net-media3.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "cid"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "net-media3\\.com\\/l\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "561e31cfb8472dc2aad89bd14cfd34ff25818420ffdc1fe1645b755ec1685bc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ted.com",
+                "ideas.ted.com",
+                "www.123greetings.com"
+            ]
+        },
+        {
+            "rule": "net-media3\\.com\\/ted-com\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cid"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "bfd8c04054aae441f8e344c1ca396e5a520b73969a71daf51f2d4d8032bbfb01"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ted.com",
+                "blog.ted.com",
+                "ideas.ted.com"
+            ]
+        },
+        {
+            "rule": "net-media3\\.com\\/sa\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9eefcfad2f6ab4227f7a396ba32142275330ca9283ac3f13d04a4726f8f96a2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ted.com",
+                "ideas.ted.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "kntxy.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ursula.ns.cloudflare.com",
+        "brodie.ns.cloudflare.com"
+    ]
+}

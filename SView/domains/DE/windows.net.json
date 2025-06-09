@@ -1,0 +1,110 @@
+{
+    "domain": "windows.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00265,
+    "sites": 26,
+    "subdomains": [
+        "stchatscripts.blob.core",
+        "ethicalads.blob.core"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "windows\\.net\\/scripts\\/LoadChat-COS\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stchatscripts.blob.core"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "835302b4177fa0b3ded73cea7bbb1cadd907eecd7829abcc465a9c918bcdc14f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cos.com",
+                "www.cos.com"
+            ]
+        },
+        {
+            "rule": "windows\\.net\\/media\\/images\\/2025\\/04\\/cropped\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ethicalads.blob.core"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7b4d9d1133d41d5cbb81896cb1e33eb247aa1eec05f58102e3464b58b27d0390"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "python.org",
+                "www.markdownguide.org"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9726027397260274
+        },
+        {
+            "domain": "ethicalads.io",
+            "prevalence": 0.0136986301369863
+        },
+        {
+            "domain": "branchly.io",
+            "prevalence": 0.00684931506849315
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.00228310502283105
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.00228310502283105
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.00228310502283105
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns4-39.azure-dns.info",
+        "ns2-39.azure-dns.net",
+        "ns3-39.azure-dns.org",
+        "ns1-39.azure-dns.com"
+    ]
+}

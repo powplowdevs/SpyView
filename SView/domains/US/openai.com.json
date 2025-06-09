@@ -1,0 +1,56 @@
+{
+    "domain": "openai.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "status"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "openai\\.com\\/api\\/v2\\/summary\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "status"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9c10f627010f654ce9741738e103a9b14441e7c70e0f607b5ceac8f2ba63b397"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cartoonstock.com",
+                "www.cartoonstock.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns3-02.azure-dns.org",
+        "ns1-02.azure-dns.com",
+        "ns2-02.azure-dns.net",
+        "ns4-02.azure-dns.info"
+    ]
+}

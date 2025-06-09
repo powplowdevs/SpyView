@@ -1,0 +1,60 @@
+{
+    "domain": "getjan.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000113,
+    "sites": 16,
+    "subdomains": [
+        "cdn.lib"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getjan\\.io\\/library\\/allocine\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.lib"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "09c39c63f3996b9a94e01a601c1f295b5e0818604bc22c4b3fe67c505b909188"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allocine.fr",
+                "www.allocine.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000113,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9375
+        },
+        {
+            "domain": "jvc.gg",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ace.ns.cloudflare.com",
+        "donna.ns.cloudflare.com"
+    ]
+}

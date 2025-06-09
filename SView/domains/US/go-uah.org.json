@@ -1,0 +1,129 @@
+{
+    "domain": "go-uah.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "my"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "go-uah\\.org\\/mtc\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "28e1b2d7b7d75581d7da62022a4527b4fb659ceaaa5bf84f7f429267a17b1b9d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtc_id": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "mtc_sid": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "mautic_device_id": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uah.edu",
+                "www.uah.edu"
+            ]
+        },
+        {
+            "rule": "go-uah\\.org\\/mtc\\/event",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a0b4b9068504c6456fbf45d4cb1d31f022d310c518be444381d3fd68bf6c75b6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uah.edu",
+                "www.uah.edu"
+            ]
+        },
+        {
+            "rule": "go-uah\\.org\\/mtc\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uah.edu",
+                "www.uah.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1894.awsdns-44.co.uk",
+        "ns-272.awsdns-34.com",
+        "ns-1273.awsdns-31.org",
+        "ns-902.awsdns-48.net"
+    ]
+}

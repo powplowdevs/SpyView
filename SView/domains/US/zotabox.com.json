@@ -1,0 +1,977 @@
+{
+    "domain": "zotabox.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000389,
+    "sites": 55,
+    "subdomains": [
+        "stats",
+        "static",
+        "file"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zotabox\\.com\\/api\\/1\\.0\\/event\\/multi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.00024,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heatwavevisual.com",
+                "www.utvdirect.com",
+                "enlightenedequipment.com",
+                "www.tiremart.com",
+                "www.saltwateraquarium.com",
+                "www.griffinarmament.com",
+                "www.italyreview.com",
+                "highhorseperformance.com",
+                "www.hondasportpartswarehouse.com",
+                "www.irish-folk-songs.com",
+                "brocksperformance.com",
+                "a1armory.com",
+                "www.judicialwatch.org",
+                "shop.sharpusa.com",
+                "kakindustry.com",
+                "www.skylighter.com",
+                "theberkey.com",
+                "www.berkeleywellbeing.com",
+                "www.usmcmuseum.com",
+                "stoneagegamer.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__bfuzrlw\\/asset\\/bundle\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.platform": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "window.innerWidth": 1,
+                "Document.cookie setter": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e031d18045b72dfed7717fcf387f6a13f7cdc365195a5735764de6d98e2053e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ZB_STATIC_1661018_DR_MF_lastTime": {
+                    "ttl": 31536010,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equi.life",
+                "www.sarcoinc.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/asset\\/bundle\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "window.sessionStorage": 5,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 5,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Navigator.prototype.platform": 3,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.innerWidth": 5,
+                "window.innerHeight": 3,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "e031d18045b72dfed7717fcf387f6a13f7cdc365195a5735764de6d98e2053e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ZB_STATIC_SS_1712797_DR_MF_currentSessionEnable": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_SS_1712795_DR_MF_currentSessionEnable": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1709963_TS": {
+                    "ttl": 52254720002,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1709963_DR_MF_lastTime": {
+                    "ttl": 31536002,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1712797_DR_MF_lastTime": {
+                    "ttl": 31536003,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1713138_DR_MF_lastTime": {
+                    "ttl": 31536003,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1482658_DR_MF_lastTime": {
+                    "ttl": 31536004,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1684016_DR_MF_lastTime": {
+                    "ttl": 31536004,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_SS_1719373_DR_MF_currentSessionEnable": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1686112_TS": {
+                    "ttl": 52254720003,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1686112_DR_MF_lastTime": {
+                    "ttl": 31536003,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1719373_DR_MF_lastTime": {
+                    "ttl": 31536003,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1719680_DR_MF_lastTime": {
+                    "ttl": 31536005,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_SS_1465569_DR_MF_currentSessionEnable": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_ZB_STATIC_1465569_DR_MF_lastTime": {
+                    "ttl": 31536006,
+                    "length": 13,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "highhorseperformance.com",
+                "www.arkenopticsusa.com",
+                "www.hunter.com",
+                "www.italyreview.com",
+                "www.judicialwatch.org",
+                "www.longfield-gardens.com",
+                "www.saltwateraquarium.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/social_tab\\/temp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c4712bae77151f006ec38baa2626fb9933c4103b433ae20dab47b7858a674206"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "highhorseperformance.com",
+                "www.italyreview.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/add_to_cart_popup\\/default\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3fa2353dc0a61c49c591573c3b397c8ae9f581104e5f7724726cb120f456b526"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "highhorseperformance.com",
+                "www.arkenopticsusa.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/asset\\/script\\/jquery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "619a035de7b3f415690b001ae63128f8d68cd71ecd6bbd59791a8d7fa40bdf9d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "highhorseperformance.com",
+                "www.arkenopticsusa.com",
+                "www.italyreview.com",
+                "www.judicialwatch.org"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/asset\\/script\\/jquery\\.scrollbar\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "75f3101a26e26ab3dca7e61d7c1f812e89f0a72a4fb951f93c305d5df6195032"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "highhorseperformance.com",
+                "www.italyreview.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/asset\\/script\\/qrcode\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "80ad14a57685ba765353e8a93b46a8fad89401222107495e37e46d1604b02901"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "highhorseperformance.com",
+                "www.italyreview.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/asset\\/script\\/swiper-bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "78f9464e342c08aeee225b2c892af801496723ef327bfaae0324428445e6c7bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "highhorseperformance.com",
+                "www.arkenopticsusa.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/asset\\/font\\/Zotabox3\\/ztb3\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fd99a892a4b381416fa1da73d9441a1426cd7439ca2b44b9fb76fc5b15e0f990"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "highhorseperformance.com",
+                "www.italyreview.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/0\\/a\\/0a6523993f080fbe2ec30ce5121fa2b2\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "363f8445c9b1e0538f5840e93a226492da5bfa808c4104e6814cc04dbbd0cd96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sharpusa.com",
+                "shop.sharpusa.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/information_bar\\/default\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "2a4c5d153959ea0b7e50faff80e27e00c616861e0b061ac78fa162a9417750f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkenopticsusa.com",
+                "www.longfield-gardens.com",
+                "www.saltwateraquarium.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/e\\/d\\/edf5dc96761960d144043b7c7df005a3\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a802307b0304e857456a239a8edae3ea1de27a5a223e980dd8e50696c35acd05"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audioadvisor.com",
+                "www.audioadvisor.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/f\\/5\\/f5b70d12ef75c796f25de5faaebf3444\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f10aca335fbcc16e01166a5ce211ebd9e7a143d6e36ae18c8d201ced01a5142"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deckexpressions.com",
+                "www.deckexpressions.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/c\\/4\\/c4fcadda568fdfe91690a1029483e0b9\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d0a5b5f578d10ddd2c6a0896d58527b09e2e1c248df2ffdda3d396f6dfc8948a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diamonddcustomleather.com",
+                "www.diamonddcustomleather.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/8\\/f\\/8f24404219624fbd1b3530cbf697f671\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a524854b062a1f561978bcf0b21edbb921bd53555d46e31e720ebaf633173be1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "griffinarmament.com",
+                "www.griffinarmament.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/f\\/d\\/fd992bc734dd56015517c2eea4a35e03\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a8e9b727494b69d11ade79d70fa14f5efec069655d6d25a3d9f07ad728df1706"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irish-folk-songs.com",
+                "www.irish-folk-songs.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__vykwako\\/asset\\/font\\/Zotabox2\\/ztb2\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e5f198efbd177011dc9ebc193afecc1b4697e04c548208b6834e8adbba2d4bf4"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "italyreview.com",
+                "www.italyreview.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/901\\/611901\\/1378118_background_image\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "234706e5c5226e93c3c5a2f139d07f9733ecefecd05e4aa525724138fb688ef1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "judicialwatch.org",
+                "www.judicialwatch.org"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/1\\/5\\/15c7e3364c60d57bb94bec8f3ad83cfd\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "73632076d5fff3852a9436b762b4532c1548a01b74e4300bb1b19811d66c3632"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "longfield-gardens.com",
+                "www.longfield-gardens.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/1\\/5\\/15c7e3364c60d57bb94bec8f3ad83cfd\\/data\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "38f224204f01501204cb1dd8146f9b0a8433e1c09b4e9057a59d86907aefbdf4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "longfield-gardens.com",
+                "www.longfield-gardens.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/4\\/f\\/4f0edb709fced8d0892a13dae365084f\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "63b9d746dde28c65b704ea23035860cec0dc1a023c90528c858373df7e263e6b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saltwateraquarium.com",
+                "www.saltwateraquarium.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/4\\/f\\/4f0edb709fced8d0892a13dae365084f\\/data\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c830b909e6095fc58d953a2f2e0f1780e15e595a808c591798d74b73c368bc07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saltwateraquarium.com",
+                "www.saltwateraquarium.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/7\\/c\\/7cf54cde736ce123bb524d5251b2052c\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0e406d8a16a74d181864771e785e0126c2a58a1dbc65aa58bf7491328f5f616e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sarcoinc.com",
+                "www.sarcoinc.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/7\\/c\\/7cf54cde736ce123bb524d5251b2052c\\/data\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "783291096485198729ff0b8fceb3c4e9983dd2d86b31fcb74b8c6bcc23e26915"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sarcoinc.com",
+                "www.sarcoinc.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__bfuzrlw\\/add_to_cart_popup\\/default\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3fa2353dc0a61c49c591573c3b397c8ae9f581104e5f7724726cb120f456b526"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sarcoinc.com",
+                "www.sarcoinc.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__bfuzrlw\\/asset\\/script\\/jquery\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "619a035de7b3f415690b001ae63128f8d68cd71ecd6bbd59791a8d7fa40bdf9d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sarcoinc.com",
+                "www.sarcoinc.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/__bfuzrlw\\/asset\\/script\\/swiper-bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "78f9464e342c08aeee225b2c892af801496723ef327bfaae0324428445e6c7bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sarcoinc.com",
+                "www.sarcoinc.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/6\\/4\\/64b5170de69ef11ca824fca86197f5cd\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "48e6bab713bfab0a63a6ebac3b85fb37f4b398a86f206c736f40047532925c85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiremart.com",
+                "www.tiremart.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/a\\/4\\/a4c3afa0d2d42d17eb1d3b627f9cccfa\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e18e3ece141aacd4d22dedaa288ea423d37004e3c552cbdc9418333ec75c6eab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utvdirect.com",
+                "www.utvdirect.com"
+            ]
+        },
+        {
+            "rule": "zotabox\\.com\\/9\\/3\\/93f185687144d8af0e6ce968fa167419\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a49b40d012aa028ab2ae1a21b55018bf6830ffa608c8398d59b71e82b213d0d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wrightleatherworks.com",
+                "www.wrightleatherworks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6125
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.275
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0375
+        },
+        {
+            "domain": "reamaze.com",
+            "prevalence": 0.025
+        },
+        {
+            "domain": "d34ikvsdm2rlij.cloudfront.net",
+            "prevalence": 0.025
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.0125
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.0125
+        }
+    ],
+    "types": {
+        "XHR": 34,
+        "Script": 62,
+        "Font": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "aida.ns.cloudflare.com",
+        "buck.ns.cloudflare.com"
+    ]
+}

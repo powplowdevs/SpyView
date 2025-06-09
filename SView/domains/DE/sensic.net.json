@@ -1,0 +1,249 @@
+{
+    "domain": "sensic.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "es-config",
+        "es-config-preproduction",
+        "17473624386977d044b9458c358d73371364b294121ecd9d72657771.trk",
+        "1747361439749fca96426c457143d4bc4805cbb4d6d47bf00f4a4a1b.trk",
+        "1747361900431563775a61eff5c2c220307b787118db011cb8a7224b.trk",
+        "1747361047908b9078cc1a835fd3d67005688ae700fb22fc0c5aac96.trk",
+        "1747361050653a14746af3f16ee1aa7ea5941918b7fd8dad43e20d17.trk",
+        "1747362340748a1a42458e5206f75703d748478c19801385518f82ad.trk",
+        "174736346788028e5605011904643490791f86bed88093207db0e008.trk",
+        "1747363845783836d0d7f68bd8571ad1dd2e8507c1b014b6b4792c0d.trk",
+        "17473617416159c6ad7094040aae106ee7375c1cc8a96c7dae423844.trk",
+        "de-config",
+        "de-config-preproduction",
+        "es1-s2s",
+        "es1preprod-s2s",
+        "localhost",
+        "de1-s2s",
+        "de1preprod-s2s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sensic\\.net\\/s2s-web\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "es-config",
+                "es-config-preproduction"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.language": 4,
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 5
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "7553b7dc5f7728cd530b1035e6ac08a019793b58d23a84f96b8cc97dfaa964ae",
+                "673417662bb37bc9e2d10dafb369582779ef1163a7dc115e2af97402f21ed417"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "gedankenwelt.de",
+                "www.daswetter.com",
+                "www.mallorcamagazin.com",
+                "www.mallorcazeitung.es"
+            ]
+        },
+        {
+            "rule": "sensic\\.net\\/tp\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "17473624386977d044b9458c358d73371364b294121ecd9d72657771.trk",
+                "1747361439749fca96426c457143d4bc4805cbb4d6d47bf00f4a4a1b.trk",
+                "1747361900431563775a61eff5c2c220307b787118db011cb8a7224b.trk",
+                "1747361047908b9078cc1a835fd3d67005688ae700fb22fc0c5aac96.trk",
+                "1747361050653a14746af3f16ee1aa7ea5941918b7fd8dad43e20d17.trk",
+                "1747362340748a1a42458e5206f75703d748478c19801385518f82ad.trk",
+                "174736346788028e5605011904643490791f86bed88093207db0e008.trk",
+                "1747363845783836d0d7f68bd8571ad1dd2e8507c1b014b6b4792c0d.trk",
+                "17473617416159c6ad7094040aae106ee7375c1cc8a96c7dae423844.trk"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "gedankenwelt.de",
+                "tv.sport1.de",
+                "www.arte.tv",
+                "www.daserste.de",
+                "www.daswetter.com",
+                "www.mallorcamagazin.com",
+                "www.mallorcazeitung.es",
+                "www.sr.de"
+            ]
+        },
+        {
+            "rule": "sensic\\.net\\/3pc\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "es-config",
+                "es-config-preproduction",
+                "de-config",
+                "de-config-preproduction"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "568ac6a9a523149d3865ab62f1020e2ec42de1005db3d69afaae6a82eff12f27"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "gedankenwelt.de",
+                "tv.sport1.de",
+                "www.arte.tv",
+                "www.daswetter.com",
+                "www.mallorcamagazin.com",
+                "www.mallorcazeitung.es",
+                "www.sr.de"
+            ]
+        },
+        {
+            "rule": "sensic\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "es1-s2s",
+                "es1preprod-s2s",
+                "localhost"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "gedankenwelt.de",
+                "www.daserste.de",
+                "www.daswetter.com",
+                "www.mallorcamagazin.com",
+                "www.mallorcazeitung.es",
+                "www.sr.de"
+            ]
+        },
+        {
+            "rule": "sensic\\.net\\/sui-connector\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "de-config",
+                "de-config-preproduction"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "f281a0e307dae5e66d5b044bc2901b365f7e075dbeb755bcde053f7778af24a7",
+                "1e70dcb56626dfd374e4ddd28c96475310f0b408e8fab2338c1b4f453d3f67f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sport1.de",
+                "www.ard-text.de",
+                "www.arte.tv",
+                "www.daserste.de",
+                "www.sr.de"
+            ]
+        },
+        {
+            "rule": "sensic\\.net\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "de1-s2s",
+                "es1-s2s",
+                "de1preprod-s2s"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daserste.de",
+                "www.daswetter.com",
+                "www.sr.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8125
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 19,
+        "Document": 8
+    },
+    "nameservers": [
+        "ns-192.awsdns-24.com",
+        "ns-1003.awsdns-61.net",
+        "ns-1081.awsdns-07.org",
+        "ns-1850.awsdns-39.co.uk"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "domain": "auspost.com.au",
+    "owner": {
+        "name": "Australian Postal Corporation",
+        "displayName": "Australian Postal"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "collect"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "auspost\\.com\\.au\\/2\\/AU_POST\\/location-finder\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4e509293b28627b3ae787321806a2e5f80a538a8027d35f43318a580dd9028cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "countryroad.com.au",
+                "www.wickedweasel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1137.awsdns-14.org",
+        "ns-1916.awsdns-47.co.uk",
+        "ns-443.awsdns-55.com",
+        "ns-729.awsdns-27.net"
+    ]
+}

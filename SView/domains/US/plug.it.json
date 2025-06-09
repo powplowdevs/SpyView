@@ -1,0 +1,251 @@
+{
+    "domain": "plug.it",
+    "owner": {
+        "name": "ItaliaOnLine SpA",
+        "displayName": "ItaliaOnLine"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "i5",
+        "i",
+        "i4",
+        "wips"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "plug\\.it\\/cmp\\/qciol\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i5",
+                "i"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "9d14def6a76ed0fe101168dd43a678e833c5e2d6f5b9d298fff254b9ffa73bbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dilei.it",
+                "m.tuttocitta.it",
+                "www.pgcasa.it",
+                "www.tuttocitta.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/iplug\\/js\\/lib\\/iol\\/analytics\\/engine\\/IOL\\.Analytics\\.Tracking\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "i",
+                "i4"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.languages": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.plugins": 1,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.javaEnabled": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "4ebb1cfd890b92dac410f5e4f9b4d26db27399682d2689e75ecda56701b15e3a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dilei.it",
+                "m.tuttocitta.it",
+                "www.pgcasa.it",
+                "www.tuttocitta.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/cmp\\/iub_conf_tuttocitta\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i5"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "612b82029a6839c9ed1d11997df8f111e6ff98e44a798381473f3e1df6e103ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuttocitta.it",
+                "www.tuttocitta.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/iplug\\/js\\/lib\\/iol\\/analytics\\/data\\/www-tuttocitta-it\\/tracking_www-tuttocitta-it\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bd4f752429c0850ed367f7a91c70b50e0b6341b5b15d6d4126769b7b51faa6ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuttocitta.it",
+                "www.tuttocitta.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/cmp\\/V2\\.5\\/css\\/iub_conf_tuttocitta\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c5958fa714ae36404400891a27502f26d5f626ba3b1b104ca7e248cf6d5c3671"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuttocitta.it",
+                "www.tuttocitta.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/iplug\\/js\\/lib\\/iol\\/video\\/v2\\/playertv\\/js\\/iolPlayerLoader2\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cf57aa02d1d84bb7d631e315e44d5b8a0de38b7d3ece4165b8053e76d9ced4af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsmondo.it",
+                "www.dire.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/iplug\\/js\\/lib\\/iol\\/video\\/v2\\/playertv\\/js\\/iolPlayerLoader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerHeight": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "3f7e57809c728c0abc775018c165c61aaa1a03de84fdef2351f6e53e415e2e6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilsussidiario.net",
+                "www.ilsussidiario.net",
+                "www.thesocialpost.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/cips\\/paginegiallecasa\\/cms\\/2024\\/12\\/cosa-sapere-prima-di-installare-la-caldaia\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wips"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pgcasa.it",
+                "www.pgcasa.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9361702127659575
+        },
+        {
+            "domain": "iubenda.com",
+            "prevalence": 0.06382978723404255
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Stylesheet": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.italiaonline.it",
+        "ns2.iol.it"
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "domain": "weborama.design",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "cloud"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "weborama\\.design\\/board\\.js",
+            "cookies": 0.0000495,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cloud"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 1
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "b5df2453e01c06f9343a2cbfc320e6dc92e70daca4053171dd94d9f093451a66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iol.pt",
+                "maisfutebol.iol.pt",
+                "tvi.iol.pt",
+                "tviplayer.iol.pt",
+                "www.cmjornal.pt",
+                "www.flash.pt",
+                "www.nit.pt",
+                "www.radiopopular.pt"
+            ]
+        },
+        {
+            "rule": "weborama\\.design\\/constructor\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "54987629b51d4ff948bbd441cd29b1594806ede9d2171a91c8d0a34486fe6918"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iol.pt",
+                "maisfutebol.iol.pt",
+                "tvi.iol.pt",
+                "tviplayer.iol.pt",
+                "www.cmjornal.pt",
+                "www.nit.pt",
+                "www.radiopopular.pt"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 15
+    },
+    "nameservers": [
+        "ns1.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns3.digitalocean.com"
+    ]
+}

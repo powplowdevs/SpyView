@@ -1,0 +1,95 @@
+{
+    "domain": "within.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "capi"
+    ],
+    "cnames": [
+        {
+            "original": "gateway.benjerry.com",
+            "resolved": "capi.within.co"
+        },
+        {
+            "original": "gateway.riteaid.com",
+            "resolved": "capi.within.co"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "within\\.co\\/events\\/bfd4ad67b72da6a64b920e2a538eb2be63923939b20ddea3fe850b135e603c9b",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "gateway.benjerry.com",
+                    "resolved": "capi.within.co"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benjerry.com",
+                "www.benjerry.com"
+            ]
+        },
+        {
+            "rule": "within\\.co\\/events\\/8eac917627a682d2191880418063e2ecf3d1235555cbc6519a94089622b52003",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "gateway.riteaid.com",
+                    "resolved": "capi.within.co"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "riteaid.com",
+                "www.riteaid.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "riteaid.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "gerald.ns.cloudflare.com",
+        "amy.ns.cloudflare.com"
+    ]
+}

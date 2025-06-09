@@ -1,0 +1,74 @@
+{
+    "domain": "mocafirst.at",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mocafirst\\.at\\/moca\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "84ef25bda0be2ebfa54cf9fecddf9f3935e67efddcbe25fadd90b02781d5bd34"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noen.at",
+                "www.vienna.at"
+            ]
+        },
+        {
+            "rule": "mocafirst\\.at\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "925fa225a1518b7f439e8d00917937a3b85ca31f05a97f2abc3fb565707cebfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vienna.at",
+                "www.vienna.at"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-309.awsdns-38.com",
+        "ns-907.awsdns-49.net",
+        "ns-1523.awsdns-62.org",
+        "ns-1676.awsdns-17.co.uk"
+    ]
+}

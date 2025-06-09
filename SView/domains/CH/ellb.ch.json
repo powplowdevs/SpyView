@@ -1,0 +1,69 @@
+{
+    "domain": "ellb.ch",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000411,
+    "sites": 4,
+    "subdomains": [
+        "rcp-scsstatic-ch.hdb-cs04"
+    ],
+    "cnames": [
+        {
+            "original": "rcp.scsstatic.ch",
+            "resolved": "rcp-scsstatic-ch.hdb-cs04.ellb.ch"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ellb\\.ch\\/content\\/dam\\/swisscomsite\\/static1httl\\/cdn\\/datalayer-sync-min\\.js",
+            "cookies": 0.000411,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rcp-scsstatic-ch.hdb-cs04"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000411,
+            "cnames": [
+                {
+                    "original": "rcp.scsstatic.ch",
+                    "resolved": "rcp-scsstatic-ch.hdb-cs04.ellb.ch"
+                }
+            ],
+            "responseHashes": [
+                "2a1bc236315ac1d9ad16d3d4fc3c0764b8cc09c2a91152c58c75ff11877ccd39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swisscom.ch",
+                "swisscomshops.swisscom.ch",
+                "www.bluewin.ch",
+                "www.swisscom.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "dns1.swisscom.com",
+        "dns2.swisscom.com",
+        "dns3.swisscom.com",
+        "ns31.scs-ns.ch",
+        "ns32.scs-ns.org"
+    ]
+}

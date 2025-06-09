@@ -1,0 +1,68 @@
+{
+    "domain": "sopro.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "plugin"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sopro\\.io\\/hq\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "plugin"
+            ],
+            "apis": {
+                "Document.cookie getter": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "8e711bd25d8daa67098fce492603eb6a86b8a634ef1fe72d98cb4ff985c62417",
+                "6d70bb7c5663a16d09aa5e49d73a133a69b5044ee5c7fc463df99536ccc304fa",
+                "9d438b0804b5c469d9f1422c225ab3b5cfc7004e595ec3b854ff64931aa69da9",
+                "6506434a8575dc2fc60e082104655b70dae69b204c86fed8c6b79f2ce8a8b075",
+                "ac5cb70f51af3455c9c3c3ebafca90774222d991a6139634fc95eed36f084603"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "affordableartfair.com",
+                "matterport.com",
+                "proofed.com",
+                "www.isms.online",
+                "www.truenas.com",
+                "www.wevideo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "albert.ns.cloudflare.com",
+        "betty.ns.cloudflare.com"
+    ]
+}

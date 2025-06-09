@@ -1,0 +1,827 @@
+{
+    "domain": "orbsrv.com",
+    "owner": {
+        "name": "ExoClick, S.L.",
+        "displayName": "ExoClick",
+        "privacyPolicy": "https://www.exoclick.com/privacy/",
+        "url": "http://exoclick.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00195,
+    "sites": 276,
+    "subdomains": [
+        "a",
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "orbsrv\\.com\\/ad-provider\\.js",
+            "cookies": 0.0000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Document.cookie getter": 60,
+                "Navigator.prototype.userAgent": 98,
+                "Navigator.prototype.language": 59,
+                "Screen.prototype.width": 52,
+                "Screen.prototype.height": 51,
+                "window.innerWidth": 77,
+                "window.innerHeight": 75,
+                "Date.prototype.getTime": 62,
+                "Document.cookie setter": 10,
+                "NavigatorUAData.prototype.getHighEntropyValues": 10,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 155,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "10a2c2a43c779fcae8fcb5792315939fc05c5eb5c2fe52c6b814f94226e359f7",
+                "2f7dbd5f9cac9270fde91c9e2078129a866b864cd627951b1cfb5c40cb22a039"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zone-cap-1487658": {
+                    "ttl": 21606,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "zone-cap-1487660": {
+                    "ttl": 21605,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "zone-cap-4988142": {
+                    "ttl": 21602,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "zone-cap-1487606": {
+                    "ttl": 21602,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "zone-cap-1487662": {
+                    "ttl": 21611,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "zone-cap-4781730": {
+                    "ttl": 21609,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "zone-cap-4798578": {
+                    "ttl": 369,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.xnxx.com",
+                "www.xvideos.com",
+                "www.youjizz.com",
+                "youjizz.com",
+                "pt.xgroovy.com",
+                "thematurepornpics.com",
+                "goldendesi.com",
+                "www.teensnow.com",
+                "it.xgroovy.com",
+                "de.xvideos.com",
+                "www.gadismelayu.org",
+                "xxx-sex.one",
+                "justindiansex.com",
+                "www.18porn.sex",
+                "www.onejapanese.com",
+                "chudaiporn.com",
+                "leakslove.com",
+                "www.xnxx.tv",
+                "olo.cool",
+                "mrdeepfakes.xyz"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/v1\\/api\\.php",
+            "cookies": 0.000849,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 122,
+            "prevalence": 0.000863,
+            "cnames": [],
+            "responseHashes": [
+                "37e7e76fbcb83d2c0f9acc5caf9091e144227ebbf8ba0e68b0eefb9e2dd90ef5",
+                "d70cabd868858e6f2907291be6ec44d00e4f921d8db73cd0bd9a811a8c9b9737",
+                "04e4f129e412726d86cab50e93d44a69cb8486f6c78045691f325536fc05a658",
+                "e0d0fe9c9887bb92705846cca63a505867fada99b64ab33f27ce85cd25dc7cd8",
+                "00d703f4d7ec2acccebe9433ef51e277c2e78614cf99fe49ab538a470c59f404",
+                "238a1551a06d741b4effb19aaea475f3d17061931659977151ef744d215781da",
+                "62bb17cb7b6357079f2275b7cfbe4cf23c299201c5d48fe42006915482b9838a",
+                "2055c66bc0a1b2c1d429cce8a359947973bcb025507dcae449a89562b6ed03a0",
+                "479dc63e12507ca7b1fa9dbe39e0dd6b0514792d9c7bdcf162480d7d9427cc16",
+                "b8be62a8ca448d17621c1336bc58b5c8ee9bfbad37349fed883686436564a42d",
+                "b48b79372e7854ef580c881503c9f45c2de30acd7f11b3c3520c73a08eddac01",
+                "9c9359fa61e442ff98ad1b08488414bf6fc164eaa0569a518ee8205db75355d8",
+                "05a61889b658168692a93a67e9d3f77f4726bcd2f813264ea553d07bce41cc3c",
+                "9eebaa986918b056beef5c5ccdfc4581341130b4bf8f68fb6d7771372ed0f5f3",
+                "e08b0fa39ad8d810a6051456c28e71a392b48847c3bbc8c1852a572d907c883c",
+                "d7913852b31df6fa01d79e8b17212d318fe87557c84ddbb0379bb56bb0f59bb5",
+                "8f5a2e9380f198ff66c9d29674bad5bad82057cfad4e906616d96ffac38ab5cb",
+                "7173ef5d94be57a5bbd252823f7ebc6e7e9f2d1624987b0295a35b817ea7a2d9",
+                "f1d5bdd314596c9f23c09d40bb28ca9cf18c844953de3fb6a51e4658f6efc6ad",
+                "3c3f8d6fbc61deb1f56cbd8fe83ef0da63be187e38bb04f467bfca2f490c078c",
+                "28e137f3ba65695eb9cf578973f22eeaacc09bf698a9f4ba688bf832e882db97",
+                "7f3e69da42949ef3db4fa3a54970ed6f419ef654a4bd05388f9154a5127e1d69",
+                "2e7650b63c0b554f52f47fc886b3d9cd1cb602f2ee9299ac9acb79156da70931",
+                "6d3bab19f813d003e9d24d4043234feb7244046e9d2ec2ee7fc600f0b4a5d370",
+                "075a22dfdbcc8b4a127db8bb817414c042098c2daf4af354fa6038f8e49e6806",
+                "9277e046b8043109baf4d2f1afb82d0893c5948933aca7948aa92dfb02882da1",
+                "cf93d1f278701238d1c09d748bab7c87c7dbb586264d9ae03aec531343506b39",
+                "9c34f1d97c2c22543e57c9019d52927938201a02e1301737c43326e1ef230dec",
+                "37ef95adef807844d785446c106a1a6ba8f354065a3117d5c49f1be6bba5e854",
+                "0a86619acb0f9380b72d1eeac236031a53c64ebf51e88f9d1ffef3cde119c6e9",
+                "b6563ffcd01674d4efda96b827ee5bdaa01ddf71e64a8e957c115b8f493f0b48",
+                "70841cde2bc7eee03beae413d4345c6916b8dbf9a5350bdcc7eb88f1a3bdf588",
+                "0f83753616238865ba4c5d503f33083fae771cfa03b119e9a7365301619ea0f8",
+                "e1343da115e2f308e24a1e7d25cc62aaffc4b52e86520bf4ec9ce80062822ea5",
+                "6d745f63cea56a0af1d3f159f1151f9a6933d53da52e0de564ba4553d0c7cf42",
+                "eca6e87f3328681d3a0635b9a850a2ca989e27c7a5c112c48a8ee83e74e7bc4b",
+                "95a1c67d88bdfe029651bb339b362c93eba809c2a9fa46192e7f7d66029105b4",
+                "d901af3a4bf1316492e76354984678c27657c8c3043f6d8cef265294a82f29ae",
+                "9abf4dce3a85ad758e31ab3f814bd7e5a65dc49f2b3f38968f6a513734a50761",
+                "c3052a530d381513b4a4db8083cf8cd3f295f242c887c424e6f4f473b4dc9962",
+                "7efc012e81b5d72f6b126e93826595fd0587d9ab3cbf7212e5810ed52d8e44fc",
+                "38247342432c992b203e1d56aeee65751fef0509a579b6e3748eee5982a346a5",
+                "44b857b988802f506962a2f6f15facdfe96d4451f2b492c0792331e816c4619c",
+                "1b84a90f10db255ada94f906e59eac8d080738bff81abfc466f568274178ad03",
+                "4d19141342b8197554ac6f177859331573d38c91ead2834b21390a12565e0f06",
+                "edbfa7bc1fa16cf79cef6575c4cc124af08c2813381ec2058929129d16a0a4a6",
+                "eb839cbbc48692201bb8c8b430488154ecd40d9e522223f1d4e53adb789ac9d5",
+                "c8740bcf769c8fdb96ac516e9637091db47399d429da1c1c39090a13911cf190",
+                "c8a9248d4e2d7236bb6d82cce0d5d0614ff5ef924797f93034ad87e4cf89b33f",
+                "685615187adfcf987d4ca56d4fd913ba634334e50e26a5924d9699dedc25eac7",
+                "e4565b8c7aae53c3702373171e111ded9e6a88dd18ef2101d8f62c3458614d47",
+                "2c527b4b65d56b322333c16b7c772626253cbf511899cf8dd46fbc78ae14171b",
+                "a37dc793a6ec86edbe3950a7aa8d122ab7af26da557289207b0304aad4551138",
+                "8a099b8d0133d576f46b2607bfd217b20849192934b9c2c21610e9c45de245ba",
+                "1a1cb3c0bcbf42e1a1a3f87fdb90c1939a0d81974e7df58b6fdac55aaeca16a1",
+                "b5413082689afa5b1f6a5e2e93f158dcaf0ec5ca0848b1663eccdc4b1fcaa246",
+                "6da029515303abc9b9f8c87985e40cca8036f75382714adbf51879b8868fce8a",
+                "51a9b37041edfe283c79bca72c4814e6d0e98489d79e7caecaaa0c3d7bcaec86",
+                "f2897978177c5aa2d86585cbd21f5adbf5d232ed4102d49b053dea0ec0ea78a3",
+                "8012ca94186aeb99a41aab131260491069819c9dc37de8e9ae8feceb0f9139cf",
+                "0f34fe884b6134647c768ea00da2e2747df39b30e8d229b5eb4d8feacebd52da",
+                "00e41f093da889c5649ac14fb862e566583ad2ea5389e1210028f26def9c0928",
+                "0beba858f74de80044fe47ac501b2730a470daaee26f5202c8954ffd1433704c",
+                "478f1da0b38352ff6b1535dd5ef369c90bb6b8b04aef128f2872800f69a4a156",
+                "7bab54b233dd71ee39834fcf1e736caf5840901bbb17f0f341d527b875c2654c",
+                "d114a9866c75665107086b5aa9479bfcc782c07cd0a03b201b9c5544fe35bdca",
+                "736b4d19e78f942ffb22393a26ce41e9dc3a36b9963bfe59e05d736327d2738f",
+                "225a779b55a347978186aae6a74e2c2d574d2b651befd55afa5d5add902adefe",
+                "2cb2eec30729d1b76ec5b8601ca5e0519bd64f0caacb9a3eaf89c10637e0c5c5",
+                "3db5f06e5fa1d4f70a994b4627f0ac67b7f8ce3f043292eedd329a72d255c97c",
+                "54dcce920a41fdcb41a087f8a0cd0c8e7dc1b178082cd1924991625eaf51c5ff",
+                "b655ebf832b5e94f59161fa86aa21f75ac412dc5290858895d2279a272cf4410",
+                "d56d5859bdf326ae04287c22918a4e5e1f6fd8711bee8efe291ccab08e83e64a",
+                "61fb8146caf188049237c1789c9a6ec962478aad029176ca97d893a49e1f8e82",
+                "103bc16f73878fbd7da55015e18e45844b7818b763ca5f2535f4d49055e6c7a5",
+                "8f50e253a7eac8718bbcc93164f79a4ffe9d8548844672a555eee72f7a9a83be",
+                "9256f924c0562c07a035fed012a18932dbc066df1a08adbdbfa169006e21f8c0",
+                "36dd1b6b3b5a0226d206f793ef8ad65eff179290f48335a7103412c232733c84",
+                "c09ecc39a6ecaf9926fec1a497a6461a63cb480a4502ee1ab36187557d8f66c5",
+                "fc2aa708e26dfab1c24bf651dd0c206db126e667dd40ab9fdcd54b3018b09f97",
+                "6bdd382386de9875b3a18116fd68814e2d4e9a2290c88ec62bcca5a4e0ef09e4",
+                "abf4d22947c55b3b4ddb37bf4b8aa395221134d2a9597c33de4a50179ea5f5fe",
+                "c34a5ef7d5a8dc35443256f0813b35a6a4e5a4c5b6e4e2b7bf019a84c1cdc982",
+                "a8ca7f66f6d0b16883d0db4b285e253db1694f456fba2c8ed05fe847cc3dbc1b",
+                "83c59a236141e6c6cedeb8a40dab57900a42d30d0279b693a3d70bca91fef405",
+                "9cfca87c2f13ab2acf2e6784a624ed5b53ebc57a75d899a758ba89c5456fd7da",
+                "e670d315abab402e97e38000b07bc218e7ec40447f9c7fa7bb6754b10b09be1e",
+                "aa934dc7000896423905066dcdb21757d934155bad3c1b126876c003d92e3536",
+                "ffe8d080bc27c4bdfe21bc7e1fd253a9f920701f2df871868131782bd5cff873",
+                "dfd65cf20be8b8a9897fe41787793cd2ff23adf7bcc1ca7d58e24f24990a2a02",
+                "a7b26259ab55e1ed82459e91f0477adbbf56cc4d80453479e6ebe6c9773e22ec",
+                "b7a4627857eb19ddff9a3a189e7bbc2e501792ade5e05122369253c01adef8da",
+                "bab60e716335d15555ad2855f50cf00db60dac6bf1529ea5908414d77e5badb7",
+                "6837d85f6936e3467b852e92228bbe88b38608f22056c324b4ee30fc03100c6a",
+                "d40560c20eebe7affe9eb780ba24ee24e0aa67f1f91585c408f51ea45f974932",
+                "538ef0fee74d4fb8c3e9c85be5c25651e00c3d32369e58ce47a9a51ac783525a",
+                "53f3873194ca6c9ca4ac066746c98285a2fb6740be6157a62e41df516f03bfc9",
+                "cc132863755791fb946cbae4f6bfa212aa6f98ffeef90f826f2991278fed5a18",
+                "496e5172c0cc331bf3060e7884891171dd7f5bde3ad3d1153688473d0a362ac9",
+                "d65d28f9561ae9fbe95e8d589c86854511bd5b7e6f1cf86d402df3ecc668135c",
+                "9758662d7e57ffe120303f220c4ff78a35544dd7e13a9e25f61cb16483f21ca9",
+                "c57bb1f819363f701e455afa53affdcc8f5c380569b82ddf1ff62231ba993bc3",
+                "bc3cb485b75635d8f7da0b553df1220d800132da2c16984305c9a62d51a07efd",
+                "cd56b40675686538ad57f8ad4328165856383828815d69f588285ece60f4b3b6",
+                "37d8d7be6745b463c3ae8bae04068af8344bcdd3ffbaf6cf5ad28dd928bf816c",
+                "3f00611d6b914e6088c8a563b61284db0628e2c16211f1153c9401fa072111b1",
+                "84ab246f1542a956b2ae3b4e632320b7ea26ec9235bbb43ebc6bb800d2e8ee1e",
+                "3237d839bfc0079590b930d0cb76f50d50e14cb0a2258b93ee5c7c3ab25a894c",
+                "5bde5ebb57ff593dc7cd76f3ceea066083308b9c045e8b51a6ec35e67cd02ac7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.xnxx.com",
+                "www.xvideos.com",
+                "www.youjizz.com",
+                "youjizz.com",
+                "indianpornbase.com",
+                "xtubeindian.com",
+                "ulluporns.com",
+                "pinkclips.mobi",
+                "fr.xvideos.com",
+                "adultjoy.net",
+                "www.xnxx.tv",
+                "freesexkahani.cloud",
+                "japxtube.com",
+                "xxxfilm.pro",
+                "tgtsporn.com",
+                "matureclub.com",
+                "retropornfilms.com",
+                "pl.xgroovy.com",
+                "www.xnxx.place",
+                "malayporn.vip"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/cimp\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 115,
+            "prevalence": 0.000813,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.xvideos.com",
+                "www.youjizz.com",
+                "youjizz.com",
+                "ulluporns.com",
+                "m.mylust.com",
+                "mysexvideotube.com",
+                "www.malayalamsexstories.one",
+                "www.gayboyshd.com",
+                "xgroovy.com",
+                "nl.xgroovy.com",
+                "7mmtv.sx",
+                "es.iporntv.net",
+                "freevintagegallery.com",
+                "en.xnxx.place",
+                "xxxmom.pro",
+                "malayporn.vip",
+                "www.lesbiancloud.com",
+                "www.xvideos.es",
+                "xxxfilm.pro",
+                "xzxxtube.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/tag\\.php",
+            "cookies": 0.00012,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acmejoy.com",
+                "adultgames.games",
+                "doublelist.com",
+                "help.doublelist.com",
+                "l.clips4sale.com",
+                "porngames.games",
+                "porngamesverse.com",
+                "sniffies.com",
+                "virtualrealporn.com",
+                "www.agentredgirl.com",
+                "www.camster.com",
+                "www.flirt4free.com",
+                "www.nagad88.com",
+                "www.nextdoorstudios.com",
+                "www.sexlikereal.com",
+                "www.xnxx-cams.com",
+                "xxxgames.games"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/v1\\/vast\\.php",
+            "cookies": 0.000134,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.000134,
+            "cnames": [],
+            "responseHashes": [
+                "19bafe635cad24d438b08a619576d7870a5dfaeb214804acc11c89ea3651b9ee",
+                "1ea6079bc46dff3a7c8a0b0db8de58b4beb2bfba08d17b514c1640ad75b3459b",
+                "02a5e918408ed2ba03d5fc310502b23ad6097ca013c5fce69e1f67a32677fc43",
+                "b33ce57914e457d7406634861ad1fdce9b617c5fb96a901f352aef50d2c70ba8",
+                "7fa156c47ab543033136174706014f8ac9cd93bd6cb75d05bd9a9d4cd810d824",
+                "e362dc6598fa24480154574a351be50b818d2fc78ca08be0f74a85b416a79794",
+                "bec3b07127aa48d4c36415ddfaed66305814d2b8a32de354c8b529d2d5b07d31",
+                "1d7d4208b2697fcc0429453fc5ac2c8dbb463a63418bb1190443127bb3ea3d31",
+                "5f1f0acb0ee2b183211f8578d83f7e4015080cd39d246981febda5af7a043413",
+                "0b98aab834360359c2b35ef42f80af74e9420c58a15fe939e274dd623a64b73b",
+                "fbd287a6c3e102975f4a9c879575075fe066ac10316bba65261d8657e83e634a",
+                "3c90c0dffd5875f112fc647601489d8ef1f3954684f16bedf54d1a65eb6d38f6",
+                "b624c3bedf386050d748c39916947c13c9a61e596e68e91c70c8e4f554d8b89a",
+                "690bac0a97fe1cec66a4a29b5a01c19990a4cdba104b639ca52f7489a19acaed",
+                "0c4c17d3579323a06de1553cc8dc6ca8250b40665d0eec85396d36e04ab747f8",
+                "c76b82d8f911ba93356b61a5bdb197e63e9103780e9eac177af4710246f84c5f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bokep.uno",
+                "bokepindopro.com",
+                "bokepjepang.org",
+                "ciciindo.com",
+                "de.xvideos.com",
+                "fullxmovies9.com",
+                "massagepornx.com",
+                "phimxsex.com",
+                "pornchum.com",
+                "pornobrasil.com",
+                "sexdollporn.com",
+                "trendpornvids.com",
+                "www.avizoon.site",
+                "www.madurashd.com",
+                "www.pornorama.com",
+                "www.xhammer.net",
+                "www.xnx.icu",
+                "www.xnxx20.com",
+                "xxxx2024.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/iframe\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "f92330a072c10e0ef3b249e82b934b98e966fb8a61bd9aa22308fe932182f422",
+                "8fd58ebb8966a49823dd9e492e87589abed1f4a63f0665e41fa9a6bb2eba152a",
+                "6b3c8bf27e4a6c148a44d29c6f5f3f40aedb9086404f0997c8c25c6cdb74ba58",
+                "8d81f13a6cd509040a52bebb9a8a60d10cb6aff24ac615b6de2d64ccc9ce9500",
+                "d6cfe173b8ae9164e9087b6f08a340f9af344673384fa5da542d3064ed97e2be"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bokepsun.top",
+                "fapality.com",
+                "m.fapality.com",
+                "m.mylust.com",
+                "mylust.com",
+                "ohentai.org",
+                "theshemale.xxx",
+                "www.ohentai.org",
+                "www.youjizz.com",
+                "youjizz.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/nativeads-v2\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.innerWidth": 8,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "fbb9d0fcf65652a305ac0584b7f48d471e7adb9c7d80d81feb86e2b959ca07c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gay.bingo",
+                "de.gay.bingo",
+                "de.shemale.movie",
+                "mylust.com",
+                "shemale.movie",
+                "swingerpornfun.com",
+                "www.nerdnudes.com",
+                "www.xtits.com",
+                "www.xxxbule.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/splash\\.php",
+            "cookies": 0.0000637,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "14fa4b6c88b7fffaaf683edb25ee03e0a2dc5f1f14a4465a8fd66977092cdc1b",
+                "b78c8ad781007b529c50440b7b79f7a7198144452eba905421be2efcb19c071b",
+                "2a1780c454ae58effe9e41e205874dec964c5bc10c22b15c06624d94822df861",
+                "8a41dfe74a6014c3d28c872947412395609df95906e25ae3e3cc2f4a9a486c27",
+                "f676e5ab05db2780b5e70010fa9968664c8d7cccc45a7e994e1282013115d9af",
+                "b637962dc01adefccb715c54aa098e0770ebf3d06bcceab7bd48f05e895336ea",
+                "6c4c4ce4011a06b741d930defc8737a8b46ab8a27788f042eb3b17be742ff6ff",
+                "91e34a38965e503a6f2e86436b0000f46ebcffcf8574a4c42fd8af25e72af175"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gay.bingo",
+                "de.gay.bingo",
+                "de.shemale.movie",
+                "hentaiplay.net",
+                "m.alphaporno.com",
+                "mylust.com",
+                "shemale.movie",
+                "swingerpornfun.com",
+                "www.fickverein.com",
+                "www.nerdnudes.com",
+                "www.xtits.com",
+                "www.xxxbule.com",
+                "xxxbf.name"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/splash\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gay.bingo",
+                "de.gay.bingo",
+                "de.shemale.movie",
+                "mylust.com",
+                "shemale.movie",
+                "swingerpornfun.com",
+                "www.xtits.com",
+                "www.xxxbule.com",
+                "xxxbf.name"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "d58da56a8997c1d7928e63af02452017e98b705fa866f8b25f8071abbbeb7502"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desi-xnxx.pro",
+                "desisexclips.org",
+                "desixxx.org",
+                "hindi-porn.pro",
+                "hindixnxx.pro",
+                "mylust.com",
+                "ohsex.pro",
+                "pabporn.com",
+                "porn-xnxx.com",
+                "tamilxnxx.net",
+                "tokyo-idols.com",
+                "vietnamporn.net",
+                "x-xx.pro",
+                "xxxarab.org"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/ads-iframe-display\\.php",
+            "cookies": 0.0000849,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "96db6c9340177d0cea6671697cb8d9b50d312d2cd6e07fa90eabc37436832b46",
+                "3bfd0054857248ab9bfa0e6ff98f9cde9f97301c6ea2773880acebe62da0e2ba",
+                "13b471e8cdb1a729aadfde5e38f509081cde857e08356c4364846213fe57e1d8",
+                "182bd1d35c9251b578ce475acc0a16f9663bd8a106067520a4d49e8d442042d9",
+                "cbbd696b269b96d18c770e5bfd834f840b6789cc50e0f90af32a5f137765cb48"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desi-xnxx.pro",
+                "desisexclips.org",
+                "desixxx.org",
+                "hindi-porn.pro",
+                "hindixnxx.pro",
+                "mylust.com",
+                "ohsex.pro",
+                "porn-xnxx.com",
+                "tamilxnxx.net",
+                "tokyo-idols.com",
+                "vietnamporn.net",
+                "x-xx.pro",
+                "xxxarab.org"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/vregister\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iporntv.net",
+                "jizzberry.com",
+                "www.iporntv.net",
+                "xxxshake.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/build-iframe-js-url\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "db71b42e330705455ba79d13e7b8ee08ab7de6ae920bc6a49ca6fb0d7293029a",
+                "96d3133bf35a6756c5c71d369e8d6c92ac1945ee2355c6d68a8abe73d3db0da0",
+                "f94d64ef2e82d69f00c3c405ae35042bebcdf8ca7d4f881678488e120334b2ba",
+                "5b2ff4a633a3172ea331590859c8961ef46a5c4ad774571794bd6f88c5730a14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fapality.com",
+                "m.fapality.com",
+                "m.mylust.com",
+                "mylust.com",
+                "www.youjizz.com",
+                "youjizz.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/iframe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "0627e271a236a55b340813917c6055be6d948edc8cf1e863f431d666a788b8d1",
+                "36ca8f5cc036d5f306a39848c5f2f9ec82b178db20143a50e603f40e50cab36b",
+                "d91fe5ffae8c8bdb0eef8449857655a4a53c359a83c3295cbc20fd8e2a72ddf9",
+                "348f7b6a43cf335027beaf607a21422cb05fc0ec9cb8fe6ca254f92b59e74ac1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fapality.com",
+                "m.fapality.com",
+                "m.mylust.com",
+                "mylust.com",
+                "www.youjizz.com",
+                "youjizz.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/video-slider\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "047ef4916810b93a93fedf57b138c0a458c87d4d8a60219b4ac74102f62c7b64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hentaiplay.net",
+                "www.fickverein.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/vregister\\.php",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hentaiplay.net",
+                "www.antarvasna3.com",
+                "www.fickverein.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/splash\\.php",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "6e3e970e985fdacbea07df04724a88f5e16687f05e0200ec73e7d71ff5a0626d",
+                "19422d8f46a8f273e7ec5f74c3a2009a5420cc79a1ff43c9d9b4a02b8f1457b3",
+                "1149c4a7ad8065cd9cc5181e9bfd7de00c6e08fad0b9c3a8c8c3d112195db4d6",
+                "ccf097f516d00f88658dbb208ef8b3f39af932b6686f4603fbc3ac4deda093cc",
+                "31c5fbe92442929fd4106f6c2f0bb06248f978bb0896f86fa9a82bb978bcb52e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "letsporn.com",
+                "www.antarvasna3.com",
+                "www.desitales2.com",
+                "www.freesexkahani.com",
+                "www.tamilkamaveri.com",
+                "www.xxxindianstories.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00151,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.2626641651031895
+        },
+        {
+            "domain": "eunow4u.com",
+            "prevalence": 0.14634146341463414
+        },
+        {
+            "domain": "189tutors.com",
+            "prevalence": 0.14071294559099437
+        },
+        {
+            "domain": "xvideos-cdn.com",
+            "prevalence": 0.058161350844277676
+        },
+        {
+            "domain": "exoclick.com",
+            "prevalence": 0.0525328330206379
+        },
+        {
+            "domain": "xnxx-cdn.com",
+            "prevalence": 0.0450281425891182
+        },
+        {
+            "domain": "others-cdn.com",
+            "prevalence": 0.039399624765478425
+        },
+        {
+            "domain": "magsrv.com",
+            "prevalence": 0.03564727954971857
+        },
+        {
+            "domain": "pemsrv.com",
+            "prevalence": 0.028142589118198873
+        },
+        {
+            "domain": "snuffilm.com",
+            "prevalence": 0.0225140712945591
+        }
+    ],
+    "types": {
+        "Script": 192,
+        "XHR": 273,
+        "Image": 20,
+        "Document": 23,
+        "Preflight": 9,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "dns1.cloudns.net",
+        "dns2.cloudns.net",
+        "sec1.rcode0.net",
+        "sec2.rcode0.net"
+    ]
+}

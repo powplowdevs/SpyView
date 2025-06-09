@@ -1,0 +1,179 @@
+{
+    "domain": "etracker.com",
+    "owner": {
+        "name": "etracker GmbH",
+        "displayName": "etracker",
+        "privacyPolicy": "https://www.gametracker.com/about/privacy.php",
+        "url": "http://gametracker.com"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000511,
+    "sites": 5,
+    "subdomains": [
+        "customer",
+        "code"
+    ],
+    "cnames": [
+        {
+            "original": "click.easycosmetic.nl",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "etracker.louis.nl",
+            "resolved": "customer.etracker.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "etracker\\.com\\/code\\/e\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "customer",
+                "code"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.name": 2,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000511,
+            "cnames": [
+                {
+                    "original": "click.easycosmetic.nl",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "etracker.louis.nl",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "d5e89b8bf3808d94443bd6e37e557f79df06721aad5e0a7eb38245e671c55ad3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easycosmetic.nl",
+                "www.louis.nl",
+                "www.metabo.com",
+                "www.reimo.com",
+                "www.waschbaer.nl"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/t\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "customer",
+                "code"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Notification.permission": 2,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.maxTouchPoints": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000511,
+            "cnames": [
+                {
+                    "original": "click.easycosmetic.nl",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "etracker.louis.nl",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "d241ce4a2c489dc941717b63b54f5520e405d2c4782ab516250d889d8b475d8a",
+                "6e64fe9b1b29137d0930ebba9895a7fad5a218ffc2fe0046517163c39184f0db",
+                "5f9b8d3fe53b754d3c363cedce8983cc0b41b0180fd26deb84c3b53fb2991b74",
+                "df6af3f32c23ef886c6a8afc741445598a8dd584880af0870ed303c2a64d5fdf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easycosmetic.nl",
+                "www.louis.nl",
+                "www.metabo.com",
+                "www.reimo.com",
+                "www.waschbaer.nl"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/cntcc",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "click.easycosmetic.nl",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "etracker.louis.nl",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "d8220471bab8b0b2dc94486945a120bd49650de12389bbf51267af7eaee0639d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easycosmetic.nl",
+                "www.louis.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "louis.de",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 12
+    },
+    "nameservers": [
+        "greg.ns.cloudflare.com",
+        "reza.ns.cloudflare.com"
+    ]
+}

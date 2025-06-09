@@ -1,0 +1,146 @@
+{
+    "domain": "antena3tv.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "properties.origin-cdn",
+        "cdnjs.origin-cdn",
+        "europafm.origin-cdn"
+    ],
+    "cnames": [
+        {
+            "original": "cdnjs.atresmedia.com",
+            "resolved": "cdnjs.origin-cdn.antena3tv.com"
+        },
+        {
+            "original": "image.europafm.com",
+            "resolved": "europafm.origin-cdn.antena3tv.com"
+        },
+        {
+            "original": "properties.atresplayer.com",
+            "resolved": "properties.origin-cdn.antena3tv.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "antena3tv\\.com\\/properties\\/v1\\/find\\/properties",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "properties.origin-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "properties.atresplayer.com",
+                    "resolved": "properties.origin-cdn.antena3tv.com"
+                }
+            ],
+            "responseHashes": [
+                "caa2ef2459a6a48014f7ef40887bec74e0489da6527bbcd4dfba3f5b973c1668"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antena3.com",
+                "www.antena3.com",
+                "www.atresplayer.com",
+                "www.lasexta.com",
+                "www.ondacero.es"
+            ]
+        },
+        {
+            "rule": "antena3tv\\.com\\/load\\/webapp\\/datalayer\\.3637798bccbb5abd6e77\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnjs.origin-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cdnjs.atresmedia.com",
+                    "resolved": "cdnjs.origin-cdn.antena3tv.com"
+                }
+            ],
+            "responseHashes": [
+                "4188ba4f5a71bd6d4429770244c4e4b54ad496767f494d2fe7464950c581c8c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antena3.com",
+                "www.lasexta.com"
+            ]
+        },
+        {
+            "rule": "antena3tv\\.com\\/clipping\\/cmsimages02\\/2024\\/10\\/17\\/957D79BA-169E-4246-9BCF-C71C34A7E3C7\\/liam-payne_97\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "europafm.origin-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "image.europafm.com",
+                    "resolved": "europafm.origin-cdn.antena3tv.com"
+                }
+            ],
+            "responseHashes": [
+                "7eda13c35c4e75567ade8bd000b929b5427d036d324bb3d21d04714f214c9149"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "europafm.com",
+                "www.europafm.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6774193548387096
+        },
+        {
+            "domain": "atresmedia.com",
+            "prevalence": 0.27419354838709675
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.04838709677419355
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "blue.foundationdns.net",
+        "ns-1692.awsdns-19.co.uk",
+        "ns-666.awsdns-19.net",
+        "ns-374.awsdns-46.com",
+        "blue.foundationdns.org",
+        "blue.foundationdns.com",
+        "ns-1207.awsdns-22.org"
+    ]
+}

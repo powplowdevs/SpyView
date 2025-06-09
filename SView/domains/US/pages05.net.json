@@ -1,0 +1,142 @@
+{
+    "domain": "pages05.net",
+    "owner": {
+        "name": "International Business Machines Corporation",
+        "displayName": "International Business Machines",
+        "privacyPolicy": "https://www.ibm.com/privacy/us/en/",
+        "url": "http://ibm.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000248,
+    "sites": 35,
+    "subdomains": [
+        "www.sc",
+        "sc",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pages05\\.net\\/lp\\/static\\/js\\/iMAWebCookie\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www.sc",
+                "sc"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 21,
+            "prevalence": 0.000149,
+            "cnames": [],
+            "responseHashes": [
+                "e0447961a33816f0c4e3857863982dbc864a67748c596b78678a7622a8f69282"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "com.silverpop.iMAWebCookie": {
+                    "ttl": 86400022,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "com.silverpop.iMA.page_visit": {
+                    "ttl": 1222,
+                    "length": 8,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "com.silverpop.iMA.session": {
+                    "ttl": 1222,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.honolulumagazine.com",
+                "www.emeraldcruises.com",
+                "www.redwingshoes.com",
+                "www.equipmenttrader.com",
+                "www.boatmart.com",
+                "www.creationl.com",
+                "www.pwctrader.com",
+                "www.travelodge.co.uk",
+                "www.irishsetterboots.com",
+                "www.sandals.com",
+                "www.yamahawaverunners.com",
+                "uline.com",
+                "www.rvtrader.com",
+                "www.yamahagolfcar.com",
+                "www.uline.com",
+                "www.fiserv.com",
+                "www.atvtrader.com",
+                "www.yamahaboats.com",
+                "www.commercialtrucktrader.com",
+                "www.aerotrader.com"
+            ]
+        },
+        {
+            "rule": "pages05\\.net\\/WTS\\/event\\.jpeg",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "com.silverpop.iMAWebCookie": 0.000014146672702580353,
+                "com.silverpop.iMA.session": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "commercialtrucktrader.com",
+                "www.commercialtrucktrader.com",
+                "www.travelodge.co.uk",
+                "www.yamahagolfcar.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.918918918918919
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.05405405405405406
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.02702702702702703
+        }
+    ],
+    "types": {
+        "Script": 21,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns1.acoustic-adm.com",
+        "ns2.acoustic-adm.com",
+        "ns3.acoustic-adm.com",
+        "ns4.acoustic-adm.com"
+    ]
+}

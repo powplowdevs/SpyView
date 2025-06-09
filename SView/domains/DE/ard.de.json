@@ -1,0 +1,109 @@
+{
+    "domain": "ard.de",
+    "owner": {
+        "name": "Suedwestrundfunk Anstalt des oeffentlichen Rechts",
+        "displayName": "Suedwestrundfunk Anstalt des oeffentlichen Rechts"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "sand",
+        "programm-api",
+        "image"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ard\\.de\\/auth\\/sand-token\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sand"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4cb54c3bbe5875c4d0efb2cfeb766fa7aff4bd45e94a211e72ac2dd857ba4674"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daserste.de",
+                "live.daserste.de"
+            ]
+        },
+        {
+            "rule": "ard\\.de\\/nownext\\/api\\/channel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "programm-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "427384d0477b81686a01b2487d6c0556419ea89595d7b8910cb4e1a16721b63d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daserste.de",
+                "live.daserste.de"
+            ]
+        },
+        {
+            "rule": "ard\\.de\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ardaudiothek.de",
+                "www.ardaudiothek.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "aticdn.net",
+            "prevalence": 0.5416666666666666
+        },
+        {
+            "domain": "ardmediathek.de",
+            "prevalence": 0.4583333333333333
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns01.brandshelter.com",
+        "ns02.brandshelter.net"
+    ]
+}

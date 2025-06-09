@@ -1,0 +1,129 @@
+{
+    "domain": "trustprofile.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [
+        "dashboard"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trustprofile\\.com\\/banners\\/4000164\\/4034024\\/1699357366\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dashboard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c9a1a3227e414caf5dde27e9a21a846626f4afcef186512d110fcbcaae642718"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atu.de",
+                "www.atu.de"
+            ]
+        },
+        {
+            "rule": "trustprofile\\.com\\/banners\\/4000163\\/4034032\\/1699356755\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dashboard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "525289697c76a18ca4583df4fc72a09bf56924f0ffd9adf5dee2a56624b1f283"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baer-schuhe.de",
+                "www.baer-schuhe.de"
+            ]
+        },
+        {
+            "rule": "trustprofile\\.com\\/sidebar\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dashboard"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1bed1ca0ed6d57d352f61902837535acbcfbd77cfc23f90bc418d73aa1bd4beb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boesner.com",
+                "www.waffenfuzzi.de"
+            ]
+        },
+        {
+            "rule": "trustprofile\\.com\\/minify\\/stylesheet\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dashboard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reifendirekt.de",
+                "www.reifendirekt.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ehi-siegel.de",
+            "prevalence": 0.6875
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3125
+        }
+    ],
+    "types": {
+        "Image": 4,
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "barbara.ns.cloudflare.com",
+        "tony.ns.cloudflare.com"
+    ]
+}

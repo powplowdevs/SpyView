@@ -1,0 +1,126 @@
+{
+    "domain": "ncleg.gov",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "www",
+        "webservices"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ncleg\\.gov\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "90349c2d1695472e50bc4b72258d106f8178ba64294493bdda4ef447e2cfdb5b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ncleg.net",
+                "www.ncleg.net"
+            ]
+        },
+        {
+            "rule": "ncleg\\.gov\\/Content\\/Images\\/NC%20Seal\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webservices"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "354ef9f86d706478793166462ef0fb74d3145a0ddbc072de6186c31b983cdb92"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ncleg.net",
+                "www.ncleg.net"
+            ]
+        },
+        {
+            "rule": "ncleg\\.gov\\/Content\\/Images\\/chamberDashboard\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webservices"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "baa645a585162791c911c0fefcc63e9e46b72be0bd5a93fbc3a0883772789042"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ncleg.net",
+                "www.ncleg.net"
+            ]
+        },
+        {
+            "rule": "ncleg\\.gov\\/AllBills\\/2025",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webservices"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d0b0550e7fa4d2011dd7e028465b3543d380cec3b92c740d252113f2c04ae960"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ncleg.net",
+                "www.ncleg.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "azure.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Image": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "cruz.ns.cloudflare.com",
+        "kaiser.ns.cloudflare.com"
+    ]
+}

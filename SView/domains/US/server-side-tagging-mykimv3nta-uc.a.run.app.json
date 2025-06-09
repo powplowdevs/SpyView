@@ -1,0 +1,101 @@
+{
+    "domain": "server-side-tagging-mykimv3nta-uc.a.run.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "server-side-tagging-mykimv3nta-uc\\.a\\.run\\.app\\/gtag\\/js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0ffa53e7ae48a37ce0e6162c735dfecee8425423378c333abb08ebda157782a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vpnmentor.com",
+                "www.vpnmentor.com"
+            ]
+        },
+        {
+            "rule": "server-side-tagging-mykimv3nta-uc\\.a\\.run\\.app\\/g\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5dfd954f19424b909d5c00decc9e49534dec066c7f17262eaaa2d0e82bcbe711"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "vpnmentor.com",
+                "www.vpnmentor.com"
+            ]
+        },
+        {
+            "rule": "server-side-tagging-mykimv3nta-uc\\.a\\.run\\.app\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vpnmentor.com",
+                "www.vpnmentor.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8461538461538461
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2,
+        "Document": 2
+    },
+    "nameservers": []
+}

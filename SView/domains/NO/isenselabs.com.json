@@ -1,0 +1,82 @@
+{
+    "domain": "isenselabs.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000205,
+    "sites": 2,
+    "subdomains": [
+        "gdpr.apps"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "isenselabs\\.com\\/users\\/versioning",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr.apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "91aed9d76dadc35577ea3c14a2ab91db27bd83b5d94a4de3816eda4240d8b1ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bokia.no",
+                "www.sykkelhjelm.no"
+            ]
+        },
+        {
+            "rule": "isenselabs\\.com\\/users\\/getCookieConsentSettings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr.apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "5662a8acf6d35b9a1935320b6c962a23e8cfe42ae0df69709abf3a379998370d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bokia.no",
+                "www.sykkelhjelm.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-1084.awsdns-07.org",
+        "ns-132.awsdns-16.com",
+        "ns-2001.awsdns-58.co.uk",
+        "ns-882.awsdns-46.net"
+    ]
+}

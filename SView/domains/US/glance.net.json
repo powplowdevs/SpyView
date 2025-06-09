@@ -1,0 +1,142 @@
+{
+    "domain": "glance.net",
+    "owner": {
+        "name": "Glance Networks Inc",
+        "displayName": "Glance Networks"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "www",
+        "presence",
+        "p0030-1"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "glance\\.net\\/services\\/authorizationservice\\/GetVisitorSettings3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "ccbbc18208ecbcaef64613062ed58f2610cdd6aeb96f6c37557aacbeae822302"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aaa.com",
+                "careers.usbank.com",
+                "login.elancreditcard.com",
+                "www.h-dvisa.com",
+                "www.myaccountaccess.com"
+            ]
+        },
+        {
+            "rule": "glance\\.net\\/presence",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "presence"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "cc23ec7a6e9140e991242132c33d3cfecd34bf40bed2b7fcacb6284942e01220"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usbank.com",
+                "login.elancreditcard.com",
+                "www.h-dvisa.com",
+                "www.myaccountaccess.com"
+            ]
+        },
+        {
+            "rule": "glance\\.net\\/presence",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "presence"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usbank.com",
+                "login.elancreditcard.com",
+                "www.h-dvisa.com",
+                "www.myaccountaccess.com"
+            ]
+        },
+        {
+            "rule": "glance\\.net\\/visitorws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p0030-1"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usbank.com",
+                "login.elancreditcard.com",
+                "www.h-dvisa.com",
+                "www.myaccountaccess.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5625
+        },
+        {
+            "domain": "glancecdn.net",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.1875
+        }
+    ],
+    "types": {
+        "XHR": 9,
+        "Preflight": 4,
+        "WebSocket": 4
+    },
+    "nameservers": [
+        "ns-1516.awsdns-61.org",
+        "ns-1774.awsdns-29.co.uk",
+        "ns-364.awsdns-45.com",
+        "ns-529.awsdns-02.net"
+    ]
+}

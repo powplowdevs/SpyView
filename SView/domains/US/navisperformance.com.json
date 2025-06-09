@@ -1,0 +1,430 @@
+{
+    "domain": "navisperformance.com",
+    "owner": {
+        "name": "Buehner-Fry, Inc.",
+        "displayName": "Buehner-Fry"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000127,
+    "sites": 18,
+    "subdomains": [
+        "assets",
+        "fusion-api",
+        "pushserver"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "navisperformance\\.com\\/NWRC\\/Fusion\\/navis-fusion-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 15,
+            "prevalence": 0.000106,
+            "cnames": [],
+            "responseHashes": [
+                "37a7918f1596d21356e4fba56ae52f2099325c3fc04d6b195358f9cc666f681e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "bigcedar.com",
+                "www.beavercreek.com",
+                "www.breckenridge.com",
+                "www.cdaresort.com",
+                "www.epicpass.com",
+                "www.halekulani.com",
+                "www.keystoneresort.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com",
+                "www.parkcitymountain.com",
+                "www.telluride.com",
+                "www.vail.com",
+                "www.visitcatalinaisland.com",
+                "www.whistlerblackcomb.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/NWRC\\/Fusion\\/discovery\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000106,
+            "cnames": [],
+            "responseHashes": [
+                "9d2071d21c7728e75e882a3240e59f7e175809de3296ca06cdd14273e84d6684"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "bigcedar.com",
+                "www.beavercreek.com",
+                "www.breckenridge.com",
+                "www.cdaresort.com",
+                "www.epicpass.com",
+                "www.halekulani.com",
+                "www.keystoneresort.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com",
+                "www.parkcitymountain.com",
+                "www.telluride.com",
+                "www.vail.com",
+                "www.visitcatalinaisland.com",
+                "www.whistlerblackcomb.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/fusion-config\\/getFusionConfig",
+            "cookies": 0.0000849,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fusion-api"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "d84abc9cbb7d3b5d53cb470e2da386b7f59f9c8dce3d84499c07af989abf9550",
+                "2608f1c2fcec93b39efe38f5a61a98b5f4bc06007d8d839e2d07c57b28c46e53",
+                "801393ef9787e2b965152c35134d909bd13ace30c4d19dc3d5f325de5dd4634a",
+                "3d471de86d4decc504676d91c6941c945f197de78ce9d432237bf1accc22ae25",
+                "1ae88f7a288c9ef27779bc1000674e9ec8fc0d17909823d54fd96e93b69bce66",
+                "aa04ccde7644fba978dee657836ec72821c4e78d51583a4749b0dac475010aa0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "www.beavercreek.com",
+                "www.breckenridge.com",
+                "www.cdaresort.com",
+                "www.epicpass.com",
+                "www.halekulani.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com",
+                "www.parkcitymountain.com",
+                "www.telluride.com",
+                "www.vail.com",
+                "www.visitcatalinaisland.com",
+                "www.whistlerblackcomb.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/fusion-config\\/getFusionConfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fusion-api"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "www.beavercreek.com",
+                "www.breckenridge.com",
+                "www.cdaresort.com",
+                "www.epicpass.com",
+                "www.halekulani.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com",
+                "www.parkcitymountain.com",
+                "www.telluride.com",
+                "www.vail.com",
+                "www.visitcatalinaisland.com",
+                "www.whistlerblackcomb.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/abandoned-cart-client\\/abandoned-cart-config\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "9fec88a3e4ecbcc0908858d0e2622047edf1f010167841bb317983262872c688"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "www.cdaresort.com",
+                "www.halekulani.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com",
+                "www.telluride.com",
+                "www.visitcatalinaisland.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/ui\\/20220519-guest-chat-57621728097e257a725e7118ffe7f8f05f959a51\\/chalk\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "b6a9cfb8f5de44bf3bf37f435710c4d9da9df3fbadf66f723159c48f61b86b77"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "www.halekulani.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/ui\\/20220519-guest-chat-57621728097e257a725e7118ffe7f8f05f959a51\\/guest-chat-loader\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "a6aa1e91902999f51c9e3fa22c05810cfa4b1ff16a3797ad7b0f46b59183997f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "www.halekulani.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pushserver"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "88beda2806f4968c33a6d6358526d6c2ee607bffb3fb73baadc08f169922e57a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "www.halekulani.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/fusion-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fusion-api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "www.cdaresort.com",
+                "www.halekulani.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com",
+                "www.telluride.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/fusion-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fusion-api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "09205cd7fbd7212073f63606f659e7d8a03ab0c3cdd5bd39f601f705228a1296"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "www.cdaresort.com",
+                "www.halekulani.com",
+                "www.kohlerwisconsin.com",
+                "www.nemacolin.com",
+                "www.telluride.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/ui\\/20220519-guest-chat-57621728097e257a725e7118ffe7f8f05f959a51\\/launchbutton\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aubergeresorts.com",
+                "www.halekulani.com",
+                "www.kohlerwisconsin.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/ui\\/20250227-guest-chat-68429010d94bec0dbe8e87159d1f4fde44ad3540\\/chalk\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b6a9cfb8f5de44bf3bf37f435710c4d9da9df3fbadf66f723159c48f61b86b77"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdaresort.com",
+                "www.telluride.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/ui\\/20250227-guest-chat-68429010d94bec0dbe8e87159d1f4fde44ad3540\\/guest-chat-loader\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9b9ebe47bc7fa3c41e33f85620a0610286619af8de50e136dcbe0aca83962795"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdaresort.com",
+                "www.telluride.com"
+            ]
+        },
+        {
+            "rule": "navisperformance\\.com\\/ui\\/20250227-guest-chat-68429010d94bec0dbe8e87159d1f4fde44ad3540\\/launchbutton\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c933d2cb5e7b8bf04a440be125e12c0a06e2961fedf9f35a655839930b1571dc"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdaresort.com",
+                "www.telluride.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000106,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9767441860465116
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.023255813953488372
+        }
+    ],
+    "types": {
+        "Script": 28,
+        "Fetch": 38,
+        "Preflight": 19,
+        "Stylesheet": 6,
+        "Document": 5
+    },
+    "nameservers": [
+        "ns-595.awsdns-10.net",
+        "ns-356.awsdns-44.com",
+        "ns-1638.awsdns-12.co.uk",
+        "ns-1274.awsdns-31.org"
+    ]
+}

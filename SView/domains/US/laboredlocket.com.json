@@ -1,0 +1,83 @@
+{
+    "domain": "laboredlocket.com",
+    "owner": {
+        "name": "Leven Labs, Inc. DBA Admiral",
+        "displayName": "Admiral"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "laboredlocket\\.com\\/build\\/8276905b65497003f1ce83f07db82e9bc3be\\.index\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "CookieStore.prototype.getAll": 2,
+                "CookieStore.prototype.set": 1,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "64bb6062b1539610c5622b1878feb00581870413e1c32139f3f1d3bbd5377c94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sparknotes.com",
+                "www.sparknotes.com"
+            ]
+        },
+        {
+            "rule": "laboredlocket\\.com\\/u\\/g293l29\\/hoaqcz28ohqinlyd0rncns7j8g8jxw0628t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sparknotes.com",
+                "www.sparknotes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-151.awsdns-18.com",
+        "ns-801.awsdns-36.net",
+        "ns-1737.awsdns-25.co.uk",
+        "ns-1340.awsdns-39.org"
+    ]
+}

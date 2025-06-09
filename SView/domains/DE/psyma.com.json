@@ -1,0 +1,67 @@
+{
+    "domain": "psyma.com",
+    "owner": {
+        "name": "Psyma Group AG",
+        "displayName": "Psyma Group"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000714,
+    "sites": 7,
+    "subdomains": [
+        "scripts"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "psyma\\.com\\/layer\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "94d41692364dffa4d6d30eab3580b6670a3c3898848e397b3e2af6c89cb649e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alfaromeo.de",
+                "www.audi.de",
+                "www.bmwgroup.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "audi.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "bmw.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "dns.noris.de",
+        "dns.noris.ch",
+        "dns.noris.net"
+    ]
+}

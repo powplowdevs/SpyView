@@ -1,0 +1,107 @@
+{
+    "domain": "adtarget.com.tr",
+    "owner": {
+        "name": "AdTarget Medya A.Ş.",
+        "displayName": "AdTarget Medya A.Ş.",
+        "privacyPolicy": "https://adtarget.com.tr",
+        "url": "http://adtarget.com.tr"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000778,
+    "sites": 11,
+    "subdomains": [
+        "ghb.console",
+        "sync.console"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "adtarget\\.com\\.tr\\/v2\\/auction\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghb.console"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "1ad31baa7b1158ff2dd98ac06d01dc3a04d24a45f8b155ca5aa6410ab16553fc",
+                "57bd6098bc8926d49ad0f28a6eac9720acccff65815ae92fd169845f7eba0ccf",
+                "23b51b357189e16d6ac698571e64442634fe8db822df6f39024dd2f347c04fbf",
+                "7662823088ceba3b1652c0f4206eb51f1c097898df1ba59fcb211d24a0bfa909",
+                "c9a887ebf32761b0571dd5f30db5dbed1b42475cfa0a54a75ceb531787bbe283",
+                "92707142c09cf01d2e2e161c9d4e2f187fc055181602335817682f614fd8d8db",
+                "736e82b5939bf54fdbd6ee47bfb2f1b962acb7e7a2fdaf330a72e09a42d69353"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freefontdownload.org",
+                "klp.pl",
+                "krzyzowki123.pl",
+                "mojewypieki.com",
+                "netizenschoice.com",
+                "randomwordgenerator.com",
+                "samequizy.pl",
+                "www.evvelcevap.com",
+                "www.freefontdownload.org",
+                "www.telepolis.pl",
+                "www.tysol.pl"
+            ]
+        },
+        {
+            "rule": "adtarget\\.com\\.tr\\/csync",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.console"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "krzyzowki123.pl",
+                "netizenschoice.com",
+                "www.evvelcevap.com",
+                "www.telepolis.pl",
+                "www.tysol.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "optad360.io",
+            "prevalence": 0.9117647058823529
+        },
+        {
+            "domain": "netpub.media",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "adtelligent.com",
+            "prevalence": 0.029411764705882353
+        }
+    ],
+    "types": {
+        "Fetch": 11,
+        "Document": 5
+    },
+    "nameservers": [
+        "porter.ns.cloudflare.com",
+        "ursula.ns.cloudflare.com"
+    ]
+}

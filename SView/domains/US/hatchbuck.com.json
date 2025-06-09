@@ -1,0 +1,90 @@
+{
+    "domain": "hatchbuck.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "cdn",
+        "app",
+        "lead-launcher"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "hatchbuck\\.com\\/webPageTrackingAgreement\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "27f8afc20229eb2668f9bee4845cf5ee6018436edc274581404b18b8c95a5b2f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bc.com",
+                "www.consolidated.com"
+            ]
+        },
+        {
+            "rule": "hatchbuck\\.com\\/TrackWebPage",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "lead-launcher"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "btod.com",
+                "www.btod.com",
+                "www.consolidated.com",
+                "www.lonestar.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-525.awsdns-01.net",
+        "ns-333.awsdns-41.com",
+        "ns-1724.awsdns-23.co.uk",
+        "ns-1431.awsdns-50.org"
+    ]
+}

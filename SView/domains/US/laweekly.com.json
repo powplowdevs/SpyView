@@ -1,0 +1,54 @@
+{
+    "domain": "laweekly.com",
+    "owner": {
+        "name": "New Times Media, LLC",
+        "displayName": "New Times Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "engine"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "laweekly\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0198b2cfa57408de7017b9750290b531e48590b22163d8d59572ca40dd5cea0d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "villagevoice.com",
+                "www.villagevoice.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "norm.ns.cloudflare.com",
+        "isabel.ns.cloudflare.com"
+    ]
+}

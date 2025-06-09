@@ -1,0 +1,191 @@
+{
+    "domain": "t-online.de",
+    "owner": {
+        "name": "Deutsche Telekom AG",
+        "displayName": "Deutsche Telekom"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "tvhubs",
+        "ngiss"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "t-online\\.de\\/v2\\/iptv2015acc\\/DocumentGroupRedirect\\/TVHS_DG_Einstieg-Startseite",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tvhubs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magentatv.de",
+                "web.magentatv.de"
+            ]
+        },
+        {
+            "rule": "t-online\\.de\\/v2\\/iptv2015acc\\/DocumentGroupRedirect\\/TVHS_DG_Einstieg-Startseite",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tvhubs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "43344c6d8cb59d685dd2a0bb210fbd57f4dd3e9e27fea431d0fa35f50fbb7468"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magentatv.de",
+                "web.magentatv.de"
+            ]
+        },
+        {
+            "rule": "t-online\\.de\\/v2\\/iptv2015acc\\/StructuredGrid\\/146270",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tvhubs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9495aef238f52b17298665806f8bbe94c8f1c36dede412e5882c90e2794e822a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magentatv.de",
+                "web.magentatv.de"
+            ]
+        },
+        {
+            "rule": "t-online\\.de\\/v2\\/iptv2015acc\\/StructuredGrid\\/146270",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tvhubs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magentatv.de",
+                "web.magentatv.de"
+            ]
+        },
+        {
+            "rule": "t-online\\.de\\/v2\\/iptv2015acc\\/StructuredGrid\\/146270\\/ExternalPartnerLane\\/285446",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tvhubs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magentatv.de",
+                "web.magentatv.de"
+            ]
+        },
+        {
+            "rule": "t-online\\.de\\/v2\\/iptv2015acc\\/StructuredGrid\\/146270\\/ExternalPartnerLane\\/285446",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tvhubs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "bc98f64bc7de53a53f2944c5461b4d9f065b18314ced8d95155e95d9a7a5d6ee"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magentatv.de",
+                "web.magentatv.de"
+            ]
+        },
+        {
+            "rule": "t-online\\.de\\/iss",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ngiss"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "46dadf53c5aa1680cb57a52b4c3cb83c5e638e6205998e1fe86a7a1aa3c0d176",
+                "f74f8e4e6826c5d7be934681114e7ce831441304d503c25ddfa60fea83dee944"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magentatv.de",
+                "web.magentatv.de",
+                "www.werstreamt.es"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "Fetch": 6,
+        "Image": 3
+    },
+    "nameservers": [
+        "dns20.dns.t-ipnet.de",
+        "pns.dtag.de",
+        "dns00.dns.t-ipnet.de",
+        "dns50.dns.t-ipnet.de",
+        "dns02.dns.t-ipnet.de"
+    ]
+}

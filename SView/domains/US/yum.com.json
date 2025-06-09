@@ -1,0 +1,79 @@
+{
+    "domain": "yum.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "orderserv-kfc-apac-olo-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "yum\\.com\\/dev\\/v1\\/configuration",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "orderserv-kfc-apac-olo-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6dd5616917d0f9f8e0614d2857d605f67a66355daed085c14a1dd6f954d38989"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kfc.com.au",
+                "www.kfc.co.jp"
+            ]
+        },
+        {
+            "rule": "yum\\.com\\/dev\\/v1\\/configuration",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "orderserv-kfc-apac-olo-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kfc.com.au",
+                "www.kfc.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "a22-67.akam.net",
+        "a7-65.akam.net",
+        "a13-65.akam.net",
+        "a14-66.akam.net",
+        "a4-64.akam.net",
+        "a1-220.akam.net"
+    ]
+}

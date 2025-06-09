@@ -1,0 +1,98 @@
+{
+    "domain": "netmera.com",
+    "owner": {
+        "name": "INOMERA Arge ve Bilişim Hizmetleri A.Ş.",
+        "displayName": "Inomera"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "wsdkapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "netmera\\.com\\/sdk\\/3\\.0\\/config\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsdkapi"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "a58685cb811639230f3a1258903a371937fd6ac4ef1d3a5a29417ff94732d3e2",
+                "0e7e2c359bc0e9f485c4dfa906b42e78e57bdc0dc3b3dab5882f8575fbbbd459",
+                "492ba4cea9446af814379c056358302b543beaec5023b677a9c478d0ea601e24",
+                "1a90787df2288b1c0dcd450e4b5eaee3a85db09496da09393b42b9047ad7eba8",
+                "255564dbc06942a18154cb1d5dc00f076a5e4b94834e57f20b155be347e90835"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beinsports.com.tr",
+                "bigpara.hurriyet.com.tr",
+                "www.cnnturk.com",
+                "www.cumhuriyet.com.tr",
+                "www.fanatik.com.tr",
+                "www.haberturk.com",
+                "www.kanald.com.tr",
+                "www.milliyet.com.tr"
+            ]
+        },
+        {
+            "rule": "netmera\\.com\\/sdk\\/3\\.0\\/config\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsdkapi"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beinsports.com.tr",
+                "bigpara.hurriyet.com.tr",
+                "www.cnnturk.com",
+                "www.cumhuriyet.com.tr",
+                "www.fanatik.com.tr",
+                "www.haberturk.com",
+                "www.kanald.com.tr",
+                "www.milliyet.com.tr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "netmera-web.com",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Fetch": 8,
+        "Preflight": 8
+    },
+    "nameservers": [
+        "ns55.domaincontrol.com",
+        "ns56.domaincontrol.com"
+    ]
+}

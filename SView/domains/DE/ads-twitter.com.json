@@ -1,0 +1,130 @@
+{
+    "domain": "ads-twitter.com",
+    "owner": {
+        "name": "Twitter, Inc.",
+        "displayName": "Twitter",
+        "privacyPolicy": "https://twitter.com/en/privacy",
+        "url": "http://twitter.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00683,
+    "sites": 67,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ads-twitter\\.com\\/uwt\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 47,
+                "Screen.prototype.width": 47,
+                "Screen.prototype.height": 47,
+                "Screen.prototype.colorDepth": 47,
+                "Screen.prototype.availWidth": 47,
+                "Screen.prototype.availHeight": 47,
+                "Navigator.prototype.languages": 47,
+                "Navigator.prototype.doNotTrack": 47,
+                "Navigator.prototype.maxTouchPoints": 47,
+                "Navigator.prototype.hardwareConcurrency": 47,
+                "Navigator.prototype.platform": 47,
+                "Navigator.prototype.vendor": 47,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 45
+            },
+            "sites": 66,
+            "prevalence": 0.00673,
+            "cnames": [],
+            "responseHashes": [
+                "96e803cc46ba31cef48752356a13dc8a92564f2e6b20adcd4d360410b5fbc579"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.cambridge.org",
+                "nypost.com",
+                "samsung.com",
+                "www.politico.com",
+                "www.samsung.com",
+                "www.snopes.com",
+                "icons8.de",
+                "www.nvidia.com",
+                "eu.store.bambulab.com",
+                "www.amboss.com",
+                "suno.com",
+                "www.sportskeeda.com",
+                "pitchbook.com",
+                "www.narayana-verlag.de",
+                "www.prusa3d.com",
+                "www.artmajeur.com",
+                "www.eufy.com",
+                "icons8.com",
+                "journals.plos.org",
+                "www.wickedweasel.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4927536231884058
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.30434782608695654
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.11594202898550725
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.028985507246376812
+        },
+        {
+            "domain": "lr-wa.com",
+            "prevalence": 0.014492753623188406
+        },
+        {
+            "domain": "farfetch-contents.com",
+            "prevalence": 0.014492753623188406
+        },
+        {
+            "domain": "pximg.net",
+            "prevalence": 0.014492753623188406
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.014492753623188406
+        }
+    ],
+    "types": {
+        "Script": 66
+    },
+    "nameservers": [
+        "b.r07.twtrdns.net",
+        "b.u07.twtrdns.net",
+        "c.u07.twtrdns.net",
+        "d.u07.twtrdns.net",
+        "a.r07.twtrdns.net",
+        "a.u07.twtrdns.net",
+        "c.r07.twtrdns.net",
+        "d.r07.twtrdns.net"
+    ]
+}

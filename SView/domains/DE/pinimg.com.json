@@ -1,0 +1,147 @@
+{
+    "domain": "pinimg.com",
+    "owner": {
+        "name": "Pinterest, Inc.",
+        "displayName": "Pinterest",
+        "privacyPolicy": "https://policy.pinterest.com/en/privacy-policy",
+        "url": "http://pinterest.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00377,
+    "sites": 37,
+    "subdomains": [
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pinimg\\.com\\/ct\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.00367,
+            "cnames": [],
+            "responseHashes": [
+                "4dcc63f7d8103225fdef27e536a7ef191efca98ee1c806bc1795ad1d483e235e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mashable.com",
+                "www.digitaltrends.com",
+                "www.ebay.com",
+                "www.zillow.com",
+                "solarkontor.de",
+                "skylum.com",
+                "www.musicnotes.com",
+                "www.samenhaus.de",
+                "november.de",
+                "www.prusa3d.com",
+                "www.leonardo-hotels.de",
+                "pflanzmich.de",
+                "www.einfachmalene.de",
+                "www.galaxus.ch",
+                "setapp.com",
+                "www.swissmilk.ch",
+                "www.artmajeur.com",
+                "www.fujifilm-x.com",
+                "roborock.com",
+                "www.max.com"
+            ]
+        },
+        {
+            "rule": "pinimg\\.com\\/ct\\/lib\\/main\\.8821a9da\\.js",
+            "cookies": 0.00326,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "window.sessionStorage": 34,
+                "Document.cookie getter": 33,
+                "window.localStorage": 34,
+                "Date.prototype.getTime": 34,
+                "Screen.prototype.height": 34,
+                "Screen.prototype.width": 34,
+                "Document.cookie setter": 32,
+                "NavigatorUAData.prototype.getHighEntropyValues": 23
+            },
+            "sites": 34,
+            "prevalence": 0.00347,
+            "cnames": [],
+            "responseHashes": [
+                "8fdbfa23058836e9a847e16898c904faa58a54b48830af1df5a344bb69b591e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pin_unauth": {
+                    "ttl": 31536014,
+                    "length": 70,
+                    "prevalence": 0.003263640999490056,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mashable.com",
+                "www.digitaltrends.com",
+                "www.ebay.com",
+                "www.zillow.com",
+                "skylum.com",
+                "www.swissmilk.ch",
+                "www.gartentraum.de",
+                "www.samenhaus.de",
+                "www.musicnotes.com",
+                "muryou-aigazou.com",
+                "www.leonardo-hotels.de",
+                "solarkontor.de",
+                "www.wickedweasel.com",
+                "www.fujifilm-x.com",
+                "www.einfachmalene.de",
+                "www.kiwi-verlag.de",
+                "www.flaticon.com",
+                "www.serafinum.de",
+                "setapp.com",
+                "www.prospektmaschine.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Social - Share",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00326,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7837837837837838
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1891891891891892
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.02702702702702703
+        }
+    ],
+    "types": {
+        "Script": 70
+    },
+    "nameservers": [
+        "ns6.pinterest.com",
+        "ns9.pinterest.com",
+        "ns5.pinterest.com",
+        "ns10.pinterest.com"
+    ]
+}

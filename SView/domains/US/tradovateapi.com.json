@@ -1,0 +1,155 @@
+{
+    "domain": "tradovateapi.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "tryit",
+        "config",
+        "live"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tradovateapi\\.com\\/v1\\/websocket",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tryit"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tradovate.com",
+                "trader.tradovate.com"
+            ]
+        },
+        {
+            "rule": "tradovateapi\\.com\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tradovate.com",
+                "trader.tradovate.com"
+            ]
+        },
+        {
+            "rule": "tradovateapi\\.com\\/v1\\/user\\/item",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tradovate.com",
+                "trader.tradovate.com"
+            ]
+        },
+        {
+            "rule": "tradovateapi\\.com\\/v1\\/tradovateSubscription\\/ldeps",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tradovate.com",
+                "trader.tradovate.com"
+            ]
+        },
+        {
+            "rule": "tradovateapi\\.com\\/v1\\/entitlement\\/list",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tradovate.com",
+                "trader.tradovate.com"
+            ]
+        },
+        {
+            "rule": "tradovateapi\\.com\\/v1\\/contract\\/rollcontracts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tradovate.com",
+                "trader.tradovate.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "WebSocket": 2,
+        "XHR": 10
+    },
+    "nameservers": [
+        "abby.ns.cloudflare.com",
+        "amit.ns.cloudflare.com"
+    ]
+}

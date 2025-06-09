@@ -1,0 +1,331 @@
+{
+    "domain": "squarespace.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "static",
+        "prod"
+    ],
+    "cnames": [
+        {
+            "original": "assets.squarespace.com",
+            "resolved": "static.squarespace.map.fastly.net"
+        },
+        {
+            "original": "images.squarespace-cdn.com",
+            "resolved": "squarespace.map.fastly.net"
+        },
+        {
+            "original": "static1.squarespace.com",
+            "resolved": "prod.squarespace.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/universal\\/fonts\\/squarespace-clarkson-v2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.squarespace.com",
+                    "resolved": "static.squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5134e5baa3f3748039048798ba0994ab1cbd3cefbd1d3e66c9fd2c8fe438e6e7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "account.squarespace.com",
+                "forum.squarespace.com"
+            ]
+        },
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/@sqs\\/polyfiller\\/1\\.6\\/modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.squarespace.com",
+                    "resolved": "static.squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "54e832663426c696b1f603379026e5e15720e8c812bbbc60d63aa2ad8a479f75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "domains.squarespace.com",
+                "www.squarespace.com"
+            ]
+        },
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/universal\\/scripts-compressed\\/user-account-core-722572fcea1dd366-min\\.en-US\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.squarespace.com",
+                    "resolved": "static.squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "c90069318089298d26cdb73ebd72aaf848839ea28566c18770c8ef289ee79ea1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "domains.squarespace.com",
+                "www.squarespace.com"
+            ]
+        },
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/universal\\/styles-compressed\\/user-account-core-9e59e184cce516dc-min\\.en-US\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "assets.squarespace.com",
+                    "resolved": "static.squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "744008d7cbc97516aa9024331f915dd723b40c29a4c83a8ee8a28ab03ffca8ed"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "domains.squarespace.com",
+                "www.squarespace.com"
+            ]
+        },
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/content\\/v1\\/64b94eec332d3714c74d9334\\/c6f7f1fd-10fe-4b51-b6b9-66402cc5d4d8\\/favicon\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "images.squarespace-cdn.com",
+                    "resolved": "squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "35445a85fdda1efd10c76174c97add1e77655cc435229411313df60be51b99d4"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "domains.squarespace.com"
+            ]
+        },
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/static\\/5134cbefe4b0c6fb04df8065\\/t\\/5af9c6776d2a73e4ccb62191\\/1526318741713\\/cookie-banner\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static1.squarespace.com",
+                    "resolved": "prod.squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e0b7e5feb6b3466ae51bf3c03762ad9e6d2a8747757d5e520ee3ac0f5af759c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "support.squarespace.com"
+            ]
+        },
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/static\\/5134cbefe4b0c6fb04df8065\\/t\\/5be0b4d96d2a73f0ce4f95ff\\/favicon\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "static1.squarespace.com",
+                    "resolved": "prod.squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "7eb6ed611002edd4555dc219526cf5926c151d6535f8bb11c8b68a71c502cca4"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "support.squarespace.com",
+                "www.squarespace.com"
+            ]
+        },
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/content\\/5134cbefe4b0c6fb04df8065\\/1541453017272-VW5DX9K6F21C7VZZTZYR\\/sqsp-favicon\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "images.squarespace-cdn.com",
+                    "resolved": "squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "7eb6ed611002edd4555dc219526cf5926c151d6535f8bb11c8b68a71c502cca4"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "support.squarespace.com",
+                "www.squarespace.com"
+            ]
+        },
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/universal\\/scripts-compressed\\/extract-css-moment-js-vendor-088ec0120fdbcfed-min\\.en-US\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "assets.squarespace.com",
+                    "resolved": "static.squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "154e5c0ddaba3d0538d6d468a62e54e6484208bb8a26ef912ecf1027eb87d99e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "www.squarespace.com"
+            ]
+        },
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/static\\/ta\\/5134cbefe4b0c6fb04df8065\\/12642\\/assets\\/styles\\/external\\/trustarc\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static1.squarespace.com",
+                    "resolved": "prod.squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "edfced496e1fafe3a804f6db7e2a13b6ab81a5bb1f37e94ae84223457612b2ce"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "www.squarespace.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 8,
+        "Script": 10,
+        "Other": 8
+    },
+    "nameservers": []
+}

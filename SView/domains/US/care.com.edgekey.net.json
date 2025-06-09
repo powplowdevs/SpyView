@@ -1,0 +1,149 @@
+{
+    "domain": "care.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "tagging"
+    ],
+    "cnames": [
+        {
+            "original": "tagging.care.com",
+            "resolved": "tagging.care.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "care\\.com\\.edgekey\\.net\\/care-tags\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tagging.care.com",
+                    "resolved": "tagging.care.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ac69b75be477aa521ef9e64dba4443869beb2c73afe443f242ce16ab3ab68402"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "care.com",
+                "www.care.com"
+            ]
+        },
+        {
+            "rule": "care\\.com\\.edgekey\\.net\\/gtag\\/js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tagging.care.com",
+                    "resolved": "tagging.care.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6da9f9164a16bc097f46b91e5e567834c8c4b1783ad5a6b1642908787e3b5e40"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "care.com",
+                "www.care.com"
+            ]
+        },
+        {
+            "rule": "care\\.com\\.edgekey\\.net\\/g\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tagging.care.com",
+                    "resolved": "tagging.care.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0265a86809f9f40deb9e8e5a3a1da8b0d2a7b560350efb23b5f6258d7cf1b741"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "care.com",
+                "www.care.com"
+            ]
+        },
+        {
+            "rule": "care\\.com\\.edgekey\\.net\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tagging.care.com",
+                    "resolved": "tagging.care.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "205076fc19108bccd41c8b46d5e568ba3ddb00f8528c04e5b16fddc822469c62"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "care.com",
+                "www.care.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2,
+        "Document": 2
+    },
+    "nameservers": []
+}

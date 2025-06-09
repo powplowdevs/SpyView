@@ -1,0 +1,130 @@
+{
+    "domain": "adfirst.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "adfirst\\.media\\/hb\\/seat61\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "38519661644ffdb8908a5a970a3dd26ec208dec054716d70f42a2974e52f982b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seat61.com",
+                "www.seat61.com"
+            ]
+        },
+        {
+            "rule": "adfirst\\.media\\/hb\\/pb_9280_61\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3f86ca581682469a4ba3706e9fdbc563da4e9f7d9b90abddb7bf1fa3681583bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sharedid": {
+                    "ttl": 31536002,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_sharedid_cst": {
+                    "ttl": 31536002,
+                    "length": 16,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "panoramaId_expiry": {
+                    "ttl": 86402,
+                    "length": 13,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_cc_id": {
+                    "ttl": 23328002,
+                    "length": 32,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "cto_bundle": {
+                    "ttl": 33696001,
+                    "length": 191,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696001,
+                    "length": 135,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seat61.com",
+                "www.seat61.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-451.awsdns-56.com",
+        "ns-1531.awsdns-63.org",
+        "ns-953.awsdns-55.net",
+        "ns-1874.awsdns-42.co.uk"
+    ]
+}

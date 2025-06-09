@@ -1,0 +1,83 @@
+{
+    "domain": "cloudquote.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cloudquote\\.io\\/fcon\\/getQuote\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "6f0ec0de7b94107d1e5d0fce6a0bab9847eb2a21a5677e2b41780e1158fadd79",
+                "9e835e31fe480acd865f0f914f68b4d7f062e8c04ee2dac87e1ce7de79f5300f",
+                "5589d3c384dd42a7733078c0735ca72dc935a88d836c6a5f0188b3fb6a098638"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appeal-democrat.com",
+                "www.lodinews.com",
+                "www.mymotherlode.com",
+                "www.uniondemocrat.com"
+            ]
+        },
+        {
+            "rule": "cloudquote\\.io\\/fcon\\/getQuote\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appeal-democrat.com",
+                "www.lodinews.com",
+                "www.mymotherlode.com",
+                "www.uniondemocrat.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "financialcontent.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-1429.awsdns-50.org",
+        "ns-1839.awsdns-37.co.uk",
+        "ns-604.awsdns-11.net",
+        "ns-391.awsdns-48.com"
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "domain": "emarsys.net",
+    "owner": {
+        "name": "SAP SE",
+        "displayName": "SAP"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00133,
+    "sites": 13,
+    "subdomains": [
+        "webchannel-content.eservice",
+        "suite16",
+        "assets"
+    ],
+    "cnames": [
+        {
+            "original": "image.armedangels.com",
+            "resolved": "suite16.emarsys.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "emarsys\\.net\\/customer\\/765250907\\/campaigns",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchannel-content.eservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "suite16"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "71ff591774bdb9f8c3c582e6aacf7b63a42b277631928ee480f0e6c694c54e72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/custloads\\/765250907\\/md_1612348\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "suite16"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "image.armedangels.com",
+                    "resolved": "suite16.emarsys.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/web-emarsys-sdk\\/4\\.5\\.0\\/web-emarsys-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.indexedDB": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7c51118d1629537c207b252ff9fa4b2c902f846f268927d9232dd04b19c012ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecoflow.com",
+                "www.creality.com"
+            ]
+        },
+        {
+            "rule": "emarsys\\.net\\/customer\\/190456181\\/campaigns",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webchannel-content.eservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e2f6c80c84f4e7006407492fa701cca4e44197f74cbab55cf76d514fa0b89f01"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampenwelt.de",
+                "www.lampenwelt.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5789473684210527
+        },
+        {
+            "domain": "scarabresearch.com",
+            "prevalence": 0.3684210526315789
+        },
+        {
+            "domain": "dditscdn.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns4.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com",
+        "ns1.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com"
+    ]
+}

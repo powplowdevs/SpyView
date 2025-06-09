@@ -1,0 +1,262 @@
+{
+    "domain": "crateandbarrel.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "images",
+        "mdt"
+    ],
+    "cnames": [
+        {
+            "original": "images.crateandbarrel.com",
+            "resolved": "images.crateandbarrel.com.edgekey.net"
+        },
+        {
+            "original": "mdt.crateandbarrel.com",
+            "resolved": "mdt.crateandbarrel.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "crateandbarrel\\.com\\.edgekey\\.net\\/is\\/image\\/Crate\\/flag_US",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "images.crateandbarrel.com",
+                    "resolved": "images.crateandbarrel.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b87b714f11c09a5ff7413f3abdcb9eed89fa3261bb45ebeb1d6021dd4121e121"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crateandbarrel.com",
+                "www.cb2.com",
+                "www.crateandbarrel.com"
+            ]
+        },
+        {
+            "rule": "crateandbarrel\\.com\\.edgekey\\.net\\/rsv11cdn\\/v1\\.1\\/rs-lib\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mdt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mdt.crateandbarrel.com",
+                    "resolved": "mdt.crateandbarrel.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1a57cb13a15581ecd10317ddf656bd4155251cb64aba07377bfb58eb7c1ed9b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crateandbarrel.com",
+                "www.crateandbarrel.com"
+            ]
+        },
+        {
+            "rule": "crateandbarrel\\.com\\.edgekey\\.net\\/rsv11hdp\\/v1\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mdt.crateandbarrel.com",
+                    "resolved": "mdt.crateandbarrel.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crateandbarrel.com",
+                "www.crateandbarrel.com"
+            ]
+        },
+        {
+            "rule": "crateandbarrel\\.com\\.edgekey\\.net\\/rsv11hdp\\/v1\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mdt.crateandbarrel.com",
+                    "resolved": "mdt.crateandbarrel.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crateandbarrel.com",
+                "www.crateandbarrel.com"
+            ]
+        },
+        {
+            "rule": "crateandbarrel\\.com\\.edgekey\\.net\\/rsv11hdp\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mdt.crateandbarrel.com",
+                    "resolved": "mdt.crateandbarrel.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crateandbarrel.com",
+                "www.crateandbarrel.com"
+            ]
+        },
+        {
+            "rule": "crateandbarrel\\.com\\.edgekey\\.net\\/rsv11hdp\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mdt.crateandbarrel.com",
+                    "resolved": "mdt.crateandbarrel.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crateandbarrel.com",
+                "www.crateandbarrel.com"
+            ]
+        },
+        {
+            "rule": "crateandbarrel\\.com\\.edgekey\\.net\\/rsv11hdp\\/v1\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mdt.crateandbarrel.com",
+                    "resolved": "mdt.crateandbarrel.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crateandbarrel.com",
+                "www.crateandbarrel.com"
+            ]
+        },
+        {
+            "rule": "crateandbarrel\\.com\\.edgekey\\.net\\/rsv11hdp\\/v1\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mdt.crateandbarrel.com",
+                    "resolved": "mdt.crateandbarrel.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crateandbarrel.com",
+                "www.crateandbarrel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Script": 2,
+        "Preflight": 6,
+        "XHR": 6
+    },
+    "nameservers": []
+}

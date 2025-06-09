@@ -1,0 +1,56 @@
+{
+    "domain": "europe-west3.run.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "neurabot-api-501967154138"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "europe-west3\\.run\\.app\\/public-assistant-settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "neurabot-api-501967154138"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "bc6b74e3bd001fac294016186da2d8d02425b246213e7d140704763d348587f6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bonn.de",
+                "www.rhein-sieg-kreis.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "neurabot.de",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

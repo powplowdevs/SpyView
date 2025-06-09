@@ -1,0 +1,140 @@
+{
+    "domain": "cloverstatic.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cloverstatic\\.com\\/web\\/_global\\/bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b2c72c3c4122cac3ba59c493fcfce9a4b0e797b55bd549f46cb4f9dfa5aa6eee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clover.com",
+                "www.clover.com"
+            ]
+        },
+        {
+            "rule": "cloverstatic\\.com\\/web\\/apps\\/_config\\/prod-na\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0d8bec54a13b5a1e92efd1e013a0428a464de80c9c2676c15fd94a0f0f17f460"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clover.com",
+                "www.clover.com"
+            ]
+        },
+        {
+            "rule": "cloverstatic\\.com\\/web\\/apps\\/_config\\/apps\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d1c456ba3f9b44e81bcfa8123a10b432d9fb2f693dea3c7f7cc58071520d2328"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clover.com",
+                "www.clover.com"
+            ]
+        },
+        {
+            "rule": "cloverstatic\\.com\\/content\\/fonts\\/graphik\\/Graphik-Regular-Cy-Gr-Web\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e51c97a03a425274f25eebadb24fa6bc1efbdc3784eab5c62ddde2e2d67e9d10"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clover.com",
+                "www.clover.com"
+            ]
+        },
+        {
+            "rule": "cloverstatic\\.com\\/content\\/fonts\\/graphik\\/Graphik-Medium-Cy-Gr-Web\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "786319b1f07473d2b3614373ecc4c9b364567630b4688091cb37f5d6ad747730"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clover.com",
+                "www.clover.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "sdiapi.com",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4,
+        "Font": 4
+    },
+    "nameservers": [
+        "dns1.p07.nsone.net",
+        "dns2.p07.nsone.net",
+        "ns1.p201.dns.oraclecloud.net",
+        "ns2.p201.dns.oraclecloud.net"
+    ]
+}

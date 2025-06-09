@@ -1,0 +1,66 @@
+{
+    "domain": "truist.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "dias.bank"
+    ],
+    "cnames": [
+        {
+            "original": "dias.bank.truist.com",
+            "resolved": "dias.bank.truist.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "truist\\.com\\.edgekey\\.net\\/ui\\/scripts\\/truist_common2\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dias.bank"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "dias.bank.truist.com",
+                    "resolved": "dias.bank.truist.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5232e3ecae35ebd8a6b0a937ea738a05539c769d384642ab36decba3e259e4ba",
+                "528269ef2cdbc7ed91dbc4472a1d62ba7e175fadf7912859c6c47e9d3f69f10f",
+                "e33f9ef5f3a64236cc3ecc55bc1820ecc2064a995b57dc9b6a98af92a9fa84ed",
+                "77d67256c6c452846a25bd6fcb8792b8296d5d32ea10a7c6322cd09094e0d56a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "truist.com",
+                "bank.truist.com",
+                "www.bbt.com",
+                "www.suntrust.com",
+                "www.truist.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "types": {
+        "Script": 5
+    },
+    "nameservers": []
+}

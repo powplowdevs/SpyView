@@ -1,0 +1,95 @@
+{
+    "domain": "leadspark.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "tracking"
+    ],
+    "cnames": [
+        {
+            "original": "tralut.chatpdf.com",
+            "resolved": "tracking.leadspark.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "leadspark\\.io\\/js\\/tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tralut.chatpdf.com",
+                    "resolved": "tracking.leadspark.io"
+                }
+            ],
+            "responseHashes": [
+                "e00aec807857c9eedc7819da6706884b23fa960b965152e0a761f0356c87199c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chatpdf.com",
+                "www.chatpdf.com"
+            ]
+        },
+        {
+            "rule": "leadspark\\.io\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tralut.chatpdf.com",
+                    "resolved": "tracking.leadspark.io"
+                }
+            ],
+            "responseHashes": [
+                "df9c0e7280698d547bb0b4d50f834565e3bba5551b7c3c4509d623d526997104"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_gcl_au": 0.000014146672702580353,
+                "_ga": 0.0000070733363512901765,
+                "_rdt_uuid": 0.0000070733363512901765,
+                "_uetsid": 0.0000070733363512901765,
+                "_uetvid": 0.0000070733363512901765,
+                "_clck": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "chatpdf.com",
+                "www.chatpdf.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-2013.awsdns-59.co.uk",
+        "ns-262.awsdns-32.com",
+        "ns-803.awsdns-36.net",
+        "ns-1533.awsdns-63.org"
+    ]
+}

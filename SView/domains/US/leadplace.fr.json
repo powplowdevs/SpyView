@@ -1,0 +1,103 @@
+{
+    "domain": "leadplace.fr",
+    "owner": {
+        "name": "LEADPLACE",
+        "displayName": "LEADPLACE"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00017,
+    "sites": 24,
+    "subdomains": [
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "leadplace\\.fr\\/libJsLP\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 23,
+            "prevalence": 0.000163,
+            "cnames": [],
+            "responseHashes": [
+                "48a20a6c137571b7a53ea4d71895887b09790bc9d8be555dd0b277c1b1429aaf",
+                "44c1e3ed52d2c3a70e3fdfa58a09abcfab1937951b78f65d282deb6ddf9ffba3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.programmersought.com",
+                "onlinereadfreenovel.com",
+                "wikimonde.com",
+                "www.poesie-francaise.fr",
+                "www.telephone.city",
+                "worldcrunch.com",
+                "www.opex360.com",
+                "www.pourquoidocteur.fr",
+                "www.win10.fr",
+                "www.billetreduc.com",
+                "www.grands-meres.net",
+                "www.meteo60.fr",
+                "www.toutsurmesfinances.com",
+                "www.maxicours.com",
+                "bescherelle.com",
+                "www.universfreebox.com",
+                "zeperfs.com",
+                "doctonat.com",
+                "www.paroles-musique.com",
+                "dictionnaire.orthodidacte.com"
+            ]
+        },
+        {
+            "rule": "leadplace\\.fr\\/wckr\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctonat.com",
+                "www.win10.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "themoneytizer.com",
+            "prevalence": 0.9615384615384616
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.038461538461538464
+        }
+    ],
+    "types": {
+        "Script": 23,
+        "Document": 2
+    },
+    "nameservers": [
+        "dns10.ovh.net",
+        "ns10.ovh.net"
+    ]
+}

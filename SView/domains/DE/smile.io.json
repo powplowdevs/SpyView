@@ -1,0 +1,67 @@
+{
+    "domain": "smile.io",
+    "owner": {
+        "name": "Smile Inc.",
+        "displayName": "Smile"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "smile\\.io\\/v1\\/smile-shopify\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e29c017622565023529bfc40a707708d50b525d41822eb9528cb818aef7817c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "az-delivery.de",
+                "www.az-delivery.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-447.awsdns-55.com",
+        "ns-998.awsdns-60.net",
+        "ns-1105.awsdns-10.org",
+        "ns-1997.awsdns-57.co.uk"
+    ]
+}

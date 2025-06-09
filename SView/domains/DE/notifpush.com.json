@@ -1,0 +1,65 @@
+{
+    "domain": "notifpush.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "notifpush\\.com\\/scripts\\/nadz-sdk\\.js",
+            "cookies": 0.000306,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Notification.permission": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie setter": 3,
+                "window.indexedDB": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "3672c7277f02078c149d893af6c86fb058c971f1a635b809641ac3833e3273e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nadz_dailyVisits": {
+                    "ttl": 163745,
+                    "length": 1,
+                    "prevalence": 0.00030596634370219276,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finanzmarktwelt.de",
+                "reitschuster.de",
+                "www.l-iz.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000306,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "bob.ns.cloudflare.com",
+        "melinda.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "domain": "brandmetrics.com",
+    "owner": {
+        "name": "Brandmetrics",
+        "displayName": "Brandmetrics",
+        "privacyPolicy": "https://www.brandmetrics.com",
+        "url": "http://brandmetrics.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0101,
+    "sites": 99,
+    "subdomains": [
+        "cdn",
+        "collector"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "brandmetrics\\.com\\/scripts\\/bundle\\/65568\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 85,
+                "window.sessionStorage": 82
+            },
+            "sites": 87,
+            "prevalence": 0.0089,
+            "cnames": [],
+            "responseHashes": [
+                "3d594dcf395580c5b8ac1da4dc2e591dd699a9206361f9284e08052b56b3fef3",
+                "ac06d1781cc191cca0f77265728d0979e18489c25affd16cdd3458ce8b7112ad",
+                "8e43d875015609645ca3300250a28f523fdb26dbfb00e997a1b4c0d816b30751",
+                "0810b5cab55be2c0fa7105922516bce9bcaa515d21573e945fec41d220ffdbd5",
+                "6defbbbe4d51d759b79328e38f3f6671f5cfede8c715b42a762d21a8ea0e57fb",
+                "a90c445cf7c7a1cd8ef9542bf269c9d1cfca58e80f6431012f59b81c5acff613",
+                "42881ded66d46ec0e6be1b0fca1a1f00497fff74132db94de2e0a4288fbc7fec",
+                "348557d1b94faf6800121bd4b4d2d2011aceb965d2fa9ba84acb98377aa18bcc",
+                "3d49b273fbc2e08ff6d2d95287c17558d47443ed46633e97032e380d2dd7eab8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.0019437340153452686
+            },
+            "exampleSites": [
+                "people.com",
+                "www.lifewire.com",
+                "www.thespruce.com",
+                "www.thespruceeats.com",
+                "www.thoughtco.com",
+                "www.verywellhealth.com",
+                "www.washingtonpost.com",
+                "www.giroditalia.it",
+                "www.theaustralian.com.au",
+                "www.verywellmind.com",
+                "www.ostlendingen.no",
+                "www.nordhordland.no",
+                "www.sognavis.no",
+                "www.hardanger-folkeblad.no",
+                "www.smaalenene.no",
+                "www.nordlys.no",
+                "www.jbl.no",
+                "www.ranablad.no",
+                "www.op.no",
+                "www.budstikka.no"
+            ]
+        },
+        {
+            "rule": "brandmetrics\\.com\\/c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 84,
+            "prevalence": 0.00859,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.0019437340153452686
+            },
+            "exampleSites": [
+                "people.com",
+                "www.lifewire.com",
+                "www.thespruce.com",
+                "www.thespruceeats.com",
+                "www.thoughtco.com",
+                "www.verywellhealth.com",
+                "www.h-a.no",
+                "www.austagderblad.no",
+                "www.sb.no",
+                "www.h-avis.no",
+                "www.nationen.no",
+                "www.moss-avis.no",
+                "www.nordlys.no",
+                "www.seriouseats.com",
+                "www.f-b.no",
+                "www.svd.se",
+                "www.t-a.no",
+                "www.ifinnmark.no",
+                "www.bygdeposten.no",
+                "www.op.no"
+            ]
+        },
+        {
+            "rule": "brandmetrics\\.com\\/tag\\/5d3fd4b31b22474ca243aaac2c7d9449\\/gazzetta\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "a6c4526d677e1cd37fa9d277b41805f34466451cbea07ee473d363be5a332037"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazzetta.it",
+                "www.giroditalia.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.66
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.28
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.03
+        },
+        {
+            "domain": "corriereobjects.it",
+            "prevalence": 0.01
+        },
+        {
+            "domain": "gazzettaobjects.it",
+            "prevalence": 0.01
+        },
+        {
+            "domain": "rcsobjects.it",
+            "prevalence": 0.01
+        }
+    ],
+    "types": {
+        "Script": 173
+    },
+    "nameservers": [
+        "rose.ns.cloudflare.com",
+        "piotr.ns.cloudflare.com"
+    ]
+}

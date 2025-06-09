@@ -1,0 +1,348 @@
+{
+    "domain": "target-opus.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.target.com",
+            "resolved": "target-opus.map.fastly.net"
+        },
+        {
+            "original": "assets.targetimg1.com",
+            "resolved": "target-opus.map.fastly.net"
+        },
+        {
+            "original": "gsp.target.com",
+            "resolved": "target-opus.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/consumers\\/v1\\/legacy\\/ingest\\/web\\/eventstream",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "help.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/consumers\\/v1\\/legacy\\/ingest\\/web\\/eventstream",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "628b53fb5692afa6eae41cd3a37f3919911733fe36df509e68c6173431c0a8be"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "help.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/gsp\\/oauth_tokens\\/v2\\/client_tokens",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "gsp.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/gsp\\/oauth_tokens\\/v2\\/client_tokens",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "gsp.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "57d2939a165fb4988a3f7f12738c5b296a600e572191f1443efa96b7876ef6ca"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/ssx\\/ssx\\.mod\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "assets.targetimg1.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "8bbbc3eb338c517f0d4a444fffa51b872396e2b7142717b29f00558be4f69bdb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/consumers\\/v1\\/ingest\\/web\\/eventstream",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/consumers\\/v1\\/ingest\\/web\\/eventstream",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/firefly_events\\/v1\\/events\\/content_impression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "9b43b7dfd7ff5442c9a1c0117d71fb1172440d4c78671a9afe9dcf6b66fc41ec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/firefly_events\\/v1\\/events\\/content_impression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/telemetry_data\\/v1\\/traces",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "f56b35823a693646bf987ca07c9cbc4ff72a83b79b34595b20546b539795fdf0"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/consumers\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        },
+        {
+            "rule": "target-opus\\.map\\.fastly\\.net\\/consumers\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.target.com",
+                    "resolved": "target-opus.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "target.com",
+                "www.target.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8768115942028986
+        },
+        {
+            "domain": "targetimg1.com",
+            "prevalence": 0.12318840579710146
+        }
+    ],
+    "types": {
+        "Preflight": 10,
+        "XHR": 2,
+        "Fetch": 8,
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": []
+}

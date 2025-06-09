@@ -1,0 +1,87 @@
+{
+    "domain": "drjreoa1udlk3.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.artic.edu",
+            "resolved": "drjreoa1udlk3.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "drjreoa1udlk3\\.cloudfront\\.net\\/api\\/v1\\/exhibitions\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.artic.edu",
+                    "resolved": "drjreoa1udlk3.cloudfront.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artic.edu",
+                "www.artic.edu"
+            ]
+        },
+        {
+            "rule": "drjreoa1udlk3\\.cloudfront\\.net\\/api\\/v1\\/exhibitions\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.artic.edu",
+                    "resolved": "drjreoa1udlk3.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "3722736804c08f1b480015b8ee517df67e9ce774e224d6f1e2757d8239086e5a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artic.edu",
+                "www.artic.edu"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-639.awsdns-15.net",
+        "ns-1918.awsdns-47.co.uk",
+        "ns-1373.awsdns-43.org",
+        "ns-459.awsdns-57.com"
+    ]
+}

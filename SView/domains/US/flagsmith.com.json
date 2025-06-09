@@ -1,0 +1,153 @@
+{
+    "domain": "flagsmith.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "edge.api",
+        "realtime"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "flagsmith\\.com\\/api\\/v1\\/identities\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "washu.edu",
+                "graduation.asu.edu",
+                "scribehow.com",
+                "www.primary.com"
+            ]
+        },
+        {
+            "rule": "flagsmith\\.com\\/api\\/v1\\/identities\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "cbea298f01ff287db02e1ff8bbe00e723f04c458996ba157b7148c1356931880",
+                "f72cc4c126703e287626f7d5651d1a233716e4086ca9d1c251bd33f6038e2c45",
+                "07f77749b696f0b3ef41f569dc139073835b2c10e22ae7480ec9192fdfb63542"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "washu.edu",
+                "graduation.asu.edu",
+                "scribehow.com",
+                "www.primary.com"
+            ]
+        },
+        {
+            "rule": "flagsmith\\.com\\/api\\/v1\\/flags\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunrun.com",
+                "pella.com",
+                "www.pella.com"
+            ]
+        },
+        {
+            "rule": "flagsmith\\.com\\/sse\\/environments\\/noF7ZmcLCLxn7D5csG4Xyh\\/stream",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtime"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "EventSource",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunrun.com",
+                "my.sunrun.com"
+            ]
+        },
+        {
+            "rule": "flagsmith\\.com\\/api\\/v1\\/flags\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a1fe0cbb5098c03e4e3688dfc1f10ff9f4b2e69c1ef0dd996cf40b0826d10e14"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pella.com",
+                "www.pella.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "42chat.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Preflight": 7,
+        "XHR": 4,
+        "EventSource": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1401.awsdns-47.org",
+        "ns-864.awsdns-44.net",
+        "ns-47.awsdns-05.com",
+        "ns-1757.awsdns-27.co.uk"
+    ]
+}

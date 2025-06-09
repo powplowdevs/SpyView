@@ -1,0 +1,79 @@
+{
+    "domain": "impact.com",
+    "owner": {
+        "name": "Impact",
+        "displayName": "Impact"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000318,
+    "sites": 3,
+    "subdomains": [
+        "trkapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "impact\\.com\\/PageLoad",
+            "cookies": 0.000106,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trkapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000318,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "assemblylabel.com",
+                "ninjakitchen.com.au",
+                "sharkclean.com.au"
+            ]
+        },
+        {
+            "rule": "impact\\.com\\/PageLoad",
+            "cookies": 0.000106,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trkapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.com.au",
+                "sharkclean.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-613.awsdns-12.net",
+        "ns-388.awsdns-48.com",
+        "ns-1038.awsdns-01.org",
+        "ns-1962.awsdns-53.co.uk"
+    ]
+}

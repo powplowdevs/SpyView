@@ -1,0 +1,110 @@
+{
+    "domain": "roundprinceforest.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "obs"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "roundprinceforest\\.com\\/ct",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "obs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1407a1ef4d06949ee6b7b5d232a43992e5360f5a81382096c8d416ab0520f29d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0000070733363512901765,
+                "_cq_duid": 0.0000070733363512901765,
+                "_cq_suid": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "eagleview.com",
+                "www.farecompare.com"
+            ]
+        },
+        {
+            "rule": "roundprinceforest\\.com\\/tracker\\/tc_imp\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "obs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eagleview.com",
+                "www.farecompare.com"
+            ]
+        },
+        {
+            "rule": "roundprinceforest\\.com\\/mon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "obs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farecompare.com",
+                "www.farecompare.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-172.awsdns-21.com",
+        "ns-801.awsdns-36.net",
+        "ns-1058.awsdns-04.org",
+        "ns-1986.awsdns-56.co.uk"
+    ]
+}

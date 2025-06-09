@@ -1,0 +1,92 @@
+{
+    "domain": "rockstargames.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "graph"
+    ],
+    "cnames": [
+        {
+            "original": "graph.rockstargames.com",
+            "resolved": "graph.rockstargames.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rockstargames\\.com\\.edgekey\\.net\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graph"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "graph.rockstargames.com",
+                    "resolved": "graph.rockstargames.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cdb87a84373ef7555e8e207ef91a81086613e17024dcbf4e19f21b807713a35b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockstargames.com",
+                "www.rockstargames.com"
+            ]
+        },
+        {
+            "rule": "rockstargames\\.com\\.edgekey\\.net\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graph"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "graph.rockstargames.com",
+                    "resolved": "graph.rockstargames.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockstargames.com",
+                "www.rockstargames.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "akamaized.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

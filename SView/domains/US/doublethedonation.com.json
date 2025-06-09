@@ -1,0 +1,146 @@
+{
+    "domain": "doublethedonation.com",
+    "owner": {
+        "name": "Double the Donation LLC",
+        "displayName": "Double the Donation"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00012,
+    "sites": 17,
+    "subdomains": [
+        "files"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "doublethedonation\\.com\\/app\\/ddplugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "43a82e4c20f1e3d06fbf45595d04bf32cdd15f5fe185cc55bbb035e956b788ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.ajc.org",
+                "www.nami.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "doublethedonation\\.com\\/app\\/ddplugin\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "a0a18be4db8fdc2acffd75b4a2293897979a21ef5cc93e99d18be7eac39d6ad0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "www.ajc.org",
+                "www.nami.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "doublethedonation\\.com\\/api\\/css\\/ddplugin\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a0a18be4db8fdc2acffd75b4a2293897979a21ef5cc93e99d18be7eac39d6ad0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalmssociety.org",
+                "www.newsbusters.org",
+                "www.wwno.org"
+            ]
+        },
+        {
+            "rule": "doublethedonation\\.com\\/api\\/js\\/ddplugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "43a82e4c20f1e3d06fbf45595d04bf32cdd15f5fe185cc55bbb035e956b788ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aicpa-cima.com",
+                "www.aicpa-cima.com",
+                "www.newsbusters.org",
+                "www.redcrossblood.org",
+                "www.redcross.org",
+                "www.wwno.org",
+                "www2.heart.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8518518518518519
+        },
+        {
+            "domain": "basis.net",
+            "prevalence": 0.07407407407407407
+        },
+        {
+            "domain": "idonate.com",
+            "prevalence": 0.07407407407407407
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Stylesheet": 8
+    },
+    "nameservers": [
+        "ns2-08.azure-dns.net",
+        "ns1-08.azure-dns.com",
+        "ns4-08.azure-dns.info",
+        "ns3-08.azure-dns.org"
+    ]
+}

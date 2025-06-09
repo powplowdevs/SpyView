@@ -1,0 +1,163 @@
+{
+    "domain": "rum-ingress-coralogix.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000099,
+    "sites": 14,
+    "subdomains": [
+        "cdn",
+        "ingress.us1",
+        "ingress.eu1",
+        "ingress.eu2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rum-ingress-coralogix\\.com\\/coralogix\\/browser\\/latest\\/coralogix-browser-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "91ee1da22243d3689dcccd1fab48d57afd2c760cd02c6ef1df91ab4af108f606"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "puma.com",
+                "uk.puma.com",
+                "us.puma.com",
+                "www.hippo.com"
+            ]
+        },
+        {
+            "rule": "rum-ingress-coralogix\\.com\\/browser\\/v1beta\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingress.us1",
+                "ingress.eu1",
+                "ingress.eu2"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fullscript.com",
+                "us.fullscript.com",
+                "us.puma.com",
+                "www.365scores.com",
+                "www.emersonecologics.com",
+                "www.farfetch.com",
+                "www.headout.com",
+                "www.hippo.com",
+                "www.nandos.co.uk"
+            ]
+        },
+        {
+            "rule": "rum-ingress-coralogix\\.com\\/browser\\/v1beta\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingress.us1",
+                "ingress.eu1",
+                "ingress.eu2"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "3d23d39a30bb7323f8ccfd64c52cf286138fba4f83e78f7edcf66703b7c23aaa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fullscript.com",
+                "us.fullscript.com",
+                "us.puma.com",
+                "www.365scores.com",
+                "www.emersonecologics.com",
+                "www.farfetch.com",
+                "www.headout.com",
+                "www.hippo.com",
+                "www.nandos.co.uk"
+            ]
+        },
+        {
+            "rule": "rum-ingress-coralogix\\.com\\/browser\\/alpha\\/sessionrecording",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingress.eu2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nandos.co.uk",
+                "www.nandos.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.45652173913043476
+        },
+        {
+            "domain": "fullscript.com",
+            "prevalence": 0.2391304347826087
+        },
+        {
+            "domain": "farfetch-contents.com",
+            "prevalence": 0.15217391304347827
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.10869565217391304
+        },
+        {
+            "domain": "fullstory.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 9,
+        "Fetch": 11
+    },
+    "nameservers": [
+        "jule.ns.cloudflare.com",
+        "bob.ns.cloudflare.com"
+    ]
+}

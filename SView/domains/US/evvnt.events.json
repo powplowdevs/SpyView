@@ -1,0 +1,86 @@
+{
+    "domain": "evvnt.events",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "evvnt\\.events\\/api\\/widgets\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doorcountypulse.com",
+                "www.adn.com",
+                "www.altoonamirror.com",
+                "www.gjsentinel.com",
+                "www.honolulumagazine.com"
+            ]
+        },
+        {
+            "rule": "evvnt\\.events\\/api\\/widgets\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "99c04d567e2e0a1fd9f6d2fc361414c375013e96461225e08cc7b4dea0ee7ee7",
+                "b0ac981c5f17ffafb25425722d23525f80e75f75fe54462ff3051e72639da695",
+                "70d2f4c7c271e168cf446272d09cc23aede2fadbf88bcd6b9e4affaaed9715e3",
+                "072b16578a46f2b5d28d72b1e3b8d3baecd0917884f1c92dc31e156eff15a466"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doorcountypulse.com",
+                "www.adn.com",
+                "www.altoonamirror.com",
+                "www.gjsentinel.com",
+                "www.honolulumagazine.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "d1wcopahj6rhb7.cloudfront.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "ns-1782.awsdns-30.co.uk",
+        "ns-468.awsdns-58.com",
+        "ns-944.awsdns-54.net",
+        "ns-1433.awsdns-51.org"
+    ]
+}

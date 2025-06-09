@@ -1,0 +1,151 @@
+{
+    "domain": "shopstyle.com",
+    "owner": {
+        "name": "Shopstyle Inc.",
+        "displayName": "Shopstyle"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [
+        "ssc",
+        "tracking",
+        "widgets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shopstyle\\.com\\/collective\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssc"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "66547095e0b6c0eaad9f658b75affbb4736d66c4e39b34f939134b64154b2140"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50isnotold.com",
+                "awellstyledlife.com",
+                "themomedit.com",
+                "www.femestella.com",
+                "www.gentlemanwithin.com"
+            ]
+        },
+        {
+            "rule": "shopstyle\\.com\\/track\\/v1\\/c\\/ev",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "50e2ae2126914d90b1f7cd9eef453edb3a2b660d0b65524c0a36fddc6c189c2c",
+                "9197b1846f41cc83239b58fb6d5152334e254649cd15fad87fe9a8b4c147b56a",
+                "6eb9dedaf14f60cf7540739823f5ffe6e77fe00e307319b0ddbb6bb9fafbc62c",
+                "c1e33d0c736a47e9a7ddc4c0516bd8aaabb553ede6628241ddd8d6b3d659d424",
+                "688d9b7b8276c5e08e1093fb7e7b7317cc09ceba36808690ee833ec126e697a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50isnotold.com",
+                "awellstyledlife.com",
+                "passionatepennypincher.com",
+                "thatoutletgirl.com",
+                "themomedit.com",
+                "www.gentlemanwithin.com"
+            ]
+        },
+        {
+            "rule": "shopstyle\\.com\\/track\\/v1\\/c\\/ev",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50isnotold.com",
+                "awellstyledlife.com",
+                "passionatepennypincher.com",
+                "thatoutletgirl.com",
+                "themomedit.com",
+                "www.gentlemanwithin.com"
+            ]
+        },
+        {
+            "rule": "shopstyle\\.com\\/shopstyle-widget-snippet\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "3cb2e5cd4131594d6d194b4ba6109d214a0149050feb2c00b21d48742b78c36c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "awellstyledlife.com",
+                "themomedit.com",
+                "www.femestella.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000778,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8947368421052632
+        },
+        {
+            "domain": "getlasso.co",
+            "prevalence": 0.10526315789473684
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 6,
+        "Preflight": 6
+    },
+    "nameservers": [
+        "ns-44.awsdns-05.com",
+        "ns-761.awsdns-31.net",
+        "ns-1826.awsdns-36.co.uk",
+        "ns-1452.awsdns-53.org"
+    ]
+}

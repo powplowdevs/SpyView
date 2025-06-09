@@ -1,0 +1,158 @@
+{
+    "domain": "byspotify.com",
+    "owner": {
+        "name": "Spotify AB",
+        "displayName": "Spotify"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00492,
+    "sites": 695,
+    "subdomains": [
+        "pixel",
+        "img"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "byspotify\\.com\\/ping\\.min\\.js",
+            "cookies": 0.00244,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Document.cookie getter": 349,
+                "Document.cookie setter": 345,
+                "window.sessionStorage": 367,
+                "window.innerWidth": 369,
+                "window.innerHeight": 369,
+                "window.localStorage": 413,
+                "Date.prototype.getTime": 357,
+                "Date.prototype.getTimezoneOffset": 336
+            },
+            "sites": 502,
+            "prevalence": 0.00355,
+            "cnames": [],
+            "responseHashes": [
+                "1bebf057725d68c020767e7eaf24c7eb3b43b160cbb9d9dbb9dac240109efbc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__spdt": {
+                    "ttl": 31536004,
+                    "length": 32,
+                    "prevalence": 0.002440301041195111,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeadvisor.com",
+                "www.bloomberg.com",
+                "www.wonder.com",
+                "www.steren.com.mx",
+                "www.4changeenergy.com",
+                "www.iccu.com",
+                "help.boostmobile.com",
+                "www.misfitsmarket.com",
+                "www.mimecast.com",
+                "www.eventbrite.co.uk",
+                "forum.scope.org.uk",
+                "www.graybar.com",
+                "distrokid.com",
+                "www.comparethemarket.com.au",
+                "www.usi.edu",
+                "www.oaklandcc.edu",
+                "www.uncp.edu",
+                "www.moo.com",
+                "www.simonandschuster.com",
+                "www.georgestrait.com"
+            ]
+        },
+        {
+            "rule": "byspotify\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chase.com",
+                "www.usaa.com",
+                "www.wayfair.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00344,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6855524079320113
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.19688385269121814
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.046742209631728045
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.018413597733711047
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.009915014164305949
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.009915014164305949
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.0056657223796034
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.00424929178470255
+        },
+        {
+            "domain": "rudderlabs.com",
+            "prevalence": 0.0028328611898017
+        },
+        {
+            "domain": "cdn-cookieyes.com",
+            "prevalence": 0.0028328611898017
+        }
+    ],
+    "types": {
+        "Script": 502,
+        "Image": 3
+    },
+    "nameservers": [
+        "dns1.p07.nsone.net",
+        "dns2.p07.nsone.net",
+        "dns3.p07.nsone.net",
+        "dns4.p07.nsone.net",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

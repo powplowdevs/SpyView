@@ -1,0 +1,159 @@
+{
+    "domain": "getclicky.com",
+    "owner": {
+        "name": "Roxr Software Ltd",
+        "displayName": "Roxr Software",
+        "privacyPolicy": "https://clicky.com/terms/privacy",
+        "url": "http://clicky.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00164,
+    "sites": 16,
+    "subdomains": [
+        "static",
+        "in"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getclicky\\.com\\/js",
+            "cookies": 0.000512,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 8,
+                "Navigator.prototype.language": 11,
+                "Navigator.prototype.maxTouchPoints": 10,
+                "Navigator.prototype.cookieEnabled": 11,
+                "Document.cookie setter": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 6
+            },
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "df55f93e427d967cfd870062537ee200479a16bcf84284e49111b15998205658"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_no_tracky_101480234": {
+                    "ttl": 3600,
+                    "length": 1,
+                    "prevalence": 0.00010235414534288638,
+                    "uniqueness": 1
+                },
+                "_no_tracky_101473647": {
+                    "ttl": 3600,
+                    "length": 1,
+                    "prevalence": 0.00010235414534288638,
+                    "uniqueness": 1
+                },
+                "_no_tracky_100969773": {
+                    "ttl": 3600,
+                    "length": 1,
+                    "prevalence": 0.00010235414534288638,
+                    "uniqueness": 1
+                },
+                "_no_tracky_101434548": {
+                    "ttl": 3600,
+                    "length": 1,
+                    "prevalence": 0.00010235414534288638,
+                    "uniqueness": 1
+                },
+                "_no_tracky_101470807": {
+                    "ttl": 3600,
+                    "length": 1,
+                    "prevalence": 0.00010235414534288638,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ouest-france.fr",
+                "rawsakura.org",
+                "rawuwu.net",
+                "robots.net",
+                "totallyfreecam.com",
+                "www.amourdecuisine.fr",
+                "www.breizh-info.com",
+                "www.chasse-aux-livres.fr",
+                "www.lachimie.fr",
+                "www.macrotrends.net",
+                "www.mesinspirationsculinaires.com",
+                "www.recherche-inverse.com",
+                "xdaforums.com"
+            ]
+        },
+        {
+            "rule": "getclicky\\.com\\/in\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00154,
+            "cnames": [],
+            "responseHashes": [
+                "6e65e6fcd9aee16c50a167a14bd4ac5bf52acf829ae77ac183be1bba3d9dcd6c",
+                "bb26778cf93bfae03fa8c22052232b252eee28c264ce6eeecb5fa19d08e53ba0",
+                "0d6c2aa0a446364169fba9251e31da41e2f618a09e3cceae2fccd617508e372f",
+                "8fabb9b4bdb4c4d003592e5b3f316fbdc3e46bdf17a684b153df3b03bcc1882a",
+                "005842d236d64e4018458ea39eb6735ffb4e86cfd1c5559de00cc9b83f371c01",
+                "94dd975e191129f6a2763f9c301e7e81e156be4b3f326e321f914635937e0157",
+                "cdf7861f034aeb9c8a1dbb3d2879d8d0835f78c751645e382746899e44aeb3a4",
+                "2419dd64de1fd1b0f49656d7c72275787d23f1df379da309c861d6eef62a6487",
+                "b6612f63e2523395156957fd2947c1a22fcbccbfa9887c319ac624b2b7d91d29",
+                "bb9128d251799c47f636796bae404b4e13a5bbf440bb253de4b81e3e28e6d92f",
+                "6fa1c0ea3e29e114ffd2420b2bb81dd6131443625caea870334da0d3c48d0693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ouest-france.fr",
+                "rawsakura.org",
+                "rawuwu.net",
+                "robots.net",
+                "totallyfreecam.com",
+                "www.amourdecuisine.fr",
+                "www.breizh-info.com",
+                "www.chasse-aux-livres.fr",
+                "www.chienderace.eu",
+                "www.lachimie.fr",
+                "www.macrotrends.net",
+                "www.mesinspirationsculinaires.com",
+                "www.recherche-inverse.com",
+                "www.thingiverse.com",
+                "xdaforums.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Fraud",
+        "Analytics"
+    ],
+    "performance": {},
+    "cookies": 0.000512,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 28
+    },
+    "nameservers": [
+        "phil.ns.cloudflare.com",
+        "roxy.ns.cloudflare.com"
+    ]
+}

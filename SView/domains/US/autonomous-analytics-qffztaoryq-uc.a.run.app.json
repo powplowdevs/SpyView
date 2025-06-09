@@ -1,0 +1,71 @@
+{
+    "domain": "autonomous-analytics-qffztaoryq-uc.a.run.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "autonomous-analytics-qffztaoryq-uc\\.a\\.run\\.app\\/api\\/v1\\/event_tracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "193c66da5474f9648e26a5456a403657387014c6455d2f0cb5ec94ebd4fcf749"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autonomous.ai",
+                "www.autonomous.ai"
+            ]
+        },
+        {
+            "rule": "autonomous-analytics-qffztaoryq-uc\\.a\\.run\\.app\\/api\\/v1\\/event_tracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autonomous.ai",
+                "www.autonomous.ai"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

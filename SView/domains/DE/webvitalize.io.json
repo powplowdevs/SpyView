@@ -1,0 +1,83 @@
+{
+    "domain": "webvitalize.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "package",
+        "ingest"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "webvitalize\\.io\\/webvitalize\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "package"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "57aac2ef1653bde24a156c4e7caba92c0cb10cb88cc191cc5527d2ad63340a2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ehorses.de",
+                "www.schweizer-illustrierte.ch"
+            ]
+        },
+        {
+            "rule": "webvitalize\\.io\\/api\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ehorses.de",
+                "www.ehorses.de",
+                "www.schweizer-illustrierte.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 3
+    },
+    "nameservers": [
+        "arch.ns.cloudflare.com",
+        "athena.ns.cloudflare.com"
+    ]
+}

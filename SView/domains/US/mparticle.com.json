@@ -1,0 +1,2644 @@
+{
+    "domain": "mparticle.com",
+    "owner": {
+        "name": "mParticle, Inc",
+        "displayName": "mParticle"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00108,
+    "sites": 152,
+    "subdomains": [
+        "jssdkcdns",
+        "identity",
+        "jssdks",
+        "cookiesync"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/950b34627ce8e44794d51d71092642ee\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7090c20f4cf72808ffb6338f118b0175e4dc95048cf3fb447b9cc3022469f2ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starbucks.com",
+                "about.starbucks.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity"
+            ],
+            "apis": {},
+            "sites": 95,
+            "prevalence": 0.000672,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.nbcnews.com",
+                "www.klarna.com",
+                "www.headspace.com",
+                "www.shudder.com",
+                "www.treatwell.fr",
+                "www.msnbc.com",
+                "www.sixt.de",
+                "www.tsn.ca",
+                "www.tbs.com",
+                "www.motortrend.com",
+                "www.sixt.co.uk",
+                "www.peacocktv.com",
+                "www.transa.ch",
+                "www.uslleaguetwo.com",
+                "moviesanywhere.com",
+                "www.texasroadhouse.com",
+                "www.goat.com",
+                "careers.starbucks.com",
+                "www.bubbas33.com",
+                "www.marksandspencer.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity"
+            ],
+            "apis": {},
+            "sites": 74,
+            "prevalence": 0.000523,
+            "cnames": [],
+            "responseHashes": [
+                "e6b2b28a2af1abf8676d80b31b13e5c519660077350689e2966565eca4542f2c",
+                "f5a49f9333bc04cd6ef23e008bbafff2b563cb1843db880a6959d17775d63c26",
+                "add694f15f15909df964b29caccce68e43d8c440c9d127a30284d0b38317c9f1",
+                "c2c762cd67ab31136b1e9fc83e7aa807f1b56ce3fffb3ff68faa94bc49ef72d8",
+                "5344d0364c9e2c0853dda2b0e4adfbfc94328a2e67ff676689d7260a68d665e6",
+                "c3cf009bac1a947ea0230b3a09da7a780ed219d527bf08b7a82e1dbee3a16318",
+                "21f95377a6af8da98c1859ed7850c94133bb95ef4caf35096e0b775d1d4e8026",
+                "b165c14bd4d14e4cf68dda3a9531c4b5fa60f14ae9fa8d039abafdfad1e17e57",
+                "f24c046ee83627fe0519099a0222c0cf31eeb37efc3f40e5cd07adf1485f5d26",
+                "993c11ff082a1f59588beb850fa3465d5b146e1a53710fce453f3716a8c15e69",
+                "0d6c51282d55a0737302679ff7916fca53e0a144cf1a8fdea85fa2ac95fe46da",
+                "afc6a8292aa3dd7349982b7b198124070dc71da64b74186222cd5d7a90147a28",
+                "3c92986aca4146da6febfdc8fbbbbae892ca8caf6b3b9e24afd4cfaa81007d5f",
+                "62402f99b0c224b50a10d852c0185d299ab96c2b098e797af3295a519072b0f2",
+                "721f5f09ad81a15c0b73b8963f1a0bbadd4de678ee30993203a76488c5774197",
+                "c8ae6b31842031eccab88be9f69ee04c5aa48c6fdb7e452a9657c85a0ba7ee0e",
+                "3e0ab354cb69cf2b1c3df7b3a83bf387e4b4e4bc1a9f2f913f6f176c9f8f91d1",
+                "644e884cee72039e2750bf5c2c1b82b1c25a78a864a469aedfafa8465ca044f7",
+                "5712948213029d0f8227bfddac3a9acf1af14260082ad84d7a08774294cc39fa",
+                "bf031d80c0b42da4401c20e55ae6288e74ec5b5885a0e531750e480e882f615b",
+                "8d00b69d9051c5151deef853514ab4c0593a80960ed09ddb2fc3f6163e6e8283",
+                "9cd548577e8d2e561bb927094e537eda24468044d27ea0a179acef738a58719c",
+                "bf8c4c0fff63840b54802d283fdd946e0a73a138da1abf30c272a6a5b738766c",
+                "03b31038c34bafcd5d93bd05ac20d2e7c15ed6679567c892ff247ad6d48c8a60",
+                "5ca32830328f43abc79bb93172e09c901728fba306ac1b6b6cac7c69bc421c8a",
+                "6e7f1bff81ae5f30e8951fe82a02cbe7084f658541d3b70755849275936d585b",
+                "1ed4dc15d653bfc06a3751dde5bf78ba9f9d2eab6b405f4eb8416688c77d4170",
+                "31b28f7cdec303c6b118b113724af73c2e006b26867b2dc721b168f18c800c3d",
+                "843a3bf0c555ce0fcc7fdd83025e430796e3b10875c106dc09cb3749e01fe129",
+                "4cc7e1889b23ef0be07c0c4df24b1e4c319e0578f953459d321e110c4c802384",
+                "c0c56c382814a7f4e3103523b4c94abacdde693713454a2031fbb1e088a76495",
+                "42a7030159290027ec3dfd25524cd297e15aa10a4319e13e6c727af446aaa967",
+                "cf5886f21fa3485a662d56e6913c8f549eee076d7897fe5ced9fc86c609a4605",
+                "336df6b59550d6c8e1b2234cbd14db2f1b926364800e4bf0e111f81441ee39d2",
+                "6638338c376f37242f85c764460ed7a642c6c5899895e7d2a48e1de727fe7386",
+                "eac40bd0fe8be94fbf30391f9460177c158acda8e8323f6fb18d42086885344d",
+                "6c6f23236ca15659d09e1026f84afbbc6748060fc2f731a31048b1d0e3fbb1a7",
+                "b569fda0c0896b92309259cb4b5b804dbc93530df6819002d3ea38c2983953d3",
+                "77e6b23df383880314f4259e61f4da9331e6d2486f4784932fa77b1f5c405eed",
+                "a2cf6c81952ed551f509ec9cdae59ea067248384f846387354a4fe0608dddeba",
+                "45c92bbfd215e131ff2e627635016117cd28a9bf418ea3f56cc53015f18521e5",
+                "0bcf09b0dc49e0a20bbe2ee35d10645d7a3c6ce3b7942d129f401bf150882cc5",
+                "c65c4cf93223a759f9b0d9c6af0b2e189fbf78d2bc89b02827b024d378864306",
+                "059b96a990c6af5420faf3aa54acc67c3a6546be933c9421fe9740930dcfbf81",
+                "b590adb05f7219d7de106e34e05d9aad1c572ba58a31d8d94688b46cef5078a1",
+                "db9514f6ddbc4c5c33b74100707142ec632c2092d97bf14cbd0cbaa6e1adda22",
+                "9d8f8fcfcf3e728fa09d2851e3470505686fb25b40643578c238fa35d2335f32",
+                "759f1212763e4c9e31b34fecef9292355b3a62d821310b7a9b395c65693f60b0",
+                "89731d1d949ee4b712e82fa07556f968dfcc40a03db727ecd2097ca26af34f5c",
+                "f1a604fe3fa540b2c3667bf2b25d442667e9a61fe35067cc91864a5578efc4b1",
+                "af7d290182e7b36f707cced4d9567cb1ea19bbc895e579a4c9c4f5b1acee1f5f",
+                "b4091783ec00b9033a7310a2a62766824529450b2d36baeabfbe3e79133cd8e5",
+                "ca6143941b9cb1736e6c290e60fccc188508ed2092be491a20caad7dc9488dcb",
+                "5f8b388f1bd6d6d3ec515d33cafc37854423633ebfb04589a50858e556b45fa2",
+                "bc92d0b47077695afd10437d846692835b9249c8b62c38fd14ab796401ba3bb7",
+                "20e916303649b5bf385c92cea1177f8c6aa0a1fb9c00291e97f696026e29bc1e",
+                "8a0360159c0272b5e541ff01da27a83570293a4e30995b677a527ce232c3530c",
+                "cbdc2af537bfaa7a4c1f447e7a301a33805be8133e16b9e79d2f7677be86a455",
+                "23373833ec0f8dbd9b697c15feed5faa1b34c9f60c48c26e2548dc9c6d29dbdb",
+                "0b11f62a7e0094a27457e0a545891dc8fd9a9ea93f2441aacce79ae6d5089ede",
+                "0fef4860d0a3e00aff8716d46795304bceb59a32592e15776c3c69b150cef732",
+                "ebfa774b1b084c152d6f2ffeeafe522a36a3c09b9050506577e202399d0f7db2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.nbcnews.com",
+                "de.gymshark.com",
+                "www.today.com",
+                "acorn.tv",
+                "sixt.com",
+                "ilva.dk",
+                "www.sixt.fr",
+                "gametime.co",
+                "tdwealth.td.com",
+                "www.trutv.com",
+                "www.golfpass.com",
+                "www.texascapitalbank.com",
+                "fanatec.com",
+                "www.peacocktv.com",
+                "link.msnbc.com",
+                "www.gymshark.com",
+                "universalorlando.com",
+                "www.rds.ca",
+                "www.bubbas33.com",
+                "eu.gymshark.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/950b34627ce8e44794d51d71092642ee\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starbucks.com",
+                "about.starbucks.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-6d1d9ef14cc74d4589a860741f0c87fc\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "537c06ccd82f9517aa0de1901a9fac0d0f2c6ae26179fff701c161208fdcbc12"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amcplus.com",
+                "www.amcplus.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-6d1d9ef14cc74d4589a860741f0c87fc\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "32173b29a4188eca05c4290d098cddab871ee1f4d0e118546666aa157f22a3a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amcplus.com",
+                "www.amcplus.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-30a21a7fcd433440a438d6ee82736f57\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a4d0f000363534245221cbb49e54871f7ae82c92850583ee91b679d2e196a2a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starbucks.com",
+                "careers.starbucks.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/us1-30a21a7fcd433440a438d6ee82736f57\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starbucks.com",
+                "careers.starbucks.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us1-441fce74aed9e541b97e82e903e7d5ad\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bf4ded5cfa8a7affe0478bf3fa17ea2a65543b002ca5bedac3028d3255eb18a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cp24.com",
+                "www.cp24.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us1-818588cec503fd44974deea6286fc291\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7e119e84373c7b4dc0b6fe957ac51462f67df4a76002c43d4ababc741009225e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ctvnews.ca",
+                "www.ctvnews.ca"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-818588cec503fd44974deea6286fc291\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ctvnews.ca",
+                "www.ctvnews.ca"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/eu1-ebd2cad076757c498ce604d818b0d8ae\\/mparticle\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "Navigator.prototype.language": 1,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Date.prototype.getTime": 4,
+                "window.sessionStorage": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.indexedDB": 2,
+                "Notification.permission": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "92fa98e9cccb4598ad727fa03e68c53c60d6e641d2a54269dedffecc079dd7d3",
+                "3c94609cff27f29acfef013cd6745a40a47bcf221d2e4dae25efe49574557802",
+                "d74bd7e321489121ac5c313fa4a97c0b8da73a154f19caeac59e7a09a24f6cab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mprtcl-v4_98FE4316": {
+                    "ttl": 31536006,
+                    "length": 492,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                },
+                "ab.storage.sessionId.26921ef9-e031-4c11-bf00-75acff0d6abb": {
+                    "ttl": 34560005,
+                    "length": 100,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "ab.storage.userId.26921ef9-e031-4c11-bf00-75acff0d6abb": {
+                    "ttl": 34560006,
+                    "length": 80,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "ab.storage.deviceId.26921ef9-e031-4c11-bf00-75acff0d6abb": {
+                    "ttl": 34560005,
+                    "length": 96,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gymshark.com",
+                "eu.gymshark.com",
+                "uk.gymshark.com",
+                "www.gymshark.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/eu1-ebd2cad076757c498ce604d818b0d8ae\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "9a96a97d1ff77413ea253395475a07d465bf84c0b1da28e1b126824544c9d466",
+                "01fd76a105570c741821e6702ce93b3a1dbea5c6f72d01ec72187a1d2c68203b",
+                "69473c7dcc3165f6269a9865112e6659e9bf4d024f7ff8f3b1a6a038294c2e45"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gymshark.com",
+                "eu.gymshark.com",
+                "uk.gymshark.com",
+                "www.gymshark.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/3f8eeba44cd1254a897586bb26fa1c4a\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2270504042ef66603f955b55fd580e49b201e0877c92eed91ed89c8eeeeb95da"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mprtcl-v4_E0118AEE": {
+                    "ttl": 31536027,
+                    "length": 183,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "BI_UI_mpid": {
+                    "ttl": 1826,
+                    "length": 19,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "today.com",
+                "www.today.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookiesync"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "BI_UI_mpid": 0.00002122000905387053,
+                "mParticleId": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "today.com",
+                "link.msnbc.com",
+                "livestream.golfchannel.com",
+                "msnbc.com",
+                "www.msnbc.com",
+                "www.nbcnews.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us1-04eb03d316b54f4f99265340abe886e6\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7214efa7bcc299460c391d60f2fef77251f0b15ebb4f8f1959d3fab1992a164b",
+                "14dc89f03df98f762cab54d551e072d2e3e272d2af90654e3f327716d10a100b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wallapop.com",
+                "it.wallapop.com",
+                "www.wallapop.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.000156,
+            "cnames": [],
+            "responseHashes": [
+                "6ba59b83dfce2d0912a7e8fa6141bda0fb3c4159a0f661cb6c49177461ca7caf",
+                "8487dc6f05293ec38f7d64ddb6ee6c81122153aa4d8e5a2b8f2bfe5ed3023d8f",
+                "8b8bbbb6dbc03a71b0c34ab793e15ae9993bab4914e09577bfb2a9e3871a3807",
+                "7c555afa2f73431f6b064956b8e78c3029e04f2f4195a5a576a14cc65f14c1ff",
+                "a3280ed3f7f99fc2c9e58a2bf364e6416a9e5f39216c97e947ffc02b98a813b5",
+                "980205582da244ac086eb2569fe195d8cf9ba6b569321cf47f2ed98b0cad7805",
+                "30ca83b7f3560db0c9addfb9a1b9013f2c4e660b089ff8d6e23a9f1358a3e79a",
+                "d30ab09672fa38b8c945dea5133008d8e5603f3d035f81ea5e106dc8063c2f5f",
+                "6c8876727135735f1e05ca08a79ff44e7aecb560de27403b60b17d4970814a82",
+                "1e3eeef9a6403f040be45c322ca0e4615ff77a062aeff8f6c8cfcc0c77da12b1",
+                "d89d99ad6d348f3efc1eb8d9d9946e8bf6f8f4cf130f7631a4f04ec7112d3036",
+                "ab482066efade939f825ce7e44d7662c6742f68d9447e8231e2d510ae5b357c9",
+                "8c8ea8ff330ce630aca343e6c62d98d35751543060f32fb16c8a39bd0c37a4df",
+                "ff8f207ec4ce69f9f858286a4094069b5dba1d4e716b233749b59b6f4048b7b7",
+                "f2d444e0821a6b67a759975c19832d67ea31354debe0b7648bc777236a38ba3c",
+                "0dd6ac8e5b829c13b169ff9e0426023b1ccacf841f74da3fb68122dd9506bd08",
+                "db303fed093cc0145c762d4d74a97191b36f0a4582f77f4e07f8f933fc7f3299",
+                "dc3569d6c9b0b7beb13b9098dffff816174d6d12ef44b6967e965daed35f2e87",
+                "fe65a145f2eaa478b0c6eeaa60f35839591213b4d407864bec8c5df656d40b70",
+                "53728a4f62542902ce51592de7ad5697c38fcd83c7fc7d88d2ebcf3f0405866c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.mnlaxhub.com",
+                "www.advancedeventsystems.com",
+                "www.crave.ca",
+                "www.wallapop.com",
+                "www.treatwell.co.uk",
+                "www.jimmyjohns.com",
+                "www.jackinthebox.com",
+                "glovoapp.com",
+                "moviesanywhere.com",
+                "www.treatwell.fr",
+                "it.wallapop.com",
+                "www.treatwell.nl",
+                "www.tanger.com",
+                "www.treatwell.de",
+                "wallapop.com",
+                "www.marketdistrict.com",
+                "www.uslchampionship.com",
+                "www.usahockey.com",
+                "www.wissports.net",
+                "www.ctv.ca"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-04eb03d316b54f4f99265340abe886e6\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a379d12b540c0b6aa60f50a340e1c2ae75fbb04fa374ef7163072cb6701ef2fd",
+                "e37993871cf25e270e0a19d35eefb54243b045d3d3f423ba36f0f99521fe6447"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wallapop.com",
+                "it.wallapop.com",
+                "www.wallapop.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/sync\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookiesync"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "BI_UI_mpid": 0.00002122000905387053,
+                "mParticleId": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "ilva.dk",
+                "link.msnbc.com",
+                "livestream.golfchannel.com",
+                "msnbc.com",
+                "teamusa.usahockey.com",
+                "www.advancedeventsystems.com",
+                "www.mnlaxhub.com",
+                "www.msnbc.com",
+                "www.nbcnews.com",
+                "www.usahockey.com",
+                "www.usanetwork.com",
+                "www.uslchampionship.com",
+                "www.westernunion.com",
+                "www.wissports.net"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/4c6f61ee9fa74942a781c3ecf77b926e\\/mparticle\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "89d3821d70f1724a72e8085c971c0c682b5182a8f1d017f126f89f29f05a13cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mprtcl-v4_EEEE4EA7": {
+                    "ttl": 31536028,
+                    "length": 351,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "BI_UI_mpid": {
+                    "ttl": 1816,
+                    "length": 20,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msnbc.com",
+                "www.msnbc.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/4c6f61ee9fa74942a781c3ecf77b926e\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "56f53d12ff4d90f30ff3305942f0a0408c581989eceef589c3bca14eb2661143"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msnbc.com",
+                "www.msnbc.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/syncm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookiesync"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "5c1bc9ee43f8c4dce2e589f54e7318aafc5aff7321cb7aa2cc9e47ef02adf32f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "mParticleId": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "golfchannel.com",
+                "livestream.golfchannel.com",
+                "starbucks.com",
+                "www.starbucks.ca",
+                "www.starbucks.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/2c084c62f718f14eb1417f70bf5c3a05\\/mparticle\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3c4bc6ca57a8e7eeed0e3359ee647628e28fb741d212280f6307544473e95993"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tdbank.com",
+                "tdwealth.td.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/f763ca82e6f80f41a1ecd1d01ec718f2\\/mparticle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6765a9268540fb3d869e83e79876ac9e398dac0da20216bdc5334b536f894067"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samsclub.com",
+                "www.samsclub.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/eu1-f5647c4128a54a47a08a0f79cea334ba\\/mparticle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "d68337a48a284187b538474e5773906b706bf2cb9e8e48c1750fa7c6c452b16b",
+                "3899bf073a63300f802ec0fe0e67fb302e75dc07611ada539dd89f1cd29f6010"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sixt.com",
+                "www.sixt.co.uk",
+                "www.sixt.de",
+                "www.sixt.fr",
+                "www.sixt.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/704f7088dcd95042947a0264fb79cec3\\/mparticle\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 1,
+                "window.sessionStorage": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3acb6fb2bcce59515fe9cb8b5ddb01e700d3be5196c6249a515e7fd3a40fdc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sofi.com",
+                "www.sofi.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-b96c10bf8d450e45a5f108932f193fc4\\/mparticle\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "window.sessionStorage": 3,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a73b6cf2fa02172ff4232839d63e66c81f51844a6f30a8b11fc39eb4f4783906",
+                "01a89c50be285d7ab92d6d1c1c3b8d6136eba51e494b3e3f614d36244b2bd2c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starbucks.com",
+                "www.starbucks.ca",
+                "www.starbucks.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/us1-b96c10bf8d450e45a5f108932f193fc4\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starbucks.com",
+                "www.starbucks.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us2-61f41b8a4f501a41901cf46e7710c5d3\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dafbe22e2f2c1d361eb9863ec0d95ffe16c553b4a23df64b6e1e2fc164ea9bc4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.com",
+                "support.gofundme.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/us2-61f41b8a4f501a41901cf46e7710c5d3\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.com",
+                "support.gofundme.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us2-61f41b8a4f501a41901cf46e7710c5d3\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.com",
+                "support.gofundme.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us1-6ynS5HmBUtc3CDqDKTBu8ysq2WktiOjl\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "c32fffbfdedc309953b74988ca79fdba961a998d446a49e2df99cd204608b2bb",
+                "81ea3ab9f28d70a0433038071fbfcc7ef51683376e0ff00b5f4b661a9313156f",
+                "d84af27b79afadab69c68386ec44ded53ef04971573141c7ea1f5ad57997fc61",
+                "524eb51f0d8ac55577f8cdd69777c92970c436ac52f70b7e8d35899f6e4619f0",
+                "5fcff4d4fa7c0f6e53a2012bea029728b0a854ac5e0dc97b5aa937396b736178",
+                "9f57b945cf97ea27aff25bcfee0cd65f935cff809f79f3888821703ac023883b",
+                "ec5758abb8e399b068cb21d49bfe1f2ac863d7404099d557de93793a607c4de6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "teamusa.usahockey.com",
+                "www.advancedeventsystems.com",
+                "www.mnlaxhub.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com",
+                "www.uslleaguetwo.com",
+                "www.wissports.net"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/us1-6ynS5HmBUtc3CDqDKTBu8ysq2WktiOjl\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "teamusa.usahockey.com",
+                "www.advancedeventsystems.com",
+                "www.mnlaxhub.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com",
+                "www.wissports.net"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-6ynS5HmBUtc3CDqDKTBu8ysq2WktiOjl\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "431278dfe561708c5503e41e9037b12e439478af7f7021bbf7fe75ff4d978a7b",
+                "92cbc38a1e86597f915aa713da259a796a8df7d3be5d04adddc77ee1c942520c",
+                "e0ae607be2e6d302c730e8e6f4c23191245e832b791f0be124b9bfa366059f9d",
+                "6f1a2eb2f5f6f3924083ea6b031a5a7aa4a5d9dd64b2b5cd073bb70afbe4b987",
+                "079211e2c94fb884f24e4bdfb18ea067b25492c2bf39cf95312ba7a24df9fd52"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "teamusa.usahockey.com",
+                "www.advancedeventsystems.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com",
+                "www.wissports.net"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/eu1-ebd2cad076757c498ce604d818b0d8ae\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gymshark.com",
+                "uk.gymshark.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/a7bd3ddab184b64a95f8bed10dd4a0c3\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c8ff381c0fff1883ac399fbb05f22c06591aa3a5e97477783768ff1951bc1801"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbc.com",
+                "voice.vote.nbc.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/logout",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbc.com",
+                "voice.vote.nbc.com",
+                "www.rds.ca"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/logout",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "4175dc047c37eff681f5c2425f94aa3a9fa871013a165ab541fa6dc895b1da5a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbc.com",
+                "voice.vote.nbc.com",
+                "www.rds.ca"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/a7bd3ddab184b64a95f8bed10dd4a0c3\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbc.com",
+                "voice.vote.nbc.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/a7bd3ddab184b64a95f8bed10dd4a0c3\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "773554ad9a2ba1805d9d5d9d3dd4687725bd1114ca8cf3120de860f07c9634a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbc.com",
+                "voice.vote.nbc.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/505498f4ac6be648aeb0230a91bda3f3\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baskbank.com",
+                "www.baskbank.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us1-42c7bf7b21a03d479b372347c506a331\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "380d1bebb7ae8d138da90bbde73518d485b5e41c3951c2391b57b6234400aef1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bnnbloomberg.ca",
+                "www.bnnbloomberg.ca"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us2-9eefbfb19b5d9d45bf5fe9fcb5e389c7\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ce7aea5c5fb1e3d8ba0b75969f04cf8c3c007c3ac9fcd9bf59b19e76d74b749"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bubbas33.com",
+                "www.bubbas33.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-2c03e44e52024342bf3f8a34ed528d0b\\/mparticle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crackle.com",
+                "www.crackle.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us1-e2d21cdb64770044ba3c5a6374d56728\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f25b66f8755f26988f5f758776ddda74d8630dd27e47c86b5f0e2be97ad2b43"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ctv.ca",
+                "www.ctv.ca"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/us1-e2d21cdb64770044ba3c5a6374d56728\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ctv.ca",
+                "www.ctv.ca"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-e2d21cdb64770044ba3c5a6374d56728\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9ad426d448544868e2ea56a6a9292a7187238cbfee7db25884c8fa3b1d0c5b6a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ctv.ca",
+                "www.ctv.ca"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/e75b808743e50b42a5cd3d20a3ab0049\\/mparticle\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0a7e5db0f27c628b37855bb203a1f1cfef4d19e53ac6fa566ad975695fca9981"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goat.com",
+                "www.goat.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/e75b808743e50b42a5cd3d20a3ab0049\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goat.com",
+                "www.goat.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/BxazLKm8649buJbWBLWXt2Pw7bfin6qB\\/mparticle\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bfe941442ce264e2a1b7fe53ea925113299592dc8ae0f2b3bb4563e6dd19b482"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mprtcl-v4_B0C8D5EC": {
+                    "ttl": 31536012,
+                    "length": 351,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "ab.storage.sessionId.18011459-1937-4026-89fe-f1d1e575c3d3": {
+                    "ttl": 34560012,
+                    "length": 100,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headspace.com",
+                "www.headspace.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/BxazLKm8649buJbWBLWXt2Pw7bfin6qB\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headspace.com",
+                "www.headspace.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us1-ac2da3623042d84f8b2a726f54717161\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "57a554502bdda0d7714a26770afa757be980f8f0e82f3135c43ec14f09783b25"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotrod.com",
+                "www.hotrod.com",
+                "www.motortrend.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-ac2da3623042d84f8b2a726f54717161\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "066d25e3a3eb699b9a348f92b97054cb5bd5601bac7cea47a1dfeb1e83f2943e",
+                "e39f8c67cc05f2cd31d2bd43eefdbdd469190714b6716d25402e45ae14b9981a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotrod.com",
+                "www.hotrod.com",
+                "www.motortrend.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us2-ad6b10c6964cc140bf10616f48cb202b\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1db4ad5c479402641fe3e6a678650b14e2dfe52050bed518bad8a624d01109e3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackinthebox.com",
+                "www.jackinthebox.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us2-ad6b10c6964cc140bf10616f48cb202b\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d99c6424feee47248afead12d254b2059210cde7c5b5e837598aedd92b8ca02f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackinthebox.com",
+                "www.jackinthebox.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us2-1a39b3d9bd9cc3429087c962aec2e97a\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ba3768f0d5265ecf054fafc2fab5cb821703328a4602efc453677699dd4d4f6f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jimmyjohns.com",
+                "www.jimmyjohns.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us2-1a39b3d9bd9cc3429087c962aec2e97a\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "61321cc42ee973a9436c27dc6a1a5872a5ccd7ca2f7b71fe7a817ca5b3a82ca4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jimmyjohns.com",
+                "www.jimmyjohns.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us1-dabd7ce671f8fc40b835a24a2604ec5a\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "389bf4e0ab0832b1379e7b2d11d35bd72bedfba4741abe57a8cfe583f9d18f9a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kfc.com",
+                "www.kfc.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-dabd7ce671f8fc40b835a24a2604ec5a\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kfc.com",
+                "www.kfc.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-9dce935ce2dde542832c359af20b9173\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1c2501dbc2b0d8cf55e08a7258097d2110b652a39813592d5c3768bc1be8f3f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klarna.com",
+                "www.klarna.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-9dce935ce2dde542832c359af20b9173\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6eb7587308c51249e679afcb3e5a2145cdcb68eb60afaa11b56688417a4feee0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klarna.com",
+                "www.klarna.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-2fd7028efbdcec41b6c96deea07784ff\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f6c359163253326e8f0c4823c3b3ccb7cea09ebe3276682cbc81b2de93894193"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketdistrict.com",
+                "www.marketdistrict.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-40566a54a8e0c94093803ba945990495\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7e4276b93bd84ca33c42cc69f70059e607abd17b546e6853dc21c43307835098"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mprtcl-v4_FCDBA4DA": {
+                    "ttl": 31536020,
+                    "length": 187,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marksandspencer.com",
+                "www.marksandspencer.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/us1-40566a54a8e0c94093803ba945990495\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marksandspencer.com",
+                "www.marksandspencer.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-40566a54a8e0c94093803ba945990495\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bce3ab2b262d486328645c51b2cbd089b35d1ec9455c034ea18852c955300099"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marksandspencer.com",
+                "www.marksandspencer.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us2-8fc6de3bf667f84cbe418a4642b9a9a7\\/mparticle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e6c692e0e4ff01a1da3a7ae44882d26c2f0b7654a0458c6efff3bc8bcfc7cf47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mottandbow.com",
+                "www.mottandbow.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/65ea0b28a73c4c4abd08599774d30799\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c0834c5989c6754401782fd789b16132761d3fa78c78ba739ea1c9f0e5491709"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mprtcl-v4_0631346C": {
+                    "ttl": 31536030,
+                    "length": 252,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "BI_UI_mpid": {
+                    "ttl": 1823,
+                    "length": 20,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcnews.com",
+                "www.nbcnews.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-d26be8b82e8a5a4faf49eabd169d04f6\\/mparticle\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1,
+                "window.sessionStorage": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7759b35a7a65dfbc0c71830a5fd90baed286f9c8f24a47ebcbf30cbbedf55fbc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsports.com",
+                "www.nbcsports.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-d26be8b82e8a5a4faf49eabd169d04f6\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbcsports.com",
+                "www.nbcsports.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-11b0fef2fc080a4c90c5fa47accad965\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6cca7095196cb029fe82f9832b53fa551723e9f1326a76b1607df0bcf8dcfaf2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peacocktv.com",
+                "www.peacocktv.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-11b0fef2fc080a4c90c5fa47accad965\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peacocktv.com",
+                "www.peacocktv.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-01cf2c82e4f30343816043c020236504\\/mparticle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peets.com",
+                "www.peets.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-1a5670adc6ca7047803ae22782b44050\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "77e7c7ac6b7ff8a2503555cd646286434f23b6cc812e70aadb39c8584ae0301a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shudder.com",
+                "www.shudder.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/us2-69837107d0ee0642ad84794c4c106cb3\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f98caac6d3b6b75505c0da67f24f69d50757431ff11f81b0e6517526414d889"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tanger.com",
+                "www.tanger.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/6b889c9d2e814241814dad398afa99c0\\/mparticle\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "NavigatorUAData.prototype.brands": 1,
+                "Navigator.prototype.language": 1,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f8bca4d57bbd00c68cc0a1720830298c087edb8e864a0a5860a636a38eee6f61"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tbs.com",
+                "www.tbs.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/6b889c9d2e814241814dad398afa99c0\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tbs.com",
+                "www.tbs.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/6b889c9d2e814241814dad398afa99c0\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f35d188a2204209cb0e85ee4325be0955d48de20c3c913f2dca0d3ec05e62457"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tbs.com",
+                "www.tbs.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-09b8a860d541194caaa889a29a469376\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0ab1f96aebd65f287a52db39d8a96096e770dc047ca166dcb027230cb737ef9a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mprtcl-v4_F079DE60": {
+                    "ttl": 31536025,
+                    "length": 355,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "BI_UI_mpid": {
+                    "ttl": 1815,
+                    "length": 20,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telemundo.com",
+                "www.telemundo.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/us1-09b8a860d541194caaa889a29a469376\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telemundo.com",
+                "www.telemundo.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-09b8a860d541194caaa889a29a469376\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "500ccee3dbd340cb924bc565b2d040439b61f9fd10c1c64eca93b5200681d299"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telemundo.com",
+                "www.telemundo.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/JS\\/us1-29116cb7bee16d45ba865f1ecb87c6d6\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "texascapitalbank.com",
+                "www.texascapitalbank.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-29116cb7bee16d45ba865f1ecb87c6d6\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "texascapitalbank.com",
+                "www.texascapitalbank.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us2-8456c3fcd1437b4e9ebbcd79d631fd99\\/mparticle\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0d223bbeacbd25b4ee8190ddc3fd30340600970b48994ab38557bb96f4393975"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "texasroadhouse.com",
+                "www.texasroadhouse.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/81fbcb7f415e5f4c959d5617c79f1059\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f7f251d065996342c251799f2c00e44b1569a2729f59313cf2e7836e850b2341"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tntdrama.com",
+                "www.tntdrama.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/81fbcb7f415e5f4c959d5617c79f1059\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4981cff8b4b54977557f9e1d021e2c7e2925607d8287754736cf25dd72ade359"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tntdrama.com",
+                "www.tntdrama.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "ad3584a8d830e90490779ca89b691f7f30db2e4008f6cbb470788d7029127304"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "treatwell.nl",
+                "www.treatwell.co.uk",
+                "www.treatwell.de",
+                "www.treatwell.fr"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/JS\\/v2\\/eu1-89229be06fa54243ab7413dd164af3a3\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "57d27ac9cc442773334fb9c4ffd17bbc6e5cb74b4c9739d9456df4e9b1546d3c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "treatwell.fr",
+                "www.treatwell.de",
+                "www.treatwell.nl",
+                "www.treatwell.co.uk"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/eu1-89229be06fa54243ab7413dd164af3a3\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "dc4895298a17a325f44edfa996ddd82947a7b5530fda14035e931f58fc6b3573",
+                "820d01d1283a05cd27f1ddae55f8e64138d9baeca521d6b7eec34fc3410e9386",
+                "a6bab96ee58cadc8251d372a9096350a78af7e5f84dadfc9de3f125e932148f7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "treatwell.de",
+                "www.treatwell.fr",
+                "www.treatwell.co.uk",
+                "www.treatwell.nl"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-9839e9a1ac02c446b3ac1550a8d7b3d7\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1f525ad8a6d3a91c5d38407f71ec4bb87a22640de0fbb491290931366c023b2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trutv.com",
+                "www.trutv.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-9839e9a1ac02c446b3ac1550a8d7b3d7\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trutv.com",
+                "www.trutv.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-5d45c2d425f4d1409e39e4393f9fa076\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "288c11bb9ce447e13c5236c67da8dbd0e97e839fa8c448495a464a4d325534dc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvo.org",
+                "www.tvo.org"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/js\\/v2\\/us1-fdd5f1abc3a1f3499fd53e18a790704f\\/mparticle\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssdkcdns"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d932001bd73d258f84d3ea06c4a6dbd027339329cf5a142423e7a78c292b3881"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westernunion.com",
+                "www.westernunion.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-fdd5f1abc3a1f3499fd53e18a790704f\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dc22b7f8f87584c6c69428cd6990c0b21de09c64d1328783f17a15a8750a66c1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westernunion.com",
+                "www.westernunion.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000474,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6709796672828097
+        },
+        {
+            "domain": "sportngin.com",
+            "prevalence": 0.09796672828096119
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04436229205175601
+        },
+        {
+            "domain": "nbcnews.com",
+            "prevalence": 0.04066543438077634
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.038817005545286505
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.031423290203327174
+        },
+        {
+            "domain": "sportsengine.com",
+            "prevalence": 0.012939001848428836
+        },
+        {
+            "domain": "onlineaccess1.com",
+            "prevalence": 0.012939001848428836
+        },
+        {
+            "domain": "instana.io",
+            "prevalence": 0.011090573012939002
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.011090573012939002
+        }
+    ],
+    "types": {
+        "Script": 66,
+        "Preflight": 98,
+        "Fetch": 184,
+        "Image": 25,
+        "XHR": 52
+    },
+    "nameservers": [
+        "ns-1447.awsdns-52.org",
+        "ns-1796.awsdns-32.co.uk",
+        "ns-206.awsdns-25.com",
+        "ns-553.awsdns-05.net"
+    ]
+}

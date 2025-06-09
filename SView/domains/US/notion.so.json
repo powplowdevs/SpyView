@@ -1,0 +1,120 @@
+{
+    "domain": "notion.so",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "exp",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "notion\\.so\\/v1\\/initialize",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "exp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bdd6d07368ffbc3c30e60d8aa93410f66a556e02120aefe3f9a694333ef337f7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "notion.com",
+                "www.notion.com"
+            ]
+        },
+        {
+            "rule": "notion\\.so\\/v1\\/rgstr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "exp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "notion.com",
+                "www.notion.com"
+            ]
+        },
+        {
+            "rule": "notion\\.so\\/api\\/v3\\/etClient",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "notion.com",
+                "www.notion.com"
+            ]
+        },
+        {
+            "rule": "notion\\.so\\/api\\/v3\\/etClient",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "186fd51df1f3342708868716b58ec7a24aa22835d3f72da9241ec662107bd532"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "notion.com",
+                "www.notion.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "woz.ns.cloudflare.com",
+        "dana.ns.cloudflare.com"
+    ]
+}

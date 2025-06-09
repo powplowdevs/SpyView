@@ -1,0 +1,88 @@
+{
+    "domain": "pushowl.com",
+    "owner": {
+        "name": "Shashank Kumar",
+        "displayName": "Shashank Kumar"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000819,
+    "sites": 8,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pushowl\\.com\\/latest\\/sdks\\/pushowl-sib\\.js",
+            "cookies": 0.000409,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.language": 4,
+                "window.indexedDB": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.innerWidth": 4,
+                "URL.createObjectURL": 4,
+                "Notification.permission": 5,
+                "Navigator.prototype.maxTouchPoints": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000614,
+            "cnames": [],
+            "responseHashes": [
+                "76b301cfad8a6a72228832f1f79d5b72c2dc2e12cceb085be9b24015c3702dbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "po_visitor": {
+                    "ttl": 31536013,
+                    "length": 12,
+                    "prevalence": 0.00040941658137154553,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "sib_cuid": 0.00040941658137154553
+            },
+            "exampleSites": [
+                "histoiresroyales.fr",
+                "vis-express.fr",
+                "www.laboutiquederic.com",
+                "www.materiel-horeca.com",
+                "www.sudeducation.org",
+                "www.waltio.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000409,
+    "topInitiators": [
+        {
+            "domain": "sibautomation.com",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns2.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns4.dnsimple.com",
+        "ns1.dnsimple.com"
+    ]
+}

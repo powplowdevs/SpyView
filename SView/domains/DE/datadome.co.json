@@ -1,0 +1,523 @@
+{
+    "domain": "datadome.co",
+    "owner": {
+        "name": "DataDome",
+        "displayName": "DataDome"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00357,
+    "sites": 35,
+    "subdomains": [
+        "js",
+        "dwt.soundcloud.com.first-party-js",
+        "sslgen-tidal",
+        "dd.wizzair.com.first-party-js",
+        "datadome.alltrails.com.first-party-js",
+        "dd-js.etoro.com.first-party-js",
+        "dd.g2.com.first-party-js",
+        "dd.hermes.com.first-party-js",
+        "dd.immonet.de.first-party-js",
+        "dd.immowelt.de.first-party-js",
+        "dd.leboncoin.fr.first-party-js",
+        "datadome.maisonsdumonde.com.first-party-js",
+        "sslgen-nyt",
+        "dd.reuters.com.first-party-js",
+        "dd.seloger.com.first-party-js",
+        "ext.sezane.com.first-party-js",
+        "dd.thetrainline.com.first-party-js",
+        "dd.viator.com.first-party-js",
+        "api-js",
+        "dd.vinted.lt.first-party-js"
+    ],
+    "cnames": [
+        {
+            "original": "datadome.alltrails.com",
+            "resolved": "datadome.alltrails.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "datadome.maisonsdumonde.com",
+            "resolved": "datadome.maisonsdumonde.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd-js.etoro.com",
+            "resolved": "dd-js.etoro.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.g2.com",
+            "resolved": "dd.g2.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.hermes.com",
+            "resolved": "dd.hermes.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.immonet.de",
+            "resolved": "dd.immonet.de.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.immowelt.de",
+            "resolved": "dd.immowelt.de.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.leboncoin.fr",
+            "resolved": "dd.leboncoin.fr.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.nytimes.com",
+            "resolved": "sslgen-nyt.datadome.co"
+        },
+        {
+            "original": "dd.reuters.com",
+            "resolved": "dd.reuters.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.seloger.com",
+            "resolved": "dd.seloger.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.thetrainline.com",
+            "resolved": "dd.thetrainline.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.tidal.com",
+            "resolved": "sslgen-tidal.datadome.co"
+        },
+        {
+            "original": "dd.viator.com",
+            "resolved": "dd.viator.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.vinted.lt",
+            "resolved": "dd.vinted.lt.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.wizzair.com",
+            "resolved": "dd.wizzair.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dwt.soundcloud.com",
+            "resolved": "dwt.soundcloud.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "ext.sezane.com",
+            "resolved": "ext.sezane.com.first-party-js.datadome.co"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "datadome\\.co\\/tags\\.js",
+            "cookies": 0.00306,
+            "fingerprinting": 3,
+            "subdomains": [
+                "js",
+                "dwt.soundcloud.com.first-party-js",
+                "sslgen-tidal",
+                "dd.wizzair.com.first-party-js",
+                "datadome.alltrails.com.first-party-js",
+                "dd-js.etoro.com.first-party-js",
+                "dd.g2.com.first-party-js",
+                "dd.hermes.com.first-party-js",
+                "dd.immonet.de.first-party-js",
+                "dd.immowelt.de.first-party-js",
+                "dd.leboncoin.fr.first-party-js",
+                "datadome.maisonsdumonde.com.first-party-js",
+                "sslgen-nyt",
+                "dd.reuters.com.first-party-js",
+                "dd.seloger.com.first-party-js",
+                "ext.sezane.com.first-party-js",
+                "dd.thetrainline.com.first-party-js",
+                "dd.viator.com.first-party-js"
+            ],
+            "apis": {
+                "window.sessionStorage": 16,
+                "Document.cookie getter": 15,
+                "Navigator.prototype.userAgent": 16,
+                "window.outerHeight": 16,
+                "window.outerWidth": 16,
+                "Navigator.prototype.hardwareConcurrency": 15,
+                "Navigator.prototype.webdriver": 15,
+                "Navigator.prototype.platform": 15,
+                "Navigator.prototype.languages": 16,
+                "Navigator.prototype.maxTouchPoints": 15,
+                "Navigator.prototype.onLine": 15,
+                "Notification.permission": 15,
+                "Navigator.prototype.plugins": 15,
+                "URL.createObjectURL": 15,
+                "Navigator.prototype.deviceMemory": 15,
+                "Navigator.prototype.mimeTypes": 16,
+                "Navigator.prototype.mediaDevices": 15,
+                "MediaDevices.prototype.enumerateDevices": 15,
+                "window.innerHeight": 16,
+                "window.innerWidth": 16,
+                "Screen.prototype.height": 15,
+                "Screen.prototype.width": 15,
+                "Screen.prototype.colorDepth": 15,
+                "Navigator.prototype.language": 16,
+                "window.devicePixelRatio": 16,
+                "Screen.prototype.availHeight": 15,
+                "Screen.prototype.availWidth": 15,
+                "Date.prototype.getTimezoneOffset": 15,
+                "window.localStorage": 16,
+                "window.indexedDB": 16,
+                "Navigator.prototype.productSub": 15,
+                "Navigator.prototype.vendor": 15,
+                "HTMLMediaElement.prototype.canPlayType": 15,
+                "MediaSource.isTypeSupported": 15,
+                "Screen.prototype.orientation": 15,
+                "Document.cookie setter": 15,
+                "Navigator.prototype.permissions": 15,
+                "WebGLRenderingContext.prototype.getExtension": 15,
+                "WebGLRenderingContext.prototype.getParameter": 15,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 15
+            },
+            "sites": 33,
+            "prevalence": 0.00337,
+            "cnames": [
+                {
+                    "original": "dwt.soundcloud.com",
+                    "resolved": "dwt.soundcloud.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.tidal.com",
+                    "resolved": "sslgen-tidal.datadome.co"
+                },
+                {
+                    "original": "dd.wizzair.com",
+                    "resolved": "dd.wizzair.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "datadome.alltrails.com",
+                    "resolved": "datadome.alltrails.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd-js.etoro.com",
+                    "resolved": "dd-js.etoro.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.g2.com",
+                    "resolved": "dd.g2.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.hermes.com",
+                    "resolved": "dd.hermes.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.immonet.de",
+                    "resolved": "dd.immonet.de.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.immowelt.de",
+                    "resolved": "dd.immowelt.de.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.leboncoin.fr",
+                    "resolved": "dd.leboncoin.fr.first-party-js.datadome.co"
+                },
+                {
+                    "original": "datadome.maisonsdumonde.com",
+                    "resolved": "datadome.maisonsdumonde.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.nytimes.com",
+                    "resolved": "sslgen-nyt.datadome.co"
+                },
+                {
+                    "original": "dd.reuters.com",
+                    "resolved": "dd.reuters.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.seloger.com",
+                    "resolved": "dd.seloger.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "ext.sezane.com",
+                    "resolved": "ext.sezane.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.thetrainline.com",
+                    "resolved": "dd.thetrainline.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.viator.com",
+                    "resolved": "dd.viator.com.first-party-js.datadome.co"
+                }
+            ],
+            "responseHashes": [
+                "de95a69ff157c55cfede664ad1e1a50ad0f7e4b1a55918773738ccad808613e4",
+                "9861399ce2a9c3994235401b8f8d007b8a6265684b9a1c18cdaee10e0cd3848a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "datadome": {
+                    "ttl": 31536000,
+                    "length": 128,
+                    "prevalence": 0.0013258541560428353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brainly.com",
+                "soundcloud.com",
+                "www.nytimes.com",
+                "www.yelp.com",
+                "www.etoro.com",
+                "www.hoka.com",
+                "ra.co",
+                "www.thetrainline.com",
+                "www.immonet.de",
+                "www.maisonsdumonde.com",
+                "www.alltrails.com",
+                "wizzair.com",
+                "de.jbl.com",
+                "tidal.com",
+                "www.immowelt.de",
+                "www.turbosquid.com",
+                "www.g2.com",
+                "www.limango.de",
+                "www.reuter.de",
+                "www.sezane.com"
+            ]
+        },
+        {
+            "rule": "datadome\\.co\\/js\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-js",
+                "dwt.soundcloud.com.first-party-js",
+                "sslgen-tidal",
+                "dd.wizzair.com.first-party-js",
+                "datadome.alltrails.com.first-party-js",
+                "dd-js.etoro.com.first-party-js",
+                "dd.g2.com.first-party-js",
+                "dd.hermes.com.first-party-js",
+                "dd.immonet.de.first-party-js",
+                "dd.immowelt.de.first-party-js",
+                "dd.leboncoin.fr.first-party-js",
+                "datadome.maisonsdumonde.com.first-party-js",
+                "sslgen-nyt",
+                "dd.reuters.com.first-party-js",
+                "dd.seloger.com.first-party-js",
+                "ext.sezane.com.first-party-js",
+                "dd.thetrainline.com.first-party-js",
+                "dd.viator.com.first-party-js"
+            ],
+            "apis": {},
+            "sites": 33,
+            "prevalence": 0.00337,
+            "cnames": [
+                {
+                    "original": "dwt.soundcloud.com",
+                    "resolved": "dwt.soundcloud.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.tidal.com",
+                    "resolved": "sslgen-tidal.datadome.co"
+                },
+                {
+                    "original": "dd.wizzair.com",
+                    "resolved": "dd.wizzair.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "datadome.alltrails.com",
+                    "resolved": "datadome.alltrails.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd-js.etoro.com",
+                    "resolved": "dd-js.etoro.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.g2.com",
+                    "resolved": "dd.g2.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.hermes.com",
+                    "resolved": "dd.hermes.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.immonet.de",
+                    "resolved": "dd.immonet.de.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.immowelt.de",
+                    "resolved": "dd.immowelt.de.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.leboncoin.fr",
+                    "resolved": "dd.leboncoin.fr.first-party-js.datadome.co"
+                },
+                {
+                    "original": "datadome.maisonsdumonde.com",
+                    "resolved": "datadome.maisonsdumonde.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.nytimes.com",
+                    "resolved": "sslgen-nyt.datadome.co"
+                },
+                {
+                    "original": "dd.reuters.com",
+                    "resolved": "dd.reuters.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.seloger.com",
+                    "resolved": "dd.seloger.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "ext.sezane.com",
+                    "resolved": "ext.sezane.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.thetrainline.com",
+                    "resolved": "dd.thetrainline.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.viator.com",
+                    "resolved": "dd.viator.com.first-party-js.datadome.co"
+                }
+            ],
+            "responseHashes": [
+                "9e1c2df2b4513f15231d469aaf9c0fded3be4ec640a48f824f4d7de10b8f5dce",
+                "827307a49e9a9ecfa1816aaedacfcbb7ec46a6d847f617e074123bdb34db0f33",
+                "197e096863b0dfdeab214ae260a67df611671c765ad0dd925e781c9e25b535cf",
+                "02e13e3ea7f9b72ae88ef3d38e061f2df83e2cb03a3887023778b02b2675ea2b",
+                "e0c950ff29315d1cf174ce8b11bfd475e5f5390200dfd131fcfd90235753d469",
+                "3d8405915703ecb6885e3781e7c0a45055bc69c47bdcef5c35e55c40420af026",
+                "480647accca7bbcf007026321731ce768b5bba259f073eb499e0b7596ea3caef",
+                "84fdf4438b3e9592f61634b298f159273319095a18cfd3752a9b397e42125428",
+                "aa4047d08f44b1595b1061434cacea002a496d3c295dd29d63cbfa4ff189653e",
+                "6a55ef06e6b13c556f8a138219636f2f56395f9e4b5a39366067dd3b764be8aa",
+                "736ee3e688ff963601d4601179c9df5a302ce658a8dec260b4ae5336d632d24f",
+                "9c261fbd0bd1d013a092310cf5306a96f080f63113bed09df6581508d8339439",
+                "9e732c0535a0d8501df59c4a7b24861e543f978886ab70ec83ebdf591167cb96",
+                "2cd4392311c7e0494b101bd399abca6326ce3516add4062016e251968825e830",
+                "d64e7ad547930ff02376e5c8cfda36deccc7f9547ca404f50738f6365e48595c",
+                "c87725b74b58f8dea5cf8ab1d7fb6c5c385270f9591a2de2847ce502adaa466b",
+                "807b6cc23ef1a8e64db56e7b0903d1bd6d16e2078a1ece55d4ff121c309c7e75",
+                "c229a3caeebebb055edb8c38c972700a630e1f3afdddc34db469786087a18a8e",
+                "558e96ce8c0e45e9a289a0aac9dba2684007f4b8093b8f70f9b316ea5111b7fd",
+                "80391127ae26f4eb46fbb8ca48ce26ff735f286c0555eb786b86c3b74c47b297",
+                "c3462b2ca75b94b7300434a789738ca34abc73b7fae3f6d31dc3f9d01d7916e9",
+                "8ffceb20f36f637ca6d46d4b058cbbf2c608cfdb4c7be4ba41281c1995af94da",
+                "dc65e4587b897d94b331b394685f52924b552e39bf54679172f9dc53fe87d19a",
+                "47dd6aa11aa270bcfc2bf81bc47acc5b7cc8b8e597124326679130667d92d4a4",
+                "fa9a3a1928fcc0e93eb408293a8f5e47677b3af3c9aca173aee68ffb54946649",
+                "4328602a58293860d018cd1202432da213390a9a551129360b155f3869870731",
+                "91cb9bfec902444a09e44c4559ca5edb1bed556821a71a7971490d1401371306",
+                "43261a82ea7ccd0055ee9203a7962ab8b889e0e535f6643e7d38cc4aeabde023"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brainly.com",
+                "soundcloud.com",
+                "www.nytimes.com",
+                "www.yelp.com",
+                "www.reuter.de",
+                "gopro.com",
+                "www.immowelt.de",
+                "parade.com",
+                "www.thefork.de",
+                "de.jbl.com",
+                "www.g2.com",
+                "www.boot24.com",
+                "reuter.de",
+                "www.turbosquid.com",
+                "www.maisonsdumonde.com",
+                "www.hoka.com",
+                "www.alltrails.com",
+                "www.leboncoin.fr",
+                "www.viator.com",
+                "atu.de"
+            ]
+        },
+        {
+            "rule": "datadome\\.co\\/js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dd.vinted.lt.first-party-js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "dd.vinted.lt",
+                    "resolved": "dd.vinted.lt.first-party-js.datadome.co"
+                }
+            ],
+            "responseHashes": [
+                "84d7d1d7233277e20f26982aa80c9f0f45fcf5804c21d48b996adafb633d79a5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vinted.com",
+                "www.vinted.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Fraud Prevention"
+    ],
+    "performance": {},
+    "cookies": 0.00306,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5483870967741935
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.12903225806451613
+        },
+        {
+            "domain": "sndcdn.com",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "d2uybm4uj2kuwv.cloudfront.net",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "vtrcdn.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "vinted.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "yelp.de",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Script": 33,
+        "XHR": 35
+    },
+    "nameservers": [
+        "ns-888.awsdns-47.net",
+        "ns-359.awsdns-44.com",
+        "ns-1801.awsdns-33.co.uk",
+        "ns-1139.awsdns-14.org"
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "domain": "thoughtmetric.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "pixel",
+        "data"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "thoughtmetric\\.io\\/tmpixel\\.min\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 3,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.plugins": 5,
+                "Navigator.prototype.vendor": 6,
+                "Notification.permission": 4,
+                "window.devicePixelRatio": 4,
+                "OfflineAudioContext.prototype.constructor": 5,
+                "Screen.prototype.availTop": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.availWidth": 6,
+                "Screen.prototype.availLeft": 6,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.availHeight": 6,
+                "AudioBuffer.prototype.getChannelData": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.languages": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Navigator.prototype.deviceMemory": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "window.indexedDB": 3,
+                "Navigator.prototype.platform": 3,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "1cddddcd625655284a54580626d8ca0d61ef262ec7e36626052b037aa8b1aa34"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__thoughtmetric_uid": {
+                    "ttl": 63072007,
+                    "length": 36,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "cookietest": {
+                    "ttl": -1747351107,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bellsofsteel.us",
+                "cbioffroadfab.com",
+                "everythingfor420.com",
+                "kifaru.net",
+                "prinsu.com",
+                "www.clearbags.com",
+                "www.theceshop.com"
+            ]
+        },
+        {
+            "rule": "thoughtmetric\\.io\\/d",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_fbp": 0.00002122000905387053,
+                "__thoughtmetric_uid": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "bellsofsteel.us",
+                "cbioffroadfab.com",
+                "everythingfor420.com",
+                "kifaru.net",
+                "prinsu.com",
+                "www.theceshop.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Ping": 6
+    },
+    "nameservers": [
+        "nitin.ns.cloudflare.com",
+        "love.ns.cloudflare.com"
+    ]
+}

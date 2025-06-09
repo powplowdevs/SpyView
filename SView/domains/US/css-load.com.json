@@ -1,0 +1,60 @@
+{
+    "domain": "css-load.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "css-load\\.com\\/loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Navigator.prototype.onLine": 1,
+                "window.outerHeight": 1,
+                "window.outerWidth": 1,
+                "URL.createObjectURL": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b8d81d11627751d5a2ad779bfef728ea5b47654e12bd208cf9e01df4c3ae8438"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dogdrip.net",
+                "ygosu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "veda.ns.cloudflare.com",
+        "houston.ns.cloudflare.com"
+    ]
+}

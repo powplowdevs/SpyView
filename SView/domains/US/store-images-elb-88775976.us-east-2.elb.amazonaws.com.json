@@ -1,0 +1,60 @@
+{
+    "domain": "store-images-elb-88775976.us-east-2.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "store-images.foreyes.com",
+            "resolved": "store-images-elb-88775976.us-east-2.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "store-images-elb-88775976\\.us-east-2\\.elb\\.amazonaws\\.com\\/fit",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "store-images.foreyes.com",
+                    "resolved": "store-images-elb-88775976.us-east-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "756609181a34d99d6f4f8d2fe4f20cc9d6db76298c58972987a85ae937e6ab52"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "foreyes.com",
+                "www.foreyes.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000707,
+    "types": {
+        "Image": 2
+    },
+    "nameservers": []
+}

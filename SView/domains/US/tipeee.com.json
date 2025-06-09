@@ -1,0 +1,61 @@
+{
+    "domain": "tipeee.com",
+    "owner": {
+        "name": "MyMajorCompany",
+        "displayName": "MyMajorCompany"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "plugin"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tipeee\\.com\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "plugin"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3c4de8a774f71e5f18f3a5d6eaaaf82d8a2cd339478c9fd832d4b51ef8da3047"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adeline-cuisine.fr",
+                "www.culturepsg.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "linda.ns.cloudflare.com",
+        "bill.ns.cloudflare.com"
+    ]
+}

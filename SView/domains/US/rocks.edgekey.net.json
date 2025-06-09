@@ -1,0 +1,280 @@
+{
+    "domain": "rocks.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "api.fstr",
+        "fstr"
+    ],
+    "cnames": [
+        {
+            "original": "api.fstr.rocks",
+            "resolved": "api.fstr.rocks.edgekey.net"
+        },
+        {
+            "original": "rc.fstr.rocks",
+            "resolved": "fstr.rocks.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rocks\\.edgekey\\.net\\/v1\\/ntp\\/localtime",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.fstr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.fstr.rocks",
+                    "resolved": "api.fstr.rocks.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifood.com.br",
+                "www.ifood.com.br"
+            ]
+        },
+        {
+            "rule": "rocks\\.edgekey\\.net\\/v2\\/remote-config\\/key",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fstr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "rc.fstr.rocks",
+                    "resolved": "fstr.rocks.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifood.com.br",
+                "www.ifood.com.br"
+            ]
+        },
+        {
+            "rule": "rocks\\.edgekey\\.net\\/v2\\/remote-config\\/key",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fstr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "rc.fstr.rocks",
+                    "resolved": "fstr.rocks.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0f1e96204b79133ae762d40c71f94d4067453e0290b14c42dbce1ad8d52ca71e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifood.com.br",
+                "www.ifood.com.br"
+            ]
+        },
+        {
+            "rule": "rocks\\.edgekey\\.net\\/v2\\/remote-config\\/sticky",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fstr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "rc.fstr.rocks",
+                    "resolved": "fstr.rocks.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifood.com.br",
+                "www.ifood.com.br"
+            ]
+        },
+        {
+            "rule": "rocks\\.edgekey\\.net\\/v2\\/remote-config\\/sticky",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fstr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "rc.fstr.rocks",
+                    "resolved": "fstr.rocks.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9e82c143ff00b9e94c10cb1785deb174cc0afef6ce2cb0adba8c40c25b3c562e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifood.com.br",
+                "www.ifood.com.br"
+            ]
+        },
+        {
+            "rule": "rocks\\.edgekey\\.net\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.fstr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.fstr.rocks",
+                    "resolved": "api.fstr.rocks.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifood.com.br",
+                "www.ifood.com.br"
+            ]
+        },
+        {
+            "rule": "rocks\\.edgekey\\.net\\/v1\\/event",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.fstr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.fstr.rocks",
+                    "resolved": "api.fstr.rocks.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7f45b87f316c965cd62d3a93086abc7c805dfe9ce2adac5c2f3d5dc2454f029b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifood.com.br",
+                "www.ifood.com.br"
+            ]
+        },
+        {
+            "rule": "rocks\\.edgekey\\.net\\/v1\\/session\\/489abb93-9972-4e01-a103-a3ff4ced7544",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.fstr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.fstr.rocks",
+                    "resolved": "api.fstr.rocks.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifood.com.br",
+                "www.ifood.com.br"
+            ]
+        },
+        {
+            "rule": "rocks\\.edgekey\\.net\\/v1\\/session\\/489abb93-9972-4e01-a103-a3ff4ced7544",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.fstr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.fstr.rocks",
+                    "resolved": "api.fstr.rocks.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifood.com.br",
+                "www.ifood.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 10,
+        "Preflight": 8
+    },
+    "nameservers": []
+}

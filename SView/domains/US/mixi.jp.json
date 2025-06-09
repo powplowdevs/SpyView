@@ -1,0 +1,106 @@
+{
+    "domain": "mixi.jp",
+    "owner": {
+        "name": "mixi, Inc.",
+        "displayName": "mixi"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "static",
+        "plugins"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mixi\\.jp\\/js\\/share\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "062b58a6509c2dc46f5de7f42f2f7ecaeeff429cae4fffc971be55df94f9cf04",
+                "4945cca9ab88973ad4f3d61f7d28495492b3da79ef13674a6d410eb0d9e89387"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livedoor.blog",
+                "www.gundam.info",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "mixi\\.jp\\/js\\/plugins\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ccb2e5b808182a0c788aad71206a88943bd57aecfef2bb40f7220e593b0b809a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myoji-yurai.net",
+                "www.city.sapporo.jp",
+                "www.horoscope-tarot.net"
+            ]
+        },
+        {
+            "rule": "mixi\\.jp\\/favorite\\.pl",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plugins"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myoji-yurai.net",
+                "www.city.sapporo.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-850.awsdns-42.net",
+        "ns-1147.awsdns-15.org",
+        "ns-1787.awsdns-31.co.uk",
+        "ns-495.awsdns-61.com"
+    ]
+}

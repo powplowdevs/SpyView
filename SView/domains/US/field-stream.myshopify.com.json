@@ -1,0 +1,76 @@
+{
+    "domain": "field-stream.myshopify.com",
+    "owner": {
+        "name": "Shopify Inc.",
+        "displayName": "Shopify",
+        "privacyPolicy": "https://www.shopify.com/legal/privacy",
+        "url": "http://shopify.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "field-stream\\.myshopify\\.com\\/api\\/unstable\\/graphql\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fieldandstream.com",
+                "www.fieldandstream.com"
+            ]
+        },
+        {
+            "rule": "field-stream\\.myshopify\\.com\\/api\\/unstable\\/graphql\\.json",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b0a976178d5bc997900accbb0ce082a447e3e55828c261be612af2ae0279cab7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fieldandstream.com",
+                "www.fieldandstream.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

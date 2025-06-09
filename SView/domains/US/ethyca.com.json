@@ -1,0 +1,137 @@
+{
+    "domain": "ethyca.com",
+    "owner": {
+        "name": "Ethyca Inc",
+        "displayName": "Ethyca"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000177,
+    "sites": 25,
+    "subdomains": [
+        "vercel.fides-cdn",
+        "casper.fides-cdn",
+        "enso-rings.fides-cdn",
+        "lovevery.fides-cdn",
+        "slice.fides-cdn",
+        "staccato.fides-cdn",
+        "super73.fides-cdn",
+        "axios.fides-cdn",
+        "haven.fides-cdn",
+        "homage.fides-cdn",
+        "misfits-market.fides-cdn",
+        "k-hovnanian.fides-cdn"
+    ],
+    "cnames": [
+        {
+            "original": "privacy.axios.com",
+            "resolved": "axios.fides-cdn.ethyca.com"
+        },
+        {
+            "original": "privacy.khov.com",
+            "resolved": "k-hovnanian.fides-cdn.ethyca.com"
+        },
+        {
+            "original": "privacy.super73.com",
+            "resolved": "super73.fides-cdn.ethyca.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ethyca\\.com\\/fides\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vercel.fides-cdn",
+                "casper.fides-cdn",
+                "enso-rings.fides-cdn",
+                "lovevery.fides-cdn",
+                "slice.fides-cdn",
+                "staccato.fides-cdn",
+                "super73.fides-cdn",
+                "axios.fides-cdn",
+                "haven.fides-cdn",
+                "homage.fides-cdn",
+                "misfits-market.fides-cdn",
+                "k-hovnanian.fides-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [
+                {
+                    "original": "privacy.super73.com",
+                    "resolved": "super73.fides-cdn.ethyca.com"
+                },
+                {
+                    "original": "privacy.axios.com",
+                    "resolved": "axios.fides-cdn.ethyca.com"
+                },
+                {
+                    "original": "privacy.khov.com",
+                    "resolved": "k-hovnanian.fides-cdn.ethyca.com"
+                }
+            ],
+            "responseHashes": [
+                "00ff5df26e6db0452c2305de0a402879b32b1508cbf9a6c4eded5327204f6d9f",
+                "820e5fa5e01d3078d543d7826448c34aa319b241138341d9c395199cafe6290a",
+                "f1ac13e16c403513f5c26112c061523b0878fd764098c0a6f5837a8e1776eaee",
+                "588c9c24b44b0b7f23e1715a786d2c29b64446d372b97140db980b4520fee251",
+                "8d2f452d7fd18ea5d09f5e455157fc98e74fc2451e7daf3829fe454894c9df80",
+                "6a67d531232d5087f69671d4262644584d714558bd92d675789483ee46139d6a",
+                "482284125e0a003e94fc8377b455251aa9c4a46387be64339ccde62268a9fdf4",
+                "f823d211cfd5caedbf7ed051edfea316d2abb8d3aabf976c493282e85454d56e",
+                "44e5a7908bf07a7e42a0644aaac12b556295c0514fa25eb4656f7033e7f1f877",
+                "4eecafd5e39c103558e335e7bcd0eea0721db391cb1b65a127d793e46c4df527",
+                "61d51a6b49d84a8444bf102dc7b41921eced485184b1800b832584a16c152abf",
+                "04c406ae56669b4ad72cce814c2b635842a7363a07b566bad93adb18fd1657fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ai-sdk.dev",
+                "casper.com",
+                "ensorings.com",
+                "lovevery.com",
+                "slicelife.com",
+                "staccato2011.com",
+                "super73.com",
+                "v0.dev",
+                "www.axios.com",
+                "www.haven.com",
+                "www.homage.com",
+                "www.imperfectfoods.com",
+                "www.khov.com",
+                "www.misfitsmarket.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9565217391304348
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "ns-1045.awsdns-02.org",
+        "ns-130.awsdns-16.com",
+        "ns-1866.awsdns-41.co.uk",
+        "ns-736.awsdns-28.net"
+    ]
+}

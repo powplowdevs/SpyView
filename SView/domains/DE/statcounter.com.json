@@ -1,0 +1,194 @@
+{
+    "domain": "statcounter.com",
+    "owner": {
+        "name": "StatCounter",
+        "displayName": "StatCounter",
+        "privacyPolicy": "https://statcounter.com/about/legal/",
+        "url": "http://statcounter.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00245,
+    "sites": 24,
+    "subdomains": [
+        "c",
+        "www",
+        "secure"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "statcounter\\.com\\/t\\.php",
+            "cookies": 0.00245,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00245,
+            "cnames": [],
+            "responseHashes": [
+                "eb2697b60c526a1d4980e0874700e7c2b4f43bb9292770f71bb4bb972506e415",
+                "f62edd4d137ec20dfecec1bc8b0baade5c633956bd1cff9db4f4614e7085f425",
+                "abc2cec298cec6ff85adbc39a5d22c228af5c6b1f7b64259c8883754520ab5de",
+                "c657df5b05acfe2f397efe323abf23f4c1752e3a0291f0bff19a4b2a6e373de9",
+                "4902214192246e6900588bc6e7d3cf18f52adcc1d28a6bf6f0a5d4921631089e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.sexerotischegeschichten.com",
+                "adultvisor.com",
+                "toxigon.com",
+                "www.unser-mitteleuropa.com",
+                "www.entfernungsrechnerkm.com",
+                "www.webtran.de",
+                "pornoseiten.net",
+                "de.thejigsawpuzzles.com",
+                "www.marketbeat.com",
+                "www.man7.org",
+                "www.kalenderpedia.de",
+                "mittlan.de",
+                "www.erotik-sex-geschichten.net",
+                "de.readkong.com",
+                "www.seterra.com",
+                "www.waveshare.com",
+                "www.minecraftskins.com",
+                "www.erotikportal-deutschland.net",
+                "usercomp.com",
+                "www.plantuml.com"
+            ]
+        },
+        {
+            "rule": "statcounter\\.com\\/counter\\/counter\\.js",
+            "cookies": 0.00214,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www",
+                "secure"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 21,
+                "NavigatorUAData.prototype.platform": 20,
+                "window.sessionStorage": 21,
+                "Date.prototype.getTime": 16,
+                "window.localStorage": 21,
+                "Document.cookie getter": 21,
+                "Document.cookie setter": 21,
+                "Screen.prototype.width": 20,
+                "Screen.prototype.height": 20,
+                "NavigatorUAData.prototype.getHighEntropyValues": 7,
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 4
+            },
+            "sites": 21,
+            "prevalence": 0.00214,
+            "cnames": [],
+            "responseHashes": [
+                "d2ca3faebab95cbe8cde0faa7ef73553a49472df2cc0334ee53c5d1f4252dd50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sc_is_visitor_unique": {
+                    "ttl": 63072003,
+                    "length": 75,
+                    "prevalence": 0.0021417644059153495,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spidersolitar.de",
+                "www.waveshare.com",
+                "usercomp.com",
+                "www.kalenderpedia.de",
+                "toxigon.com",
+                "www.seterra.com",
+                "oemdrivers.com",
+                "pornoseiten.net",
+                "www.plantuml.com",
+                "wallpapercave.com",
+                "www.erotik-sex-geschichten.net",
+                "www.sexerotischegeschichten.com",
+                "www.erotikportal-deutschland.net",
+                "www.unser-mitteleuropa.com",
+                "www.marketbeat.com",
+                "www.webtran.de",
+                "de.thejigsawpuzzles.com",
+                "readkong.com",
+                "www.minecraftskins.com",
+                "mittlan.de"
+            ]
+        },
+        {
+            "rule": "statcounter\\.com\\/counter\\/counter_xhtml\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "secure",
+                "www"
+            ],
+            "apis": {
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d2ca3faebab95cbe8cde0faa7ef73553a49472df2cc0334ee53c5d1f4252dd50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sc_is_visitor_unique": {
+                    "ttl": 63072004,
+                    "length": 71,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "entfernungsrechnerkm.com",
+                "www.klinikbewertungen.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics"
+    ],
+    "performance": {},
+    "cookies": 0.00245,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.96
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "XHR": 24,
+        "Script": 23
+    },
+    "nameservers": [
+        "may.ns.cloudflare.com",
+        "tim.ns.cloudflare.com"
+    ]
+}

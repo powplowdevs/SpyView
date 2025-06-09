@@ -1,0 +1,244 @@
+{
+    "domain": "roularta.be",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "dap-azure",
+        "www",
+        "newsroom",
+        "makr",
+        "token",
+        "sso"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "roularta\\.be\\/api\\/dewebc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dap-azure"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000106,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deliciousmagazine.nl",
+                "www.ewmagazine.nl",
+                "www.fiets.nl",
+                "www.flair.be",
+                "www.formule1.nl",
+                "www.gezondheidsnet.nl",
+                "www.gezondheid.be",
+                "www.happinez.nl",
+                "www.knack.be",
+                "www.landleven.nl",
+                "www.libelle-lekker.be",
+                "www.libelle.be",
+                "www.passionsante.be",
+                "www.plusonline.nl",
+                "www.psychologie.nl"
+            ]
+        },
+        {
+            "rule": "roularta\\.be\\/sites\\/all\\/themes\\/roularta\\/logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "c2d69415a385eb5c10d2a83d66ac3eb832fd30c8f92d695c1a589b9eb32955e6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deliciousmagazine.nl",
+                "www.ewmagazine.nl",
+                "www.fiets.nl",
+                "www.flair.be",
+                "www.formule1.nl",
+                "www.gezondheidsnet.nl",
+                "www.gezondheid.be",
+                "www.happinez.nl",
+                "www.landleven.nl",
+                "www.libelle.be",
+                "www.passionsante.be",
+                "www.plusonline.nl",
+                "www.psychologie.nl"
+            ]
+        },
+        {
+            "rule": "roularta\\.be\\/static\\/02042025\\/delicious-mm-def\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsroom"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cc35bb8f8b63445f68a3077c59fd0fe21dfb53852c30665f188f1d86cb31e304"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ewmagazine.nl",
+                "www.plusonline.nl"
+            ]
+        },
+        {
+            "rule": "roularta\\.be\\/makr-resize-cover\\/getCover\\.action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "makr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "72574ad6cb859cba2e5482554b942f70de6752662b0b7d8504fb33a2427159f1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fiets.nl",
+                "www.knack.be"
+            ]
+        },
+        {
+            "rule": "roularta\\.be\\/oauth\\/v1\\/authorize",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "token"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flair.be",
+                "www.knack.be",
+                "www.libelle-lekker.be",
+                "www.libelle.be"
+            ]
+        },
+        {
+            "rule": "roularta\\.be\\/saml\\/single-sign-on",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flair.be",
+                "www.knack.be",
+                "www.libelle-lekker.be",
+                "www.libelle.be"
+            ]
+        },
+        {
+            "rule": "roularta\\.be\\/saml\\/authn-response-nopassive",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flair.be",
+                "www.knack.be",
+                "www.libelle-lekker.be",
+                "www.libelle.be"
+            ]
+        },
+        {
+            "rule": "roularta\\.be\\/oauth\\/saml\\/authn-response",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "token"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flair.be",
+                "www.knack.be",
+                "www.libelle-lekker.be",
+                "www.libelle.be"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8142857142857143
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.18571428571428572
+        }
+    ],
+    "types": {
+        "XHR": 15,
+        "Image": 17,
+        "Document": 16
+    },
+    "nameservers": [
+        "ns1.european-server.eu",
+        "ns3.european-server.com",
+        "ns4.european-server.com"
+    ]
+}

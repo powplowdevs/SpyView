@@ -1,0 +1,639 @@
+{
+    "domain": "incrowdsports.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000778,
+    "sites": 11,
+    "subdomains": [
+        "pcb",
+        "form",
+        "poll",
+        "media-cdn",
+        "icdt",
+        "article-cms-api",
+        "promoblocks-cms-api",
+        "forms",
+        "ctr"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "incrowdsports\\.com\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pcb",
+                "form",
+                "poll"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "afa4a1ee4cf2d53a4c8965a261979b6fb0f85a3ed341bacbb540fd3a98e24483",
+                "d26e1328f68f71523a89dd84703bce84e6aae9050462869c5c79f0643507c123",
+                "89d1364a1c7d06d5a827eec845183ce12a2347da12d8ac44259c5cb64353c86b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arsenal.com",
+                "www.arsenal.com",
+                "www.mlssoccer.com",
+                "www.premiershiprugby.com",
+                "www.rugby-league.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/4d78937c-ed6f-4450-9987-a43e8fd6bd03\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "63c3a5cacb2086b0653f20c123fb20fd8ab103fb8b900e1d099b99e69c7fa519"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ascot.com",
+                "www.ascot.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/9aef114d-8426-4c51-a84f-39d3af76b92f\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b3aa00df95213ee63a862b3374b1df0b453b27bd8515c97c82c4e23308e35a33"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ascot.com",
+                "www.ascot.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/4c6e0632-9115-486c-b4bf-a4419fdf4b57\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2f8c806cd99033e5d16a7541a7a6b0cbb48fdeb2ea8cc4ff0ada9aea31b2046f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ascot.com",
+                "www.epcrugby.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/icdt\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "icdt"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "264a74dfeec2860dcc398c4993f8a03189762c2621da562e2389aad29bda5f4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cortex_device_id": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                },
+                "cortex_last_session": {
+                    "ttl": 31536000,
+                    "length": 24,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                },
+                "cortex_session_count": {
+                    "ttl": 31536000,
+                    "length": 1,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ascot.com",
+                "www.epcrugby.com",
+                "www.leedsunited.com",
+                "www.premiershiprugby.com",
+                "www.unitedrugby.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/categories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "574aaa57ee771a3cfbfd07e8377e9f748ec2ed904c7c09e9ad98e4e5b006a48b",
+                "04bf6e566d8b23bb3c30c2ac81353d5d0df35383da8117d7105b6360a1cb5141",
+                "deab3a6e653a75f32cad60c1767ce8b9a1aec428782b8263030ebd396c356da9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ascot.com",
+                "www.ascot.com",
+                "www.premiershiprugby.com",
+                "www.unitedrugby.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/slug\\/global-notice",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ascot.com",
+                "www.ascot.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/a7c94258-83f8-4ed7-ac78-0b1acd6d6e90",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5d507817e82e9cd4e2978063bff00e8d80e2022b0751778221e3bc9c211d6f30"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cpfc.co.uk",
+                "www.cpfc.co.uk"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v1\\/PALACEFC\\/campaigns\\/summary",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "promoblocks-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ddeb715615fd14de685e12addd4164980fb933df65c0d06ba6f8c3d7f0de713f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cpfc.co.uk",
+                "www.cpfc.co.uk"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b5d096d5745c4d0cfc94a1f438139947b862a9a7aa77caf95e45ce97076cdb75"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cpfc.co.uk",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/23610a1b-1c2e-4d2a-8fe4-ac2f8e400632\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "35910f1943fad07ca0c47aaafd7a0e4f3197e02375e595c9388a1957ae063b80"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/a0794097-0e09-42bb-99fe-c0cf42ab9098\\/localizations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ae138bfdb167d808a36057e5c03acc541ad32936691ded51d18bbfed6debd403"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/b556c38e-cf5e-407d-a8dc-37cb39993899\\/localizations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "16134beb753ed1b3a3262896fe6b063e2a1a386b151e0a3de3e36e04d3375333"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/37e253eb-e46c-402b-8b54-56cd5d0a0ae4\\/localizations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a9af557d29d96988a79db66f238d044182b6b866b16dd5359e89ee27abb56c7d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/52c57e08-41ae-4f05-b9c9-3ad5a05c624a\\/localizations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "16134beb753ed1b3a3262896fe6b063e2a1a386b151e0a3de3e36e04d3375333"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/f9e5eeda-75fc-495e-ad1f-1c51200a2158\\/localizations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cb0071e20cd23dfb9fb2ad9395adae1ba630e4d51fa2b4ea1db2c60bbeee39de"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/678e8b47-538f-48ec-8177-732a8332170c\\/localizations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "81ded99b20aa789a67c21430fba0762910d92c1ed4997dc7aff0dbd72a6e2fe4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/8dc6f117-50cd-4a0e-b5dd-800584504bb5\\/localizations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0d7c599238d9c992601f9ae215bc1289a531da91d68193ea9096887ed2cc7d55"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/88b2a428-c1a0-4d63-bb66-4468704ae9d5\\/localizations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "785a8291212a1cf8814fdedef2f62445c1cad72ae733b21f181ecc446241e909"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles\\/7762cfca-6229-44e3-83d5-0e8a6479e8c6\\/localizations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a530de9c96e41def8194abacf4f631c26449d5314cf91bbcb7388f35a2d40e42"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euroleaguebasketball.net",
+                "www.euroleaguebasketball.net"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/js\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "forms"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "d26e1328f68f71523a89dd84703bce84e6aae9050462869c5c79f0643507c123"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mlssoccer.com",
+                "www.premiershiprugby.com",
+                "www.rugby-league.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v2\\/articles",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "article-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6c3b60328192a0e65fcea19f85cc48892a4d065e18c110028a1094a8ca3a0c7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unitedrugby.com",
+                "www.unitedrugby.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v1\\/PRO14\\/campaigns\\/content",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "promoblocks-cms-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4449cb03352f7464d99eb76b5bb347d44292d2a656ec9ff6b36799a72023c53b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unitedrugby.com",
+                "www.unitedrugby.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v1\\/PRO14\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ctr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unitedrugby.com",
+                "www.unitedrugby.com"
+            ]
+        },
+        {
+            "rule": "incrowdsports\\.com\\/v1\\/PRO14\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ctr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0e529e975cb8e88d958f8587a59faa89c289294e2e42358a6336f29b1da944a3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unitedrugby.com",
+                "www.unitedrugby.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9885386819484241
+        },
+        {
+            "domain": "cookiepro.com",
+            "prevalence": 0.0057306590257879654
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.0057306590257879654
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Image": 8,
+        "Fetch": 12,
+        "XHR": 24,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1741.awsdns-25.co.uk",
+        "ns-1049.awsdns-03.org",
+        "ns-669.awsdns-19.net",
+        "ns-102.awsdns-12.com"
+    ]
+}

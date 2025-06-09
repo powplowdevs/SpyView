@@ -1,0 +1,218 @@
+{
+    "domain": "us-central1.run.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000177,
+    "sites": 25,
+    "subdomains": [
+        "gtm-discoveryplus-prod-46148028384",
+        "server-side-tagging-467905025565",
+        "server-side-tagging-420773280787",
+        "server-side-tagging-preview-569675240778",
+        "chedraui-gtm-ss-878782491714",
+        "spypoint-gtm-server-side-663874413345",
+        "snapchateventhandler-738225215566",
+        "main-api-276474891420"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "us-central1\\.run\\.app\\/g\\/collect",
+            "cookies": 0.0000495,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm-discoveryplus-prod-46148028384",
+                "server-side-tagging-467905025565",
+                "server-side-tagging-420773280787",
+                "server-side-tagging-preview-569675240778",
+                "chedraui-gtm-ss-878782491714",
+                "spypoint-gtm-server-side-663874413345"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "b3b11ff5330be468a8ae0fb7e7e368a3aef64cbee0f163e26b28a045da28d23b",
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c",
+                "225dc1a1fc0298bae596997959a76331a92cedfae8d2fc92eec36a43a31a17ef",
+                "2a62e77217bb948f9fd47beec69855aa6563840fb1bd53eabb935505ba3fe115"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0000636600271616116
+            },
+            "exampleSites": [
+                "discoveryplus.com",
+                "auth.discoveryplus.com",
+                "cars.com",
+                "gatherer.wizards.com",
+                "help.discoveryplus.com",
+                "support.discoveryplus.com",
+                "www.aveva.com",
+                "www.chedraui.com.mx",
+                "www.discoveryplus.com",
+                "www.spypoint.com"
+            ]
+        },
+        {
+            "rule": "us-central1\\.run\\.app\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm-discoveryplus-prod-46148028384",
+                "server-side-tagging-467905025565",
+                "server-side-tagging-420773280787",
+                "server-side-tagging-preview-569675240778",
+                "chedraui-gtm-ss-878782491714",
+                "spypoint-gtm-server-side-663874413345"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "d36b373b44b77f016e4b7df913ba2da2a8025456f016bc794861f210c0e3ada3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "auth.discoveryplus.com",
+                "cars.com",
+                "gatherer.wizards.com",
+                "www.aveva.com",
+                "www.chedraui.com.mx",
+                "www.discoveryplus.com",
+                "www.spypoint.com"
+            ]
+        },
+        {
+            "rule": "us-central1\\.run\\.app\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snapchateventhandler-738225215566"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "longhornsteakhouse.com",
+                "www.cheddars.com",
+                "www.longhornsteakhouse.com",
+                "www.olivegarden.com",
+                "www.yardhouse.com"
+            ]
+        },
+        {
+            "rule": "us-central1\\.run\\.app\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snapchateventhandler-738225215566"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "c7269e28731b3ec3c1744cc50b100cf845357104216dd17267e30efef2c05f92",
+                "d84f2c3c738b4a5e8b94d0b6a4706f111c95418ab6917565859e1451ab1b27a9",
+                "53c593c96e7eadeb3d2101532320fb3ceda2ee2725fbcf6a23accb35f3a39288",
+                "7870506dc32adbd9fc66d50404f681f84b9424d7a974c152c51e1101345e0ceb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "longhornsteakhouse.com",
+                "www.cheddars.com",
+                "www.longhornsteakhouse.com",
+                "www.olivegarden.com",
+                "www.yardhouse.com"
+            ]
+        },
+        {
+            "rule": "us-central1\\.run\\.app\\/tracking-numbers\\/swapTarget",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "main-api-276474891420"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "942ef85aca7de3fec030c174431cf475d84353ff276f1379821e983891be99cd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amli.com",
+                "www.greystar.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5263157894736842
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "feroot.com",
+            "prevalence": 0.07894736842105263
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "myfiona.com",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "prismic.io",
+            "prevalence": 0.02631578947368421
+        },
+        {
+            "domain": "cirv-ui.web.app",
+            "prevalence": 0.02631578947368421
+        },
+        {
+            "domain": "d3oty47m4rtfus.cloudfront.net",
+            "prevalence": 0.02631578947368421
+        }
+    ],
+    "types": {
+        "Fetch": 12,
+        "Document": 8,
+        "Preflight": 5,
+        "XHR": 5
+    },
+    "nameservers": []
+}

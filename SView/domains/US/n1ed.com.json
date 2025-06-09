@@ -1,0 +1,102 @@
+{
+    "domain": "n1ed.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "data"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "n1ed\\.com\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "f98d44253e00a1151af6e41a8c37a550b8ebee3af3361d0dee0178c108130d7a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azstateparks.com",
+                "www.marinwater.org",
+                "www.outerbanks.com"
+            ]
+        },
+        {
+            "rule": "n1ed\\.com\\/in\\/post",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azstateparks.com",
+                "www.marinwater.org",
+                "www.outerbanks.com"
+            ]
+        },
+        {
+            "rule": "n1ed\\.com\\/in\\/post",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "3b09d14bece38f9118cf6b2bd12d6e5ed5c92f7bb7cd5e0fa5862ec9cba14dad"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azstateparks.com",
+                "www.marinwater.org",
+                "www.outerbanks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "maria.ns.cloudflare.com",
+        "nolan.ns.cloudflare.com"
+    ]
+}

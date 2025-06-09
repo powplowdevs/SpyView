@@ -1,0 +1,95 @@
+{
+    "domain": "server-side-tagging-t7h4rmmdlq-uc.a.run.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "server-side-tagging-t7h4rmmdlq-uc\\.a\\.run\\.app\\/g\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "39e4ef2e054f27d2a0e36b8af389f294cd553d742c81683b3436047448ffb1f4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00004244001810774106,
+                "IR_gbd": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "airliftcompany.com",
+                "www.airliftcompany.com"
+            ]
+        },
+        {
+            "rule": "server-side-tagging-t7h4rmmdlq-uc\\.a\\.run\\.app\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "airliftcompany.com",
+                "www.airliftcompany.com"
+            ]
+        },
+        {
+            "rule": "server-side-tagging-t7h4rmmdlq-uc\\.a\\.run\\.app\\/_set_cookie",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airliftcompany.com",
+                "www.airliftcompany.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

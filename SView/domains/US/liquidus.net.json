@@ -1,0 +1,79 @@
+{
+    "domain": "liquidus.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "platform"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "liquidus\\.net\\/slplatform\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f635d3576db7e9a7c55b5911824e3bd99c0112ebf0d67b36b8e56087482bcab7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "publix.com",
+                "weeklyad.publix.com"
+            ]
+        },
+        {
+            "rule": "liquidus\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "publix.com",
+                "weeklyad.publix.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "publixcdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "a1-210.akam.net",
+        "a20-67.akam.net"
+    ]
+}

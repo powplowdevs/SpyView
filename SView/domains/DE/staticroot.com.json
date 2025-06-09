@@ -1,0 +1,84 @@
+{
+    "domain": "staticroot.com",
+    "owner": {
+        "name": "Bravonext S.A.",
+        "displayName": "Bravonext"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "staticroot\\.com\\/lmn-assets-ui\\/4\\/fonts\\/styles\\/open-sans\\.css",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lastminute.de",
+                "www.weg.de"
+            ]
+        },
+        {
+            "rule": "staticroot\\.com\\/cookie-consent-manager-ui\\/3\\/cookie-consent-manager\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "12670c22db8cb91d7d624aac54ad6263d7f4dcfd7c6e3e71cdc42126236941a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lastminute.de",
+                "www.weg.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "wayndata.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-43.awsdns-05.com",
+        "ns-928.awsdns-52.net",
+        "ns-1219.awsdns-24.org",
+        "ns-1816.awsdns-35.co.uk"
+    ]
+}

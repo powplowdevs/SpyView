@@ -1,0 +1,326 @@
+{
+    "domain": "adjust.com",
+    "owner": {
+        "name": "AppLovin Corporation",
+        "displayName": "AppLovin"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000255,
+    "sites": 36,
+    "subdomains": [
+        "cdn",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adjust\\.com\\/adjust-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 10,
+                "window.indexedDB": 9,
+                "Navigator.prototype.platform": 9,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.onLine": 8
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "bccf146cba052c5f6bfc56e63f65f21243e01e4da8bb816f759b3d452ee13df8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galatea.com",
+                "hindi.astroyogi.com",
+                "m.tapas.io",
+                "pinkvideochat.com",
+                "rabbitvideochat.com",
+                "tapas.io",
+                "www.astroyogi.com",
+                "www.ferryscanner.com",
+                "www.getnomad.app",
+                "www.pharmacy2u.co.uk"
+            ]
+        },
+        {
+            "rule": "adjust\\.com\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "2532e963fc7f6d27f4db691b0109923d2439d43689d1035e647b5a8be44d15ad",
+                "9dc3b54f0ef17f3c460de9f556e24032678509a846cc3892aad58ffa12a3e18a",
+                "7d41c96b3afa1f30b821fd82a3143df9c9e3187b2860dac86005c8d36b2fdf90",
+                "32e6d17674112eb29b56f8ba81bfcd6c40491644b2aea4492d0bd45b014ed564",
+                "5104072617191ad2d1559379cca4dd0e5942f1861fc910ee4fdbeaa84f3a051c",
+                "db83696316fef65d41a7579ba2e1f36fd14daa64ead54fba408100837add2856",
+                "e3078c176c8e3aba81fec0995a048a40e3a0da0832c796c5c65f9410740c94dc",
+                "6370ed5aa1182ee208c1fd869ff92f5344afaa3ebcf5bec028f923281b739fce",
+                "0eca434c847dd9b9b5a5449065f6fe253e5c7e96f1095d0abd851dfff9cbfca8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galatea.com",
+                "m.tapas.io",
+                "mypikpak.com",
+                "pinkvideochat.com",
+                "rabbitvideochat.com",
+                "soulove.ai",
+                "support.traderepublic.com",
+                "tapas.io",
+                "www.astroyogi.com",
+                "www.busuu.com",
+                "www.ferryscanner.com",
+                "www.getnomad.app"
+            ]
+        },
+        {
+            "rule": "adjust\\.com\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galatea.com",
+                "m.tapas.io",
+                "mypikpak.com",
+                "pinkvideochat.com",
+                "rabbitvideochat.com",
+                "soulove.ai",
+                "support.traderepublic.com",
+                "tapas.io",
+                "www.astroyogi.com",
+                "www.busuu.com",
+                "www.ferryscanner.com",
+                "www.getnomad.app"
+            ]
+        },
+        {
+            "rule": "adjust\\.com\\/attribution",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "fb652e1d747b8d1b1894e0af7851fe103f85cb8e3f8d057c312f17028207e610",
+                "d510511029aef0f760ab75fe607928efe7df200890dd53f1e5a430a8deb7009e",
+                "38d0e3997b25139264c791707b1c2b84359a4b6c777d5c82767c8dff9871208f",
+                "8c76a9356719f9f448193a9e01df277ee2be594d8a651362149f559908a3a24e",
+                "7103dacc700001f2b4ba05947c05d3ec87589c33830b1bce2b966c5f6d2fce4a",
+                "adbd8e832a1d04369817bbc2255f89175547cf31a95909872afbc41afabd63ed",
+                "2d13b7ca7a9e3a5886cf6352700d9c768b8cda8db687c3613c022309b1777c6f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galatea.com",
+                "mypikpak.com",
+                "pinkvideochat.com",
+                "rabbitvideochat.com",
+                "soulove.ai",
+                "support.traderepublic.com",
+                "tapas.io",
+                "www.astroyogi.com",
+                "www.busuu.com",
+                "www.ferryscanner.com",
+                "www.getnomad.app"
+            ]
+        },
+        {
+            "rule": "adjust\\.com\\/attribution",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galatea.com",
+                "mypikpak.com",
+                "rabbitvideochat.com",
+                "soulove.ai",
+                "support.traderepublic.com",
+                "tapas.io",
+                "www.astroyogi.com",
+                "www.busuu.com",
+                "www.ferryscanner.com",
+                "www.getnomad.app"
+            ]
+        },
+        {
+            "rule": "adjust\\.com\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ce395f5ce49cd69c3d906288c7094d63e170bcaebc30404560cb7f570c242765"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tapas.io",
+                "soulove.ai"
+            ]
+        },
+        {
+            "rule": "adjust\\.com\\/attribution",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pinkvideochat.com",
+                "www.astroyogi.com"
+            ]
+        },
+        {
+            "rule": "adjust\\.com\\/adjust-smart-banner-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.platform": 4,
+                "Navigator.prototype.maxTouchPoints": 4
+            },
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "17d89a8cd86689fc7e074ee89fdd35c434431ced4e03810a79b66f34466a9f6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astroyogi.com",
+                "www.astroyogi.com",
+                "www.obilet.com",
+                "www.olx.com.br",
+                "www.ornikar.com",
+                "www.sncf-connect.com",
+                "www.swanbitcoin.com",
+                "www.vivareal.com.br",
+                "www.zapimoveis.com.br"
+            ]
+        },
+        {
+            "rule": "adjust\\.com\\/adjust-5\\.0\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "window.indexedDB": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.onLine": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "busuu.com",
+                "www.busuu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8051948051948052
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.19480519480519481
+        }
+    ],
+    "types": {
+        "Script": 21,
+        "XHR": 25,
+        "Preflight": 22,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns01.adjust.works",
+        "dns3.p09.nsone.net",
+        "ns04.adjust.works",
+        "ns03.adjust.works",
+        "dns4.p09.nsone.net",
+        "ns02.adjust.works",
+        "dns1.p09.nsone.net",
+        "dns2.p09.nsone.net"
+    ]
+}

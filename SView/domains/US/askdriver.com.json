@@ -1,0 +1,105 @@
+{
+    "domain": "askdriver.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "askdriver\\.com\\/public\\/js\\/e7887fcbe50_7f5740953f1c3\\.index\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "CookieStore.prototype.getAll": 1,
+                "CookieStore.prototype.set": 1,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "09b8196dc6d564bf512cb20b37835f77be3a17cbc6e4bfd8e01d1019a852c996"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickr.com",
+                "www.flickr.com"
+            ]
+        },
+        {
+            "rule": "askdriver\\.com\\/submit\\/nmse4gy26j1jrrq_xvmsqdbzj",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fff9bee98f5b10b250b3b803ed885054b5a76b1c258ee5c3cf1ea726d318bce6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickr.com",
+                "www.flickr.com"
+            ]
+        },
+        {
+            "rule": "askdriver\\.com\\/nn36jufv281d1hx_hlgkibyzz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "33c70c297b1a729f965a6aca60b7b3bb7a3b06bd13efe07698516fa98ac8b9f9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickr.com",
+                "www.flickr.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "staticflickr.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-164.awsdns-20.com",
+        "ns-985.awsdns-59.net",
+        "ns-1907.awsdns-46.co.uk",
+        "ns-1311.awsdns-35.org"
+    ]
+}

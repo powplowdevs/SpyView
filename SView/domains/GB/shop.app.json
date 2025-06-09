@@ -1,0 +1,125 @@
+{
+    "domain": "shop.app",
+    "owner": {
+        "name": "Shopify Inc.",
+        "displayName": "Shopify",
+        "privacyPolicy": "https://www.shopify.com/legal/privacy",
+        "url": "http://shopify.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00763,
+    "sites": 74,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "shop\\.app\\/checkouts\\/internal\\/preloads\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 74,
+            "prevalence": 0.00763,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triumphdirect.co.uk",
+                "uk.tilley.com",
+                "www.davidaustinroses.co.uk",
+                "jaycotts.co.uk",
+                "tmlewin.co.uk",
+                "www.aeropress.co.uk",
+                "haynes.com",
+                "www.huntbikewheels.com",
+                "bluettipower.co.uk",
+                "www.thebodyshop.com",
+                "omaze.co.uk",
+                "peco-uk.com",
+                "shop.stihl.co.uk",
+                "www.kettler.co.uk",
+                "www.wiperblades.co.uk",
+                "timex.co.uk",
+                "thefoldline.com",
+                "www.fabricsgalore.co.uk",
+                "analoguewonderland.co.uk",
+                "tradewarehouse.co.uk"
+            ]
+        },
+        {
+            "rule": "shop\\.app\\/pay\\/session",
+            "cookies": 0.00763,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 74,
+            "prevalence": 0.00763,
+            "cnames": [],
+            "responseHashes": [
+                "9b5179ea2a77fe69b294fbd2ed504eacbfbe048ede58967b43af2ca537144b1f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.lay-z-spa.co.uk",
+                "timex.co.uk",
+                "www.mobilityworld.co.uk",
+                "ligo.co.uk",
+                "haynes.com",
+                "jeanstore.co.uk",
+                "www.glynhopkinpartsonline.co.uk",
+                "tradewarehouse.co.uk",
+                "en-uk.ring.com",
+                "www.easygardenirrigation.co.uk",
+                "sussex-model-centre.co.uk",
+                "ring.com",
+                "www.worldofbooks.com",
+                "nothing.tech",
+                "www.primrosekitten.com",
+                "www.uk-water-filters.co.uk",
+                "nextdaypaint.co.uk",
+                "thefoldline.com",
+                "www.keenfootwear.co.uk",
+                "startfitness.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00763,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9664429530201343
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.020134228187919462
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.006711409395973154
+        },
+        {
+            "domain": "visually-io.com",
+            "prevalence": 0.006711409395973154
+        }
+    ],
+    "types": {
+        "Script": 74,
+        "Fetch": 74
+    },
+    "nameservers": [
+        "blue.foundationdns.com",
+        "blue.foundationdns.net",
+        "blue.foundationdns.org"
+    ]
+}

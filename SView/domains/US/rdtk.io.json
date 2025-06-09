@@ -1,0 +1,172 @@
+{
+    "domain": "rdtk.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "hnbow",
+        "mkcb4",
+        "cevkn"
+    ],
+    "cnames": [
+        {
+            "original": "redtrack.vidaselect.com",
+            "resolved": "cevkn.rdtk.io"
+        },
+        {
+            "original": "track.hukitchen.com",
+            "resolved": "hnbow.rdtk.io"
+        },
+        {
+            "original": "tracking.silverfernbrand.com",
+            "resolved": "mkcb4.rdtk.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rdtk\\.io\\/uniclick\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hnbow",
+                "mkcb4",
+                "cevkn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "track.hukitchen.com",
+                    "resolved": "hnbow.rdtk.io"
+                },
+                {
+                    "original": "tracking.silverfernbrand.com",
+                    "resolved": "mkcb4.rdtk.io"
+                },
+                {
+                    "original": "redtrack.vidaselect.com",
+                    "resolved": "cevkn.rdtk.io"
+                }
+            ],
+            "responseHashes": [
+                "60cae2c04d4f7df5fc1b784d458ba58d2852b9f7cf4c5d3fc5b7c1a387820eeb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hukitchen.com",
+                "www.silverfernbrand.com",
+                "www.vidaselect.com"
+            ]
+        },
+        {
+            "rule": "rdtk\\.io\\/events\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hnbow",
+                "mkcb4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "track.hukitchen.com",
+                    "resolved": "hnbow.rdtk.io"
+                },
+                {
+                    "original": "tracking.silverfernbrand.com",
+                    "resolved": "mkcb4.rdtk.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hukitchen.com",
+                "www.silverfernbrand.com"
+            ]
+        },
+        {
+            "rule": "rdtk\\.io\\/66143e8b84f93b0001c225ac",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cevkn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "redtrack.vidaselect.com",
+                    "resolved": "cevkn.rdtk.io"
+                }
+            ],
+            "responseHashes": [
+                "3ad7d4b7891845f3f450a45ec0de61ebeef48b5838b4dcb21279145495289a61"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidaselect.com",
+                "www.vidaselect.com"
+            ]
+        },
+        {
+            "rule": "rdtk\\.io\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cevkn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "redtrack.vidaselect.com",
+                    "resolved": "cevkn.rdtk.io"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidaselect.com",
+                "www.vidaselect.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-732.awsdns-27.net",
+        "ns-1452.awsdns-53.org",
+        "ns-1870.awsdns-41.co.uk",
+        "ns-239.awsdns-29.com"
+    ]
+}

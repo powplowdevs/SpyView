@@ -1,0 +1,81 @@
+{
+    "domain": "tranquilveil.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tranquilveil\\.com\\/public\\/f58052423c156e\\/ffc8bf7a0a959f73a59ab2-prod\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "CookieStore.prototype.getAll": 2,
+                "CookieStore.prototype.set": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8478422205a8efa2e1e15d674ac6ee21cffa51a7f142a70c20635730e68d5011"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "gem.cbc.ca"
+            ]
+        },
+        {
+            "rule": "tranquilveil\\.com\\/send\\/lg5nbdqm\\/vavb3m3d4nlelo9eaug9p3122qxzjq9dq",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dc882d7fb454dd746004708ae4e464e2bd849a96c6828705407ed37c03223c80"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "gem.cbc.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-284.awsdns-35.com",
+        "ns-1118.awsdns-11.org",
+        "ns-1972.awsdns-54.co.uk",
+        "ns-615.awsdns-12.net"
+    ]
+}

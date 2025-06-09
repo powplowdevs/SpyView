@@ -1,0 +1,425 @@
+{
+    "domain": "ax-msedge.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000297,
+    "sites": 42,
+    "subdomains": [
+        "c-bing-com.ax-0001",
+        "bat-bing-com.ax-0001",
+        "bat-bing-net.ax-0001"
+    ],
+    "cnames": [
+        {
+            "original": "bat.bing.com",
+            "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+        },
+        {
+            "original": "bat.bing.net",
+            "resolved": "bat-bing-net.ax-0001.ax-msedge.net"
+        },
+        {
+            "original": "c.bing.com",
+            "resolved": "c-bing-com.ax-0001.ax-msedge.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ax-msedge\\.net\\/c\\.gif",
+            "cookies": 0.000184,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c-bing-com.ax-0001"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000184,
+            "cnames": [
+                {
+                    "original": "c.bing.com",
+                    "resolved": "c-bing-com.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e",
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "bing.com",
+                "www.linkedin.com",
+                "www.microsoft.com",
+                "www.msn.com",
+                "azure.microsoft.com",
+                "www.nuance.com",
+                "microsoftstart.msn.com",
+                "blogs.microsoft.com",
+                "mileiq.com",
+                "news.xbox.com",
+                "forms.office.com",
+                "dotnet.microsoft.com",
+                "copilot.microsoft.com",
+                "learn.microsoft.com",
+                "community.fabric.microsoft.com",
+                "ie.linkedin.com",
+                "cr.linkedin.com",
+                "news.microsoft.com",
+                "business.linkedin.com"
+            ]
+        },
+        {
+            "rule": "ax-msedge\\.net\\/bat\\.js",
+            "cookies": 0.0000424,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bat-bing-com.ax-0001"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [
+                {
+                    "original": "bat.bing.com",
+                    "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "c4e400da2b9e9a111a08457d1de07c9280c7233e4a305b967da320564a83eb0f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_uetsid": {
+                    "ttl": 86407,
+                    "length": 39,
+                    "prevalence": 0.00004244001810774106,
+                    "uniqueness": 1
+                },
+                "_uetvid": {
+                    "ttl": 33696007,
+                    "length": 41,
+                    "prevalence": 0.00004244001810774106,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "developer.microsoft.com",
+                "download.microsoft.com",
+                "mileiq.com",
+                "news.microsoft.com",
+                "www.hotmail.com",
+                "www.microsoft.com",
+                "www.nuance.com"
+            ]
+        },
+        {
+            "rule": "ax-msedge\\.net\\/p\\/action\\/4000034\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bat-bing-com.ax-0001"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "bat.bing.com",
+                    "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "fead6665b55ac6a401e37f957d0626767698456cdaa405bae41ec0e0a311d930"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "download.microsoft.com",
+                "www.hotmail.com",
+                "www.microsoft.com"
+            ]
+        },
+        {
+            "rule": "ax-msedge\\.net\\/actionp\\/0",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bat-bing-com.ax-0001",
+                "bat-bing-net.ax-0001"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "bat.bing.com",
+                    "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+                },
+                {
+                    "original": "bat.bing.net",
+                    "resolved": "bat-bing-net.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_uetvid": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "microsoft.com",
+                "developer.microsoft.com",
+                "download.microsoft.com",
+                "www.hotmail.com",
+                "www.microsoft.com"
+            ]
+        },
+        {
+            "rule": "ax-msedge\\.net\\/p\\/insights\\/t\\/4000034",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bat-bing-com.ax-0001"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "bat.bing.com",
+                    "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "51d9fa53ae3ae589b4b428b24ee41ac14e414c0ccb0064ea555734f8e0b62dce",
+                "24e75204e5006a4f84d64651655b84363889727fdbd333797d3acb5d67acf690"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "download.microsoft.com",
+                "www.hotmail.com",
+                "www.microsoft.com"
+            ]
+        },
+        {
+            "rule": "ax-msedge\\.net\\/action\\/0",
+            "cookies": 0.0000566,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bat-bing-com.ax-0001"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [
+                {
+                    "original": "bat.bing.com",
+                    "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_uetsid": 0.000028293345405160706,
+                "_uetvid": 0.00003536668175645088
+            },
+            "exampleSites": [
+                "microsoft.com",
+                "developer.microsoft.com",
+                "download.microsoft.com",
+                "mileiq.com",
+                "news.microsoft.com",
+                "www.hotmail.com",
+                "www.microsoft.com",
+                "www.nuance.com"
+            ]
+        },
+        {
+            "rule": "ax-msedge\\.net\\/p\\/insights\\/s\\/0\\.8\\.9",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bat-bing-com.ax-0001"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "bat.bing.com",
+                    "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "5ee595f7883fa8ac5ac404e3fa2cf2fc2169616ebfd8c36f63f574c043fb696c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "download.microsoft.com",
+                "www.hotmail.com",
+                "www.microsoft.com"
+            ]
+        },
+        {
+            "rule": "ax-msedge\\.net\\/p\\/insights\\/c\\/j",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bat-bing-com.ax-0001"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "bat.bing.com",
+                    "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "2bbaad41ce4cfbc40e3c3433c68ecb2a97148a80b06f0465642a43e6f3a52e27",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "download.microsoft.com",
+                "www.hotmail.com",
+                "www.microsoft.com"
+            ]
+        },
+        {
+            "rule": "ax-msedge\\.net\\/p\\/action\\/149014572\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bat-bing-com.ax-0001"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "bat.bing.com",
+                    "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "d851b7a65ccbfec39f19caa626b6a76ddabfec33bdbd681e6692b7686a65ac95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "www.microsoft.com"
+            ]
+        },
+        {
+            "rule": "ax-msedge\\.net\\/p\\/action\\/355022723\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bat-bing-com.ax-0001"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "bat.bing.com",
+                    "resolved": "bat-bing-com.ax-0001.ax-msedge.net"
+                }
+            ],
+            "responseHashes": [
+                "76bd56bcb64593c3820f411de7682b69038f4797c520acb5c7793ef693390399"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "news.microsoft.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000297,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "clarity.ms",
+            "prevalence": 0.25333333333333335
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.09333333333333334
+        },
+        {
+            "domain": "demdex.net",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.05333333333333334
+        },
+        {
+            "domain": "msn.com",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.02666666666666667
+        },
+        {
+            "domain": "azurefd.net",
+            "prevalence": 0.02666666666666667
+        },
+        {
+            "domain": "office.net",
+            "prevalence": 0.02666666666666667
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.02666666666666667
+        }
+    ],
+    "types": {
+        "Image": 34,
+        "Script": 24,
+        "Ping": 5,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns2.ax-msedge.net",
+        "ns1.ax-msedge.net",
+        "ns4.ax-msedge.net",
+        "ns3.ax-msedge.net"
+    ]
+}

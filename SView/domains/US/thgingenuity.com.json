@@ -1,0 +1,132 @@
+{
+    "domain": "thgingenuity.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "speedo-us.horizon",
+        "berghaus-gb.horizon",
+        "matalan-gb.horizon"
+    ],
+    "cnames": [
+        {
+            "original": "horizon-api.us.speedo.com",
+            "resolved": "speedo-us.horizon.thgingenuity.com"
+        },
+        {
+            "original": "horizon-api.www.berghaus.com",
+            "resolved": "berghaus-gb.horizon.thgingenuity.com"
+        },
+        {
+            "original": "horizon-api.www.matalan.co.uk",
+            "resolved": "matalan-gb.horizon.thgingenuity.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "thgingenuity\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "speedo-us.horizon",
+                "berghaus-gb.horizon",
+                "matalan-gb.horizon"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "horizon-api.us.speedo.com",
+                    "resolved": "speedo-us.horizon.thgingenuity.com"
+                },
+                {
+                    "original": "horizon-api.www.berghaus.com",
+                    "resolved": "berghaus-gb.horizon.thgingenuity.com"
+                },
+                {
+                    "original": "horizon-api.www.matalan.co.uk",
+                    "resolved": "matalan-gb.horizon.thgingenuity.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "speedo.com",
+                "us.speedo.com",
+                "www.berghaus.com",
+                "www.matalan.co.uk"
+            ]
+        },
+        {
+            "rule": "thgingenuity\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "speedo-us.horizon",
+                "berghaus-gb.horizon",
+                "matalan-gb.horizon"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "horizon-api.us.speedo.com",
+                    "resolved": "speedo-us.horizon.thgingenuity.com"
+                },
+                {
+                    "original": "horizon-api.www.berghaus.com",
+                    "resolved": "berghaus-gb.horizon.thgingenuity.com"
+                },
+                {
+                    "original": "horizon-api.www.matalan.co.uk",
+                    "resolved": "matalan-gb.horizon.thgingenuity.com"
+                }
+            ],
+            "responseHashes": [
+                "28c8ec2b53c42334cd14391ce383faa73fec605c392ee436b7a1fc222239ea28",
+                "19328323857495a66bac96a68b2b2e0079e018c94aa7be22b940d7bbff39fded",
+                "2408ba0f510d2bd5a9a3ac31826c4856b90ab4a36b5bb721ffe14136cf61474e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "speedo.com",
+                "us.speedo.com",
+                "www.berghaus.com",
+                "www.matalan.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "thcdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dns1.p05.nsone.net",
+        "dns2.p05.nsone.net",
+        "dns3.p05.nsone.net",
+        "dns4.p05.nsone.net",
+        "ns01.thg-ns.net",
+        "ns02.thg-ns.net",
+        "ns03.thg-ns.net",
+        "ns04.thg-ns.net"
+    ]
+}

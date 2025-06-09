@@ -1,0 +1,340 @@
+{
+    "domain": "linkedin.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.0132,
+    "sites": 129,
+    "subdomains": [
+        "px.ads",
+        "platform",
+        "dc.ads",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "linkedin\\.com\\/attribution_trigger",
+            "cookies": 0.0112,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px.ads"
+            ],
+            "apis": {},
+            "sites": 110,
+            "prevalence": 0.0113,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00020470829068577277
+            },
+            "exampleSites": [
+                "community.spiceworks.com",
+                "techcrunch.com",
+                "www.politico.com",
+                "replit.com",
+                "webflow.com",
+                "www.challenges.fr",
+                "www.preventionbtp.fr",
+                "data.worldbank.org",
+                "www.vice.com",
+                "datascientest.com",
+                "www.afp.com",
+                "www.sram.com",
+                "www.hec.edu",
+                "www.metmuseum.org",
+                "www.editions-ellipses.fr",
+                "www.lalettre.fr",
+                "www.mollat.com",
+                "poiscaille.fr",
+                "www.cfdt.fr",
+                "docs.gitlab.com"
+            ]
+        },
+        {
+            "rule": "linkedin\\.com\\/collect",
+            "cookies": 0.0111,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px.ads"
+            ],
+            "apis": {},
+            "sites": 110,
+            "prevalence": 0.0113,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00020470829068577277
+            },
+            "exampleSites": [
+                "community.spiceworks.com",
+                "techcrunch.com",
+                "www.politico.com",
+                "leonardo.ai",
+                "www.kia.com",
+                "depositphotos.com",
+                "www.helloasso.com",
+                "www.xe.com",
+                "www.sortlist.fr",
+                "www.librinova.com",
+                "www.mon-autoentreprise.fr",
+                "expertimpots.com",
+                "www.omnicalculator.com",
+                "portswigger.net",
+                "www.metmuseum.org",
+                "www.imf.org",
+                "gptzero.me",
+                "www.afp.com",
+                "www.sortiraparis.com",
+                "www.samsic-emploi.fr"
+            ]
+        },
+        {
+            "rule": "linkedin\\.com\\/wa\\/",
+            "cookies": 0.00348,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px.ads"
+            ],
+            "apis": {},
+            "sites": 107,
+            "prevalence": 0.011,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "community.spiceworks.com",
+                "techcrunch.com",
+                "www.politico.com",
+                "www.metmuseum.org",
+                "www.truenas.com",
+                "www.cfdt.fr",
+                "www.postman.com",
+                "www.samsic-emploi.fr",
+                "www.letudiant.fr",
+                "www.visale.fr",
+                "www.gold.fr",
+                "www.yomoni.fr",
+                "www.hec.edu",
+                "leonardo.ai",
+                "quizizz.com",
+                "www.mondialrelay.fr",
+                "depositphotos.com",
+                "www.afp.com",
+                "expertimpots.com",
+                "www.onf.fr"
+            ]
+        },
+        {
+            "rule": "linkedin\\.com\\/setuid",
+            "cookies": 0.00113,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px.ads"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00113,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audipassion.com",
+                "www.20min.ch",
+                "www.convertunits.com",
+                "www.freenews.fr",
+                "www.justacote.com",
+                "www.laculturegenerale.com",
+                "www.lecalendrier.fr",
+                "www.letemps.ch",
+                "www.lessentiel.lu",
+                "www.mathplayground.com",
+                "www.tdg.ch"
+            ]
+        },
+        {
+            "rule": "linkedin\\.com\\/in\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "window.name": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "afab410204cb17e1cb7117618b5e048d846a6446175b992c5ac409c208899db2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gostudent.org",
+                "www.vududroit.com"
+            ]
+        },
+        {
+            "rule": "linkedin\\.com\\/collect\\/",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px.ads",
+                "dc.ads"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pitchbook.com",
+                "www.chase.com",
+                "www.medecindirect.fr"
+            ]
+        },
+        {
+            "rule": "linkedin\\.com\\/li\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agencebio.org",
+                "www.agencebio.org",
+                "www.ancv.com"
+            ]
+        },
+        {
+            "rule": "linkedin\\.com\\/li\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancv.com",
+                "www.ancv.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Social - Share",
+        "Action Pixels",
+        "Embedded Content",
+        "Social Network"
+    ],
+    "performance": {},
+    "cookies": 0.0129,
+    "topInitiators": [
+        {
+            "domain": "licdn.com",
+            "prevalence": 0.7506631299734748
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16180371352785147
+        },
+        {
+            "domain": "bizible.com",
+            "prevalence": 0.015915119363395226
+        },
+        {
+            "domain": "moneytadz.com",
+            "prevalence": 0.007957559681697613
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.007957559681697613
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.005305039787798408
+        },
+        {
+            "domain": "d3e54v103j8qbb.cloudfront.net",
+            "prevalence": 0.005305039787798408
+        },
+        {
+            "domain": "relevant-digital.com",
+            "prevalence": 0.005305039787798408
+        },
+        {
+            "domain": "hackster-cdn.online",
+            "prevalence": 0.005305039787798408
+        },
+        {
+            "domain": "asadcdn.com",
+            "prevalence": 0.005305039787798408
+        }
+    ],
+    "types": {
+        "XHR": 217,
+        "Image": 124,
+        "Script": 2,
+        "Fetch": 3,
+        "Other": 2
+    },
+    "nameservers": [
+        "dns1.p09.nsone.net",
+        "dns2.p09.nsone.net",
+        "dns3.p09.nsone.net",
+        "dns4.p09.nsone.net",
+        "ns3-42.azure-dns.org",
+        "ns4-42.azure-dns.info",
+        "ns1-42.azure-dns.com",
+        "ns2-42.azure-dns.net"
+    ]
+}

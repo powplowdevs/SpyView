@@ -1,0 +1,1259 @@
+{
+    "domain": "trustpilot.com",
+    "owner": {
+        "name": "Trustpilot A/S",
+        "displayName": "Trustpilot",
+        "privacyPolicy": "https://uk.legal.trustpilot.com/end-user-privacy-terms",
+        "url": "http://trustpilot.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0124,
+    "sites": 122,
+    "subdomains": [
+        "widget",
+        "invitejs",
+        "ecommplugins-scripts",
+        "images-static",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trustpilot\\.com\\/bootstrap\\/v5\\/tp\\.widget\\.bootstrap\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 27,
+                "Navigator.prototype.language": 27,
+                "Navigator.prototype.platform": 27,
+                "window.innerHeight": 26,
+                "window.innerWidth": 6
+            },
+            "sites": 107,
+            "prevalence": 0.0109,
+            "cnames": [],
+            "responseHashes": [
+                "c69de41dda83f00cc1b13dba90a57f25df046286ecd227bdd0c4d51d94947b61"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "de.trip.com",
+                "www.bike24.com",
+                "chordify.net",
+                "www.vistaprint.de",
+                "www.exlibris.ch",
+                "www.only.com",
+                "www.perlego.com",
+                "www.muenchener-verein.de",
+                "www.advanzia.com",
+                "strauss.com",
+                "www.minitool.com",
+                "www.bitpanda.com",
+                "www.studocu.com",
+                "www.johner-institut.de",
+                "meilenoptimieren.com",
+                "www.wikinger-reisen.de",
+                "www.bedandbreakfast.eu",
+                "www.autohero.com",
+                "www.baby-walz.de",
+                "www.flatex.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/tp\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "invitejs"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00143,
+            "cnames": [],
+            "responseHashes": [
+                "9ad7d06fbb4d88d1f8bc4917087d9edbda283d5e63bf5d554a3bc7b9473fa4a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikereifen24.de",
+                "dildoking.de",
+                "ninjakitchen.de",
+                "shop.degussa-goldhandel.de",
+                "system76.com",
+                "upway.de",
+                "www.aceflex.de",
+                "www.diamantrad.com",
+                "www.geschichte-abitur.de",
+                "www.heima24.de",
+                "www.ninjakitchen.de",
+                "www.only.com",
+                "www.reisenaktuell.com",
+                "www.stiga.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5419b6a8b0d04a076446a9ad\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "402179b88fa6e0b17851d64725ec39658d804bd6cc9b8ba227e27bd3b4cca459"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikereifen24.de",
+                "chordify.net",
+                "www.edogs.de",
+                "www.ehorses.de",
+                "www.exlibris.ch",
+                "www.projektmagazin.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/53aa8912dec7e10d38f59f36\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00184,
+            "cnames": [],
+            "responseHashes": [
+                "bcc2d3042a6ce50ecc02e4a919a256c387a666da6f0593dae559cf2e1066225d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticketmaster.de",
+                "buycycle.com",
+                "skylum.com",
+                "teltec.de",
+                "upway.de",
+                "www.autoteile-markt.de",
+                "www.avira.com",
+                "www.bitpanda.com",
+                "www.cosmosdirekt.de",
+                "www.daikin.de",
+                "www.ferryhopper.com",
+                "www.kalkhoff-bikes.com",
+                "www.prusa3d.com",
+                "www.rheinenergie.com",
+                "www.scrum.org",
+                "www.shoop.de",
+                "www.urlaubsguru.de",
+                "www.wertgarantie.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/53aa8912dec7e10d38f59f36\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "0b753fa0255e153d9bfe952382fa12bc1100c35103639d7c8725d88379ec40ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticketmaster.de",
+                "www.autoteile-markt.de",
+                "www.avira.com",
+                "www.cosmosdirekt.de",
+                "www.daikin.de",
+                "www.kalkhoff-bikes.com",
+                "www.prusa3d.com",
+                "www.rheinenergie.com",
+                "www.shoop.de",
+                "www.urlaubsguru.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustbox-data\\/53aa8912dec7e10d38f59f36",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "0d97728b9653543fb9acfd5781badca02ff6ce35a13b02d313034441afd47180",
+                "a157cdcbddd8fd034838822638bf3b0d2df288bfead7b26f983e1b6a03b8adc5",
+                "0a9040f7b7e92457475ab539063979917eeec8951234c6baa8323031267e0f24",
+                "f2c1885f231cb6b3e404582dc3dca80b08af286b551afa34ad98130fcbe084e0",
+                "317fc85264f6b31d79bb8fda83efc2d37349ae8f3012f431cefc964c63b974be",
+                "d4b8e5b5ec6275d24a94946b209178d67eaa90b849d035afe7fc3def47a27872"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ticketmaster.de",
+                "www.autoteile-markt.de",
+                "www.cosmosdirekt.de",
+                "www.daikin.de",
+                "www.rheinenergie.com",
+                "www.shoop.de",
+                "www.urlaubsguru.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/stats\\/TrustboxImpression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 51,
+            "prevalence": 0.0052,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finom.co",
+                "www.only.com",
+                "www.hopkins.law",
+                "de.minitool.com",
+                "www.baby-walz.de",
+                "de.wix.com",
+                "www.finanztip.de",
+                "www.shoop.de",
+                "www.moderne-hausfrau.de",
+                "www.carwow.de",
+                "www.justanswer.de",
+                "de.trip.com",
+                "www.bike24.de",
+                "www.hausfrage.de",
+                "www.hostinger.com",
+                "www.cosmosdirekt.de",
+                "www.ashampoo.com",
+                "chordify.net",
+                "www.dslweb.de",
+                "ticketmaster.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5419b732fbfb950b10de65e5\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "f06cb49ff37e1db6c35e9d25f327a76e12682f87dc35f9acb88e7380582b4c22"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buycycle.com",
+                "upway.de",
+                "www.autohero.com",
+                "www.ccleaner.com",
+                "www.cdkeys.com",
+                "www.finanztip.de",
+                "www.instant-gaming.com",
+                "www.interhyp.de",
+                "www.landsend.de",
+                "www.novasol.de",
+                "www.rheinenergie.com",
+                "www.secretescapes.de",
+                "www.urlaubsguru.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5419b6a8b0d04a076446a9ad\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2f193d706417bcf72a130968908edcd09a192c51f4b592114ea4697ee4dfe85b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chordify.net",
+                "www.edogs.de",
+                "www.ehorses.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustbox-data\\/5419b6a8b0d04a076446a9ad",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "57da8f4870fcdeefecce321d3a69af29f41dd81b29dfd35c630cc3ca284514e4",
+                "b6eda9875a3bae41ff2ab2410675237a8154f9bbc5265fcaae63ca2dc0c3029d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chordify.net",
+                "www.edogs.de",
+                "www.ehorses.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/56278e9abfbbba0bdcd568bc\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "f833052a143ef4c0293286310a07aab262d1252648c3e8fb4984109b0f26bf82"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viessmann.de",
+                "teltec.de",
+                "www.aceflex.de",
+                "www.gunfinder.de",
+                "www.smart-home-fox.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/56278e9abfbbba0bdcd568bc\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "07ef8c30697a16a00f9d720774df0da6a82603759abe6dad1b3fcd5d726845ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viessmann.de",
+                "www.gunfinder.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustbox-data\\/56278e9abfbbba0bdcd568bc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6eefe0eefa62e13d1ed00dd85ca94412f552ff174c9d2b9112cf8ef1fe8aff25"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viessmann.de",
+                "www.gunfinder.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/54ad5defc6454f065c28af8b\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00143,
+            "cnames": [],
+            "responseHashes": [
+                "d400f289d9950cb4fbfd3f1bfa27262141d2b0227b75a2064b8bcfd6dd9d1b45"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minitool.com",
+                "spreadshirt.de",
+                "www.amplifon.com",
+                "www.bett1.de",
+                "www.carwow.de",
+                "www.flatex.de",
+                "www.finanztip.de",
+                "www.immoverkauf24.de",
+                "www.interhyp.de",
+                "www.minitool.com",
+                "www.paysafecard.com",
+                "www.spreadshirt.de",
+                "www.thetrainline.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/54ad5defc6454f065c28af8b\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "ae4c434a1b08f549c86724fa9ffd133e6e21deb557ec29aca11c4caf2d45d91b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minitool.com",
+                "spreadshirt.de",
+                "www.carwow.de",
+                "www.finanztip.de",
+                "www.immoverkauf24.de",
+                "www.interhyp.de",
+                "www.spreadshirt.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustbox-data\\/54ad5defc6454f065c28af8b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "64992386415b18c54f109d21dbf6bb39e62e97047bf7fa3acd6a005ea251da04",
+                "0a0d600aa0548d1ee8898608aabc99c2349dcdbbb5fd36b05d0fa5dce42d27a8",
+                "6177c84b7e861a8ae168320a9ba5024ffe27e709c01c056cec9aaf94c47ca3ea",
+                "ef64923cddbc81f2cdb18605a8ae677fc91b9f21f8e6263883ceedfc65e88384"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minitool.com",
+                "spreadshirt.de",
+                "www.carwow.de",
+                "www.finanztip.de",
+                "www.immoverkauf24.de",
+                "www.interhyp.de",
+                "www.spreadshirt.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/v2\\.1\\/js\\/header\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommplugins-scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "af387975c7cd7e640073efbb3fb153d3a96b67e2f479c9129e6b964f8082ad2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weareholy.com",
+                "upway.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5419b637fa0340045cd0c936\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wix.com",
+                "www.trendtours.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5419b637fa0340045cd0c936\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wix.com",
+                "www.trendtours.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5406e65db0d04a09e042d5fc\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "3d0f87950ca69d5da2f3e702d1fbca47f75aa4326a3d8247e4f0cfb6351b5fb2"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trip.com",
+                "strauss.com",
+                "www.berge-meer.de",
+                "www.bett1.de",
+                "www.daikin.de",
+                "www.landsend.de",
+                "www.rheinenergie.com",
+                "www.strauss.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5406e65db0d04a09e042d5fc\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "2d834f307040b9fda27b88c6ec0552035ab99be8f39d0be0da893e4c08b27995"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trip.com",
+                "strauss.com",
+                "www.berge-meer.de",
+                "www.daikin.de",
+                "www.landsend.de",
+                "www.rheinenergie.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustbox-data\\/5406e65db0d04a09e042d5fc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "1d982fd61c3bff00efde95f112bee27cdff982e3ed0aecc51b0d575838af964b",
+                "24b835afff810d5ee2cd3029e0a742412ea9c66518ddd58ff63ce408ffaa997b",
+                "cecdd5a80bd6268affbf212d8c76d90a6167bf6c293c709b262a6acf1463e1aa",
+                "3c6e8fa5d5d4f1cbc6f3f0b525076378c364c0113320555027bf68d4284f9fbb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trip.com",
+                "strauss.com",
+                "www.berge-meer.de",
+                "www.daikin.de",
+                "www.landsend.de",
+                "www.rheinenergie.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/stats\\/TrustboxView",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00143,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trip.com",
+                "finom.co",
+                "www.avira.com",
+                "www.ashampoo.com",
+                "www.berge-meer.de",
+                "www.finanztip.de",
+                "www.gunfinder.de",
+                "www.hausfrage.de",
+                "www.kurz-mal-weg.de",
+                "www.landsend.de",
+                "www.prusa3d.com",
+                "www.secretescapes.de",
+                "www.urlaubsguru.de",
+                "www.vonovia.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/53aa8807dec7e10d38f59f32\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.00357,
+            "cnames": [],
+            "responseHashes": [
+                "025bd93866e8fe030ce6bcc9db02d00d0dcacc0b0cbe7062f1fd5300d0aa2d62"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.parkinglist.de",
+                "www.only.com",
+                "www.lynxbroker.de",
+                "www.bett1.de",
+                "www.moderne-hausfrau.de",
+                "www.avira.com",
+                "www.minitool.com",
+                "www.justanswer.de",
+                "www.ashampoo.com",
+                "www.dslweb.de",
+                "www.meinauto.de",
+                "teltec.de",
+                "www.etoro.com",
+                "www.skr.de",
+                "www.vonovia.de",
+                "parfumdreams.de",
+                "www.bedandbreakfast.eu",
+                "www.baby-walz.de",
+                "www.hostinger.com",
+                "www.bike24.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/53aa8807dec7e10d38f59f32\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 25,
+            "prevalence": 0.00255,
+            "cnames": [],
+            "responseHashes": [
+                "0e708e31b51be69809294666801720fcd0a3f312c2238d41de63fbed2adc44f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.dslweb.de",
+                "www.btc-echo.de",
+                "www.justanswer.de",
+                "www.waschbaer.de",
+                "www.bike24.de",
+                "www.only.com",
+                "www.shoop.de",
+                "www.baby-walz.de",
+                "www.muenchener-verein.de",
+                "www.moderne-hausfrau.de",
+                "finom.co",
+                "www.hostinger.com",
+                "www.interhyp.de",
+                "www.bike24.com",
+                "www.skr.de",
+                "www.lynxbroker.de",
+                "www.kurz-mal-weg.de",
+                "parfumdreams.de",
+                "www.avira.com",
+                "www.minitool.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustbox-data\\/53aa8807dec7e10d38f59f32",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00235,
+            "cnames": [],
+            "responseHashes": [
+                "f049739be1049c11399623c8586ac5b9150a6dfac6db6f2d2a59d9ae271d6ebc",
+                "5bc3a743afa943011b8ea7b26b3e650f59eff482eb763be44d1a27cc95b250bb",
+                "0d78d24d23dbb3e0b2ed9615f23f010adecb23aa581541af0870f05c3dfadffd",
+                "88223709e702f6ef3b020a5fb8aac8ebd1c467b5b19b587fb25934da9ce340b8",
+                "de2328b1af7db794b51549a0df2f24e5f21ac7d14c85c2a0cea692b052e7e366",
+                "4cf23312d6b9200ddd1521d4ae4ddac0b47aac885ef43566f1bfec6d553e3546",
+                "f15a141e448b28bb70cddff50aba82f2aa9b073f6ad5911f8419b120e844b35d",
+                "0852c6774058394edc0bf49729e7d3270a5abb2ce532468b231ce5a1f2aa04e6",
+                "209114b940e405d8b799855ab58b403c087843e3c555d12a9f120521e7be16ab",
+                "76db14f62098b71201a9d2ffe3c5dfd032c4f15f3d2339d0ac8528d27fd885ce",
+                "e9863367c8ec29320117585ec9b5a6bea382a7fddeb867471c131de1fda13b15",
+                "af057af50ec37665d09915b5e3f1b70f36cd4ee674a6f20843f1e87181c42cbe",
+                "a03e4d8235c943b55cccb1ecac77667ec29c37facd978cbd927d987eb98a602c",
+                "70267940efff15e5a86649130bb7bd71c897ffa9936984eb42467a9781a2f111",
+                "444b276517ca614d00d766e9cb1110a7c77ff85cb03c4cf781099936da700d19",
+                "037e1044bef5dc015aa13ed1ff0908e7605f2148559af2921fb3603b0e56e7d3",
+                "8cf5ffbe385c41e53089d48000a03936d16b1d68c8ea0d815dea64f52ec9ba90",
+                "a90eacb247eb3c341e8e4a8004ffb6090ebffad451e2fa9fdb74f407ef95d670",
+                "a20ce4d52c2d13c86ec9ef60d60ac582442a5a28ead4d61887ca87674f481f0a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.interhyp.de",
+                "www.shoop.de",
+                "www.vonovia.de",
+                "www.muenchener-verein.de",
+                "www.bike24.de",
+                "parfumdreams.de",
+                "www.lynxbroker.de",
+                "www.kurz-mal-weg.de",
+                "www.avira.com",
+                "www.finanztip.de",
+                "www.baby-walz.de",
+                "www.ashampoo.com",
+                "finom.co",
+                "www.moderne-hausfrau.de",
+                "www.hostinger.com",
+                "www.hausfrage.de",
+                "www.btc-echo.de",
+                "www.justanswer.de",
+                "www.only.com",
+                "www.skr.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5419b6ffb0d04a076446a9af\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00153,
+            "cnames": [],
+            "responseHashes": [
+                "2c09918b1bb0cca3b2a3e63803f0d47fd9cef0319c84efcdd2cd968081f40bb8"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kartenliebe.de",
+                "multimedia.easeus.com",
+                "www.avast.com",
+                "www.berge-meer.de",
+                "www.ccleaner.com",
+                "www.diamantrad.com",
+                "www.dubaro.de",
+                "www.finn.com",
+                "www.landsend.de",
+                "www.mpb.com",
+                "www.perlego.com",
+                "www.prusa3d.com",
+                "www.qvc.de",
+                "www.secretescapes.de",
+                "www.studocu.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5419b6ffb0d04a076446a9af\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "97c60d589fb168634b27ede2ef7eefcc24a9861c7e7f5c8545d6c8c986536414"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kartenliebe.de",
+                "www.berge-meer.de",
+                "www.diamantrad.com",
+                "www.finn.com",
+                "www.landsend.de",
+                "www.prusa3d.com",
+                "www.secretescapes.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustbox-data\\/5419b6ffb0d04a076446a9af",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "bf5bb859b9cfd6d67132f15644e42e89c7bb4b17a8c2662608e266ae9c820bb8",
+                "eda1bed38e0c1dde6ecfd82d06e0e41b362e51b4938127535b9b36a60d5ee556",
+                "43754ecc5b3a78e1ab33199540716fe82fd410e832da99a19891f5817904cf8b",
+                "b4928edb60035a65bc3d9c3e6dae7eb9bfb44b63ad934eec8c28efda1c0ad161"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kartenliebe.de",
+                "www.berge-meer.de",
+                "www.diamantrad.com",
+                "www.finn.com",
+                "www.landsend.de",
+                "www.prusa3d.com",
+                "www.secretescapes.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/api\\/stars\\/4\\.5\\/star\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0010aaf8e6b2e914901258587f8e0a97b13de5cc8a8d2c4ddfff96148d356368"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parfumdreams.de",
+                "www.thermondo.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/fonts\\/roboto\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "strauss.com",
+                "www.landsend.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/bootstrap\\/v5\\/tp\\.widget\\.sync\\.bootstrap\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "90745a0f257aa1424e5b997ec85544b52094e60b7187c09ec3f108303bfc2073"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "upway.de",
+                "www.ccleaner.com",
+                "www.sbroker.de",
+                "www.shoop.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/fonts\\/open-sans\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "8ff3fcce1a110bdebadfd4fa834801ab5e3077201b0037e8bb33672b0df1f6bc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ashampoo.com",
+                "www.ashampoo.com",
+                "www.urlaubsguru.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5419b732fbfb950b10de65e5\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "870e272c79e1b312ee375092ed6fa279d557c3cc5f2a091e7df5931993472b7d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finanztip.de",
+                "www.interhyp.de",
+                "www.landsend.de",
+                "www.novasol.de",
+                "www.rheinenergie.com",
+                "www.secretescapes.de",
+                "www.urlaubsguru.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustbox-data\\/5419b732fbfb950b10de65e5",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "c28398f432deff48dbbe66ce3e5e7fd6ffa7ed7c80f0cadf21f32d394cfe1802",
+                "d2d50cf523c29675d457317461e48046446ce9480242e3a12a1ebf7451562249",
+                "1a92751ef1012c83098a762e1f2e2cf39a2990c18c5f02c32d15cf2ffad86071"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finanztip.de",
+                "www.interhyp.de",
+                "www.landsend.de",
+                "www.rheinenergie.com",
+                "www.secretescapes.de",
+                "www.urlaubsguru.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/v1\\/business-units\\/54ec3cdf0000ff00057da0cb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8c6be821f53d189d207b70928c210114136672994dc6bb2e29040ae66b5370ff"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ionos.de",
+                "www.ionos.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/v1\\/business-units\\/542d952d00006400057ab096",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a9c275006db69fcbf04873f4cb2b4dceca26408a28dd328c94ae75d4a76c8d25"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ionos.com",
+                "www.ionos.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustbox-data\\/544a426205dc0a09088833c6",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b89d3bdd7ffaa5e5c56d1a9f663d3d269ac7466771d1b7cecb6d251c2d9a919a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "partitionwizard.com",
+                "www.partitionwizard.com"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5418052cfbfb950d88702476\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trendtours.de",
+                "www.trendtours.de",
+                "www.wikinger-reisen.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/trustboxes\\/5418052cfbfb950d88702476\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trendtours.de",
+                "www.trendtours.de"
+            ]
+        },
+        {
+            "rule": "trustpilot\\.com\\/fonts\\/open-sans\\/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "260f93db686bf20f1081566d3b589986831fed4eeac7a7c783e1fd187db62e23"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "urlaubsguru.de",
+                "www.urlaubsguru.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9444444444444444
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.016666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.011111111111111112
+        },
+        {
+            "domain": "wix-code.com",
+            "prevalence": 0.005555555555555556
+        },
+        {
+            "domain": "tripcdn.com",
+            "prevalence": 0.005555555555555556
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.005555555555555556
+        },
+        {
+            "domain": "justanswer.com",
+            "prevalence": 0.005555555555555556
+        },
+        {
+            "domain": "d1gkiy13jtzlp.cloudfront.net",
+            "prevalence": 0.005555555555555556
+        }
+    ],
+    "types": {
+        "Script": 198,
+        "Document": 119,
+        "XHR": 132,
+        "Image": 2,
+        "Stylesheet": 5,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns-507.awsdns-63.com",
+        "ns-1859.awsdns-40.co.uk",
+        "ns-627.awsdns-14.net",
+        "ns-1198.awsdns-21.org"
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "domain": "d1dl6fb2p0zlsk.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "ssgtm-analytics-v2.premiumbeat.com",
+            "resolved": "d1dl6fb2p0zlsk.cloudfront.net"
+        },
+        {
+            "original": "ssgtm-analytics-v2.shutterstock.com",
+            "resolved": "d1dl6fb2p0zlsk.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "d1dl6fb2p0zlsk\\.cloudfront\\.net\\/g\\/collect",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "ssgtm-analytics-v2.shutterstock.com",
+                    "resolved": "d1dl6fb2p0zlsk.cloudfront.net"
+                },
+                {
+                    "original": "ssgtm-analytics-v2.premiumbeat.com",
+                    "resolved": "d1dl6fb2p0zlsk.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c",
+                "cc18457209c97935c00a5b7d889f1c78d35f6ca5c98b1a78b68f37036af813d6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "htjs_anonymous_id": 0.000028293345405160706,
+                "_ga": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "shutterstock.com",
+                "submit.shutterstock.com",
+                "www.premiumbeat.com",
+                "www.shutterstock.com"
+            ]
+        },
+        {
+            "rule": "d1dl6fb2p0zlsk\\.cloudfront\\.net\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "ssgtm-analytics-v2.shutterstock.com",
+                    "resolved": "d1dl6fb2p0zlsk.cloudfront.net"
+                },
+                {
+                    "original": "ssgtm-analytics-v2.premiumbeat.com",
+                    "resolved": "d1dl6fb2p0zlsk.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "d36b373b44b77f016e4b7df913ba2da2a8025456f016bc794861f210c0e3ada3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shutterstock.com",
+                "submit.shutterstock.com",
+                "www.premiumbeat.com",
+                "www.shutterstock.com"
+            ]
+        },
+        {
+            "rule": "d1dl6fb2p0zlsk\\.cloudfront\\.net\\/_set_cookie",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ssgtm-analytics-v2.shutterstock.com",
+                    "resolved": "d1dl6fb2p0zlsk.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shutterstock.com",
+                "www.shutterstock.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Document": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-326.awsdns-40.com",
+        "ns-1476.awsdns-56.org",
+        "ns-759.awsdns-30.net",
+        "ns-2008.awsdns-59.co.uk"
+    ]
+}

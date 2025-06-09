@@ -1,0 +1,120 @@
+{
+    "domain": "mdgms.com",
+    "owner": {
+        "name": "FactSet Digital Solutions GmbH",
+        "displayName": "FactSet Digital Solutions"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "charts.comdirect",
+        "gateway",
+        "php5.s-broker"
+    ],
+    "cnames": [
+        {
+            "original": "charts.comdirect.de",
+            "resolved": "charts.comdirect.mdgms.com"
+        },
+        {
+            "original": "idms.sbroker.de",
+            "resolved": "php5.s-broker.mdgms.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mdgms\\.com\\/charts\\/rebrush\\/homepage_resp\\.chart",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "charts.comdirect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "charts.comdirect.de",
+                    "resolved": "charts.comdirect.mdgms.com"
+                }
+            ],
+            "responseHashes": [
+                "334dd7dd9d598fdac9773cfddc1a6f4f35437447a9d533540b608a014d456969"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comdirect.de",
+                "www.comdirect.de"
+            ]
+        },
+        {
+            "rule": "mdgms\\.com\\/extern\\/logo_image\\.html",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2200f1c9f0794afa1bce660b089b6143025343c6d3eba7e6d0818f83563003cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finanzen100.de",
+                "www.finanzen100.de"
+            ]
+        },
+        {
+            "rule": "mdgms\\.com\\/charts\\/homepage\\.chart\\.small_neu",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "php5.s-broker"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "idms.sbroker.de",
+                    "resolved": "php5.s-broker.mdgms.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbroker.de",
+                "www.sbroker.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 6
+    },
+    "nameservers": [
+        "ns0243.secondary.cloudflare.com",
+        "ns0033.secondary.cloudflare.com"
+    ]
+}

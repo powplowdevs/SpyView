@@ -1,0 +1,177 @@
+{
+    "domain": "ads-twitter.com",
+    "owner": {
+        "name": "Twitter, Inc.",
+        "displayName": "Twitter",
+        "privacyPolicy": "https://twitter.com/en/privacy",
+        "url": "http://twitter.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.0184,
+    "sites": 179,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ads-twitter\\.com\\/uwt\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 135,
+                "Screen.prototype.width": 135,
+                "Screen.prototype.height": 135,
+                "Screen.prototype.colorDepth": 135,
+                "Screen.prototype.availWidth": 135,
+                "Screen.prototype.availHeight": 135,
+                "Navigator.prototype.languages": 136,
+                "Navigator.prototype.doNotTrack": 136,
+                "Navigator.prototype.maxTouchPoints": 136,
+                "Navigator.prototype.hardwareConcurrency": 136,
+                "Navigator.prototype.platform": 136,
+                "Navigator.prototype.vendor": 136,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 130
+            },
+            "sites": 168,
+            "prevalence": 0.0173,
+            "cnames": [],
+            "responseHashes": [
+                "96e803cc46ba31cef48752356a13dc8a92564f2e6b20adcd4d360410b5fbc579"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.cambridge.org",
+                "myanimelist.net",
+                "nypost.com",
+                "www.politico.com",
+                "www.snopes.com",
+                "www.reviews.io",
+                "www.thejc.com",
+                "www.adrianflux.co.uk",
+                "www.universalorlando.com",
+                "adhduk.co.uk",
+                "www.ewtn.com",
+                "community.zoom.com",
+                "www.royalmint.com",
+                "www.racingtv.com",
+                "markets.businessinsider.com",
+                "www.essex.ac.uk",
+                "galaxy.ai",
+                "iheat.co.uk",
+                "journals.plos.org",
+                "www.theaccessgroup.com"
+            ]
+        },
+        {
+            "rule": "ads-twitter\\.com\\/oct\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Screen.prototype.availWidth": 4,
+                "Screen.prototype.availHeight": 4,
+                "Navigator.prototype.languages": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Navigator.prototype.hardwareConcurrency": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.vendor": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 13,
+            "prevalence": 0.00134,
+            "cnames": [],
+            "responseHashes": [
+                "96e803cc46ba31cef48752356a13dc8a92564f2e6b20adcd4d360410b5fbc579"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brooktaverner.co.uk",
+                "healthservicediscounts.com",
+                "play-cricket.com",
+                "press.princeton.edu",
+                "www.broadcastnow.co.uk",
+                "www.g2.com",
+                "www.historyhit.com",
+                "www.infosecurity-magazine.com",
+                "www.myjobquote.co.uk",
+                "www.podbean.com",
+                "www.scope.org.uk",
+                "www.viz.com",
+                "yalehome.co.uk"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4891304347826087
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.41304347826086957
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.06521739130434782
+        },
+        {
+            "domain": "flashtalking.com",
+            "prevalence": 0.010869565217391304
+        },
+        {
+            "domain": "lr-wa.com",
+            "prevalence": 0.005434782608695652
+        },
+        {
+            "domain": "global-e.com",
+            "prevalence": 0.005434782608695652
+        },
+        {
+            "domain": "pximg.net",
+            "prevalence": 0.005434782608695652
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.005434782608695652
+        }
+    ],
+    "types": {
+        "Script": 181
+    },
+    "nameservers": [
+        "a.r07.twtrdns.net",
+        "a.u07.twtrdns.net",
+        "b.r07.twtrdns.net",
+        "b.u07.twtrdns.net",
+        "c.r07.twtrdns.net",
+        "c.u07.twtrdns.net",
+        "d.r07.twtrdns.net",
+        "d.u07.twtrdns.net"
+    ]
+}

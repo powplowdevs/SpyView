@@ -1,0 +1,107 @@
+{
+    "domain": "kickbite.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "tr"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kickbite\\.io\\/u\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tr"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3dfb1c8097c4a084df9c92c423bd0f56a826f9997165fdf7f5f4edda88c0ff74"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lucardi.nl",
+                "www.plein.nl"
+            ]
+        },
+        {
+            "rule": "kickbite\\.io\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tr"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5b2e778dbb520d12bc81220746be450259724376393370ff3ccd9b21ee82c0b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lucardi.nl",
+                "www.plein.nl"
+            ]
+        },
+        {
+            "rule": "kickbite\\.io\\/tr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lucardi.nl",
+                "www.plein.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 2
+    },
+    "nameservers": [
+        "plato.ns.cloudflare.com",
+        "brit.ns.cloudflare.com"
+    ]
+}

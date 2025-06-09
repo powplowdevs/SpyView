@@ -1,0 +1,84 @@
+{
+    "domain": "prod-gtmss-3tyezr0z2nsy-1178555454.eu-west-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "ss.businessoffashion.com",
+            "resolved": "prod-gtmss-3tyezr0z2nsy-1178555454.eu-west-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "prod-gtmss-3tyezr0z2nsy-1178555454\\.eu-west-1\\.elb\\.amazonaws\\.com\\/gtag\\/js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ss.businessoffashion.com",
+                    "resolved": "prod-gtmss-3tyezr0z2nsy-1178555454.eu-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "4da07b73c5efe46bd6029df79a58a0ae9dbada52e68583b9bb9aaa89218ea99d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessoffashion.com",
+                "www.businessoffashion.com"
+            ]
+        },
+        {
+            "rule": "prod-gtmss-3tyezr0z2nsy-1178555454\\.eu-west-1\\.elb\\.amazonaws\\.com\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ss.businessoffashion.com",
+                    "resolved": "prod-gtmss-3tyezr0z2nsy-1178555454.eu-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessoffashion.com",
+                "www.businessoffashion.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

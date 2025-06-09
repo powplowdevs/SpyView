@@ -1,0 +1,95 @@
+{
+    "domain": "centrefrance.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "moncompte"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "centrefrance\\.com\\/auth\\/realms\\/CentreFrance\\/protocol\\/openid-connect\\/3p-cookies\\/step1\\.html",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "moncompte"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lamontagne.fr",
+                "www.larep.fr",
+                "www.lejdc.fr",
+                "www.lepopulaire.fr"
+            ]
+        },
+        {
+            "rule": "centrefrance\\.com\\/auth\\/realms\\/CentreFrance\\/protocol\\/openid-connect\\/3p-cookies\\/step2\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "moncompte"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lamontagne.fr",
+                "www.larep.fr",
+                "www.lepopulaire.fr"
+            ]
+        },
+        {
+            "rule": "centrefrance\\.com\\/auth\\/realms\\/CentreFrance\\/protocol\\/openid-connect\\/auth",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "moncompte"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lamontagne.fr",
+                "www.larep.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 9
+    },
+    "nameservers": [
+        "dns11.ovh.net",
+        "ns11.ovh.net"
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "domain": "ksgct.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [
+        "aproxy"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ksgct\\.de\\/js\\/srp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aproxy"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.appVersion": 6,
+                "Navigator.prototype.plugins": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "76609bb03eb6ba71f55dfb823b9377547ce5bb5ce27e05d8c9e85373fbb8447f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apotal.de",
+                "shop.apotal.de",
+                "www.aponeo.de",
+                "www.bio-apo.de",
+                "www.medikamente-per-klick.de",
+                "www.medizinfuchs.de"
+            ]
+        },
+        {
+            "rule": "ksgct\\.de\\/js\\/aut\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aproxy"
+            ],
+            "apis": {
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "5d7930014d77f0c983300b9c5a0d5134ee166c93fa4f1b462c9c5bc31b8fa7c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apotal.de",
+                "shop.apotal.de",
+                "www.aponeo.de",
+                "www.bio-apo.de",
+                "www.medikamente-per-klick.de",
+                "www.medizinfuchs.de"
+            ]
+        },
+        {
+            "rule": "ksgct\\.de\\/i",
+            "cookies": 0.00051,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aproxy"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "612f2c0f2951f48b4b9096f095fa7a779b54fb99b541d5e5384f91c0ac4e5300",
+                "be64fcb9d666d6c241190c7ea22828d86505a432141ca2df9e3cc143112aa56b",
+                "bcadafa6b933782662cda731a834e58dc9fac12e3550bd8bc2fc23cba819ed75",
+                "45db375b3e15015cd0d460b5ae6fd20778e63ebeb57affed537174a7aec4d986"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apotal.de",
+                "shop.apotal.de",
+                "www.aponeo.de",
+                "www.medikamente-per-klick.de",
+                "www.medizinfuchs.de"
+            ]
+        },
+        {
+            "rule": "ksgct\\.de\\/s",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aproxy"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "48ff96df08432e68ffe6a98df067bc8adae4b4d9c9d1302a1a245031cb612eb7",
+                "766c0242b94a644d5d7902cc39b114699143f9bf4cd86e882442f2521582f573",
+                "f6c8c60503cc285c57a72703ed4ae819ac2c8f4d369cc4551d127cd185f75c92",
+                "2c6c67b9b6dd829b8d6ca5f06592e3715d6ef23ba4f94b7f0f3fc7a6d51556b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apotal.de",
+                "shop.apotal.de",
+                "www.aponeo.de",
+                "www.medikamente-per-klick.de",
+                "www.medizinfuchs.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00051,
+    "topInitiators": [
+        {
+            "domain": "kctag.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns-408.awsdns-51.com",
+        "ns-778.awsdns-33.net",
+        "ns-2035.awsdns-62.co.uk",
+        "ns-1402.awsdns-47.org"
+    ]
+}

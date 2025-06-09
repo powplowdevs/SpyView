@@ -1,0 +1,131 @@
+{
+    "domain": "dy-api.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000714,
+    "sites": 7,
+    "subdomains": [
+        "direct",
+        "direct-collect"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dy-api\\.eu\\/v2\\/serve\\/user\\/choose",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dm.de",
+                "jysk.de",
+                "www.amorelie.de",
+                "www.dm.at",
+                "www.dm.de"
+            ]
+        },
+        {
+            "rule": "dy-api\\.eu\\/v2\\/serve\\/user\\/choose",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "7b16cbfb795ffae91f1691739e071ee8c440627a8dbd516bbcaaf5bd0584ce33",
+                "e992f204ff6f07446bed8c2dd3b9b9dfe302fda2a8ad0af28acfca442ab2843b",
+                "eb82466d3791baa81c80ffe6920087a682755c843a2ac25a8ea6206dab0a955f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dm.de",
+                "www.amorelie.de",
+                "www.dm.at",
+                "www.dm.de"
+            ]
+        },
+        {
+            "rule": "dy-api\\.eu\\/v2\\/collect\\/user\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct-collect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.de",
+                "www.home24.de"
+            ]
+        },
+        {
+            "rule": "dy-api\\.eu\\/v2\\/collect\\/user\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct-collect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.de",
+                "www.home24.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9375
+        },
+        {
+            "domain": "dm.de",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Preflight": 7,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-204.awsdns-25.com",
+        "ns-926.awsdns-51.net",
+        "ns-1242.awsdns-27.org",
+        "ns-1819.awsdns-35.co.uk"
+    ]
+}

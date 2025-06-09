@@ -1,0 +1,586 @@
+{
+    "domain": "smile.io",
+    "owner": {
+        "name": "Smile Inc.",
+        "displayName": "Smile"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00127,
+    "sites": 12,
+    "subdomains": [
+        "js",
+        "platform"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smile\\.io\\/v1\\/smile-shopify\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 10,
+            "prevalence": 0.00106,
+            "cnames": [],
+            "responseHashes": [
+                "e29c017622565023529bfc40a707708d50b525d41822eb9528cb818aef7817c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artsuppliesaustralia.com.au",
+                "blackwolf.com.au",
+                "camec.com.au",
+                "ccache.cc",
+                "keenfootwear.com.au",
+                "tacticalgear.com.au",
+                "vaporizersdirect.com.au",
+                "www.nourishmeorganics.com.au",
+                "www.sexyland.com.au",
+                "www.tomsoutdoors.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/smile_ui\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000848,
+            "cnames": [],
+            "responseHashes": [
+                "abc1c5aa009eac9f7a0e43bfb36366cd4d270cb7cf431b9d4fd7760957f192af",
+                "2553c8e3f9a609d4cd1743e65d9d4c5f4b5a870d905e2d6691664e582e709092"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artsuppliesaustralia.com.au",
+                "blackwolf.com.au",
+                "camec.com.au",
+                "ccache.cc",
+                "keenfootwear.com.au",
+                "tacticalgear.com.au",
+                "www.nourishmeorganics.com.au",
+                "www.tomsoutdoors.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/smile-lite-a9af683e4a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 9,
+            "prevalence": 0.000954,
+            "cnames": [],
+            "responseHashes": [
+                "1ede88559ea04416672d48cfc39000b5196948dd4167b4362b97c4af4a35d781"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artsuppliesaustralia.com.au",
+                "blackwolf.com.au",
+                "camec.com.au",
+                "ccache.cc",
+                "keenfootwear.com.au",
+                "tacticalgear.com.au",
+                "vaporizersdirect.com.au",
+                "www.nourishmeorganics.com.au",
+                "www.tomsoutdoors.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/smile_ui\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artsuppliesaustralia.com.au",
+                "keenfootwear.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/smile_ui\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000636,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "camec.com.au",
+                "ccache.cc",
+                "tacticalgear.com.au",
+                "www.nourishmeorganics.com.au",
+                "www.tomsoutdoors.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/assets\\/fonts\\/proximanova-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "8945962a6d29a664f1674d490accf2280e468f4b4d34ba81de7401ca3457cd7f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/smile-shopify-803d8d7d10c4b2b5beb6\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 5,
+            "prevalence": 0.00053,
+            "cnames": [],
+            "responseHashes": [
+                "38973a287ac9a5920b4ad330b39f30e5c51f0e8acb7a56fbe79f9983e330fb47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "ccache.cc",
+                "tacticalgear.com.au",
+                "www.nourishmeorganics.com.au",
+                "www.tomsoutdoors.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/vendor-b12307fb976b57c93346\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000636,
+            "cnames": [],
+            "responseHashes": [
+                "2d808756ce4f65186453c6cd3c0083051e98d1ea8b9b3429d5375a3f76964df0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "ccache.cc",
+                "petchemist.com.au",
+                "tacticalgear.com.au",
+                "www.nourishmeorganics.com.au",
+                "www.tomsoutdoors.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/translations1-5877680e5081a4768634\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000424,
+            "cnames": [],
+            "responseHashes": [
+                "639ad0004f49e6bcb1902f2516286f0c2ebad5a0a2cd91b4421847babf75efbf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "ccache.cc",
+                "tacticalgear.com.au",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/src_smile-ui_app_containers_Nudges_Nudges_tsx-611ecaaddd51d2df523e\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000318,
+            "cnames": [],
+            "responseHashes": [
+                "03c784f5dc4f2ca7a3b24a56a14fc80bc0b8bd260044a794400623335dd3630c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "ccache.cc",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/src_smile-ui_app_containers_Launcher_Launcher_tsx-b327289da3cc82840eff\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000318,
+            "cnames": [],
+            "responseHashes": [
+                "c8a9904ef0a285a21a6b100dfd1c893c0b28430ee4bc8b53be803c60100124a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "ccache.cc",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/launcher-container-styles\\.04dbf396d0741a0ff79f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000318,
+            "cnames": [],
+            "responseHashes": [
+                "bea7e0ad576b8f4323cd735243671cc79a8dd976305a7fc752b918f4d11b7016"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "ccache.cc",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/launcher-container-styles-e9c02a0381870548848f\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000318,
+            "cnames": [],
+            "responseHashes": [
+                "54a7e3db39c2421859a393d4fea044512def6b322555ba6879ad9f17248767c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "ccache.cc",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/launcher-content-styles-4f04ae93e2c87df8f221\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000318,
+            "cnames": [],
+            "responseHashes": [
+                "cb6572e890095b3598882b240e8bdbd595d4394d931ee689b944c9a25b954c8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "ccache.cc",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/src_smile-ui_app_components_Panel_Cards_Shared_ReferralUrlShare_tsx-src_smile-ui_app_componen-05962e-d23974ae3af637fa56d3\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "f7ec8af9aa58bae6ac6245e551174695289c1a6acdb73a211a97a6ce3f1f2b9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/src_smile-ui_app_containers_Prompt_Prompt_tsx-14dbd98d18371c725ccc\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "03a314ea41b8ea92a2ccedf4bf7644dfb1ebd1f82366aa483a3b8f5854968fc9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/prompt-container-styles\\.650585dabd16fbf1f196\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "989ac28637747fb41b79e6024bfa0f46b4605109464a8268ff221f4a48a8b1d4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/prompt-container-styles-323fb71631a21c8c64da\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "e486973047738ec1b99ef4bf43c6f6fd38e515de66b392b66ffc83d2773700a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/prompt-content-styles-d51982883062453369a1\\.modern\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "c5ca6601d22a4f553886a4b57a9fc555859a6197d9cb59f1e38ff498dad38838"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/assets\\/nudges\\/icons\\/stars-emoji-abeb16e695d3540a9c8fd616cb837bdf58b0456ff9ec784177142b1c8c5f1bdc\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "cab1ebe7e838372a99758ec2a35c484a3387e903463470b4c870c2076233cffd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/assets\\/fonts\\/proximanova-semibold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "0f32bff2bef91931d0d583f9a7e71cff0eea9af310781ef9c18d46c73c453a19"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwolf.com.au",
+                "www.nourishmeorganics.com.au"
+            ]
+        },
+        {
+            "rule": "smile\\.io\\/v1\\/smile-bigcommerce\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "6e11dd504b6cbdeadff93deeea02c9fe65dc14f1fd915bc51d889aedeb3f4dcb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "n-essentials.com.au",
+                "petchemist.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7241379310344828
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.27586206896551724
+        }
+    ],
+    "types": {
+        "Script": 56,
+        "Fetch": 8,
+        "Other": 2,
+        "Preflight": 6,
+        "Font": 4,
+        "Stylesheet": 5,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1105.awsdns-10.org",
+        "ns-1997.awsdns-57.co.uk",
+        "ns-447.awsdns-55.com",
+        "ns-998.awsdns-60.net"
+    ]
+}

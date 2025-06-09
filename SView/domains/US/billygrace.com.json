@@ -1,0 +1,101 @@
+{
+    "domain": "billygrace.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "bgmin.cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "billygrace\\.com\\/",
+            "cookies": 0.000092,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bgmin.cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 13,
+                "Date.prototype.getTime": 13,
+                "Document.cookie setter": 13,
+                "Screen.prototype.width": 13,
+                "Screen.prototype.height": 13,
+                "window.innerWidth": 13,
+                "window.innerHeight": 13,
+                "Screen.prototype.colorDepth": 13,
+                "Navigator.prototype.userAgent": 13,
+                "Navigator.prototype.maxTouchPoints": 13,
+                "Date.prototype.getTimezoneOffset": 13
+            },
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "58b5af8fb0d4620db744ad29e07bde1b0ca92bcf6cb71b09067090b44e8b6dee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__BillyPix_uid": {
+                    "ttl": 63072005,
+                    "length": 24,
+                    "prevalence": 0.00009195337256677229,
+                    "uniqueness": 1
+                },
+                "__BillyPix_session_id": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.00009195337256677229,
+                    "uniqueness": 1
+                },
+                "__BillyPix_sid": {
+                    "ttl": 63072005,
+                    "length": 12,
+                    "prevalence": 0.00009195337256677229,
+                    "uniqueness": 0.8461538461538461
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgmforum.com",
+                "ilgm.com",
+                "www.12gobiking.nl",
+                "www.bouwmaat.nl",
+                "www.drleenarts.com",
+                "www.elektramat.nl",
+                "www.feenstra.com",
+                "www.ilovegrowingmarijuana.com",
+                "www.keessmit.nl",
+                "www.mepal.com",
+                "www.mrmarvis.com",
+                "www.nrc.nl",
+                "www.suzuki.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000099,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 13
+    },
+    "nameservers": [
+        "ns5.firstfind.net",
+        "ns4.firstfind.nl",
+        "ns3.firstfind.nl"
+    ]
+}

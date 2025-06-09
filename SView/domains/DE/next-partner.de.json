@@ -1,0 +1,132 @@
+{
+    "domain": "next-partner.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "t3n",
+        "weserkurier"
+    ],
+    "cnames": [
+        {
+            "original": "jobs.t3n.de",
+            "resolved": "t3n.next-partner.de"
+        },
+        {
+            "original": "jobs.weser-kurier.de",
+            "resolved": "weserkurier.next-partner.de"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "next-partner\\.de\\/partnerbox\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t3n",
+                "weserkurier"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "jobs.t3n.de",
+                    "resolved": "t3n.next-partner.de"
+                },
+                {
+                    "original": "jobs.weser-kurier.de",
+                    "resolved": "weserkurier.next-partner.de"
+                }
+            ],
+            "responseHashes": [
+                "5829308c5cad817d120c3e5398a20dee50faf764c7a98751755be47b9beba83a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t3n.de",
+                "www.weser-kurier.de"
+            ]
+        },
+        {
+            "rule": "next-partner\\.de\\/Partner\\/BoxApi",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t3n",
+                "weserkurier"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "jobs.t3n.de",
+                    "resolved": "t3n.next-partner.de"
+                },
+                {
+                    "original": "jobs.weser-kurier.de",
+                    "resolved": "weserkurier.next-partner.de"
+                }
+            ],
+            "responseHashes": [
+                "2a7a313068d2e1ad8275474ff82681471fd429b18abe26eadf94b5ab6ae0b731"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t3n.de",
+                "www.weser-kurier.de"
+            ]
+        },
+        {
+            "rule": "next-partner\\.de\\/Partner\\/BoxApi",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t3n",
+                "weserkurier"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "jobs.t3n.de",
+                    "resolved": "t3n.next-partner.de"
+                },
+                {
+                    "original": "jobs.weser-kurier.de",
+                    "resolved": "weserkurier.next-partner.de"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t3n.de",
+                "www.weser-kurier.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "chad.ns.cloudflare.com",
+        "rosa.ns.cloudflare.com"
+    ]
+}

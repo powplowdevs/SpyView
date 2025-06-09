@@ -1,0 +1,136 @@
+{
+    "domain": "wonderpush.com",
+    "owner": {
+        "name": "WonderPush",
+        "displayName": "WonderPush"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000714,
+    "sites": 7,
+    "subdomains": [
+        "cdn.by",
+        "measurements-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "wonderpush\\.com\\/sdk\\/1\\.1\\/wonderpush-loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.by"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Notification.permission": 6
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "ee62c1a0f3be13bc0e106967d960ccb645bb2774f23cf55eacfb92ffb1697c00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auf1.tv",
+                "hifi.de",
+                "meilenoptimieren.com",
+                "viel-unterwegs.de",
+                "www.in-muenchen.de",
+                "www.reutlingen.de",
+                "www.societe.com"
+            ]
+        },
+        {
+            "rule": "wonderpush\\.com\\/sdk\\/1\\.1\\.39\\.0\\/wonderpush\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.by"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Notification.permission": 6,
+                "window.indexedDB": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.permissions": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.languages": 3
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "c69e8b215e5363d98f9411ee767ad9e407cbebd91b9979d449a55dd5d503e134"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auf1.tv",
+                "hifi.de",
+                "meilenoptimieren.com",
+                "viel-unterwegs.de",
+                "www.in-muenchen.de",
+                "www.societe.com"
+            ]
+        },
+        {
+            "rule": "wonderpush\\.com\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "measurements-api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "ae2e6cc09e6728c3b999a5e5ee8938cef55a2cf99bca7ebea6b4069b4dd7a54f",
+                "38e18798e3252e77f23d689122f252ad688a2add549bae72267d02e354c44a0c",
+                "8411c1b3a0853823013f0734d824ba7e545a9e8c33d48993b11b3795e53508fe",
+                "f53ef752bac252861720ca8612aff111a43b0aa6d724a8012e0ab6d965929751"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auf1.tv",
+                "hifi.de",
+                "meilenoptimieren.com",
+                "viel-unterwegs.de",
+                "www.in-muenchen.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "sibautomation.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com"
+    ]
+}

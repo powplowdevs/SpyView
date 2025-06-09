@@ -1,0 +1,76 @@
+{
+    "domain": "freshpaint-dot-function-health-prod-env.uc.r.appspot.com",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "freshpaint-dot-function-health-prod-env\\.uc\\.r\\.appspot\\.com\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "functionhealth.com",
+                "my.functionhealth.com",
+                "www.functionhealth.com"
+            ]
+        },
+        {
+            "rule": "freshpaint-dot-function-health-prod-env\\.uc\\.r\\.appspot\\.com\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "723318e1625b2e3a1383848d8b503bcc24b92fdb72f8c591e408561817c5716e",
+                "5fea0cb9b4179c36ed9ac6fbdb2086b8ac1865e0f2e0ba40416f98f8f267e995"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "functionhealth.com",
+                "my.functionhealth.com",
+                "www.functionhealth.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "perfalytics.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": []
+}

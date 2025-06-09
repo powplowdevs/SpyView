@@ -1,0 +1,118 @@
+{
+    "domain": "kinesis.us-east-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "kinesis\\.us-east-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "247sports.com",
+                "factory.jcrew.com",
+                "fanspo.com",
+                "universityhealthnews.com",
+                "www.365scores.com",
+                "www.alignable.com",
+                "www.homefacts.com",
+                "www.loveshackfancy.com"
+            ]
+        },
+        {
+            "rule": "kinesis\\.us-east-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "c40cc61d0ca65b0b8e48b615840fe9972e21f868b6092169a0d710012c212dca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "247sports.com",
+                "factory.jcrew.com",
+                "fanspo.com",
+                "universityhealthnews.com",
+                "www.homefacts.com",
+                "www.loveshackfancy.com"
+            ]
+        },
+        {
+            "rule": "kinesis\\.us-east-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ed27b52902a9ea71802bc987b8a7d0bf79e96acfb40389a7fbca10730eee7886"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "365scores.com",
+                "www.365scores.com",
+                "www.alignable.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "yieldmo.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.047619047619047616
+        }
+    ],
+    "types": {
+        "Preflight": 8,
+        "XHR": 6,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-1253.awsdns-28.org",
+        "ns-1943.awsdns-50.co.uk",
+        "ns-319.awsdns-39.com",
+        "ns-924.awsdns-51.net"
+    ]
+}

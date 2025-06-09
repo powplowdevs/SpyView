@@ -1,0 +1,121 @@
+{
+    "domain": "dfh.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "comma-classic.api",
+        "m2-front"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dfh\\.dev\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comma-classic.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "designsforhealth.com",
+                "www.designsforhealth.com"
+            ]
+        },
+        {
+            "rule": "dfh\\.dev\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comma-classic.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4750cf3c18171527e4587220ff74d7cae18ffcebc6e60ac8347f3bd1ab9c3b63"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "designsforhealth.com",
+                "www.designsforhealth.com"
+            ]
+        },
+        {
+            "rule": "dfh\\.dev\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m2-front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "designsforhealth.com",
+                "www.designsforhealth.com"
+            ]
+        },
+        {
+            "rule": "dfh\\.dev\\/graphql",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m2-front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ebc24d892a3d9b15fb3a07940c8da4d755e600063c15b8678754fe3054de1aa5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "designsforhealth.com",
+                "www.designsforhealth.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns1.designsforhealth.com",
+        "ns2.designsforhealth.com",
+        "ns3.designsforhealth.com",
+        "ns0.designsforhealth.com",
+        "ns4.designsforhealth.com"
+    ]
+}

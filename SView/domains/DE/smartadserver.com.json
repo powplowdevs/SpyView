@@ -1,0 +1,715 @@
+{
+    "domain": "smartadserver.com",
+    "owner": {
+        "name": "Smartadserver S.A.S",
+        "displayName": "Smartadserver",
+        "privacyPolicy": "http://smartadserver.com/company/privacy-policy/",
+        "url": "http://smartadserver.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0051,
+    "sites": 50,
+    "subdomains": [
+        "prg",
+        "prg-apac",
+        "www18",
+        "rtb-csync",
+        "ssbsync",
+        "ww1097",
+        "www3",
+        "www8",
+        "euw2",
+        "euw1",
+        "www4",
+        "www14",
+        "ssbsync-global",
+        "ssb-global",
+        "sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smartadserver\\.com\\/prebid\\/v1",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prg",
+                "prg-apac",
+                "www18"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00235,
+            "cnames": [],
+            "responseHashes": [
+                "bb9a876eb1cf94154edf2f4b9acc451b52b7e89fa01f8cd370efbcdf8210b443",
+                "dc1293460e62d8f4d91ef29b9bac4f123837f7c2c840ef3a52763782c12bc682",
+                "bdfa38086e902d7f1ed29f38b51fb7367c997e8a42f71835d40ceda09eb501a3",
+                "70009ef6393e297fcc6399eb1bdf953b064171d26e560c37e2ba5188dd562223",
+                "0c8f1ee55eed5642a3b25620f114db8b957a6e97b3bd66559c843caf277fe6c8",
+                "9a382403496173b5bdede6fcd701c154fe0c1abf5670c5135c20042efa6ba28e",
+                "657d70943eaaf44f0f604f40fd1f2f53ea28b3c2f0629ea4e054e12970cdba72"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cplusplus.com",
+                "www.politico.com",
+                "www.gamingdeputy.com",
+                "www.jetpunk.com",
+                "www.der-betze-brennt.de",
+                "www.20min.ch",
+                "wh40k.lexicanum.com",
+                "www.finanzen.at",
+                "www.delftstack.com",
+                "de.wukihow.com",
+                "www.24auto.de",
+                "weltwoche.ch",
+                "robots.net",
+                "www.filehorse.com",
+                "mydramalist.com",
+                "exxpress.at",
+                "www.pcgamingwiki.com",
+                "www.gratis-in-berlin.de",
+                "www.finanzen.ch",
+                "www.timesnownews.com"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/redir\\/",
+            "cookies": 0.00051,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb-csync"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "2fce2feb1cb59a8c53b5b46d1d758949090324d34b2a941a972240d6ccf63db6",
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trip.com",
+                "www.24auto.de",
+                "www.bikes.de",
+                "www.farfetch.com",
+                "www.grube.de",
+                "www.leguano.eu",
+                "www.politico.com",
+                "www.radonline.de",
+                "www.smartbrokerplus.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/api\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssbsync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcbinside.de",
+                "www.filehorse.com"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/genericpost",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ww1097",
+                "www3",
+                "www8"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stangl.eu",
+                "www.dynamo-dresden.de",
+                "www.glasfaserforum.de",
+                "www.hannover96.de",
+                "www.rtve.es"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/genericpost",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ww1097",
+                "www3",
+                "www8"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "48191ea3560f50d4adb796dc6cc48bd472c4a48900c62b5609af8537fbfbc95f",
+                "ee23bbf1b36ecc140c1c75203e2551ccc6b4789e2819a54906100fa548e4d653",
+                "050da3d85c5615165c801793035800f4ff27962f1d33b60e05b2b0c60d44368c",
+                "111805558d73282614919ce36550bcbc5660811e22e0dfe00f6b522256c149a0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stangl.eu",
+                "www.dynamo-dresden.de",
+                "www.glasfaserforum.de",
+                "www.hannover96.de",
+                "www.rtve.es"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/h\\/aip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "euw2",
+                "euw1"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stangl.eu",
+                "www.architonic.com",
+                "www.arminia.de",
+                "www.dynamo-dresden.de",
+                "www.fondsweb.com",
+                "www.glasfaserforum.de",
+                "www.handball.net",
+                "www.hannover96.de",
+                "www.herthabsc.com",
+                "www.hsv.de",
+                "www.rtve.es",
+                "www.tennis.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/ac",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "301f561228e1cc262d1a7ebda7b70b9cd7848b130c4bb6e5d55f993f44ffe582"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liga.nu",
+                "wtv.liga.nu"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/633\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "architonic.com",
+                "www.architonic.com"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/633\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "28c824deffd99261d30f95277a72f7936b6d7ec856a67ff264455da3fe19b3ea"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "architonic.com",
+                "www.architonic.com"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/1023\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www3"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arminia.de",
+                "www.arminia.de",
+                "www.dynamo-dresden.de",
+                "www.herthabsc.com",
+                "www.hsv.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/1023\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www3"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "fc53c88243f9495ce38776c198fcd67dac980014c22d0ddf3a29aa55f196d35e",
+                "85cf6cfaa0a6536799c6528734230001c7261b4340aaf47acc35207dd411268b",
+                "a98e6f7e159f6fe5da7fde177460fe56ba7c43e95d56e3101aaf9222425f37d1",
+                "f9847eba67fb0c77f14b336214f2571735fbf0a05814532096e2a4bd024542e9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arminia.de",
+                "www.arminia.de",
+                "www.dynamo-dresden.de",
+                "www.herthabsc.com",
+                "www.hsv.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/h\\/nshow",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www3",
+                "www14"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "56133c8352d57ce64c849a4d38c6688f9de1074a8267f2976d8a450f960e61f1",
+                "fcd8ee947a72c29e89ab58cd9125049cfdb4b4894e6f5ac58c45fe6fbbdc9426",
+                "0d1321035291c1576444b7d0b2cbcc57480e570d2bc91f56fa1125a9d10e426c",
+                "c2cd7943308d877729a8fbf91a695b63a369119faa656bd2c38b734a039aaee0",
+                "07f93c97c2ed228b8ec9b25cc76b2b6e879b36dca20b239b27267deb56df47be",
+                "e1f7584a1fe58c176c3bbbde5bbf35df8f3d4a503004164dbea543c45652cd53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arminia.de",
+                "www.arminia.de",
+                "www.dynamo-dresden.de",
+                "www.fondsweb.com",
+                "www.herthabsc.com",
+                "www.hsv.de",
+                "www.tennis.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/track\\/action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www3",
+                "euw1"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arminia.de",
+                "www.arminia.de",
+                "www.dynamo-dresden.de",
+                "www.fondsweb.com",
+                "www.hannover96.de",
+                "www.herthabsc.com",
+                "www.hsv.de",
+                "www.rtve.es",
+                "www.tennis.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/api\\/sync",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssbsync-global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "831b0d6cde4541d363bb7a67eb49010fc5fd717dda4b9c3187dd3207b1da56cd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astroportal.com",
+                "www.kita.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/3531\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www14"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fondsweb.com",
+                "www.fondsweb.com"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/3531\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www14"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "429af05c139a8de01865bc7fd07ff9f3324a1c68bb5fea81a408b44d48d2fd3d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fondsweb.com",
+                "www.fondsweb.com"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/4104\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "handball.net",
+                "www.handball.net",
+                "www.tennis.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/4104\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "999f4a6cdb3306e92bb117c0d54678b2763c307510deac280190448143b3d135",
+                "4bc55c71051c0ceb737b7f11363c53eff39d78efe0d308a85f49edc591c98f6b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "handball.net",
+                "www.handball.net",
+                "www.tennis.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www3",
+                "www8"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hannover96.de",
+                "www.rtve.es"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/imp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hannover96.de",
+                "www.herthabsc.com"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/handlers\\/config\\/config\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www3",
+                "www8"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "87ddb90344735882a22c2a124b03a4ef29e01cb6ac0a75b27f9a2c5bde1a6208"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hannover96.de",
+                "www.rtve.es"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/api\\/bid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssb-global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helles-koepfchen.de",
+                "www.helles-koepfchen.de"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/getuid",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leafly.com",
+                "www.leafly.com"
+            ]
+        },
+        {
+            "rule": "smartadserver\\.com\\/getuid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "axd": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "techniker-forum.de",
+                "www.techniker-forum.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.00102,
+    "topInitiators": [
+        {
+            "domain": "sascdn.com",
+            "prevalence": 0.4979757085020243
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14979757085020243
+        },
+        {
+            "domain": "adnz.co",
+            "prevalence": 0.048582995951417005
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.03643724696356275
+        },
+        {
+            "domain": "hb-targa.s3.us-east-2.amazonaws.com",
+            "prevalence": 0.024291497975708502
+        },
+        {
+            "domain": "cdntrf.com",
+            "prevalence": 0.024291497975708502
+        },
+        {
+            "domain": "vlyby.com",
+            "prevalence": 0.024291497975708502
+        },
+        {
+            "domain": "aditude.io",
+            "prevalence": 0.020242914979757085
+        },
+        {
+            "domain": "vntsm.com",
+            "prevalence": 0.020242914979757085
+        },
+        {
+            "domain": "pubmatic.com",
+            "prevalence": 0.020242914979757085
+        }
+    ],
+    "types": {
+        "Fetch": 25,
+        "Image": 38,
+        "Document": 2,
+        "Preflight": 17,
+        "XHR": 17,
+        "Script": 13
+    },
+    "nameservers": [
+        "a22-67.akam.net",
+        "a1-96.akam.net",
+        "a11-65.akam.net",
+        "a4-65.akam.net",
+        "a14-66.akam.net",
+        "a3-64.akam.net"
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "domain": "qpilot.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "subscriber-portal"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "qpilot\\.cloud\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "subscriber-portal"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7d7ac99f5ccecd28b900934e0fcc043f93c1859fe3ba438fa44fff94f3ccf267"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheartcats.com",
+                "iheartdogs.com"
+            ]
+        },
+        {
+            "rule": "qpilot\\.cloud\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "subscriber-portal"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "99650dbccf92cdeb67106e2540ea545332f0fb181fa11efc3064098f5c1758d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheartcats.com",
+                "iheartdogs.com"
+            ]
+        },
+        {
+            "rule": "qpilot\\.cloud\\/polyfills\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "subscriber-portal"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f6350da94e6e31f8061683adc5f6d0ef76413862b958fda6401942ca9a1eda7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheartcats.com",
+                "iheartdogs.com"
+            ]
+        },
+        {
+            "rule": "qpilot\\.cloud\\/chunk-IDNWVSMG\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "subscriber-portal"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "03588531f3d5494fd985d66ebdac9d748b3dbf8cdd8e2df6b7cdccd9aa4b5029"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheartcats.com",
+                "iheartdogs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns71.domaincontrol.com",
+        "ns72.domaincontrol.com"
+    ]
+}

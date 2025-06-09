@@ -1,0 +1,60 @@
+{
+    "domain": "joyn.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "event-collector.prd.data.s"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "joyn\\.de\\/v2\\/screen_viewed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event-collector.prd.data.s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a82be21294fda307ebf7b70af85fd2c83e1ed9113449976320bb46305222e4e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joyn.at",
+                "www.sixx.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "p7s1.io",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-168.awsdns-21.com",
+        "ns-517.awsdns-00.net",
+        "ns-1478.awsdns-56.org",
+        "ns-1608.awsdns-09.co.uk"
+    ]
+}

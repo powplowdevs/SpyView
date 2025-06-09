@@ -1,0 +1,76 @@
+{
+    "domain": "revenuereel.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "revenuereel\\.com\\/player\\/397\\/default\\.js",
+            "cookies": 0.0000495,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7,
+                "HTMLMediaElement.prototype.canPlayType": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "e6e5169a112642d4323b046408ea94e53435c1ad1de4123a9dc72f52f802f05f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_trf_ps": {
+                    "ttl": 1802,
+                    "length": 21,
+                    "prevalence": 0.00004951335445903124,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24auto.de",
+                "www.24rhein.de",
+                "www.echo24.de",
+                "www.fnp.de",
+                "www.heidelberg24.de",
+                "www.op-online.de",
+                "www.soester-anzeiger.de",
+                "www.wa.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5172413793103449
+        },
+        {
+            "domain": "opencmp.net",
+            "prevalence": 0.4827586206896552
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "frank.ns.cloudflare.com",
+        "gwen.ns.cloudflare.com"
+    ]
+}

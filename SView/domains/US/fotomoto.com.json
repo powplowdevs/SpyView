@@ -1,0 +1,104 @@
+{
+    "domain": "fotomoto.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000134,
+    "sites": 19,
+    "subdomains": [
+        "widget",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "fotomoto\\.com\\/cart\\/get_data\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "8e93349045c292abefc8570cfd48917319ff51e567f1192982e6187d56f8bc13"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fotomoto_cart_skey_aa298da98ff0f0892b52466056f3b92178d62798": 0.0000070733363512901765,
+                "fotomoto_cart_skey_557a8c1a227ad9f1e404d3930c0bdb9b449a49cc": 0.0000070733363512901765,
+                "fotomoto_cart_skey_6516d00984933175769c2400a79cb6866b8ee643": 0.0000070733363512901765,
+                "fotomoto_cart_skey_4d1da97e281dc0ce3ba3112e2cea0b355a94dc82": 0.0000070733363512901765,
+                "fotomoto_cart_skey_54fcf3d239bdf90fddc5e5e326a141f2a6ed2d35": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "dentonrc.com",
+                "www.codyenterprise.com",
+                "www.dailyherald.com",
+                "www.fredericknewspost.com",
+                "www.gjsentinel.com",
+                "www.valleybreeze.com"
+            ]
+        },
+        {
+            "rule": "fotomoto\\.com\\/analytics\\/toolbar\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dentonrc.com",
+                "www.codyenterprise.com",
+                "www.dailyherald.com",
+                "www.fredericknewspost.com",
+                "www.gjsentinel.com",
+                "www.valleybreeze.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.48717948717948717
+        },
+        {
+            "domain": "static-fotomoto-com.s3.amazonaws.com",
+            "prevalence": 0.2564102564102564
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.20512820512820512
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.05128205128205128
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 6
+    },
+    "nameservers": [
+        "ns-240.awsdns-30.com",
+        "ns-910.awsdns-49.net",
+        "ns-1098.awsdns-09.org",
+        "ns-1907.awsdns-46.co.uk"
+    ]
+}

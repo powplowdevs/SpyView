@@ -1,0 +1,136 @@
+{
+    "domain": "browser-intake-datadoghq.com",
+    "owner": {
+        "name": "Datadog, Inc.",
+        "displayName": "Datadog"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000918,
+    "sites": 9,
+    "subdomains": [
+        "rum",
+        "csp-report"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "browser-intake-datadoghq\\.com\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "05f91046bf47ea7dcd0875f8ddf9e1f9bd27668bed92e19c46600a43b6b7d039",
+                "7dc66ff85be3cd39b877fe19b49b0eff376eb5bc7a897d62d96d06cf140b6f17",
+                "e47b3d930fd1b71d012fa764f3ef72fc1aed573c2f93f1e646d97329eee7a733",
+                "76cb70c441cc7e75db157f617824dc15386d9aa2267f9c872cc06314b447d02b",
+                "6f5ff3bbd55a11e66c34cca1223f0cef3cb77ed511a065d36fd3da3faf60dea2",
+                "36ea5a3fa274048991cc34fe12a0be4cc5d2e6bb2c7473595d7270a6626a0683",
+                "dcb7815f63a7d778f63fe37dc45a468a99122e378235a751c107b14144e58580"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hashicorp.com",
+                "developer.hashicorp.com",
+                "openai.com",
+                "www.codecademy.com",
+                "www.glassdoor.com",
+                "www.lastpass.com",
+                "www.viki.com",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "browser-intake-datadoghq\\.com\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "7510be790e1c8687d1d84c303ed84da931d8fa38d34f74d02518ce5758428e2d",
+                "ae9b027539b59c8370b34e0185c2c7e96024b66cdcbd33836e7d28c9cbce26eb",
+                "3ac4ca64d8465cfea3121e27b2acbac732bcc009c0320297fd3f44b9760dff6c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openai.com",
+                "www.codecademy.com",
+                "www.lastpass.com",
+                "www.viki.com"
+            ]
+        },
+        {
+            "rule": "browser-intake-datadoghq\\.com\\/api\\/v2\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csp-report"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evilangel.com",
+                "www.evilangel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.37681159420289856
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.2318840579710145
+        },
+        {
+            "domain": "zapier-deployment.com",
+            "prevalence": 0.2318840579710145
+        },
+        {
+            "domain": "viki.io",
+            "prevalence": 0.14492753623188406
+        },
+        {
+            "domain": "gammacdn.com",
+            "prevalence": 0.014492753623188406
+        }
+    ],
+    "types": {
+        "Fetch": 8,
+        "XHR": 4,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-1264.awsdns-30.org",
+        "ns-128.awsdns-16.com",
+        "ns-1907.awsdns-46.co.uk",
+        "ns-560.awsdns-06.net"
+    ]
+}

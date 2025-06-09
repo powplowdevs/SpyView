@@ -1,0 +1,64 @@
+{
+    "domain": "talroo.com",
+    "owner": {
+        "name": "Talroo, Inc.",
+        "displayName": "Talroo"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "pop"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "talroo\\.com\\/ads\\/v0\\/ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pop"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "c27229b13e622e5dabb83d7101bf47f3b573595832670debebf056c3c7e43432"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialworkerjobs.com",
+                "joblist.com",
+                "www.joblist.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-543.awsdns-03.net",
+        "ns-284.awsdns-35.com",
+        "ns-1664.awsdns-16.co.uk",
+        "ns-1392.awsdns-46.org"
+    ]
+}

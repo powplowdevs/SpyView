@@ -1,0 +1,54 @@
+{
+    "domain": "pricepanda.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "v2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "pricepanda\\.app\\/api\\/preview-product",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "896f00d24b2671b281aff387b5ddfb2296a118a00a24349d825d79eef5669b67"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jefferspet.com",
+                "www.mainelobsternow.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "shaz.ns.cloudflare.com",
+        "jeff.ns.cloudflare.com"
+    ]
+}

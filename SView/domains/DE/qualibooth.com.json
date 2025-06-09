@@ -1,0 +1,81 @@
+{
+    "domain": "qualibooth.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "cdn.portal-backend.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "qualibooth\\.com\\/script\\/e48815dc-1f70-42f2-9f2c-9f572efef2ec\\/assets\\/qualibooth\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.portal-backend.prod"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5fbe2606f18c4c0cc882bebf1e7bc8e3aaac937123817ddd088de80dcb18cf83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galeria.de",
+                "www.galeria.de"
+            ]
+        },
+        {
+            "rule": "qualibooth\\.com\\/script\\/e48815dc-1f70-42f2-9f2c-9f572efef2ec\\/assets\\/scan-Cpfem9cb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.portal-backend.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "07afbd9c4f2d0252404844ac40be44cf8e3bf5c369f5e49682e56bfb50580bc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galeria.de",
+                "www.galeria.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

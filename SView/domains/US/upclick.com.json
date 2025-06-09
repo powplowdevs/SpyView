@@ -1,0 +1,114 @@
+{
+    "domain": "upclick.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "gate",
+        "cgate.sodapdf"
+    ],
+    "cnames": [
+        {
+            "original": "cgate.sodapdf.com",
+            "resolved": "cgate.sodapdf.upclick.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "upclick\\.com\\/btn\\/visitor\\.min\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gate"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "7d528b4e0a23066b3ca098bf67a953053da106d378fb370a7794bc4ffeafa7e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vst": {
+                    "ttl": 10368005,
+                    "length": 12,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pdfescape.com",
+                "www.pdfescape.com",
+                "www.pdfforge.org",
+                "www.sodapdf.com"
+            ]
+        },
+        {
+            "rule": "upclick\\.com\\/click\\.aspx",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gate",
+                "cgate.sodapdf"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "cgate.sodapdf.com",
+                    "resolved": "cgate.sodapdf.upclick.com"
+                }
+            ],
+            "responseHashes": [
+                "c78bf59ce77e2917422a9e7509414ccc942203e2dd763af1d80422d5d424a7cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "qti": 0.00002122000905387053,
+                "visitor_id": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "pdfescape.com",
+                "www.pdfescape.com",
+                "www.sodapdf.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "avanquest.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "upclick.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "lulusoft.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns2.upclick.com",
+        "ns1.upclick.com"
+    ]
+}

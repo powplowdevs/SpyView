@@ -1,0 +1,185 @@
+{
+    "domain": "awoo.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "api",
+        "pixel-service"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "awoo\\.org\\/libs\\/popup-sdk-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eb2d5ac2de6134f0ebe655a6877c2e40f8283fd887dafb95ba1efb331758deab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomiz.com",
+                "www.dcm-ekurashi.com"
+            ]
+        },
+        {
+            "rule": "awoo\\.org\\/libs\\/awoo-pixel-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "BroadcastChannel.prototype.constructor": 8,
+                "window.localStorage": 8,
+                "window.sessionStorage": 8,
+                "Date.prototype.getTime": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.language": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "window.innerWidth": 8,
+                "window.innerHeight": 8,
+                "Screen.prototype.colorDepth": 8,
+                "Navigator.prototype.maxTouchPoints": 8,
+                "Date.prototype.getTimezoneOffset": 8
+            },
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "3a4d9b56d4709373904d49964ca1a9c81ce280abc35e9751aca9be55406834d5",
+                "f40f1a3cf68cffb5c71f70bd3cc0a5cad6975b15816849014ae22dd1adb327f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomiz.com",
+                "www.dcm-ekurashi.com",
+                "www.felissimo.co.jp",
+                "www.furusato-tax.jp",
+                "www.hmv.co.jp",
+                "www.irisplaza.co.jp",
+                "www.palcloset.jp",
+                "www.shop-shimamura.com",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "awoo\\.org\\/libs\\/campaign-builder-sdk-js-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "06d8eddea3597480753f529d3bcaaa98388541ee61f898dec1c41d7f02b6a173"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomiz.com",
+                "www.shop-shimamura.com"
+            ]
+        },
+        {
+            "rule": "awoo\\.org\\/awoo-pixel\\/sdk\\/v1\\/batch-logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel-service"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomiz.com",
+                "www.dcm-ekurashi.com",
+                "www.felissimo.co.jp",
+                "www.furusato-tax.jp",
+                "www.hmv.co.jp",
+                "www.shop-shimamura.com",
+                "www.sofmap.com"
+            ]
+        },
+        {
+            "rule": "awoo\\.org\\/nununi\\/sdk\\/5903657330\\/customerCustomizedConfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "furusato-tax.jp",
+                "www.furusato-tax.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Ping": 7,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e2.googledomains.com"
+    ]
+}

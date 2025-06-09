@@ -1,0 +1,57 @@
+{
+    "domain": "report-uri.com",
+    "owner": {
+        "name": "Report-URI Ltd.",
+        "displayName": "Report-URI"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "theqtcompany"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "report-uri\\.com\\/r\\/d\\/csp\\/reportOnly",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theqtcompany"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7e0d16bf5e01d2ff730972fa1fe313ada0ee57d21f79add57d2d70d7fe47a2aa"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qt.io",
+                "forum.qt.io"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Other": 2
+    },
+    "nameservers": [
+        "carl.ns.cloudflare.com",
+        "coco.ns.cloudflare.com"
+    ]
+}

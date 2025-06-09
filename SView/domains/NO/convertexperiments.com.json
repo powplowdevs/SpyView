@@ -1,0 +1,131 @@
+{
+    "domain": "convertexperiments.com",
+    "owner": {
+        "name": "Convert Insights Inc",
+        "displayName": "Convert Insights"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00153,
+    "sites": 15,
+    "subdomains": [
+        "logs",
+        "10007574.metrics",
+        "100414211.metrics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "convertexperiments\\.com\\/v1\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ipinfo.io",
+                "www.mobelringen.no"
+            ]
+        },
+        {
+            "rule": "convertexperiments\\.com\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "image-line.com",
+                "www.image-line.com"
+            ]
+        },
+        {
+            "rule": "convertexperiments\\.com\\/log-rep\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "10007574.metrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "image-line.com",
+                "www.image-line.com"
+            ]
+        },
+        {
+            "rule": "convertexperiments\\.com\\/v1\\/track\\/100413175\\/100414211",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "100414211.metrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mobelringen.no",
+                "www.mobelringen.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000921,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.26666666666666666
+        }
+    ],
+    "types": {
+        "Ping": 8
+    },
+    "nameservers": [
+        "ns-1039.awsdns-01.org",
+        "ns-1950.awsdns-51.co.uk",
+        "ns-300.awsdns-37.com",
+        "ns-740.awsdns-28.net"
+    ]
+}

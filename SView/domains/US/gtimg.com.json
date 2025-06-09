@@ -1,0 +1,80 @@
+{
+    "domain": "gtimg.com",
+    "owner": {
+        "name": "Tencent Holdings Ltd.",
+        "displayName": "Tencent"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "captcha",
+        "global.captcha"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gtimg\\.com\\/static\\/tcaptcha-frame\\.6f567337\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "captcha",
+                "global.captcha"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Screen.prototype.orientation": 1,
+                "URL.createObjectURL": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "70432845cea2846dba6080f3b384b13c4adef8b005432afad0e172e578925554"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smzdm.com",
+                "www.moomoo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "qq.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "gtimg.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "qcloud.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.qq.com",
+        "ns2.qq.com",
+        "ns3.qq.com",
+        "ns4.qq.com"
+    ]
+}

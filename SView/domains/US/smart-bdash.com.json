@@ -1,0 +1,278 @@
+{
+    "domain": "smart-bdash.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [
+        "cdn.activity",
+        "tracker",
+        "receptions",
+        "recommendserveweb",
+        "tracker-rec"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smart-bdash\\.com\\/tracking-script\\/bdash_log\\.js",
+            "cookies": 0.0000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 10,
+                "Navigator.prototype.userAgent": 10
+            },
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "6258355e386deb41b5b8d8d3141c09a3da89a4fa6fc8eeba9132e426ff0b8f87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bd_prev_page": {
+                    "ttl": 1806,
+                    "length": 94,
+                    "prevalence": 0.00007073336351290176,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "ebookstore.sony.jp",
+                "iko-yo.net",
+                "joshinweb.jp",
+                "shop.takii.co.jp",
+                "www.amiami.jp",
+                "www.cainz.com",
+                "www.dospara.co.jp",
+                "www.e-earphone.jp",
+                "www.melonbooks.co.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/tracking",
+            "cookies": 0.0000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "e3976422f212ab54c2990a975420acf326f0c703b9b3c4e53d9ac9b23af3ed4d",
+                "cb5fd1fe35c8cf16f5a7df16c79755ad7702422fec750ef0c35a1b10e8f45e23",
+                "6628dfcf6941b9225f8483cc7cbdf2597df6aa0f4ea07993bb5b3d26615da39c",
+                "d8196853ca17956bdfb88bf7b50b05384d03bb534030f141fa58dac5a3e20185",
+                "7e5d67470b8f5a58302e37b5e610eea1d6c2956911f32d1cf8488c8931364f02",
+                "f2b2241af296a99a911d4a067199dc97a81a29323d67492d348a40acb49435c0",
+                "7ed586fb90464538b568a1d26715d479fb7abcaf021d8383df58361a5e42ec07",
+                "63b3a3a29ed82da4cbfdbb865ee921e6391df0f7bc46b86c91d1a42f3475cbfd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diskunion.net",
+                "ebookstore.sony.jp",
+                "joshinweb.jp",
+                "shop.takii.co.jp",
+                "www.amiami.jp",
+                "www.cainz.com",
+                "www.dospara.co.jp",
+                "www.e-earphone.jp",
+                "www.melonbooks.co.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/reception-script\\/reception\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.activity"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "0f85d06e7611792dba8d83805604235c572e160653147a4f442ff89298dfd780"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bd_reception_request_timestamp": {
+                    "ttl": null,
+                    "length": 25,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "iko-yo.net",
+                "www.cainz.com",
+                "www.e-earphone.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/receptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "receptions"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "1f2154f184224ab36eadc265001b61a51b3a9117dd188ddbacd487137012bdee",
+                "34f223d673289da4663e7804dec7a85259c41de1b5bd6cc328d7e383f4049451",
+                "e930e3f0a65ad41105bd83e44bdea94fa34a40c752eb0d1383a426a090d07856"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.cainz.com",
+                "www.e-earphone.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/receptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "receptions"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.cainz.com",
+                "www.e-earphone.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/out\\/getRecs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendserveweb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "155bc9a927745e688d8217af542b0ce484d66f94ea80920f31c38cc19ad7a13d",
+                "17062d32cbf22e866ee8ce6619c7c5e06630cd652c0d72b91f65b6a56889258a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takii.co.jp",
+                "www.e-earphone.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/out\\/multi_recommendations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendserveweb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "634b61313267ad1a585c21879ce6c3e4adad2196f9b65d2384fbc2e2e9ba5fa4",
+                "865c4f4fc7e4a1ce74e84739717c66b8a2ebfe144d4ade06bcbddb1830c69bbe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takii.co.jp",
+                "www.e-earphone.jp",
+                "www.ozmall.co.jp"
+            ]
+        },
+        {
+            "rule": "smart-bdash\\.com\\/activity",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker-rec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "takii.co.jp",
+                "shop.takii.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000092,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.631578947368421
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3684210526315789
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "XHR": 22,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-260.awsdns-32.com",
+        "ns-864.awsdns-44.net",
+        "ns-1638.awsdns-12.co.uk",
+        "ns-1069.awsdns-05.org"
+    ]
+}

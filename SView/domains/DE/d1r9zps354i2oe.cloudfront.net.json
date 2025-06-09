@@ -1,0 +1,113 @@
+{
+    "domain": "d1r9zps354i2oe.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api3.wetter.de",
+            "resolved": "d1r9zps354i2oe.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "d1r9zps354i2oe\\.cloudfront\\.net\\/api\\/v1\\/articles",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "api3.wetter.de",
+                    "resolved": "d1r9zps354i2oe.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "dae7759bc0dd8cd11c780c7754a2ed132358a28cbb1c81cd92b5e1bd9a3a092c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.de",
+                "www.wetter.de"
+            ]
+        },
+        {
+            "rule": "d1r9zps354i2oe\\.cloudfront\\.net\\/api\\/v1\\/places",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "api3.wetter.de",
+                    "resolved": "d1r9zps354i2oe.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "2f0b9e570b165e9185f4e3ca971cd0ed12c4533b25eb816e0b5742a88bb4454c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.de",
+                "www.wetter.de"
+            ]
+        },
+        {
+            "rule": "d1r9zps354i2oe\\.cloudfront\\.net\\/api\\/v1\\/current-conditions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "api3.wetter.de",
+                    "resolved": "d1r9zps354i2oe.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "4b308da405f24d0476b80a1f00edff35d109726206a52f98760f0262829abb77"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.de",
+                "www.wetter.de"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-1003.awsdns-61.net",
+        "ns-1064.awsdns-05.org",
+        "ns-2017.awsdns-60.co.uk",
+        "ns-503.awsdns-62.com"
+    ]
+}

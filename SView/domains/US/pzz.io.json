@@ -1,0 +1,69 @@
+{
+    "domain": "pzz.io",
+    "owner": {
+        "name": "Kizitos Holding B.V.",
+        "displayName": "Kizitos Holding"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pzz\\.io\\/pzz\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "563d2d9469ea31679cb8e6b04d93693c78add673d410fdc70f76509fba9f329c",
+                "dc774625e213745d105c14b048c6aace399096bfbe72bda777791f0629c517bb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pzz_session_id": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "girlswhomagazine.nl",
+                "www.huisvlijt.com",
+                "www.mamaliefde.nl",
+                "www.modekoninginmaxima.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-cloud-d4.googledomains.com",
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d3.googledomains.com"
+    ]
+}

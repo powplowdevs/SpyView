@@ -1,0 +1,193 @@
+{
+    "domain": "d2pass.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "login",
+        "www",
+        "images"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d2pass\\.com\\/n15\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heyzo.com",
+                "www.caribbeancom.com",
+                "www.heyzo.com"
+            ]
+        },
+        {
+            "rule": "d2pass\\.com\\/form\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heyzo.com",
+                "www.caribbeancom.com",
+                "www.heyzo.com"
+            ]
+        },
+        {
+            "rule": "d2pass\\.com\\/ajax\\/toolbar",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caribbeancom.com",
+                "www.caribbeancom.com",
+                "www.heyzo.com"
+            ]
+        },
+        {
+            "rule": "d2pass\\.com\\/images\\/d2p_toolbar\\/min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "94c84261e274c0838d2fd80c1b93f977641a75e2957f6c3dd26e32b436a4fdaa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caribbeancom.com",
+                "www.heyzo.com"
+            ]
+        },
+        {
+            "rule": "d2pass\\.com\\/images\\/d2p_toolbar\\/dxtoy\\/toolbar\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "62d7c945632b56b57b776810cadd80b1cc787f5cf4695964d2222afd768066b7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caribbeancom.com",
+                "www.heyzo.com"
+            ]
+        },
+        {
+            "rule": "d2pass\\.com\\/images\\/d2p_toolbar\\/images\\/spr_gh_icon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3709c7fe8f3dcdfa47d3629668486e171fdac649f5582a16e87661669a560fb9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caribbeancom.com",
+                "www.heyzo.com"
+            ]
+        },
+        {
+            "rule": "d2pass\\.com\\/images\\/d2p_toolbar\\/images\\/d2p_logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "236c1c3a9807f8615ed79d99e34c59b04eea82b81656e0cba91f624463884333"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caribbeancom.com",
+                "www.heyzo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.23076923076923078
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Stylesheet": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ned.ns.cloudflare.com",
+        "monroe.ns.cloudflare.com"
+    ]
+}

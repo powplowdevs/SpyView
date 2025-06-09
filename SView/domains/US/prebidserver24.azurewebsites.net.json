@@ -1,0 +1,60 @@
+{
+    "domain": "prebidserver24.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prebidserver24\\.azurewebsites\\.net\\/setuid",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "c956a8bbf43bb56f60d1beefcc5a70f2cb0725083a00e8a0daf423176509fd18"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "colorhunt.co",
+                "freebeacon.com",
+                "spacecoastdaily.com",
+                "testmy.net"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "script.ac",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Image": 4
+    },
+    "nameservers": []
+}

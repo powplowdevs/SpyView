@@ -1,0 +1,233 @@
+{
+    "domain": "factors.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "app",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "factors\\.ai\\/assets\\/factors\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "b045e548e242c55b0a1a17a75196e2f034ef9b3651992c6dc2d74f465067a594"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_fuid": {
+                    "ttl": 63072003,
+                    "length": 48,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "egnyte.com",
+                "www.browserstack.com",
+                "www.egnyte.com",
+                "www.galls.com",
+                "www.protolabs.com"
+            ]
+        },
+        {
+            "rule": "factors\\.ai\\/sdk\\/get_info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "egnyte.com",
+                "www.amsvans.com",
+                "www.browserstack.com",
+                "www.egnyte.com",
+                "www.galls.com",
+                "www.protolabs.com"
+            ]
+        },
+        {
+            "rule": "factors\\.ai\\/sdk\\/get_info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "07261765e82f4c3c733ccabcc1a4016619c1bb8b7f5b29cce04810ec25595202",
+                "65d14d410441102d02cc2e5d852ec286764568da3be81d6eedfc87143c41d5bd",
+                "bb4077c26a78f3ecd4ab1565b39436af91c8e15f9fdecc46cddbef3d976b1fa9",
+                "aa138464273ee362d65428be6b382495ed46ad781b5ba1ba4f837b5fa512d573",
+                "f6994fdbf37dd755c2f1393e1520e8a263384c71095ad1cd6c352bc4756b1299"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "egnyte.com",
+                "www.amsvans.com",
+                "www.browserstack.com",
+                "www.egnyte.com",
+                "www.galls.com",
+                "www.protolabs.com"
+            ]
+        },
+        {
+            "rule": "factors\\.ai\\/sdk\\/event\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "egnyte.com",
+                "www.browserstack.com",
+                "www.egnyte.com",
+                "www.protolabs.com"
+            ]
+        },
+        {
+            "rule": "factors\\.ai\\/sdk\\/event\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "egnyte.com",
+                "www.browserstack.com",
+                "www.egnyte.com",
+                "www.protolabs.com"
+            ]
+        },
+        {
+            "rule": "factors\\.ai\\/sdk\\/user\\/add_properties",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "egnyte.com",
+                "helpdesk.egnyte.com",
+                "www.amsvans.com",
+                "www.egnyte.com",
+                "www.galls.com",
+                "www.protolabs.com"
+            ]
+        },
+        {
+            "rule": "factors\\.ai\\/sdk\\/user\\/add_properties",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "d77e82654b78a6f97d3b45cacbca5901b92394f5489aed5de07fab2d0efc2015"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "egnyte.com",
+                "helpdesk.egnyte.com",
+                "www.amsvans.com",
+                "www.egnyte.com",
+                "www.galls.com",
+                "www.protolabs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Preflight": 16,
+        "Fetch": 16
+    },
+    "nameservers": [
+        "pdns1.registrar-servers.com",
+        "pdns2.registrar-servers.com"
+    ]
+}

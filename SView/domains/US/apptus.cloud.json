@@ -1,0 +1,162 @@
+{
+    "domain": "apptus.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "w67a8630f.api.esales",
+        "wdb083b57.api.esales",
+        "w251ac48e.api.esales",
+        "wbd81f9f3.api.esales",
+        "wb0b44337.api.esales",
+        "wae24fd27.api.esales"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "apptus\\.cloud\\/api\\/storefront\\/v3\\/queries\\/landing-page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w67a8630f.api.esales",
+                "wdb083b57.api.esales",
+                "w251ac48e.api.esales"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "cf5a741d01bff8ea58e634161bf7d71e1a288eaea88fe4e63e9f9df0392553ce",
+                "e54dd1830a80969eae78719483874a4a97bb13b252e9e75d5e04ef906ea48fa6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nelly.com",
+                "www.cervera.se",
+                "www.skatepro.com"
+            ]
+        },
+        {
+            "rule": "apptus\\.cloud\\/api\\/storefront\\/v3\\/queries\\/autocomplete",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wdb083b57.api.esales",
+                "wbd81f9f3.api.esales"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f049f3a2842cd8ba83d6ed829f93eef0b9aa5d06500569f7c8c4b776d41e5eb6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cervera.se",
+                "www.kronansapotek.se"
+            ]
+        },
+        {
+            "rule": "apptus\\.cloud\\/api\\/storefront\\/v3\\/queries\\/product-page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wdb083b57.api.esales",
+                "wb0b44337.api.esales"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "df8d033c56ad3ea09d4f891120b9d512381ddcb8c3b16fc67fc1818211e3b11f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cervera.se",
+                "www.elon.se"
+            ]
+        },
+        {
+            "rule": "apptus\\.cloud\\/api\\/storefront\\/v3\\/queries\\/landing-page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wae24fd27.api.esales"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "sessionKey": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "xxl.fi",
+                "www.xxl.no",
+                "www.xxl.se"
+            ]
+        },
+        {
+            "rule": "apptus\\.cloud\\/api\\/storefront\\/v3\\/queries\\/landing-page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wae24fd27.api.esales"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "3c6a2a93b63a3bad869426207035b52a48da3152dab3054eaa13386505fc47c4",
+                "32f7d14fa529caba3d5744e8f6045aeff5aa824e5830576ab5fbaa0075b9b901"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "sessionKey": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "xxl.fi",
+                "www.xxl.no",
+                "www.xxl.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 7,
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-1412.awsdns-48.org",
+        "ns-909.awsdns-49.net",
+        "ns-404.awsdns-50.com",
+        "ns-1630.awsdns-11.co.uk"
+    ]
+}

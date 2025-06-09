@@ -1,0 +1,78 @@
+{
+    "domain": "kato-services.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "kato-services\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knivesandtools.nl",
+                "www.knivesandtools.com",
+                "www.knivesandtools.de"
+            ]
+        },
+        {
+            "rule": "kato-services\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "b72615bcd5a531e41c25c975a2ad655899fab5fafb1e154add626bf95dca95df",
+                "afa10cb63c4a351e981479fb779c16486e5190f82d81983ffe07a12501608093"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knivesandtools.com",
+                "www.knivesandtools.nl",
+                "www.knivesandtools.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "amy.ns.cloudflare.com",
+        "art.ns.cloudflare.com"
+    ]
+}

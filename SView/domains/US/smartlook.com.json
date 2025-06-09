@@ -1,0 +1,134 @@
+{
+    "domain": "smartlook.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000778,
+    "sites": 110,
+    "subdomains": [
+        "web-sdk",
+        "rec"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "smartlook\\.com\\/recorder\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-sdk",
+                "rec"
+            ],
+            "apis": {
+                "window.sessionStorage": 67,
+                "window.localStorage": 68
+            },
+            "sites": 81,
+            "prevalence": 0.000573,
+            "cnames": [],
+            "responseHashes": [
+                "a81bf318de7ff87017f6ea6b1a370534ca10cddd8956b14c6712595d22c63f9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.mcarthurglen.com",
+                "www.insinkerator.com",
+                "www.nhp-motoculture.fr",
+                "www.nacha.org",
+                "mightymule.com",
+                "www.thebestcatholic.com",
+                "modularclosets.com",
+                "alison.com",
+                "zlinekitchen.com",
+                "earthroamer.com",
+                "qa.philstar.com",
+                "top40weekly.com",
+                "www.sayidaty.net",
+                "www.avrebo.com",
+                "www.babypark.nl",
+                "www.nakedwines.com",
+                "www.splunk.com",
+                "mygeodata.cloud",
+                "talentrecap.com",
+                "www.philstar.com"
+            ]
+        },
+        {
+            "rule": "smartlook\\.com\\/es6\\/init\\.4e02050bca448f127b3f\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "web-sdk",
+                "rec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 63,
+                "Navigator.prototype.webdriver": 61,
+                "window.localStorage": 66,
+                "Notification.permission": 29,
+                "Navigator.prototype.plugins": 28
+            },
+            "sites": 79,
+            "prevalence": 0.000559,
+            "cnames": [],
+            "responseHashes": [
+                "cd975a368006fc64d1b45b2455ace6efd8bc555f3b9f7f8fb40caa5247c18f5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qa.philstar.com",
+                "www.equipfoods.com",
+                "earthroamer.com",
+                "bejandaruwalla.com",
+                "www.babypark.nl",
+                "www.temple.edu",
+                "www.nvisioncenters.com",
+                "modularclosets.com",
+                "community.splunk.com",
+                "www.nakedwines.com",
+                "zlinekitchen.com",
+                "allevents.in",
+                "talentrecap.com",
+                "www.postplanner.com",
+                "www.thelines.com",
+                "www.sayidaty.net",
+                "rethority.com",
+                "www.partswarehouse.com",
+                "www.alldaychemist.com",
+                "www.bodyspec.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6610169491525424
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3305084745762712
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.00847457627118644
+        }
+    ],
+    "types": {
+        "Script": 160
+    },
+    "nameservers": [
+        "ns-1317.awsdns-36.org",
+        "ns-1600.awsdns-08.co.uk",
+        "ns-429.awsdns-53.com",
+        "ns-949.awsdns-54.net"
+    ]
+}

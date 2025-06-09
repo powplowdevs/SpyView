@@ -1,0 +1,89 @@
+{
+    "domain": "naver.com",
+    "owner": {
+        "name": "Naver Corporation",
+        "displayName": "Naver"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000205,
+    "sites": 2,
+    "subdomains": [
+        "wcs",
+        "nam.veta"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "naver\\.com\\/b",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wcs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monica.im",
+                "www.movavi.com"
+            ]
+        },
+        {
+            "rule": "naver\\.com\\/nac\\/2",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nam.veta"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "a1ab3d90bdbb6840db9c762ac0ba9543cbfcd9d9fc3b060d41cdf33ea08680c6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monica.im",
+                "www.movavi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000205,
+    "topInitiators": [
+        {
+            "domain": "naver.net",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "pstatic.net",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "staticont.net",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Ping": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns2.naver.com",
+        "ns1.naver.com"
+    ]
+}

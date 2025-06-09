@@ -1,0 +1,65 @@
+{
+    "domain": "invitemedia.com",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "segment-pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "invitemedia\\.com\\/pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "segment-pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f44fc477a68a8ad6263bfe6a92e3703e410b56e99424b73b19787135a0db00c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artic.edu",
+                "www.prweb.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns4.google.com",
+        "ns2.google.com",
+        "ns1.google.com",
+        "ns3.google.com"
+    ]
+}

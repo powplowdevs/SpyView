@@ -1,0 +1,106 @@
+{
+    "domain": "leadsrx.com",
+    "owner": {
+        "name": "Sargents, Inc.",
+        "displayName": "Sargents"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000418,
+    "sites": 4,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "leadsrx\\.com\\/visitor\\.js",
+            "cookies": 0.000314,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000314,
+            "cnames": [],
+            "responseHashes": [
+                "c3eb7e86a765407a84e441b80826ebf715ae95736b33752f34d8180fbfe6a9c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_lab": {
+                    "ttl": 31536000,
+                    "length": 16,
+                    "prevalence": 0.0003137418950010458,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "envisionfinancial.ca",
+                "www.islandsavings.ca",
+                "www.valleyfirst.com"
+            ]
+        },
+        {
+            "rule": "leadsrx\\.com\\/visitor\\.php",
+            "cookies": 0.000314,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000314,
+            "cnames": [],
+            "responseHashes": [
+                "2c1b288696477fbb35719b243b4406d986afce3e47e720310005e4c9a749f14c",
+                "3f35bf0a8cc6e558139725b354f723a45db2865fe6eeed9b769cd10bfb4bb5e0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "envisionfinancial.ca",
+                "www.islandsavings.ca",
+                "www.valleyfirst.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000418,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "central1.cc",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "mantisadnetwork.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-98.awsdns-12.com",
+        "ns-774.awsdns-32.net",
+        "ns-1766.awsdns-28.co.uk",
+        "ns-1509.awsdns-60.org"
+    ]
+}

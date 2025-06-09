@@ -1,0 +1,67 @@
+{
+    "domain": "termsfeed.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000411,
+    "sites": 4,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "termsfeed\\.com\\/public\\/cookie-consent\\/4\\.1\\.0\\/cookie-consent\\.js",
+            "cookies": 0.000308,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000308,
+            "cnames": [],
+            "responseHashes": [
+                "3970995f9349f50d7f5282d33468940828f7a27e2aac2116126ea6698ce243cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookie_consent_level": {
+                    "ttl": 315360005,
+                    "length": 117,
+                    "prevalence": 0.0003080082135523614,
+                    "uniqueness": 0.6666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "codepal.ai",
+                "www.aligro.ch",
+                "www.unine.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000308,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "leia.ns.cloudflare.com",
+        "justin.ns.cloudflare.com"
+    ]
+}

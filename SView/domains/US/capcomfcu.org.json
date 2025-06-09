@@ -1,0 +1,75 @@
+{
+    "domain": "capcomfcu.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "ratesapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "capcomfcu\\.org\\/api\\/rates",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ratesapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadviewfcu.com",
+                "www.broadviewfcu.com"
+            ]
+        },
+        {
+            "rule": "capcomfcu\\.org\\/api\\/rates",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ratesapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0b5d343eb87be1ada4f80e8660d66c6418270e4b6d3cfd9a5e78b09f30b53345"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadviewfcu.com",
+                "www.broadviewfcu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "a3.uberns.org",
+        "b3.uberns.org"
+    ]
+}

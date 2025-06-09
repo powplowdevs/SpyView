@@ -1,0 +1,141 @@
+{
+    "domain": "stripe.network",
+    "owner": {
+        "name": "Stripe, Inc",
+        "displayName": "Stripe",
+        "privacyPolicy": "https://stripe.com/privacy",
+        "url": "http://stripe.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00519,
+    "sites": 49,
+    "subdomains": [
+        "m"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stripe\\.network\\/inner\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 48,
+            "prevalence": 0.00509,
+            "cnames": [],
+            "responseHashes": [
+                "34a85e78b5402c253c2bc4cf64426c2b6b18601602e8a9a71568139fb3ee6599"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itsfoss.com",
+                "www.raceandroad.com.au",
+                "tracker.gg",
+                "www.fluentu.com",
+                "www.qnapshop.com.au",
+                "www.greenlivingaustralia.com.au",
+                "www.solar4rvs.com.au",
+                "tipping.afl.com.au",
+                "www.ama.com.au",
+                "www.artstation.com",
+                "bellroy.com",
+                "www.flexclip.com",
+                "mubi.com",
+                "www.amcal.com.au",
+                "www.baliholidaysecrets.com",
+                "www.justinguitar.com",
+                "www.autopartssupply.com.au",
+                "carpart.com.au",
+                "watchcharts.com",
+                "www.tennisonly.com.au"
+            ]
+        },
+        {
+            "rule": "stripe\\.network\\/out-4\\.5\\.44\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 18,
+                "Navigator.prototype.doNotTrack": 18,
+                "Navigator.prototype.languages": 18,
+                "Navigator.prototype.platform": 18,
+                "Navigator.prototype.plugins": 18,
+                "window.devicePixelRatio": 18,
+                "window.sessionStorage": 18,
+                "window.localStorage": 18,
+                "Navigator.prototype.userAgent": 17,
+                "Navigator.prototype.mimeTypes": 17,
+                "Screen.prototype.availWidth": 13,
+                "Screen.prototype.availHeight": 13,
+                "Screen.prototype.colorDepth": 13,
+                "Date.prototype.getTimezoneOffset": 4,
+                "CanvasRenderingContext2D.prototype.measureText": 4,
+                "HTMLCanvasElement.prototype.toDataURL": 4
+            },
+            "sites": 20,
+            "prevalence": 0.00212,
+            "cnames": [],
+            "responseHashes": [
+                "bd6e71e0a8f18b3dd4bbeb6fd673015fec896bd92e17c11f3dc8fe96a06de1f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bellroy.com",
+                "fontawesome.com",
+                "itsfoss.com",
+                "michellerowland.com.au",
+                "roll20.net",
+                "tipping.afl.com.au",
+                "watchcharts.com",
+                "www.artstation.com",
+                "www.brighteon.com",
+                "www.campsmart.net.au",
+                "www.capitalbrief.com",
+                "www.freecodecamp.org",
+                "www.frontlinehobbies.com.au",
+                "www.greenlivingaustralia.com.au",
+                "www.qnapshop.com.au",
+                "www.raceandroad.com.au",
+                "www.runningwarehouse.com.au",
+                "www.shortform.com",
+                "www.solar4rvs.com.au",
+                "www.specialitytrees.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "stripe.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 48,
+        "Script": 20
+    },
+    "nameservers": [
+        "ns-1087.awsdns-07.org",
+        "ns-1882.awsdns-43.co.uk",
+        "ns-423.awsdns-52.com",
+        "ns-705.awsdns-24.net"
+    ]
+}

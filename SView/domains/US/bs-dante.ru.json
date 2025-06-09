@@ -1,0 +1,101 @@
+{
+    "domain": "bs-dante.ru",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "adviser"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bs-dante\\.ru\\/candy\\/hit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adviser"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drom.ru",
+                "baza.drom.ru",
+                "www.drom.ru"
+            ]
+        },
+        {
+            "rule": "bs-dante\\.ru\\/api\\/v1\\/banners",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6a3cb74f96cf5b8fd436b3f7fee626416571444c8f2813b362b688946efe1445",
+                "c59e36a10bfe21a7b44efe0bdda2930d6865e29731110117b6a7f67e7f1d0e03"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drom.ru",
+                "baza.drom.ru",
+                "www.drom.ru"
+            ]
+        },
+        {
+            "rule": "bs-dante\\.ru\\/api\\/v2\\/statistic\\/set_show",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fba69b922ebf42ed95a474f7145494aba6530fd91011af547e354b8e4dd384ac"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drom.ru",
+                "www.drom.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "rdrom.ru",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "XHR": 8
+    },
+    "nameservers": [
+        "dns1.fast.ru",
+        "dns2.fast.ru"
+    ]
+}

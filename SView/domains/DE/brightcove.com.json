@@ -1,0 +1,212 @@
+{
+    "domain": "brightcove.com",
+    "owner": {
+        "name": "Brightcove, Inc.",
+        "displayName": "Brightcove",
+        "privacyPolicy": "https://www.brightcove.com/en/legal/privacy",
+        "url": "http://brightcove.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [
+        "metrics",
+        "assets.map",
+        "map",
+        "edge.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "brightcove\\.com\\/v2\\/tracker",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aljazeera.net",
+                "www.aljazeera.net",
+                "www.dws.de",
+                "www.nxp.com",
+                "www.servicenow.com",
+                "www.webex.com",
+                "www.wtatennis.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/plugin\\/dist\\/videojs-bc-map-core\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.map"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "be941e0dd84fbead04815b276a1a777e0ed994b7fd59f07f3f6054bd086e3d28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nxp.com",
+                "www.webex.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/config",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "map"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7a7a44a5866874a65ff871a463a22067dbc175c96d0ba370a04fb86661ec513d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nxp.com",
+                "www.webex.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/5703385908001\\/videos\\/6372386616112",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "www.servicenow.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/5703385908001\\/videos\\/6372386616112",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "05e257417ce1b92b51778590c1367ac06137e8a0094f2f29abe67319e6c153a4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "www.servicenow.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/2744552178001\\/videos\\/6370969865112",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens-healthineers.com",
+                "www.siemens-healthineers.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/2744552178001\\/videos\\/6370969865112",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3e2794adcade20066bcfb18c9184774b6e4b3c99bef5db16983d1da4ebdd06c2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens-healthineers.com",
+                "www.siemens-healthineers.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "Analytics",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "brightcove.net",
+            "prevalence": 0.8541666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14583333333333334
+        }
+    ],
+    "types": {
+        "Image": 7,
+        "Script": 4,
+        "Preflight": 4,
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1426.awsdns-50.org",
+        "ns-1868.awsdns-41.co.uk",
+        "ns-359.awsdns-44.com",
+        "ns-668.awsdns-19.net"
+    ]
+}

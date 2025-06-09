@@ -1,0 +1,802 @@
+{
+    "domain": "wellsfargo.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "connect.secure",
+        "wca",
+        "static"
+    ],
+    "cnames": [
+        {
+            "original": "connect.secure.wellsfargo.com",
+            "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+        },
+        {
+            "original": "static.wellsfargo.com",
+            "resolved": "static.wellsfargo.com.edgekey.net"
+        },
+        {
+            "original": "wca.sec.wellsfargo.com",
+            "resolved": "wca.wellsfargo.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/auth\\/static\\/prefs\\/login-userprefs\\.min\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "582366e5e9c79eeef910cbae564a05ba724e7393a6f01956a19a37661e10f8f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargoadvisors.com",
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/auth\\/static\\/prefs\\/atadun\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c3da138d9164db792ba6876aa7582949c985b072ee1ac5de2b20fc60153226c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargoadvisors.com",
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/jenny\\/nd",
+            "cookies": 0.0000212,
+            "fingerprinting": 3,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "975d7f13402215cda94d530a0eea5267bf9a6685657b8453711963b6c59e4dd6",
+                "7614dd420b7a28fe08bc668adfc4dba891e8b9f6e1503ad5ebf37f673bed5701"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ncookietest": {
+                    "ttl": -1747341664,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "ndsid": {
+                    "ttl": 3600,
+                    "length": 23,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargoadvisors.com",
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/wcawidget\\/build\\/2\\.0\\/wca-widget\\.min\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wca"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "wca.sec.wellsfargo.com",
+                    "resolved": "wca.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "29994cbd1f94adae0efc6532bee432d900779792d3c84ed7ba6a9ec2820928d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "retailservices.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/wfui\\/appdynamics\\/appdEUMConfig\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "52b687a685d2239142be0db5335c5710951ba8c2b39a44431a40f156b4d9312d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/auth\\/static\\/depm\\/depm_wrapper\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2535d7408c5e07f9f73666014e8d7c56115bd7bbd7b318af89473a3c3aa3e291"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/wfui\\/container\\/wfui-container-bottom\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d488f9536d0559572ffed49ed24d2a928025d1408640c1724c660311d92fa1eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/scripttemplates\\/otSDKStub\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7358c5616f671017f307d161644d253f0f81083b0be68f3a3fefefa33b59de5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/auth\\/static\\/depm\\/8556c7b1\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1ed7d725c1729e8007a94e1ca8d20259cb0c53b36aaab221ca65feb5b4d92e22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/consent\\/ec31ce42-18f4-4288-9419-e97e758f2d39\\/ec31ce42-18f4-4288-9419-e97e758f2d39\\.json",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2cffbf65afab78156626689c769641b50627fcfe1d7730e14fe7e17f0ec594a2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/scripttemplates\\/202407\\.1\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "51c8dc48fb49d5df075bf32d6655815cce9440a80bef0458f72a5bb85fa96d4f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/consent\\/ec31ce42-18f4-4288-9419-e97e758f2d39\\/01926c9e-0dc1-7b91-bac5-590f222d647d\\/en\\.json",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "677b7600a59b9c8fc27a1ca94ce077280b30d9fa8d79d13c2fb176a7356fea3f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/accounts\\/static\\/7M\\/accounts\\/short\\/accounts-cache\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "089b307692ee593b548649a44ea2cfd0ed4feedca359907ece9762b6e8b6eb19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/wfui\\/appdynamics\\/adrum-ext\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "385196f0fce7cea80c2c99d971780ecb73df9dea6e5b2d95d19df3aa849c7b1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/wfui\\/appdynamics\\/adrum-ext\\.b4436be974de477658d4a93afb752165\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7f0d10bc282c3d7b0eb4d7527303490f8d3b86a1c65e293c2d9f0793006441e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/accounts\\/static\\/7M\\/accounts\\/public\\/js\\/runtime\\.e82ece03ce43740121c1\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "279617a7e71d3320d183887c473d644b67d4bd4108eb11cf4c716f0be0619ddf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/accounts\\/static\\/7M\\/accounts\\/public\\/js\\/vendor\\.ddbb72c561669056878f\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b7dc818ca57ea83d57d07f7520c2b2e871c9877afe17f871d68f02b58b3f4c37"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/accounts\\/static\\/7M\\/accounts\\/public\\/js\\/main\\.965f60f6327d1e6326db\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "eed7afa449dd87046526479ebb49042d4cbefd326be6c09e92514c2e3666f932"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/accounts\\/static\\/7M\\/accounts\\/public\\/js\\/wfui\\.da0b5f51099fc808562d\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "40fb612fa3ae839c80c6dabeb365695d068497f12f97c20c25caeabfd5c9534a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/accounts\\/static\\/7M\\/accounts\\/public\\/stylesheets\\/main\\.9bf2182b050608915e61\\.css",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "40c7b3b5a74b29c166dad7054e75453cb9e4ee8f448baf42e4c86769b54b3ff1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/accounts\\/static\\/7M\\/accounts\\/public\\/stylesheets\\/wfui\\.79b4ae9a778a9df1d931\\.css",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "connect.secure.wellsfargo.com",
+                    "resolved": "connect.secure.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "201ab4e4eb2fa77272b8760151edd5b571cdd65a2f5fd79aead981bd8d82c255"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/scripttemplates\\/202407\\.1\\.0\\/assets\\/otFlat\\.json",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d890abf66010907c7a0a61236d25c3c98bcb7edec34b13dc887f5be122bfef7e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/scripttemplates\\/202407\\.1\\.0\\/assets\\/v2\\/otPcCenter\\.json",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7dbc72c3f0511495fdf45d42283a246613db44b0906199cef195a773068d822f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/scripttemplates\\/202407\\.1\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7c2092048f21074425f3e025db78fb6505f75d6fcf2e121ced055c8d53bcb1b3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/consent\\/ec31ce42-18f4-4288-9419-e97e758f2d39\\/01926c9e-0dc1-7b91-bac5-590f222d647d\\/logos\\/static\\/ot_guard_logo\\.svg",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/consent\\/ec31ce42-18f4-4288-9419-e97e758f2d39\\/01926c9e-0dc1-7b91-bac5-590f222d647d\\/logos\\/1b74778f-ed65-4e19-a2c4-8004202c5cdc\\/72e93b25-126d-4dcc-a077-4251501d2643\\/362d2f71-54bb-432f-a042-134595571f31\\/WF-Logo-188x50-noleftlarger-x1\\.png",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c45763da3cfe3b4ebd0dbd9fcc90639ab6ff39e60e3e222d9b42576ecf4493b3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wellsfargo\\.com\\.edgekey\\.net\\/assets\\/js\\/pcmp\\/prod\\/wellsfargo\\.com\\/consent\\/ec31ce42-18f4-4288-9419-e97e758f2d39\\/01926c9e-0dc1-7b91-bac5-590f222d647d\\/logos\\/static\\/powered_by_logo\\.svg",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.wellsfargo.com",
+                    "resolved": "static.wellsfargo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "wfinterface.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "XHR": 14,
+        "Fetch": 10,
+        "Image": 4
+    },
+    "nameservers": []
+}

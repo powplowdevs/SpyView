@@ -1,0 +1,75 @@
+{
+    "domain": "hclsoftware.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "unidiscover-packet-fwdr.prd.micr.now"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "hclsoftware\\.cloud\\/DiscoverUIPost",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unidiscover-packet-fwdr.prd.micr.now"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "micron.com",
+                "www.micron.com"
+            ]
+        },
+        {
+            "rule": "hclsoftware\\.cloud\\/DiscoverUIPost",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unidiscover-packet-fwdr.prd.micr.now"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "micron.com",
+                "www.micron.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d4.googledomains.com"
+    ]
+}

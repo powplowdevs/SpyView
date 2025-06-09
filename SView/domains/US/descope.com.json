@@ -1,0 +1,136 @@
+{
+    "domain": "descope.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "cname"
+    ],
+    "cnames": [
+        {
+            "original": "auth.gofundme.com",
+            "resolved": "cname.descope.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "descope\\.com\\/v1\\/auth\\/refresh",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cname"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "auth.gofundme.com",
+                    "resolved": "cname.descope.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.com",
+                "www.gofundme.com"
+            ]
+        },
+        {
+            "rule": "descope\\.com\\/v1\\/auth\\/refresh",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cname"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "auth.gofundme.com",
+                    "resolved": "cname.descope.com"
+                }
+            ],
+            "responseHashes": [
+                "5bb0f959772f220f482525f66af7b51e3b7da0bb0a22f1b0431e28801332060d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.com",
+                "www.gofundme.com"
+            ]
+        },
+        {
+            "rule": "descope\\.com\\/v1\\/auth\\/onetap\\/clientid\\/google",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cname"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "auth.gofundme.com",
+                    "resolved": "cname.descope.com"
+                }
+            ],
+            "responseHashes": [
+                "e834c1e93f85b6f158199015296f225470361f52bb524e5425e48bb564563ea1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.com",
+                "www.gofundme.com"
+            ]
+        },
+        {
+            "rule": "descope\\.com\\/v1\\/auth\\/onetap\\/clientid\\/google",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cname"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "auth.gofundme.com",
+                    "resolved": "cname.descope.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.com",
+                "www.gofundme.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "nora.ns.cloudflare.com",
+        "dimitris.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "domain": "zopim.com",
+    "owner": {
+        "name": "Zendesk, Inc.",
+        "displayName": "Zendesk",
+        "privacyPolicy": "https://www.zendesk.com/company/customers-partners/privacy-policy/",
+        "url": "http://zendesk.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00185,
+    "sites": 18,
+    "subdomains": [
+        "v2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zopim\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "v2"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Notification.permission": 7,
+                "Navigator.prototype.plugins": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000719,
+            "cnames": [],
+            "responseHashes": [
+                "c7631939bbc2c74fc9a5fb1ee9565250a15bf95cc0e364da7fc5f15e3db41427"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "akaipro.com",
+                "www.engelberg.ch",
+                "www.nettoshop.ch",
+                "www.nidwalden.com",
+                "www.rigi.ch",
+                "www.scirp.org",
+                "www.zumstein.ch"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content",
+        "Support Chat Widget"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "zdassets.com",
+            "prevalence": 0.6923076923076923
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2692307692307692
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.038461538461538464
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "foodmore.zopim.com",
+        "koufu.zopim.com"
+    ]
+}

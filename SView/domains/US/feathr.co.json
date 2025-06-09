@@ -1,0 +1,1740 @@
+{
+    "domain": "feathr.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00111,
+    "sites": 157,
+    "subdomains": [
+        "cdn",
+        "marco",
+        "polo",
+        "polo-v1",
+        "conversation"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "feathr\\.co\\/js\\/boomerang\\.min\\.js",
+            "cookies": 0.000644,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 102,
+                "Navigator.prototype.userAgent": 88,
+                "Document.cookie getter": 91,
+                "Date.prototype.getTime": 71,
+                "Document.cookie setter": 91,
+                "window.innerWidth": 95,
+                "window.innerHeight": 95,
+                "Screen.prototype.width": 87,
+                "Screen.prototype.height": 87
+            },
+            "sites": 125,
+            "prevalence": 0.000884,
+            "cnames": [],
+            "responseHashes": [
+                "8ee1c9a492ebf0a0c5aa59d0c62629cae21ff9208b76460fc9b367ce2184a27f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "feathr_session_id": {
+                    "ttl": 3603,
+                    "length": 24,
+                    "prevalence": 0.0006436736079674061,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.govtech.com",
+                "www.agu.org",
+                "pubs.rsna.org",
+                "www.aggienetwork.com",
+                "www.aisc.org",
+                "thejns.org",
+                "www.ngsgenealogy.org",
+                "www.theiia.org",
+                "www.woodlandscenter.org",
+                "www.cbeinternational.org",
+                "www.dentistryiq.com",
+                "onepetro.org",
+                "www.firehouse.com",
+                "www.asanet.org",
+                "convention.bio.org",
+                "www.nationalhonorsociety.org",
+                "www.parealtors.org",
+                "www.rdhmag.com",
+                "gearsmagazine.com",
+                "www.nada.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/refresh",
+            "cookies": 0.000884,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marco"
+            ],
+            "apis": {},
+            "sites": 125,
+            "prevalence": 0.000884,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "copyrightalliance.org",
+                "www.ngsgenealogy.org",
+                "www.counseling.org",
+                "www.houstonfcu.org",
+                "www.agu.org",
+                "www.coloradogolf.org",
+                "www.asecho.org",
+                "news.usni.org",
+                "www.officer.com",
+                "mjbizdaily.com",
+                "www.oneforisrael.org",
+                "www.aps.org",
+                "www.thoracic.org",
+                "www.aae.org",
+                "gearsmagazine.com",
+                "www.apha.org",
+                "conference.thoracic.org",
+                "www.auanet.org",
+                "www.aia.org",
+                "www.golftec.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/analytics\\/match\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 121,
+            "prevalence": 0.000856,
+            "cnames": [],
+            "responseHashes": [
+                "c9d4c93146f222b08fcce6a148c1a2d83130a4cfaafee48a1d1cc26b51c1b7dd",
+                "93cc42d76f3940f1bbb001d0cdc5987608b3341f5938fb2ea647372c34ece868",
+                "3e178b0cd147f4f8e00acc6fa4bec29265673ab6fc73536352cec4b7c0efd236",
+                "e7e6499a55b0076d1565ce80d7f7c8cc78a1ce7b5f33c961840f27ea2cab6b4b",
+                "6901a2b807e8cec1aeea4b78180fc540ecd60786088eb6e5bac91d1997a0f894",
+                "1ba70664109f91dfa79bdc7490b4cdd7de9167e58fd0624bd0090d5b06cd287a",
+                "c9eb07118e4f3d4afa6c35d80c835ece47bc17c2da8025e3834f1485bd912a17",
+                "916032ca893d4313e378bb96a845567e807861ff7ae59c6efa9b6f73fee737ba",
+                "542e71a580ef8924a9b63428978e056c1c93ed0e6ceeda822f681bbb5326d059",
+                "830d1b94dc2e4f2ee62f8643ab5e4fc510e8978024b3f70d524e56d981e3e00c",
+                "3082ceec77a43f5eba583d63ef34cdcde338ecf732f21a3f101da2e13cafa1c9",
+                "2187417c906a296fbcd3db0e2acfa07caa3666c5b4cb1ed9c44d78cf5ea7eb47",
+                "4538007e63c0b3fd1b25a0ea796d23a821aaf15bbfea3f5fb8e9c1f4244bed2b",
+                "fb8a9811939d33033a2f8576ae30a510b6825f5f0cbb7813d6129fde636416aa",
+                "e698728ace5e7d28dc1958e1175349b5d2d0f0e9523bb2dba6502b4120a970b1",
+                "acbb251b7680ee8fa2950e05645bd9be8f9a427ce135d12cdbc8ca53a9ba1e5a",
+                "7481282640568c46c429675ad2c50c20753abb9bf9ba3bc2cfa5d240a50db8dc",
+                "c66fb5391d035e1328cd8d2ee3f685c5076259ff1bf50289cd7b42b4d815121d",
+                "a9e1fc727db3c011b531d49a0f0f0be765f94c9deba5b3e6f491bccd217dedbc",
+                "d79c1673c63b1bcf4cf7f627e1743bdf07f87b287b0dd749a16f1f97e884f97f",
+                "c02fc61d2450e46b520a331bac0ca7c7bb06272ab6b376fb93ab4528aa111614",
+                "9c3ce86cd718cf3d41a247f6e1bdc301bf9d24ece12301a755c595f0d69883ff",
+                "612d1f810ecc62ed6bc6b2306ea7397c3dbcb5c38d5ae18374e1fdfc013be2ad",
+                "42a7c049281e2f2c4c5a06683bfc75b1f9898cfc23610ba51fe2d2faae075b4f",
+                "9152751cbef808e7c4cb2356e6e5dca82b72dac108af19677908645407240c5e",
+                "8d8108c4e47b73d6caa999a23e3e9a731675c341325be4c05ff93be8cc9e9f72",
+                "57e60c520ad333e077813e07e45ee67fdc78bd0d9ec66c4c807f16854f9c1c03",
+                "1dd850ba8ac30220e707ac9a51235d6a8f31e3c140f71aff75a7ebff96b674bc",
+                "3fdf113e264bcd12d6ec80ac2d1d446bfc33669cba469a7a976a6e2dbcbddbf1",
+                "cbb2829cba4f528f97131948a93651bda178170b2dd387c597c27a24c6728321",
+                "e22f4a3c0b32844ee15b276aed8a3ea6cb9cfb76d007830235121b3ad62c2f24",
+                "d5de2d346eb5015fb2efec087f51e9878919a0bb2b0dc9116eed404f3414e6a7",
+                "cd0d5a9b823142c1b8c5c8bffb6639ea42066501a80b0258909929e568e07b49",
+                "e9c92f07d1676ba2dc0368c694a34bcfa6991fb4ee8fb14f24dd4d51492e80fa",
+                "4470c308ac17cdffd0d13ee9ff3cf5e4bb7a15a4c2007f398b0d83c9a8d17323",
+                "39a286313d9b18f42b06c2557115042671ae528a8296ef33fcc58e29ab697c86",
+                "fbdac750cdc947b0ee5f040dd04625575fe38f0266f70a5ae8e997de1c94a75e",
+                "899c14e490cdc382ac247fcf0f2e03e680df780c6e57d4e4011904b447ba0c26",
+                "1085473b3f75789801160d7ec7e739504719674d00576af7205a7f8ecfc496b7",
+                "53258b6daf89bdf185747309f6c63fd95b35712d7b2030e439e35af32c70b7f9",
+                "cb07baf7f539f9ec63f0231cb5a3c1e3b7deddbfd02f333ab5610099d541d79f",
+                "0176f4ba2b29b7e92b084befb260f1e7bba6d1047513fd916df3bdb0323912a1",
+                "75da06f5bb1571d35bca94a8baaf0cb697b58d89751bd66f428ff2e744fdd299",
+                "742009066742e023a0d60815bd1eace99ee3bd915721923ed68e7cfcef61da94",
+                "4e2d615c17e25520850646b16b52539854695b91f2b0fcfcaa46bd35941903d8",
+                "ae9647caac9c36353f9c43cb3baa534f75387e6d0ab9cc86e006ddd51a2e0bcc",
+                "34654057f216ac2d7c0952531cae4526e988a30b4127d93fea5eccce2dbb930a",
+                "c2cb218584028955b6bcd5a280d39f74d3014dc5f2d6850308d20607f735a432",
+                "3442bfa9e45cf7e5ffc1b83c6f8965a91ad3cfccfec50e0866662b24f95039ad",
+                "8516570ab5d215b6922651d40ae66363fa34c6295a74cd408660dad24c97298a",
+                "e470de9829c0db720fa419eeebf6ece9fb1484c8f19911e0c516d596190bc201",
+                "2b0b8d2c619abd1dca8cf3ed1560905315624ffbf87096efbf01b132e78a09e4",
+                "6bec326be57a797956eab3683c6e200c4f6e6f5b0dbad78bc72a038a712f5033",
+                "09198341b031353e42e73898ad5bca88b96055250c3a33c9586dc0f1107e1e09",
+                "9bc457e88bad32ed7d6bc7cb64874b5216868c80e56773d0da173897730ebb92",
+                "3fbecb4434b31fc0827937d8fe0d57befeaeeb3059449f0fb4a070726a8f2694",
+                "942817fbc9cc3e4b73c913f84d51bf5a6942e19ab6ac0eda58b5da57b034c12a",
+                "42a228c1401e6ca7aa19724321a80a42ad74fe9327dd587ab59388ef5352ff1c",
+                "97091374d0c93d47c9cb84b326b4c9d0b803ec524f87edbd866a1f2b715eec0f",
+                "b6c716e68b847a8389320c795890b5e86aee25b658e78cb2b32f99befddc71f0",
+                "b8a8263c3b0f9c821a6ccc0df106ae4a094d449ba0b79c917f1382ba298d0d25",
+                "cffb4e4d1449099674172cda9752c63929a75c797e4c42e1b86ec53121e46e1f",
+                "315e58d84272ad38bd951cafc549c35ac3e3584c16c0fdd97c08a8049e493ce7",
+                "0f93067dc74774ef5c94a292ddb1900772d02b5b645db4b92f82d67e96d673a3",
+                "a10d90ee4cb319cda6ef8abcb20bee5307f261111ee943da59d3d581cc13b490",
+                "f131337fa6f516dc689e56d3c90912030f0ff85bbca000f12071f772b9e73c8b",
+                "41eafd107ab4703cb74c554ad1aeafe8db4ba6f55ed7f7fb0295b2e713fd424c",
+                "c26826cf99ed634a9e15bcac92b6b610e6623c6809c26bae32e2f4bffff85809",
+                "04459df3b3138193350bf8aa0955be6853d0f8c6e9470d3bc7d27bee4a76cd83",
+                "5aaa1de19b1c407a7766a207eea941ce615846f59050ab7902922b1925522b8b",
+                "f8c8d8c59022e287a2940fc5700c734befbdeb56dd8d3de4ce0e5509479c711f",
+                "1a14f0b40a26c42459d136af7695763c4d6f495cd15d6641323246a302de4ab0",
+                "adaff7df9ff6afe02fcd3150377495cf742b44f464d1cdb2787669ff065dd6b6",
+                "8adfb2817d7b853fd5de0e59df8dca75df58b785145d86028433b6b445dc8160",
+                "19ad4400679c307589158cd9073f25ca85ef29fdfd3a032aa6eec1e6379680af",
+                "55c6aa213447306b3d95753cdff897d0e72a37087259a814362edd7103a6e969",
+                "950c6152c8cab0f65d5aa7130791eefd8c04d6d56f888348bb4d68e11458cd5f",
+                "87cca3f8ab7c87c0eaceff8c69a74d9d6347c80f597c55843a1eb48e13d7de25",
+                "f5861671e1bf7335df5371bb293a9ec69c6fe3225ec8c3328d99747b88f4a134",
+                "220e6e3d63b7d2df2350409652c07a9bab98dceb8d5e5d1f8ed89fcf55aa9141",
+                "a4ce1f92b46163073c02d31efe6593006858b539c85dc20f13157f0f0626b78f",
+                "48239a6169d396a067fd85843cfd20186c60e3ca0ac52301f1131bde0ef9b922",
+                "3e760c8b072fe19095d8c81ac771b80b6fa5175aaf4c4e4f6cc07bf15711dc59",
+                "dc05250b701ec139ff02fbda3caa534f1c721a6bf13b5ec66be1d6290d4d7719",
+                "075c6e2b12ad7329aa726f0967c960e71ddef6165e352286bdab15e640dc09d1",
+                "6886ac367a8fc5b42ec4ff425f9baa7c38358126b5ce92219ae4fb891d5b36fd",
+                "5cac7753ac14e925c27f93de6f1e2726824149a126d8cb6a55bd5e1bcdba0eb2",
+                "bfd39116a9ff0072472c13bd50773e2597a08428219b8efc548df52cf7b9401b",
+                "5a5c52ab44b93dd41a702166c0493eea4b808c2e6e87fa18b119b14cc1d93ad6",
+                "3b7af63c7a139a16c9fdde2d6fc4fd9bfe7ba869b9309a476179cbbb074a1e63",
+                "bae713d609d7d6b33d311e4cbee490b7c5095fe51c7a5dc3fab7242e814959f0",
+                "b24221e4317c7ac446f7b4d76f583c7579d37e7878f76758dc51d8f6541a5c3d",
+                "cb07153dd276116e9869b7c721ea9a3c39a2a010ee7f04f6952dd5b4eed45518",
+                "7fe76a4c05cb8889d7839e3d8f7654b076b3fe26075cb6a05d0f8e5f3d2a0ca1",
+                "a4ac521a263cc4d899640e60b6ac834411189f8863f94e2e36f670483b2f3cd7",
+                "7b593f6a078c793d944be4f192fc72bc9b33158a889b8cad99511e0d637c0017",
+                "ae037c49dadfea3363c3d6ad2109c52b0fbb3de3b35c214378e708def672454c",
+                "a64b384ea81f9dc2337a404e9fc24e9db54dffa24fce4993677fed897056fb68",
+                "58474d39512656f0693362bde18b07ef7cd06178dfe47b1c1e3f6d49c03ec9c8",
+                "3234f75319e33f4016444e3a05e413571edc6e92b2f83bc8ab2953a120d052b1",
+                "433ae0d606861cb1e794f6eb41a7ccbbe9eb374baa2adfd86a40fc4e1d901f72",
+                "7992033b3a7bb09772af122abb3704e61072974ab84330eb5ce5b721bac4b371",
+                "ac3e1ef13d16049a4534372ccbdc8c21a66d1da79789973f950e5eee9b7bf21f",
+                "3d43b0a9049816db5899d849d7f042431c2742b2e3f742f0c0721926e6526dd2",
+                "131722bb983ae49df53a853bd4cd06271352368e4d683fd59d1916ab6305a1fd",
+                "32996c743157cb282860fc2fa3996dbd07314bd9fe00d9cee046d20249fad3a6",
+                "9f2a90f163ff61a6c7c6e789afd9cebf4926f6b920c895f20e8414cf077ebda7",
+                "f5ad793142bb5700d83ca2f450e747078fd2802c9c93dc1d3193413c6729f88e",
+                "06ee222bdbac82a2bc67df3097be9917451e21759f0b52a8e7bde04c50a3f419",
+                "83e1d449bd57f6a3f6d554a98b5a6ccc1a7f092a3b979bd71b600d1b2f4a64c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.aviationpros.com",
+                "www.acfe.com",
+                "www.asanet.org",
+                "iocdf.org",
+                "www.socialworkers.org",
+                "www.conference-board.org",
+                "www.firehouse.com",
+                "www.counseling.org",
+                "www.ussailing.org",
+                "www.oneforisrael.org",
+                "aas.org",
+                "www.aasld.org",
+                "convention.bio.org",
+                "mjbizdaily.com",
+                "www.texasrealestate.com",
+                "thejns.org",
+                "news.usni.org",
+                "www.fleetowner.com",
+                "www.thoracic.org",
+                "www.nada.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/analytics\\/crumb",
+            "cookies": 0.000587,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 114,
+            "prevalence": 0.000806,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "feathr_session_id": 0.0005800135808057945
+            },
+            "exampleSites": [
+                "onepetro.org",
+                "www.carolinasgolf.org",
+                "www.aaos.org",
+                "osteopathic.org",
+                "maa.org",
+                "www.aasld.org",
+                "www.mmm-online.com",
+                "cascade.org",
+                "aas.org",
+                "www.aacn.org",
+                "asq.org",
+                "www.nationaldefensemagazine.org",
+                "flcu.org",
+                "www.financialplanningassociation.org",
+                "mylegion.org",
+                "www.aorn.org",
+                "www.aps.org",
+                "www.ngsgenealogy.org",
+                "www.golftec.com",
+                "www.aggienetwork.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5b6b4079e694d532921737ea\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f100675cb597df4d9c18d390963b0062703e5d617244ccdd494beb39037190d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aphapublications.org",
+                "www.apha.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5b6b4079e694d532921737ea\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aphapublications.org",
+                "www.apha.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/analytics\\/match",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo-v1"
+            ],
+            "apis": {},
+            "sites": 75,
+            "prevalence": 0.000531,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cascade.org",
+                "www.asaecenter.org",
+                "www.auanet.org",
+                "www.aggienetwork.com",
+                "www.aisc.org",
+                "www.aacn.org",
+                "www.aia.org",
+                "www.aam-us.org",
+                "www.fleetowner.com",
+                "aphapublications.org",
+                "www.iafc.org",
+                "www.spiedigitallibrary.org",
+                "www.acvs.org",
+                "www.bicsi.org",
+                "www.checkbook.org",
+                "www.agu.org",
+                "osteopathic.org",
+                "ncpa.org",
+                "www.apta.com",
+                "www.ausa.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/6005e8d9656c9743797c3217\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thoracic.org",
+                "main.diabetes.org",
+                "professional.diabetes.org",
+                "www.thoracic.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/6005e8d9656c9743797c3217\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thoracic.org",
+                "main.diabetes.org",
+                "professional.diabetes.org",
+                "www.thoracic.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/6391e349f65fe3734ffc97ba\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f100675cb597df4d9c18d390963b0062703e5d617244ccdd494beb39037190d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mylegion.org",
+                "www.legion.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/6391e349f65fe3734ffc97ba\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mylegion.org",
+                "www.legion.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/635c396cdefd5a3f7972fc5d\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "5e193af561ebea22e588f5f525947a5b7f3f2aaca6f6fe8a40f6db8bd6f14ff0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usni.org",
+                "news.usni.org",
+                "www.usni.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/635c396cdefd5a3f7972fc5d\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usni.org",
+                "news.usni.org",
+                "www.usni.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5c8bbb068e0fad120f925edf\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spie.org",
+                "www.spiedigitallibrary.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5c8bbb068e0fad120f925edf\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spie.org",
+                "www.spiedigitallibrary.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/605e2d91ab9ee3db051a3ef6\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thejns.org",
+                "www.aans.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/605e2d91ab9ee3db051a3ef6\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thejns.org",
+                "www.aans.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/604baa354951a1effe1a0955\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aacn.org",
+                "www.aacn.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/604baa354951a1effe1a0955\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aacn.org",
+                "www.aacn.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/636d5f3cb6ec0e11f062f95e\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f100675cb597df4d9c18d390963b0062703e5d617244ccdd494beb39037190d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aae.org",
+                "www.aae.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/636d5f3cb6ec0e11f062f95e\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aae.org",
+                "www.aae.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/scout\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "conversation"
+            ],
+            "apis": {
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "388e4ddc496764c9a082b55e69a08ec605eb7342496424a71641900fe74a30c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aiche.org",
+                "www.auanet.org",
+                "www.urologyhealth.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/45ca9e2\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "conversation"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "eee34cf6d317d2fd9391f07b9606de9d8a202c2d74fcef40d20dc4f1d21b5479"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aiche.org",
+                "www.auanet.org",
+                "www.urologyhealth.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/604267263e520ca59416d0a9\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f100675cb597df4d9c18d390963b0062703e5d617244ccdd494beb39037190d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ala.org",
+                "www.ala.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/604267263e520ca59416d0a9\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ala.org",
+                "www.ala.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/6050ec5e6d72837bea7c9d23\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5e193af561ebea22e588f5f525947a5b7f3f2aaca6f6fe8a40f6db8bd6f14ff0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aorn.org",
+                "www.aorn.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5c2cc317bc2ccd553d073765\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aorn.org",
+                "www.aorn.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5c2cc317bc2ccd553d073765\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aorn.org",
+                "www.aorn.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/6050ec5e6d72837bea7c9d23\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aorn.org",
+                "www.aorn.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/59d6750c6c80c6199f48e00e\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auanet.org",
+                "www.urologyhealth.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/59d6750c6c80c6199f48e00e\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b5ad65df4bc15d1bcf9c808f304e03377b91b446d5645b80d7f4347496dbdf4d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auanet.org",
+                "www.urologyhealth.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5887fd438e80272653540b7e\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5e193af561ebea22e588f5f525947a5b7f3f2aaca6f6fe8a40f6db8bd6f14ff0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auvsi.org",
+                "www.nationalhonorsociety.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5887fd438e80272653540b7e\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auvsi.org",
+                "www.nationalhonorsociety.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5d3f06f2c0645c763104b681\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aviationpros.com",
+                "www.dentistryiq.com",
+                "www.firehouse.com",
+                "www.fleetowner.com",
+                "www.officer.com",
+                "www.rdhmag.com",
+                "www.vehicleservicepros.com",
+                "www.waterworld.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5d3f06f2c0645c763104b681\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aviationpros.com",
+                "www.dentistryiq.com",
+                "www.firehouse.com",
+                "www.fleetowner.com",
+                "www.officer.com",
+                "www.rdhmag.com",
+                "www.vehicleservicepros.com",
+                "www.waterworld.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/65414312709dc1f319b80018\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackhat.com",
+                "www.blackhat.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/65414312709dc1f319b80018\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackhat.com",
+                "www.blackhat.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/603fb249c323f39e54bbf9db\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campussafetymagazine.com",
+                "www.campussafetymagazine.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5ac50f6bf60e8103ce30c554\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "5e193af561ebea22e588f5f525947a5b7f3f2aaca6f6fe8a40f6db8bd6f14ff0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancertherapyadvisor.com",
+                "www.cancertherapyadvisor.com",
+                "www.mmm-online.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5ac50f6bf60e8103ce30c554\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancertherapyadvisor.com",
+                "www.cancertherapyadvisor.com",
+                "www.mmm-online.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/632c7620d31604629da123f1\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "90383c617849274ee707c698f5cb00f655fde90af07242d453b9f139709e619a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkbook.org",
+                "www.checkbook.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/632c7620d31604629da123f1\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkbook.org",
+                "www.checkbook.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/632c7620d31604629da123f1\\/integrations\\/facebook\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1f9f827d56cbbd6a8afb39ba0a09a1665f4966edd2a6839f3d0f3e653b916d87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkbook.org",
+                "www.checkbook.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5c4b7c3aa1f0aa2b420e10a2\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coloradogolf.org",
+                "www.golftec.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5c4b7c3aa1f0aa2b420e10a2\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coloradogolf.org",
+                "www.golftec.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5bb5160f16d9da0eaf87603f\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "db3984f5434a0ed1e98bc809d8c673b9c699dcf8e2d4e4c081f68b1cc3df9d0b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "counseling.org",
+                "www.counseling.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5bb5160f16d9da0eaf87603f\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "counseling.org",
+                "www.counseling.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5f75000337b11ae93c75d73d\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "endocrine.org",
+                "www.endocrine.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5f75000337b11ae93c75d73d\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "endocrine.org",
+                "www.endocrine.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/61b37535300097efae7173bb\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "govtech.com",
+                "www.govtech.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/61b37535300097efae7173bb\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "govtech.com",
+                "www.govtech.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/62b0d7e91a5ce6b16e7fe476\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mdm.com",
+                "www.mdm.com"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5cf1823ef064c9000bb6c6c8\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nada.org",
+                "www.nada.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5cf1823ef064c9000bb6c6c8\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nada.org",
+                "www.nada.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5b8840a207fd942de868b05d\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaldefensemagazine.org",
+                "www.ndia.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5b8840a207fd942de868b05d\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaldefensemagazine.org",
+                "www.ndia.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/66f343dccea96bbb7f624c95\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f100675cb597df4d9c18d390963b0062703e5d617244ccdd494beb39037190d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oneforisrael.org",
+                "www.oneforisrael.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/66f343dccea96bbb7f624c95\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oneforisrael.org",
+                "www.oneforisrael.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/66f343dccea96bbb7f624c95\\/integrations\\/facebook\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d02789ecfbaa6446f9aaa788471efcd14b9a2d47052b2c7f49b78b42f7e43d26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oneforisrael.org",
+                "www.oneforisrael.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/63e95056b0ca3eb02a363818\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "psychiatry.org",
+                "www.psychiatry.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/63e95056b0ca3eb02a363818\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "psychiatry.org",
+                "www.psychiatry.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5c894864c381f81954e82646\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ab7a652bed5ae700e17ab04683a1e8c9fc3b3794e0c6ee0b564d272aa38739b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "socialworkers.org",
+                "www.socialworkers.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/5c894864c381f81954e82646\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "socialworkers.org",
+                "www.socialworkers.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/59d6750c6c80c6199f48e00e\\/question",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "51aff8fc4fdf5e8bf8b0194f06ba9f01bfe026e7d7aeec22d6fe7749e778c9e5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "urologyhealth.org",
+                "www.urologyhealth.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/60be528064468ab3ee92fcd1\\/integrations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7f100675cb597df4d9c18d390963b0062703e5d617244ccdd494beb39037190d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woodlandscenter.org",
+                "www.woodlandscenter.org"
+            ]
+        },
+        {
+            "rule": "feathr\\.co\\/v1\\/accounts\\/60be528064468ab3ee92fcd1\\/pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "polo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eacfa4f711eaca1336ff82619c8a2d310dec11266d594fbc7e5a91259cebf848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woodlandscenter.org",
+                "www.woodlandscenter.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00111,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5772058823529411
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.36764705882352944
+        },
+        {
+            "domain": "bettybot.ai",
+            "prevalence": 0.01838235294117647
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.011029411764705883
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.011029411764705883
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.011029411764705883
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.003676470588235294
+        }
+    ],
+    "types": {
+        "Script": 320,
+        "Image": 314,
+        "XHR": 68,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "anna.ns.cloudflare.com",
+        "dane.ns.cloudflare.com"
+    ]
+}

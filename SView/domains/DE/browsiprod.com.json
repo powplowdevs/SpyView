@@ -1,0 +1,259 @@
+{
+    "domain": "browsiprod.com",
+    "owner": {
+        "name": "Browsi Mobile LLC",
+        "displayName": "Browsi Mobile LLC"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "cdn",
+        "events",
+        "yield-manager"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "browsiprod\\.com\\/bootstrap\\/bootstrap\\.js",
+            "cookies": 0.00051,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 10,
+                "window.localStorage": 10,
+                "Document.cookie getter": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Screen.prototype.width": 10,
+                "Screen.prototype.height": 10,
+                "Document.cookie setter": 5
+            },
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "bb6b17da90de92d2c8078d0e950895d0f31ab29132fdc139d251c0b34bfd1207"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__browsiSessionID": {
+                    "ttl": 1811,
+                    "length": 71,
+                    "prevalence": 0.0005099439061703213,
+                    "uniqueness": 1
+                },
+                "__browsiUID": {
+                    "ttl": 31536011,
+                    "length": 36,
+                    "prevalence": 0.0005099439061703213,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finviz.com",
+                "www.digital-eliteboard.com",
+                "www.fussballdaten.de",
+                "www.glasfaserforum.de",
+                "www.jpost.com",
+                "www.metatft.com",
+                "www.pythontutorial.net",
+                "www.uamr.de",
+                "www.w3docs.com",
+                "www.whatfontis.com"
+            ]
+        },
+        {
+            "rule": "browsiprod\\.com\\/events\\/v2\\/supply",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finviz.com",
+                "www.digital-eliteboard.com",
+                "www.fussballdaten.de",
+                "www.glasfaserforum.de",
+                "www.jpost.com",
+                "www.metatft.com",
+                "www.pythontutorial.net",
+                "www.uamr.de",
+                "www.w3docs.com",
+                "www.whatfontis.com"
+            ]
+        },
+        {
+            "rule": "browsiprod\\.com\\/supply\\/v5",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yield-manager"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "62d1775c39e9346724ff5a0fd1d6366679a1b4dcc83e28072d64b249e8bb4e72",
+                "d0b4cc95d45a5929e1c642bedf845247b4bd4eb3f00e59cb3e26672ce17a6294",
+                "a44d19966cae868920d4dcf3823cce47ace92ea7e26c3227d566563e2766445b",
+                "e225adf6baa80bdaf6f6e3af7ac29ff5803df6aa5c69cb82cfc3b35e4b99b4af",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "1150b4090da396b29439a3eed32656a38e038d64fe1ded4eb99c2181b8674491"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finviz.com",
+                "www.digital-eliteboard.com",
+                "www.fussballdaten.de",
+                "www.glasfaserforum.de",
+                "www.jpost.com",
+                "www.metatft.com",
+                "www.pythontutorial.net",
+                "www.uamr.de",
+                "www.w3docs.com",
+                "www.whatfontis.com"
+            ]
+        },
+        {
+            "rule": "browsiprod\\.com\\/sd\\/apps\\/middy\\/middy-desktop-4\\.43\\.1007\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.availWidth": 4,
+                "Screen.prototype.availHeight": 4,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "770e8ca38c7a4cb97c9d1fde20bdc6c70b7d185ffae18ac824b54e193b048c5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digital-eliteboard.com",
+                "www.fussballdaten.de",
+                "www.glasfaserforum.de",
+                "www.jpost.com",
+                "www.uamr.de"
+            ]
+        },
+        {
+            "rule": "browsiprod\\.com\\/abd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "481d713552f587d3bc0e3683557f8541ea69543e4d7abb7e4299c646ab10fd03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digital-eliteboard.com",
+                "www.fussballdaten.de",
+                "www.glasfaserforum.de",
+                "www.jpost.com",
+                "www.uamr.de"
+            ]
+        },
+        {
+            "rule": "browsiprod\\.com\\/web-vitals\\/web-vitals-4\\.2\\.3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "1cf3e6d0ce85a08fee4fd2a90152a1a50e8b829c10003981d8f79da6cc2e874c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digital-eliteboard.com",
+                "www.fussballdaten.de",
+                "www.glasfaserforum.de",
+                "www.jpost.com",
+                "www.metatft.com",
+                "www.pythontutorial.net",
+                "www.uamr.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00051,
+    "topInitiators": [
+        {
+            "domain": "amazon-adsystem.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "themoneytizer.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "insiad.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "ay.delivery",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "outbrain.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 27,
+        "XHR": 20
+    },
+    "nameservers": [
+        "ns-1215.awsdns-23.org",
+        "ns-1546.awsdns-01.co.uk",
+        "ns-189.awsdns-23.com",
+        "ns-729.awsdns-27.net"
+    ]
+}

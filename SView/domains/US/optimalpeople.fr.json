@@ -1,0 +1,138 @@
+{
+    "domain": "optimalpeople.fr",
+    "owner": {
+        "name": "Ano Nymous",
+        "displayName": "Ano Nymous"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "optimalpeople\\.fr\\/js\\/rd-o-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Document.cookie getter": 11
+            },
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "9500fe535d835dd5e034ee5f0cf6021351ddee821bb9fd8e94e3b5e74a8e6aa9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lavinialingerie.com",
+                "www.andertons.co.uk",
+                "www.bananamoon.com",
+                "www.crowdfarming.com",
+                "www.dekra-norisko.fr",
+                "www.directferries.co.uk",
+                "www.france-mineraux.fr",
+                "www.frenchbee.com",
+                "www.lafeltrinelli.it",
+                "www.opinel.com",
+                "www.printemps.com",
+                "www.speedway.fr",
+                "www.stylevana.com"
+            ]
+        },
+        {
+            "rule": "optimalpeople\\.fr\\/d\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "582ca0049912648e4bee01dfe67fbe1374dcd30d946f06036fdc198e2c97c860",
+                "1b05695ede94d42337a569a869d2d7c7e3d91e764a2a0fae51f4971144910b11",
+                "14d10b2f7e0ed85a92b9fb228744d4fa2bd3414269d3480933c1c915e0bbe926",
+                "f89bf437147f6c5c4b02609d431290428060d1f98c2f07d58bd50b9e9dafeed2",
+                "c139c2c1746229925cab42a77d5e4b5e13c51ca597dced40575ffcb6aecf61a9",
+                "36679701630d5d524a7a6bf930e3aef44c3f2442446cbf302e99b28066da116c",
+                "a9dcd7826945506cf7d0b895a90f11c8739b7ed3ee51f40376ddbaaabe698cd1",
+                "8eb329f4f12ae92e70e2d36799c2b21805e38b2e5fdc0b9c78dc65ae1319f762",
+                "d71843d030b4b4902cb6260855fc7bc907bbb30b35e4a5b9d7cebe00d1f59c5e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "lavinialingerie.com",
+                "www.andertons.co.uk",
+                "www.bananamoon.com",
+                "www.crowdfarming.com",
+                "www.dekra-norisko.fr",
+                "www.directferries.co.uk",
+                "www.france-mineraux.fr",
+                "www.frenchbee.com",
+                "www.lafeltrinelli.it",
+                "www.opinel.com",
+                "www.printemps.com",
+                "www.speedway.fr",
+                "www.stylevana.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "tradedoubler.com",
+            "prevalence": 0.4230769230769231
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2692307692307692
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11538461538461539
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "raygun.io",
+            "prevalence": 0.038461538461538464
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.038461538461538464
+        },
+        {
+            "domain": "omnisnippet1.com",
+            "prevalence": 0.038461538461538464
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Fetch": 13
+    },
+    "nameservers": [
+        "athena.ns.cloudflare.com",
+        "hal.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "domain": "bonniernews.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "assets.bonad.io",
+            "resolved": "bonniernews.map.fastly.net"
+        },
+        {
+            "original": "sme.expressen.se",
+            "resolved": "bonniernews.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bonniernews\\.map\\.fastly\\.net\\/bundles\\/bad\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [
+                {
+                    "original": "assets.bonad.io",
+                    "resolved": "bonniernews.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "22841e44fabe90eadf27485d4e236821bad0a44b646c510efcca992616155fcb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressen.se",
+                "amelia.expressen.se",
+                "damernasvarld.expressen.se",
+                "halsoliv.expressen.se",
+                "levaochbo.expressen.se",
+                "teknikensvarld.expressen.se",
+                "www.di.se",
+                "www.expressen.se"
+            ]
+        },
+        {
+            "rule": "bonniernews\\.map\\.fastly\\.net\\/js\\/social-media-embeds\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "sme.expressen.se",
+                    "resolved": "bonniernews.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5bd7b211f1aaa2273106288c7c02caf98fb4ef3587ec5e27d1ddce2cb85f0041"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressen.se",
+                "amelia.expressen.se",
+                "damernasvarld.expressen.se",
+                "halsoliv.expressen.se",
+                "levaochbo.expressen.se",
+                "teknikensvarld.expressen.se"
+            ]
+        },
+        {
+            "rule": "bonniernews\\.map\\.fastly\\.net\\/test-vpn",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [
+                {
+                    "original": "assets.bonad.io",
+                    "resolved": "bonniernews.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "78342a0905a72ce44da083dcb5d23b8ea0c16992ba2a82eece97e033d76ba3d3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressen.se",
+                "amelia.expressen.se",
+                "damernasvarld.expressen.se",
+                "halsoliv.expressen.se",
+                "levaochbo.expressen.se",
+                "teknikensvarld.expressen.se",
+                "www.di.se",
+                "www.expressen.se"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "bonniernews.se",
+            "prevalence": 0.45454545454545453
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Fetch": 8
+    },
+    "nameservers": []
+}

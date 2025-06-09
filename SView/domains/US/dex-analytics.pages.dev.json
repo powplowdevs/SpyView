@@ -1,0 +1,80 @@
+{
+    "domain": "dex-analytics.pages.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dex-analytics\\.pages\\.dev\\/analytics\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.orientation": 2,
+                "Date.prototype.getTime": 1,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "12692c84480c0629f5be5835d4c6108d6319de9f7950c9115b9ee83193e2a3a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "kndctr_82961DB664F112A10A495E58_AdobeOrg_cluster": {
+                    "ttl": 1815,
+                    "length": 3,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "kndctr_82961DB664F112A10A495E58_AdobeOrg_identity": {
+                    "ttl": 34128004,
+                    "length": 91,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "AMCV_82961DB664F112A10A495E58%40AdobeOrg": {
+                    "ttl": 33696004,
+                    "length": 44,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "piedmont.org",
+                "www.getcare.ssmhealth.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "sonia.ns.cloudflare.com",
+        "agustin.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "domain": "jimdo.com",
+    "owner": {
+        "name": "Jimdo GmbH",
+        "displayName": "Jimdo"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000308,
+    "sites": 3,
+    "subdomains": [
+        "storage.e",
+        "a"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "jimdo\\.com\\/cdn-cgi\\/image\\/quality=85,fit=scale-down,format=auto,trim=0",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storage.e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "b2b2c319655a1a8056d1be4d3372d4d3f2fcc16f43aa01b68d89a24578cdc559"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bernaba25.ch",
+                "www.bernaba25.ch"
+            ]
+        },
+        {
+            "rule": "jimdo\\.com\\/app\\/web\\/loginstate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "9e59fe8e57b1a3748825f52dfd92ba2535b53290c324a210895ba3f561059ace"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paesse.info",
+                "www.sempacherseelauf.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000103,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "jimstatic.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1159.awsdns-16.org",
+        "ns-15.awsdns-01.com",
+        "ns-1642.awsdns-13.co.uk",
+        "ns-547.awsdns-04.net"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "domain": "salesforce.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000778,
+    "sites": 11,
+    "subdomains": [
+        "iis.digital"
+    ],
+    "cnames": [
+        {
+            "original": "iis.digital.salesforce.com",
+            "resolved": "iis.digital.salesforce.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "salesforce\\.com\\.edgekey\\.net\\/services\\/api\\/user",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iis.digital"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "iis.digital.salesforce.com",
+                    "resolved": "iis.digital.salesforce.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d089c8a9fc28e4e50223eb38c9409e362521be9380a37341304fbac7a4cd9e5f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforce.com",
+                "appexchange.salesforce.com",
+                "developer.salesforce.com",
+                "help.salesforce.com",
+                "trailhead.salesforce.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "trailblazer.me",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "sfdcstatic.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 5
+    },
+    "nameservers": []
+}

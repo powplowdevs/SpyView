@@ -1,0 +1,138 @@
+{
+    "domain": "transmitsecurity.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [
+        {
+            "original": "tsdrs.schwab.com",
+            "resolved": "api.transmitsecurity.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "transmitsecurity\\.io\\/risk-collect\\/device\\/migrate-identifiers",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "tsdrs.schwab.com",
+                    "resolved": "api.transmitsecurity.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "schwab.com",
+                "client.schwab.com",
+                "workplace.schwab.com",
+                "www.schwab.com"
+            ]
+        },
+        {
+            "rule": "transmitsecurity\\.io\\/risk-collect\\/device\\/migrate-identifiers",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "tsdrs.schwab.com",
+                    "resolved": "api.transmitsecurity.io"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "schwab.com",
+                "client.schwab.com",
+                "workplace.schwab.com",
+                "www.schwab.com"
+            ]
+        },
+        {
+            "rule": "transmitsecurity\\.io\\/risk-collect\\/device\\/events",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "transmitsecurity\\.io\\/risk-collect\\/device\\/events",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9123210114dec463f3a1c078d5288e1a22d3b302dd734dc28b107fbf15873e0c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000566,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "ns-702.awsdns-23.net",
+        "ns-1889.awsdns-44.co.uk",
+        "ns-1357.awsdns-41.org",
+        "ns-383.awsdns-47.com"
+    ]
+}

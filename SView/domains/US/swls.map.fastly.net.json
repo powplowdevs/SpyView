@@ -1,0 +1,142 @@
+{
+    "domain": "swls.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000778,
+    "sites": 11,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "rv-assets.softonic.com",
+            "resolved": "swls.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "swls\\.map\\.fastly\\.net\\/publishers\\/softonic\\.js",
+            "cookies": 0.0000566,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [
+                {
+                    "original": "rv-assets.softonic.com",
+                    "resolved": "swls.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "68a0c26e39f66345965a0e1f48ed83e3aee4e1000fe4eb110be19feed7dc9fac",
+                "b6341357dfc61b67f62db794ced37dbecdf6073756a1f1a558dcfb733313c4df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "softonic.com",
+                "en.softonic.com",
+                "hypic-photo-editor-ai-art.en.softonic.com",
+                "recuva.en.softonic.com",
+                "simontok-vpn-browser-lengkap.en.softonic.com",
+                "simontok.en.softonic.com",
+                "uc-browser.en.softonic.com",
+                "vegamovies.en.softonic.com",
+                "vidmate.en.softonic.com"
+            ]
+        },
+        {
+            "rule": "swls\\.map\\.fastly\\.net\\/prebid\\/softonic\\/prebid-client\\.js",
+            "cookies": 0.0000637,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [
+                {
+                    "original": "rv-assets.softonic.com",
+                    "resolved": "swls.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5d9faedae445e56fa81fac9db15286c5e0b59e70226f4d54ac77f80da5993869"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "softonic.com",
+                "en.softonic.com",
+                "hypic-photo-editor-ai-art.en.softonic.com",
+                "recuva.en.softonic.com",
+                "simontok-vpn-browser-lengkap.en.softonic.com",
+                "simontok.en.softonic.com",
+                "uc-browser.en.softonic.com",
+                "vegamovies.en.softonic.com",
+                "vidmate.en.softonic.com"
+            ]
+        },
+        {
+            "rule": "swls\\.map\\.fastly\\.net\\/publishers\\/softonic\\.js",
+            "cookies": 0.0000566,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [
+                {
+                    "original": "rv-assets.softonic.com",
+                    "resolved": "swls.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "softonic.com",
+                "en.softonic.com",
+                "hypic-photo-editor-ai-art.en.softonic.com",
+                "recuva.en.softonic.com",
+                "simontok-vpn-browser-lengkap.en.softonic.com",
+                "simontok.en.softonic.com",
+                "uc-browser.en.softonic.com",
+                "vegamovies.en.softonic.com",
+                "vidmate.en.softonic.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "Fetch": 9
+    },
+    "nameservers": []
+}

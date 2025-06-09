@@ -1,0 +1,343 @@
+{
+    "domain": "ravm.tv",
+    "owner": {
+        "name": "Roku, Inc.",
+        "displayName": "Roku",
+        "privacyPolicy": "https://docs.roku.com/published/userprivacypolicy/en/us",
+        "url": "http://roku.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00034,
+    "sites": 48,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ravm\\.tv\\/ust\\/dist\\/rkp\\.loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 33,
+            "prevalence": 0.000233,
+            "cnames": [],
+            "responseHashes": [
+                "e15c17341c3ab2d7b40ae77693941e098314f330da0ecbc34bfecb6ee5e35578"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.meritstreetmedia.com",
+                "bkvenergy.com",
+                "lingopie.com",
+                "boatzon.com",
+                "online.hillsdale.edu",
+                "www.harney.com",
+                "www.mdc.edu",
+                "relevantradio.com",
+                "www.nycm.com",
+                "www.angel.com",
+                "www.flyxna.com",
+                "earthwiseseed.com",
+                "www.lynchburg.edu",
+                "www.tricoci.com",
+                "www.theacoutlet.com",
+                "www.suncountry.com",
+                "www.farmandhomesupply.com",
+                "www.renewalbyandersen.com",
+                "www.visitrhodeisland.com",
+                "www.keepertax.com"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/dist\\/rkp\\.tracker\\.js",
+            "cookies": 0.000113,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 17,
+                "Document.cookie setter": 16,
+                "Navigator.prototype.userAgent": 17
+            },
+            "sites": 30,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "c6e435b7d14497ac3f63f57e83c09ccaa82d38a6eb34670ce42a7d3cfe0f64a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__rkp": {
+                    "ttl": 31536004,
+                    "length": 3,
+                    "prevalence": 0.00011317338162064282,
+                    "uniqueness": 0.0625
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hf.org",
+                "missions.ewtn.com",
+                "www.visitrhodeisland.com",
+                "www.renewalbyandersen.com",
+                "www.tricoci.com",
+                "www.theacoutlet.com",
+                "modpizza.com",
+                "www.acorns.com",
+                "www.csuchico.edu",
+                "online.hillsdale.edu",
+                "www.lynchburg.edu",
+                "www.angel.com",
+                "www.harney.com",
+                "www.stoneglacier.com",
+                "earthwiseseed.com",
+                "boatzon.com",
+                "www.farmandhomesupply.com",
+                "renewalbyandersen.com",
+                "www.flyxna.com",
+                "rapidradios.com"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/ust_PacchG7Xfx5f\\.config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "55c4626c9cc9e706972a84b42c90ff93531f20468650a8e229217654ef50fd30"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hillsdale.edu",
+                "online.hillsdale.edu"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/ust_PaccxRM4yHOp\\.config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renewalbyandersen.com",
+                "www.renewalbyandersen.com"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/ust_Pacc2h2HrTfR\\.config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8b6ebb2f1722da0fa6df3715ce6ed6213785016c7d27e7afd465dd7accada61e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acorns.com",
+                "www.acorns.com"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/ust_PaccfQ9Tx9x1\\.config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5301d727dd18e18829c0a1532441f0a5e20760a6641aa19eb8616e3af512d365"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csuchico.edu",
+                "www.csuchico.edu"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/ust_Pacc0czIjrnT\\.config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c2f9fe8d4a682e96863f716beac442007c5d8f67bbe69e84bbd0867a806e4c03"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farmandhomesupply.com",
+                "www.farmandhomesupply.com"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/ust_PacceItHePna\\.config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "23c1d6ec656ec399edbbeab39e0a218cf20478ef260f736fbbbe190f25c74646"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "keepertax.com",
+                "www.keepertax.com"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/ust_Pacc3rKYcq2c\\.config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "af82785e9d15674b163990fbd115501ca193df8f151286b3056572746616bdc7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mdc.edu",
+                "www.mdc.edu"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/ust_Pacc2e1XMpu5\\.config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1d7792b1e3386fae653940d6af88c73ff147b9d5fc15d68b9785060c3095b28f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theacoutlet.com",
+                "www.theacoutlet.com"
+            ]
+        },
+        {
+            "rule": "ravm\\.tv\\/ust\\/ust_PaccoIH9sWco\\.config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b34087c0586278ee2120614c2af42bb0e9a62118ad7ad008d821abd9902a99e0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitrhodeisland.com",
+                "www.visitrhodeisland.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000177,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3125
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.0375
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.0125
+        },
+        {
+            "domain": "angelstudios.com",
+            "prevalence": 0.0125
+        }
+    ],
+    "types": {
+        "Script": 63,
+        "XHR": 18
+    },
+    "nameservers": [
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a4.googledomains.com"
+    ]
+}

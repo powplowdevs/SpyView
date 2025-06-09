@@ -1,0 +1,107 @@
+{
+    "domain": "magefan.top",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "blog.sfapp",
+        "lac.sfapp"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "magefan\\.top\\/css\\/blog-styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "blog.sfapp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cafeplanta.com",
+                "www.catholicfaithstore.com"
+            ]
+        },
+        {
+            "rule": "magefan\\.top\\/js\\/mfLoadSearchScripts\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "blog.sfapp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "dd20b33f3a60e34f50c31765934036700880bc579a87cbdf588b490ea95b87dc",
+                "3147aaef1b983e7b8605bb4d4498be14d58623f9bafd944265f5d78d2e5e2f49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cafeplanta.com",
+                "dmaxstore.com",
+                "mammotion.com",
+                "oupes.com",
+                "www.catholicfaithstore.com"
+            ]
+        },
+        {
+            "rule": "magefan\\.top\\/js\\/scripttags\\/assistance\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lac.sfapp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "43e310dc7526c136c73ea4cdb6fb14cf70ac6340e3d22dcfe1e50383b3e51adb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmaxstore.com",
+                "www.crunchlabs.com",
+                "www.fermedesaintemarthe.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9444444444444444
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 8
+    },
+    "nameservers": [
+        "rita.ns.cloudflare.com",
+        "frank.ns.cloudflare.com"
+    ]
+}

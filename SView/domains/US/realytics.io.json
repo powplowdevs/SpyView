@@ -1,0 +1,119 @@
+{
+    "domain": "realytics.io",
+    "owner": {
+        "name": "smartclip Europe GmbH",
+        "displayName": "Smartclip"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "i",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "realytics\\.io\\/tc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sante.fr",
+                "www.alltricks.fr",
+                "www.apec.fr",
+                "www.blablacar.fr",
+                "www.gmf.fr",
+                "www.i-run.fr",
+                "www.krupsusa.com",
+                "www.matmut.fr",
+                "www.opisto.fr",
+                "www.santevet.com"
+            ]
+        },
+        {
+            "rule": "realytics\\.io\\/event\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sante.fr",
+                "dondesang.efs.sante.fr",
+                "www.alltricks.fr",
+                "www.apec.fr",
+                "www.blablacar.fr",
+                "www.gmf.fr",
+                "www.i-run.fr",
+                "www.matmut.fr",
+                "www.opisto.fr",
+                "www.santevet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "realytics.net",
+            "prevalence": 0.49056603773584906
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.20754716981132076
+        },
+        {
+            "domain": "techlab-cdn.com",
+            "prevalence": 0.11320754716981132
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07547169811320754
+        },
+        {
+            "domain": "blablacar.com",
+            "prevalence": 0.07547169811320754
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.03773584905660377
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 10
+    },
+    "nameservers": [
+        "ns-244.awsdns-30.com",
+        "ns-903.awsdns-48.net",
+        "ns-1071.awsdns-05.org",
+        "ns-1864.awsdns-41.co.uk"
+    ]
+}

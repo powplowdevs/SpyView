@@ -1,0 +1,125 @@
+{
+    "domain": "liveby.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "pages",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "liveby\\.com\\/liveby\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pages"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e15d14db1cdecdfdae8a3658c2b99df2c3085cf95c57968a17fe06ffc5d974ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "howardhanna.com",
+                "www.howardhanna.com"
+            ]
+        },
+        {
+            "rule": "liveby\\.com\\/v1\\/pages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "howardhanna.com",
+                "www.howardhanna.com"
+            ]
+        },
+        {
+            "rule": "liveby\\.com\\/static\\/css\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pages"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6e2034fdf63bd07647ad1c842ffaa0620d9fc1f76d133f02335b9d95052ae825"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "howardhanna.com",
+                "www.howardhanna.com"
+            ]
+        },
+        {
+            "rule": "liveby\\.com\\/v1\\/pages\\/ldp-template",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "364ea33a3286e6f2803163c089354b2ea1c52dc99a05a52f7c82dda986ded92e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "howardhanna.com",
+                "www.howardhanna.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-432.awsdns-54.com",
+        "ns-898.awsdns-48.net",
+        "ns-1114.awsdns-11.org",
+        "ns-1891.awsdns-44.co.uk"
+    ]
+}

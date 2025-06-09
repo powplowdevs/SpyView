@@ -1,0 +1,142 @@
+{
+    "domain": "convio.net",
+    "owner": {
+        "name": "Blackbaud, Inc.",
+        "displayName": "Blackbaud"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000314,
+    "sites": 3,
+    "subdomains": [
+        "ncc-live",
+        "cmsadmin30"
+    ],
+    "cnames": [
+        {
+            "original": "secure.natureconservancy.ca",
+            "resolved": "ncc-live.convio.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "convio\\.net\\/site\\/js\\/utils\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ncc-live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [
+                {
+                    "original": "secure.natureconservancy.ca",
+                    "resolved": "ncc-live.convio.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natureconservancy.ca",
+                "www.natureconservancy.ca"
+            ]
+        },
+        {
+            "rule": "convio\\.net\\/components\\/cookie\\/cookie\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmsadmin30"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [],
+            "responseHashes": [
+                "926a39d759a4c46606aa7c3404e6e0cf46debe57ecae84e0d1aa0ff852c8109f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natureconservancy.ca",
+                "www.natureconservancy.ca"
+            ]
+        },
+        {
+            "rule": "convio\\.net\\/system\\/auth\\/author-toolbar\\.jsp",
+            "cookies": 0.000209,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmsadmin30"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [],
+            "responseHashes": [
+                "cbecaa487132cb238dc3cafaeb4a8376fef3c1bd404a3a4901a930cf6f91b15a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natureconservancy.ca",
+                "www.natureconservancy.ca"
+            ]
+        },
+        {
+            "rule": "convio\\.net\\/site\\/\\/AnonymousLogin",
+            "cookies": 0.000105,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ncc-live"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [
+                {
+                    "original": "secure.natureconservancy.ca",
+                    "resolved": "ncc-live.convio.net"
+                }
+            ],
+            "responseHashes": [
+                "06c8677cfafa46b1dc97c0ce25dff33ccfc4d725300fe3b2b0a0cb12fcd5b8cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natureconservancy.ca",
+                "www.natureconservancy.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000209,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns7.convio.net",
+        "ns8.convio.net",
+        "dns1.p01.nsone.net",
+        "dns2.p01.nsone.net",
+        "dns3.p01.nsone.net",
+        "dns4.p01.nsone.net",
+        "dns1.convio.net"
+    ]
+}

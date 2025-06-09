@@ -1,0 +1,87 @@
+{
+    "domain": "nxjmp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "pubjelly"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nxjmp\\.com\\/a\\/main\\/pubjelly\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pubjelly"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.maxTouchPoints": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "96b9b01e67f641b202fdbdf9117d365c03e3a436ef2b3e1414c81e5a560a7080"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mondo.rs",
+                "stil.kurir.rs",
+                "story.hr",
+                "www.espreso.co.rs",
+                "www.kurir.rs"
+            ]
+        },
+        {
+            "rule": "nxjmp\\.com\\/a\\/main\\/noc\\/manifest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pubjelly"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "5fe8546bfadf399743f8fdc3728bc66621c336764ecdaaf232e7ee1c24fa761b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mondo.rs",
+                "stil.kurir.rs",
+                "story.hr",
+                "www.espreso.co.rs",
+                "www.kurir.rs"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "alec.ns.cloudflare.com",
+        "maleah.ns.cloudflare.com"
+    ]
+}

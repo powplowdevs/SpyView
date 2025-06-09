@@ -1,0 +1,95 @@
+{
+    "domain": "ovb24.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "nameday2020.widgets",
+        "linkpulse.widgets",
+        "story"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ovb24\\.de\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nameday2020.widgets",
+                "linkpulse.widgets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "262a54c44d01bea0dc725af0bad110a68880d468eb29dd67e7aee22fe9a6bc46"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chiemgau24.de",
+                "www.chiemgau24.de",
+                "www.rosenheim24.de"
+            ]
+        },
+        {
+            "rule": "ovb24\\.de\\/sidebar_ad\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "story"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "TouchEvent.prototype.constructor": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "40f8ef794b118ab7bf8faf7cde1b829acdc48148962bbfb691865bc8fbcde1b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chiemgau24.de",
+                "www.ovb-online.de",
+                "www.rosenheim24.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.4666666666666667
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4666666666666667
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "Script": 3
+    },
+    "nameservers": [
+        "dns.dns1.de",
+        "dns.dns2.de",
+        "dns.dns3.de",
+        "dns.dns4.de"
+    ]
+}

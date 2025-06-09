@@ -1,0 +1,138 @@
+{
+    "domain": "pghub.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0235,
+    "sites": 225,
+    "subdomains": [
+        "feed"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pghub\\.io\\/js\\/pandg-sdk\\.js",
+            "cookies": 0.00115,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 11,
+                "window.localStorage": 11,
+                "Document.cookie setter": 11,
+                "NavigatorUAData.prototype.getHighEntropyValues": 5
+            },
+            "sites": 225,
+            "prevalence": 0.0235,
+            "cnames": [],
+            "responseHashes": [
+                "27961ab8c37cddad89230364167c048c6377a80e38542a5ffbca600faf4098ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "TAPAD": {
+                    "ttl": null,
+                    "length": 59,
+                    "prevalence": 0.001150386948337168,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.hunker.com",
+                "www.pocketgamer.com",
+                "windowsreport.com",
+                "wisdomofthespirit.com",
+                "marathonhandbook.com",
+                "9meters.com",
+                "kristineskitchenblog.com",
+                "botanicalinstitute.org",
+                "itslinuxfoss.com",
+                "www.icy-veins.com",
+                "wealthyspy.com",
+                "gardenerbible.com",
+                "cartipsdaily.com",
+                "www.addictivetips.com",
+                "www.statology.org",
+                "www.supportyourtech.com",
+                "rarest.org",
+                "shunshelter.com",
+                "www.sympathymessageideas.com",
+                "thesavvybackpacker.com"
+            ]
+        },
+        {
+            "rule": "pghub\\.io\\/tag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feed"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000837,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tk_ro": 0.00010458063166701528,
+                "tk_rl": 0.00010458063166701528,
+                "tk_or": 0.00010458063166701528,
+                "tk_r3d": 0.00010458063166701528,
+                "tk_lr": 0.00010458063166701528,
+                "_li_dcdm_c": 0.00010458063166701528
+            },
+            "exampleSites": [
+                "archidekt.com",
+                "destinationlesstravel.com",
+                "popculture.com",
+                "prettysimplesweet.com",
+                "storables.com",
+                "thegimptutorials.com",
+                "www.acouplecooks.com",
+                "www.curbsideclassic.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00115,
+    "topInitiators": [
+        {
+            "domain": "mediavine.com",
+            "prevalence": 0.721030042918455
+        },
+        {
+            "domain": "journeymv.com",
+            "prevalence": 0.15879828326180256
+        },
+        {
+            "domain": "pubnation.com",
+            "prevalence": 0.06437768240343347
+        },
+        {
+            "domain": "adthrive.com",
+            "prevalence": 0.034334763948497854
+        },
+        {
+            "domain": "intergient.com",
+            "prevalence": 0.017167381974248927
+        },
+        {
+            "domain": "blogherads.com",
+            "prevalence": 0.004291845493562232
+        }
+    ],
+    "types": {
+        "Script": 225,
+        "Document": 8
+    },
+    "nameservers": [
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com"
+    ]
+}

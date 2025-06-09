@@ -1,0 +1,90 @@
+{
+    "domain": "freshchat.com",
+    "owner": {
+        "name": "Freshworks Inc",
+        "displayName": "Freshworks"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "gear4music-help",
+        "maxqda"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "freshchat\\.com\\/js\\/widget\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "gear4music-help",
+                "maxqda"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.platform": 1,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c6972eb47f42a7fd290669168ec32755883124054c5868b519228f20ad496872"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gear4music.de",
+                "www.maxqda.com"
+            ]
+        },
+        {
+            "rule": "freshchat\\.com\\/widget\\/config_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gear4music-help",
+                "maxqda"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gear4music.de",
+                "www.maxqda.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-1209.awsdns-23.org",
+        "ns-1887.awsdns-43.co.uk",
+        "ns-294.awsdns-36.com",
+        "ns-969.awsdns-57.net"
+    ]
+}

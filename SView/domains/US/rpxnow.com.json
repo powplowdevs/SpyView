@@ -1,0 +1,127 @@
+{
+    "domain": "rpxnow.com",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "ssl-widget-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rpxnow\\.com\\/load\\/dollar-tree",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ebd4e12e417b3e080dd2675d6ca95724ccd1594d7d9f33b34c012549b44d88e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollartree.com",
+                "www.familydollar.com"
+            ]
+        },
+        {
+            "rule": "rpxnow\\.com\\/translations\\/login\\/en-US",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssl-widget-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f397050057cfd104eeb1f57ef6ec9ab02347bc37fa045cdb6995b5e5a96dc8c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nejm.org",
+                "www.nejm.org"
+            ]
+        },
+        {
+            "rule": "rpxnow\\.com\\/js\\/lib\\/login\\.christianitytoday\\.com\\/engage\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2fbae99cc0986c005368cd1ab7b00dadf56ea39f70ab8c88c3cf00f2cae6722b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "preachingtoday.com",
+                "www.preachingtoday.com"
+            ]
+        },
+        {
+            "rule": "rpxnow\\.com\\/js\\/lib\\/wdtourism\\/engage\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9ab172f784ddea68d49e83a335caf3556cd452f57f8459b51f85cdb6d27fe39c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "travelwisconsin.com",
+                "www.travelwisconsin.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns-732.awsdns-27.net",
+        "ns-495.awsdns-61.com",
+        "ns-1064.awsdns-05.org",
+        "ns-1845.awsdns-38.co.uk"
+    ]
+}

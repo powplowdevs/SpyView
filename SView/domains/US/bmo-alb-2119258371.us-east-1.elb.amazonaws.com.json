@@ -1,0 +1,93 @@
+{
+    "domain": "bmo-alb-2119258371.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "mas.bismanonline.com",
+            "resolved": "bmo-alb-2119258371.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bmo-alb-2119258371\\.us-east-1\\.elb\\.amazonaws\\.com\\/www\\/delivery\\/spcajsasync\\.php",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mas.bismanonline.com",
+                    "resolved": "bmo-alb-2119258371.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "d39c872c0319b6260344329d260f9890790ec2f364f3c2f95a96db1da6138f2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "bismanonline.com",
+                "www.bismanonline.com"
+            ]
+        },
+        {
+            "rule": "bmo-alb-2119258371\\.us-east-1\\.elb\\.amazonaws\\.com\\/www\\/delivery\\/asjs35\\.php",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mas.bismanonline.com",
+                    "resolved": "bmo-alb-2119258371.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "08d92c5d9045ec38a09bf27ce1d369f16c1680d1c8a4bb880cee313aa30832cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "bismanonline.com",
+                "www.bismanonline.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "d2viduam6g2fks.cloudfront.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

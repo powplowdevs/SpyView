@@ -1,0 +1,130 @@
+{
+    "domain": "bodhi.is",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bodhi\\.is\\/splatest\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Document.cookie getter": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Document.cookie setter": 4,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.javaEnabled": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "62ed3cf655f7ac3b27c276fecd4f5b748f15b6fb138e7223d80b7b4333f2e6a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_spbt_id.9655": {
+                    "ttl": 63072016,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_spbt_ses.9655": {
+                    "ttl": 1816,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_spbt_ses.87c0": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_spbt_id.87c0": {
+                    "ttl": 63072006,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_spbt_ses.d5b7": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_spbt_id.d5b7": {
+                    "ttl": 63072006,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_spbt_ses.7f8a": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_spbt_id.7f8a": {
+                    "ttl": 63072005,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiffinmotorhomes.com",
+                "www.jayco.com",
+                "www.keystonerv.com",
+                "www.thormotorcoach.com",
+                "www.thorindustries.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "dns1.p05.nsone.net",
+        "dns2.p05.nsone.net",
+        "dns3.p05.nsone.net",
+        "dns4.p05.nsone.net"
+    ]
+}

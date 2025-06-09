@@ -1,0 +1,74 @@
+{
+    "domain": "exctg.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "roller",
+        "sunrise-ch"
+    ],
+    "cnames": [
+        {
+            "original": "exactag.sunrise.ch",
+            "resolved": "sunrise-ch.exctg.com"
+        },
+        {
+            "original": "exctg.roller.de",
+            "resolved": "roller.exctg.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "exctg\\.com\\/js\\/exactag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "roller",
+                "sunrise-ch"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "exctg.roller.de",
+                    "resolved": "roller.exctg.com"
+                },
+                {
+                    "original": "exactag.sunrise.ch",
+                    "resolved": "sunrise-ch.exctg.com"
+                }
+            ],
+            "responseHashes": [
+                "325b0f4e7c8ca2c6771710cae777e98d9c869906a289e09010960d196ad38ed5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roller.de",
+                "www.sunrise.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ali.ns.cloudflare.com",
+        "ganz.ns.cloudflare.com"
+    ]
+}

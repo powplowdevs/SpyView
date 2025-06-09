@@ -1,0 +1,112 @@
+{
+    "domain": "yobi.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "yobi\\.ai\\/$web\\/yopixel\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "1fad1b4a784aae1af3e83f019c7d43082967479462b686aed5664eeb6d6f25bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__yopix_uid": {
+                    "ttl": 63072010,
+                    "length": 19,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merrell.com",
+                "saucony.com",
+                "www.experian.com",
+                "www.merrell.com",
+                "www.originalmattress.com",
+                "www.saucony.com"
+            ]
+        },
+        {
+            "rule": "yobi\\.ai\\/$web\\/pixel\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__yopix_uid": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "merrell.com",
+                "saucony.com",
+                "www.experian.com",
+                "www.merrell.com",
+                "www.originalmattress.com",
+                "www.saucony.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Image": 6
+    },
+    "nameservers": [
+        "ns2-07.azure-dns.net",
+        "ns1-07.azure-dns.com",
+        "ns4-07.azure-dns.info",
+        "ns3-07.azure-dns.org"
+    ]
+}

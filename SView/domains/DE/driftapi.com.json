@@ -1,0 +1,78 @@
+{
+    "domain": "driftapi.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "bootstrap"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "driftapi\\.com\\/widget_bootstrap\\/ping\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bootstrap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "40f720cba9481c18e57f59dc439ae858a054695d5f9087f885b2ed85c77e251c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auth0.com",
+                "www.fortinet.com"
+            ]
+        },
+        {
+            "rule": "driftapi\\.com\\/widget_bootstrap",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bootstrap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "063f7b96b670e3ecf1c2c8172203705271107035f4e93c42777ff32833121f01"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auth0.com",
+                "www.fortinet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "driftt.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-653.awsdns-17.net",
+        "ns-28.awsdns-03.com",
+        "ns-1366.awsdns-42.org",
+        "ns-1970.awsdns-54.co.uk"
+    ]
+}

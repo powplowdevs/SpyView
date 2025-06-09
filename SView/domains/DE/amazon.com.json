@@ -1,0 +1,203 @@
+{
+    "domain": "amazon.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00163,
+    "sites": 16,
+    "subdomains": [
+        "payments-de",
+        "payments-eu",
+        "unagi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "amazon\\.com\\/gp\\/widgets\\/sessionstabilizer",
+            "cookies": 0.00102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "payments-de",
+                "payments-eu"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "55a20f1fd11c13fb7c80ec142f46acc08b5639984858999384bd829628f02e23",
+                "83ff035a81e3beb468c6fe02cebb34a02be534a8495a2d55c4bf821b186668c4",
+                "2061970dae6280edec5c2c8c6c15d1717437f9fd8bd51b65d35425446a99c2a8",
+                "22ea9a3c1653fed957099a04ec29798b965214df209acf16f6a35749bafb7731",
+                "613649782c1aaa87bacc401fca2853c0dd28632f1d6bfb7e369c0724ff41e28f",
+                "451f002dfd9420d47a65ed391b17db661e0769a361a53f6522499413fe90a57e",
+                "2721d4902d2e02898bd8aa14a0a15d879c79a1aae1c93dce52a2fd24a3d0a337",
+                "67861c31e8de4e70e594ae045eaf31b561edf202acb294064485eac788920614",
+                "4118280668626da5876233e1de881eb74a64feab01e5a59cbb7a0f0411e6892e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asgoodasnew.de",
+                "dvs-beregnung.de",
+                "elektroland24.de",
+                "samen.de",
+                "shop.zweirad-stadler.de",
+                "www.akkushop.de",
+                "www.boerger-motorgeraete.de",
+                "www.bogensportwelt.de",
+                "www.elektro4000.de",
+                "www.grow-shop24.de"
+            ]
+        },
+        {
+            "rule": "amazon\\.com\\/cs\\/uedata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "payments-de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asgoodasnew.de",
+                "www.akkushop.de"
+            ]
+        },
+        {
+            "rule": "amazon\\.com\\/abTestV2",
+            "cookies": 0.000714,
+            "fingerprinting": 0,
+            "subdomains": [
+                "payments-eu"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "b3f909a3d0bd5e1b88a294564357bf5de165cf40edf0f22f7ff0802bc58c72cb",
+                "ac12955ffb3f05c371f0382336fa540809bddcfb1707a8362b40165368eba92a",
+                "0db1dfbc7864da487f725b0fe0ffa8353ef79a899bdedfa7a6bcf2f0a6cadeef",
+                "b8e794a7812f22ee138b735f57e72b15758edb732ff3cf8435ce0afda496d2ae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dvs-beregnung.de",
+                "elektroland24.de",
+                "samen.de",
+                "shop.zweirad-stadler.de",
+                "www.boerger-motorgeraete.de",
+                "www.bogensportwelt.de",
+                "www.grow-shop24.de"
+            ]
+        },
+        {
+            "rule": "amazon\\.com\\/cs\\/uedata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "payments-eu"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dvs-beregnung.de",
+                "elektroland24.de",
+                "samen.de",
+                "shop.zweirad-stadler.de",
+                "www.boerger-motorgeraete.de",
+                "www.bogensportwelt.de",
+                "www.elektro4000.de",
+                "www.grow-shop24.de"
+            ]
+        },
+        {
+            "rule": "amazon\\.com\\/1\\/events\\/com\\.amazon\\.csm\\.csa\\.prod",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unagi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abebooks.de",
+                "www.abebooks.com",
+                "www.zvab.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "SSO",
+        "Third-Party Analytics Marketing",
+        "Online Payment",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00102,
+    "topInitiators": [
+        {
+            "domain": "payments-amazon.com",
+            "prevalence": 0.6265060240963856
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3132530120481928
+        },
+        {
+            "domain": "abebookscdn.com",
+            "prevalence": 0.060240963855421686
+        }
+    ],
+    "types": {
+        "XHR": 19,
+        "Ping": 11
+    },
+    "nameservers": [
+        "ns1.amzndns.co.uk",
+        "ns1.amzndns.com",
+        "ns2.amzndns.com",
+        "ns1.amzndns.org",
+        "ns1.amzndns.net",
+        "ns2.amzndns.org",
+        "ns2.amzndns.co.uk",
+        "ns2.amzndns.net"
+    ]
+}

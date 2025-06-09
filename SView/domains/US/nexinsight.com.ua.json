@@ -1,0 +1,112 @@
+{
+    "domain": "nexinsight.com.ua",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "s",
+        "p"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nexinsight\\.com\\.ua\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7884264d59145616d6327320776c9f598a0ce289f68ee5b60b159cc898300307"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ria.com",
+                "dom.ria.com"
+            ]
+        },
+        {
+            "rule": "nexinsight\\.com\\.ua\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ria.com",
+                "auto.ria.com",
+                "dom.ria.com"
+            ]
+        },
+        {
+            "rule": "nexinsight\\.com\\.ua\\/csync",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ria.com",
+                "dom.ria.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "adtelligent.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "riastatic.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns.anycastns1.org",
+        "ns.anycastns2.org"
+    ]
+}

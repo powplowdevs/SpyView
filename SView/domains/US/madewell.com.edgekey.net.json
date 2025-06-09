@@ -1,0 +1,86 @@
+{
+    "domain": "madewell.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "chat"
+    ],
+    "cnames": [
+        {
+            "original": "chat.madewell.com",
+            "resolved": "chat.madewell.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "madewell\\.com\\.edgekey\\.net\\/api\\/v2\\/Agent\\/CheckSkillStatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "chat.madewell.com",
+                    "resolved": "chat.madewell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "madewell.com",
+                "www.madewell.com"
+            ]
+        },
+        {
+            "rule": "madewell\\.com\\.edgekey\\.net\\/api\\/v2\\/Agent\\/CheckSkillStatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "chat.madewell.com",
+                    "resolved": "chat.madewell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c7d0ef72895272937eb7b94c8a6c05b4cb9d7df3172c7055ce106bc099ed3f2e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "madewell.com",
+                "www.madewell.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,202 @@
+{
+    "domain": "linkconnector.com",
+    "owner": {
+        "name": "LinkConnector Corporation",
+        "displayName": "LinkConnector"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000816,
+    "sites": 8,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "linkconnector\\.com\\/uts_lp\\.php",
+            "cookies": 0.000816,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "window.localStorage": 8,
+                "Document.cookie setter": 8,
+                "Date.prototype.getTime": 7
+            },
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "1a21281195768294c31ef82228d6813ba56c84a283d0c498176bfe82875c3cba",
+                "a1b39259c79438fe108b71daf982e250590f97dad867aaf74ab048b925cc4cb5",
+                "6007eb00bc144f55771d0b04a025d95317d28a346405e37af00bbf911c09d8fb",
+                "6b463b3d8401e64a2973b0ce3069a952319b83a2edfecc26a95b00dd4e334dbd",
+                "5ebf0acf4efffd6db5776940943c4a0e38feedda1bfa12491c8f34db555f93d6",
+                "c08e7bb16a04ccd9d454179dfd0e7c5b867173fd4f6f87669e3c94817c2481b9",
+                "1bbe719eb0c552a4bd27de46831fe182374c518a7f7b81c01cfa5f1bfdd5372c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "uts_id": {
+                    "ttl": 157680005,
+                    "length": 17,
+                    "prevalence": 0.000815910249872514,
+                    "uniqueness": 1
+                },
+                "LCUTS_UID_901602": {
+                    "ttl": 3607,
+                    "length": 6,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                },
+                "LCUTS_UID_900133": {
+                    "ttl": 3605,
+                    "length": 6,
+                    "prevalence": 0.000407955124936257,
+                    "uniqueness": 0.25
+                },
+                "LCUTS_UID_902007": {
+                    "ttl": 3602,
+                    "length": 6,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "LCUTS_UID_901518": {
+                    "ttl": 3630,
+                    "length": 6,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "LCUTS_UID_901602": 0.0002039775624681285,
+                "LCUTS_UID_900133": 0.000407955124936257,
+                "LCUTS_UID_902007": 0.00010198878123406426,
+                "LCUTS_UID_901518": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "minitool.com",
+                "drfone.wondershare.de",
+                "filmora.wondershare.de",
+                "pdf.wondershare.de",
+                "recoverit.wondershare.de",
+                "updf.com",
+                "www.edrawsoft.com",
+                "www.minitool.com"
+            ]
+        },
+        {
+            "rule": "linkconnector\\.com\\/uts_clickcounts\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LCUTS_UID_901602": 0.0002039775624681285,
+                "IR_gbd": 0.00010198878123406426,
+                "LCUTS_UID_901518": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "minitool.com",
+                "www.edrawsoft.com",
+                "www.minitool.com"
+            ]
+        },
+        {
+            "rule": "linkconnector\\.com\\/tu\\.php",
+            "cookies": 0.00051,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "942fa519ebb6234f59c3d8c8c66c6b2671b69364c1c31a6788f722e4baca9a94"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_rdt_uuid": 0.00010198878123406426,
+                "IR_gbd": 0.0005099439061703213,
+                "_hjSessionUser_1326224": 0.00010198878123406426,
+                "_hjSession_1326224": 0.00010198878123406426,
+                "_fbp": 0.00010198878123406426,
+                "_yjsu_yjad": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "wondershare.de",
+                "filmora.wondershare.de",
+                "pdf.wondershare.de",
+                "recoverit.wondershare.de",
+                "www.edrawsoft.com"
+            ]
+        },
+        {
+            "rule": "linkconnector\\.com\\/js\\/uts_uid\\.php",
+            "cookies": 0.00051,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "942fa519ebb6234f59c3d8c8c66c6b2671b69364c1c31a6788f722e4baca9a94"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LCUTS_UID_900133": 0.000407955124936257,
+                "LCUTS_UID_901518": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "wondershare.de",
+                "filmora.wondershare.de",
+                "pdf.wondershare.de",
+                "recoverit.wondershare.de",
+                "www.edrawsoft.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000816,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Image": 10
+    },
+    "nameservers": [
+        "sri.ns.cloudflare.com",
+        "edna.ns.cloudflare.com"
+    ]
+}

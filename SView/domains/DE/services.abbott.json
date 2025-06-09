@@ -1,0 +1,56 @@
+{
+    "domain": "services.abbott",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "services\\.abbott\\/api\\/proxy\\/graphql-proxy-api-prod\\/guest",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "bebf221f9dd0fc7a6dd2f128cd0278745b7567b6a3d6cafc57b9c55bdb39c6f4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freestylelibre.de",
+                "www.freestylelibre.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1514.awsdns-61.org",
+        "ns-1632.awsdns-12.co.uk",
+        "ns-373.awsdns-46.com",
+        "ns-808.awsdns-37.net"
+    ]
+}

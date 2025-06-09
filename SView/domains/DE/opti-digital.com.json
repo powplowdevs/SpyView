@@ -1,0 +1,148 @@
+{
+    "domain": "opti-digital.com",
+    "owner": {
+        "name": "Opti Digital",
+        "displayName": "Opti Digital"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [
+        "scripts",
+        "optiyield-data",
+        "optiyield"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "opti-digital\\.com\\/lib\\/",
+            "cookies": 0.000102,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4,
+                "Screen.prototype.width": 4,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "window.innerHeight": 1,
+                "window.localStorage": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "8e806b4636b36a7aeb734d25a19064b1376e7dbb8d1c0c512fcb4227b2f51af1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sharedid": {
+                    "ttl": 7776009,
+                    "length": 36,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "_sharedid_cst": {
+                    "ttl": 7776009,
+                    "length": 16,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euronews.com",
+                "wamiz.de",
+                "www.betaseries.com",
+                "www.wohin-und-wann.de"
+            ]
+        },
+        {
+            "rule": "opti-digital\\.com\\/pfc\\/web\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "optiyield-data",
+                "optiyield"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "c6758548293e7d12901670cf253025e34146b990e233d9490bfc1a5a9a405bd2",
+                "1f9b3ec72b4c05dfb54f61d1d72ffcb2aaa178969e45289415f2f5e733aa157e",
+                "ccef6d8038e58a45f6d5e5fb41981f4cf7600f206c7a0dde2f395858551a3670",
+                "a0924a374e7ace7e80d944cefc0f13854b17abfbe68a978ce29bb0e088ddf22b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euronews.com",
+                "wamiz.de",
+                "www.betaseries.com",
+                "www.mtbr.com",
+                "www.wohin-und-wann.de"
+            ]
+        },
+        {
+            "rule": "opti-digital\\.com\\/tags\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "fe643c25bb656e07e0cbdf951fcb26da1c74b27b03bf09bdd737d8d7ac575bb7",
+                "7df6d9f71ba63a2bddd62b16a61bc8deae06f36e087c0aeee8da5fe646ce0f44"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wamiz.de",
+                "www.betaseries.com",
+                "www.wohin-und-wann.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "htplayground.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "aditude.io",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 5
+    },
+    "nameservers": [
+        "sean.ns.cloudflare.com",
+        "aida.ns.cloudflare.com"
+    ]
+}

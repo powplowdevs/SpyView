@@ -1,0 +1,199 @@
+{
+    "domain": "midas-network.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000099,
+    "sites": 14,
+    "subdomains": [
+        "cdn",
+        "cdn2",
+        "images1",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "midas-network\\.com\\/Common\\/GetUAV1Async",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mondo.rs",
+                "narod.hr",
+                "story.hr",
+                "www.24sata.hr",
+                "www.arz.hr",
+                "www.bitno.net",
+                "www.espreso.co.rs",
+                "www.logicno.com",
+                "www.republika.rs",
+                "www.telegraf.rs"
+            ]
+        },
+        {
+            "rule": "midas-network\\.com\\/api\\/widget\\/getHtml",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "3ff5a7ec9773a977736e7a6ce301aa2ff9dcc9a975acf974f9e16df714d76a03",
+                "e9f3de1b2568083b8f77267bf21296101dd56e484f3e458f992ce8fc2db28c75",
+                "c3e6586e8b25d8ec847c4179ba71fcd0bf7e3c76db30dd1ae35c58709545a435",
+                "fa749236bbd542b8f77e51e342b72ba3ab898f4b0838f71236029d74110f10d7",
+                "06564d8540ab887717a6a4ffbf5c805736e9fc9323915460cc72512b0efc0f1b",
+                "548570c029e55ff5177449755e5d5ffcf4790349f7798d7652c7d0064250c9df",
+                "cccfa188f9d3f020752115fafb44c80fdc8f747a5ba957d17fd00a185cc287c0",
+                "971f149b14c04a636deacbe5a31f3204bbd2fa25040ff47b1de3608933533f30"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lp_538988": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "mondo.rs",
+                "narod.hr",
+                "story.hr",
+                "www.24sata.hr",
+                "www.arz.hr",
+                "www.espreso.co.rs",
+                "www.logicno.com",
+                "www.republika.rs",
+                "www.telegraf.rs"
+            ]
+        },
+        {
+            "rule": "midas-network\\.com\\/images\\/portals\\/1409\\/articles\\/iugf1pjwh2s0d5x4xo2nzi\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a1f3d5711f85e4cb3e0cc67938c0b0415087ef485dab0ba811748aff8195fd25"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mondo.rs",
+                "www.espreso.co.rs"
+            ]
+        },
+        {
+            "rule": "midas-network\\.com\\/images\\/default\\/midasCrownV3\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "db3388e8628488b5e7e6db413537736bb4e001630f1de4b8e49638c15ac8caf3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mondo.rs",
+                "narod.hr",
+                "story.hr",
+                "www.arz.hr",
+                "www.espreso.co.rs",
+                "www.logicno.com",
+                "www.republika.rs",
+                "www.telegraf.rs"
+            ]
+        },
+        {
+            "rule": "midas-network\\.com\\/images\\/lazy-image\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "16cebeae0fb73be11b66ef5df09f702cd6a896c81b76622c963eb3b660c2b523"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "story.hr",
+                "www.republika.rs"
+            ]
+        },
+        {
+            "rule": "midas-network\\.com\\/Widget\\/IndexAsync\\/2",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cfd4ae28f418bbf384dc216212ed0c976dfcb6fc0b9d070507cf3a65f452525e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alo.rs",
+                "www.pravda.rs"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 19,
+        "Image": 12,
+        "Script": 2
+    },
+    "nameservers": [
+        "ajay.ns.cloudflare.com",
+        "meera.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,317 @@
+{
+    "domain": "matomo.cloud",
+    "owner": {
+        "name": "Matomo",
+        "displayName": "Matomo"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00286,
+    "sites": 28,
+    "subdomains": [
+        "druckerzubehoer",
+        "cicero",
+        "erecht24",
+        "ethikbank",
+        "openproject",
+        "vaude",
+        "nextcloud",
+        "vaadin",
+        "kruppverlag",
+        "daikin",
+        "elektor",
+        "rtigroup",
+        "iso",
+        "klett-cotta",
+        "kvhh",
+        "lowbeats",
+        "interparking",
+        "vbu",
+        "kammerspiele",
+        "malta1",
+        "svb",
+        "wertgarantie",
+        "yourjob",
+        "kfb",
+        "cdn"
+    ],
+    "cnames": [
+        {
+            "original": "service.e-recht24.de",
+            "resolved": "erecht24.matomo.cloud"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "matomo\\.cloud\\/matomo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "druckerzubehoer",
+                "cicero",
+                "erecht24",
+                "ethikbank",
+                "openproject",
+                "vaude"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.vendor": 5,
+                "Document.cookie getter": 5,
+                "window.name": 5,
+                "NavigatorUAData.prototype.brands": 4,
+                "NavigatorUAData.prototype.platform": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.mimeTypes": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.doNotTrack": 3,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [
+                {
+                    "original": "service.e-recht24.de",
+                    "resolved": "erecht24.matomo.cloud"
+                }
+            ],
+            "responseHashes": [
+                "571e15df1f8532b38a75290a66388e3439e82821c5ca5e1fc5d3d30485cd5db8",
+                "f097769a04a102b1de60c91a8b23cd10673981fa98f0f5300eaf427e9ded5819",
+                "e344948d06d65ea772a7e35c45d1dceba6a5321e7536fdda30801f80c496b044",
+                "9c0387ad0b0001940dc7f8de4ce8d8b74133916eccb1effe12d11ef95ffa6193",
+                "ed2639355741299f19e6611a6cd9d06fc992f6746c2b527812e2cbeb1e70306f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "druckerzubehoer.de",
+                "www.cicero.de",
+                "www.e-recht24.de",
+                "www.ethikbank.de",
+                "www.openproject.org",
+                "www.vaude.com"
+            ]
+        },
+        {
+            "rule": "matomo\\.cloud\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "druckerzubehoer",
+                "nextcloud",
+                "vaadin",
+                "kruppverlag",
+                "cicero",
+                "daikin",
+                "erecht24",
+                "elektor",
+                "rtigroup",
+                "iso",
+                "klett-cotta",
+                "kvhh",
+                "lowbeats",
+                "interparking",
+                "vbu",
+                "kammerspiele",
+                "openproject",
+                "malta1",
+                "svb",
+                "vaude",
+                "wertgarantie",
+                "yourjob"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00235,
+            "cnames": [
+                {
+                    "original": "service.e-recht24.de",
+                    "resolved": "erecht24.matomo.cloud"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.blick-aktuell.de",
+                "www.elektormagazine.de",
+                "www.iso.org",
+                "www.kvhh.net",
+                "www.muenchner-kammerspiele.de",
+                "www.e-recht24.de",
+                "www.daikin.de",
+                "help.nextcloud.com",
+                "www.mein-contipark.de",
+                "vaadin.com",
+                "www.meine-krankenkasse.de",
+                "www.openproject.org",
+                "www.cicero.de",
+                "www.ergonbike.com",
+                "www.perspektiveausland.com",
+                "www.vaude.com",
+                "www.wirtrauern.de",
+                "druckerzubehoer.de",
+                "www.svb.de",
+                "nextcloud.com"
+            ]
+        },
+        {
+            "rule": "matomo\\.cloud\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "erecht24",
+                "elektor",
+                "rtigroup",
+                "iso",
+                "vbu",
+                "kammerspiele",
+                "svb",
+                "vaude",
+                "wertgarantie"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [
+                {
+                    "original": "service.e-recht24.de",
+                    "resolved": "erecht24.matomo.cloud"
+                }
+            ],
+            "responseHashes": [
+                "0886be08996d6aacc6f1b0b1f45b1d12ba684800d66dd38f15eaf7a4afc6c7d2",
+                "29a03a84b5378cc9ac505e08ce0a5a4fe83514cfd18eb8b82a51768716ad7bee",
+                "11e75a286e6f0701ab9e1dcd000f2475ed147e3c72f747c951a6c0c4a01c14fb",
+                "fb3dded2d848a18db5a3fa0c71ece60571776b1325a919e5eb7374d9f7795df9",
+                "52a6ea28cbf4812c50fc9c249d01ad18e029a67fec017ab0db6985d7c9de8809",
+                "23eaf4225745913bafed201e041d222a9b9f81288b16ab5bfa9cd8afc5fc0ac4",
+                "4f0436269d5cffd2d22c9a3db8a5bf47b34096b94855e1a38fb9b5a7b72e26a5",
+                "ca9d51c6c675331f698e7cb12c66f81c77fa284ef5e62b441660c090141ce821"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "e-recht24.de",
+                "www.elektormagazine.de",
+                "www.ergonbike.com",
+                "www.iso.org",
+                "www.meine-krankenkasse.de",
+                "www.muenchner-kammerspiele.de",
+                "www.svb.de",
+                "www.vaude.com",
+                "www.wertgarantie.de"
+            ]
+        },
+        {
+            "rule": "matomo\\.cloud\\/\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kfb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kreuzfahrtberater.de",
+                "www.kreuzfahrtberater.de"
+            ]
+        },
+        {
+            "rule": "matomo\\.cloud\\/wertgarantie\\.matomo\\.cloud\\/matomo\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ed2639355741299f19e6611a6cd9d06fc992f6746c2b527812e2cbeb1e70306f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.1.c977": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                },
+                "_pk_ses.1.c977": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wertgarantie.de",
+                "www.wertgarantie.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000612,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7714285714285715
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11428571428571428
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.08571428571428572
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.02857142857142857
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Ping": 25
+    },
+    "nameservers": [
+        "ns-1060.awsdns-04.org",
+        "ns-1933.awsdns-49.co.uk",
+        "ns-302.awsdns-37.com",
+        "ns-616.awsdns-13.net"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "domain": "prod-server-side-tagging-oh25t3yxza-uc.a.run.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prod-server-side-tagging-oh25t3yxza-uc\\.a\\.run\\.app\\/g\\/collect",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "524df18eff45df179e6dd6a4f6b6f6825c410c7721c47fb44a162765aaa27ed8",
+                "3f59e3d1fb3b0415b9225b7c8c653eed1bc36af832a141dbfad6eb6335f5b43f",
+                "5bdbda21196360fa58708e02d5a38699d61eec3ed7b7d608b0dfbb22d5afd7de"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "myperfectresume.com",
+                "www.flexjobs.com",
+                "www.myperfectresume.com",
+                "www.resume-now.com"
+            ]
+        },
+        {
+            "rule": "prod-server-side-tagging-oh25t3yxza-uc\\.a\\.run\\.app\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "d36b373b44b77f016e4b7df913ba2da2a8025456f016bc794861f210c0e3ada3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myperfectresume.com",
+                "www.flexjobs.com",
+                "www.myperfectresume.com",
+                "www.resume-now.com"
+            ]
+        },
+        {
+            "rule": "prod-server-side-tagging-oh25t3yxza-uc\\.a\\.run\\.app\\/_set_cookie",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myperfectresume.com",
+                "www.flexjobs.com",
+                "www.myperfectresume.com",
+                "www.resume-now.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000424,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Document": 4,
+        "Image": 4
+    },
+    "nameservers": []
+}

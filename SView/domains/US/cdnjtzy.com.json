@@ -1,0 +1,60 @@
+{
+    "domain": "cdnjtzy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "app-search"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cdnjtzy\\.com\\/static\\/hy\\/fe-packages\\/@apmplus\\/web@1\\.7\\.0\\/cn\\/browser\\.cn\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app-search"
+            ],
+            "apis": {
+                "Navigator.prototype.connection": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f9e50e71881c2a509041f75b002c27c9dc730f574b6f0afdd9ffe46732da62f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polybuzz.ai",
+                "www.polybuzz.ai"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "vip3.alidns.com",
+        "vip4.alidns.com"
+    ]
+}

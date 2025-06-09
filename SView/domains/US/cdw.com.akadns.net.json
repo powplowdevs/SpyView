@@ -1,0 +1,72 @@
+{
+    "domain": "cdw.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "smetrics"
+    ],
+    "cnames": [
+        {
+            "original": "smetrics.cdw.com",
+            "resolved": "smetrics.cdw.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cdw\\.com\\.akadns\\.net\\/id",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "smetrics.cdw.com",
+                    "resolved": "smetrics.cdw.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7bedc4af2cb336893b0017b4b57e15e30897bf921a57969e1f4b45ff44bde638"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdw.com",
+                "www.cdw.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": []
+}

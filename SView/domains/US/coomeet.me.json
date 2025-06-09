@@ -1,0 +1,73 @@
+{
+    "domain": "coomeet.me",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000141,
+    "sites": 20,
+    "subdomains": [
+        "iframe"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "coomeet\\.me\\/js\\/code\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "iframe"
+            ],
+            "apis": {
+                "window.localStorage": 10,
+                "Navigator.prototype.languages": 9,
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.maxTouchPoints": 9
+            },
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "991941f664f033475c3c690559be3161aa91f992941913ef3b5492b88571556b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bazoocam.io",
+                "cammatch.io",
+                "camround.com",
+                "chathub.net",
+                "chatib.net",
+                "coomeet.chat",
+                "dirtychat.app",
+                "instacams.info",
+                "omegl.org",
+                "omegle.cc",
+                "omegle.is",
+                "omegle.life",
+                "strangercam.com",
+                "tinychat.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "major.ns.cloudflare.com",
+        "sue.ns.cloudflare.com"
+    ]
+}

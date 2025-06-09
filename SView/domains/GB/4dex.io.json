@@ -1,0 +1,261 @@
+{
+    "domain": "4dex.io",
+    "owner": {
+        "name": "Adagio",
+        "displayName": "Adagio"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00423,
+    "sites": 41,
+    "subdomains": [
+        "script",
+        "mp",
+        "c"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "4dex\\.io\\/localstore\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "window.localStorage": 13
+            },
+            "sites": 19,
+            "prevalence": 0.00196,
+            "cnames": [],
+            "responseHashes": [
+                "504460751d9d131dae7dcd29927c1cd147be3cb0651003de4ee6b0fea5fef6ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appleinsider.com",
+                "celebritate.com",
+                "cplusplus.com",
+                "forums.golfwrx.com",
+                "mydramalist.com",
+                "steamcharts.com",
+                "sweetishhill.com",
+                "www.autosport.com",
+                "www.bigissue.com",
+                "www.bristol247.com",
+                "www.iplocation.net",
+                "www.jewishnews.co.uk",
+                "www.listchallenges.com",
+                "www.maggotdrowning.com",
+                "www.mangaread.org",
+                "www.motorcyclespecs.co.za",
+                "www.motorsport.com",
+                "www.nationalclubgolfer.com",
+                "www.statmuse.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/prebid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mp"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.00309,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "77b47b7a038f38916adbe760bc262fe2aa75e9f2a0d67621d19ad74e41acdb39"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biblehub.com",
+                "cplusplus.com",
+                "thechive.com",
+                "www.cbc.ca",
+                "www.futbin.com",
+                "www.latlong.net",
+                "www.shropshirestar.com",
+                "www.haaretz.com",
+                "www.listchallenges.com",
+                "sage-advices.com",
+                "www.behindthename.com",
+                "www.gbmb.org",
+                "www.iplocation.net",
+                "www.motorcyclespecs.co.za",
+                "www.myweather2.com",
+                "www.motorsport.com",
+                "mydramalist.com",
+                "forums.golfwrx.com",
+                "www.jewishnews.co.uk",
+                "www.statmuse.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/a\\/latest\\/adagio\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00196,
+            "cnames": [],
+            "responseHashes": [
+                "9de56ba22416192d18869051fdaa33876a9b6b3c7ed326abc7c8cc8503027797"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appleinsider.com",
+                "celebritate.com",
+                "cplusplus.com",
+                "forums.golfwrx.com",
+                "mydramalist.com",
+                "steamcharts.com",
+                "sweetishhill.com",
+                "www.autosport.com",
+                "www.bigissue.com",
+                "www.bristol247.com",
+                "www.iplocation.net",
+                "www.jewishnews.co.uk",
+                "www.listchallenges.com",
+                "www.maggotdrowning.com",
+                "www.mangaread.org",
+                "www.motorcyclespecs.co.za",
+                "www.motorsport.com",
+                "www.nationalclubgolfer.com",
+                "www.statmuse.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/a\\/latest\\/adagio\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {
+                "window.localStorage": 12,
+                "Navigator.prototype.userAgent": 11,
+                "PerformanceTiming.prototype.navigationStart": 6
+            },
+            "sites": 15,
+            "prevalence": 0.00155,
+            "cnames": [],
+            "responseHashes": [
+                "9de56ba22416192d18869051fdaa33876a9b6b3c7ed326abc7c8cc8503027797"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biblehub.com",
+                "boxrec.com",
+                "ejje.weblio.jp",
+                "sage-advices.com",
+                "tipsfolder.com",
+                "www.behindthename.com",
+                "www.expressandstar.com",
+                "www.grammar-monster.com",
+                "www.haaretz.com",
+                "www.myweather2.com",
+                "www.showmyip.com",
+                "www.shropshirestar.com",
+                "www.snbforums.com",
+                "www.straitstimes.com",
+                "www.trustedreviews.com"
+            ]
+        },
+        {
+            "rule": "4dex\\.io\\/pba\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000618,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cplusplus.com",
+                "sage-advices.com",
+                "tipsfolder.com",
+                "www.cbc.ca",
+                "www.iplocation.net",
+                "www.straitstimes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "themoneytizer.fr",
+            "prevalence": 0.16
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.104
+        },
+        {
+            "domain": "sphdigital.com",
+            "prevalence": 0.096
+        },
+        {
+            "domain": "buysellads.net",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "aditude.io",
+            "prevalence": 0.064
+        },
+        {
+            "domain": "tagdeliver.com",
+            "prevalence": 0.064
+        },
+        {
+            "domain": "admetricspro.com",
+            "prevalence": 0.056
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.056
+        },
+        {
+            "domain": "adtelligent.com",
+            "prevalence": 0.048
+        },
+        {
+            "domain": "snack-media.com",
+            "prevalence": 0.032
+        }
+    ],
+    "types": {
+        "Script": 34,
+        "Fetch": 55
+    },
+    "nameservers": [
+        "bart.ns.cloudflare.com",
+        "roxy.ns.cloudflare.com"
+    ]
+}

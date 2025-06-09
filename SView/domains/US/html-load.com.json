@@ -1,0 +1,568 @@
+{
+    "domain": "html-load.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000927,
+    "sites": 131,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "as.slashdot.org",
+            "resolved": "html-load.com"
+        },
+        {
+            "original": "as.sourceforge.net",
+            "resolved": "html-load.com"
+        },
+        {
+            "original": "ash.automobile-catalog.com",
+            "resolved": "html-load.com"
+        },
+        {
+            "original": "loader.gutefrage.net",
+            "resolved": "html-load.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "html-load\\.com\\/loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 80,
+                "URL.createObjectURL": 62,
+                "Document.cookie getter": 63,
+                "window.innerHeight": 74,
+                "window.innerWidth": 75,
+                "window.outerHeight": 73,
+                "window.outerWidth": 74,
+                "Navigator.prototype.userAgent": 55,
+                "Navigator.prototype.onLine": 38,
+                "Navigator.prototype.vendor": 6,
+                "Navigator.prototype.appVersion": 6,
+                "Navigator.prototype.connection": 6,
+                "Navigator.prototype.plugins": 4,
+                "Navigator.prototype.productSub": 4,
+                "Navigator.prototype.mimeTypes": 4,
+                "WebGLRenderingContext.prototype.getParameter": 4,
+                "Navigator.prototype.webdriver": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.languages": 4,
+                "Navigator.prototype.permissions": 4,
+                "Notification.permission": 3
+            },
+            "sites": 102,
+            "prevalence": 0.000721,
+            "cnames": [
+                {
+                    "original": "as.slashdot.org",
+                    "resolved": "html-load.com"
+                },
+                {
+                    "original": "as.sourceforge.net",
+                    "resolved": "html-load.com"
+                },
+                {
+                    "original": "ash.automobile-catalog.com",
+                    "resolved": "html-load.com"
+                },
+                {
+                    "original": "loader.gutefrage.net",
+                    "resolved": "html-load.com"
+                }
+            ],
+            "responseHashes": [
+                "f46f60d6521112646a066e53dade19448ac3819568b735e55e3721e49fdf134a",
+                "54a5e0b7235dc535aa213aabd2e025a98133f192226945636d1adb8dc5c3be8e",
+                "a3a453f4714bee8036aa59f74d1e4365606d37ff477791327e7069d32c46787d",
+                "ee700c616e4c0bf754dc4f984a125736dbcb0d47ada4d3b90a65273ae14fe70f",
+                "92728219c013f7b1c6a55738990fd46b9c63f86a17d6b02611fab89cca65734f",
+                "d3414a22f467c7d6020e608cbf32a25623057faf8f86cddde2c41dce2c791c7c",
+                "0d8c330926d486c1530bd98fd2043b8de2a6d985218a72a8a412a17dcf11c19c",
+                "a036a80fd6654d4750fcc252790589fdf77e8dfb96769c158d99cd15a38f34aa",
+                "34bc8084d11906a521b850ece1a9995dbd37a9fdb22ea34bc76dc3313d5b99cf",
+                "8a22ec8c1d2ce468213ff2bbd30e7b10c8b07693628ad97c8710cfc4be30e90b",
+                "e6118a3e64075d1e32ea19d293eb8ec693c9738823c7a0c03979499c631e9647",
+                "9c21546032e0a32dee5ee6c30c17a09adf04b0ff652af1746cf4ebfad9373c91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.cambridge.org",
+                "en.bab.la",
+                "sourceforge.net",
+                "www.gutefrage.net",
+                "www.huffingtonpost.com",
+                "www.chinatimes.com",
+                "www.nbadraft.net",
+                "fr.pons.com",
+                "www.oxfordlearnersdictionaries.com",
+                "www.malaymail.com",
+                "es.pons.com",
+                "www.cinema.com.my",
+                "en.langenscheidt.com",
+                "mathplayzone.com",
+                "nl.bab.la",
+                "www.manta.com",
+                "www.sankei.com",
+                "forsal.pl",
+                "www.lacuarta.com",
+                "de.langenscheidt.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/dictionary\\.cambridge\\.org\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f28bca2bf253ed5bfa3dd59ef31c0f356a8df25b08a80f18ae43b10ee9932e9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "dictionary.cambridge.org"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/dictionnaire\\.lerobert\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "498a6d7ee82ac97d7ebd51929314a4550b37054ff5840ff36b0afd79b081c950"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lerobert.com",
+                "dictionnaire.lerobert.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/en\\.bab\\.la\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ba2fd6b541a2441508a00e055f6902b34fbaf2b3105b4e6e2986acce09e08a8f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bab.la",
+                "en.bab.la"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/en\\.langenscheidt\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c077763a768246dee384d203729004d03584d472e5343ab7d5e4bfeb9d814a56"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "langenscheidt.com",
+                "en.langenscheidt.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.automobile-catalog\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ash.automobile-catalog.com",
+                    "resolved": "html-load.com"
+                }
+            ],
+            "responseHashes": [
+                "31ff919cc0971c52af00b3914d2abf7f875ccb95f598d115fe9f9c5522316ced"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "automobile-catalog.com",
+                "www.automobile-catalog.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.chinatimes\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "10bc4098499221c88e10efdcd2c0eb3415de007d0dfedf6260baeb179547d331"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chinatimes.com",
+                "www.chinatimes.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.collinsdictionary\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9c5d92071ffa7f3e65bb71874a206e074eb71fd8187361a25ea81589c13cb68a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "collinsdictionary.com",
+                "www.collinsdictionary.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.drweil\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c27de505af992163e0ecd7b15334aa26253e2d79f69c6a41141551eb88f25f9f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "drweil.com",
+                "www.drweil.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.huffpost\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eb7e12ed3a89d6edb1b72e52cf978093367b4f2c01cacc761e9b18901dc87221"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.com",
+                "www.huffpost.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.islamicfinder\\.org\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4e4d907802c63077f33106540b38559cde156f01b4cce8179292230b399e116a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "islamicfinder.org",
+                "www.islamicfinder.org"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.kurashiru\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "edeb060438ab30566f166d5f0af1d864fb9170f98d41bb890b0e1e28fe9734e6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kurashiru.com",
+                "www.kurashiru.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.lawyersgunsmoneyblog\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5a71981648fd4f55fbdbae756e2e204b8dc9d8d3dc6d655c97f2c3ec14a151ec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lawyersgunsmoneyblog.com",
+                "www.lawyersgunsmoneyblog.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.ldoceonline\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4e379a62a943ff694cba3875aea9917138774ca489ee8e54687fb98e5af2f560"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ldoceonline.com",
+                "www.ldoceonline.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.motorbikecatalog\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c920b83a7d8d25d0999b2de185c7259e5c42b48b5b6b3ada0258fe8ef62c5bd6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motorbikecatalog.com",
+                "www.motorbikecatalog.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.onlinegdb\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "546c63b6ed8a0e0bc7234e3e831ae5ede6046807bbef15ae2bce01a4935e3391"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "onlinegdb.com",
+                "www.onlinegdb.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.oxfordlearnersdictionaries\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e32b89419aa2987e4e6ca5976d6dede37bb548cd8f91b0324c0895eed1000fa8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oxfordlearnersdictionaries.com",
+                "www.oxfordlearnersdictionaries.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.sportsrec\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7a328afeb66312581ab60121f239b8b20238ac3cc8d5f3bc9b762236487b4735"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000014146672702580353,
+                "lotame_domain_check": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "sportsrec.com",
+                "www.sportsrec.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.the-crossword-solver\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2fd8e263b91d565e07d15b55629811ae82f7cc0c8ed5796751bb44a9ea56cc4a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "the-crossword-solver.com",
+                "www.the-crossword-solver.com"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.tvtv\\.us\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "941c0d263332dfa64b7a2230fab4d2000aa173645f9a9aae2a6cfc078a146402"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvtv.us",
+                "www.tvtv.us"
+            ]
+        },
+        {
+            "rule": "html-load\\.com\\/script\\/www\\.wfmz\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2cdd8e80eec92297e2c27fe688c250e1a380b90335cb36eea3f1b5d46ad59857"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wfmz.com",
+                "www.wfmz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9236641221374046
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.030534351145038167
+        },
+        {
+            "domain": "geniee.jp",
+            "prevalence": 0.022900763358778626
+        },
+        {
+            "domain": "fsdn.com",
+            "prevalence": 0.015267175572519083
+        },
+        {
+            "domain": "anymind360.com",
+            "prevalence": 0.007633587786259542
+        }
+    ],
+    "types": {
+        "Script": 102,
+        "Fetch": 40
+    },
+    "nameservers": [
+        "veda.ns.cloudflare.com",
+        "houston.ns.cloudflare.com"
+    ]
+}

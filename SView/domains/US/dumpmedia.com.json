@@ -1,0 +1,84 @@
+{
+    "domain": "dumpmedia.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "parse"
+    ],
+    "cnames": [
+        {
+            "original": "parse.tunefab.com",
+            "resolved": "parse.dumpmedia.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dumpmedia\\.com\\/parse\\/classes\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "parse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "parse.tunefab.com",
+                    "resolved": "parse.dumpmedia.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tunefab.com",
+                "www.tunefab.com"
+            ]
+        },
+        {
+            "rule": "dumpmedia\\.com\\/parse\\/classes\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "parse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "parse.tunefab.com",
+                    "resolved": "parse.dumpmedia.com"
+                }
+            ],
+            "responseHashes": [
+                "a0f5700ea6efe3d79de6c4196d7b30440dfc00b1ebf82de8796db58205389cf0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tunefab.com",
+                "www.tunefab.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "brad.ns.cloudflare.com",
+        "olga.ns.cloudflare.com"
+    ]
+}

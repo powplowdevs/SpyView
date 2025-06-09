@@ -1,0 +1,215 @@
+{
+    "domain": "neodatagroup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000163,
+    "sites": 23,
+    "subdomains": [
+        "js.omg",
+        "trz",
+        "tracker",
+        "tra",
+        "adagiofe"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "neodatagroup\\.com\\/omg\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.omg"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.language": 10,
+                "Navigator.prototype.appName": 10,
+                "Screen.prototype.pixelDepth": 10,
+                "Screen.prototype.width": 10,
+                "Screen.prototype.height": 10,
+                "Date.prototype.getTimezoneOffset": 10,
+                "window.sessionStorage": 9,
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 9
+            },
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "5e664d6de4a49389027e77449804dbd81f6f7855fa80348f7de25b44fa0d5895"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fanpage.it",
+                "forum.finanzaonline.com",
+                "it.motor1.com",
+                "m.tuttojuve.com",
+                "www.agrodolce.it",
+                "www.cookist.it",
+                "www.cookist.com",
+                "www.fanpage.it",
+                "www.geopop.it",
+                "www.gpone.com",
+                "www.lexplain.it",
+                "www.motorbox.com",
+                "www.pmi.it",
+                "www.studentville.it",
+                "www.tuttojuve.com",
+                "www.viaggiamo.it",
+                "youmedia.fanpage.it"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/pv",
+            "cookies": 0.0000849,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trz"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "92e9a2a3c43495004f2708c3dacf39ce946e9345e7f24285d5899040a5bfee3d",
+                "a867142b759008db4b196f755e08ce5ac9ff277abb172cc2abc39794f4dd78ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00002122000905387053,
+                "cP": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "finanzaonline.com",
+                "forum.finanzaonline.com",
+                "it.motor1.com",
+                "www.cookist.it",
+                "www.cookist.com",
+                "www.fanpage.it",
+                "www.geopop.it",
+                "www.motorbox.com",
+                "www.pmi.it",
+                "www.rds.it",
+                "www.studentville.it",
+                "youmedia.fanpage.it"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/cm",
+            "cookies": 0.0000566,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker",
+                "tra"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tncid": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "motor1.com",
+                "movieplayer.it",
+                "multiplayer.it",
+                "www.cookist.it",
+                "www.cookist.com",
+                "www.motorbox.com",
+                "www.pmi.it",
+                "www.rds.it",
+                "youmedia.fanpage.it"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/ad\\/opq\\.jsp",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adagiofe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecodibergamo.it",
+                "www.giornaledibrescia.it"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/ad\\/confirm\\.jsp",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adagiofe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rds.it",
+                "www.rds.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000099,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "pubtech.ai",
+            "prevalence": 0.20454545454545456
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "cookist.it",
+            "prevalence": 0.022727272727272728
+        },
+        {
+            "domain": "datafront.co",
+            "prevalence": 0.022727272727272728
+        },
+        {
+            "domain": "4wnetwork.com",
+            "prevalence": 0.022727272727272728
+        }
+    ],
+    "types": {
+        "Script": 31,
+        "Image": 11
+    },
+    "nameservers": [
+        "mallory.ns.cloudflare.com",
+        "will.ns.cloudflare.com"
+    ]
+}

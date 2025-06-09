@@ -1,0 +1,201 @@
+{
+    "domain": "getyourguide.com",
+    "owner": {
+        "name": "GetYourGuide AG",
+        "displayName": "GetYourGuide"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000714,
+    "sites": 7,
+    "subdomains": [
+        "widget",
+        "observer",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getyourguide\\.com\\/dist\\/pa\\.umd\\.production\\.min\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "1feb8ce84a7cc12d20ea6b3dfc5571aa2db620e608a40cb78462b3f6f002a1ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "session_id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "city-tourist.de",
+                "www.ganz-wien.at",
+                "www.konpasu.de",
+                "www.lonelyplanet.com",
+                "www.traveloptimizer.de"
+            ]
+        },
+        {
+            "rule": "getyourguide\\.com\\/pw\\/latest\\/client-loader\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "44c70ddc95647fe30e436d60ab4b49a9b9d5fdc67da8fbd2de72c7a251613da2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "city-tourist.de",
+                "www.ganz-wien.at",
+                "www.konpasu.de",
+                "www.lonelyplanet.com",
+                "www.traveloptimizer.de"
+            ]
+        },
+        {
+            "rule": "getyourguide\\.com\\/gnikcart",
+            "cookies": 0.00051,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "9566e338305a0d399355e4e70d1cfab95219a152f44cd990fb10ae659c4b1c39",
+                "55803ff94b959bbcbf58a89bd2d8cef097d42f4be39ad921e77dacbe01342b6c",
+                "6331d71a226504393ef27c0cc3e96328be2b40532d8ca2b18661a85b3a5f4723",
+                "40f6a1a10d1713c64171988c9c37a97d09cd99ad7e75024717ca765907272ad6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "city-tourist.de",
+                "www.ganz-wien.at",
+                "www.konpasu.de",
+                "www.lonelyplanet.com",
+                "www.traveloptimizer.de"
+            ]
+        },
+        {
+            "rule": "getyourguide\\.com\\/track\\/TravelerWebHomePageSwimlaneLoaded",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "observer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "getyourguide.de",
+                "www.getyourguide.de"
+            ]
+        },
+        {
+            "rule": "getyourguide\\.com\\/optics\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "getyourguide.de",
+                "www.getyourguide.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000612,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3076923076923077
+        },
+        {
+            "domain": "getyourguide.com",
+            "prevalence": 0.23076923076923078
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "newrelic.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "korfo.org",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 7,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns2.getyourguide.com",
+        "ns4.getyourguide.com",
+        "ns1.getyourguide.com",
+        "ns3.getyourguide.com"
+    ]
+}

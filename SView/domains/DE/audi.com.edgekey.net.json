@@ -1,0 +1,92 @@
+{
+    "domain": "audi.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "tms"
+    ],
+    "cnames": [
+        {
+            "original": "tms.audi.com",
+            "resolved": "tms.audi.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "audi\\.com\\.edgekey\\.net\\/privacy\\/environments\\/audi\\/nemo\\/Audi\\.de\\/889077fc6e606069e82a7cdf5220e7af\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "tms.audi.com",
+                    "resolved": "tms.audi.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "143dddaac38f463e33bc5421b3afdaaac9091657f64f296ead26d3da57fbcc4e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audi.de",
+                "www.audi.de"
+            ]
+        },
+        {
+            "rule": "audi\\.com\\.edgekey\\.net\\/privacy\\/v1\\/b\\/b\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "tms.audi.com",
+                    "resolved": "tms.audi.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audi.de",
+                "www.audi.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

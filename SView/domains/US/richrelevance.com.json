@@ -1,0 +1,274 @@
+{
+    "domain": "richrelevance.com",
+    "owner": {
+        "name": "RichRelevance",
+        "displayName": "RichRelevance",
+        "privacyPolicy": "https://www.richrelevance.com/privacy/",
+        "url": "http://richrelevance.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000156,
+    "sites": 22,
+    "subdomains": [
+        "media",
+        "recs",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/js\\/1\\.2\\/p13n\\.js",
+            "cookies": 0.0000849,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 5,
+                "window.localStorage": 5,
+                "Document.cookie setter": 4
+            },
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "f42a66fff84cd7325bc0a6de8d9570d1d5440617939c6ab0e4929bbf87e72eff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rr_rcs": {
+                    "ttl": 31449613,
+                    "length": 94,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdw.com",
+                "elcorteingles.es",
+                "www.boots.com",
+                "www.boots.ie",
+                "www.cdw.com",
+                "www.cdwg.com",
+                "www.danmurphys.com.au",
+                "www.drogaraia.com.br",
+                "www.elcorteingles.pt",
+                "www.leroymerlin.com.br",
+                "www.officeworks.com.au",
+                "www.swarovski.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/p13n_generated\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "be3e67b7390d541820c456999d0b831352a0b858cfa45993f052a0c746ee2558",
+                "0bb781bc952f68c9912404e24ad6722f376a132a3748dcfa4eae1d37a94b9d25",
+                "752f28cecfcfede07333d1ab61e9eb02e01a81d0a5fd2e9ffe11d41783675b25",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "6fd132997294a4afa1cd3a253fc7dd25bf0a7f16d01869a0a86368e727124140",
+                "89cd397adbdcde0b355e20e9324b9860096dc26eb6e39c78e752ea7fb43866ff",
+                "a78c3b49161ebe591d64f27fb1ad9cfa76986e6c82cf609a9c632adf50817bbf",
+                "24efdbab4e1ae54e1b9e8a303113646fff185cf7a399289aa0d481738babff1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rei.com",
+                "www.boots.com",
+                "www.boots.ie",
+                "www.elcorteingles.pt",
+                "www.leroymerlin.com.br",
+                "www.musiciansfriend.com",
+                "www.officeworks.com.au",
+                "www.plaisio.gr",
+                "www.rei.com",
+                "www.swarovski.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/dashboard\\/applications\\/clientjs-dev\\/client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "4273d7f5b1a4659239693f2b44cb1a679230ef8bd66ec69280e97f0d3677baaa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allsurplus.com",
+                "www.americantrucks.com",
+                "www.boots.com",
+                "www.cigarsinternational.com",
+                "www.leroymerlin.com.br"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/api\\/engage\\/targeting",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "94a7cdeb3d7e736cf3be5f6eb5f954d6c06e1234b12caa00d318ca7c648cf559"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americantrucks.com",
+                "www.boots.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/api\\/engage\\/targeting",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americantrucks.com",
+                "www.boots.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/api\\/engage\\/experiences",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5eb1601ae770137fb51698aa139bca839c4368962bc62e8a1401cffb7dfa02c3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americantrucks.com",
+                "www.boots.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/api\\/engage\\/experiences",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americantrucks.com",
+                "www.boots.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/api\\/rrPlatform\\/recsForPlacements",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3ba65853011dba39bd9c27ed5a6ddfc2856b3f1d6a5b15ffc1be2888dee95fb7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdw.com",
+                "www.cdw.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "grupoelcorteingles.es",
+            "prevalence": 0.08571428571428572
+        },
+        {
+            "domain": "btttag.com",
+            "prevalence": 0.05714285714285714
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.02857142857142857
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.02857142857142857
+        }
+    ],
+    "types": {
+        "Script": 27,
+        "Fetch": 4,
+        "Preflight": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "hera.ns.cloudflare.com",
+        "rayden.ns.cloudflare.com"
+    ]
+}

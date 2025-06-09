@@ -1,0 +1,174 @@
+{
+    "domain": "ads-twitter.com",
+    "owner": {
+        "name": "Twitter, Inc.",
+        "displayName": "Twitter",
+        "privacyPolicy": "https://twitter.com/en/privacy",
+        "url": "http://twitter.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0145,
+    "sites": 141,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ads-twitter\\.com\\/uwt\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 104,
+                "Screen.prototype.width": 110,
+                "Screen.prototype.height": 110,
+                "Screen.prototype.colorDepth": 110,
+                "Screen.prototype.availWidth": 110,
+                "Screen.prototype.availHeight": 110,
+                "Navigator.prototype.languages": 110,
+                "Navigator.prototype.doNotTrack": 110,
+                "Navigator.prototype.maxTouchPoints": 110,
+                "Navigator.prototype.hardwareConcurrency": 110,
+                "Navigator.prototype.platform": 110,
+                "Navigator.prototype.vendor": 110,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 107
+            },
+            "sites": 139,
+            "prevalence": 0.0143,
+            "cnames": [],
+            "responseHashes": [
+                "96e803cc46ba31cef48752356a13dc8a92564f2e6b20adcd4d360410b5fbc579"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.cambridge.org",
+                "get.adobe.com",
+                "helpx.adobe.com",
+                "nypost.com",
+                "seekingalpha.com",
+                "www.politico.com",
+                "www.snopes.com",
+                "www.rei.com",
+                "www.science.org",
+                "www.sheetmusicdirect.com",
+                "www.insta360.com",
+                "www.citrix.com",
+                "datascientest.com",
+                "www.3cx.de",
+                "www.elegantthemes.com",
+                "press.princeton.edu",
+                "www.paloaltonetworks.com",
+                "www.musicnotes.com",
+                "www.ledger.com",
+                "www.viator.com"
+            ]
+        },
+        {
+            "rule": "ads-twitter\\.com\\/oct\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.vendor": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "96e803cc46ba31cef48752356a13dc8a92564f2e6b20adcd4d360410b5fbc579"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princeton.edu",
+                "www.g2.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4931506849315068
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3424657534246575
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.0958904109589041
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.02054794520547945
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.0136986301369863
+        },
+        {
+            "domain": "lr-wa.com",
+            "prevalence": 0.00684931506849315
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.00684931506849315
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.00684931506849315
+        },
+        {
+            "domain": "pximg.net",
+            "prevalence": 0.00684931506849315
+        },
+        {
+            "domain": "cdn-cookieyes.com",
+            "prevalence": 0.00684931506849315
+        }
+    ],
+    "types": {
+        "Script": 141
+    },
+    "nameservers": [
+        "a.r07.twtrdns.net",
+        "a.u07.twtrdns.net",
+        "b.r07.twtrdns.net",
+        "b.u07.twtrdns.net",
+        "c.r07.twtrdns.net",
+        "c.u07.twtrdns.net",
+        "d.r07.twtrdns.net",
+        "d.u07.twtrdns.net"
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "domain": "verizon.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "respframework"
+    ],
+    "cnames": [
+        {
+            "original": "respframework.verizon.com",
+            "resolved": "respframework.verizon.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "verizon\\.com\\.edgesuite\\.net\\/fonts\\/verizon-icons\\/fonts\\/verizon-icons\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "respframework"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "respframework.verizon.com",
+                    "resolved": "respframework.verizon.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "8809943f94c7396b6a1e74d8469421513d680ce2fe65781e86a8c669754ad93c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "verizonwireless.com",
+                "secure.verizon.com",
+                "verizon.com",
+                "www.verizon.com",
+                "www.verizonwireless.com"
+            ]
+        },
+        {
+            "rule": "verizon\\.com\\.edgesuite\\.net\\/verizon-nhg\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "respframework"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "respframework.verizon.com",
+                    "resolved": "respframework.verizon.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "9f8ba31130fabb31878cc626eff2027f0121e106ad727bf1b5b0c047359a5823"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "verizonwireless.com",
+                "secure.verizon.com",
+                "verizon.com",
+                "www.verizon.com",
+                "www.verizonwireless.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "vzw.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Font": 5,
+        "Stylesheet": 5
+    },
+    "nameservers": []
+}

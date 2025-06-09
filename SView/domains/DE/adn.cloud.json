@@ -1,0 +1,104 @@
+{
+    "domain": "adn.cloud",
+    "owner": {
+        "name": "ADN-Advanced Digital Network Distribution GmbH",
+        "displayName": "ADN"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "api.tx4.pw",
+        "logging.pw"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adn\\.cloud\\/ACSJVH\\/-7851369061879471338",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.tx4.pw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "12993db04c474a3392969b5e54fdeff67e10070af510fe624269fb6433486e06"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accor.com",
+                "all.accor.com"
+            ]
+        },
+        {
+            "rule": "adn\\.cloud\\/O7PXAR\\/-8341855505704442365",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.tx4.pw",
+                "logging.pw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecco.com",
+                "de.ecco.com"
+            ]
+        },
+        {
+            "rule": "adn\\.cloud\\/GCZMHM\\/1776092096502537530",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.tx4.pw",
+                "logging.pw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalocean.com",
+                "www.digitalocean.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "signalfx.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Fetch": 6
+    },
+    "nameservers": [
+        "patryk.ns.cloudflare.com",
+        "kiki.ns.cloudflare.com"
+    ]
+}

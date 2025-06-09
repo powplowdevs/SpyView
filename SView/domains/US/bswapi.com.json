@@ -1,0 +1,79 @@
+{
+    "domain": "bswapi.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "andylitics"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bswapi\\.com\\/api\\/SaveToActivityLog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "andylitics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bswhealth.com",
+                "my.bswhealth.com",
+                "www.bswhealth.com"
+            ]
+        },
+        {
+            "rule": "bswapi\\.com\\/api\\/SaveToActivityLog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "andylitics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "214fc9082af82531ff7b28af5f79665e91f47a14e6079d22a5c18397af154089"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bswhealth.com",
+                "my.bswhealth.com",
+                "www.bswhealth.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns3-06.azure-dns.org",
+        "ns4-06.azure-dns.info",
+        "ns2-06.azure-dns.net",
+        "ns1-06.azure-dns.com"
+    ]
+}

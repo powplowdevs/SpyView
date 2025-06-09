@@ -1,0 +1,137 @@
+{
+    "domain": "linkedin.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "od"
+    ],
+    "cnames": [
+        {
+            "original": "content.linkedin.com",
+            "resolved": "od.linkedin.edgesuite.net"
+        },
+        {
+            "original": "snap.licdn.com",
+            "resolved": "od.linkedin.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "linkedin\\.edgesuite\\.net\\/etc\\.clientlibs\\/settings\\/wcm\\/designs\\/gandalf\\/clientlibs\\/css\\/all\\.en-us\\.min\\.LIHASHce03452570b8c5d56b13e6df3f5b6be2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "od"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "content.linkedin.com",
+                    "resolved": "od.linkedin.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "5d85da5636c951821de8c8bf4cc51b3e67b0304bf80b4cf42e8fefdf417cf7ba"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linkedin.com",
+                "business.linkedin.com"
+            ]
+        },
+        {
+            "rule": "linkedin\\.edgesuite\\.net\\/etc\\.clientlibs\\/settings\\/wcm\\/designs\\/gandalf\\/clientlibs\\/resources\\/artdeco-aem\\/artdeco\\/static\\/images\\/icons\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "od"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "content.linkedin.com",
+                    "resolved": "od.linkedin.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "8b5a1c8889d8e0d7458ea72824ce8a0a22ac0183e716915d2ccdf2f465edc7c0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linkedin.com",
+                "business.linkedin.com"
+            ]
+        },
+        {
+            "rule": "linkedin\\.edgesuite\\.net\\/li\\.lms-analytics\\/insight\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "od"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "snap.licdn.com",
+                    "resolved": "od.linkedin.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "70ab3fb6f8cc6c6f55ba909c0905216219a784bd85e0392b42a3cd21fec25b7a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linkedin.com",
+                "partner.microsoft.com",
+                "www.nuance.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "XHR": 2,
+        "Script": 3
+    },
+    "nameservers": []
+}

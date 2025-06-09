@@ -1,0 +1,1385 @@
+{
+    "domain": "fbot.me",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000665,
+    "sites": 94,
+    "subdomains": [
+        "static",
+        "campaign",
+        "media",
+        "public"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "fbot\\.me\\/friendbuy\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 49,
+                "window.innerWidth": 49,
+                "Date.prototype.getTime": 53,
+                "window.localStorage": 55,
+                "Screen.prototype.colorDepth": 44,
+                "Screen.prototype.height": 44,
+                "Navigator.prototype.hardwareConcurrency": 44,
+                "Navigator.prototype.language": 44,
+                "Navigator.prototype.platform": 44,
+                "Screen.prototype.width": 44,
+                "window.matchMedia(\"prefers-color-scheme\")": 16
+            },
+            "sites": 64,
+            "prevalence": 0.000453,
+            "cnames": [],
+            "responseHashes": [
+                "7a51f0167f91f2783285b7d47a701a0ef259a24e7c2c7e2062d98c28850d3d06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.starnow.com",
+                "mattresswarehouse.com",
+                "www.postable.com",
+                "level.co",
+                "prose.com",
+                "tonal.com",
+                "openfarmpet.com",
+                "rachio.com",
+                "www.northerner.com",
+                "burrow.com",
+                "www.going.com",
+                "www.wearfigs.com",
+                "www.eightsleep.com",
+                "spotandtango.com",
+                "www.illy.com",
+                "forloveandlemons.com",
+                "yardzen.com",
+                "mudwtr.com",
+                "woom.com",
+                "bookshop.org"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/f5cff2ff-34fa-402b-8846-dcfc00b79c46\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ariat.com",
+                "www.ariat.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/703fca0f-e3fd-4932-ae5c-0257ed986094\\/media\\/Nunito\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cfb6bd7d5f7312407162749dffbb8d54f0241f17080e07228457b586e8f79de4"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bookshop.org",
+                "www.parsleyhealth.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/a27d2243-8181-46f6-a6ab-05ce6ada9b3e\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ceb6307ce173db715dbbec6de41514a5024b4373113f2dae96e873c0183b8903"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fatquartershop.com",
+                "www.fatquartershop.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/a27d2243-8181-46f6-a6ab-05ce6ada9b3e\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fatquartershop.com",
+                "www.fatquartershop.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/a27d2243-8181-46f6-a6ab-05ce6ada9b3e\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e13340a965fd67d4eac603a2ba34d12d2c81d2c34b3e35a2a5f8583e30eae774"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fatquartershop.com",
+                "www.fatquartershop.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/shopify\\/friendbuy-shopify\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "1fa8491fb27933dae725e7e4c88f22b2cd323cf003e65d264879ede3b38b8d74"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magicspoon.com",
+                "medcline.com",
+                "mudwtr.com",
+                "oliveandjune.com",
+                "shopbeam.com",
+                "staud.clothing",
+                "www.47brand.com",
+                "www.andrewchristian.com",
+                "www.lacolombe.com",
+                "www.outerknown.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/b5d8cd41-f0d0-40ac-a399-e9a374e8611f\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f80548aa8bbb21b20c61a5c8b465a35af65c9e9808a41049f31be8ac3ca9f1ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princesspolly.com",
+                "us.princesspolly.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/b5d8cd41-f0d0-40ac-a399-e9a374e8611f\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princesspolly.com",
+                "us.princesspolly.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/b5d8cd41-f0d0-40ac-a399-e9a374e8611f\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princesspolly.com",
+                "us.princesspolly.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/55773582-8d2f-4f00-9a3a-559bee7b2831\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1ab4118b21d6d58dc685cf1e15922dbf429bc86cb30a9fd4fb6f29d2c7188a7a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wearfigs.com",
+                "www.wearfigs.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/55773582-8d2f-4f00-9a3a-559bee7b2831\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wearfigs.com",
+                "www.wearfigs.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/55773582-8d2f-4f00-9a3a-559bee7b2831\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wearfigs.com",
+                "www.wearfigs.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/26b1ec06-95ac-4fa5-9ad8-d293f3cacab1\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "21379ab82ad5288db035cae0cdfd6fd40884e9e8901bdda61aaaa6dff957f703"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "47brand.com",
+                "www.47brand.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/26b1ec06-95ac-4fa5-9ad8-d293f3cacab1\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "00e8c31a63338ce915974cc9aa97b56518aaeef712cc3df710e883652573cd4f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "47brand.com",
+                "www.47brand.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/26b1ec06-95ac-4fa5-9ad8-d293f3cacab1\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "47brand.com",
+                "www.47brand.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/error",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "47brand.com",
+                "www.awaytravel.com",
+                "www.resortpass.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/067a4331-4e72-4a4b-96d9-611527c3128f\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6575eff9fcfc77236b418525dbc743824b87fe9d08e01a7e6ff2ea5be413627c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andrewchristian.com",
+                "www.andrewchristian.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/067a4331-4e72-4a4b-96d9-611527c3128f\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andrewchristian.com",
+                "www.andrewchristian.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/067a4331-4e72-4a4b-96d9-611527c3128f\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andrewchristian.com",
+                "www.andrewchristian.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/error",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "awaytravel.com",
+                "www.resortpass.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/e32e7fdc-2e98-4c3b-a72e-7661a7a6cd87\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "cee8aeed6bd0dadf8173d971fef4b0aeaa2c9407a50076873e978a9b27cdc806"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "backstage.com",
+                "www.backstage.com",
+                "www.starnow.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/e32e7fdc-2e98-4c3b-a72e-7661a7a6cd87\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "backstage.com",
+                "www.backstage.com",
+                "www.starnow.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/e32e7fdc-2e98-4c3b-a72e-7661a7a6cd87\\/profile\\/xhr",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "27435c77f6b06ef0f0278095c0a9c3847bfb9d6b4f9a9d5eaff6eaf629cc4197",
+                "93fd1f9501d4ee00600ea595a1fd0e5cbe5dc760265811425ff923f91c7a1223"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "backstage.com",
+                "www.backstage.com",
+                "www.starnow.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/c2ef4d8f-87a3-4388-8da9-ff2d9ddfe70b\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1d467e2d4d42ddf666a174b74085465bb6d42f1e4f4eff5515dfaf14a8e42014"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eightsleep.com",
+                "www.eightsleep.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/c2ef4d8f-87a3-4388-8da9-ff2d9ddfe70b\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eightsleep.com",
+                "www.eightsleep.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/c2ef4d8f-87a3-4388-8da9-ff2d9ddfe70b\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "166e9d432a61b0d30a27bd1fc39cf113c96000eff019bd13533d4e92fc70b5b1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eightsleep.com",
+                "www.eightsleep.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/dd2053d9-f2b4-41ae-a458-bb76b3a6fe56\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "925c3a0865e9fb2f307c012bfcc6558bcb9395379caddf78e436d4b3fa76cb1b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidiumfiber.com",
+                "www.fidiumfiber.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/dd2053d9-f2b4-41ae-a458-bb76b3a6fe56\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidiumfiber.com",
+                "www.fidiumfiber.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/dd2053d9-f2b4-41ae-a458-bb76b3a6fe56\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c102157bb11139917e58350716f3da28c8bac89fea5410807eb7857b4b5c584e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidiumfiber.com",
+                "www.fidiumfiber.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/01140dfc-9a3d-43fe-812b-aab23274802d\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a84cf96b306d87cb0a671e3cf9128942ed73ff6165546abae239b64c1f8e4e5f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "going.com",
+                "www.going.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/01140dfc-9a3d-43fe-812b-aab23274802d\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "going.com",
+                "www.going.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/01140dfc-9a3d-43fe-812b-aab23274802d\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "going.com",
+                "www.going.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/9d18fdba-7b74-4d35-a31f-e57e3ec6ef60\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ceb6307ce173db715dbbec6de41514a5024b4373113f2dae96e873c0183b8903"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kin.com",
+                "www.kin.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/c4a7f0cd-e32a-4cce-afcc-ebc49d7e4ba8\\/profile\\/xhr",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacolombe.com",
+                "www.lacolombe.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/c81d81c6-af39-490a-ae4a-0783c2b2f7c2\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5bcbd3675f7566e8363583c05dabf6398ec34b87fca53f0f262b95f87236387a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mandy.com",
+                "www.mandy.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/c81d81c6-af39-490a-ae4a-0783c2b2f7c2\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mandy.com",
+                "www.mandy.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/c81d81c6-af39-490a-ae4a-0783c2b2f7c2\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1bd1c43d3e0c7ddbe5b11dfb071bfbc7a6715b86c4440543d8b0b04da704346b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mandy.com",
+                "www.mandy.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/f30454ff-7037-497e-9aef-454a03a1e839\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "northerner.com",
+                "www.northerner.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/f30454ff-7037-497e-9aef-454a03a1e839\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "217619e41cbb348c45340dd2b85446174cf4a258b94d2dd6198b70be3ffb0521"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "northerner.com",
+                "www.northerner.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/f30454ff-7037-497e-9aef-454a03a1e839\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3ed89e4d93fe56d56f2a06093c1294a03a759a985e5786c3eba419b1157e0a94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "northerner.com",
+                "www.northerner.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/01c0bcda-b409-4e46-a0ec-ae986dd6423e\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outerknown.com",
+                "www.outerknown.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/01c0bcda-b409-4e46-a0ec-ae986dd6423e\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outerknown.com",
+                "www.outerknown.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/aae7cb29-b86c-47d5-ae5c-9ffc97a7536b\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "da3602af7f05f2dec639c8cdffdccf44a9078ce688bba555c7761e2b8981d19a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parsleyhealth.com",
+                "www.parsleyhealth.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/aae7cb29-b86c-47d5-ae5c-9ffc97a7536b\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parsleyhealth.com",
+                "www.parsleyhealth.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/aae7cb29-b86c-47d5-ae5c-9ffc97a7536b\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1ec4416e9cfd1a29da8c12bf5f3486ea01ad0ed02d6cdf0fee568351290c6376"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parsleyhealth.com",
+                "www.parsleyhealth.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/e14bd8d7-c455-42f3-8340-b6bdb530dc15\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7a7854b405da6b2d4fa3c24e44dd1424a340f068b9a6aeae4c264cfd13d7d7be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "readyrefresh.com",
+                "www.readyrefresh.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/e14bd8d7-c455-42f3-8340-b6bdb530dc15\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "readyrefresh.com",
+                "www.readyrefresh.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/e14bd8d7-c455-42f3-8340-b6bdb530dc15\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f780121ddcbe42ec60d2d4dbbb1defa0dc3dcfd56582024082c028b89879b6a8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "readyrefresh.com",
+                "www.readyrefresh.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/1e7f467a-7eac-4fc0-8c25-3b06642cc784\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7e39e875daa28155f40f7757221b905e5b7d3ee65e9cb6d4b29236b88c1b9c33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "resortpass.com",
+                "www.resortpass.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/1e7f467a-7eac-4fc0-8c25-3b06642cc784\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "resortpass.com",
+                "www.resortpass.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/1e7f467a-7eac-4fc0-8c25-3b06642cc784\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cab7a8076111d1e1164753379b163fef1ca29b11d7f3c692e591b7a1d869c076"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "resortpass.com",
+                "www.resortpass.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/1e7f467a-7eac-4fc0-8c25-3b06642cc784\\/logout\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "resortpass.com",
+                "www.resortpass.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/1e7f467a-7eac-4fc0-8c25-3b06642cc784\\/logout\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a37d5e9eefe4bb7a7682940bc084fe6d7bb31ee5d6bba2ca43efdcb1a82a2316"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "resortpass.com",
+                "www.resortpass.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/fb55665e-22d7-4f23-acb8-288b0d5952a4\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ceb6307ce173db715dbbec6de41514a5024b4373113f2dae96e873c0183b8903"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shinesty.com",
+                "www.shinesty.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/fb55665e-22d7-4f23-acb8-288b0d5952a4\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shinesty.com",
+                "www.shinesty.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/fb55665e-22d7-4f23-acb8-288b0d5952a4\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ae6945e819cc71dd89db6608756ea9e8c9d04263cabe0885731517bfbb5cc7ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shinesty.com",
+                "www.shinesty.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/2186dd8c-cda7-42aa-8156-e3fa812152cf\\/campaigns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skylightframe.com",
+                "www.skylightframe.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/2186dd8c-cda7-42aa-8156-e3fa812152cf\\/profile\\/xhr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skylightframe.com",
+                "www.skylightframe.com"
+            ]
+        },
+        {
+            "rule": "fbot\\.me\\/events\\/2186dd8c-cda7-42aa-8156-e3fa812152cf\\/profile\\/xhr",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "de42d1105cefde89d9693146b84a60369a9ab4e81a6f119b18634573d9ca4ba4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skylightframe.com",
+                "www.skylightframe.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000573,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6956521739130435
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.17786561264822134
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.02766798418972332
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.023715415019762844
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.015810276679841896
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.015810276679841896
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.007905138339920948
+        },
+        {
+            "domain": "merchantyard.com",
+            "prevalence": 0.007905138339920948
+        },
+        {
+            "domain": "googleoptimize.com",
+            "prevalence": 0.007905138339920948
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.007905138339920948
+        }
+    ],
+    "types": {
+        "Script": 111,
+        "Font": 2,
+        "Preflight": 39,
+        "Fetch": 42
+    },
+    "nameservers": [
+        "ns-409.awsdns-51.com",
+        "ns-662.awsdns-18.net",
+        "ns-1271.awsdns-30.org",
+        "ns-1787.awsdns-31.co.uk"
+    ]
+}

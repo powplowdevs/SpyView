@@ -1,0 +1,87 @@
+{
+    "domain": "applicationinsights.us",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "dc"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "applicationinsights\\.us\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justice.gov",
+                "acis.eoir.justice.gov",
+                "www.ezpassoh.com"
+            ]
+        },
+        {
+            "rule": "applicationinsights\\.us\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "5e5fbeccb2c4426dbdd4d70dac039d69223ab935c9a43226b24b3ca75a32b637"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justice.gov",
+                "acis.eoir.justice.gov",
+                "www.ezpassoh.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "powerbigov.us",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns3-02.azure-dns.org",
+        "ns1-02.azure-dns.com",
+        "ns2-02.azure-dns.net",
+        "ns4-02.azure-dns.info"
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "domain": "terabox.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "sofire",
+        "ymg-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "terabox\\.com\\/edkey",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sofire"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "0b22a46daee4e666653aaf008daf76265e6dd23dab8ad782c3c4b71eae8106e8",
+                "d617310315775168647f952c599f69c9675577bbdfee3aed809a088d3ac6fb71"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podjav.com",
+                "www.1024tera.com",
+                "www.terabox.app"
+            ]
+        },
+        {
+            "rule": "terabox\\.com\\/abdr",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ymg-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "aef821b574f59ddfd3beff57a911c3e866c5e5c1feb9f6c88a88b5391be637f7",
+                "a604ad9955a4c130ff73e900f9c600b3fa2c254cde1226252ab6049ab9a182bc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podjav.com",
+                "www.1024tera.com",
+                "www.terabox.app"
+            ]
+        },
+        {
+            "rule": "terabox\\.com\\/abdr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ymg-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1024tera.com",
+                "www.terabox.app"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "teraboxcdn.com",
+            "prevalence": 0.9230769230769231
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "XHR": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-730.awsdns-27.net",
+        "ns-485.awsdns-60.com",
+        "ns-1078.awsdns-06.org",
+        "ns-1738.awsdns-25.co.uk"
+    ]
+}

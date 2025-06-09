@@ -1,0 +1,201 @@
+{
+    "domain": "smartnews-ads.com",
+    "owner": {
+        "name": "SmartNews, Inc.",
+        "displayName": "SmartNews"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000792,
+    "sites": 112,
+    "subdomains": [
+        "cdn",
+        "i",
+        "i6"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smartnews-ads\\.com\\/i\\/pixel\\.js",
+            "cookies": 0.000587,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 83,
+                "window.localStorage": 86,
+                "Document.cookie setter": 83
+            },
+            "sites": 104,
+            "prevalence": 0.000736,
+            "cnames": [],
+            "responseHashes": [
+                "d0da6d30101eab625bf74e8e061b0b179a89a289bff2b948aabc75f1d978ea78"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "snexid": {
+                    "ttl": 63072000,
+                    "length": 36,
+                    "prevalence": 0.0005870869171570847,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.irisplaza.co.jp",
+                "www.seikowatches.com",
+                "www.edion.com",
+                "hikaku.kurashiru.com",
+                "www.jalan.net",
+                "www.hankyu-travel.com",
+                "www.ig.com",
+                "www.muji.com",
+                "comic-days.com",
+                "store.alpen-group.jp",
+                "financebuzz.com",
+                "www.meganeichiba.jp",
+                "store.united-arrows.co.jp",
+                "www.yayoi-kk.co.jp",
+                "www.zurich.co.jp",
+                "www.princehotels.co.jp",
+                "www.hear.com",
+                "www.buffalo.jp",
+                "www.netbk.co.jp",
+                "baycrews.jp"
+            ]
+        },
+        {
+            "rule": "smartnews-ads\\.com\\/p",
+            "cookies": 0.000693,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 100,
+            "prevalence": 0.000707,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "snexid": 0.0006153802625622454,
+                "IR_gbd": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "jp.mercari.com",
+                "av.jpn.support.panasonic.com",
+                "piccoma.com",
+                "www.meganeichiba.jp",
+                "hinative.com",
+                "halmek.co.jp",
+                "www.mcdonalds.co.jp",
+                "www.rehouse.co.jp",
+                "www.minnanokaigo.com",
+                "ddnavi.com",
+                "www.smbc.co.jp",
+                "mineo.jp",
+                "www.edion.com",
+                "www.palcloset.jp",
+                "comic-days.com",
+                "business.ntt-east.co.jp",
+                "tv.rakuten.co.jp",
+                "www.hear.com",
+                "ahamo.com",
+                "mood.com"
+            ]
+        },
+        {
+            "rule": "smartnews-ads\\.com\\/smallest\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i6"
+            ],
+            "apis": {},
+            "sites": 100,
+            "prevalence": 0.000707,
+            "cnames": [],
+            "responseHashes": [
+                "ac554a4ea8b34bbb80db013e14be195ebc986f82f24e5b18b0ea9032ef561f57"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "snexid": 0.0006153802625622454,
+                "IR_gbd": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "www.sony.jp",
+                "www.hear.com",
+                "magazine.cartune.me",
+                "www.hotpepper.jp",
+                "www.cotta.jp",
+                "www.minnanokaigo.com",
+                "www.nitori-net.jp",
+                "www.beams.co.jp",
+                "www.shiseido.co.jp",
+                "toyota.jp",
+                "www.mos.jp",
+                "www.rehouse.co.jp",
+                "yanmaga.jp",
+                "www.shop-shimamura.com",
+                "cartune.me",
+                "brand.taisho.co.jp",
+                "job-medley.com",
+                "www.takarakuji-official.jp",
+                "www.meganeichiba.jp",
+                "www.jreast.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000736,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6380368098159509
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2883435582822086
+        },
+        {
+            "domain": "sp-trk.com",
+            "prevalence": 0.024539877300613498
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.024539877300613498
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.012269938650306749
+        },
+        {
+            "domain": "reamaze.com",
+            "prevalence": 0.006134969325153374
+        },
+        {
+            "domain": "ltwebstatic.com",
+            "prevalence": 0.006134969325153374
+        }
+    ],
+    "types": {
+        "Script": 104,
+        "Image": 200
+    },
+    "nameservers": [
+        "ns-2015.awsdns-59.co.uk",
+        "ns-647.awsdns-16.net",
+        "ns-93.awsdns-11.com",
+        "ns-1393.awsdns-46.org"
+    ]
+}

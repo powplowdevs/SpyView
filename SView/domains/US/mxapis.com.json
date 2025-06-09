@@ -1,0 +1,89 @@
+{
+    "domain": "mxapis.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "serve"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mxapis\\.com\\/mt\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerHeight": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "06c0917ddfa48858351f30c1f3d22add2a36ce601e4c659d56d0d32049f58bba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "maxtp": {
+                    "ttl": 31536004,
+                    "length": 3,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fenbendazole.org",
+                "www.fenbendazole.org"
+            ]
+        },
+        {
+            "rule": "mxapis\\.com\\/serve\\/public\\/init\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "serve"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "632d1f95aeffe69d0c31eb4949e85330bd6cdbf6c17ba43658fc84f9561dd4ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fenbendazole.org",
+                "www.fenbendazole.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

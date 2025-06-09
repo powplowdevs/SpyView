@@ -1,0 +1,61 @@
+{
+    "domain": "charityengine.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "webapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "charityengine\\.net\\/api\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webapi"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "516c097f914ab33dc1855fae58bdd29539935df11ad16b734cb80f4ac230cffd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firmisrael.org",
+                "seniorsleague.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "bisglobal.net",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns5.bethesdahosting.com",
+        "ns6.bethesdahosting.com",
+        "ns7.dnsmadeeasy.com"
+    ]
+}

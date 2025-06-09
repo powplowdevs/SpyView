@@ -1,0 +1,174 @@
+{
+    "domain": "lasso.link",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00277,
+    "sites": 391,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lasso\\.link\\/lasso-performance\\.min\\.js",
+            "cookies": 0.000516,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 69,
+                "Document.cookie getter": 73,
+                "Date.prototype.getTime": 29,
+                "Document.cookie setter": 73,
+                "window.innerWidth": 78,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 129,
+            "prevalence": 0.000912,
+            "cnames": [],
+            "responseHashes": [
+                "d3a361855174be24cf40784496e3af488ca93b3653912d3c21f32cdf487c127b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "lsid": {
+                    "ttl": 86402,
+                    "length": 32,
+                    "prevalence": 0.0005163535536441829,
+                    "uniqueness": 1
+                },
+                "__adblocker": {
+                    "ttl": 304,
+                    "length": 5,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "a1athlete.com",
+                "www.swimuniversity.com",
+                "www.abedderworld.com",
+                "gardenersyards.com",
+                "plantcaretoday.com",
+                "www.loten.nl",
+                "upjourney.com",
+                "runtothefinish.com",
+                "garagetransformed.com",
+                "thesavvycouple.com",
+                "www.sidehustlenation.com",
+                "3dgunbuilder.com",
+                "collegelifemadeeasy.com",
+                "a-z-animals.com",
+                "www.whippedcreamsounds.com",
+                "www.yourworkoutbook.com",
+                "diabetesstrong.com",
+                "emmacruises.com",
+                "thehealthyhouseplant.com",
+                "getlasso.co"
+            ]
+        },
+        {
+            "rule": "lasso\\.link\\/api\\/analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 250,
+            "prevalence": 0.00177,
+            "cnames": [],
+            "responseHashes": [
+                "e283c98568693ca3fd5082bc1b90993770a9ee2e59d23afb1ac2d4df40c8312c",
+                "32f4c1e4c036d78d5bce0ddad05acdba6da51f8ccacf6deec8bb3fe529ec6ea7",
+                "6aeffe5e9312c729905be87e0fda2544417f2c8a5952146416d9e5b0aea3a384",
+                "21f2be08cb6661f3f44da475c6eac9420d934fe2f799766a706f6a85088a7120"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextnewbooks.com",
+                "www.compostmagazine.com",
+                "bysophialee.com",
+                "iscrapapp.com",
+                "gaminggorilla.com",
+                "www.thestockdork.com",
+                "buildingbetter.health",
+                "www.usurnsonline.com",
+                "tireforge.com",
+                "lakelubbers.com",
+                "knowtechie.com",
+                "rennieorchards.com",
+                "allwaysdelicious.com",
+                "afellowfisherman.com",
+                "runtothefinish.com",
+                "www.kindlyunspoken.com",
+                "barbecuebetter.com",
+                "www.primalsurvivor.net",
+                "skiesandscopes.com",
+                "exercisewithstyle.com"
+            ]
+        },
+        {
+            "rule": "lasso\\.link\\/events\\/tracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "e283c98568693ca3fd5082bc1b90993770a9ee2e59d23afb1ac2d4df40c8312c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "assuredfaith.com",
+                "guitarspace.org",
+                "makerindustry.com",
+                "rootingforblooms.com",
+                "toolsbible.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0007,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6239168110918544
+        },
+        {
+            "domain": "getlasso.co",
+            "prevalence": 0.36568457538994803
+        },
+        {
+            "domain": "fastpixel.io",
+            "prevalence": 0.005199306759098787
+        },
+        {
+            "domain": "wsimg.com",
+            "prevalence": 0.0034662045060658577
+        },
+        {
+            "domain": "nitrocdn.com",
+            "prevalence": 0.0017331022530329288
+        }
+    ],
+    "types": {
+        "Script": 129,
+        "XHR": 255
+    },
+    "nameservers": [
+        "mona.ns.cloudflare.com",
+        "scott.ns.cloudflare.com"
+    ]
+}

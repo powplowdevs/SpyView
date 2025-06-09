@@ -1,0 +1,67 @@
+{
+    "domain": "cdnbasket.net",
+    "owner": {
+        "name": "Bounce Exchange",
+        "displayName": "Bounce Exchange",
+        "privacyPolicy": "https://www.bouncex.com/privacy/",
+        "url": "http://bouncex.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "data",
+        "page"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cdnbasket\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data",
+                "page"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "781917476862613efa795e439adf37ccd1a4ad5f854b2bab69f3e0efa5f9fb37",
+                "7e46b2248a630581b9e4c1bcef848369c36647542e0b592d15bb823bc1761c46"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "convertunits.com",
+                "www.convertunits.com",
+                "www.sportskeeda.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "bounceexchange.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns1.augur.io",
+        "ns2.augur.io"
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "domain": "clkmc.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000099,
+    "sites": 14,
+    "subdomains": [
+        "cdn",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clkmc\\.com\\/cmc\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 5,
+                "window.sessionStorage": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "5da274ce6310d42174fbf8369e8737ad5a2db661802d7aeb09ee13da863d7843"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justflowers.com",
+                "proarmory.com",
+                "resona.health",
+                "www.frontrunneroutfitters.com",
+                "www.justflowers.com",
+                "www.kihivott.hu",
+                "www.nuggmd.com"
+            ]
+        },
+        {
+            "rule": "clkmc\\.com\\/api\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "2cf9b5ba7fd801d61e8a891c8234031c824ac2aabc42dc8399ec9e5debf018f8",
+                "1bdaf869642ce9b97d6b6f0d439bd786257316cf0b0e70da751219fd76d246d7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gemrockauctions.com",
+                "www.gemrockauctions.com",
+                "www.greenvalleynaturals.com",
+                "www.nuggmd.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "liveplatforms.com",
+            "prevalence": 0.13333333333333333
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 4
+    },
+    "nameservers": [
+        "adam.ns.cloudflare.com",
+        "kristin.ns.cloudflare.com"
+    ]
+}

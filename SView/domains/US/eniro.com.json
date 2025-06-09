@@ -1,0 +1,251 @@
+{
+    "domain": "eniro.com",
+    "owner": {
+        "name": "Eniro AB",
+        "displayName": "Eniro"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "static",
+        "leaflet",
+        "guv2",
+        "guv-bounce"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eniro\\.com\\/font\\/eniro-icon\\/v54\\/eniro-icon\\.css",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1eb65c5bdab18c3a7d58771661496505e9b9aa97dca247df4e4c722569d782eb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eniro.se",
+                "map.krak.dk"
+            ]
+        },
+        {
+            "rule": "eniro\\.com\\/font\\/eniro-icon-commercial\\/v16\\/eniro-icon-commercial\\.css",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6ba2f4da29d73d1a1e84d9c30a36bffd70b1a1e631b911b29635aa426cae2a55"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eniro.se",
+                "map.krak.dk"
+            ]
+        },
+        {
+            "rule": "eniro\\.com\\/img\\/loading-blue\\.gif",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6f4865e80c1b0fdb8fddf9dd6ebe719c4ff57dc178e4dedb27d1273fcf11d15e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eniro.se",
+                "map.krak.dk"
+            ]
+        },
+        {
+            "rule": "eniro\\.com\\/dist\\/eniro-leaflet-0\\.5\\.4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "leaflet"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "418c0090e39f747d157a339c30955127666140fa0f5ffb38a33a50d318c7fe24"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eniro.se",
+                "map.krak.dk"
+            ]
+        },
+        {
+            "rule": "eniro\\.com\\/api\\/s\\/page",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "guv2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "degulesider.dk",
+                "www.eniro.se",
+                "www.gulesider.no",
+                "www.krak.dk"
+            ]
+        },
+        {
+            "rule": "eniro\\.com\\/api\\/s\\/page",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "guv2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "degulesider.dk",
+                "www.eniro.se",
+                "www.gulesider.no",
+                "www.krak.dk"
+            ]
+        },
+        {
+            "rule": "eniro\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "guv-bounce"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "degulesider.dk",
+                "www.eniro.se",
+                "www.gulesider.no",
+                "www.krak.dk"
+            ]
+        },
+        {
+            "rule": "eniro\\.com\\/api\\/s\\/track",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "guv2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gulesider.no",
+                "www.krak.dk"
+            ]
+        },
+        {
+            "rule": "eniro\\.com\\/api\\/s\\/track",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "guv2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4062edaf750fb8074e7e83e0c9028c94e32468a8b6f1614774328ef045150f93"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gulesider.no",
+                "www.krak.dk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000424,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8695652173913043
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.08695652173913043
+        },
+        {
+            "domain": "instana.io",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Image": 2,
+        "Script": 2,
+        "Preflight": 6,
+        "Fetch": 6,
+        "WebSocket": 4
+    },
+    "nameservers": [
+        "ricardo.ns.cloudflare.com",
+        "lana.ns.cloudflare.com"
+    ]
+}

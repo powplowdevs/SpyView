@@ -1,0 +1,131 @@
+{
+    "domain": "uolcontent.com",
+    "owner": {
+        "name": "United Online, Inc.",
+        "displayName": "United Online"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "uolcontent\\.com\\/js_api\\/as-3\\.1\\.25\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.cookieEnabled": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.connection": 4,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "5dc9f6a79d8722993af03830de26882fea2c3fb2d3194cad82ee96e35d7135ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juno.com",
+                "my.juno.com",
+                "my.netzero.net",
+                "webmail.juno.com",
+                "webmail.netzero.net"
+            ]
+        },
+        {
+            "rule": "uolcontent\\.com\\/cgi\\/aconfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "c60224d9d27da1b8c31f1d7d0cdcf7df18f3af64ede418ef41bd5e530fad18fc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juno.com",
+                "my.juno.com",
+                "my.netzero.net",
+                "webmail.juno.com",
+                "webmail.netzero.net"
+            ]
+        },
+        {
+            "rule": "uolcontent\\.com\\/images\\/spacer\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "fadb77031ad6eb76d511bf222edde1c9a5ccf94027afbac8495803a73d4846da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juno.com",
+                "my.juno.com",
+                "my.netzero.net",
+                "webmail.juno.com",
+                "webmail.netzero.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8983050847457628
+        },
+        {
+            "domain": "uolstatic.com",
+            "prevalence": 0.1016949152542373
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 5,
+        "Image": 5
+    },
+    "nameservers": [
+        "authns3.untd.com",
+        "authns1.untd.com",
+        "authns2.untd.com"
+    ]
+}

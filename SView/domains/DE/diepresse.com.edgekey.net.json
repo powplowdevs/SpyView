@@ -1,0 +1,60 @@
+{
+    "domain": "diepresse.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "comments"
+    ],
+    "cnames": [
+        {
+            "original": "comments.diepresse.com",
+            "resolved": "comments.diepresse.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "diepresse\\.com\\.edgekey\\.net\\/api\\/story\\/count\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "comments.diepresse.com",
+                    "resolved": "comments.diepresse.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dd6e189d82b036ac712db8536da08f8b5697b122b2657151873c18a3247e872c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diepresse.com",
+                "www.diepresse.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

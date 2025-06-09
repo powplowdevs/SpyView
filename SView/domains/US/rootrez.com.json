@@ -1,0 +1,59 @@
+{
+    "domain": "rootrez.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rootrez\\.com\\/book-your-stay\\/1\\.2\\/widget\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "0d38d2f635214c5800f2c2ed2b96b3211e957f2235ba62eca5d0a10dbac16ce5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "washington.org",
+                "www.jacksonholechamber.com",
+                "www.oceancity.com",
+                "www.visitparkcity.com",
+                "www.visitstpeteclearwater.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "asa.ns.cloudflare.com",
+        "skip.ns.cloudflare.com"
+    ]
+}

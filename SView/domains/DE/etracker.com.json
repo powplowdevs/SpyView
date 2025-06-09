@@ -1,0 +1,650 @@
+{
+    "domain": "etracker.com",
+    "owner": {
+        "name": "etracker GmbH",
+        "displayName": "etracker",
+        "privacyPolicy": "https://www.gametracker.com/about/privacy.php",
+        "url": "http://gametracker.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0147,
+    "sites": 144,
+    "subdomains": [
+        "code",
+        "customer",
+        "static",
+        "customer2"
+    ],
+    "cnames": [
+        {
+            "original": "e.medikamente-per-klick.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "estats.globus.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "etracker.louis.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "src.vector.com",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "stats.die-bibel.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "stats.ekd.de",
+            "resolved": "customer2.etracker.com"
+        },
+        {
+            "original": "stats.mopo.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "stats.umziehen.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "webaus.dw-shop.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "webcontr.l.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "webcontr.lmz-bw.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "webcontr.wgv.de",
+            "resolved": "customer.etracker.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "etracker\\.com\\/code\\/e\\.js",
+            "cookies": 0.0051,
+            "fingerprinting": 2,
+            "subdomains": [
+                "code",
+                "customer",
+                "static",
+                "customer2"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 114,
+                "Screen.prototype.width": 115,
+                "Screen.prototype.height": 115,
+                "Screen.prototype.pixelDepth": 113,
+                "Navigator.prototype.language": 116,
+                "Document.cookie getter": 120,
+                "window.sessionStorage": 121,
+                "window.localStorage": 121,
+                "window.name": 117,
+                "Navigator.prototype.platform": 113,
+                "Navigator.prototype.doNotTrack": 67,
+                "Document.cookie setter": 43,
+                "Navigator.prototype.cookieEnabled": 5
+            },
+            "sites": 140,
+            "prevalence": 0.0143,
+            "cnames": [
+                {
+                    "original": "stats.mopo.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.umziehen.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.die-bibel.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webaus.dw-shop.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.ekd.de",
+                    "resolved": "customer2.etracker.com"
+                },
+                {
+                    "original": "webcontr.l.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.lmz-bw.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "etracker.louis.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "e.medikamente-per-klick.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "src.vector.com",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.wgv.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "d5e89b8bf3808d94443bd6e37e557f79df06721aad5e0a7eb38245e671c55ad3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookiesAvailable": {
+                    "ttl": -1747361410,
+                    "length": 4,
+                    "prevalence": 0.0005099439061703213,
+                    "uniqueness": 0.2
+                },
+                "isSdEnabled": {
+                    "ttl": 86404,
+                    "length": 5,
+                    "prevalence": 0.0005099439061703213,
+                    "uniqueness": 0.2
+                },
+                "_et_coid": {
+                    "ttl": 62208004,
+                    "length": 32,
+                    "prevalence": 0.0005099439061703213,
+                    "uniqueness": 1
+                },
+                "et_oi_v2": {
+                    "ttl": 1576800002,
+                    "length": 2,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.maler.org",
+                "www.wgv.de",
+                "www.schufa.de",
+                "www.giz.de",
+                "www.regensburg.de",
+                "www.lotto-hessen.de",
+                "www.lotto-bw.de",
+                "www.schule.sachsen.de",
+                "oeffentlicher-dienst-news.de",
+                "www.dachdecker.com",
+                "www.fitx.de",
+                "www.electrive.net",
+                "www.vr-bayernmitte.de",
+                "gruenes.haus",
+                "www.frankfurt-main.ihk.de",
+                "www.olb.de",
+                "www.lotto-bayern.de",
+                "www.mytischtennis.de",
+                "www.vrbank-brs.de",
+                "www.hvv.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/t\\.js",
+            "cookies": 0.000408,
+            "fingerprinting": 2,
+            "subdomains": [
+                "code",
+                "customer",
+                "customer2"
+            ],
+            "apis": {
+                "window.sessionStorage": 123,
+                "Date.prototype.getTime": 115,
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.platform": 16,
+                "Navigator.prototype.maxTouchPoints": 12,
+                "Notification.permission": 114,
+                "Document.cookie getter": 84,
+                "window.innerWidth": 16,
+                "window.innerHeight": 16,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Navigator.prototype.language": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 140,
+            "prevalence": 0.0143,
+            "cnames": [
+                {
+                    "original": "stats.mopo.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.umziehen.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.die-bibel.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webaus.dw-shop.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.ekd.de",
+                    "resolved": "customer2.etracker.com"
+                },
+                {
+                    "original": "webcontr.l.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.lmz-bw.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "etracker.louis.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "e.medikamente-per-klick.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.wgv.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "1625282f31753f8058a7be90bd8ff7eeba07bd620878251a347f828c08f3e998",
+                "b179b40a54d3e46be5d3a2ce1f163a977a9f455d4404204c0309796249dcaa37",
+                "f42f48ac6aa6777d892496e0f2c1d4feafbc1aa134b21863d66f4fb99b2d8bb9",
+                "ebda9a8b14e2710e52b42944299da158a83a09e7af989f75de45ed900a1f1ff6",
+                "86bf69d9b41171e596c8fda82bfb67acc65028cf607b57cd89fee14cff4608fa",
+                "f025ffff36e1c091da2879342cda4411b02a9d4273a1c2b654b8b81b157a49c4",
+                "f0cca01debe10cc641289ec35899b2e2756ecef5915ef0c0151228ea4fa476c9",
+                "5d392ab4acf1e525f02a4fd70a26d0c1c0c5b079499f7eda3343512c3fcfc312",
+                "50e8a1f2f170baa7eabe11ae0612a875272074ceff4c0a2064a391f0bbd66a74",
+                "b20a67f381329e8d655e954fc1abbcabe8af1b9b32f2148b9497e97713ecd4b6",
+                "14cdd1fcc9a95a60dd0f420d6c4590201b711704010762be037d999bd1ef0451",
+                "3bf151d73e368c5027ebd005bcabdfa6f778f8bfb3eefd51b4a7714319b0bc00",
+                "badb747b099460f317ebcad2df52e41ebbee8031ffeef3d6bc456a3a9df41b64",
+                "e0829f79590cb7055829cd5fe74907ae89c81d8879985bbd9f4d2807bd6233ef",
+                "19aa7c6f07dd72d437684607abbaf86dded5e2faa85c0cca656262f7717984c9",
+                "e169c485070ee749f407b4a150a4fe5091f18a7a54a752587d55a9461ef99d0c",
+                "a4b30d7bb93acc0bd528e6ac75ed5789edc165912ae1fac32946167b6f8e2858",
+                "474ec20c6e74c358ddcc625782ebb8db3a239746230a3a82feca6f948056ff1e",
+                "e79931ae7bb05c37918812e70cc3957fba8c51f297515a1b3875459a2e09816a",
+                "c70faa724a9da8fd2e0a3384383beef1ed341cd8fc9e6dcdd222697cdfbbadfe",
+                "90cd59353f935898411cac031c97c4667c729b87fbde4b2447a869cd2cb030f5",
+                "c129fb5a2ed2a4e513e55fae157c17b6fe4febff3788513b2162f1cf8bf263ee",
+                "06844120130c704eee9e9e504c4771f0b2f61058f7163dfff2da2c5b4add1886",
+                "0a7d4c0097204b526d7a58bc150e4741e6e4b2e7b6d696d8eddd7ec1f0d434ae",
+                "ea0dce0ab056da36ce7c8b9d4b9ad465448b58a86526defab084ba590b234024",
+                "42ce5948c40b13b83172a7a957f6e3163208815736e0dca3eab7b7d2084169fb",
+                "26b0cff765198d8a882380fe389982e7d953e442a2ec2350f34e3fa0351b5e19",
+                "f5bc3fb12eb6c5fcf120e71cda080b264d56caec6172f41af8b911e725246c27",
+                "fb1998c1b3ef77f3f37f977132db290749b0aebc576533696806bba2a942051c",
+                "cc52fa28a80ab7ce717852c4a5cb7f6c4ed8ef75667aad580ae0a9c83ee2d83d",
+                "21286b143d668fa7ec276813564f1c25e4853d73256a66d02ed3d0e35c0b6a2f",
+                "c307aa1d05f58286ff1f5029f0ce1496dd615134e9749549193da7e34b8b87b7",
+                "ed754d311e546a5665e3c9c19161d54aa4850402b11683bf13ba7ad8d26caba2",
+                "1dc6d7a89acb65d5de207417b6818f86ccb543fe07e70aab169a23a1fb8c3eb2",
+                "0e5f9c8705f1398f32f4738278a3ab9af37f4e8b60f2e36b4a5b688d927f4a21",
+                "d8ecca2e571e675fb179f13b94c985252e4e70bcc7617b05aabb8116ac6325dd",
+                "b27c28218d828ed7f86a45b29c795dc2cc1ab0c3ae0d926dc36053948395e3c5",
+                "9b19d25ace1b1230b3cf79067a11bbd7df22520461a9a621fd077bbad5b90dc6",
+                "78238cff03761d4b34dd0790578c46ba75a5ead2bbab0d7f4fb355b65ba37e9c",
+                "d1f3c735b04199f32597a962582efd8347ec6aa0394d1adc9113f6fb4c96e58d",
+                "46251da03f97a4e4f51dc994328b60ee4e09f515748648739ec575137a84788b",
+                "40a8c549be8b3afbc519b20d071e687e43dbdc105440f0caaff6b17cd72e7010",
+                "5513c3b2430e9468774ed823c0365637d710b00ff65d8985f2b0720e7173c4fc",
+                "33ab11840b345a5cd91c62e522b1e02160003bcab772f64119f7d50ccba96fca",
+                "f0c426373cdb84ddc2aa6eed4abb3067694757807b21a4cd26cec3f74239397e",
+                "90bfe5a530f95bb1511685aad6cb019a57187f205c8f38e9cd58778c035e6959",
+                "403dae5ffa5f202730aee5d3ea8f3ba7ee5ea90232f539becc5ef990a0ada841",
+                "f52e97a37dffffd01fed17dff5e1f56d9e8db421745e1097f9b7779fb7fafbf3",
+                "b0d4bc276ed8e358a8ea4f641d568d703318512c2d63c6128dbd68a05ac1af69",
+                "117d593dff875c48e318e3983d96241a0df9a5e67849981a402e0015515cbbd5",
+                "61c773adea9c700a7dd27fba3387031b1830c0a7fe0b19116b473522315af56a",
+                "f92f7604df81f28c36fea740c342f48d98c54ddaa07be34291e442a0e7c1e527",
+                "4cdfdfa2f3741d3d54fc83666ae0f4f842008926c781091cba2209e7e1c90c84",
+                "f8aec180bcba4fcd81b739877363ac7e7a61b7bd20a64a412b2949ff14f94f21",
+                "eb3e1ef7050141dc2025b330ea4a94080201cd565b101f5aec711d660ceb5ea9",
+                "1c9675cf66621fb3684179a9cf9b4e0cf4e2ccf870d847b686518dd3261d5c8c",
+                "8ea42697aeb97cadefb76251a5251f9371981761357eacaaf00e5cd080e4d1d4",
+                "76cb663d884fa5570ab095de39c7fdae14ada2f0031b0f6dae4d708c021166f6",
+                "a80462a8bc9dcf15f86270fa4f6b5886221c5351976dafbede477e9b58cd516c",
+                "f5c115a0473b3dcf15c22221decd74af526b10f8dfc3c9684cbe744cc8aa979b",
+                "ab301283fc57261dbd8a006a2cbd82775817de466b19066c780e690dbb04f8cf",
+                "d75c388d0f10c853f0ed5aa89ba664b7ce44bc5b14127fb5da52607870ad30e6",
+                "0517ec13ed4776631de43f0396bcdd808ed00064200acc6e2d4ec3145adb573d",
+                "c8c843e69fc23c5d519f86850808079d38aa9c23ae2b01bb13b1502913998d9d",
+                "85fa98aa8872186c6e54de4378b6eb5104122f96a2a769f56a9afaec4dbf9473",
+                "db1f1363cb17024edd8faf16e2ed3095bddac98f55cb1f9f61589749b5c587bb",
+                "035bcdffa54e2a18b83b950de2e80b15baa4b53607dc4a014edb5b4a3b787271",
+                "e23da22db5351d576baa49b1ac2e467fd59d3958d8cf778ed6273f2c38df4385",
+                "9aaf6adc9888873567ccd049074a3b9c9d03e44029b60d4b0e908a8bc16d146e",
+                "6aba29f3cf9eb98733127688d40ddb4fc32ca3c9a2bfba986038eb04481697fc",
+                "e00831b302c076187f73bd3ec5fcde2172210dc39c4b6e1b960c013467f7b0d1",
+                "8e60c45f04a1064dec2718f23e44c298cbad93203c72208a6a133d4b24b413c7",
+                "08f8259802dd8d37a4e0ae568ca218c3791c8fbcfa50d2d7df7adad3cfabac26",
+                "bce314393fb96b4ac8c326e1ca3e1009d7e5d7d628c9fc5e53afdfae0fb3a4f5",
+                "54482248305da79f77d03679a3f470963644a89731e8afe963006069a624028d",
+                "12f5ce1a51956a6cbddd14f56c1037d83f5e5152ccb406e1e07e36ef81b3e98d",
+                "279d69f0def1e7b2100d60185590bdb8c57d949033732f431aca43bd717eb210",
+                "288c6d78cc298424be095145a160e15e1ca0b257fd70c5395523e1e38f492633",
+                "4cd4227e3faeb1499e95c666e2ce4615cf0cb5d77868866ed515c90839e50727",
+                "313a69a71e3e3a46ccf5e71f35e7821d7144e6a773b228c5435acf86cf4bfc7a",
+                "7f302dee47696004551443fe9e1e336c7a24075a1a2b44ace3f0ee2f7c519607",
+                "826e33e91bf45342cf012921e0549137619ad60a21789241939dff5c6b4b437f",
+                "6c9c5bd7f1d0d3fcabc1e64f6f082c3ea6b230f2bc7f4f687d79e1f5c860d2cb",
+                "9f37d53e5ea8246e711adde7b48f2e2e208f4ad106c7713304ebc5bd452f4ba0",
+                "81b53baf0a9b95cf10024704e3e347550c627ceffc73834a87cc30d391ce581a",
+                "c51b68fed0cac036d8bdd41bc17cf6e55cda0f7f8cc0696e2751ec95cd82687b",
+                "34ddc4e1e847e5ae3ed24cdf77f7e5106a2bfff2b9f0fcc1e2a102580650a55b",
+                "a5c5d1852e4b71d0544f5a4e24f6a7dfa51a63a52c85d24a31a27fa6869c6c5d",
+                "35c3470d87ef45ecd1b0496677393f8e9d33a197e70092b763b8f7e9a0e8b15f",
+                "7d86619fc14ae363ff1863dc2d8edd5ffb719d3ad3576800400183007116439e",
+                "201376c0ea128f11dea43b2f8735ad5c386a65bdad9911f672c356097315d9cd",
+                "b38adbff4fc6edd5c885fb360439df66631bd266a3193495f09232e2a0afc957",
+                "3bd48fd3c4659c4a195f497376c0f3617c6c08692246d2fb9bf7665be0117a2e",
+                "868df3e9860324f85d3c306e56f59f725513b7a86c1c35743f1b7ddca0c87ce9",
+                "9f9327ccbdf8c9df73146fb1654d3f0e22751778a74c3311a6d131fa8f352d93",
+                "3272a54b0c8a881966f393d2c0599077eea5950f0986aa736d1604cd07e85b92",
+                "29e06c75a7c51f93078a9be7f4a2f20f503100a6cda7f43c6550e7dba8ffdd9b",
+                "59b1c73ec8d543a5e7009e303f7eb8c4bed44e8cdc00312d9d8dae374d083e00",
+                "f9d17034edbbb4712d2ab5a709fefb98bbf924593287a3066be6f2fcfbbadb78",
+                "269fd2cde6177f2fd6c0042081b26a3d85164aa61a4ac8ec4044a637d7b7079b",
+                "5d5716b1624d2e8f1efa986211671977b9161cd49647ffadd3a6f09ab61945e6",
+                "dc4f6d3207c9917fc12b2fe413ccf4888aa6983b706f0deba2ea0a2e2d084804",
+                "c88a4562277ea5d51e3f2478284943c80bc55500c173a92bdaf7ec3f59fc991b",
+                "da4d7a390aabe8835bddb94e0b74183a9d00366dd03669125efef6ffcff8e419",
+                "6ed6644cad470e7e8e23e34bec78b2bfc41a0574b0d11a3acbca15d88633eef7",
+                "76668b0a65658d020a60da091b641f249bb5ea79867d4e5601464bf3725e9fca",
+                "c4e6dc3e2b052c84905e14fc5ba6ff55658ee1827b3acc661ae4c84d0e087a4d",
+                "8e9cf3d7bf6b5f6e97a5bd604cfe7701b31d6665ca6fe4e4aa5baaf575b44356",
+                "eae49bc392507535f140c55dafcbfce0ef21055df238cc1c4fadda54840348cb",
+                "56c7248b0d5ff86621fd6f584efc09a7ffad6ab799c890eba0013977a9453dc1",
+                "195ac092f89bcfbe34f3e3e56f618704d210a5dfc4b1f574e67c482ca11d9c67",
+                "ebc2fdc8fb0fc748ef3baf2975aef18d2cba86526f373b48fd8965be3c23ef8e",
+                "d0647821183a0daa7fec20627c1349348db91be5ecf0942543afb2d58b89c96a",
+                "45fa13b67f4070a745b449ec0be7ddb47fffddd761d03b22d1cb0409fb97a43e",
+                "4f92da428ede89a1c57739a3489ccf8880fbf53128854ac6805834ede441664d",
+                "2774f04a230baa067b6f9d96ba05b8e888333df8118bbf31abdd22dba70ff0ee",
+                "8027e1a5efd0b689b925cbe7ff9f8be36d4a9e13d9030725debd0334caed1c56",
+                "cf6105eee684f3b1b8641e250b0a14ec614396abc931c505c654f8796d3dae35",
+                "3e68244698a7d76080c9f0990b28d844962c9ad0795b8d8788a86e45a19d7268",
+                "1c7fa0bdaba9a5295d97a5e40bad0fc0da350853e7016649c967995d939e4969",
+                "31a03e7c27449cab18681dc50ed18daee054cd0f6203c9382a4ad9d41aa680a4",
+                "3264190b456f44eef6a9020c64e0bf08cb2f5c3847cef92535146b661f76cc38",
+                "a7001225de339305e0550af9d1309452ac152ef7ad078bfdd905495313badd2d",
+                "23a9b17398f1b149ca38fdc8ac9301d1664bcb1d6a6bd658d339a7d5c8074c14",
+                "33c1544b45d2aa9eeada6d5f5d9adbe0c135528b9d1e139978c16edf176f52a5",
+                "d27160e83e4b5bf619f913245eeebd5eb8beb54eb660ccd831c7d27b9f78d567",
+                "02336dfc7110f14ab25c2eb3facf76676f5008b0234f9be950a4a18be723bbc8",
+                "96bc04845a0ba284b7a312bda493ba98ee355894bd10323f4f9cc49d1952218c",
+                "2790c4be2c5ab61bd4c5d0c7405e76256ec0d58b3f67ff2f098fd473ade4970f",
+                "ac9cddbbda6acbe5a9df75935c3a8e97f6a2f32aa5e26ca9913989a65d73e0a3",
+                "807967d4f0a1486282d7e6dcaa2c06c0359e2a438a042ad067d5ba5421337f76",
+                "e23f07178739a12223cc2b7f16102fdee59b718b70f1a69697c3eb5bc3aacdbf",
+                "68b2cce8b8816ab190b432dc428faf58ec7a167049f15e83c4f1e48065eb28ae",
+                "c825067cbd039af3be74a25f20a16f7cf2037dea4d402dea6f416575db339942",
+                "f9e2d2012ef20b8072e7b0cdac5fa2f8be701af8b60aefc6cea6735c07f1564b",
+                "c988f9a0732624f3777bfc5dc2e679c5199f7d45d28b73c15cd7e4378eecca89",
+                "71b679b891f68983b847da8a157afea3bddf6b28054c029957a9e197665a7d2a",
+                "1fa46790f5b09491b1d1f729389a0052ae66ed6797f88c237813fbffbcc31179",
+                "fc0995ffaa6391f87b12423eeaba8bc7eb7ea79cd9e6bb2a054bc88a8ab686be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookiesAvailable": {
+                    "ttl": -1747362165,
+                    "length": 4,
+                    "prevalence": 0.000407955124936257,
+                    "uniqueness": 0.25
+                },
+                "_et_coid": {
+                    "ttl": 62208008,
+                    "length": 32,
+                    "prevalence": 0.000407955124936257,
+                    "uniqueness": 1
+                },
+                "isSdEnabled": {
+                    "ttl": 86408,
+                    "length": 5,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.selbststaendig.de",
+                "www.vb-muensterland.de",
+                "www.lmz-bw.de",
+                "www.ihk.de",
+                "www.maler.org",
+                "www.munich-airport.de",
+                "www.regensburg.de",
+                "www.dw-shop.de",
+                "www.lotto-rlp.de",
+                "www.giz.de",
+                "www.waschbaer.de",
+                "www.dialo.de",
+                "www.krefeld.de",
+                "www.die-tagespost.de",
+                "www.dinmedia.de",
+                "rothenberger.com",
+                "www.vr-bayernmitte.de",
+                "stadt.muenchen.de",
+                "www.uni-hamburg.de",
+                "www.auto-werkstatt.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/cntcc",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer",
+                "customer2"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [
+                {
+                    "original": "stats.mopo.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.umziehen.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.die-bibel.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webaus.dw-shop.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.ekd.de",
+                    "resolved": "customer2.etracker.com"
+                },
+                {
+                    "original": "webcontr.l.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.lmz-bw.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "etracker.louis.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "e.medikamente-per-klick.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.wgv.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb",
+                "863a37d577560c413b7700d22719842a1fb5abd6b3ee5af2890323412b151aff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mopo.de",
+                "produkte.globus.de",
+                "umziehen.de",
+                "www.die-bibel.de",
+                "www.dw-shop.de",
+                "www.ekd.de",
+                "www.globus.de",
+                "www.l.de",
+                "www.lmz-bw.de",
+                "www.louis.de",
+                "www.medikamente-per-klick.de",
+                "www.wgv.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/v2\\/consent-banners\\/z4snw3\\/banner",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "628986fa3968220002c5e822ec469f28c4ea50a2fc0b4f54c6d79237bc43f9d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globus.de",
+                "www.globus.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/api\\/v6\\/tracking\\/webEvents",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "etracker.louis.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "148e93d982dfba01ab6d340533d8ae9c188a993373d455b657a5dcac266ec0d6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globus.de",
+                "produkte.globus.de",
+                "www.globus.de",
+                "www.louis.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00551,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0661764705882353
+        },
+        {
+            "domain": "epccm19.com",
+            "prevalence": 0.014705882352941176
+        },
+        {
+            "domain": "fiduciagad.de",
+            "prevalence": 0.014705882352941176
+        },
+        {
+            "domain": "bmv.de",
+            "prevalence": 0.007352941176470588
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.007352941176470588
+        },
+        {
+            "domain": "sew-eurodrive.com",
+            "prevalence": 0.007352941176470588
+        },
+        {
+            "domain": "gesis.org",
+            "prevalence": 0.007352941176470588
+        }
+    ],
+    "types": {
+        "Script": 294,
+        "XHR": 4
+    },
+    "nameservers": [
+        "reza.ns.cloudflare.com",
+        "greg.ns.cloudflare.com"
+    ]
+}

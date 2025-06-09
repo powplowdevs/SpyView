@@ -1,0 +1,73 @@
+{
+    "domain": "grapemedia.cz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "serving"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "grapemedia\\.cz\\/player\\/grapemedia\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "serving"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Navigator.prototype.vendor": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 2,
+                "Event.prototype.timeStamp": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "2546047300f3f022e865edd1b3c048e68b97ed08cde8e26aa6b1679b9e21ae51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "24.hu",
+                "nlc.hu",
+                "www.fdb.cz",
+                "www.hokej.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "p24.hu",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns2.websupport.cz",
+        "ns3.websupport.eu",
+        "ns1.websupport.cz"
+    ]
+}

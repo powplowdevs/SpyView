@@ -1,0 +1,82 @@
+{
+    "domain": "webpuzzleapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "admin"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "webpuzzleapp\\.com\\/js\\/jquery\\/3\\.6\\.3\\/jquery\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "admin"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c43e0e050891f2c148041a5d4fa51f628c5eae5c67eb6bbbad6525bb83892686"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theworlds50best.com",
+                "www.theworlds50best.com"
+            ]
+        },
+        {
+            "rule": "webpuzzleapp\\.com\\/DisplayDynamicArticleContent",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "admin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0de25b907ef879acc32b6a505c74416b701952df6fce9345c29907da7671cfe9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theworlds50best.com",
+                "www.theworlds50best.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

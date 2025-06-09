@@ -1,0 +1,157 @@
+{
+    "domain": "azshopp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000212,
+    "sites": 30,
+    "subdomains": [
+        "scripts"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "azshopp\\.com\\/scripts\\/adu_dorcelclub\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3b69dbf32872647ab14e3d00c71a610cd16ab16db42a9fb1dc7add247b2bde55"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dorcelclub.com",
+                "www.dorcelclub.com"
+            ]
+        },
+        {
+            "rule": "azshopp\\.com\\/scripts\\/adu_kink\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a89e94f5b6a4754750e741146cf3b698f37d8fcc35fd5b83ff22982fc32a566a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kink.com",
+                "www.kink.com"
+            ]
+        },
+        {
+            "rule": "azshopp\\.com\\/scripts\\/adu_mrskin\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5f8a899251f592257b5b9b2f0719a0594683ffd8ef7b325e75dba25c73413612"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrskin.com",
+                "www.mrskin.com"
+            ]
+        },
+        {
+            "rule": "azshopp\\.com\\/scripts\\/adu_mrman\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bf3182ce7869d1dd5aede31794743e7c20a9a253a245f3a0652444780d7d9981"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrman.com",
+                "www.mrman.com"
+            ]
+        },
+        {
+            "rule": "azshopp\\.com\\/scripts\\/adu_newsensations_com\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3b69dbf32872647ab14e3d00c71a610cd16ab16db42a9fb1dc7add247b2bde55"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsensations.com",
+                "www.newsensations.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.36666666666666664
+        },
+        {
+            "domain": "solution.coupons",
+            "prevalence": 0.03333333333333333
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "porter.ns.cloudflare.com",
+        "nataly.ns.cloudflare.com"
+    ]
+}

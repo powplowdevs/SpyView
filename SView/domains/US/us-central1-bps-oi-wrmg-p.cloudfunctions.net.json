@@ -1,0 +1,87 @@
+{
+    "domain": "us-central1-bps-oi-wrmg-p.cloudfunctions.net",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "us-central1-bps-oi-wrmg-p\\.cloudfunctions\\.net\\/wrmg-omt-web-handler",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bassproboatingcenters.com",
+                "www.makoboats.com",
+                "www.rangerboats.com",
+                "www.suntrackerboats.com",
+                "www.trackerboats.com",
+                "www.trackeroffroad.com"
+            ]
+        },
+        {
+            "rule": "us-central1-bps-oi-wrmg-p\\.cloudfunctions\\.net\\/wrmg-omt-web-handler",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "615a47ea8026c1728938ba0b81a0e427667c2352150755967f3917bb0b28d1cc",
+                "08b5fa1196bd497caeb6c91a018b710ade14150383a7625366e34b41ee2cac2a",
+                "e686872c2dbda8d6acf4c05b285544a61d242e5759029ea8a1a2a47cb1c526a6",
+                "aeff55bdaede0cf4eb509679d476060b2f5a90d4815dba20ad22236e5b7201f7",
+                "5661f31ac9310742a2e156fca752c0fc1f8ad3270d8ebb1a608c8796bb47978f",
+                "df5a8e0f7d59f93260a21cc2a45728c37145e2910f0ff03493ded3ff8e949f51"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bassproboatingcenters.com",
+                "www.bassproboatingcenters.com",
+                "www.makoboats.com",
+                "www.rangerboats.com",
+                "www.suntrackerboats.com",
+                "www.trackerboats.com",
+                "www.trackeroffroad.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "Fetch": 7
+    },
+    "nameservers": []
+}

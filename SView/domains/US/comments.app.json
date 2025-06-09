@@ -1,0 +1,73 @@
+{
+    "domain": "comments.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "comments\\.app\\/js\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "482f450b7fdbac6f9304643f3e731df20bf66c51fb0599fa9a734e5d102a9e2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tlgrm.eu",
+                "www.stiripesurse.ro"
+            ]
+        },
+        {
+            "rule": "comments\\.app\\/embed\\/view",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tlgrm.eu",
+                "www.stiripesurse.ro"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "pdns11.domaincontrol.com",
+        "pdns12.domaincontrol.com"
+    ]
+}

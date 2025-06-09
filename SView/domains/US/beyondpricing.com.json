@@ -1,0 +1,194 @@
+{
+    "domain": "beyondpricing.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "beacon",
+        "api.beacon"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "beyondpricing\\.com\\/payload\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "window.sessionStorage": 6,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 6,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "aae2702c961c0f4dec86be6fa08a263c345a93e0e784e59835d0ded9bf2e5f66",
+                "10b3125cc3357379c156c3def887368f9d9d9700fb0409e0b0d3583ec0380b07",
+                "6bf8ed33c586dae714a3eb13c3029aec752f2e94961c85d5900e3d3265cd3c08",
+                "21d2e66cf51f9a11e383966d69902ae9224230e260f95fc07ea428f8b45defb1",
+                "798215a8d60f4c9fafc421b91115741c848a28c5b6249a2713e273f52e667194"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__beaconRoot": {
+                    "ttl": -1747358916,
+                    "length": 2,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "__beacon": {
+                    "ttl": 31536012,
+                    "length": 94,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beachrealtync.com",
+                "www.cabinsofthesmokymountains.com",
+                "www.cinnamonshore.com",
+                "www.emeraldislerealty.com",
+                "www.sunriverresort.com",
+                "www.wilddunesresort.com"
+            ]
+        },
+        {
+            "rule": "beyondpricing\\.com\\/session\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "888d05d164e5c759f8c602ee88c84e91a273efb3bad1249f0ee26061c13b50a5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beachrealtync.com",
+                "www.cabinsofthesmokymountains.com",
+                "www.cinnamonshore.com",
+                "www.emeraldislerealty.com",
+                "www.sunriverresort.com",
+                "www.wilddunesresort.com"
+            ]
+        },
+        {
+            "rule": "beyondpricing\\.com\\/session\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "6049727e4bec24cf9ca821a8192fd6bd0d6778af225cfbeff62e931deb083a41"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beachrealtync.com",
+                "www.cinnamonshore.com",
+                "www.sunriverresort.com",
+                "www.wilddunesresort.com"
+            ]
+        },
+        {
+            "rule": "beyondpricing\\.com\\/action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.beacon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beachrealtync.com",
+                "www.cinnamonshore.com",
+                "www.wilddunesresort.com"
+            ]
+        },
+        {
+            "rule": "beyondpricing\\.com\\/action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.beacon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "08152f9bdd6b9f4336898434ebb2ed9130d5cdd84d4ca2de9956e13d821dc98b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beachrealtync.com",
+                "www.cinnamonshore.com",
+                "www.wilddunesresort.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Document": 6,
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d4.googledomains.com"
+    ]
+}

@@ -1,0 +1,599 @@
+{
+    "domain": "cleverwebserver.com",
+    "owner": {
+        "name": "Clever Advertising",
+        "displayName": "Clever Advertising"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000707,
+    "sites": 100,
+    "subdomains": [
+        "scripts",
+        "ui",
+        "call",
+        "assets",
+        "lp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cleverwebserver\\.com\\/af0847bd02fe48f47805e8b8ea789c97\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7df1447e18404a0cbba398ad8788511f0bdde99a98d5010e26e9740589b25be4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afontedeinformacao.com",
+                "vocepergunta.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui"
+            ],
+            "apis": {},
+            "sites": 75,
+            "prevalence": 0.000531,
+            "cnames": [],
+            "responseHashes": [
+                "a5f4ffb57d29d732a0e941c8228563f5a030dc955e3328ff39f777d5966545f0",
+                "065e39c6592a19f421db6f2db7420e8e8f7f24dcde90cca48510b8c3938c1884",
+                "f8b839ebfb39f969bdfdbe36a779b22b958fc173a1920c500d92655377b091c1",
+                "4913b79c70b00679865fbf192f589163cadcb44186938c4f6c7050a04fbba090",
+                "3a0cbb5cad536af629d05ec13b615a8196948795d3c306759fabf48380cca730",
+                "d2845aa86e8eb910042d48888ed6b0adbfa551cf6165bcc9fb56334d5e67fd96",
+                "fa17ba0bee79fa10dab3e78111db76e9fb756ea1469986162a6a6568eebad73b",
+                "46202637d93a7c739eb1c99b5462c865809f2a8deebe0265cb88649d515eec3a",
+                "af39b2dc32e626814b657392694cd2a4176f92abe0ef6247b942ec8c9180586a",
+                "2f5efb9a3d91c1a5691c14ca59e1004d284e88adeef93478f495272865dbca18",
+                "1175be31f5f9f02066ba0c3400eb7d79f716cb93acc03de19f463ddeca3c34b2",
+                "6826f81594d148f648fa66a1faca003a7123b3aba6e8e0e4d85c42c8e95c6231",
+                "33e6bb85ac484fc903b9a74353b82f8cefbf3bf9db4a018899151bf8f017f5f4",
+                "c5d0b306faa3609111753495c640a7bd5dfc83fb74f66acb16915c214caa67d7",
+                "edbf99b0153c5017b97ca3de8a098b4c7e0ce549a2a1ed47233f692e9b0bff35",
+                "b10cad0affbada29f872a1b8ffff0d9b14f3ffeefda0398ff60bde7e3001755b",
+                "fcd1d428f81d4713e6064b470e4b9a884a75bed21dc687e61927b37cbf748b59",
+                "532b87a6ec8ac36bcebee0154ac27a53c61dd981737870b9a25bd48a1ce8b6e0",
+                "d080783b643d2b0706776338fdeb6e81520c85091cd4f809f783ef490f450fde",
+                "c1185e63362fd4b9ec2c14ea8991546192ae189d3eff1d272a7c8217055201c9",
+                "f69d41d7e52c6fbd55941970f60878cd4ba2d92c5831c0d455eefdee580c1ccb",
+                "89c3c7da58d42a30c57ddf7f4f66eaadfa34033121589a8e7d6bcba2ed43a4be",
+                "8074444bf10debc4f778e6654b92aec8b95654c7e03fce789c564a04afb900d0",
+                "2b52f7d76e5c0fa620450c5a29d6c5c9164c1466455563a8ef0d915b4edffcaa",
+                "46966fcf30b362a18810a53f7f85ac3887c166c19db115a225e28044e3fb5f40",
+                "57f88b12fc6c998c9aca0ad9b904f30be9e1728f98278f5cc16df71109bc3c30",
+                "aa94791acd1942bf648132a04d7298722f33981efea24cc67e4f46d43a2bdb8b",
+                "f595600c74ba6e05046645948d82b9665b571a661a9f8fad066e550a7dddaab8",
+                "661aef1a55073da5e873da9f601d2a3a996b937fb65600196b562189abe0c129",
+                "b8ef96db04802cbc577344ee6b6677107264c2ac821b70e2838df261c1c66d47",
+                "f8b61506d9788089bd34c373030d8a778c6be2b2eae023d3bd741d2c91747931",
+                "bac29bdb7a71a56c51b77ebc530fda8a078555dfc63fb5399c6f033fc63f3dac",
+                "fff2e60cc152b7934db33abca600fdfc314d7250d0e4d77d60aae59b03cdd57a",
+                "4a076ab0936fd7b59839e20ceee26e32dbb22091c70fd7758c7b6dbaebadec54",
+                "76b7aa4398a41502915bdec5778f3a9f1aa1938154160189f62a21d820851792",
+                "6f62ede50d02f8f43a2b71733f196a913a810dc2475d257ea9ec990a35d0b5a2",
+                "c723e187eaf99e8795644bccb4d24952cd4f49ec578cf38f448ac4a81ea3b4a1",
+                "111c93594d2c19b53107db93a1a2eae6c2e500ad69f5ccbe42da35ac684dbca5",
+                "4d85d388c4844698ab53265be1e5c98fa54c65f5a14701ee537890a4ac305d96",
+                "ce505c258be2d9f7d6c1c0d3e93e95e5be6ae0bb13101b3542ba581ec3a148c3",
+                "791f9b3fd1c35d134a8545416874662dc36d1ea18c5df67a59ad748d55952ffd",
+                "a9f27c818d358fcc21b41d0e2a8125f4fa3ead5d598a830d6dbd84f84b9a2e1b",
+                "400dcee1c468c4507b129d775186c69c9a8c2156eb2997d0166e885154eee2c8",
+                "0065e04c882ed5642a90d9e98838da19ab88986641702e70b31cbd89553aea4c",
+                "3d8ae00e15396fe0df9fb427087e2e5d276fa2c70f4712f9d44e1b92267aa9f0",
+                "f51883a9c5b0ea5d3afb038bb51845a51136642b4e0336d769f36524d54af28c",
+                "afb65859a8722434676de83fb694241214ed243e2768670c9ff7002e44196e66",
+                "841a69c7780b9c80295d0c96a8087f14ba8f920ea857a0b64c57216cad9509fe",
+                "67c8ffa74e5cc728d402310f096895a69fd30591977320939182dd074b44276b",
+                "9bfe7c602c83130c94a14aea6670e46e446c59ed0ddf20502976d5ec3676f557",
+                "bf79d754c0cedb6e0d3c219bf8977bd4d421274f20e39ec1df5ef75384abf407",
+                "e396925b408b271781a210ebf8d0cd8569a3c1489ef4887a1475771a583c575d",
+                "6a53c9d358f03bfb19b1d39bdb110a9b272c266d948bf24e1ee8ab6a58e29857",
+                "fe46815614a95dd27a7bb9ea2ab39f650bf627f1b4c0995b0315ed45df75d4e2",
+                "c15643744a7f5c43e7a206fdc774d5d1c0bb295107b24e2f8714ba800f3d0b81",
+                "524600121040e641780cfdaaa1df2b96da740f8096d06e6839cd8706b162f28f",
+                "7967591a83798ea1567a4804cb6504cf19a85763091a660317c059bc39b2e647",
+                "dd66a6480c55cb6ad584209a6cc281a564a4c9cc9468585dae5a96d59abe2c75",
+                "81bafe0ae2d530bdba8a2fc0a5a9a883f55fea8bbdf8b0c404ca88634e588a16",
+                "98a52870f51fa84c07817685ed968ceb1b6de05a9b4000050e16cce1833acbd1",
+                "c3347e3d0e9b3efa77aed51e6c4fa788d3068ed246948981899325e4bcc7db34",
+                "a1ec79484fdc034f783d29d0ecde6c468d0fb9a748e5f58f5740da8aca634810",
+                "c4334cb434f7819d98ee778b783d196198a43043da6dea4f92e00174d51fb839",
+                "1b8913d0ce4059bade9bdf0309437b34b738abba2005a4cf5f814aff5bd3fabf",
+                "2f458d019a2d7ee7e224ce15c61dd51a351f672d88fc1a7967cd557a80aa8ad6",
+                "7c3bbbf2fcdf5a0461f425783903249b0c0169a8c25185585c77b668311a8b50",
+                "c861b6bb13dabdd3aac9e5f9a100bd065cb64e814723cd7b56505657f2265ed9",
+                "7055a04b00672126b5a26a922da2c0f63d64e2de8d503929caf0dd05bd84677b",
+                "a407574a14f53578cdeb8e896ea7cc5f53d7f693e0b2d83778294c53c580420f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.outofbit.it",
+                "www.jamiiforums.com",
+                "www.bikes4sale.com",
+                "www.mobile.bg",
+                "www.cinefry.co.in",
+                "www.latestly.com",
+                "coindoo.com",
+                "www.focoemloterias.com.br",
+                "scores24.live",
+                "tennisconnected.com",
+                "www.manabadi.co.in",
+                "www.targatocn.it",
+                "bazar.bg",
+                "lifeinsaudiarabia.net",
+                "afontedeinformacao.com",
+                "en.maisfontes.com",
+                "www.dicionarioinformal.com.br",
+                "www.wowkeren.com",
+                "www.akurat.co",
+                "news24online.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "call"
+            ],
+            "apis": {},
+            "sites": 73,
+            "prevalence": 0.000516,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.sacnilk.com",
+                "www.ojogodobicho.com",
+                "www.lottoresultados.com",
+                "www.wowkeren.com",
+                "www.akurat.co",
+                "www.oasport.it",
+                "www.ilsussidiario.net",
+                "www.outofbit.it",
+                "www.bikes4sale.in",
+                "www.worldfootball.net",
+                "trud.bg",
+                "futbol-11.com",
+                "www.pinoytechnoguide.com",
+                "en.maisfontes.com",
+                "www.boatos.org",
+                "djmwanga.com",
+                "www.flagman.bg",
+                "bazar.bg",
+                "respuestasrapidas.com.mx",
+                "www.latestly.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/Clever\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "8e7bc85ad3e180cf50477ebbb31f6e31daab4d1b90d9acb789f74a1a7e88b164"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coindoo.com",
+                "www.bikes4sale.com",
+                "www.bikes4sale.in",
+                "www.focoemloterias.com.br",
+                "www.pinoytechnoguide.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/Close\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "84db3f74c3119cea3dea7c2fc39d824da19f460c73a2d4c880f32ad3079b63c4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coindoo.com",
+                "www.bikes4sale.com",
+                "www.bikes4sale.in",
+                "www.focoemloterias.com.br",
+                "www.pinoytechnoguide.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/stake\\/us\\/casino\\/sponsored_dailyraces_en\\/stickysponsor\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coindoo.com",
+                "www.focoemloterias.com.br",
+                "www.pinoytechnoguide.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/1cbfa9c878ef8692c1ae21e4cfa11000\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2664f978ac4e8143f38bce54c6b1862f33c6def7391bae679a7612efb3bd6f38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maisfontes.com",
+                "en.maisfontes.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/ce96db346cd23e66b3b71a7c63003403\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bbd68e695dd01123a8184f649e3a6dfc474102d7ec51a77d82cd9dea4d2f2062"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futbol-11.com",
+                "futbol11.netlify.app"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/be7daf664460b968a385d0d8d60c259d\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c8e195933d4434c1ba53d238baa624989c3ad71d819eb8d96a07b4ee3322c728"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "clever-counter-81097": {
+                    "ttl": 21605,
+                    "length": 3,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikes4sale.com",
+                "www.bikes4sale.in"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/stake\\/us\\/casino\\/sponsored_dailyraces_en\\/widescreen_sponsor\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikes4sale.com",
+                "www.bikes4sale.in"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/2e16c89f652fa1e837292bf653b5354f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0f0f7f4e5108f01be8c081337a337000081e92ba1b1293498b9d32eda0f469f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diabetescurehub.com",
+                "www.zodiacpair.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/61ebc3d912f47495f7d7f3d374616fe6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4966c40470971cadc6489811a9df024ec6557d46b368bc744c3bb51e4cbbc051"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilsussidiario.net",
+                "www.ilsussidiario.net"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/858ac21998260068360947887803157b\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fca296ea5b1b965aa523dcdeea475ad93ac63c9af9f0a5a0278a2adb931fdde7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latestly.com",
+                "www.latestly.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/2cb306f9d0669fac735e1e109054e46d\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8dd73b870edbba455d21a98e201922b3f7812cc6becb7a66a8f7b8eb2da688cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "omniglot.com",
+                "www.omniglot.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/c412dafd122faf6709d068ff8cc701d6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6acb8f214df3a1e810d37af443837011fd8c6e45af5d0b75a834d52b2caf6089"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outofbit.it",
+                "www.outofbit.it"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/9bdfb2d6c2d8863d77b3e2727b94b972\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6008aa0ec27f230f6d7eba7b058b1f06c00513c97cfc0c8d877a05e8dc6aec76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prensalibre.com",
+                "www.prensalibre.com"
+            ]
+        },
+        {
+            "rule": "cleverwebserver\\.com\\/f1723518b5d7f2849daa9651e77961be\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b1c85e0cbfdfd25f826826442b890588bb1ac9619d748e5489ca64f9275e4bcf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thesummitexpress.com",
+                "www.thesummitexpress.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8411214953271028
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.08411214953271028
+        },
+        {
+            "domain": "cdn-adtech.com",
+            "prevalence": 0.037383177570093455
+        },
+        {
+            "domain": "reportmyads.com",
+            "prevalence": 0.018691588785046728
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.009345794392523364
+        },
+        {
+            "domain": "ezojs.com",
+            "prevalence": 0.009345794392523364
+        }
+    ],
+    "types": {
+        "Script": 97,
+        "Image": 83,
+        "Document": 5
+    },
+    "nameservers": [
+        "raphaela.ns.cloudflare.com",
+        "skip.ns.cloudflare.com"
+    ]
+}

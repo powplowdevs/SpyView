@@ -1,0 +1,484 @@
+{
+    "domain": "azurefd.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0035,
+    "sites": 33,
+    "subdomains": [
+        "adnprebid-bjdne3a8htfmd9c9.z02",
+        "afd-b2c-iibozyiouoyi4.z01",
+        "avgcommhub-dmhac3ehf8cpayd8.a03",
+        "ccleanermhub-bjhybxceamebajhe.a03",
+        "beingold-prod-cms-eventmanagement-ep-bucgc6e0amhth3ee.z01",
+        "glpfrontdoor",
+        "remtmedia-hmaxa0cfafh0guf4.a02",
+        "apim-pr-laliga-gsbfgmgtgkaca5ef.z01",
+        "pcf-ingress-prod-02559514",
+        "rbgv-prod-cdn-bpfbb4gthrfzb4ab.a03"
+    ],
+    "cnames": [
+        {
+            "original": "account.lexus.com.au",
+            "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+        },
+        {
+            "original": "apim.laliga.com",
+            "resolved": "apim-pr-laliga-gsbfgmgtgkaca5ef.z01.azurefd.net"
+        },
+        {
+            "original": "consumer.intel.com",
+            "resolved": "afd-b2c-iibozyiouoyi4.z01.azurefd.net"
+        },
+        {
+            "original": "id.cityofsydney.nsw.gov.au",
+            "resolved": "glpfrontdoor.azurefd.net"
+        },
+        {
+            "original": "mhubc.avg.com",
+            "resolved": "avgcommhub-dmhac3ehf8cpayd8.a03.azurefd.net"
+        },
+        {
+            "original": "mhubc.ccleaner.com",
+            "resolved": "ccleanermhub-bjhybxceamebajhe.a03.azurefd.net"
+        },
+        {
+            "original": "prod-cmseventmanagement.beinsports.com",
+            "resolved": "beingold-prod-cms-eventmanagement-ep-bucgc6e0amhth3ee.z01.azurefd.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "azurefd\\.net\\/cookie_sync",
+            "cookies": 0.000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adnprebid-bjdne3a8htfmd9c9.z02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "572625255b2d6ccf202e662b1a16804b9255a66fdd988a2a8cffecc8b8a8d859"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asiatimes.com",
+                "www.thephoblographer.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/openrtb2\\/auction",
+            "cookies": 0.000106,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adnprebid-bjdne3a8htfmd9c9.z02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asiatimes.com",
+                "www.thephoblographer.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/intelcorpb2c\\.onmicrosoft\\.com\\/B2C_1A_UNIFIEDLOGIN_SISU_STD_OIDC\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.000106,
+            "fingerprinting": 0,
+            "subdomains": [
+                "afd-b2c-iibozyiouoyi4.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "consumer.intel.com",
+                    "resolved": "afd-b2c-iibozyiouoyi4.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "ad486cba5c08bc0df4a0b460fd8f779c4720410d53feb8a0d0340e86f1504176"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intel.com",
+                "www.intel.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/script\\/mhubc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "avgcommhub-dmhac3ehf8cpayd8.a03",
+                "ccleanermhub-bjhybxceamebajhe.a03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "mhubc.avg.com",
+                    "resolved": "avgcommhub-dmhac3ehf8cpayd8.a03.azurefd.net"
+                },
+                {
+                    "original": "mhubc.ccleaner.com",
+                    "resolved": "ccleanermhub-bjhybxceamebajhe.a03.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "3cd6d64d61788f176d2f8dc67d11a7adac8620e5b1a7eed4acf6e25b1ca0770e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avg.com",
+                "www.ccleaner.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/w2w\\/getWatch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beingold-prod-cms-eventmanagement-ep-bucgc6e0amhth3ee.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "prod-cmseventmanagement.beinsports.com",
+                    "resolved": "beingold-prod-cms-eventmanagement-ep-bucgc6e0amhth3ee.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "63c49671e4c0faf619ee397c992e45e4c411dce55a4ef9410067b01fc9c93a0f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beinsports.com",
+                "www.beinsports.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/w2w\\/getItems",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beingold-prod-cms-eventmanagement-ep-bucgc6e0amhth3ee.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "prod-cmseventmanagement.beinsports.com",
+                    "resolved": "beingold-prod-cms-eventmanagement-ep-bucgc6e0amhth3ee.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "dd978549a062d6180fdf105bae31b93eab5ca98c6a4b60f45527a9b99249d0c2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beinsports.com",
+                "www.beinsports.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/cityofsydneycouncilb2c\\.onmicrosoft\\.com\\/b2c_1a_signup_signin\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.000106,
+            "fingerprinting": 2,
+            "subdomains": [
+                "glpfrontdoor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "id.cityofsydney.nsw.gov.au",
+                    "resolved": "glpfrontdoor.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "9d5f6d51836f8049a22469b72da037c71887439be2cb785e0db60f5dff0ee3f1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nsw.gov.au",
+                "www.cityofsydney.nsw.gov.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/rxpplu24\\/2024_journeys_closing_film\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "remtmedia-hmaxa0cfafh0guf4.a02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "95b1abd1dfddf98fbfb1613c07e3c938967330a5e81ad7762de2d3c038dc3951"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edintattoo.co.uk",
+                "www.edintattoo.co.uk"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/webview\\/api\\/web\\/subscriptions\\/laliga-easports-2024\\/standing",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apim-pr-laliga-gsbfgmgtgkaca5ef.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "apim.laliga.com",
+                    "resolved": "apim-pr-laliga-gsbfgmgtgkaca5ef.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "31ce7162ea0aafe711b54e36b089859bc35f20b2c4012fddf3ea9e55555ff383"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laliga.com",
+                "www.laliga.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/index\\.f4973caa\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "cb697931f73bc53287c8d6bf8533895b44b2ad8d74eaf710c921aa3555bbe206"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/index\\.runtime\\.40a33f50\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "f007ba592432b922c9e96079ae04fd345be5575496b11422cfbfca6694a39bc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/index\\.d61c89b4\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "a87ebee47c73183a169efea5f4a9dd09094d665aa5656a3827d2f82eac443c20"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/signin",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "4d6fd885501d0b963260dbb368ae739819fa7e50bc6d0d5083aee3301ab0cb79"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/2enjoive\\/rbgv_march_2019_237\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rbgv-prod-cdn-bpfbb4gthrfzb4ab.a03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "976440504472adc83bfcf3e9f97c9a8bb646dc53ffd991c3098eb949b149dcf9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbg.vic.gov.au",
+                "www.rbg.vic.gov.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/50od0xmu\\/650476-19\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rbgv-prod-cdn-bpfbb4gthrfzb4ab.a03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "258d2ed526ab9f062a145cd30cff865e64dd1a8a146572dc6847ec99461b4e6b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbg.vic.gov.au",
+                "www.rbg.vic.gov.au"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00106,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9281437125748503
+        },
+        {
+            "domain": "adncdn.net",
+            "prevalence": 0.04790419161676647
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.011976047904191617
+        },
+        {
+            "domain": "inmobi.com",
+            "prevalence": 0.005988023952095809
+        },
+        {
+            "domain": "windows.net",
+            "prevalence": 0.005988023952095809
+        }
+    ],
+    "types": {
+        "Fetch": 8,
+        "Document": 6,
+        "Script": 6,
+        "Media": 2,
+        "XHR": 2,
+        "Stylesheet": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns2-37.azure-dns.net",
+        "ns3-37.azure-dns.org",
+        "ns4-37.azure-dns.info",
+        "ns1-37.azure-dns.com"
+    ]
+}

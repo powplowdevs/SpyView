@@ -1,0 +1,683 @@
+{
+    "domain": "upscore.com",
+    "owner": {
+        "name": "UPSCORE GMBH",
+        "displayName": "UPSCORE"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00398,
+    "sites": 39,
+    "subdomains": [
+        "files",
+        "hit-pool",
+        "hl"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "upscore\\.com\\/async\\/upScore\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 33,
+                "window.localStorage": 36,
+                "Date.prototype.getTime": 37,
+                "window.innerHeight": 36,
+                "PerformanceTiming.prototype.navigationStart": 36,
+                "window.innerWidth": 25
+            },
+            "sites": 37,
+            "prevalence": 0.00377,
+            "cnames": [],
+            "responseHashes": [
+                "485611b8e7205f0869124c916f0d35458da4944c6be1b5711b081423c2c7bd09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.brigitte.de",
+                "www.connect-living.de",
+                "www.mt.de",
+                "www.heise.de",
+                "www.connect.de",
+                "www.donaukurier.de",
+                "www.frankenpost.de",
+                "www.rheinpfalz.de",
+                "www.gea.de",
+                "www.esslinger-zeitung.de",
+                "www.capital.de",
+                "www.geo.de",
+                "www.nordsee-zeitung.de",
+                "www.onetz.de",
+                "www.playboy.de",
+                "augsburger-allgemeine.de",
+                "www.gala.de",
+                "www.telepolis.de",
+                "www.stuttgarter-zeitung.de",
+                "www.blick.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit-pool"
+            ],
+            "apis": {},
+            "sites": 40,
+            "prevalence": 0.00408,
+            "cnames": [],
+            "responseHashes": [
+                "a12b7cb43c9d9134b5bb1b35e9096b66775d9e92e7611d1cc92b02edd6782a87"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.gea.de",
+                "www.lz.de",
+                "www.rhein-zeitung.de",
+                "www.heise.de",
+                "www.krzbb.de",
+                "www.esslinger-zeitung.de",
+                "www.schwarzwaelder-bote.de",
+                "www.capital.de",
+                "www.mt.de",
+                "www.insuedthueringen.de",
+                "www.mittelbayerische.de",
+                "www.freiepresse.de",
+                "www.connect.de",
+                "www.stuttgarter-nachrichten.de",
+                "www.kurier.de",
+                "www.vip.de",
+                "www.geo.de",
+                "www.gala.de",
+                "www.zvw.de",
+                "www.np-coburg.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/capital\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b3f8a2db5ce6c018aa0c4b133e6b85fe7df8414e387e7495fe7bc4a1c17bbcaf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capital.de",
+                "www.capital.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/donaukurier\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "afc96d4f7e29660e879419403407c4d2d6c7649f7f09139e57cd97414119aca1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donaukurier.de",
+                "www.donaukurier.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/donaukurier\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "fe5d2487bb91394ac9e81cba74fc7a0e0d669e142bea2b811fa547c48d2c8a77"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donaukurier.de",
+                "www.donaukurier.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/freiepresse\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "16e742a351332a93b572579ea008c7493bad600027cfb9a5539fcd271b8b6b0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freiepresse.de",
+                "www.freiepresse.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/freiepresse\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3d2fcf169dc96ce3a89e24e729f08e608fb88e830d5425810b566a249b07c3d0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freiepresse.de",
+                "www.freiepresse.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/geo\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3cb2897395db5b70854a7ab11efd78e9e2e40473bb8b30fd7d3bc3dfaa014b4d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geo.de",
+                "www.geo.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/heise\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "9cd6abae1a77ae0f448b29a1cad2c839297c0c23406bd1159653b3e56e7d6a7b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heise.de",
+                "www.heise.de",
+                "www.telepolis.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/heise\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "0752cc7c4106d500c1c1240e36260926b85a36747aad98eda6535b6ea2a0e142"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heise.de",
+                "www.heise.de",
+                "www.telepolis.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/mittelbayerische\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2970fd93a680992ce73f259398d262988506300613af98b8baecbac39ada89c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelbayerische.de",
+                "www.mittelbayerische.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/mittelbayerische\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "04d82b938152743b6ded6f9e68dbdaa532523245559048c47a808155a05aa4a7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelbayerische.de",
+                "www.mittelbayerische.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/nordsee-zeitung\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f88f96284a2bea7798841c1f85905f9bb38d364c42b61954a01e1f8f59853917"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordsee-zeitung.de",
+                "www.nordsee-zeitung.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/nordsee-zeitung\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2d27eccfda3b42135c67bd4068abc5a2bfd3e645551ce7be16911964b094af1c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordsee-zeitung.de",
+                "www.nordsee-zeitung.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/nw\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "15b398900140bd4546e4d3a81ee4533425f698fa21e592463f6c3fdf4593800d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nw.de",
+                "www.nw.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/nw\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e4ba81aa0961e9a4818bc83068ba3873f2731382cf9dd9ca8adbf73a3a3abbe6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nw.de",
+                "www.nw.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/pnp\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "51752e3bee9aff601c810d86d4be27f9cb059bae989abaa069491dbdaf5c04b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pnp.de",
+                "www.pnp.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/pnp\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "62f12c8f8e141efc376e384e3f3749a80b77365310dee018010eb7db0f01cf21"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pnp.de",
+                "www.pnp.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/rheinpfalz\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "00ffaf11dfc841d4d071a6869e3a1db98da1392887a55cfe8aeddb9f9ef60b6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rheinpfalz.de",
+                "www.rheinpfalz.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/rheinpfalz\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "aae9cf4598e5b27cbf0af405867be294d4a0a64778bc037e34a8afcf7fb4b0e4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rheinpfalz.de",
+                "www.rheinpfalz.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/stern\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c28cdd54d86a9c1dc2db4612834ac2fb90d41d5c4dbc59b6ff02637b663a07e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stern.de",
+                "www.stern.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/stern\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5f34951f399bf6c8e72ca9827b68362969b7f6c40475ad1069646edac7069e7d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stern.de",
+                "www.stern.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/topagrar\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7390f0f75aaa26093f37208b4de4bd90c835544e626f8ee9880182fbe88bb2d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topagrar.com",
+                "www.topagrar.com"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/topagrar\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "edab9678f22e5120f722e7688867968c8af4578f6edd7ab99791a48bfe9b3c01"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topagrar.com",
+                "www.topagrar.com"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/zvw\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b9f140f57b24b7cd986bf91b1fcb2568df9511127b90b3d57c7958c907735e84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zvw.de",
+                "www.zvw.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/zvw\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6448eef81eaf8a5bbbbe3159681583942c3f87c75dd6ae7dfb7d1643528c7fc7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zvw.de",
+                "www.zvw.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7936507936507936
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.07936507936507936
+        },
+        {
+            "domain": "tinypass.com",
+            "prevalence": 0.015873015873015872
+        }
+    ],
+    "types": {
+        "Script": 64,
+        "Ping": 40,
+        "Fetch": 23
+    },
+    "nameservers": [
+        "duke.ns.cloudflare.com",
+        "dorthy.ns.cloudflare.com"
+    ]
+}

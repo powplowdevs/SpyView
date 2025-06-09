@@ -1,0 +1,377 @@
+{
+    "domain": "chartbeat.com",
+    "owner": {
+        "name": "Chartbeat",
+        "displayName": "Chartbeat",
+        "privacyPolicy": "https://chartbeat.com/privacy/",
+        "url": "http://chartbeat.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00622,
+    "sites": 61,
+    "subdomains": [
+        "static",
+        "mab"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "chartbeat\\.com\\/js\\/chartbeat_video\\.js",
+            "cookies": 0.00102,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Document.cookie setter": 10,
+                "Date.prototype.getTime": 8,
+                "window.localStorage": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.platform": 10,
+                "Date.prototype.getTimezoneOffset": 8,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "Screen.prototype.colorDepth": 9,
+                "Navigator.prototype.plugins": 10,
+                "PerformanceTiming.prototype.navigationStart": 10,
+                "window.innerHeight": 10
+            },
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "f7c6c90bd6e3f04e6b266713c47840ed45c4ed6fd7697f7d923f83e505d18660"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cb": {
+                    "ttl": 34128006,
+                    "length": 18,
+                    "prevalence": 0.0010198878123406426,
+                    "uniqueness": 1
+                },
+                "_chartbeat2": {
+                    "ttl": 34128006,
+                    "length": 62,
+                    "prevalence": 0.0010198878123406426,
+                    "uniqueness": 1
+                },
+                "_cb_svref": {
+                    "ttl": 1806,
+                    "length": 8,
+                    "prevalence": 0.0010198878123406426,
+                    "uniqueness": 0.1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "lifehacker.com",
+                "mashable.com",
+                "weltwoche.de",
+                "weltwoche.ch",
+                "www.abc.net.au",
+                "www.cbc.ca",
+                "www.independent.co.uk",
+                "www.nytimes.com",
+                "www.politico.com",
+                "www.refinery29.com",
+                "www.telegraph.co.uk"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.com\\/js\\/chartbeat_mab\\.js",
+            "cookies": 0.00326,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 32,
+                "Document.cookie setter": 32,
+                "Date.prototype.getTime": 35,
+                "window.localStorage": 36
+            },
+            "sites": 40,
+            "prevalence": 0.00408,
+            "cnames": [],
+            "responseHashes": [
+                "ff324391dadd9368323fc2bbd7d5e235bd12f864f35e0310f586538ca119d4ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_t_tests": {
+                    "ttl": 3603,
+                    "length": 207,
+                    "prevalence": 0.0006119326874043855,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehill.com",
+                "www.independent.co.uk",
+                "www.politico.com",
+                "www.rottentomatoes.com",
+                "www.snopes.com",
+                "www.telegraph.co.uk",
+                "www.washingtonpost.com",
+                "www.sport1.de",
+                "www.mallorcazeitung.es",
+                "www.abc.net.au",
+                "winfuture.de",
+                "www.corriere.it",
+                "dotesports.com",
+                "www.ndtv.com",
+                "www.swr3.de",
+                "www.boredpanda.com",
+                "www.pcgames.de",
+                "www.pcgameshardware.de",
+                "www.swr.de",
+                "www.theatlantic.com"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.com\\/mab_strategy\\/headline_testing\\/get_strategy\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mab"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.00377,
+            "cnames": [],
+            "responseHashes": [
+                "dae8e376f20237bb0505e265284f02c6a1354e8fe0ab5b814050a966884751c9",
+                "765ee3ed107bce1a3f13d6e09cbb7f8aa10a1718d9449a76b240a48cf3f12015",
+                "b834af7c84d7061177699faac10acd70f2c8c31aed56091a6c033ee81a262f31",
+                "f87cc7173c0d3afb9ae35acb69cad7f86a0f3b20f4575fc54b6b68f8e6efad6d",
+                "063458d86cf8c116cd542a96668616cf6ba51c5942fa27abeb331aa1c5766984",
+                "868323855050ebc1fd3280b5f593500567d5c61c0c72df17cde38712a2ff7cda",
+                "6b12ae53642c12645492bcd858f8008659afbd76e186692ec55662a49f711c37",
+                "c6da62a3f1db64a2ed18c3cc29bdb152d4c212770f076a34e72f253b4c21782f",
+                "bbef3c50dfc596c50273e25a1a8a5a50cdffbccd081cea7a899b307712032f5a",
+                "8fada04b7fe35419d1e509ec47457a1987a8897e1324ed7ad5ba2f9459e32095",
+                "b745cf2c5f5a5ece193b5a6b935306dcf742afac106d84818ff3ef6529121049",
+                "5acd91642347716240d5a7d450d28945f478ef3d250b786376c1ea4a3c7afd93",
+                "3615f61292ec7642c583fc0f052345a975deb641b5cf0725f8ff10850f48fede",
+                "20b05f1a0ad9713d170e6e5d00e18540fa06da9424081794d0140f393fe3120c",
+                "c5a754a3610b087696d53f37cff4b857f75e349b4d73346f95ebd6cf3128d21e",
+                "660eb64f6cecdd631b30ca3266d8ec6d0d16ba1e86944d76fe0888671af2344b",
+                "d706644680620ad9ac1d10769156a4b811873f0640d5216d83a87f443f3f54ab",
+                "d0a0d1e227a940202affc928f48a362cad42fec19d8e9eefe40f5879b7243ead",
+                "b22fd071581bc4dbd6b6828e36484bffe658e44ed95061a6c4f88523680614bb",
+                "ad06710c026d43e27572a6392e3bd61379d8b63357431989e7f00af61317fc54",
+                "1615405c44f8a24b2e3953b57495c723045c20d5e4f93ee78a0ae1d0003e8269",
+                "90fd029daa0873e6ef845e6b2d400d590cfdb3f3fd2e7054d0065ae8d749a90e",
+                "8da973ea98dccdd77efd2b13d8086b6ed632cadae4b1fce592280c4ef2f7228d",
+                "b692bc52dd5d09580dc77de2a5772646ef2307f1c51c462d1e86efb8eb035f45",
+                "d338774a550e8421b0f64d6062f4774e9118cb39d208dfc1f7f1ce9caad3815a",
+                "a9ccb232db97fdc475bce44a4594f1ebb0ef5e4c8f6bc0d30924bc73c48199a4",
+                "2ad68da58ad587a364efed42dd67c8a125aeaf603dc8d754f96b6285895bbc6a",
+                "07a65e7d0dd91a1022e12e38ac7e88b1441069734211d90bf14e904caff17f89",
+                "ad2670ce23e8016391232d7109f5e96fb2cb017c85f4d1e7a2b9a4ca44546b37",
+                "ac01ea9353c8f514307ad5480b44235b36e64da39d0a4599149322b80212ab00",
+                "9711a72b856fc5d2b619f17e408722d34e25787b6f31341ad0dc8ee382e5cd2d",
+                "d6f21b181ed57884f6a38d84b58edf26e6744ea4d3b327406b87b66f19d1ab79",
+                "5a874c8c96cd784003bfaa42904267893b4d76aee709d183d7f5354a7f6be0ce",
+                "ae023ae2e22ea42dac938989c1a5361a6ccd7fe9d03bc92b85863780d1942405",
+                "c351def4fa7411316502a04f6c97f54e26e8a04dd0e8f7f026956cf318eedcf4",
+                "1f6b55805ad7d3a5dc3c30fc88650be923cfcbbe3951791453d9135c6e0f1cbe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.independent.co.uk",
+                "www.politico.com",
+                "www.rottentomatoes.com",
+                "www.snopes.com",
+                "www.telegraph.co.uk",
+                "www.sport1.de",
+                "www.heute.at",
+                "www.refinery29.com",
+                "www.gameskinny.com",
+                "dotesports.com",
+                "indianexpress.com",
+                "www.abc.net.au",
+                "www.pcgames.de",
+                "www.kindernetz.de",
+                "progameguides.com",
+                "tv.sport1.de",
+                "www.theatlantic.com",
+                "www.rtve.es",
+                "www.ndtv.com",
+                "www.pcgameshardware.de"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.com\\/js\\/chartbeat\\.js",
+            "cookies": 0.00316,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 31,
+                "Document.cookie setter": 31,
+                "Date.prototype.getTime": 37,
+                "window.localStorage": 38,
+                "Navigator.prototype.userAgent": 38,
+                "Navigator.prototype.platform": 38,
+                "Date.prototype.getTimezoneOffset": 33,
+                "Screen.prototype.width": 37,
+                "Screen.prototype.height": 37,
+                "Screen.prototype.colorDepth": 37,
+                "Navigator.prototype.plugins": 38,
+                "PerformanceTiming.prototype.navigationStart": 38,
+                "window.innerHeight": 37
+            },
+            "sites": 40,
+            "prevalence": 0.00408,
+            "cnames": [],
+            "responseHashes": [
+                "c1bca8f45d3cd8e6ec28fe01f148d06714c83301ab31489e07dbc52eadfca5b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cb": {
+                    "ttl": 34128003,
+                    "length": 17,
+                    "prevalence": 0.003161652218255992,
+                    "uniqueness": 1
+                },
+                "_chartbeat2": {
+                    "ttl": 34128003,
+                    "length": 62,
+                    "prevalence": 0.003161652218255992,
+                    "uniqueness": 1
+                },
+                "_cb_svref": {
+                    "ttl": 1803,
+                    "length": 8,
+                    "prevalence": 0.003161652218255992,
+                    "uniqueness": 0.03225806451612903
+                },
+                "_cbt": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knowyourmeme.com",
+                "www.bbc.com",
+                "www.bbc.co.uk",
+                "www.cnet.com",
+                "www.snopes.com",
+                "www.oeffnungszeitenpost.de",
+                "www.kleinezeitung.at",
+                "www.ndtv.com",
+                "www.pcgames.de",
+                "www.aljazeera.net",
+                "www.techspot.com",
+                "cybernews.com",
+                "mapgenie.io",
+                "www.planet-schule.de",
+                "www.gameskinny.com",
+                "www.kindernetz.de",
+                "www.boredpanda.com",
+                "www.srf.ch",
+                "dotesports.com",
+                "www.pcgameshardware.de"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.com\\/js\\/subscriptions\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "a1c9a21ede44774a26110c312c2c5398e074132f6e243011c15b4bfd660702ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indianexpress.com",
+                "www.boredpanda.com",
+                "www.corriere.it",
+                "www.repubblica.it"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement"
+    ],
+    "performance": {},
+    "cookies": 0.00479,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8207547169811321
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04716981132075472
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.03773584905660377
+        },
+        {
+            "domain": "gedidigital.it",
+            "prevalence": 0.02830188679245283
+        },
+        {
+            "domain": "bbci.co.uk",
+            "prevalence": 0.018867924528301886
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.018867924528301886
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.009433962264150943
+        },
+        {
+            "domain": "asadcdn.com",
+            "prevalence": 0.009433962264150943
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.009433962264150943
+        }
+    ],
+    "types": {
+        "Script": 96,
+        "XHR": 37
+    },
+    "nameservers": [
+        "ns-262.awsdns-32.com",
+        "ns-1558.awsdns-02.co.uk",
+        "ns-1456.awsdns-54.org",
+        "ns-744.awsdns-29.net"
+    ]
+}

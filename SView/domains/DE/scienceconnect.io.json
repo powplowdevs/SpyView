@@ -1,0 +1,82 @@
+{
+    "domain": "scienceconnect.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000408,
+    "sites": 4,
+    "subdomains": [
+        "wiley",
+        "utb-elibrary",
+        "pnas",
+        "utb"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "scienceconnect\\.io\\/api\\/oauth\\/authorize",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wiley",
+                "utb-elibrary",
+                "pnas",
+                "utb"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiley.com",
+                "elibrary.utb.de",
+                "www.pnas.org",
+                "www.utb.de"
+            ]
+        },
+        {
+            "rule": "scienceconnect\\.io\\/teaser\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wiley",
+                "utb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiley.com",
+                "elibrary.utb.de",
+                "www.utb.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 7
+    },
+    "nameservers": [
+        "lee.ns.cloudflare.com",
+        "rachel.ns.cloudflare.com"
+    ]
+}

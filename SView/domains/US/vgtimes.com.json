@@ -1,0 +1,98 @@
+{
+    "domain": "vgtimes.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "vgtimes\\.com\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6b53b6688e8360ed003bdd88ab686ab9358c14bf8938bcdf09fec24118eadacb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libertycity.net",
+                "vgtimes.ru"
+            ]
+        },
+        {
+            "rule": "vgtimes\\.com\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libertycity.net",
+                "vgtimes.ru"
+            ]
+        },
+        {
+            "rule": "vgtimes\\.com\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9e584e8a3d07400c0a7abcafe6f147608c4fe2ca79ea4b9560268885502192d4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libertycity.net",
+                "vgtimes.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "olga.ns.cloudflare.com",
+        "rocky.ns.cloudflare.com"
+    ]
+}

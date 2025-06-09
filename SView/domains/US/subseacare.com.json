@@ -1,0 +1,101 @@
+{
+    "domain": "subseacare.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "subseacare\\.com\\/public\\/js\\/1feb7f2fba\\/b21648de4b2c9a53ff024d8d43ba8d80f8a2\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.localStorage": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "CookieStore.prototype.getAll": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8d5ddac5efb3574276c32746b544cff3d6eb78364906dacbaa43b97e7594f340"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timescolonist.com",
+                "www.timescolonist.com"
+            ]
+        },
+        {
+            "rule": "subseacare\\.com\\/submit\\/k1d2ju0lj6wcjvtenv2lwk0s8xq253rbdjeicgas7",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "12c63ae922f3f5155ce510f31ea448b92deb1d2390ced48c8ea01df618493f42"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timescolonist.com",
+                "www.timescolonist.com"
+            ]
+        },
+        {
+            "rule": "subseacare\\.com\\/k02g9g8he9hm1yoosvni4fkrk3un4j8qdwnxmkx3r",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timescolonist.com",
+                "www.timescolonist.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-151.awsdns-18.com",
+        "ns-801.awsdns-36.net",
+        "ns-1737.awsdns-25.co.uk",
+        "ns-1340.awsdns-39.org"
+    ]
+}

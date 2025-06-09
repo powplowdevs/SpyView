@@ -1,0 +1,146 @@
+{
+    "domain": "erweima.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "aiarticle",
+        "aichatonlineorg",
+        "mathbot",
+        "finechatserver"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "erweima\\.ai\\/api\\/v1\\/article\\/latestPublishedArticles",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aiarticle"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "9f9b59c7dd7525b6b898266591bc286928d92e717feca7bfb3e5cf403ef2f5b6",
+                "29f98c5d43bce910ca63e7dd50702f8de1887b844f403888a9b2883bbabfc499"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aiartgenerator.cc",
+                "aiimagegenerator.is",
+                "ailogomaker.io"
+            ]
+        },
+        {
+            "rule": "erweima\\.ai\\/api\\/v1\\/user\\/getUniqueId",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aichatonlineorg",
+                "mathbot",
+                "finechatserver"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "04305e7c82cf53805d523380b35aa41420e96280b6851bbee52749fb4299abff"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aichatonline.org",
+                "math.bot",
+                "www.yeschat.ai"
+            ]
+        },
+        {
+            "rule": "erweima\\.ai\\/api\\/v1\\/user\\/getUniqueId",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "finechatserver"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yeschat.ai",
+                "www.yeschat.ai"
+            ]
+        },
+        {
+            "rule": "erweima\\.ai\\/api\\/ua\\/save",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aiarticle"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yeschat.ai",
+                "www.yeschat.ai"
+            ]
+        },
+        {
+            "rule": "erweima\\.ai\\/api\\/ua\\/save",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aiarticle"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yeschat.ai",
+                "www.yeschat.ai"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000092,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Preflight": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "tina.ns.cloudflare.com",
+        "wesley.ns.cloudflare.com"
+    ]
+}

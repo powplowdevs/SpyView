@@ -1,0 +1,65 @@
+{
+    "domain": "hubspotfeedback.com",
+    "owner": {
+        "name": "HubSpot, Inc.",
+        "displayName": "HubSpot",
+        "privacyPolicy": "https://legal.hubspot.com/privacy-policy",
+        "url": "http://hubspot.com"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "js-eu1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hubspotfeedback\\.com\\/feedbackweb-new\\.js",
+            "cookies": 0.000306,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-eu1"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "a9ce888bdfd4fbfd8ef152dd467e9d798a65ac8c34799f4e790c29400240d351"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hetccv.nl",
+                "www.electroworld.nl",
+                "www.topuniversities.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000306,
+    "topInitiators": [
+        {
+            "domain": "hs-scripts.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "jerry.ns.cloudflare.com",
+        "yolanda.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "domain": "oraclecloud.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "www-static-meteoam-it.o.waas.oci"
+    ],
+    "cnames": [
+        {
+            "original": "www-static.meteoam.it",
+            "resolved": "www-static-meteoam-it.o.waas.oci.oraclecloud.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "oraclecloud\\.net\\/maps\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www-static-meteoam-it.o.waas.oci"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "www-static.meteoam.it",
+                    "resolved": "www-static-meteoam-it.o.waas.oci.oraclecloud.net"
+                }
+            ],
+            "responseHashes": [
+                "d7030941039d3e76dccd06527fa11103d81ef01f39e6ba47760ba6c83f11269d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meteoam.it",
+                "www.meteoam.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.dynamicnetworkservices.net",
+        "ns6.dynamicnetworkservices.net",
+        "ns5.dynamicnetworkservices.net",
+        "ns4.dynamicnetworkservices.net",
+        "ns3.dynamicnetworkservices.net",
+        "ns2.dynamicnetworkservices.net"
+    ]
+}

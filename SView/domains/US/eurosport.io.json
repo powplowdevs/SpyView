@@ -1,0 +1,83 @@
+{
+    "domain": "eurosport.io",
+    "owner": {
+        "name": "Eurosport",
+        "displayName": "Eurosport"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "netsport"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "eurosport\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "netsport"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvn24.pl",
+                "eurosport.tvn24.pl",
+                "www.tntsports.co.uk"
+            ]
+        },
+        {
+            "rule": "eurosport\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "netsport"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "5e7afb8849f8b57bbb180361fdd1e1fc55a9183c913ef918c95f78f93a96f8d3",
+                "1b2dc44cc27026d672f9fb717a3ff85c6d3f2201778c7f81e0ff7beecf3c1bc1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvn24.pl",
+                "eurosport.tvn24.pl",
+                "www.tntsports.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-458.awsdns-57.com",
+        "ns-1667.awsdns-16.co.uk",
+        "ns-817.awsdns-38.net",
+        "ns-1455.awsdns-53.org"
+    ]
+}

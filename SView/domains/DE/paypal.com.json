@@ -1,0 +1,486 @@
+{
+    "domain": "paypal.com",
+    "owner": {
+        "name": "PayPal, Inc.",
+        "displayName": "PayPal",
+        "privacyPolicy": "https://www.paypal.com/us/webapps/mpp/ua/privacy-full",
+        "url": "http://paypal.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00398,
+    "sites": 39,
+    "subdomains": [
+        "c",
+        "b.stats",
+        "c6",
+        "lhr.stats",
+        "www",
+        "www.sandbox"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "paypal\\.com\\/da\\/r\\/fb\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.webkitTemporaryStorage": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Performance.prototype.memory": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "365f154d9e0e62936b630b31e2b06e9fe3b768d4d0dafc6acf2dc6ef25e36e46"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikebox-shop.de",
+                "www.grillfuerst.de",
+                "www.medikamente-per-klick.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/v1\\/r\\/d\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikebox-shop.de",
+                "www.grillfuerst.de",
+                "www.medikamente-per-klick.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/v2\\/counter\\.cgi",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b.stats"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2577fd1470fa192497cc292750833b14ebbc8cb92283449b928b9edc36de5df8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikebox-shop.de",
+                "www.grillfuerst.de",
+                "www.medikamente-per-klick.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/v1\\/r\\/d\\/b\\/p3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c6"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikebox-shop.de",
+                "www.grillfuerst.de",
+                "www.medikamente-per-klick.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/v2\\/counter2\\.cgi",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lhr.stats"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2577fd1470fa192497cc292750833b14ebbc8cb92283449b928b9edc36de5df8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikebox-shop.de",
+                "www.grillfuerst.de",
+                "www.medikamente-per-klick.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/sdk\\/js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 24,
+                "PerformanceTiming.prototype.navigationStart": 19,
+                "window.name": 25,
+                "window.localStorage": 22,
+                "Notification.permission": 16,
+                "Navigator.prototype.plugins": 16,
+                "Date.prototype.getTime": 17,
+                "window.innerHeight": 3,
+                "window.outerHeight": 3,
+                "Screen.prototype.width": 3,
+                "window.innerWidth": 3,
+                "Element.prototype.getClientRects": 1,
+                "Navigator.prototype.languages": 12,
+                "Navigator.prototype.language": 12
+            },
+            "sites": 29,
+            "prevalence": 0.00296,
+            "cnames": [],
+            "responseHashes": [
+                "0b468003646b8926aa216b22aaee8ce9a63332e7048b5b2825d8919f45b9aacf",
+                "5b5076daea020d64ebb7643fa52efd06177833e89c557ab83636b298e11415a5",
+                "6626df413a8f62c311e5ab4d9a32544e4140a457a7711f1354c87bc9fd853c42",
+                "23b99daa088626d9ed070363441a072c2d80faf39d2c122ad74e8ce327dadbe2",
+                "dd4f8f9e67204e3c5838297db2880eacccb7b0154352388efed76ab0f087daa0",
+                "b3cdd27be921fe2e3235403066bad340c6471dfbe7482d93c429c60f00606f07",
+                "285fc11c5ed22a9bc3a97b3775abff9eacbe8335d9e6154b73bb8cce8b5a448c",
+                "0d0572bd6138ce066bc9bd88840ddc34f67db75988e3f7eeb4990176ba26453b",
+                "1f6c163cdd049cd11280d974fb9ae2b55d2758a539d4c4d8f7954e670c2038c6",
+                "bfb1f79f78c54e60303187653c09af53eebdcfbf82ee322c2e84147c5bff3cd1",
+                "2be4290351d4dae64f1dfde67ffcb3b0bdc8603bacfa9660618c81a8db8dfe3a",
+                "24af5057ca8cffe40384aceaa1c52004f86d2945c8c641876bd3856ce2c8ab56",
+                "6e762dd134e50a07430e7583a4d3baa81a666a63d16908364572c5a44dfe7ff2",
+                "1c8d4a71d6f14e81673c544e299847c6292638006ca961b3b6a74a9829ba15df",
+                "16f584b7c120b99cdad929e98be399118df2190b6b20f744628cb57e5e4fa889",
+                "bf78a3e51acecab43945746997bcb04f659e6118c4ae7dfce0bdb01fef32dbf2",
+                "c839c74e613ccd0fdb1db49f98c93d63031ef330b24fdd99c4223a16c7c8ea24",
+                "83eb7261fceb887882cdbe5bbbc8eacb5424f063cb7c8521c5b6fd444e5bdd37",
+                "8a622c2844b3f8c509fbf611ad07c6b541df4758a055403bb4e5e765b44dedc1",
+                "dcf27479e594c970b189366fe40291f7f0aecc4b30bb2848227462b870974a40"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikebox-shop.de",
+                "fischer-bike.com",
+                "www.nubert.de",
+                "originalteile.mercedes-benz.de",
+                "www.office-partner.de",
+                "www.grillfuerst.de",
+                "nubert.de",
+                "tangaland24.de",
+                "www.boerger-motorgeraete.de",
+                "www.reifen24.de",
+                "www.motorrad-ersatzteile24.de",
+                "r2-bike.com",
+                "www.horoskop-paradies.ch",
+                "www.haertle.de",
+                "www.urologielehrbuch.de",
+                "www.megabad.com",
+                "megabad.com",
+                "www.akkuline.de",
+                "www.sony.de",
+                "www.mcm-systeme.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/credit-presentment\\/experiments\\/local",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "www.sandbox"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00194,
+            "cnames": [],
+            "responseHashes": [
+                "9d213d5eb0cdfde1d5b6396406fe18782466351f06410845a21c522b788b599a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikebox-shop.de",
+                "fischer-bike.com",
+                "megabad.com",
+                "nubert.de",
+                "originalteile.mercedes-benz.de",
+                "tangaland24.de",
+                "www.akkuline.de",
+                "www.baum-bmwshop24.de",
+                "www.boerger-motorgeraete.de",
+                "www.fahrradgigant.de",
+                "www.funktechnik-bielefeld.de",
+                "www.grillfuerst.de",
+                "www.megabad.com",
+                "www.motorrad-ersatzteile24.de",
+                "www.nubert.de",
+                "www.office-partner.de",
+                "www.reifen24.de",
+                "www.sony.de",
+                "www.stahl-shop24.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/tagmanager\\/pptm\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calibre-ebook.com",
+                "krunker.io"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/xoplatform\\/logger\\/api\\/logger",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00163,
+            "cnames": [],
+            "responseHashes": [
+                "5cba80d57cb405215bf1cc80d69ce0d9ab1d890eb9c444c8c627e8223d6335c4",
+                "90d043214dfa6d1baa68a65e25419bd3ca39595823505d9dfb5603e349a710cf",
+                "c6ee29950d3bb10ec1ea3420fa9ae5f650188ff404ba17e6b64b7467282d9041",
+                "389f5e06b8dbe56da2c5bbc554fff10a494edf9a49db2bde8a282360019657e8",
+                "99959dcab9bf392c269b219451ba483b6566a6d4452d72c4b5c003f76832362e",
+                "9a0d5b788c6383b015c0d5988461a608163f94e733b34786932387f870e41c85",
+                "3c4d15bb4ede05927eedd58061a61cff469ae66191e7a7018cf46df47b343db2",
+                "8879f0265480c480fc05d80cbdd43cb888a459f05034e9e4c3fa9bb06275ba56",
+                "1520473eaaffd51060ff65d74f839e16762fec1f52303d5151489ed769a94cdf",
+                "ed870733c0333a81cc453ac8bbfddff308e2ff26b0860975a7cffbd873371785"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calibre-ebook.com",
+                "dvs-beregnung.de",
+                "fischer-bike.com",
+                "nubert.de",
+                "r2-bike.com",
+                "tangaland24.de",
+                "tripsdrill.de",
+                "www.akkuline.de",
+                "www.boerger-motorgeraete.de",
+                "www.connox.de",
+                "www.fahrradgigant.de",
+                "www.haertle.de",
+                "www.nubert.de",
+                "www.reifen24.de",
+                "www.stahl-shop24.de",
+                "www.urologielehrbuch.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/xoplatform\\/logger\\/api\\/logger",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calibre-ebook.com",
+                "dvs-beregnung.de",
+                "fischer-bike.com",
+                "nubert.de",
+                "r2-bike.com",
+                "www.akkuline.de",
+                "www.connox.de",
+                "www.fahrradgigant.de",
+                "www.haertle.de",
+                "www.nubert.de",
+                "www.reifen24.de",
+                "www.stahl-shop24.de",
+                "www.urologielehrbuch.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/smart\\/buttons",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "0ba0c62794c8a7b765af9d799c73e3926eb47ff550d779486918f3ac7265faa3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dvs-beregnung.de",
+                "www.grow-shop24.de",
+                "www.urologielehrbuch.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/de_DE\\/i\\/scr\\/pixel\\.gif",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "excel-vorlagen.net",
+                "www.deutschelyrik.de",
+                "www.pravda-tv.com"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/credit-presentment\\/experiments\\/hash",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tangaland24.de",
+                "www.boerger-motorgeraete.de"
+            ]
+        },
+        {
+            "rule": "paypal\\.com\\/credit-presentment\\/smart\\/message",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tangaland24.de",
+                "www.boerger-motorgeraete.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "SSO",
+        "Online Payment",
+        "Badge",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00112,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8771929824561403
+        },
+        {
+            "domain": "paypalobjects.com",
+            "prevalence": 0.07017543859649122
+        },
+        {
+            "domain": "convious-app.com",
+            "prevalence": 0.03508771929824561
+        },
+        {
+            "domain": "plentymarkets.com",
+            "prevalence": 0.017543859649122806
+        }
+    ],
+    "types": {
+        "Script": 34,
+        "Document": 27,
+        "Image": 12,
+        "XHR": 16,
+        "Preflight": 13,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "pdns100.ultradns.net",
+        "pdns100.ultradns.com",
+        "ns1.p57.dynect.net",
+        "ns2.p57.dynect.net"
+    ]
+}

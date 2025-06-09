@@ -1,0 +1,100 @@
+{
+    "domain": "ati-host.net",
+    "owner": {
+        "name": "AT Internet",
+        "displayName": "AT Internet",
+        "privacyPolicy": "https://www.atinternet.com/en/company/data-protection/data-collection-on-at-internets-sites/",
+        "url": "http://atinternet.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "logws1360",
+        "logw310",
+        "logws1307",
+        "logws1309",
+        "logws1342",
+        "logws1335"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ati-host\\.net\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logws1360",
+                "logw310",
+                "logws1307"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leboncoin.info",
+                "leroymerlin.co.za",
+                "yourstory.com"
+            ]
+        },
+        {
+            "rule": "ati-host\\.net\\/hit\\.xiti",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logws1309",
+                "logws1342",
+                "logws1335"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fioulmarket.fr",
+                "www.hikvision.com",
+                "www.rte.ie",
+                "www.smt-cinema.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "aticdn.net",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Ping": 3,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-164.awsdns-20.com",
+        "ns-702.awsdns-23.net",
+        "ns-1031.awsdns-00.org",
+        "ns-1852.awsdns-39.co.uk"
+    ]
+}

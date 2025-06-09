@@ -1,0 +1,87 @@
+{
+    "domain": "testfreaks.com",
+    "owner": {
+        "name": "TestFreaks AB",
+        "displayName": "TestFreaks"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [
+        "cr",
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "testfreaks\\.com\\/seller_reviews\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cr"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "8d9e3da6046314b1fbba45c9a767a618f7db8f2b1ac5d26419bf6f26fd50d4e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centrecom.com.au",
+                "www.granngarden.se",
+                "www.hemtex.se"
+            ]
+        },
+        {
+            "rule": "testfreaks\\.com\\/onpage\\/umart\\.com\\.au\\/score\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "eb4058811f05ed1b01d71df11089b32c684a576ea6007e29aa01615404d9b010"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "umart.com.au",
+                "www.umart.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9428571428571428
+        },
+        {
+            "domain": "d1le22hyhj2ui8.cloudfront.net",
+            "prevalence": 0.05714285714285714
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-151.awsdns-18.com",
+        "ns-790.awsdns-34.net",
+        "ns-1738.awsdns-25.co.uk",
+        "ns-1384.awsdns-45.org"
+    ]
+}

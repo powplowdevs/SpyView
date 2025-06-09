@@ -1,0 +1,102 @@
+{
+    "domain": "visx.net",
+    "owner": {
+        "name": "YOC AG",
+        "displayName": "YOC"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "visx\\.net\\/hb_post",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "01e3e46cacced062091a92b441683d323d8fcb83c22278b07b8cd2ba9f803d19",
+                "3f5fa6d8fb75b2f533b7de836ab44a4d47b535c055a11105815318f9971d9f70",
+                "a6c982d28ecc21d8f5c0b86910cfadf3381b3b6ce1435cabeae6c4cfec873a1e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.ch",
+                "www.der-betze-brennt.de",
+                "www.finanzen.at",
+                "www.finanzen.ch",
+                "www.helles-koepfchen.de",
+                "www.marktcom.de"
+            ]
+        },
+        {
+            "rule": "visx\\.net\\/push_sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__cmpconsentx97691": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "weltwoche.ch",
+                "www.der-betze-brennt.de",
+                "www.finanzen.at",
+                "www.finanzen.ch",
+                "www.helles-koepfchen.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "adnz.co",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "ay.delivery",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "vlyby.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "relevant-digital.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Document": 5
+    },
+    "nameservers": [
+        "ns2.variomedia.de",
+        "ns1.variomedia.de"
+    ]
+}

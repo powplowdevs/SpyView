@@ -1,0 +1,210 @@
+{
+    "domain": "gorgias.help",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00157,
+    "sites": 222,
+    "subdomains": [
+        "config",
+        "help-center",
+        "bedjet-copy-1",
+        "solidstarts",
+        "assets",
+        "contact"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gorgias\\.help\\/api\\/contact-forms\\/replace-mailto-script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config"
+            ],
+            "apis": {},
+            "sites": 159,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "ecbd22deddb7f366451292174ffe7918f55ca6a15c24e39557a86c8ae81a809c",
+                "0283c219d2d9e15f32483868c75cc76cb042929f5dea255a8e32471abaf45394",
+                "6ba14fbb5dcaa3c4019ee5d0beccd38e4fd394848a95a97f36e253f8d8a0f9c2",
+                "cffb8f046ad924b456ebe82f62c223d481797c9f98ccfcba5df7e1bfd7bd8d61",
+                "1738215a69b69d4c48a1af987bcef4326adf278b216cf76d2a524c0f2229ade2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.stashtea.com",
+                "ultrapro.com",
+                "opticsforce.com",
+                "www.artika.com",
+                "magiclinen.com",
+                "madamsew.com",
+                "www.cottonique.com",
+                "coolibar.com",
+                "imperial1916.com",
+                "myfahlo.com",
+                "alliancechemical.com",
+                "triquetrahealth.com",
+                "www.mavaquadoc.com",
+                "bonavitabrand.co",
+                "theliquorbarn.com",
+                "barenecessities.com",
+                "www.burlebo.com",
+                "www.hurley.com",
+                "www.jaanuu.com",
+                "macduggal.com"
+            ]
+        },
+        {
+            "rule": "gorgias\\.help\\/api\\/help-centers\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "help-center"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d1464def80d55258139cf698d703767bc6fa43e3e44917c1263616ef8ecf24fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedjet.com",
+                "solidstarts.com"
+            ]
+        },
+        {
+            "rule": "gorgias\\.help\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bedjet-copy-1",
+                "solidstarts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedjet.com",
+                "solidstarts.com"
+            ]
+        },
+        {
+            "rule": "gorgias\\.help\\/en-US",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bedjet-copy-1",
+                "solidstarts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "78345c48a5fc9c4621e171bbf2cb2a77359ad36cf6b96008fda4adadf578784a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedjet.com",
+                "solidstarts.com"
+            ]
+        },
+        {
+            "rule": "gorgias\\.help\\/865e6c96aa3fbb2c0066c8bb24c4dd3c5d8eb3ab\\/_next\\/static\\/chunks\\/8897-d64c1441b05a7aec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e34337b3de59b73cfcf9784a73bf4f8aeff7fdf817380d9360ec96df2f0b478a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "legacybox.com",
+                "help.cloud.legacybox.com"
+            ]
+        },
+        {
+            "rule": "gorgias\\.help\\/api\\/contact-forms\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "contact"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1168f4a11c3dd38079a6a3b1feb590c8cc016d192aafad2ac9dad490aa94bf1e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polymaker.com",
+                "www.iagperformance.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9727626459143969
+        },
+        {
+            "domain": "gorgias.help",
+            "prevalence": 0.019455252918287938
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.0038910505836575876
+        },
+        {
+            "domain": "pyleusa.com",
+            "prevalence": 0.0038910505836575876
+        }
+    ],
+    "types": {
+        "Script": 165,
+        "Document": 4
+    },
+    "nameservers": [
+        "igor.ns.cloudflare.com",
+        "brenda.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "domain": "www-u47-pnc-com-1736046751.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "www.u47.pnc.com",
+            "resolved": "www-u47-pnc-com-1736046751.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "www-u47-pnc-com-1736046751\\.us-east-1\\.elb\\.amazonaws\\.com\\/783807\\/ethernet\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "www.u47.pnc.com",
+                    "resolved": "www-u47-pnc-com-1736046751.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "fcbc053d70086cbed830cac2200931df695b73c2f16d7034808e5f6bcd3199b7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pnc.com",
+                "www.pnc.com"
+            ]
+        },
+        {
+            "rule": "www-u47-pnc-com-1736046751\\.us-east-1\\.elb\\.amazonaws\\.com\\/783807\\/stats\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "www.u47.pnc.com",
+                    "resolved": "www-u47-pnc-com-1736046751.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "d263c9d48f9632ecf3e17d3efabb1a12c0587fe390a778a1ff56fa3cc246387f",
+                "b6205144bd96858a30923057d51e6746d2d8831bf0124c2c03f86cb1d0a113f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pnc.com",
+                "secure.pnc.com",
+                "www.pnc.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000707,
+    "types": {
+        "XHR": 2,
+        "Script": 3
+    },
+    "nameservers": []
+}

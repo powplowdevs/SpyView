@@ -1,0 +1,822 @@
+{
+    "domain": "zohopublic.com",
+    "owner": {
+        "name": "ZOHO Corporation",
+        "displayName": "ZOHO"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00105,
+    "sites": 149,
+    "subdomains": [
+        "salesiq",
+        "vts",
+        "us4-files",
+        "forms",
+        "crm"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zohopublic\\.com\\/widget",
+            "cookies": 0.000297,
+            "fingerprinting": 1,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {
+                "window.sessionStorage": 14,
+                "window.localStorage": 14,
+                "Navigator.prototype.userAgent": 12,
+                "Date.prototype.getTime": 12,
+                "Document.cookie getter": 15,
+                "Navigator.prototype.language": 12,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "Document.cookie setter": 8
+            },
+            "sites": 42,
+            "prevalence": 0.000297,
+            "cnames": [],
+            "responseHashes": [
+                "345274a32d0e9beef87a2ca1f6914b81d5baacd6ac802796910e750e25a980b6",
+                "ccfdb63b8a265de8885e640459f87136bbfaf3074a4a62af9cbbd6e71d566b12",
+                "2f9cd00af3747f6e802f97eb2d4579a2b3851c9c260d3751b6f8f54757c9c8c8",
+                "571d8fb11a55da33b49d808d941f47f86cbf3951714647b3a7a160d960f7106f",
+                "ccc03de0703d62bbc0c9b5ff3497faa264e9ef6a88bf476d17935d1cfc22f035",
+                "81ce7c0286bd6b2eb27773e4a0ac7d7e26c270e842ff179b5a901137c02b749f",
+                "7e9da48c269c7ad65477c59d0a30afba5133f180eb9a3faa339b5bfcde2ffdd4",
+                "8b6012a64d0641cd2fe729810050cd820ad1f7fdd5ddee29a50cc5536de0e470",
+                "da9ec4fb918634aff10f41ecdea1987b93e4321ac3effe5363297af37a89ca2b",
+                "6d42974adaa15ccbac7e2a8db72a1649c0a659e4d4e981cc6fa9640f1c21f416",
+                "94ee2e73f20cda080d16ed719d1ab684d79454b6382a9b4cc56755c8b88ac307",
+                "ace0c3ec620080572fc08f9fd053794cebbaaad56d97ee5672f6ff109048313b",
+                "6aca5f77ee48188d46a67af80fbcab7430de43b766126f7d0879d3e746162d96",
+                "c606fe69d7b23d321110bb7be1c30580691f70c5c2d38afadf2147fed318c76a",
+                "b17cf2527c2e2058c59f05bcce2202b20ad51f07fca1528f7eada8940fff4643",
+                "2718bf7e4503402d94f3d5c6c84e3a600df95224973456c5cda66faf7d85ef84",
+                "3fa7d5770a927eab7ea4c5880f974d0715eadb1ae31e784dc26f91e8058a4303",
+                "e5629dec173808074ba1ac16ebf32d5c34798764c3fadb614c2bbef3cba62a11",
+                "4c7e0932b1e6ab21c616f44c2d4c5bc30ae78e018f3524de1abaa68b7cec99ce",
+                "2c877f3a3f6770e15f4e65d5084d0ed38c8b36ae836482b66c6728a404515448",
+                "d10ad556f39f77ebd8297269572c5423436fda13c50c4fd7bf610f4f49960f6f",
+                "0bdd5d8bd35cc26fb09e48c0dc17daeadd5245fff508dc0df6b45898d39e16bc",
+                "a51ac1f4996826551a6b4de76bfa02fb8f8576938e08a85c491af5dc3d5e250b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mrkhaledsakr-_zldp": {
+                    "ttl": 63072003,
+                    "length": 86,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "mrkhaledsakr-_zldt": {
+                    "ttl": 86403,
+                    "length": 38,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "samaritanministries7436-_zldp": {
+                    "ttl": 63072008,
+                    "length": 78,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "samaritanministries7436-_zldt": {
+                    "ttl": 86408,
+                    "length": 38,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "shopsolarkits-_zldp": {
+                    "ttl": 63072007,
+                    "length": 82,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "shopsolarkits-_zldt": {
+                    "ttl": 86407,
+                    "length": 38,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "whcameratelescopes-_zldp": {
+                    "ttl": 31536025,
+                    "length": 80,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "whcameratelescopes-_zldt": {
+                    "ttl": 86425,
+                    "length": 38,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "thenextsummit-_zldp": {
+                    "ttl": 63072005,
+                    "length": 84,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "thenextsummit-_zldt": {
+                    "ttl": 86405,
+                    "length": 38,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "kavuru-_zldp": {
+                    "ttl": 63072014,
+                    "length": 86,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "kavuru-_zldt": {
+                    "ttl": 86414,
+                    "length": 38,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "thinkvacuumsinc10064-_zldp": {
+                    "ttl": 63072003,
+                    "length": 84,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "thinkvacuumsinc10064-_zldt": {
+                    "ttl": 86403,
+                    "length": 38,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "versatube-_zldp": {
+                    "ttl": 63072013,
+                    "length": 80,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "versatube-_zldt": {
+                    "ttl": 86413,
+                    "length": 38,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.versatube.com",
+                "goldtonemusicgroup.com",
+                "www.snydersfurniture.com",
+                "volunteerblue.org",
+                "beadaholique.com",
+                "www.seeedstudio.com",
+                "www.thinkvacuums.com",
+                "www.shoremaster.com",
+                "www.titanfactorydirect.com",
+                "stitchinheaven.com",
+                "www.flixfoxapp.com",
+                "ahmed-elgohary.com",
+                "mountainroseherbs.com",
+                "www.yarbo.com",
+                "khaled-sakr.com",
+                "www.stellarinfo.com",
+                "www.bravethinkinginstitute.com",
+                "fraserengineco.com",
+                "thenextsummit.org",
+                "canadianvisa.org"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/visitor\\/v2\\/channels\\/website",
+            "cookies": 0.000729,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {},
+            "sites": 103,
+            "prevalence": 0.000729,
+            "cnames": [],
+            "responseHashes": [
+                "f53dd49d6374b152e426f5acbcdffba9d366c12fcda6d241cf7f05ca83193b82",
+                "b47d9381fac897d98b0a2032e5ea607920ea5c2cc3284077ff8fd2b6e2d6f938",
+                "0ebd5abcd93fd8bbd3296f00ec1be6a28c6ade23dae5c3346c65ba8aaf9afc77",
+                "e1f16acb3d945d639d4bb8828e3a9783e7788efbb8e03c9ec1529681f469314a",
+                "94cc25c951e612d6c60bf29010b0048c86ed4994663028d8d0fd5d9e348ce41b",
+                "3d589ef09043c35fabe34f76803397d970ad7c44698899920351ee3402ceb651",
+                "4b160b7bf4a99e50cb3cce572b742de71b3be1ab28d73b43f692d1063fb4b01c",
+                "b9cf9c555c2c3430fd2af0dbe1e38ac7f4f81957141de6ff23234575055537b8",
+                "3bf7c0636ea26db7be665c5fc9efd2eb0e9290c4786700d8cb461863ccb08273",
+                "753c7290fe6f9148788eb40de4b86aafa3df344fe5c5c5f6037255a672cf35ae",
+                "088166af7fd527e33c03edc4bc56801422b4a8279c857a0f22d13eb10001144a",
+                "d77ca38bcfe1c0e7b506c3d6431983f729e730fbafc7f994b9497801c6b090ca",
+                "f7e4de5b6f39138a01ccc73a82a25dd58d530a2b4e539774442c716d81fb3b3b",
+                "8a0f393d9d936ca817fc6850f959976847a89dff329a329e18d7956f85d0127b",
+                "cfbabc556470f85897d15170dd22a11f19e22cf6c231698d22e0dc0a10634b20",
+                "1fd179c994784cd336e80eb803c4872c42c88a2150ff025e50c130be436e9d8a",
+                "9625a7fc9559950581f55f23739a38f96f977f657f736f915061a53190450766",
+                "3775cd68c95093fe60594beb946a75f98ba35174adbddb5b40bd85f8394630ae",
+                "0d735aba961796e92ac088709c3d5c63c9091de9a80081d851055556fecbfaa1",
+                "d603104bdeb71a327f819643fbd22347023be29863536c0af695d375505cf967",
+                "94dc9d765625ec03a00063126d60c7ccf7855862f06a299cea38e1238793366a",
+                "6827d9dcb5a83acce9dcb9760bfc6001f4bf3bc23d25a9cef814291275bfcfeb",
+                "2905b0a540702b3f8faf3d873f65e1f4f9b961a70f89570ebcfa38bf1d69f888",
+                "2d729821e4b79872d684815c2515c8c7739dde69398d6a613ddd54b99d1fc294",
+                "c4a651d3c4f3b54bd2c6cb81098c8bc08c476802a3777503dce9c76b2533097e",
+                "b9dd46edb0d079fc3e38cbf481cef380061c549dab87cff1ae0bdabc7dd3ba6e",
+                "20b35668c28be6259c08487fe3680a5e54eecb563bbdd0d594b174f17efbb2e4",
+                "a884d97fd53fe57d79f6e786209dcaa5d5c67d460c2ac1fd01469b60745668da",
+                "cdf25351ac20381be27f3c459d5c8557c9de6e81e54d85078ec64ebe63ccebf0",
+                "071e03eabc8237bc3378480839925dcf2411ec6362ac1e0b72e06d8db439766f",
+                "6219a773a702eeb32a54c563a0081437cb5b1444d70fef7009c02b1b166b6f7f",
+                "035dd9527948063e16fa87a7851efe28c8425f73b5183b92f504ca8aaa721190",
+                "799b6565252eb41edef0ee0c1f5a023bafa963f28804676f6e2dd834fd5a268e",
+                "c25073ac77e667b77e519c6b73fda3d584c42aad335d761974c31e5f260dbfd7",
+                "53af05c0f2e0cc9151f427fca11615999f38a980e5ee630f04cc16aa6a6d8197",
+                "3d31f9ab5929393f820e4bfe7c2e9a07bfbee13dfe0f56d08a9c564ceed12200",
+                "86c33fed7ab28e0830f14e317224a91ce247b636cc1050f0e2f8073957ebb4ae",
+                "c4ef0ab8dee3da2dfc4478c3168e3af41cffa5f7ad7e252c2005014f376a11d9",
+                "a1fda4246bf1b3bde213fd14af7cd09001c41dfa3d92ca184cdc1b61ff62e510",
+                "543c021f26cc8f008bbb9a3558ac58406e169c4fa447c9815b75240be33046ad",
+                "0e2d8921c768ebc34dbf8b4268702676de43cacf058e5e2b8871c2cf6e5590d4",
+                "66a13eee1f3921ba620fbcb979ebff64bf78e204a3e6c9d6c4fed7cd3fd2ef4e",
+                "7a2f0cbc688a153c4e569f9aac4234260a4b1091d60aed9e77a5d4b749b2d1f2",
+                "e187f64976909a4e96d454793cefe5736db2e0d4b90c8694163b04ffd0b43c5f",
+                "399036f4f323209b095349b6827c3734d5e9100aa7d1fabbd923ef9606287681",
+                "7187277afa27b213ff9b8e9068b16bd2c8a0eec2fc9d7601c3ad640e7ad8a50c",
+                "34ed056139b3041166679c665a61f65b43d8370647a39105d249581273279f3f",
+                "585d5647e8012e2dd5aafecf5f1185185e276faa16fc3cae8a5a1006e24116d7",
+                "ffa9c71c5386e033d7e3f4ad65fb112a2c323d32a454af41bdd287b7dcc06f42",
+                "f8cef624b3cb5553ab65e6cbd29b9924f5275abef0af5b6aac2aff759e6d3d62",
+                "6dcb697f3ce75c21ee8f3aef9ecee115668bb8ba1ea387ca7246511fd3d2f892",
+                "d23a90e440b7597ed6ff95d6490e87bcaaef250fcaf201c06dc67ecf53668a9a",
+                "f33b63ab9c4557e3ab8afbcc2e41a6a6075aa4b339ca288dda3ae9c8e217a031",
+                "91d9b903e498d4bfc7494cb0670295505b4032923931ccf0431f755d991ec444",
+                "d8c26fd6e22b4616ca74de531b7b7ca383e3b8a453575902efcf6bf0fc5127df",
+                "90330f3cbb73908548531d504cfba68b818d7872d65bd0922ef5de4377711137",
+                "8e6b5f7b503c45431c7b41099850ac211ba2cfc3956399f3d2b96ed85a60d9cf",
+                "f79a75cc671e3514843b23f6ef8e2467a46d98fc8018a454a0e92882d4ee9417",
+                "2d3b2a249d57d628712d495867623c7e2dda9eb9f16dae9e31ab14433b2dffe8",
+                "9eb150660d8c6d28cb9becda3b6d5b5956a405215ee8eac4f4c6775ec49aba73",
+                "2e7c31dc3e4839d5ae122dd471c59ac56fc42a8df1364d299f7a5bf7d6cfe5c9",
+                "b68496a7854d61a01ab8872ea8611e0c5a3e99a26e4c7d91bc196f1c2fb965f5",
+                "10daeb02ee8321275ef4f3378c9f6c7b945db8c0a9ae4aace8191507bac7433f",
+                "933340c9b0a8d803ae73718fea0024c75820aedb2f95e8944441aa420a20aa07",
+                "04e49a59f2fb97484b03e19fd5897b4b3d352d1ba8e440c58002fb6fdb348001",
+                "f8df5d033059894be716e0fb904a57af0ec92bb7c6d93f26a5661673138ae72a",
+                "04603f64abefa10498e55e4c85f4a8e7c10355541dca228084bb74e2bfd1ecd2",
+                "e9efc5f6fb14218491af31e0ec4506b01dbf20b6c8b437da9d23ac8600a3e518",
+                "9b0f672666637e97bcba80ad5d7703e26af6401cc2438babb7bfa169b96528a6",
+                "e0b9bf8f20789798e5b2d7c73a52db00e92155b34fff94ce96b3f6d0e251430d",
+                "102ad25ab432f4e110fc0e1491c9c96f52180514a03315953a4f7a98ead79fac",
+                "d308718064704e85f33d865e7310fbaadf457aa10fed1d1dd23f686d8fcaa902",
+                "da036ecc9cf6a8b0638dd68aac25f55062ed7297093d0e69bd1d8eeb429f8bfa",
+                "4d2987b099e74d905585bac5053843a3080f36a18e945ebef70fae2ce5aa7bde",
+                "4dafed083cf64253494b893667dcc671c443105ecdda3fe43a1e15feef2876f3",
+                "c79423afa71f73a62542532b0ca5a20cc9199e44ebad606473bdfa4347ebfb8d",
+                "91d95488b943e2b112d6f2b87b032c10b7b67803d604fbfde605b6037bc7a13e",
+                "040173dc79208b9d4ac077694b37a0a23189ac316de6fc439df43dffc4476f76",
+                "fa5faa29c3f1c23f37a379ced55b35f54c95097426b920913e6e3e3c69f12601",
+                "371bd9de80695f4a4b1d5a7df34ff878640beb5ae3b2af239c837b4c4140ad3c",
+                "1cd6643cf341d655ddcd60da45579379347418acfa3e05aad06a6bdd55d79932",
+                "439c697a0b16fcfe3b52c6b0a77276f599ad447afe3c7455f49478e849d2dda2",
+                "e6b11c5dbd87632fd98810ee602e678555bf16b8051b9e33098e9bbcfef9e353",
+                "1d2d97ea8956e954b0b9ec49d268eb180da7cea0f89245e75101a1c8a67c5bdb",
+                "efaf9ff2472b368112f2725546f9ce54a2b7e6c4ebb61203ba15381e112af86b",
+                "7f2fd3d9b0814dec0f472be2f64235bcc3d0925e5a98a68d4c87e6b3f37ed1b2",
+                "48cb633d094c97fcb8034edee87c8cb6b3c44a1faf137cb689e28aedfcd959ae",
+                "5289b9225cda67419e75c7befad3e37ad46776d43012af55a6b8cd3cccf25d39",
+                "dbd4dea47841738135724ea063f6cca2da10d111d019db95c1d5a96cb6835487",
+                "c6ee5ae86a222ff5e9d43aa29b6e96baed40c388efea70f55c5ab700c4469c73",
+                "445184a315a5c620f953ff719fc6351c92c923bfd23956b8734514f076c6ceca",
+                "af6569c669f821ca9fa377406b2d8288677655186d96d9dac752784736a83057",
+                "395a1bcb53886739fa47b3b98dc9e62b452143c074810bf17589ced0c368f162",
+                "1f988076e84c8df083c1e88d056c5bb53015aeaa79a3198555b2f2beb981d315",
+                "42086464f79c1b17d68232138c3649c9687d7ef1279df746a2b7263f786db8a5",
+                "b15a3f24913b9e0af078a2d93295adc339a732a90ccba191bf2def82854dfe3a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "metalcloak.com",
+                "www.echopartsonline.com",
+                "wottriggerco.com",
+                "onsitestorage.com",
+                "fraserengineco.com",
+                "bookmap.com",
+                "www.ase.com",
+                "trueshotammo.com",
+                "www.10adventures.com",
+                "www.longevitadental.com",
+                "schillings.com",
+                "winegard.com",
+                "www.pumpproducts.com",
+                "www.sawyer.com",
+                "aquascience.net",
+                "www.versatube.com",
+                "telescopes.net",
+                "leather-auto-seats.com",
+                "canadianvisa.org",
+                "howardmiller.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/watchws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vts"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.000417,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "km_lv": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "madbarn.com",
+                "khaled-sakr.com",
+                "xtremegunsandammo.com",
+                "www.sawyer.com",
+                "www.shoremaster.com",
+                "www.10adventures.com",
+                "infotainment.com",
+                "volunteerblue.org",
+                "www.toromowers.parts",
+                "bookmap.com",
+                "kuat.com",
+                "trueshotammo.com",
+                "www.nystatemls.com",
+                "leather-auto-seats.com",
+                "www.longevitadental.com",
+                "www.truegridpaver.com",
+                "hailtrace.com",
+                "schillings.com",
+                "www.dripworks.com",
+                "stoneyard.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/10adventures\\/fetchvisitorconfigurations\\.ls",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f5406e229d45ed5a3c1df46249d7ccf32ae397c8d5badf57207c1d9cffd0064e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "session_referral_channel": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "10adventures.com",
+                "www.10adventures.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_805962176_company_1691511602315_805962176",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4abb65d01a100c509b608d27964f8448b1468c25a604b376b67b493a374fa1ee"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "10adventures.com",
+                "www.10adventures.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_771188823_brands_siq875844229de1d51aed781d26f40593e508df32be16e68cd6c7b2a14c4725c650",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autohausaz.com",
+                "www.autohausaz.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_746984747_brands_siq353231a68d24b1698d4a57ad812e626bcd7b3ada42d3c914cf73c2c78bdc005f",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "33a338297561d340e29dfa2254b447c9c0b31eff9375e71a93d080cc0c32aa4d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bearcreekarsenal.com",
+                "www.bearcreekarsenal.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_682948928_brands_siq74cc58f67686ec5e6391ab0ad571d23226971b51ba4f6de1d2e87a8f1dfcaebf",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bd09cbb2fe770889583ce1e1049207830975edbbd58702ea7e8251e7cd68fc9d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "briggsstrattonstore.com",
+                "www.briggsstrattonstore.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/smallenginesparts\\/fetchvisitorconfigurations\\.ls",
+            "cookies": 0.0000566,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "4317a45a33dcdfbcd200edc4393d9fcda85f7ed37fe895e8d2b1057ea3f2fd2c",
+                "09af72bc616fb7313ff64e1acb5c0145263556fc59fdbb648c8725fa4cdc6a4f",
+                "26cfd9ad6aabc5341983dc9c29b7fda8b28057e2ddc1248ed0bd10fd1085512e",
+                "7800ab41b1c3d4b285731cd63753cb37e9e62a466cc5a1035350d39da5a8a898",
+                "58d516cb5160720e56ee9b9018f20f5e8bf67c4aef091a37247f8060fb27b9dc",
+                "ab9091a611d955f6babbbf1dcff05aa1a5a8f0222b3ed836d61c9309c0a94834"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "briggsstrattonstore.com",
+                "www.briggsstrattonstore.com",
+                "www.echopartsonline.com",
+                "www.husqvparts.com",
+                "www.hustlerlawnmowerparts.com",
+                "www.hydropumps.parts",
+                "www.scagpartsonline.com",
+                "www.smallenginesprodealer.com",
+                "www.toromowers.parts"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_682948928_company_1595516389885_682948928",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "669c35c5b42ad705fc838cafbb80a9837b48761d6e0f0375d129847374277bb1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "briggsstrattonstore.com",
+                "www.briggsstrattonstore.com",
+                "www.husqvparts.com",
+                "www.hustlerlawnmowerparts.com",
+                "www.hydropumps.parts",
+                "www.scagpartsonline.com",
+                "www.smallenginesprodealer.com",
+                "www.toromowers.parts"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/Penuma\\/form\\/drelistcomContactForm2022\\/formperma\\/y0CB2EuXoTnvXWvb8jGN6FM-qHtcifHH01i1DmRjgCk",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9c6b938b99a1a089a63ab10d8a0d90a9a5f1ac4d42368bfb98999e263346b24a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drelist.com",
+                "www.drelist.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_791096313_company_1690135138159_791096313",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4519a35de49a624d134d42d22b1a55b7d328de34601815ef6923424d9c740f0d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dripworks.com",
+                "www.dripworks.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/crm\\/WebFormAnalyticsServeServlet",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "crm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "27b49ca873bfe0f806f92b32f612c7c784ac4b3b2dc28530100a66f626e8ba08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "longevitadental.com",
+                "www.longevitadental.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_859329664_brands_siq58385838e9f885d52ef5658786c6f3c27c2937270625b0dc5c86de8efccecfdd",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5916fac223f407bb88859acbb960b2e73b6772cfa6c10086f25c3ea20f542ee4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rsismartcap.com",
+                "www.na.rsismartcap.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/pumpproductscom\\/fetchvisitorconfigurations\\.ls",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8d1709afa843f72858786d620c8a4d6daca23725dd1603420a9a817f4cf4ced3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pumpproducts.com",
+                "www.pumpproducts.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_682948928_brands_siqdab23043d699c7247d2aa5bf43f832438d175b3e28f571446648c52dbe3e93b3",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bd09cbb2fe770889583ce1e1049207830975edbbd58702ea7e8251e7cd68fc9d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smallenginesprodealer.com",
+                "www.smallenginesprodealer.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/thrustflight\\/form\\/HomepageForm\\/formperma\\/9jIpeGWtPBlKsv3eMis1sgVnnqirFrd5goY6-wdwsvk",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gclid": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "thrustflight.com",
+                "www.thrustflight.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/versatube\\/fetchvisitorconfigurations\\.ls",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3455ac2c34fa5caab6c187b85ca471e092d6a503fc88f86e6607a245299fb460"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "versatube.com",
+                "www.versatube.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_650075619_company_0_650075619",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "versatube.com",
+                "www.versatube.com"
+            ]
+        },
+        {
+            "rule": "zohopublic\\.com\\/public\\/SalesIQ\\/download\\/d_666122193_brands_siq1655177f7dd81139618be738ea24ab09d9d73a94913d86d494f0041851d06168",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us4-files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "volza.com",
+                "www.volza.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00105,
+    "topInitiators": [
+        {
+            "domain": "zohocdn.com",
+            "prevalence": 0.35340314136125656
+        },
+        {
+            "domain": "zoho.com",
+            "prevalence": 0.32722513089005234
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.22251308900523561
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.041884816753926704
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.020942408376963352
+        },
+        {
+            "domain": "getlasso.co",
+            "prevalence": 0.005235602094240838
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.005235602094240838
+        },
+        {
+            "domain": "nitrocdn.com",
+            "prevalence": 0.005235602094240838
+        },
+        {
+            "domain": "vitals.app",
+            "prevalence": 0.002617801047120419
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.002617801047120419
+        }
+    ],
+    "types": {
+        "Script": 44,
+        "XHR": 118,
+        "WebSocket": 59,
+        "Image": 18,
+        "Stylesheet": 8,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns31.zns-53.com",
+        "ns41.zns-53.net",
+        "ns11.zns-53.com",
+        "pdns90.ultradns.com",
+        "ns21.zns-53.net",
+        "pdns90.ultradns.biz",
+        "ns1.zohocorp.com",
+        "pdns90.ultradns.net"
+    ]
+}

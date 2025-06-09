@@ -1,0 +1,150 @@
+{
+    "domain": "rcefoto.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "dynamic",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rcefoto\\.com\\/jsapi\\/ws\\/query_snippet_v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dynamic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "78c2640eb4d7791be7c4b6d75fd96420ed5a9f523cd50f4e12bd7224b973b45b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juzaphoto.com",
+                "www.juzaphoto.com"
+            ]
+        },
+        {
+            "rule": "rcefoto\\.com\\/jsapi\\/rcefoto-v1-iframebn\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dynamic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3978cb1f07302012156e2d9a09f0876b35c54aa1e04311d1c6d7f3ae6bb09130"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juzaphoto.com",
+                "www.juzaphoto.com"
+            ]
+        },
+        {
+            "rule": "rcefoto\\.com\\/jsapi\\/logo-rce\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dynamic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "083b26cef642176c31cb0185754344b6a7838d531d150159daaaee0c951e36ec"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juzaphoto.com",
+                "www.juzaphoto.com"
+            ]
+        },
+        {
+            "rule": "rcefoto\\.com\\/wp-content\\/adv\\/banner-juza\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7677557d10c840b53674206f40aab065c97a4a12513eab6dc3487a702c98efc8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juzaphoto.com",
+                "www.juzaphoto.com"
+            ]
+        },
+        {
+            "rule": "rcefoto\\.com\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dynamic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juzaphoto.com",
+                "www.juzaphoto.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 2,
+        "Image": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "elsa.ns.cloudflare.com",
+        "merlin.ns.cloudflare.com"
+    ]
+}

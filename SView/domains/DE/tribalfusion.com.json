@@ -1,0 +1,113 @@
+{
+    "domain": "tribalfusion.com",
+    "owner": {
+        "name": "Exponential Interactive Inc.",
+        "displayName": "Exponential Interactive",
+        "privacyPolicy": "http://exponential.com/privacy/",
+        "url": "http://exponential.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "s",
+        "a"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "tribalfusion\\.com\\/displayAd\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "726bf6e24477ab53707ba7821d91bddeea03e448558663f29cc9aaed8406fee2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ig.com",
+                "www.xe.com"
+            ]
+        },
+        {
+            "rule": "tribalfusion\\.com\\/p\\.media",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d3df01f0707c487bb9e221c5a5d69acb7045776b75e9bd39b980d0b5bd5ab86c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xe.com",
+                "www.xe.com"
+            ]
+        },
+        {
+            "rule": "tribalfusion\\.com\\/i\\.match",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xe.com",
+                "www.xe.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9375
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "teresa.ns.cloudflare.com",
+        "mike.ns.cloudflare.com"
+    ]
+}

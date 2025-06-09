@@ -1,0 +1,97 @@
+{
+    "domain": "getbutton.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getbutton\\.io\\/widget-send-button\\/js\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.platform": 7,
+                "Navigator.prototype.maxTouchPoints": 7,
+                "window.innerHeight": 7,
+                "window.innerWidth": 7,
+                "Event.prototype.timeStamp": 4
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "ba1eaf16fcdf2fcd2525a6792f78e8a63b0f1190f1c957c9ba5e398d4ad74e43"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ceritabokepidn.org",
+                "ceritaseksindo.org",
+                "igobokep.biz",
+                "photomemek.org",
+                "putri77.blog",
+                "shqiptarja.com",
+                "tantepanas.org"
+            ]
+        },
+        {
+            "rule": "getbutton\\.io\\/widget\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "ba1eaf16fcdf2fcd2525a6792f78e8a63b0f1190f1c957c9ba5e398d4ad74e43"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ceritabokepidn.org",
+                "ceritaseksindo.org",
+                "igobokep.biz",
+                "photomemek.org",
+                "putri77.blog",
+                "shqiptarja.com",
+                "tantepanas.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8666666666666667
+        },
+        {
+            "domain": "igobokep.website",
+            "prevalence": 0.13333333333333333
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "pam.ns.cloudflare.com",
+        "ken.ns.cloudflare.com"
+    ]
+}

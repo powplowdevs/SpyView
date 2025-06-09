@@ -1,0 +1,107 @@
+{
+    "domain": "1010diy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "backend-online",
+        "backend"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "1010diy\\.com\\/site\\/getSiteOptions",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend-online"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "5547809dec4ec56753b750345216fa3a7a9554899dd284e3b58bd248016148a9",
+                "282fbed4b36a33dd0e1a9b21c3c91993b3b6455499d378c45ad02c40c4e9bf93",
+                "8f02cca1cd5a392073ce98f71520bedc972da526d918235fe38647671c6d61a4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ahavid.com",
+                "ar.amoyshare.com",
+                "ru.amoyshare.com",
+                "veelark.com",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "1010diy\\.com\\/web\\/reviewAvg",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend",
+                "backend-online"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8bf40d0515e8461bd30866c2eb8ac250ad268195b2f141cc4e8b640d5c81d406"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amoyshare.com",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "1010diy\\.com\\/web\\/reviewTotal",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backend",
+                "backend-online"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0ebe0fb634f8e4aca93dcdea090d01120e73df4c7da22888c595b593da608c78"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amoyshare.com",
+                "ytbdownload.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "XHR": 4
+    },
+    "nameservers": [
+        "brett.ns.cloudflare.com",
+        "amy.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "domain": "microsoftonline.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000205,
+    "sites": 2,
+    "subdomains": [
+        "login"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "microsoftonline\\.com\\/common\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "903cd6587cfbb47f74bbe196617c0c195e0f4b5eca74471ccfa998a049d95feb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cloud.microsoft",
+                "word.cloud.microsoft"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000205,
+    "topInitiators": [
+        {
+            "domain": "office.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "ns4-38.azure-dns.info",
+        "ns3-38.azure-dns.org",
+        "ns2-38.azure-dns.net",
+        "ns1-38.azure-dns.com"
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "domain": "fullres.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000248,
+    "sites": 35,
+    "subdomains": [
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fullres\\.net\\/track\\/al",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00017,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cplusplus.com",
+                "minecraft.novaskin.me",
+                "befonts.com",
+                "www.onlinegdb.com",
+                "clipart.com",
+                "www.narcity.com",
+                "pastelink.net",
+                "groundluxe.com",
+                "mvnrepository.com",
+                "tools.iplocation.net",
+                "pinetools.com",
+                "www.experts-exchange.com",
+                "hedgefollow.com",
+                "www.iplocation.net",
+                "pokemon.gameinfo.io",
+                "pokemondb.net",
+                "goldprice.org",
+                "www.nslookup.io",
+                "www.hmdb.org",
+                "miningpoolstats.stream"
+            ]
+        },
+        {
+            "rule": "fullres\\.net\\/expertsexchange\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ef45009042f9c206b81bea717320e2a64cdb5f9636d3f8fc59c6f97a22a96a6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "experts-exchange.com",
+                "www.experts-exchange.com"
+            ]
+        },
+        {
+            "rule": "fullres\\.net\\/narcity\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ef45009042f9c206b81bea717320e2a64cdb5f9636d3f8fc59c6f97a22a96a6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narcity.com",
+                "www.narcity.com"
+            ]
+        },
+        {
+            "rule": "fullres\\.net\\/nslookup\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ef45009042f9c206b81bea717320e2a64cdb5f9636d3f8fc59c6f97a22a96a6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nslookup.io",
+                "www.nslookup.io"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "buysellads.net",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.26
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "Fetch": 24,
+        "Script": 6
+    },
+    "nameservers": [
+        "dns3.easydns.org",
+        "dns4.easydns.info"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "domain": "nmgassets.com",
+    "owner": {
+        "name": "Namogoo",
+        "displayName": "Namogoo"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000408,
+    "sites": 4,
+    "subdomains": [
+        "gs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nmgassets\\.com\\/HMXHMD882\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gs"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7ac0165f15f701dab3396c82fbfd6f4afba6df4c731d251239293ef77cf85286"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hm.com",
+                "www2.hm.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-303.awsdns-37.com",
+        "ns-1699.awsdns-20.co.uk",
+        "ns-542.awsdns-03.net",
+        "ns-1441.awsdns-52.org"
+    ]
+}

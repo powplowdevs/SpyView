@@ -1,0 +1,71 @@
+{
+    "domain": "msocdn.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "shellprod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "msocdn\\.com\\/api\\/shellbootstrapper\\/business\\/oneshell",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shellprod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.sessionStorage": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "887e9a542cb8eaeadf61b178f92cc4e4ea071730d51d1980e114b05774f8c7af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "studentaid.gov",
+                "edfinancial.studentaid.gov",
+                "www.synaptics.com",
+                "www.wsscwater.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "microsoft.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "microsoft.us",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns1-37.azure-dns.com",
+        "ns2-37.azure-dns.net",
+        "ns3-37.azure-dns.org",
+        "ns4-37.azure-dns.info"
+    ]
+}

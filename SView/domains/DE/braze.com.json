@@ -1,0 +1,178 @@
+{
+    "domain": "braze.com",
+    "owner": {
+        "name": "Braze, Inc.",
+        "displayName": "Braze"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "sdk.iad-01",
+        "sdk.iad-06",
+        "sdk.iad-05",
+        "sdk.iad-03"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "braze\\.com\\/api\\/v3\\/data\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk.iad-01",
+                "sdk.iad-06",
+                "sdk.iad-05",
+                "sdk.iad-03"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "abcnews.go.com",
+                "eu4.paradoxwikis.com",
+                "forum.paradoxplaza.com",
+                "stellaris.paradoxwikis.com",
+                "www.analog.com",
+                "www.alltrails.com",
+                "www.corsair.com",
+                "www.foxnews.com",
+                "www.sonos.com",
+                "www.udemy.com"
+            ]
+        },
+        {
+            "rule": "braze\\.com\\/api\\/v3\\/data\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk.iad-01",
+                "sdk.iad-06",
+                "sdk.iad-05",
+                "sdk.iad-03"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "ca15b3e521004a20b769d4289910bfc1ce9ef4ab895d4c1a109a52600764fa24",
+                "2c2f9d013642e7ea82e2773620db642c6ea627419e1e9fafd1547a3bbf08ded5",
+                "9c881d0993a95df5af0e00b21c041ed6b163d5e0189b6ad5f00a048c4c13f0c3",
+                "2ed523f198e5b729c8a253f37ac6dcc8b61d4417859a36429bb96bdfadb2a769",
+                "fa83d4aaa305e8f12d2d67f3ce3e1273d23d4b7e2bbc4399893c5fb9c16d468c",
+                "82948ac6513828dc706dcd1b104089538154461636a4e0012d08b9721635a959",
+                "33056c52eb0124ba47bbe2cecd2ac83491c49cdb450c01a82a094b024b2eb48b",
+                "9f5b81f45d1268649bf760d52466263c6e14eff86a88c05880ad0e4c1095f573"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "abcnews.go.com",
+                "eu4.paradoxwikis.com",
+                "forum.paradoxplaza.com",
+                "stellaris.paradoxwikis.com",
+                "www.analog.com",
+                "www.alltrails.com",
+                "www.corsair.com",
+                "www.foxnews.com",
+                "www.sonos.com",
+                "www.udemy.com"
+            ]
+        },
+        {
+            "rule": "braze\\.com\\/api\\/v3\\/content_cards\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk.iad-06",
+                "sdk.iad-05"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paradoxwikis.com",
+                "forum.paradoxplaza.com",
+                "stellaris.paradoxwikis.com",
+                "www.analog.com",
+                "www.corsair.com"
+            ]
+        },
+        {
+            "rule": "braze\\.com\\/api\\/v3\\/content_cards\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk.iad-06",
+                "sdk.iad-05"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "862715b2513a0dca99d6a9b3d0da9a4ea5853333f49862482abff8661d85df8b",
+                "45b6c04fdb95028e78d5af9f8b4c3f5b4b8960b0af751b9a9c85ea09d133ff99",
+                "56ed64ba1a0f1af7b481c5ae8ea4124175048757a70b7e2defa1038edf0c8cf1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paradoxwikis.com",
+                "forum.paradoxplaza.com",
+                "stellaris.paradoxwikis.com",
+                "www.analog.com",
+                "www.corsair.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "appboycdn.com",
+            "prevalence": 0.47368421052631576
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "udemycdn.com",
+            "prevalence": 0.10526315789473684
+        }
+    ],
+    "types": {
+        "Preflight": 16,
+        "XHR": 16
+    },
+    "nameservers": [
+        "ns-507.awsdns-63.com",
+        "ns-645.awsdns-16.net",
+        "ns-1086.awsdns-07.org",
+        "ns-1651.awsdns-14.co.uk"
+    ]
+}

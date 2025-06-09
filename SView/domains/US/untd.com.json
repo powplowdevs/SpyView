@@ -1,0 +1,95 @@
+{
+    "domain": "untd.com",
+    "owner": {
+        "name": "United Online, Inc.",
+        "displayName": "United Online"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "feed",
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "untd\\.com\\/feed\\/feed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feed"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "758f55ddd963ce538e1a24542138b539272c670e17b3c741fcb8e6a26c078f15",
+                "dfd0651f18d3f12c7137a9fa43fed9b2dd9a5d2023edfd4f5a0334b9fdba3323",
+                "3785e38370621541455e49e53c01eba506a34a9bdaf822e20d24893798d134bd",
+                "c461f19e0492269a58f28cc39e07d3ab00a5e500dc2c44c0efc39c2b7f24d8da"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juno.com",
+                "my.juno.com",
+                "my.netzero.net",
+                "webmail.juno.com",
+                "webmail.netzero.net"
+            ]
+        },
+        {
+            "rule": "untd\\.com\\/s\\/oasrdb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juno.com",
+                "my.juno.com",
+                "my.netzero.net",
+                "webmail.juno.com",
+                "webmail.netzero.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "uolstatic.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Image": 5
+    },
+    "nameservers": [
+        "authns2.untd.com",
+        "authns1.untd.com",
+        "authns3.untd.com"
+    ]
+}

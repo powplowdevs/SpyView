@@ -1,0 +1,232 @@
+{
+    "domain": "quivers.com",
+    "owner": {
+        "name": "Quivers International, Inc.",
+        "displayName": "Quivers International"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "hovercart",
+        "hovercart-ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "quivers\\.com\\/",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hovercart"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "256de806f9698739474f3b91d7123faf0414dc00a381cbeb4aa7314e7057dd55",
+                "36b4921db1387490833d9841480cc9b4632ff31f0c06189b20106395ea097ca6",
+                "da2ae12c31b770b2931687bab9c4cab0dc9ff920a9ab2c36e60666f87c0e3063"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "QuiversSession": {
+                    "ttl": 251654958985,
+                    "length": 36,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maloneautoracks.com",
+                "www.anthemav.com",
+                "www.kicker.com",
+                "www.topeak.com"
+            ]
+        },
+        {
+            "rule": "quivers\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hovercart-ws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maloneautoracks.com",
+                "www.anthemav.com",
+                "www.kicker.com",
+                "www.topeak.com"
+            ]
+        },
+        {
+            "rule": "quivers\\.com\\/api\\/v1\\/app\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hovercart"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maloneautoracks.com",
+                "www.anthemav.com",
+                "www.kicker.com",
+                "www.topeak.com"
+            ]
+        },
+        {
+            "rule": "quivers\\.com\\/api\\/v1\\/app\\/",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hovercart"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "cb6384bcdbd8f739546872d0105c975f10007b723434db7fb25ed15b8782e135",
+                "0d186a0c98436bfafa57985fd7a84b1d53915779bc174b7f3e7123ed80dc6538",
+                "0d2e6e294f67ab63ae14628113fae55f6e09bb648a8b7c662413fabe95bfdfc0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maloneautoracks.com",
+                "www.anthemav.com",
+                "www.kicker.com",
+                "www.topeak.com"
+            ]
+        },
+        {
+            "rule": "quivers\\.com\\/css\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hovercart"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "748153795df0050aeed2676e524efef975296272edc60c74121854816f4429e1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maloneautoracks.com",
+                "www.anthemav.com",
+                "www.kicker.com",
+                "www.topeak.com"
+            ]
+        },
+        {
+            "rule": "quivers\\.com\\/img\\/loading\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hovercart"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "075cbd0f62294d13f28d2f9e3e160748f1f57d6d2868f3a894cc5195d5dd04a7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maloneautoracks.com",
+                "www.anthemav.com",
+                "www.kicker.com",
+                "www.topeak.com"
+            ]
+        },
+        {
+            "rule": "quivers\\.com\\/fonts\\/glyphicons-halflings-regular\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hovercart"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7f98ff9434849daca0cadf865d4639a48d85a7ad473a30961680c7f285a885eb"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maloneautoracks.com",
+                "www.kicker.com",
+                "www.topeak.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "WebSocket": 4,
+        "Preflight": 4,
+        "XHR": 4,
+        "Stylesheet": 4,
+        "Image": 4,
+        "Font": 3
+    },
+    "nameservers": [
+        "pdns03.domaincontrol.com",
+        "pdns04.domaincontrol.com"
+    ]
+}

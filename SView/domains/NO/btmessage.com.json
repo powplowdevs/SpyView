@@ -1,0 +1,85 @@
+{
+    "domain": "btmessage.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000307,
+    "sites": 3,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "btmessage\\.com\\/script\\/rlink\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "5ea8c306a98082e6aabe333d3770b5f54b81d3c17f7aa0366976823f78d035cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsreplay.net",
+                "www.leagueofgraphs.com",
+                "www.mobafire.com"
+            ]
+        },
+        {
+            "rule": "btmessage\\.com\\/assets\\/bt-rlink-storage-BvSbFeGG\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsreplay.net",
+                "www.leagueofgraphs.com",
+                "www.mobafire.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "script.ac",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "btloader.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 3
+    },
+    "nameservers": [
+        "anna.ns.cloudflare.com",
+        "anuj.ns.cloudflare.com"
+    ]
+}

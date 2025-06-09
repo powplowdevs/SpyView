@@ -1,0 +1,267 @@
+{
+    "domain": "kaltura.com",
+    "owner": {
+        "name": "Kaltura Inc",
+        "displayName": "Kaltura"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000714,
+    "sites": 7,
+    "subdomains": [
+        "cdnapisec",
+        "analytics",
+        "cfvod"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "kaltura\\.com\\/p\\/1921661\\/embedPlaykitJs\\/uiconf_id\\/53208852",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b676d362129ef5a940b45e7f088eab8858ea036e664ae1175cd6038e83bb6d00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/service\\/multirequest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/service\\/multirequest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "f2dc8d7325ec7feea64022fd84fc9ec429ebd52c3d86ab5d22d669152b4435ea",
+                "858f96e4313653c23d9a9aadfef953fe1d685b8ca099aedd7d99c9806ee4f1b6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "support.sap.com",
+                "userapps.support.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics",
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "de59cdff90b64bc8886d25ddf144136f11aa2eaf0b70e1f315abd020c609753d",
+                "52e101deb096eac04cf628e5043505610e597bc368ed5da0163c3be460077aa1",
+                "c68e620e038a1f5a8edfd548cbe06f2e5ecfa32af25b20b17d23239f01d2d3d1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com",
+                "www.ibm.com",
+                "www.oreilly.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/1921661\\/sp\\/192166100\\/thumbnail\\/entry_id\\/1_9f86h3l8\\/version\\/100031\\/width\\/164\\/vid_slices\\/100",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "291a5ad34070a7684bf3bdde48d5b5fd865823679a1bd5fb2087dcb1deadd8d5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/1921661\\/sp\\/192166100\\/thumbnail\\/entry_id\\/1_9f86h3l8\\/version\\/100031\\/height\\/280\\/width\\/497",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "67443ae0a6047f398a0e5965d7dbbe4f808189f1398cfb0e6e6eb85a81640e03"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.86\\/mwEmbedFrame\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "98784f31494133a3bb2a143aa3ae736120f73503cc890ca42004ce63b767ebe4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oreilly.com",
+                "www.oreilly.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.86\\/load\\.php",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.plugins": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "Navigator.prototype.mimeTypes": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a974b48a85e9bdf1d86920d5a705081e1fa4beed8511d34e464772eaad6e6841"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oreilly.com",
+                "www.oreilly.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.972972972972973
+        },
+        {
+            "domain": "s81c.com",
+            "prevalence": 0.02702702702702703
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Preflight": 4,
+        "XHR": 7,
+        "Image": 4
+    },
+    "nameservers": [
+        "a8-65.akam.net",
+        "a3-65.akam.net",
+        "a28-65.akam.net",
+        "a10-65.akam.net",
+        "a1-65.akam.net",
+        "a7-65.akam.net"
+    ]
+}

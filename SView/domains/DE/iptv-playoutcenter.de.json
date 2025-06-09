@@ -1,0 +1,83 @@
+{
+    "domain": "iptv-playoutcenter.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "d-m-f"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "iptv-playoutcenter\\.de\\/dmf\\/dmf1\\/playlist\\.m3u8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-m-f"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0301ae0b820076022f677740f33d2cc1811b3169e72ee8be66d6c81cd04ccfd4"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmf.tv",
+                "www.dmf.tv"
+            ]
+        },
+        {
+            "rule": "iptv-playoutcenter\\.de\\/dmf\\/dmf1\\/chunks\\.m3u8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-m-f"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a22d2731c7bea059f9d9a5a6576780e39b0451e532572a8f01145c28c04d148f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmf.tv",
+                "www.dmf.tv"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Media": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns3.isp-access.de",
+        "ns4.rz089status.de",
+        "ns2.hofmeirmedia.net",
+        "ns1.hofmeirmedia.net"
+    ]
+}

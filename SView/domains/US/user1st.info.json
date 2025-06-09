@@ -1,0 +1,354 @@
+{
+    "domain": "user1st.info",
+    "owner": {
+        "name": "User1st",
+        "displayName": "User1st"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000113,
+    "sites": 16,
+    "subdomains": [
+        "fecdn",
+        "ufe",
+        "ide"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "user1st\\.info\\/Loader\\/head",
+            "cookies": 0.0000354,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fecdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 8,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 5,
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "2789a0cef670ef6ecd143772c55f7f10c6a9616f0a4925233e29466ffc0039cb",
+                "0fb30f1a475f1587a79ebf5195ca99e2478907f8451bd4eb55508b22766a879d",
+                "7de71c5661c50bfbee69e134468305e1f614d2c2aa34885148eda79fff32f2be",
+                "9357911bd34045bcdcd23f14b162f3905f6d256538dd4b2168777b706112a9e6",
+                "1a1c3ca6796dd218be6d5c0761939298b30e7335997be52249c3346adc110dfd",
+                "8e35e3d5572c6c9b87513437a1576bb281d6e7110abd98e5da4a0fc3b0b7bafc",
+                "34ee746c3e5a31e8cf043ef760faec2117d157183ec1279588f9e48624408f76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "User1st.u1stIsActive": {
+                    "ttl": 7,
+                    "length": 1,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 0.2
+                },
+                "u1st-runSync": {
+                    "ttl": 7,
+                    "length": 1,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrak.com",
+                "shopmashburn.com",
+                "www.aacc.edu",
+                "www.blinkhealth.com",
+                "www.eaglebankcorp.com",
+                "www.elal.com",
+                "www.molinahealthcare.com",
+                "www.parts-express.com"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/CommFrame\\/Activation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fecdn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrak.com",
+                "shopmashburn.com",
+                "www.aacc.edu",
+                "www.blinkhealth.com",
+                "www.eaglebankcorp.com",
+                "www.elal.com",
+                "www.molinahealthcare.com",
+                "www.parts-express.com"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/Loader",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fecdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "9af70e260f96aceb1a35ffc4c8cea545cb63fc77a9040e78eaa93135912b6ef1",
+                "cdfe6c4cdec385db69bee29977ec1939c7fe5e21876e0edeb802208e55d23b17",
+                "262b7e2ee8fabaf8420476b3edf9141626d706ba2a28c8a45692768d41d9570e",
+                "3dd6e5134930aec06e0956cb87c19a826e60c37efab1ae09a244c52b1af0a0f6",
+                "61853091e6787a0be78f3c99431fd2fa2a0880f4ea415e848503201019058907"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "amtrak.com",
+                "shopmashburn.com",
+                "www.aacc.edu",
+                "www.blinkhealth.com",
+                "www.eaglebankcorp.com",
+                "www.elal.com",
+                "www.molinahealthcare.com",
+                "www.parts-express.com"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/Loader\\/Init",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fecdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "729b7952110c328ba55ec737f43af8004f8afa773d40bdf16b7ba80d300ce7ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrak.com",
+                "shopmashburn.com",
+                "www.blinkhealth.com",
+                "www.eaglebankcorp.com",
+                "www.elal.com",
+                "www.molinahealthcare.com",
+                "www.parts-express.com"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/Scripts\\/ActivationFrameScripts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fecdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "de4c814d14a3fbe677c421c0e92a222c083d0e13c45942a0d5d3143ef40686d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrak.com",
+                "www.blinkhealth.com",
+                "www.molinahealthcare.com"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/content\\/frontend\\.prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ufe"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "16c38f059c7563a4ea5b8982eb2cae06ae53dcaeaaa348066c09b7986ec00523"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irobot.com",
+                "profiles.mountsinai.org",
+                "www.irobot.com",
+                "www.mountsinai.org"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/content\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ide"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "2b6fc5c5b8882759355a899aeadef7628f1a4f750959b31a518497bf281b14f6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irobot.com",
+                "profiles.mountsinai.org",
+                "www.irobot.com",
+                "www.mountsinai.org"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/content\\/switcher\\.prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ide"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "26a8c677231fecace6894760e3c7d4467544febb0fb4bbab2cd7a88b7fd0d03f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irobot.com",
+                "profiles.mountsinai.org",
+                "www.irobot.com"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/api\\/frontend\\/device-enabled",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ide"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "32934d8d09cb0e04be056f85cf0759538afddcb0a998a00714794f4b693c194f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irobot.com",
+                "profiles.mountsinai.org",
+                "www.irobot.com"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/content\\/ufeInit\\.prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ide"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "20164b0695447dbd12d1aaf6c8afd1122318075be84f46a414e6de7cca00a855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irobot.com",
+                "www.irobot.com"
+            ]
+        },
+        {
+            "rule": "user1st\\.info\\/menu\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ide"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irobot.com",
+                "www.irobot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9259259259259259
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.07407407407407407
+        }
+    ],
+    "types": {
+        "Script": 35,
+        "Document": 14,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b2.googledomains.com"
+    ]
+}

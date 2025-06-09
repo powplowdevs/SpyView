@@ -1,0 +1,194 @@
+{
+    "domain": "sprinklr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000408,
+    "sites": 4,
+    "subdomains": [
+        "live-chat-static",
+        "prod3-live-chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sprinklr\\.com\\/chat\\/r0C1jyClv\\/static\\/js\\/modern\\/vendor\\.b68734be\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live-chat-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0b8025da63e935a375eae00fcae1e9f43bdd13314723cb8c762dc84289e215ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audi.de",
+                "www.veja-store.com"
+            ]
+        },
+        {
+            "rule": "sprinklr\\.com\\/chat\\/r0C1jyClv\\/static\\/js\\/modern\\/main\\.efd5ef24\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "live-chat-static"
+            ],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d52754371ff60b75c6712c8a839f994a4a74e4e2b5fc6ae9c74fef7701e58b92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audi.de",
+                "www.veja-store.com"
+            ]
+        },
+        {
+            "rule": "sprinklr\\.com\\/chat\\/r0C1jyClv\\/static\\/js\\/modern\\/default~live-chat-app~stream-app-index\\.d3905319\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "live-chat-static"
+            ],
+            "apis": {
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.vendor": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4689b44a61482542aa34767aff8cd1f4be88d6d192756a26a59de16138e31f0a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audi.de",
+                "www.veja-store.com"
+            ]
+        },
+        {
+            "rule": "sprinklr\\.com\\/chat\\/r0C1jyClv\\/static\\/js\\/modern\\/default~live-chat-app~live-stream-app\\.aaaec828\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "live-chat-static"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6dd77c629768a32cebb73df830673aaf660de7587ed0bbdb0acbe16c61a8afff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audi.de",
+                "www.veja-store.com"
+            ]
+        },
+        {
+            "rule": "sprinklr\\.com\\/chat\\/r0C1jyClv\\/static\\/js\\/modern\\/live-chat-app\\.4f50038c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "live-chat-static"
+            ],
+            "apis": {
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e1e4d982092724c5ba9d943d2e68208433c00469cbf9a92fb99d2000f2b3f993"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audi.de",
+                "www.veja-store.com"
+            ]
+        },
+        {
+            "rule": "sprinklr\\.com\\/api\\/livechat\\/handshake\\/appHandshake",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod3-live-chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a3d18f6ca351805ac5c2746025b86eb5734eac99973a0eedbb081601b1782409"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audi.de",
+                "www.veja-store.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8095238095238095
+        },
+        {
+            "domain": "audi.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.047619047619047616
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1489.awsdns-58.org",
+        "ns-1627.awsdns-11.co.uk",
+        "ns-233.awsdns-29.com",
+        "ns-886.awsdns-46.net"
+    ]
+}

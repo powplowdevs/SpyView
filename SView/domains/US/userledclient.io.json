@@ -1,0 +1,133 @@
+{
+    "domain": "userledclient.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "userledclient\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "bd442e7ec11f03bc8cdbd9a0c4fb5a3783b5bff4ef46ff7f1a30156f8e358e2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telnyx.com",
+                "www.elastic.co",
+                "www.mycase.com"
+            ]
+        },
+        {
+            "rule": "userledclient\\.io\\/assets\\/_commonjsHelpers-8926e589\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ecc94b646a13413bc1911469c0b61f69524fd99b638466d928e69305339b5419"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "userled_consent": {
+                    "ttl": 34560008,
+                    "length": 4,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "userled_user_id": {
+                    "ttl": 34560030,
+                    "length": 36,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "userled_session_id": {
+                    "ttl": 328,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telnyx.com",
+                "www.elastic.co",
+                "www.mycase.com"
+            ]
+        },
+        {
+            "rule": "userledclient\\.io\\/assets\\/finder-7e54c25e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7d4b0e4ed95d7740f4100d9396363afd97ecfdc3d6b3d0679396fcd2e1885419"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telnyx.com",
+                "www.elastic.co",
+                "www.mycase.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "ns66.domaincontrol.com",
+        "ns65.domaincontrol.com"
+    ]
+}

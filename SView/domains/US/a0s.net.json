@@ -1,0 +1,105 @@
+{
+    "domain": "a0s.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "chat-v2",
+        "public-api",
+        "live-fws-edge",
+        "f-stream-edge-mia-1"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "a0s\\.net\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foroporno.com",
+                "www.morbocornudos.com"
+            ]
+        },
+        {
+            "rule": "a0s\\.net\\/users\\/count\\/5360210",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9ff123d1a4107bba308ce8ebc2972bdb04ae1d9d65c4482c955ebc5e90125259"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foroporno.com",
+                "www.foroporno.com"
+            ]
+        },
+        {
+            "rule": "a0s\\.net\\/f-stream-ws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "live-fws-edge",
+                "f-stream-edge-mia-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foroporno.com",
+                "www.foroporno.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "vtsmedia.com",
+            "prevalence": 0.9285714285714286
+        },
+        {
+            "domain": "morbocams.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "WebSocket": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-237.awsdns-29.com",
+        "ns-819.awsdns-38.net",
+        "ns-1698.awsdns-20.co.uk",
+        "ns-1197.awsdns-21.org"
+    ]
+}

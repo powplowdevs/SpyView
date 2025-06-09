@@ -1,0 +1,151 @@
+{
+    "domain": "upsellit.com",
+    "owner": {
+        "name": "USI Technologies, Inc.",
+        "displayName": "USI"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00122,
+    "sites": 12,
+    "subdomains": [
+        "www",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "upsellit\\.com\\/active\\/wondershare\\.jsp",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "e0e057a21bf4397dc3a740c3d80293769d28cc00a7ac43526454f95cda1d11cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "usi_id": {
+                    "ttl": 2592024,
+                    "length": 17,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wondershare.de",
+                "filmora.wondershare.de",
+                "pdf.wondershare.de",
+                "recoverit.wondershare.de"
+            ]
+        },
+        {
+            "rule": "upsellit\\.com\\/active\\/ninjade\\.jsp",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d92d4da1be2f7f122f9b6e09b1c1b0f8aefd2d32645034e96275d12673f4b85b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.de",
+                "www.ninjakitchen.de"
+            ]
+        },
+        {
+            "rule": "upsellit\\.com\\/analytics\\/hit\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "srcSite": 0.0002039775624681285,
+                "IR_gbd": 0.0002039775624681285,
+                "usi_id": 0.00030596634370219276
+            },
+            "exampleSites": [
+                "wondershare.de",
+                "recoverit.wondershare.de",
+                "www.plesk.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000306,
+    "topInitiators": [
+        {
+            "domain": "linkconnector.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "rakuten.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "ns1.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com"
+    ]
+}

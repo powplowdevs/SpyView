@@ -1,0 +1,90 @@
+{
+    "domain": "groupefigaro.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "lb"
+    ],
+    "cnames": [
+        {
+            "original": "hz.cadremploi.fr",
+            "resolved": "lb.groupefigaro.com"
+        },
+        {
+            "original": "hz.lachainemeteo.com",
+            "resolved": "lb.groupefigaro.com"
+        },
+        {
+            "original": "hz.lefigaro.com",
+            "resolved": "lb.groupefigaro.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "groupefigaro\\.com\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lb"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "hz.lefigaro.com",
+                    "resolved": "lb.groupefigaro.com"
+                },
+                {
+                    "original": "hz.cadremploi.fr",
+                    "resolved": "lb.groupefigaro.com"
+                },
+                {
+                    "original": "hz.lachainemeteo.com",
+                    "resolved": "lb.groupefigaro.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "M": 0.0000070733363512901765,
+                "S": 0.0000070733363512901765,
+                "_ga": 0.0000070733363512901765,
+                "uhz": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "lefigaro.com",
+                "properties.lefigaro.com",
+                "www.cadremploi.fr",
+                "www.lachainemeteo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "ccmbg.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "obs.ns1.fr",
+        "ns3.nameshield.net",
+        "ns2.observatoiredesmarques.fr"
+    ]
+}

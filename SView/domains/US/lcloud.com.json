@@ -1,0 +1,67 @@
+{
+    "domain": "lcloud.com",
+    "owner": {
+        "name": "Lithium Technologies",
+        "displayName": "Lithium"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "proactive-chat-server-us.prod.aws",
+        "proactive-chat-server-ap.prod.aws"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "lcloud\\.com\\/geo\\/ip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proactive-chat-server-us.prod.aws",
+                "proactive-chat-server-ap.prod.aws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6c2171f8b61a5522b98c70360cb41e327d69549e24f113c60bbdb54f8ade0aad"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "midco.com",
+                "www.bendigobank.com.au",
+                "www.videotron.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "khoros.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns0.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com",
+        "ns1.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com"
+    ]
+}

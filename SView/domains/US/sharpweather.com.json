@@ -1,0 +1,81 @@
+{
+    "domain": "sharpweather.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "static1"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sharpweather\\.com\\/widgetjs\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "5ac29070b39789fa9b23abd6d5d62d62f7d113019cbbb2786773b84ef6e190dc",
+                "52b69c4c322023b9d779e088656f9bb7c0ef1151087593a4f370fac4f69a74be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jbzoo.org",
+                "www.sonomacounty.com",
+                "www.worldtribune.com"
+            ]
+        },
+        {
+            "rule": "sharpweather\\.com\\/api\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "97323544bd1b29b51b541ae7582ffa735a6e5b9d44b70cae43879217b0647fd9",
+                "fe1a5f7aa87e8f7323a82f31d4f33f6e3ebf9a9dbdb66db1ae208b4dfc9551c2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jbzoo.org",
+                "www.sonomacounty.com",
+                "www.worldtribune.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "lloyd.ns.cloudflare.com",
+        "megan.ns.cloudflare.com"
+    ]
+}

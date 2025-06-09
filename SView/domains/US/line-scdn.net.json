@@ -1,0 +1,436 @@
+{
+    "domain": "line-scdn.net",
+    "owner": {
+        "name": "LY-Corporation",
+        "displayName": "LY-Corporation"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00197,
+    "sites": 278,
+    "subdomains": [
+        "d",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "line-scdn\\.net\\/n\\/line_tag\\/public\\/release\\/v1\\/lt\\.js",
+            "cookies": 0.00132,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 186,
+                "window.localStorage": 191,
+                "Document.cookie setter": 186,
+                "Date.prototype.getTime": 187
+            },
+            "sites": 224,
+            "prevalence": 0.00158,
+            "cnames": [],
+            "responseHashes": [
+                "589dc9e3526bc771a26cd4f2f0e33785d14e061b9ecce3535065d9cd5c43e0af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__lt__cid": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.0013085672249886827,
+                    "uniqueness": 1
+                },
+                "__lt__sid": {
+                    "ttl": 1805,
+                    "length": 17,
+                    "prevalence": 0.0013085672249886827,
+                    "uniqueness": 1
+                },
+                "__lt__cid.d899707f": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "__lt__sid.d899707f": {
+                    "ttl": 1806,
+                    "length": 17,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "__lt__cid.db91ef78": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.db91ef78": {
+                    "ttl": 1806,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.2d1edd52": {
+                    "ttl": 63072003,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "__lt__sid.2d1edd52": {
+                    "ttl": 1803,
+                    "length": 17,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "__lt__cid.57548081": {
+                    "ttl": 63072002,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.57548081": {
+                    "ttl": 1802,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.eb1bafea": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.eb1bafea": {
+                    "ttl": 1804,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.72395725": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.72395725": {
+                    "ttl": 1804,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.738b569b": {
+                    "ttl": 63072007,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.738b569b": {
+                    "ttl": 1807,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.186d07bd": {
+                    "ttl": 63072015,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.186d07bd": {
+                    "ttl": 1815,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.5b41dd1d": {
+                    "ttl": 63072015,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.5b41dd1d": {
+                    "ttl": 1815,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.495cc461": {
+                    "ttl": 63072008,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.495cc461": {
+                    "ttl": 1808,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.93cdba24": {
+                    "ttl": 63072020,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.93cdba24": {
+                    "ttl": 1820,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.a5e4d6a4": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.a5e4d6a4": {
+                    "ttl": 1804,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.61972f38": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.61972f38": {
+                    "ttl": 1804,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.c83939be": {
+                    "ttl": 63072007,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.c83939be": {
+                    "ttl": 1807,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.b0f51a28": {
+                    "ttl": 63072013,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.b0f51a28": {
+                    "ttl": 1813,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.3d711f46": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.3d711f46": {
+                    "ttl": 1804,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.51dbb527": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.51dbb527": {
+                    "ttl": 1806,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.dc9334dc": {
+                    "ttl": 63072001,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.dc9334dc": {
+                    "ttl": 1801,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.a5200aee": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.a5200aee": {
+                    "ttl": 1806,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__cid.dbd6bb42": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "__lt__sid.dbd6bb42": {
+                    "ttl": 1804,
+                    "length": 17,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jp.ext.hp.com",
+                "www.livable.co.jp",
+                "www.toyoko-inn.com",
+                "smahospital.jp",
+                "hanshintigers.jp",
+                "coconala.com",
+                "www.hankyu-travel.com",
+                "eikaiwa.dmm.com",
+                "domani.shogakukan.co.jp",
+                "www.apahotel.com",
+                "magazine.cainz.com",
+                "www.takarakuji-official.jp",
+                "mitsui-shopping-park.com",
+                "smart-ex.jp",
+                "39mag.benesse.ne.jp",
+                "www.meiji.co.jp",
+                "www.flypeach.com",
+                "www.qlife.jp",
+                "jp.shein.com",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "line-scdn\\.net\\/r\\/web\\/social-plugin\\/js\\/thirdparty\\/loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 38,
+            "prevalence": 0.000269,
+            "cnames": [],
+            "responseHashes": [
+                "ecd3d97b26f9b96caca33ab8d38f6d5e2f297745dacd9a0558959b968eed23ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.wongnai.com",
+                "keepo.me",
+                "livedoor.jp",
+                "www.travel.co.jp",
+                "urasunday.com",
+                "udn.com",
+                "happylilac.net",
+                "www.sunday-webry.com",
+                "www.gundam.info",
+                "www.universal-music.co.jp",
+                "smart-ex.jp",
+                "www.minnanokaigo.com",
+                "rurubu.jp",
+                "www.db.yugioh-card.com",
+                "retty.me",
+                "tonarinoyj.jp",
+                "cn.nytimes.com",
+                "toomics.com",
+                "comic.k-manga.jp",
+                "nan-net.com"
+            ]
+        },
+        {
+            "rule": "line-scdn\\.net\\/liff\\/edge\\/2\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "0134a13e398af5138fc86c59f72b530d6a576e5386d0e8b94fef6763b5778b9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podjav.com",
+                "www.1024tera.com",
+                "www.terabox.app",
+                "www.terabox.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00142,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7177700348432056
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.24738675958188153
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.010452961672473868
+        },
+        {
+            "domain": "onetrust.com",
+            "prevalence": 0.006968641114982578
+        },
+        {
+            "domain": "ltwebstatic.com",
+            "prevalence": 0.003484320557491289
+        },
+        {
+            "domain": "adclr.jp",
+            "prevalence": 0.003484320557491289
+        },
+        {
+            "domain": "terabox.com",
+            "prevalence": 0.003484320557491289
+        },
+        {
+            "domain": "sp-trk.com",
+            "prevalence": 0.003484320557491289
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.003484320557491289
+        }
+    ],
+    "types": {
+        "Script": 266
+    },
+    "nameservers": [
+        "ns1.naver.jp",
+        "ns2.naver.jp",
+        "ans1.linecorp.com",
+        "ans2.linecorp.com"
+    ]
+}

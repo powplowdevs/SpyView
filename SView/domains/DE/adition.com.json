@@ -1,0 +1,530 @@
+{
+    "domain": "adition.com",
+    "owner": {
+        "name": "Virtual Minds AG",
+        "displayName": "Virtual Minds",
+        "privacyPolicy": "https://www.virtualminds.de/en/",
+        "url": "http://virtualminds.de"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00255,
+    "sites": 25,
+    "subdomains": [
+        "imagesrv",
+        "ad13.adfarm1",
+        "ad1.adfarm1",
+        "adfarm1",
+        "ad2.adfarm1",
+        "ad11.adfarm1",
+        "dsp-cookie.adfarm1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adition\\.com\\/js\\/srp\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "imagesrv"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.appVersion": 14,
+                "Navigator.prototype.plugins": 12,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "Date.prototype.getTime": 7,
+                "Notification.permission": 5,
+                "window.innerWidth": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.vendor": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 15,
+            "prevalence": 0.00153,
+            "cnames": [],
+            "responseHashes": [
+                "a8b315157893b4ef72c2c50466b8fb3bd64b3cb48fad86680f897301e93c86e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "news.orf.at",
+                "tv.orf.at",
+                "www.deutsche-handwerks-zeitung.de",
+                "www.dfb.de",
+                "www.gelbeseiten.de",
+                "www.golf.de",
+                "www.handwerk.com",
+                "www.meinmed.at",
+                "www.meinbezirk.at",
+                "www.nachrichten.at",
+                "www.planet-liebe.com",
+                "www.thieme-connect.com",
+                "www.thieme-connect.de",
+                "www.vfb.de"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/s",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad13.adfarm1",
+                "ad1.adfarm1",
+                "adfarm1"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "0a99dcc11e664bc1ba329d9c436eb18e00bf6e29d74a0f54a19300ca8c744bd6",
+                "32db1d496f194a809b8daf2c268615ab71676ddb6f6930fdfb9eae2423cbfa21",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "ea4dac7cf2facf1c3690932a0a5a45242c4c149c4f9a09c3fd4f25a52dc0b2d9",
+                "4d1662b1135be5c99afab558f0fff727c03a58f16728b2cb90e400de14688288",
+                "b867c1394bcd574d5f312d5c983f64e22d24fe692bf0a524d5c3f71ae47d991b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "news.orf.at",
+                "tv.orf.at",
+                "www.dfb.de",
+                "www.handwerk.com",
+                "www.meinbezirk.at",
+                "www.vfb.de"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/\\/banners\\/3317\\/network\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imagesrv"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "b473985f13ff664561dbff5b809ea0059d4276d00e4e991058ac2505268dae59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "news.orf.at",
+                "tv.orf.at"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/synced\\/dsa\\/dsa\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imagesrv"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "1e729ab4fe8c89b4542bcc2421c87d66a06b1c7ba75173c2458a2335afb46d5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "home.1und1.de",
+                "news.orf.at",
+                "tv.orf.at",
+                "wtv.liga.nu",
+                "www.handwerk.com",
+                "www.unicef.de"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/confirm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad13.adfarm1",
+                "adfarm1"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "293c77c6050e6d5b873a388ca5533ee4aedfb9c7a44d25fd89e22bb38cb44f86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "news.orf.at",
+                "tv.orf.at",
+                "www.handwerk.com"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/1x1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imagesrv"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "293c77c6050e6d5b873a388ca5533ee4aedfb9c7a44d25fd89e22bb38cb44f86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "fm4.orf.at",
+                "home.1und1.de",
+                "news.orf.at",
+                "tv.orf.at",
+                "www.handwerk.com",
+                "www.leguano.eu",
+                "www.smartbrokerplus.de"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad13.adfarm1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "293c77c6050e6d5b873a388ca5533ee4aedfb9c7a44d25fd89e22bb38cb44f86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "news.orf.at",
+                "tv.orf.at"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/\\/banners\\/42\\/network\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imagesrv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b473985f13ff664561dbff5b809ea0059d4276d00e4e991058ac2505268dae59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1und1.de",
+                "home.1und1.de"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/js\\/aut\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "imagesrv"
+            ],
+            "apis": {
+                "Document.cookie getter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "10a51218b7adf5788ddad063cb4b820c18d95fc64e70b43eee65fa184709bc38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "www.bvb.de",
+                "www.deutsche-handwerks-zeitung.de",
+                "www.dfb.de",
+                "www.meinbezirk.at",
+                "www.nachrichten.at",
+                "www.planet-liebe.com"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/js\\/adition\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "imagesrv"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Navigator.prototype.plugins": 5
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "83946dd9da911bc3e00743ceee62daf150a00c7b37e5a2213c63508f91ffc2db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liga.nu",
+                "www.offiziellecharts.de",
+                "www.studierendenwerk-aachen.de",
+                "www.thieme-connect.com",
+                "www.thieme-connect.de"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/js",
+            "cookies": 0.000714,
+            "fingerprinting": 1,
+            "subdomains": [
+                "adfarm1",
+                "ad2.adfarm1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "27a8c56c06e830ba9598e1fd006586966bc814d0d6cd7d66d2707c53ed851547",
+                "733cbae64062c78f14b8d1251878e59d5da2f658ed5389de7a418062393c6b90",
+                "16f22c3810257ebde24cf073046d519f40e5cc94cb49bd2f9e470173035aed78",
+                "757fc73574b2689d56d1d0c11b336504dc93a13cf7c469cb2d89e3821790cd6a",
+                "3cd133c6907935c46f8c1c864e32a73faf3dc89e4ce9b7b8135cc24195e47da3",
+                "4e498a158aa99d8435f8cd00165426933bc155d4b9280a09eff571348a9bc52d",
+                "b872fe315ef98216c00b10cfcdc1c026fb4939c1e5da5548da8b7e1c72fc613f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liga.nu",
+                "wtv.liga.nu",
+                "www.handwerk.com",
+                "www.offiziellecharts.de",
+                "www.studierendenwerk-aachen.de",
+                "www.thieme-connect.com",
+                "www.thieme-connect.de",
+                "www.unicef.de"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/banner",
+            "cookies": 0.000714,
+            "fingerprinting": 1,
+            "subdomains": [
+                "adfarm1",
+                "ad2.adfarm1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "5374beccdc54a96fd31dd993677663e5ad07e6c9883b285743bb11362a484b16",
+                "8ad032df68c6fe9c23aad396b4aeb1e8415b269757cbd51868972f133560062f",
+                "c79831d809c25cd6e16f0484f07797112717213d2b7335a1edfcf386d2aa7397",
+                "8175342f7412a161a50ebce4caef00d65826f58dc2143f06ca254172d4a2f42a",
+                "30d2a4ea1cb8ab9999429c83bd70269a42857ed6b1d66ce5b30a5babd338ba7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liga.nu",
+                "wtv.liga.nu",
+                "www.handwerk.com",
+                "www.offiziellecharts.de",
+                "www.studierendenwerk-aachen.de",
+                "www.thieme-connect.com",
+                "www.thieme-connect.de",
+                "www.unicef.de"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/\\/banners\\/80\\/network\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imagesrv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b473985f13ff664561dbff5b809ea0059d4276d00e4e991058ac2505268dae59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "handwerk.com",
+                "www.handwerk.com"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/banners\\/80\\/files\\/00\\/2f\\/47\\/44\\/000003098436\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imagesrv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b759cc8ee03afbbe5131df20567d88700d533c71b02790680d8cc41329965dbe"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "handwerk.com",
+                "www.handwerk.com"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/tagging",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad11.adfarm1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "293c77c6050e6d5b873a388ca5533ee4aedfb9c7a44d25fd89e22bb38cb44f86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leguano.eu",
+                "www.smartbrokerplus.de"
+            ]
+        },
+        {
+            "rule": "adition\\.com\\/",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dsp-cookie.adfarm1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "axd": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "politico.com",
+                "www.techniker-forum.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.00112,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "thieme.de",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "uimserv.net",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "ad4m.at",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "l-iw.de",
+            "prevalence": 0.013888888888888888
+        },
+        {
+            "domain": "pushfire.de",
+            "prevalence": 0.013888888888888888
+        },
+        {
+            "domain": "ad-srv.net",
+            "prevalence": 0.013888888888888888
+        },
+        {
+            "domain": "theadex.com",
+            "prevalence": 0.013888888888888888
+        }
+    ],
+    "types": {
+        "Script": 64,
+        "Image": 21
+    },
+    "nameservers": [
+        "ns1.anyns.de",
+        "ns2.anyns.de",
+        "ns3.anyns.de",
+        "ns4.anyns.de"
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "domain": "ladsp.com",
+    "owner": {
+        "name": "So-net Media Networks Corporation.",
+        "displayName": "So-net Media Networks"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "px",
+        "um",
+        "cd"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ladsp\\.com\\/pixel",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e66a12ed03c226b660d2622221d5d73e0f842974412792365713ee56f870afa1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ig.com",
+                "www.ig.com"
+            ]
+        },
+        {
+            "rule": "ladsp\\.com\\/match\\/iframe",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "um"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ig.com",
+                "www.ig.com"
+            ]
+        },
+        {
+            "rule": "ladsp\\.com\\/html\\/getTopics2\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ig.com",
+                "www.ig.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "d2c.ne.jp",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns-1255.awsdns-28.org",
+        "ns-15.awsdns-01.com",
+        "ns-1972.awsdns-54.co.uk",
+        "ns-886.awsdns-46.net"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "domain": "hatari222.xyz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hatari222\\.xyz\\/jw-player\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "4f4bedb3f8af8aca36b867ffcc54ae5e7899478edb4dc35c5813f9243c83d019"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avlinda.net",
+                "avmable.me",
+                "avnancy.net",
+                "avsakura.com"
+            ]
+        },
+        {
+            "rule": "hatari222\\.xyz\\/style\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "b3fdb740ac8d26f484e33c03abc10ac65ced8b7ddd1426f23633288932eba2e6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avlinda.net",
+                "avmable.me",
+                "avnancy.net",
+                "avsakura.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "hatari222.xyz",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "raegan.ns.cloudflare.com",
+        "marty.ns.cloudflare.com"
+    ]
+}

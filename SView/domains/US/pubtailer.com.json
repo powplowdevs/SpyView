@@ -1,0 +1,302 @@
+{
+    "domain": "pubtailer.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "plugins",
+        "e",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "pubtailer\\.com\\/pub\\/trk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plugins",
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cc61b8b8bbd0ec5b62d3d8f44bab8231b20a0ff8bb51239fb4cf0b186991b059"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "givefreely.com",
+                "www.aspca.org"
+            ]
+        },
+        {
+            "rule": "pubtailer\\.com\\/trkclick",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "givefreely.com",
+                "www.aspca.org"
+            ]
+        },
+        {
+            "rule": "pubtailer\\.com\\/trkclick",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "givefreely.com",
+                "www.aspca.org"
+            ]
+        },
+        {
+            "rule": "pubtailer\\.com\\/launcher\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "49af54d2464f1e92e73d6f97586d77bba65350da55dbfb18d545876c5c57593d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valpak.com",
+                "www.valpak.com"
+            ]
+        },
+        {
+            "rule": "pubtailer\\.com\\/launcher\\.mou\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "fe46160f0ad64f448bf26b0ec4c9e91f46b8bdc61a3216658bd49a6c8e8a7436"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valpak.com",
+                "www.valpak.com"
+            ]
+        },
+        {
+            "rule": "pubtailer\\.com\\/launcher\\.embedded\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7079978b603f5082f28c7d67cfb31bde251d6fb35f59946ba1880a1ff3b85f6a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valpak.com",
+                "www.valpak.com"
+            ]
+        },
+        {
+            "rule": "pubtailer\\.com\\/fingerprint\\.v3\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "57281521094dd6fe0d1997e31eab51a203b0f338d39e730d260fdfecce621905"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1747334826,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valpak.com",
+                "www.valpak.com"
+            ]
+        },
+        {
+            "rule": "pubtailer\\.com\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4a90bb12d2bfafb39829814ca00380fab940adf6108310921c1865bc599807ad"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valpak.com",
+                "www.valpak.com"
+            ]
+        },
+        {
+            "rule": "pubtailer\\.com\\/style\\.embed\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b754a67db82a1a1f02c2bdef683d2abb3110f5d7389d3d9242d134a241127930"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valpak.com",
+                "www.valpak.com"
+            ]
+        },
+        {
+            "rule": "pubtailer\\.com\\/style\\.mou\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c70e6923f58c3232597523cdc930b122b5d1730eda1fd778ad51b6c16c3b56a2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valpak.com",
+                "www.valpak.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "charity-directory-sand.vercel.app",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Preflight": 2,
+        "Fetch": 2,
+        "Stylesheet": 6
+    },
+    "nameservers": [
+        "carla.ns.cloudflare.com",
+        "leif.ns.cloudflare.com"
+    ]
+}

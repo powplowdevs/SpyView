@@ -1,0 +1,87 @@
+{
+    "domain": "getdrip.com",
+    "owner": {
+        "name": "Avenue 81, Inc.",
+        "displayName": "Avenue 81"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000205,
+    "sites": 2,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getdrip\\.com\\/client\\/events\\/visit",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "ed35d2b5b724d9cd93163e7503d8aebece81e735cbc2b8c11ce2a4c82f5ef387"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baeldung.com",
+                "www.tediber.com"
+            ]
+        },
+        {
+            "rule": "getdrip\\.com\\/client\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "8ec9cde4e7f3aabaaac612b61253c4f111221a9cd7b1db080481edf0a2e5b472",
+                "08b3f09f3b3b0a7d1894618c94b5750b7361c0dcad5822ac4e5ca00e978202e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baeldung.com",
+                "www.baeldung.com",
+                "www.tediber.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000205,
+    "topInitiators": [
+        {
+            "domain": "d14jnfavjicsbe.cloudfront.net",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-691.awsdns-22.net",
+        "ns-339.awsdns-42.com",
+        "ns-1039.awsdns-01.org",
+        "ns-1955.awsdns-52.co.uk"
+    ]
+}

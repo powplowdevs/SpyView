@@ -1,0 +1,167 @@
+{
+    "domain": "cnstrc.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000918,
+    "sites": 9,
+    "subdomains": [
+        "ac"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cnstrc\\.com\\/js\\/cust\\/birkenstock_WmsgQt\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ef4c4c7f8a81dc796a6e184c065f7bb39c83aed8a7b04332a07a01a8b690f750"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ConstructorioID_client_id": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "birkenstock.com",
+                "www.birkenstock.com"
+            ]
+        },
+        {
+            "rule": "cnstrc\\.com\\/recommendations\\/v1\\/pods\\/home-1st-slot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ac"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b2dbab8f0f48f5e21018e09feff2612e456f9023a88e72b503ee7e3dd2843a74"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ConstructorioID_client_id": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "birkenstock.com",
+                "www.birkenstock.com"
+            ]
+        },
+        {
+            "rule": "cnstrc\\.com\\/recommendations\\/v1\\/pods\\/home-2nd-slot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ac"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "db5bff21641a5ab3890f915780ec8ad0a376c862fb949fff3c78887f46d56d22"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ConstructorioID_client_id": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "birkenstock.com",
+                "www.birkenstock.com"
+            ]
+        },
+        {
+            "rule": "cnstrc\\.com\\/js\\/cust\\/home24_asX-mO\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a80f02de291d0f9c7ec3e2eaf6307531eac90f714797729dec4e4c746c8a562f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ConstructorioID_client_id": {
+                    "ttl": 31536007,
+                    "length": 36,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                },
+                "ConstructorioID_session_id": {
+                    "ttl": 31536007,
+                    "length": 1,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                },
+                "ConstructorioID_session": {
+                    "ttl": 31536007,
+                    "length": 40,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.de",
+                "www.home24.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00051,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9285714285714286
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-199.awsdns-24.com",
+        "ns-1071.awsdns-05.org",
+        "ns-975.awsdns-57.net",
+        "ns-1818.awsdns-35.co.uk"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "domain": "arcgis.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "mtags"
+    ],
+    "cnames": [
+        {
+            "original": "mtags.arcgis.com",
+            "resolved": "mtags.arcgis.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "arcgis\\.com\\.edgekey\\.net\\/tags\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mtags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mtags.arcgis.com",
+                    "resolved": "mtags.arcgis.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1eafa6453f75e2cf5334326996d627d3ed0ac756e6ca7f0a6233f9929f3cd29f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcgis.com",
+                "developers.arcgis.com"
+            ]
+        },
+        {
+            "rule": "arcgis\\.com\\.edgekey\\.net\\/tags-min\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mtags"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mtags.arcgis.com",
+                    "resolved": "mtags.arcgis.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "92e6d8bbd3a8e890a7bb8889e97f65562095fe8b60a9ec4d86d3253f0f4cb2c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcgis.com",
+                "doc.arcgis.com",
+                "enterprise.arcgis.com",
+                "learn.arcgis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000424,
+    "types": {
+        "Script": 6
+    },
+    "nameservers": []
+}

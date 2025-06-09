@@ -1,0 +1,68 @@
+{
+    "domain": "hsappstatic.net",
+    "owner": {
+        "name": "HubSpot, Inc.",
+        "displayName": "HubSpot",
+        "privacyPolicy": "https://legal.hubspot.com/privacy-policy",
+        "url": "http://hubspot.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hsappstatic\\.net\\/head-dlb\\/static-1\\.2883\\/bundle\\.production\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "console.memory": 1,
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "08f5f9e1f2a455bb2d54c9dfd0852c6e827d333be87587fe6f9b6473ad8d1f58"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kalkhoff-bikes.com",
+                "www.singulart.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "hubspot.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "jerry.ns.cloudflare.com",
+        "yolanda.ns.cloudflare.com"
+    ]
+}

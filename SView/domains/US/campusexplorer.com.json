@@ -1,0 +1,156 @@
+{
+    "domain": "campusexplorer.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "widget",
+        "publisher-listings",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "campusexplorer\\.com\\/js\\/widget\\.js",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "bec1624938799876f9eb3a0996a2d6c392d0d23132b6c27173ab1b48aac7d9db",
+                "ff4c867145a657a306737a066dfd53b4919b72394fb9f92d60b6fe52c7d7a03e",
+                "7660795684f0ec9c8d22ede974dc300581e8feb5167cbabadfc3b37696d5b567"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foryourmassageneeds.com",
+                "www.bestvalueschools.org",
+                "www.collegeevaluator.com",
+                "www.collegefactual.com",
+                "www.collegetuitioncompare.com",
+                "www.ereferencedesk.com"
+            ]
+        },
+        {
+            "rule": "campusexplorer\\.com\\/static\\/listings\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "publisher-listings"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "c37e1be70cd5ffb42e3f0431a84b95093ac6b70d592ec20dae82b1f0661640b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestvalueschools.org",
+                "www.counselingdegreesonline.org",
+                "www.universities.com"
+            ]
+        },
+        {
+            "rule": "campusexplorer\\.com\\/form",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publisher-listings"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestvalueschools.org",
+                "www.bestvalueschools.org"
+            ]
+        },
+        {
+            "rule": "campusexplorer\\.com\\/results",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publisher-listings"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestvalueschools.org",
+                "www.bestvalueschools.org",
+                "www.universities.com"
+            ]
+        },
+        {
+            "rule": "campusexplorer\\.com\\/widget\\/js\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ac899b4beb71505fef53316e5c7efd00092c77023b3caf243e2ff591ad918635"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "collegetuitioncompare.com",
+                "www.collegetuitioncompare.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000566,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Document": 5
+    },
+    "nameservers": [
+        "ns-129.awsdns-16.com",
+        "ns-855.awsdns-42.net",
+        "ns-1912.awsdns-47.co.uk",
+        "ns-1481.awsdns-57.org"
+    ]
+}

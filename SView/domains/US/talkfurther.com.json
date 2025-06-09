@@ -1,0 +1,664 @@
+{
+    "domain": "talkfurther.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "js",
+        "vsa",
+        "api",
+        "images"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "talkfurther\\.com\\/talkfurther_init\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 6,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "e9ea31e86f36b7f3e046844602c5a172bc8fa0d888d1813bf42ee11e71d31c4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "centralstateswaterresources.com",
+                "cogirusa.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.atriaseniorliving.com",
+                "www.recoveryohio.org",
+                "www.storypoint.com"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "window.innerWidth": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerHeight": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "167294893129183e4769a8365aee96a8560026e5fd070fb765ff33da13325f21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "centralstateswaterresources.com",
+                "cogirusa.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.atriaseniorliving.com",
+                "www.recoveryohio.org",
+                "www.storypoint.com"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/visits",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "e58ddc538dac27ae8c395bcbfaa078c4345820bfcfe7344aefd4eb63b1677c8b",
+                "40112bcb7f65195989896e0300e9186659553760137e85d01b423e12b20fe0fd",
+                "59b2d224f52f39bb2b11971af6f809bd49bd7b466b85a7592f36b2700a463db0",
+                "936dd9c9776b07f15ebf1410de502defef315cc2da4892f4d4e55b4e13d4c6b8",
+                "918018b77e6da60b6a2fc45ff64228b0b53e12870ff49a7c2fbeb29a2a0226fc",
+                "f933fff94ea168c84179c32f438839c4b435ca6de2b4f43f03a82bf1931a0239"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "centralstateswaterresources.com",
+                "cogirusa.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.atriaseniorliving.com",
+                "www.recoveryohio.org",
+                "www.storypoint.com"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/visits",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "centralstateswaterresources.com",
+                "cogirusa.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.atriaseniorliving.com",
+                "www.recoveryohio.org",
+                "www.storypoint.com"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/visitors",
+            "cookies": 0.0000495,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "centralstateswaterresources.com",
+                "cogirusa.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.atriaseniorliving.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/site_setup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "c7d1eabe4e7a7a178754bf919cc60bebd1bb3c866cca7e8e339ef503e20e3319",
+                "21711088d2ca04d0af1877e641d57f6ee892a3d670f16129d98d4928407b01d5",
+                "d5f503ba8bd572ccc0086bdc3739f59b5eeb1f139e7a49cc388bf383681bfacb",
+                "2a60b03fe361ccad429c58c562cc781014590d287a91c302514d7e58edb89648",
+                "b46dd7fd02d4c4b6131364cdded5312e685976716bb4f9eb2023e66f8455b096"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "centralstateswaterresources.com",
+                "cogirusa.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.atriaseniorliving.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/site_setup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "centralstateswaterresources.com",
+                "cogirusa.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.atriaseniorliving.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/store_event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/store_event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "078edd80bfc2e21171d859bd7056d0ac7d87d76f127ffafd1995ceb81418e692",
+                "c7b21b0eddd11a2dfac86332a890a83f717bc12fb045f532e4bfc90c66d3f408",
+                "711cbf0b1782a8b31f0dab8ab4e8074e05eeaf22efcdc68d3f4aeb98f394c177"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/asset-manifest\\.i9nsh3ih0ga\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "37ff0e7d965d24ef200d936e8aa7e586a35573ada0e35ca8bbf5bce9b53298ef"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/0\\.8c5d7036\\.chunk\\.famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "de35ed6a1d7fb667115353c17651d79f60c602e654e61315c0d4b7348224db18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/1\\.c15dae14\\.chunk\\.famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "d23d071025b642ee578a5adb51d707913ef49589e845c3484ad9d32e716b7eeb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/2\\.deb7e47b\\.chunk\\.famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "a18015453d2d05913e8be816a6677453f7f5130b44b17801db54ed56306b0bc6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/4\\.a5da7fb5\\.chunk\\.famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "169b2d9af790064880b54295ff13ec53c45b3649f3ca6222ed0048e01bbde1b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/5\\.cb7ded16\\.chunk\\.famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "6a8456e98760dc26eb553668c890bc52acdfa031183b93a34a388b72ae1037fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/6\\.a267de4b\\.chunk\\.famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "3d253782a6d4d1ba82d3bcb17c7195176de3881b8521a079684ea4c0b75cb4f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/7\\.9cd47e05\\.chunk\\.famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "54a523f58a47c3b6a28a23db53fe936d630fe4ae10a8d432ce2aa7cb62f1436a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/8\\.ec5e7f65\\.chunk\\.famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "c7b3a59d07285a02c275b495e7f3805253598afcacdfe3e6af0a745043b46ec4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/9\\.46788e77\\.chunk\\.famchat\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "76698821ca46b92b12abc554cdf1cbf0f9ea1bdaf9788e88f6a3889c2ae380a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrockrecoverycenter.com",
+                "springhillrecovery.com",
+                "www.arkbh.com",
+                "www.recoveryohio.org"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centralstateswaterresources.com",
+                "www.atriaseniorliving.com"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centralstateswaterresources.com",
+                "www.atriaseniorliving.com"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/start\\/147624",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "93f41f38b10abd5e1db8adc9cf12213dd1f0d307fd71432b3e63d4b5ce82a532"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkbh.com",
+                "www.arkbh.com"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/api\\/chat\\/start\\/147624",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkbh.com",
+                "www.arkbh.com"
+            ]
+        },
+        {
+            "rule": "talkfurther\\.com\\/uploaded_facility\\/8ee1db0a63838affbbbc11531b01bdd6\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "87a9c1469a4868435021bff3ca001b3b99c23557876b4a34c593ad052c4b9223"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkbh.com",
+                "www.arkbh.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000566,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.21428571428571427
+        },
+        {
+            "domain": "contentsquare.net",
+            "prevalence": 0.21428571428571427
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 52,
+        "Fetch": 27,
+        "Preflight": 23,
+        "Document": 7,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-622.awsdns-13.net",
+        "ns-495.awsdns-61.com",
+        "ns-1706.awsdns-21.co.uk",
+        "ns-1144.awsdns-15.org"
+    ]
+}

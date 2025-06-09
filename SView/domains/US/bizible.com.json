@@ -1,0 +1,524 @@
+{
+    "domain": "bizible.com",
+    "owner": {
+        "name": "Adobe Inc.",
+        "displayName": "Adobe",
+        "privacyPolicy": "https://www.adobe.com/privacy/marketing-cloud.html",
+        "url": "http://adobe.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00137,
+    "sites": 193,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bizible\\.com\\/scripts\\/bizible\\.js",
+            "cookies": 0.000799,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 126,
+                "Navigator.prototype.userAgent": 72,
+                "Date.prototype.getTime": 118,
+                "Document.cookie setter": 113,
+                "Screen.prototype.width": 103,
+                "Screen.prototype.height": 103,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 142,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "849aafeb739dbdc277af5f40525e6190dea92459274e88a2497ae34a5801a8aa",
+                "42bb2b975f7890325246797a91d8e64ce04ccc73a4bb4c29e30fc1e4cd4ca841"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_biz_dfsA": {
+                    "ttl": -57,
+                    "length": 4,
+                    "prevalence": 0.0006931869624264373,
+                    "uniqueness": 0.01020408163265306
+                },
+                "_biz_kvpA": {
+                    "ttl": -56,
+                    "length": 4,
+                    "prevalence": 0.0006719669533725667,
+                    "uniqueness": 0.010526315789473684
+                },
+                "_biz_uid": {
+                    "ttl": 31536003,
+                    "length": 31,
+                    "prevalence": 0.0006861136260751472,
+                    "uniqueness": 0.979381443298969
+                },
+                "_biz_nA": {
+                    "ttl": 31536006,
+                    "length": 1,
+                    "prevalence": 0.0007497736532367588,
+                    "uniqueness": 0.03773584905660377
+                },
+                "_biz_pendingA": {
+                    "ttl": 31536007,
+                    "length": 58,
+                    "prevalence": 0.0007709936622906292,
+                    "uniqueness": 0.1559633027522936
+                },
+                "_biz_flagsA": {
+                    "ttl": 31536008,
+                    "length": 91,
+                    "prevalence": 0.0007356269805341783,
+                    "uniqueness": 0.2403846153846154
+                },
+                "_biz_ABTestA": {
+                    "ttl": 31536004,
+                    "length": 12,
+                    "prevalence": 0.0000636600271616116,
+                    "uniqueness": 0.7777777777777778
+                },
+                "_biz_EventA": {
+                    "ttl": -58,
+                    "length": 4,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_biz_sid": {
+                    "ttl": -58,
+                    "length": 4,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.usa.edu",
+                "www.tanium.com",
+                "care.siriusxm.com",
+                "learn.g2.com",
+                "www.qualcomm.com",
+                "www.smartvault.com",
+                "www.mindbodyonline.com",
+                "www.cloudflare.com",
+                "www.newswire.com",
+                "developer.nvidia.com",
+                "www.connectwise.com",
+                "www.mitel.com",
+                "www.weareteachers.com",
+                "hawkridgesys.com",
+                "nearpod.com",
+                "research.nvidia.com",
+                "www.boardeffect.com",
+                "www.shipbob.com",
+                "www.zendesk.com",
+                "www.gia.edu"
+            ]
+        },
+        {
+            "rule": "bizible\\.com\\/ipv",
+            "cookies": 0.000962,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 136,
+            "prevalence": 0.000962,
+            "cnames": [],
+            "responseHashes": [
+                "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_biz_uid": 0.0007002602987777275,
+                "IR_gbd": 0.00004244001810774106,
+                "_li_dcdm_c": 0.00002122000905387053,
+                "utag_main_vapi_domain": 0.000014146672702580353,
+                "gpv_v9": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "ziplogix.com",
+                "www.plantemoran.com",
+                "help.smartsheet.com",
+                "www.mountain.commonspirit.org",
+                "about.gitlab.com",
+                "www.thousandeyes.com",
+                "success.qualys.com",
+                "community.veeam.com",
+                "www.f5.com",
+                "pitchbook.com",
+                "www.fbn.com",
+                "www.workday.com",
+                "hawkridgesys.com",
+                "www.justworks.com",
+                "docs.nginx.com",
+                "www.voices.com",
+                "www.qualcomm.com",
+                "www.cloudflare.com",
+                "www.powerschool.com",
+                "docs.cribl.io"
+            ]
+        },
+        {
+            "rule": "bizible\\.com\\/xdc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 131,
+            "prevalence": 0.000927,
+            "cnames": [],
+            "responseHashes": [
+                "6f3e08fc47fe6b8d4038e1a7f9c0a789098026cb4d3570359b068df43d58ccef",
+                "411b4733687c5e01c0cd77d0dbbf5db9615b90cbdcf875c6481d74c03c58b373",
+                "2fae13dfe191d4d06e2e21bb93e1b8ec2e34c11387e588bdd7738ba0cc106f95",
+                "6d22e660ead72f14b0aa8e3dfc8de1da35f17e3559b489e00692f15f50faa1a6",
+                "bb4a3a37fad330525b7863267788acb9cacb2f95f84c872ee93d07d07628c606",
+                "fa9bc68f65cd11ed59d1f6d0a487680251df7b786bd6cd0913d262276301bd95",
+                "9eec74b5e57388a883b53f1714f2a7f8ce4923052f95a0af533432cc7737fe64",
+                "f9a9eaa74f3086c65fc06544ec443e547a3b0b59a8bb3a385d3db4a42fb33fc5",
+                "4877a2f767128be7921b3937237ca10160b2c998d90ec0a1a2cad433dde95ebe",
+                "0d6c9d0c20bb458fdbdd0b49b96bd755788c13ea261ef32cb937847990444083",
+                "e96a0de0fbe1635c7ec05a4ab699d42853a1689db691d67e20264ecefe2f22f9",
+                "c51edcb803f137852ce64a5ee1938dd535d2e60ab424837f311d4e8b59a254e4",
+                "f8a24ec040e4c298e7109058806b6492eebffd01b1d11cc5c421f2190dfdba21",
+                "b70848e24fcf31be1bd8ea1a9a640f8584eda4a0293328609580cb903990feb3",
+                "7a0fd97591c7ef97a99c0e0018f29b988b09a5543a7d0a3281e4e6aae6a7c7af",
+                "fdfc2de81ca88152e1224ab50c568ade5df9224dc12f508e2209486c3a936050",
+                "f2d979a6a2c0d9e6f0bf6c7f3c1f826e58fa705a4447dd2d6e05753345f8bd60",
+                "57a6cb51c3382d8ea476fe0c67a962e187d1eb1ab746187f920c0d1b5d638626",
+                "587faae81ba751421f87aa78c74fe308e594e8a950acb90f741594c7aee7bfa5",
+                "d942b27580e927f5566564bbfdb2c67707614629c07ac1a9ea97f6aec688f8e6",
+                "c5ff0909ef87151d7237e9b062a8857abb291b7a675f69bf8800931ea26534b8",
+                "6861a2b6d9b030a72d96e7f45b784c043138e6d8569866d55e716952538f8eff",
+                "4a7dfd0516981c01ee7c8bb685e4365ea505f08a4c726b8ab326fabca7d63a35",
+                "f7295429e3968c598d90cee8907718a10e4d67a7491be9da7d6ecca028b969eb",
+                "30f299998069b633f14e2ebb0db88ae2b83cabc4efe020ce59b21f3a6fa9c845",
+                "3f88b119d2b666a5b0aa1af9c2a2e46d2ce9bfe522980eaf1c189c5d01bf0f26",
+                "6a09be71a8c581c7616be89cbac0042ecd93fb509ace4574cd541d882591e875",
+                "15b849003279424b58b3d8058aca2b8bd48a046645f6f51ec41f4a19fdbf1494",
+                "872ae923aa1c1dcb755da75e91152590057f141276b4331978a575c1be82c21c",
+                "829c10a21609a9513148cbeaf23f85296e22bc4826787b3e5f6fd7037dfac0b9",
+                "87f5a9b98f854cf736cc618053e6119d0bfd8c33325e0c959d510708cc909873",
+                "7b05d105bfb52217142fef167b59491d88c79f3735ddb0743af711c1b7b98801",
+                "b2b32eebece10743e9a31b2aaf004c9fd8f2bc84a417acf4dcfa3ad15b6c4fd4",
+                "04fb3a16a765ae58547fc36485bad7c5a690f9a7bbca82bb1af71dae5fe0a1a6",
+                "1d5cff30d62042ad58a9a219138aa1f29473ba8ce3c7568de58d08016a14627d",
+                "3159b4d6343e6b1f1eccc42f41dd5bd953dfd82d6f2ee780dc34b2b19ed81f94",
+                "4ffad0cf69b54e6210125ebde9eeb8f8a37b2d2c5cdbc682702bdaf553b37e32",
+                "1fc944327dce98669498b0162bce665f1756df8367f458dba86ccd74149bdfc0",
+                "43fb2a8e8483d1cc6a91a85c34d1b3b55e2fc8f3bf6fb5d86b09ab5976feb720",
+                "e59032cd6f95148dac018e63c0118cd0f0fe50bef9da35d6f01ffcc353508267",
+                "329cb501e181fe870af502558140731e46a8cf7d3371600869e97ed027017864",
+                "97d09362538232a17c233eb5e55631ef06c26af461e208f6729d029a2f85c89b",
+                "16f39a987128b9bbdecb236124513a01d05a81be7f341e21497bfcb4964062ca",
+                "5b59fc69980fd855bc5984e0d497c1a438c11e1c61b4423d6c79516cf4c1049c",
+                "e41a4a3deaa807d4310d75b32f0d6be502ec6aa2dfd49779bedd77155eb4b1f8",
+                "4d38a497a0bc4043006e1444440c835b81a935dd6b7d545953a8f7eec2f93336",
+                "73c566236e20efc1fbb3d88b99fc52e76603900e57b2f827cfb269dbea763455",
+                "f0107231f1e0ec19a24c3890fc2b9ed76d1caaef1cfc9ba6384c798917033049",
+                "85d08e3b37bf8786334f1b133af3794a15dd4973d09c07a926b33f3670fcec28",
+                "b1065d600ee98fc11dbe6094f66f4b0409f7f5f71688cc2d84a92986fce48f31",
+                "d968df3bca1ddc8442ded85aa62f4ecb81b85cf79df0606ac7938dd9c41ee23f",
+                "f54b479e97cfe095faba5186574718cd20426411ed332ab597fb326f4633a102",
+                "a0d2ca4df36a6798c067f45a9e61bd6d719b820a06cb91cee1a396bcc5e9c439",
+                "63fcaf35be242ec0c2b49ca7f1566d8d258a791b37a4749226da0bbaffe7e0a4",
+                "aefcf500abc945bc30c666132b2b3312cc459584dc0e04e12892a7b969e13224",
+                "06ad38c2093e0ab50772a9bda3e677816ee1f8a839bc3fe7ff57bf1e59c862a3",
+                "4106d2919c7dc13db3d6155c314f58fe21c2d1617a66c2fc338558488b4a2c2d",
+                "6e836814b76245934908f03bb5a1d40927bcb481f7563fc943e466200429c92c",
+                "3eef22503b1b47497053f46d54c5b9a9b825fbbdc36dab50dcd922a6057964ad",
+                "fd99062de72a3a0f1b5fa0ed30fa649fbc775ad57df7f321e5317bfca1b99fc9",
+                "33a4a007b39d035540a6f3ea329145de4b404b804bdec2ced0f53a621355e52b",
+                "d096aa38fb1742fd16027778ba4cc5e63c3a2c82082c0930c502214bace41d67",
+                "8065e1acdb91f6088afd1ba2b8de3ba4bbc6ceb7bdc690a8b59301671faf3178",
+                "3c2b9a80e4c86af8c5a8507f51a365340d2785602cccb50e9fabda1000e4daac",
+                "b762bdc8e6af5008a9442c6bdd95cbd5c21ded31a7cd75136c470e7d33301a8a",
+                "c72afa24b6ad0d4ad719f8484b7b81d88f51a867f1ba80b45e820159eac6c559",
+                "c96e5bd896785d79a48ffa0f681f68b145a0af3e0dee3965797aa2a4d8999fe3",
+                "f546349924c3170e18c7e7707ad859d2570fa543f664b53b96382b5f0d056a80",
+                "5cc5e09a1ee4ff3857a3fb0301102ccabe1298530ba603e16553d421adfabe44",
+                "e2ff45b3cd1ec3cb1138c499ae98a32c45260fc3df282424a39890fc839c6765",
+                "f8ac8a6268f68097a3c05cf70ad3ad5f6b926a9898c0b3c168e9c58de5b74a65",
+                "991fe90d2efcc914a5110c24fc574829c7d46dace65fdcb7f42460dcdfe35bdc",
+                "b7353ddadd828da9b215fc2460ee2938b97577ee84fd7e863551ce21599a8034",
+                "e19aacc59e73e7bcc7a552861e07af607d6a3b0d25688ca7900e0468eec5da54",
+                "a140e3b662626ca1b1cae41a38aaefffab6049f1728edc187ec76f8da94178bd",
+                "f42cb120367d93ea1edd4e10b3c9a3645b075f82ff130393b53aae487a5aff21",
+                "d19e43c70d67a1d4128201550d2b80e66ae1bb6cece0e8890cd89d1a2a06d67e",
+                "f0eb7da32931d49fa5158e701a67a035131812349651331e22b0aee1401f1067",
+                "52c1e1fd3a54806296af88ddc7ae21d7ffd52edb8ccef16409c1c00cf325a6dc",
+                "922ed1e48af21d383816e5d7332bc87a91b9833e05abb674fad4fb329cac254b",
+                "366ec8676c95e83f8bd991cc1d72ab9b8c9577b85f22ca76d31d4010c5db4dc7",
+                "8743908e1b5619b43a04c7ba5b47f534f6aca9df53d669abd976ebd9bf38aced",
+                "02f68e418a6f513039ad873d2992a4b51730d9f3fa10e882c2e735cbe9bc5b0e",
+                "daae604e4f105c531ecc88439f187f3b10f1b101ec52649da0b7e0e40c7261b3",
+                "d5f9cdb0b09068cb82e941af11cd1f40d7b1ab913a89a07b53ebb2a43c73ebfe",
+                "8ae9827a09c73e3b04242881873c6fe149b0d81ee1762ef874c4930c83cb67c1",
+                "39f6916f007c136d64d8d095b44cde8a0c178e1389ac11d0367dae1334f6dc6e",
+                "2ae3103adeb78674f09409b005e02eb1bccd6eed8c245014565ebcb9cafc5236",
+                "c1334c667a26e65e9bb6b5fd750bef07c98cb9f88bf249b03b43540ac8d0ab5b",
+                "2cff1ad221b42c13cdbd6231d72177490c913c0f28883ab2f6e7cd6edab1d2c9",
+                "442e87a081a7c67f167458dbf2ed09ce32bd2f268365e352dbcaebcaee9e79a6",
+                "6b1e700a053811e1977800c22343f45a4a0a4492e39a4b19b6d1a1d5e785cb11",
+                "2ed0651db0359939da9e0b6fb0139b0f9f0a52b8f5fbd3902108fa58bce8f137",
+                "5d21841cf3f68ff64ddd6162ed34b1f5692351af96af1ed22857dcc23261a2e3",
+                "5405e84007f096e19652957b0b8201abf1d808934e0d744585302f4bc4bd131f",
+                "36a213965a14ed67cb8b22afefa33c3d9a06b95b9a76b1b17ae3f56dd04ca963",
+                "6edf12d083b604d3b29d8a5ee2f174271e6209b2ee5ae43518e5e6c507ad0163",
+                "dc8ad89b72fceac96d314d9c1bc0e8af30882facce3c8f886da2e0fc29230980",
+                "21c8548e2163f2df155216d367b3e6ca6c021ee0ffab0bf5bee77dbd7ea6fac0",
+                "dfcccd0151168d6edcd6dfa34309bb3b6a1ecada7b1b34a6748f37faed7fe39b",
+                "2798d8c36029a7db4a2cb99ea709910d58de3177faab0814ca97e4b1f62069ae",
+                "a9726ea3809eaf1703170c52f968b2cb29412b7840e34589cbd210aecf28de20",
+                "4c9772abe6682fff46e80de826f0bc7f2423e2375e8573343a6ec930e6cad180",
+                "3b6ebb5ba0deeb64f5dab724d812eab949d4cff6976e28c2035694bc833a0c40",
+                "65ba1ec034cbb8d9a3538b4c928cc1ccb8d6646d3508476f8ceddb4c3f31f292",
+                "2609b6540234d75c4508f99e2ce4eaf54e50a85034ea036f10729d1e7fb2f879",
+                "7bf97dd51185b78f907a728ac02dabf6ff87dee1c0426a003badd0e9c5c29cf5",
+                "e3eb54e80a377084c9e429b907acf8b3eacaf2bf30ba77202efb4e2c48f5d107"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_biz_uid": 0.000679040289723857
+            },
+            "exampleSites": [
+                "www.cockroachlabs.com",
+                "www.flocksafety.com",
+                "www.varonis.com",
+                "community.smartsheet.com",
+                "www.servicetitan.com",
+                "resources.altium.com",
+                "www.usa.edu",
+                "success.qualys.com",
+                "learn.g2.com",
+                "docs.nginx.com",
+                "www.procore.com",
+                "www.edmentum.com",
+                "www.stratasys.com",
+                "www.newswire.com",
+                "formlabs.com",
+                "www.paycor.com",
+                "docs.nvidia.com",
+                "pos.toasttab.com",
+                "www.applitrack.com",
+                "www.commscope.com"
+            ]
+        },
+        {
+            "rule": "bizible\\.com\\/u",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 84,
+            "prevalence": 0.000594,
+            "cnames": [],
+            "responseHashes": [
+                "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_biz_uid": 0.00042440018107741057,
+                "IR_gbd": 0.00002122000905387053,
+                "_li_dcdm_c": 0.0000070733363512901765,
+                "SESSlsd": 0.0000070733363512901765,
+                "utag_main_vapi_domain": 0.000014146672702580353,
+                "gpv_v9": 0.000014146672702580353,
+                "lotame_domain_check": 0.0000070733363512901765,
+                "__tld": 0.0000070733363512901765,
+                "__gtm_lp": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "docs.cribl.io",
+                "www.cvent.com",
+                "www.imperva.com",
+                "docs.nginx.com",
+                "wyomingllcattorney.com",
+                "resources.altium.com",
+                "www.servicetitan.com",
+                "app.bamboohr.com",
+                "www.logitech.com",
+                "success.qualys.com",
+                "shop.id.me",
+                "www.intelycare.com",
+                "www.commscope.com",
+                "www.skydio.com",
+                "www.altium.com",
+                "www.mural.co",
+                "www.workday.com",
+                "www.siriusxm.com",
+                "www.boardeffect.com",
+                "www.kornferry.com"
+            ]
+        },
+        {
+            "rule": "bizible\\.com\\/_biz-a\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "42bb2b975f7890325246797a91d8e64ce04ccc73a4bb4c29e30fc1e4cd4ca841"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_biz_dfsA": {
+                    "ttl": -57,
+                    "length": 4,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_biz_kvpA": {
+                    "ttl": -57,
+                    "length": 4,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_biz_uid": {
+                    "ttl": 31536006,
+                    "length": 32,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_biz_nA": {
+                    "ttl": 31536019,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_biz_pendingA": {
+                    "ttl": 31536019,
+                    "length": 6,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_biz_flagsA": {
+                    "ttl": 31536019,
+                    "length": 134,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bamboohr.com",
+                "www.bamboohr.com"
+            ]
+        },
+        {
+            "rule": "bizible\\.com\\/kvp",
+            "cookies": 0.0000495,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_biz_uid": 0.00004951335445903124,
+                "optimizelyEndUserId": 0.00003536668175645088,
+                "__gtm_lp": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "smartsheet.com",
+                "pitchbook.com",
+                "www.altium.com",
+                "www.imperva.com",
+                "www.mindbodyonline.com",
+                "www.mural.co",
+                "www.servicetitan.com",
+                "www.trinet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00131,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.40594059405940597
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3102310231023102
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.12211221122112212
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.056105610561056105
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.039603960396039604
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.013201320132013201
+        },
+        {
+            "domain": "optimizely.com",
+            "prevalence": 0.013201320132013201
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.009900990099009901
+        },
+        {
+            "domain": "logr-ingest.com",
+            "prevalence": 0.009900990099009901
+        },
+        {
+            "domain": "d2ibudjvyslmx1.cloudfront.net",
+            "prevalence": 0.006600660066006601
+        }
+    ],
+    "types": {
+        "Script": 275,
+        "Image": 228
+    },
+    "nameservers": [
+        "ns201.adobe.net",
+        "ns202.adobe.net",
+        "ns203.adobe.net",
+        "ns204.adobe.net",
+        "ns205.adobe.net",
+        "ns206.adobe.net"
+    ]
+}

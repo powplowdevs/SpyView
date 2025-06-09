@@ -1,0 +1,521 @@
+{
+    "domain": "aws.dev",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000205,
+    "sites": 29,
+    "subdomains": [
+        "cdn.us-east-1.prod.moon.dubai",
+        "loader.us-east-1.prod.mrc-sunrise.marketing",
+        "prod.log.shortbread",
+        "chatbot-api.us-east-1.prod.mrc-sunrise.marketing",
+        "chat.us-east-1.prod.mrc-sunrise.marketing",
+        "infra-api.us-east-1.prod.mrc-sunrise.marketing"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aws\\.dev\\/AoQtxP83g5K6\\/jjT7qv4oGvoy\\/1\\/amazon-ember\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.us-east-1.prod.moon.dubai"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "42f3cd8391de2bb85d965aacd3d89b40baa028ab99c469ee2550a900c3af886e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dremilnutrition.com",
+                "carex.com",
+                "chpws.com",
+                "doublewoodsupplements.com",
+                "izod.com",
+                "satechi.net",
+                "shop.yosmart.com",
+                "store.insta360.com",
+                "triquetrahealth.com",
+                "us.amazfit.com",
+                "www.beautybyearth.com",
+                "www.bumbleandbumble.com",
+                "www.microingredients.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/AoQtxP83g5K6\\/jjT7qv4oGvoy\\/1\\/inter\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.us-east-1.prod.moon.dubai"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dremilnutrition.com",
+                "www.microingredients.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/AoQtxP83g5K6\\/jjT7qv4oGvoy\\/1\\/fira-sans\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.us-east-1.prod.moon.dubai"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dremilnutrition.com",
+                "www.microingredients.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/AoQtxP83g5K6\\/jjT7qv4oGvoy\\/1\\/source-serif-pro\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.us-east-1.prod.moon.dubai"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dremilnutrition.com",
+                "www.microingredients.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "loader.us-east-1.prod.mrc-sunrise.marketing"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "25f32f2d4e5bb67ce61cc9a0a28ac5b93cf4f586683abb60aea94dc2f808dbf6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calculator.aws",
+                "s3-us-west-1.amazonaws.com",
+                "s3.amazonaws.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/1x1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.log.shortbread"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calculator.aws",
+                "community.aws",
+                "docs.amplify.aws",
+                "repost.aws",
+                "s3-us-west-1.amazonaws.com",
+                "s3.amazonaws.com",
+                "www.freertos.org"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/health-check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatbot-api.us-east-1.prod.mrc-sunrise.marketing"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ffc02d93f1be479604e4775c5f706829b34721f725f9bf1c443152d30501015c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calculator.aws",
+                "s3-us-west-1.amazonaws.com",
+                "s3.amazonaws.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/1\\.0\\.4933\\.0\\/chatbot\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "chat.us-east-1.prod.mrc-sunrise.marketing"
+            ],
+            "apis": {
+                "BroadcastChannel.prototype.constructor": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.product": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "window.innerHeight": 1,
+                "window.sessionStorage": 1,
+                "Screen.prototype.width": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7354cd9df2cc247a50ae3192dd5c2b4ac33188728ce3bec5fefa50e3179f7ce9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calculator.aws",
+                "s3-us-west-1.amazonaws.com",
+                "s3.amazonaws.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/custom-metric",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "infra-api.us-east-1.prod.mrc-sunrise.marketing"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "d698761c8f2e941c07e721dc4a455ca55a046576b2b63eea536a44f8e57e5921"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calculator.aws",
+                "s3-us-west-1.amazonaws.com",
+                "s3.amazonaws.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/assets\\/locales\\/en\\/chatui\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat.us-east-1.prod.mrc-sunrise.marketing"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "74283be1d84e5dd8ba128fbf66f30bd807285d62a2a485ebd9f5c6c2de45db19"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calculator.aws",
+                "s3-us-west-1.amazonaws.com",
+                "s3.amazonaws.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/custom-metric",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "infra-api.us-east-1.prod.mrc-sunrise.marketing"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calculator.aws",
+                "s3-us-west-1.amazonaws.com",
+                "s3.amazonaws.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/custom-metric",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "infra-api.us-east-1.prod.mrc-sunrise.marketing"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calculator.aws",
+                "s3-us-west-1.amazonaws.com",
+                "s3.amazonaws.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/assets\\/sounds\\/notification-sound\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat.us-east-1.prod.mrc-sunrise.marketing"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calculator.aws",
+                "s3-us-west-1.amazonaws.com",
+                "s3.amazonaws.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/5BxYQVlPVti7\\/B97IdePSMNDH\\/1\\/afzOjPyiZb\\/scripts\\/cart\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.us-east-1.prod.moon.dubai"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 9,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 9,
+                "window.innerWidth": 9
+            },
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "7f8f92af5839c7caf733eb03af41e125156cfa07c0e56b528b5640ad2be3f0e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carex.com",
+                "chpws.com",
+                "doublewoodsupplements.com",
+                "izod.com",
+                "satechi.net",
+                "shop.yosmart.com",
+                "triquetrahealth.com",
+                "www.batterytender.com",
+                "www.bumbleandbumble.com",
+                "www.heydude.com",
+                "www.microingredients.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/AoQtxP83g5K6\\/jjT7qv4oGvoy\\/1\\/amazon-ember\\/amazon-ember-bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.us-east-1.prod.moon.dubai"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "57a02eab83fbd7eb3fbb964139a7fe4e1404ddaf99298066e04e61ed833de5a0"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carex.com",
+                "chpws.com",
+                "doublewoodsupplements.com",
+                "izod.com",
+                "satechi.net",
+                "shop.yosmart.com",
+                "triquetrahealth.com",
+                "www.beautybyearth.com",
+                "www.bumbleandbumble.com",
+                "www.microingredients.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/AoQtxP83g5K6\\/jjT7qv4oGvoy\\/1\\/amazon-ember\\/amazon-ember-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.us-east-1.prod.moon.dubai"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "f3246884c4d5d2af3f0ac25e5fb31edef60d4ba58ce98cefbeb876a53f0e5adc"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carex.com",
+                "chpws.com",
+                "doublewoodsupplements.com",
+                "izod.com",
+                "satechi.net",
+                "shop.yosmart.com",
+                "store.insta360.com",
+                "triquetrahealth.com",
+                "www.beautybyearth.com",
+                "www.bumbleandbumble.com",
+                "www.microingredients.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/AoQtxP83g5K6\\/jjT7qv4oGvoy\\/1\\/amazon-ember\\/amazon-ember-regular\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.us-east-1.prod.moon.dubai"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ca720f8b4967dd4f7e8a6e79932817b7db4e7739c2e5fbe04e51f406ccf143ca"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "insta360.com",
+                "www.beautybyearth.com"
+            ]
+        },
+        {
+            "rule": "aws\\.dev\\/OiSaMbSUjcue\\/fZpiYaw9iHoc\\/latest\\/scripts\\/elements\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.us-east-1.prod.moon.dubai"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "21ee8d031576a0749fca1dde28f77ba293abe96b5307daaed396d86a07a63890"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amazfit.com",
+                "us.amazfit.com",
+                "www.microingredients.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "awsstatic.com",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "amazon.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "elements.amazon",
+            "prevalence": 0.075
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.03333333333333333
+        }
+    ],
+    "types": {
+        "Stylesheet": 19,
+        "Script": 20,
+        "XHR": 10,
+        "Fetch": 9,
+        "Preflight": 3,
+        "Media": 3,
+        "Font": 23
+    },
+    "nameservers": [
+        "ns-1918.awsdns-47.co.uk",
+        "ns-964.awsdns-56.net",
+        "ns-1108.awsdns-10.org",
+        "ns-399.awsdns-49.com"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "domain": "accesstype.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "accesstype\\.com\\/frontend\\/v2\\/accesstype\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "fa80a34b6d5e18cb7c08173201b7dbe04cf7fbbff5c977605d5d5cca96b3a504",
+                "34ecb99ddede50135718335225b0785117629664d4afca8f7c5384d0fd5f420d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esakal.com",
+                "www.thequint.com",
+                "www.westernstandard.news"
+            ]
+        },
+        {
+            "rule": "accesstype\\.com\\/api\\/v1\\/subscription_groups\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thequint.com",
+                "www.thequint.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "assettype.com",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ulla.ns.cloudflare.com",
+        "alan.ns.cloudflare.com"
+    ]
+}

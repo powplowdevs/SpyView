@@ -1,0 +1,106 @@
+{
+    "domain": "walmart.com",
+    "owner": {
+        "name": "Walmart Inc.",
+        "displayName": "Walmart"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "csp"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "walmart\\.com\\/",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravocompanyusa.com",
+                "sexyhive.com",
+                "torrbrowser.ru",
+                "www.nude.hu",
+                "www.planetsuzy.org",
+                "you-stories.com",
+                "zooporner.com"
+            ]
+        },
+        {
+            "rule": "walmart\\.com\\/c\\/r\\/liders",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lider.cl",
+                "www.lider.cl"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.0000566,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.525
+        },
+        {
+            "domain": "walmartimages.cl",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "korfo.org",
+            "prevalence": 0.1625
+        },
+        {
+            "domain": "impactcdn.com",
+            "prevalence": 0.0125
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Other": 2
+    },
+    "nameservers": [
+        "Pdnswm6.ultradns.co.uk",
+        "a22-67.akam.net",
+        "Pdnswm2.ultradns.net",
+        "a8-66.akam.net",
+        "Pdnswm3.ultradns.org",
+        "Pdnswm1.ultradns.net",
+        "Pdnswm4.ultradns.org",
+        "a10-66.akam.net",
+        "Pdnswm5.ultradns.info",
+        "a1-185.akam.net",
+        "a5-65.akam.net",
+        "a3-64.akam.net"
+    ]
+}

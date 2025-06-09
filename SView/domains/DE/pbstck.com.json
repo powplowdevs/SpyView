@@ -1,0 +1,283 @@
+{
+    "domain": "pbstck.com",
+    "owner": {
+        "name": "Pubstack",
+        "displayName": "Pubstack"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00224,
+    "sites": 22,
+    "subdomains": [
+        "boot",
+        "boot.dev",
+        "cdn",
+        "cdn.dev",
+        "intake"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pbstck\\.com\\/v1\\/tag\\/d9e0730d-cb6f-4482-b728-31d46e56f04b",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "boot",
+                "boot.dev"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1bf576269aab286a4112e6d1217faba932945306838c661e40b226cb327db65b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccm.net",
+                "de.ccm.net"
+            ]
+        },
+        {
+            "rule": "pbstck\\.com\\/user-sessions-71fca4c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "be5d49a12e6f6e348cea88b2f6803483fa16eb1a8f16f4e554e65f80af478d94"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccm.net",
+                "flightsim.to",
+                "linuxhandbook.com",
+                "steamcharts.com",
+                "www.allocine.fr",
+                "www.jpost.com",
+                "www.moddb.com",
+                "www.nexusmods.com",
+                "www.nintendolife.com",
+                "www.societe.com",
+                "www.viamichelin.de",
+                "www.w3docs.com"
+            ]
+        },
+        {
+            "rule": "pbstck\\.com\\/collector-cfcddc4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn",
+                "cdn.dev"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "29e7e9672e816580b9dcadc747c17efdb1422e6144d04f12c570d5a80cc5c2ee"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccm.net",
+                "de.ccm.net",
+                "flightsim.to",
+                "linuxhandbook.com",
+                "steamcharts.com",
+                "www.allocine.fr",
+                "www.jpost.com",
+                "www.moddb.com",
+                "www.nexusmods.com",
+                "www.nintendolife.com",
+                "www.societe.com",
+                "www.viamichelin.de",
+                "www.w3docs.com"
+            ]
+        },
+        {
+            "rule": "pbstck\\.com\\/v1\\/intake\\/web-vitals",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "intake"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccm.net",
+                "de.ccm.net",
+                "flightsim.to",
+                "linuxhandbook.com",
+                "steamcharts.com",
+                "www.allocine.fr",
+                "www.moddb.com",
+                "www.nexusmods.com",
+                "www.nintendolife.com",
+                "www.societe.com",
+                "www.viamichelin.de",
+                "www.w3docs.com"
+            ]
+        },
+        {
+            "rule": "pbstck\\.com\\/v1\\/tag\\/4481e514-5b89-4e92-91d4-64c6a88eec32",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "boot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meinestadt.de",
+                "www.meinestadt.de"
+            ]
+        },
+        {
+            "rule": "pbstck\\.com\\/index-monitoring-b39bcb6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "747695e9e29913427a60518ffb207a7289184230a457cdf4bbc29c95243c83f5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linuxhandbook.com",
+                "www.viamichelin.de"
+            ]
+        },
+        {
+            "rule": "pbstck\\.com\\/index-refresh-b39bcb6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0c7fb52037c4b7b95b2e8a3774267981505a81ea0a7ed7e54aa44da5a8165e86"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linuxhandbook.com",
+                "www.viamichelin.de"
+            ]
+        },
+        {
+            "rule": "pbstck\\.com\\/v1\\/intake\\/auction",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "intake"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moddb.com",
+                "www.nintendolife.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.22857142857142856
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "network-n.com",
+            "prevalence": 0.05714285714285714
+        },
+        {
+            "domain": "snack-media.com",
+            "prevalence": 0.02857142857142857
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.02857142857142857
+        },
+        {
+            "domain": "getjad.io",
+            "prevalence": 0.02857142857142857
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.02857142857142857
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 31,
+        "Ping": 12
+    },
+    "nameservers": [
+        "cloe.ns.cloudflare.com",
+        "miles.ns.cloudflare.com"
+    ]
+}

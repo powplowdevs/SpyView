@@ -1,0 +1,89 @@
+{
+    "domain": "collectcdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "collectcdn\\.com\\/launcher\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "dad1db625ccb65c840b64ba08771a31c537e8e813ad25f3be3d615a79f38ff27"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "collect_chat_page_load": {
+                    "ttl": 2592008,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridgepavers.com",
+                "www.nvisioncenters.com",
+                "www.rentokil.com"
+            ]
+        },
+        {
+            "rule": "collectcdn\\.com\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4cbb8e6916062b4ca50d3e0bbb5eab64d455df59ee155b62fd5bb18612a4c576"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridgepavers.com",
+                "www.rentokil.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "kip.ns.cloudflare.com",
+        "jade.ns.cloudflare.com"
+    ]
+}

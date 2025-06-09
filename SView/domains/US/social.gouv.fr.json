@@ -1,0 +1,109 @@
+{
+    "domain": "social.gouv.fr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "sentry2.fabrique",
+        "matomo.fabrique"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "social\\.gouv\\.fr\\/api\\/36\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sentry2.fabrique"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "260c292c4d19df210e61fad03e3f8634318875002f5345c0d6535ed46e4d9938"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "travail.gouv.fr",
+                "code.travail.gouv.fr"
+            ]
+        },
+        {
+            "rule": "social\\.gouv\\.fr\\/matomo\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "matomo.fabrique"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 1,
+                "Document.cookie setter": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "Navigator.prototype.javaEnabled": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "89e35b18e2ddd93f040839eb32f71a22a7781f27fca6e294f9405d5fb0ea2cc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.4.ef54": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_pk_ses.4.ef54": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "travail.gouv.fr",
+                "travail-emploi.gouv.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "nsa.perf1.fr",
+        "nsc.perf1.com",
+        "nsb.perf1.com",
+        "b.ns.developpement-durable.gouv.fr",
+        "a.ns.developpement-durable.gouv.fr"
+    ]
+}

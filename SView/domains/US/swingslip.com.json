@@ -1,0 +1,66 @@
+{
+    "domain": "swingslip.com",
+    "owner": {
+        "name": "Leven Labs, Inc. DBA Admiral",
+        "displayName": "Admiral"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "swingslip\\.com\\/v2xbkAfcgO6hRQT1HBpTO4cZEHXlbBhD5CaBXxUAV4VLkgD9exRhMJgE",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.sessionStorage": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "CookieStore.prototype.getAll": 3,
+                "CookieStore.prototype.set": 2,
+                "Notification.permission": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "f5aa52a20d9732ed94aad1fdc410ec3c26fa7c9691309554a58d3a28008c4f55",
+                "e3dfe9f97e2f140b596c6e04aefc8fe0db7f5939aac1d196910a2a93a77f1009"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "militarytimes.com",
+                "valor.militarytimes.com",
+                "www.militarytimes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-164.awsdns-20.com",
+        "ns-985.awsdns-59.net",
+        "ns-1907.awsdns-46.co.uk",
+        "ns-1311.awsdns-35.org"
+    ]
+}

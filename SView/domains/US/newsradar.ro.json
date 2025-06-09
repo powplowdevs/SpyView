@@ -1,0 +1,93 @@
+{
+    "domain": "newsradar.ro",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "newsradar\\.ro\\/collect\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "67cae37e2dae3092fe535a48a0245db1111fbd5a953be21ff520f94a42625ade"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nr-uuid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playtech.ro",
+                "www.b1tv.ro",
+                "www.bzi.ro",
+                "www.romaniatv.net"
+            ]
+        },
+        {
+            "rule": "newsradar\\.ro\\/api\\/harvest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nr-uuid": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "playtech.ro",
+                "www.b1tv.ro",
+                "www.bzi.ro",
+                "www.romaniatv.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 4
+    },
+    "nameservers": [
+        "fay.ns.cloudflare.com",
+        "todd.ns.cloudflare.com"
+    ]
+}

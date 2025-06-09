@@ -1,0 +1,86 @@
+{
+    "domain": "chase.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000134,
+    "sites": 19,
+    "subdomains": [
+        "gtm.secure"
+    ],
+    "cnames": [
+        {
+            "original": "secure.chase.com",
+            "resolved": "gtm.secure.chase.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "chase\\.com\\.akadns\\.net\\/events\\/analytics\\/public\\/v1\\/cc\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm.secure"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [
+                {
+                    "original": "secure.chase.com",
+                    "resolved": "gtm.secure.chase.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "v1st": 0.00003536668175645088
+            },
+            "exampleSites": [
+                "chase.com",
+                "account.chase.com",
+                "autofinance.chase.com",
+                "careers.jpmorgan.com",
+                "chaseonline.chase.com",
+                "creditcards.chase.com",
+                "locator.chase.com",
+                "personal.chase.com",
+                "www.chase.com",
+                "www.jpmorgan.com",
+                "www.jpmorganchase.com",
+                "www.jpmorganchasecc.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "techlab-cdn.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "jpmorganchase.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Fetch": 12
+    },
+    "nameservers": []
+}

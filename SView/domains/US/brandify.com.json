@@ -1,0 +1,79 @@
+{
+    "domain": "brandify.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "alphaapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "brandify\\.com\\/rest\\/locatorsearch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alphaapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traderjoes.com",
+                "www.traderjoes.com"
+            ]
+        },
+        {
+            "rule": "brandify\\.com\\/rest\\/locatorsearch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alphaapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "05eba9cdaaf404c31ee41355521e1db37b46d0ef9374a97a2c3042e775c5797c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traderjoes.com",
+                "www.traderjoes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns10.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com"
+    ]
+}

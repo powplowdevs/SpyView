@@ -1,0 +1,60 @@
+{
+    "domain": "johndeere.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "signin",
+        "sso"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "johndeere\\.com\\/api\\/v1\\/sessions\\/me",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signin",
+                "sso"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7efaa0e2eee75a8d96f44f6109569aa7df576a66f80fd6b05dee26b15ba94a51"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "myjohndeere.deere.com",
+                "shop.deere.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns2.deere.com",
+        "ns1.deere.com",
+        "ns2a.deere.com",
+        "ns3.deere.com",
+        "ns4.deere.com"
+    ]
+}

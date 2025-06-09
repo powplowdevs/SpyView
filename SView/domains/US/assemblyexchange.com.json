@@ -1,0 +1,374 @@
+{
+    "domain": "assemblyexchange.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "ads",
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "assemblyexchange\\.com\\/web\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aminoapps.com",
+                "imgur.com",
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/web\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "7503bd513f38354c85b7ef4bb1754d96e2c404989b5b800b6b91ecdd053a9475"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aminoapps.com",
+                "imgur.com",
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aminoapps.com",
+                "imgur.com",
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/doh\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aminoapps.com",
+                "imgur.com",
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/doh\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "9567c15e10dad63f96d2f512e4d6afa7b24c9cf762014619770eaaa0bec88425",
+                "2cb79b24db9431faf706310949cd70a85e8744c70c2dc00c999cd95fe43211f4",
+                "4976ef1a50cc3fdebfaff0ba85d2f6a46cf20a09ef2e69abdab1b003ff18d696"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aminoapps.com",
+                "imgur.com",
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/iiquniversalid\\.6\\.111\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "window.innerHeight": 4,
+                "window.innerWidth": 4,
+                "window.devicePixelRatio": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.width": 4,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "3cbc6d643c697a9e2cf53d904779b86c81023ebb800c14c8154b5ffecc0f4846"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_iiq_fdata": {
+                    "ttl": null,
+                    "length": 94,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aminoapps.com",
+                "imgur.com",
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/doh\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aminoapps.com",
+                "imgur.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/doh\\/ingest",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "assembly_uid": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "aminoapps.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/ana-sentry\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d36190116ed8e086f02aee7f610f7593e20928d222682a0a2b874fdb04d7f29a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/wana\\.5\\.24\\.0\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.permissions": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a07454f9530354ffc290dac03f93cec9e953b3e2d09827ad59a5e509d2d0e8c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ana_client_session_id": {
+                    "ttl": 1831,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/videojs-skip-ima3-unskippable\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4bedc4b5cee0e51589416856a169dfbaeb1ba1902d2171e97cd8f377821bbc11"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        },
+        {
+            "rule": "assemblyexchange\\.com\\/videojs-skip-ima3-unskippable\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "45c96aad7defc8db8dcad97201690d336a84f89f34f5b5b8649e2f9e16753e5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldstar.com",
+                "worldstarhiphop.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4727272727272727
+        },
+        {
+            "domain": "d3c8j8snkzfr1n.cloudfront.net",
+            "prevalence": 0.10909090909090909
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.10909090909090909
+        },
+        {
+            "domain": "worldstar.com",
+            "prevalence": 0.10909090909090909
+        },
+        {
+            "domain": "pubmatic.com",
+            "prevalence": 0.07272727272727272
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.05454545454545454
+        },
+        {
+            "domain": "openx.net",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "rubiconproject.com",
+            "prevalence": 0.03636363636363636
+        }
+    ],
+    "types": {
+        "Preflight": 8,
+        "Fetch": 12,
+        "Script": 10,
+        "Document": 3,
+        "Image": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a3.googledomains.com"
+    ]
+}

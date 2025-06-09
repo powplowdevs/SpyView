@@ -1,0 +1,111 @@
+{
+    "domain": "nofraud.com",
+    "owner": {
+        "name": "NoFraud LLC",
+        "displayName": "NoFraud"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000523,
+    "sites": 5,
+    "subdomains": [
+        "services"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "nofraud\\.com\\/js\\/device\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+                "MediaSource.isTypeSupported": 1,
+                "Date.prototype.getTime": 1,
+                "CanvasRenderingContext2D.prototype.measureText": 1,
+                "Performance.prototype.memory": 1,
+                "Navigator.prototype.vendorSub": 1,
+                "Navigator.prototype.productSub": 1,
+                "Navigator.prototype.vendor": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.connection": 1,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.mimeTypes": 1,
+                "Navigator.prototype.webkitTemporaryStorage": 1,
+                "Navigator.prototype.webkitPersistentStorage": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.appCodeName": 1,
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.onLine": 1,
+                "Navigator.prototype.webdriver": 1,
+                "Navigator.prototype.keyboard": 1,
+                "Navigator.prototype.mediaDevices": 1,
+                "Navigator.prototype.storage": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "Navigator.prototype.mediaCapabilities": 1,
+                "Navigator.prototype.permissions": 1,
+                "Navigator.prototype.presentation": 1,
+                "Navigator.prototype.getGamepads": 1,
+                "MediaDevices.prototype.enumerateDevices": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Screen.prototype.pixelDepth": 1,
+                "Screen.prototype.availLeft": 1,
+                "Screen.prototype.availTop": 1,
+                "Screen.prototype.orientation": 1,
+                "speechSynthesis.__proto__.getVoices": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Notification.permission": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000314,
+            "cnames": [],
+            "responseHashes": [
+                "c3d137f24a3360cd2fc98bdf145a1d07d3a822b8b743fb5001567602bba62085",
+                "91a48c51cce6fe08bc5e7a7a54f87fd07e137cb72f5058d20f5c18d0916ad473"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "musicredone.com",
+                "www.chefsupplies.ca",
+                "www.sigmacanada.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000105,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1227.awsdns-25.org",
+        "ns-480.awsdns-60.com",
+        "ns-1883.awsdns-43.co.uk",
+        "ns-761.awsdns-31.net"
+    ]
+}

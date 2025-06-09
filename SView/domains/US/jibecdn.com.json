@@ -1,0 +1,356 @@
+{
+    "domain": "jibecdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "app",
+        "assets",
+        "analytics",
+        "snowplowjs"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "jibecdn\\.com\\/prod\\/personalization\\/1\\.1\\.55\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "558ab7a81df70177966c6a59a7dada3630d43f89c28daa14f15ee72ece57df49"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autozone.com",
+                "careers.heb.com",
+                "careers.petsmart.com",
+                "www.footlocker.com.au",
+                "www.pepsicojobs.com"
+            ]
+        },
+        {
+            "rule": "jibecdn\\.com\\/prod\\/cdn\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "a55342f2433cd9951ed414d1f97a994f518331f7cb9253d3f90f5f6a54bd4bf5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autozone.com",
+                "careers.dollargeneral.com",
+                "careers.heb.com",
+                "careers.petsmart.com",
+                "www.footlocker.com.au",
+                "www.pepsicojobs.com"
+            ]
+        },
+        {
+            "rule": "jibecdn\\.com\\/prod\\/search-bar\\/0\\.2\\.38\\/polyfills\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Animation.prototype.currentTime": 4,
+                "Animation.prototype.startTime": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "9418c1800b01e9a89996ddc1e373683b66fd4f4267e4840d26cbf791f3f310b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autozone.com",
+                "careers.heb.com",
+                "careers.petsmart.com",
+                "www.footlocker.com.au",
+                "www.pepsicojobs.com"
+            ]
+        },
+        {
+            "rule": "jibecdn\\.com\\/prod\\/search-bar\\/0\\.2\\.38\\/scripts\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "1246f9c50f19e5d0673dce90d6ba610c5a059edede875bd32e7004b5f592ed42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autozone.com",
+                "careers.heb.com",
+                "careers.petsmart.com",
+                "www.footlocker.com.au",
+                "www.pepsicojobs.com"
+            ]
+        },
+        {
+            "rule": "jibecdn\\.com\\/prod\\/search-bar\\/0\\.2\\.38\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "52c7e83dc2f15cf9d08c1296dcf8897afa54e31b12efde66f0cc5428e4067ac4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autozone.com",
+                "careers.heb.com",
+                "careers.petsmart.com",
+                "www.footlocker.com.au",
+                "www.pepsicojobs.com"
+            ]
+        },
+        {
+            "rule": "jibecdn\\.com\\/prod\\/autozone\\/0\\.0\\.193\\/bricks\\/SKU-a1-video\\/assets\\/Autozone_WorkingHere\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autozone.com",
+                "careers.autozone.com"
+            ]
+        },
+        {
+            "rule": "jibecdn\\.com\\/prod\\/jibe\\.analytics\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 6,
+                "Element.prototype.getClientRects": 3,
+                "Document.cookie setter": 5
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "a81fc70e9e656ecb54207f5b51ab2f6dfad8193bb5a55f0701aee41ecfabc10b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autozone.com",
+                "careers.dollargeneral.com",
+                "careers.heb.com",
+                "careers.petsmart.com",
+                "jobs.statefarm.com",
+                "www.footlocker.com.au",
+                "www.pepsicojobs.com"
+            ]
+        },
+        {
+            "rule": "jibecdn\\.com\\/2\\.18\\.2\\/xK7r45S4KmXL4w8kJapWq\\.js",
+            "cookies": 0.0000495,
+            "fingerprinting": 2,
+            "subdomains": [
+                "snowplowjs"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "window.sessionStorage": 7,
+                "Navigator.prototype.doNotTrack": 7,
+                "Navigator.prototype.language": 7,
+                "Navigator.prototype.mimeTypes": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Screen.prototype.colorDepth": 7,
+                "Navigator.prototype.cookieEnabled": 7,
+                "Date.prototype.getTime": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7,
+                "PerformanceTiming.prototype.navigationStart": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "Navigator.prototype.javaEnabled": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "e60566140391e341c2fb0139d6a36214cc68a132acfb259cfbeabe5fc5c3790f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_janalytics_ses.c858": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_id.c858": {
+                    "ttl": 63072003,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_ses.540e": {
+                    "ttl": 1809,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_id.540e": {
+                    "ttl": 63072009,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_ses.90ac": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_id.90ac": {
+                    "ttl": 63072003,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_ses.0a8b": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_id.0a8b": {
+                    "ttl": 63072006,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_ses.9912": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_id.9912": {
+                    "ttl": 63072003,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_ses.4786": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_id.4786": {
+                    "ttl": 63072004,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_ses.1a47": {
+                    "ttl": 1832,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_janalytics_id.1a47": {
+                    "ttl": 63072032,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autozone.com",
+                "careers.dollargeneral.com",
+                "careers.heb.com",
+                "careers.petsmart.com",
+                "jobs.statefarm.com",
+                "www.footlocker.com.au",
+                "www.pepsicojobs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8767123287671232
+        },
+        {
+            "domain": "footlocker.com",
+            "prevalence": 0.1232876712328767
+        }
+    ],
+    "types": {
+        "Stylesheet": 5,
+        "Script": 35,
+        "Media": 2
+    },
+    "nameservers": [
+        "alice.ns.cloudflare.com",
+        "rodney.ns.cloudflare.com"
+    ]
+}

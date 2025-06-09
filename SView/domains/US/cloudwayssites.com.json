@@ -1,0 +1,150 @@
+{
+    "domain": "cloudwayssites.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "secure"
+    ],
+    "cnames": [
+        {
+            "original": "blog.charitywatch.org",
+            "resolved": "secure.cloudwayssites.com"
+        },
+        {
+            "original": "news.sru.edu",
+            "resolved": "secure.cloudwayssites.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cloudwayssites\\.com\\/wp-content\\/uploads\\/2024\\/10\\/failing-grade\\.png",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "blog.charitywatch.org",
+                    "resolved": "secure.cloudwayssites.com"
+                }
+            ],
+            "responseHashes": [
+                "98075578cd7fb9c9a4aa775ad2d72f3af325e02b0ac34454f870304347322928"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charitywatch.org",
+                "www.charitywatch.org"
+            ]
+        },
+        {
+            "rule": "cloudwayssites\\.com\\/wp-content\\/uploads\\/2024\\/12\\/Boy-S_b7ccd\\.png",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "blog.charitywatch.org",
+                    "resolved": "secure.cloudwayssites.com"
+                }
+            ],
+            "responseHashes": [
+                "bbf2386a5f32a1dcfed8b762263acdec64464bb7e206f8667f8d033525f14ec0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charitywatch.org",
+                "www.charitywatch.org"
+            ]
+        },
+        {
+            "rule": "cloudwayssites\\.com\\/wp-json\\/wp\\/v2\\/categories",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "news.sru.edu",
+                    "resolved": "secure.cloudwayssites.com"
+                }
+            ],
+            "responseHashes": [
+                "280d06b3b0ff0132b762ff31d599fb63077ac3c9a0b3f29b5c3680c65dacde17"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sru.edu",
+                "www.sru.edu"
+            ]
+        },
+        {
+            "rule": "cloudwayssites\\.com\\/wp-json\\/wp\\/v2\\/posts",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "news.sru.edu",
+                    "resolved": "secure.cloudwayssites.com"
+                }
+            ],
+            "responseHashes": [
+                "9dba772579786395c3fdb7f5e949fe3d3c16969a96b22fceba0aaeb18f1a730b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sru.edu",
+                "www.sru.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "johnny.ns.cloudflare.com",
+        "abby.ns.cloudflare.com"
+    ]
+}

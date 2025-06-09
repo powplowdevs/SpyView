@@ -1,0 +1,66 @@
+{
+    "domain": "bloomingdales.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "expcore"
+    ],
+    "cnames": [
+        {
+            "original": "expcore.bloomingdales.com",
+            "resolved": "expcore.bloomingdales.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bloomingdales\\.com\\.edgekey\\.net\\/filteredExperiments",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "expcore"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "expcore.bloomingdales.com",
+                    "resolved": "expcore.bloomingdales.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d1b172195d0eabb301e53b8c61628b2fe4ed28655d078a165352f7e8afee1602"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bloomingdales.com",
+                "www.bloomingdales.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "bloomingdalesassets.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

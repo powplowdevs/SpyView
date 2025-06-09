@@ -1,0 +1,387 @@
+{
+    "domain": "truendo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000849,
+    "sites": 12,
+    "subdomains": [
+        "prod-origin",
+        "cdn",
+        "prod-fra"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "truendo\\.com\\/pc\\/app\\.pid\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-origin",
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Navigator.prototype.languages": 2,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "8313bc777b95f1deafeaa2d8c1c55ba050760b2ab73e947a3ffd4c2b85fbf1d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "truendo_cc": {
+                    "ttl": 31536001,
+                    "length": 577,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "tru_token": {
+                    "ttl": 2592001,
+                    "length": 22,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "truendo-tcf-v2": {
+                    "ttl": 31536001,
+                    "length": 453,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tikkurila.fi",
+                "www.bmeia.gv.at",
+                "www.laola1.at",
+                "www.sunearthtools.com",
+                "www.tele.at"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/region\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-origin"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "9a9d1b952d4a32f07a070698dbbdc82072a98415e9372f561a01b983010f30a3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tikkurila.fi",
+                "www.bmeia.gv.at",
+                "www.checkmybus.com",
+                "www.laola1.at",
+                "www.saturdaydownsouth.com",
+                "www.sportsbettingdime.com",
+                "www.sunearthtools.com",
+                "www.tele.at"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/jsons\\/87f0368d-e6d8-4ae7-becc-ff781aa20967\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-origin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ca2aa85eb6009f6365938b24c5624d40dd9079639bc75690316e6fa58597e4fb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkmybus.com",
+                "www.checkmybus.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/configs\\/87f0368d-e6d8-4ae7-becc-ff781aa20967\\/default",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-origin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ca2aa85eb6009f6365938b24c5624d40dd9079639bc75690316e6fa58597e4fb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkmybus.com",
+                "www.checkmybus.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/consent\\/public\\/save",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-fra"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkmybus.com",
+                "www.checkmybus.com",
+                "www.laola1.at",
+                "www.saturdaydownsouth.com",
+                "www.sportsbettingdime.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/consent\\/public\\/save\\/integrity\\/87f0368d-e6d8-4ae7-becc-ff781aa20967",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-fra"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkmybus.com",
+                "www.checkmybus.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/consent\\/public\\/save",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-fra"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkmybus.com",
+                "www.checkmybus.com",
+                "www.laola1.at",
+                "www.saturdaydownsouth.com",
+                "www.sportsbettingdime.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/consent\\/public\\/save\\/integrity\\/87f0368d-e6d8-4ae7-becc-ff781aa20967",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-fra"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checkmybus.com",
+                "www.checkmybus.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/consent\\/public\\/save\\/integrity\\/01bd7055-e7de-4530-984a-d3dbf892654b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-fra"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saturdaydownsouth.com",
+                "www.saturdaydownsouth.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/consent\\/public\\/save\\/integrity\\/01bd7055-e7de-4530-984a-d3dbf892654b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-fra"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saturdaydownsouth.com",
+                "www.saturdaydownsouth.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/consent\\/public\\/save\\/integrity\\/6f66943d-94a6-486c-999a-db3ee2c07e1c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-fra"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsbettingdime.com",
+                "www.sportsbettingdime.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/consent\\/public\\/save\\/integrity\\/6f66943d-94a6-486c-999a-db3ee2c07e1c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-fra"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsbettingdime.com",
+                "www.sportsbettingdime.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/configs\\/5d052aa2-3858-43b4-936d-c3b91513dce0\\/rules\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-origin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b861fd4a75b74a13a1c038fc5f90bccebfb13a373ac669c3747154daeb1f4996"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunearthtools.com",
+                "www.sunearthtools.com"
+            ]
+        },
+        {
+            "rule": "truendo\\.com\\/jsons\\/5d052aa2-3858-43b4-936d-c3b91513dce0\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-origin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cb9437332dd367fa8f0a45f6c7db427722a67c0c090657e5641f80c61f203d0b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunearthtools.com",
+                "www.sunearthtools.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "priv.center",
+            "prevalence": 0.7948717948717948
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.20512820512820512
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 14,
+        "Preflight": 11,
+        "XHR": 13
+    },
+    "nameservers": [
+        "ns-31.awsdns-03.com",
+        "ns-517.awsdns-00.net",
+        "ns-1248.awsdns-28.org",
+        "ns-1749.awsdns-26.co.uk"
+    ]
+}

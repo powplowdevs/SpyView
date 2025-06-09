@@ -1,0 +1,101 @@
+{
+    "domain": "realpython.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "srv",
+        "img"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "realpython\\.net\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "10282a57110bfdbc02b74865deb8404bdd4d56082b0c89941beda65a2526a7bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "python-guide.org",
+                "realpython.com"
+            ]
+        },
+        {
+            "rule": "realpython\\.net\\/call\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "55246e7b34597a220ec81c0aca710f3fec814324edcf1b8b3da760f96169ef15"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "python-guide.org",
+                "realpython.com"
+            ]
+        },
+        {
+            "rule": "realpython\\.net\\/2111f03d8d3f4b9da572b5c20150f0df",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "62cd2cce3c3e30b2adfd61d129ef498476a7759cb5278b71d34d9eb122666fe7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "python-guide.org",
+                "realpython.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "joan.ns.cloudflare.com",
+        "curt.ns.cloudflare.com"
+    ]
+}

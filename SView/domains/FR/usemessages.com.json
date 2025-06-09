@@ -1,0 +1,109 @@
+{
+    "domain": "usemessages.com",
+    "owner": {
+        "name": "HubSpot, Inc.",
+        "displayName": "HubSpot",
+        "privacyPolicy": "https://legal.hubspot.com/privacy-policy",
+        "url": "http://hubspot.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00307,
+    "sites": 30,
+    "subdomains": [
+        "js",
+        "js-eu1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "usemessages\\.com\\/conversations-embed\\.js",
+            "cookies": 0.00307,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js",
+                "js-eu1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 30,
+                "window.localStorage": 29,
+                "Document.cookie getter": 29,
+                "Date.prototype.getTime": 27,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 30,
+            "prevalence": 0.00307,
+            "cnames": [],
+            "responseHashes": [
+                "91a519599880b7b89c43c818f4e38437a8b4539dbc7091d9f34bbf476934e439"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "messagesUtk": {
+                    "ttl": 15552019,
+                    "length": 32,
+                    "prevalence": 0.00010235414534288638,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.edf-solutions-solaires.com",
+                "www.captaincontrat.com",
+                "www.tiime.fr",
+                "www.jamesedition.com",
+                "www.truenas.com",
+                "www.psychologue.net",
+                "www.l-expert-comptable.com",
+                "mxtoolbox.com",
+                "pytorch.org",
+                "www.atelierdeschefs.fr",
+                "www.monkitsolaire.fr",
+                "www.woodbrass.com",
+                "www.proz.com",
+                "www.veracash.com",
+                "www.aucoffre.com",
+                "www.obat.fr",
+                "www.icd10data.com",
+                "weezevent.com",
+                "maison-etanche.com",
+                "datascientest.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content",
+        "Support Chat Widget"
+    ],
+    "performance": {},
+    "cookies": 0.00307,
+    "topInitiators": [
+        {
+            "domain": "hs-scripts.com",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23333333333333334
+        },
+        {
+            "domain": "hubspotusercontent-na1.net",
+            "prevalence": 0.03333333333333333
+        },
+        {
+            "domain": "aapc.com",
+            "prevalence": 0.03333333333333333
+        }
+    ],
+    "types": {
+        "Script": 30
+    },
+    "nameservers": [
+        "jerry.ns.cloudflare.com",
+        "yolanda.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "domain": "inntopia.travel",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "inntopia\\.travel\\/ecomm\\/JSONAPI\\/GetSession",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5941b9a08face9a1aece72b6934aab1c571d5268289fb344c2b4909ec53391d5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mammothmountain.com",
+                "www.mammothmountain.com"
+            ]
+        },
+        {
+            "rule": "inntopia\\.travel\\/ecomm\\/JSONAPI\\/GetCart",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mammothmountain.com",
+                "www.mammothmountain.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns14.digicertdns.net",
+        "ns10.digicertdns.com",
+        "ns11.digicertdns.com",
+        "ns12.digicertdns.com",
+        "ns13.digicertdns.net",
+        "ns15.digicertdns.net"
+    ]
+}

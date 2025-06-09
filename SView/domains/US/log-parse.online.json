@@ -1,0 +1,84 @@
+{
+    "domain": "log-parse.online",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "parse"
+    ],
+    "cnames": [
+        {
+            "original": "parse.imymac.com",
+            "resolved": "parse.log-parse.online"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "log-parse\\.online\\/parse\\/classes\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "parse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "parse.imymac.com",
+                    "resolved": "parse.log-parse.online"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "imymac.com",
+                "www.imymac.com"
+            ]
+        },
+        {
+            "rule": "log-parse\\.online\\/parse\\/classes\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "parse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "parse.imymac.com",
+                    "resolved": "parse.log-parse.online"
+                }
+            ],
+            "responseHashes": [
+                "21d91965fed8b5ef3b0ce4aed1621f96e175e805a8cf89e0e105769dcf46d00a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "imymac.com",
+                "www.imymac.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

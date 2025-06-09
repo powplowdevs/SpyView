@@ -1,0 +1,380 @@
+{
+    "domain": "orbsrv.com",
+    "owner": {
+        "name": "ExoClick, S.L.",
+        "displayName": "ExoClick",
+        "privacyPolicy": "https://www.exoclick.com/privacy/",
+        "url": "http://exoclick.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00326,
+    "sites": 32,
+    "subdomains": [
+        "a",
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "orbsrv\\.com\\/nativeads-v2\\.js",
+            "cookies": 0.000306,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.innerWidth": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "fbb9d0fcf65652a305ac0584b7f48d471e7adb9c7d80d81feb86e2b959ca07c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gay.bingo",
+                "de.gay.bingo",
+                "de.shemale.movie"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/splash\\.php",
+            "cookies": 0.00051,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "3ed62f927d87a0ced23568f645211b82b95c9da9313d26c26e6ddd2220f5ff68",
+                "7579fe4950db3dcf4cdf66d878e2fabf81a98d55d60de6a8ee839c11bf9c3905",
+                "29daad418ee287a932732adfea08cab35ca4cfdb2007b4392cffd1693ab253dc",
+                "144fc34c27d9470c8b2e194fdf73654237e703906d2c3e8c1476d0969e9df4ef"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gay.bingo",
+                "de.gay.bingo",
+                "de.shemale.movie",
+                "www.fickverein.com",
+                "www.lesbenpornos.tv"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/splash\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gay.bingo",
+                "de.gay.bingo",
+                "de.shemale.movie"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/ad-provider\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Navigator.prototype.userAgent": 19,
+                "Navigator.prototype.language": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "window.innerWidth": 12,
+                "window.innerHeight": 12,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 1
+            },
+            "sites": 24,
+            "prevalence": 0.00245,
+            "cnames": [],
+            "responseHashes": [
+                "2f7dbd5f9cac9270fde91c9e2078129a866b864cd627951b1cfb5c40cb22a039"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zone-cap-1487606": {
+                    "ttl": 21604,
+                    "length": 1,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.xvideos.com",
+                "www.youjizz.com",
+                "tgtsporn.com",
+                "iporntv.net",
+                "www.xerotica.com",
+                "www.femjoyhunter.com",
+                "www.metarthunter.com",
+                "thematurepornpics.com",
+                "xxxshake.com",
+                "www.xnxx.es",
+                "www.oldclassicporn.com",
+                "www.lesbenpornos.tv",
+                "en.xnxx.place",
+                "www.xvideos.tube",
+                "xxxvideo.best",
+                "fr.xvideos.com",
+                "www.fickverein.com",
+                "de.xnxx.place",
+                "retropornfilms.com",
+                "www.elitebabes.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/v1\\/api\\.php",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "6bdbf8047f28076da3d622ca2c2c876b807ac300caab95c652d4badc906a9e11",
+                "40c9b612c47ac1398013c4dbf6ffcfe59a5c1f14324507672389f7ab21fd4d1e",
+                "7b020a92f5e59da8020c0b4778ae3ec05337830a06bcbf9f9c250272a6f65208",
+                "ac9b481cc11212ca665bf7f4c973c3e1b5a31a70ee14aceae712d62851e0b399",
+                "e087d458c5c8da6b6c11776652b18221d2c18e6d2550d47dc38f4a036b62433d",
+                "8281e8c3652c6e8b0d0ff25dff69376068ad1ee85c2fdd8ad556779a5ccbcd7e",
+                "b59a8bfaa7302e8e7fa4a34ce8540181e4f6c2a4fdcdfb35dfa5c220a4d0e667",
+                "36824aaed611a0203928dc7fd57788c8be8cdc69fa6924828e74652fa594c6f0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xgroovy.com",
+                "japxtube.com",
+                "iporntv.net",
+                "jizzberry.com",
+                "retropornfilms.com",
+                "tgtsporn.com",
+                "thematurepornpics.com",
+                "www.fickverein.com",
+                "www.lesbenpornos.tv",
+                "www.oldclassicporn.com",
+                "www.onejapanese.com",
+                "xxxshake.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/cimp\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xgroovy.com",
+                "de.xgroovy.com",
+                "japxtube.com",
+                "iporntv.net",
+                "jizzberry.com",
+                "retropornfilms.com",
+                "tgtsporn.com",
+                "thematurepornpics.com",
+                "www.fickverein.com",
+                "www.lesbenpornos.tv",
+                "www.oldclassicporn.com",
+                "www.onejapanese.com",
+                "xxxshake.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/vregister\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jizzberry.com",
+                "xxxshake.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/tag\\.php",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clips4sale.com",
+                "porngames.games",
+                "pornone.com",
+                "www.sexlikereal.com"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/video-slider\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "047ef4916810b93a93fedf57b138c0a458c87d4d8a60219b4ac74102f62c7b64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fickverein.com",
+                "www.lesbenpornos.tv"
+            ]
+        },
+        {
+            "rule": "orbsrv\\.com\\/vregister\\.php",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fickverein.com",
+                "www.fickverein.com",
+                "www.lesbenpornos.tv"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00194,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.30303030303030304
+        },
+        {
+            "domain": "magsrv.com",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "hotadultvids.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "189tutors.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "exoclick.com",
+            "prevalence": 0.06060606060606061
+        },
+        {
+            "domain": "xnxx-cdn.com",
+            "prevalence": 0.030303030303030304
+        },
+        {
+            "domain": "xvideos-cdn.com",
+            "prevalence": 0.030303030303030304
+        },
+        {
+            "domain": "sharki.online",
+            "prevalence": 0.030303030303030304
+        },
+        {
+            "domain": "bronze-leather.com",
+            "prevalence": 0.015151515151515152
+        },
+        {
+            "domain": "xdisplay.site",
+            "prevalence": 0.015151515151515152
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "XHR": 32,
+        "Preflight": 3,
+        "Image": 7
+    },
+    "nameservers": [
+        "dns1.cloudns.net",
+        "dns2.cloudns.net",
+        "sec1.rcode0.net",
+        "sec2.rcode0.net"
+    ]
+}

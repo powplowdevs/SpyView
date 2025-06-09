@@ -1,0 +1,141 @@
+{
+    "domain": "h-cdn.com",
+    "owner": {
+        "name": "Hola Networks Ltd.",
+        "displayName": "Hola Networks"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "player",
+        "zagent29",
+        "perr"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "h-cdn\\.com\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.platform": 1,
+                "window.sessionStorage": 1,
+                "window.devicePixelRatio": 1,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2bf09f09230f4fe09614344c6adc55c5e3773d6e18e55b02a5d4f999961ef823",
+                "6e81695fee30bf7d9bc5e4a41597e8f7481e13e6cdd6bf4e82f4d04911a5af6b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportschau.de",
+                "www.sportschau.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "df0453cf0bd23b6bcb0a99efbfeac9499a5d72ad8943e51e6f3029e0f6850154"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportschau.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/cmd\\/get_links_info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zagent29"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ca2ebfd8e2bf97b4a51c4bcfb51dc46a9df3f9a64b2ef50d100b7af231181df6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportschau.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/be_client_cgi\\/perr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "perr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportschau.de",
+                "www.tagesschau.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-1405.awsdns-47.org",
+        "ns-1554.awsdns-02.co.uk",
+        "ns-43.awsdns-05.com",
+        "ns-661.awsdns-18.net"
+    ]
+}

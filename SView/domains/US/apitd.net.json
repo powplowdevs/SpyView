@@ -1,0 +1,111 @@
+{
+    "domain": "apitd.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "de-fp",
+        "us-fp",
+        "us-behavior",
+        "de-behavior"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "apitd\\.net\\/web\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "de-fp",
+                "us-fp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "a1d88b01842fb6743c271cadce496f69dffbc582eec501c0189bc4994fd33f5f",
+                "a3dd3a110f095a42bbe2e696d5f551f77b880d1b961fb24cd703a1789366a1a2",
+                "4b51d05f3f8d48f515cc0e7374ff1c5168af367495693ad493b7122cbcc59f55"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1v1chat.me",
+                "nl.shein.com",
+                "www.hay.fun",
+                "www.liveme.com"
+            ]
+        },
+        {
+            "rule": "apitd\\.net\\/behavior\\/profile\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-behavior",
+                "de-behavior"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a77dfaa0adb5a2d70753124ff29bd08de1c23caf89c7ce978b9f44c8b03dba83"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shein.com",
+                "nl.shein.com"
+            ]
+        },
+        {
+            "rule": "apitd\\.net\\/behavior\\/profile\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-behavior",
+                "de-behavior"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shein.com",
+                "nl.shein.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "trustdecision.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "ltwebstatic.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns4.dnsv4.com",
+        "ns3.dnsv4.com"
+    ]
+}

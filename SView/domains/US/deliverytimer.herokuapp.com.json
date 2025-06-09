@@ -1,0 +1,129 @@
+{
+    "domain": "deliverytimer.herokuapp.com",
+    "owner": {
+        "name": "Salesforce.com, Inc.",
+        "displayName": "Salesforce.com",
+        "privacyPolicy": "https://www.salesforce.com/company/privacy/",
+        "url": "http://salesforce.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "deliverytimer\\.herokuapp\\.com\\/deliverrytimer\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a2f5f244fd3de367a56189af98c03798c5acdd61edf4b179c3710ff6560d4ac2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackwing602.com",
+                "www.turtlewax.com"
+            ]
+        },
+        {
+            "rule": "deliverytimer\\.herokuapp\\.com\\/output\\/get_remote_ip\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "cb763b58088c4e406818723961f0eacd2786a1b2a5d2dce93aeb9f641db509bb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blade-tech.com",
+                "refrigerantscenter.com",
+                "www.fashioneyewear.com",
+                "www.turtlewax.com"
+            ]
+        },
+        {
+            "rule": "deliverytimer\\.herokuapp\\.com\\/output\\/get_geolocation_info\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "6af50a8756074c51d8465ebb4170bb2518c9257df1037998eddac667218768c3",
+                "4900d3d1d0b0c53ccd2af8c307732ef784d4e9ced54aa2b6bd7b416e1439ad1d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blade-tech.com",
+                "refrigerantscenter.com",
+                "www.fashioneyewear.com",
+                "www.turtlewax.com"
+            ]
+        },
+        {
+            "rule": "deliverytimer\\.herokuapp\\.com\\/output\\/view\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "5b41394d9cda32a1bfc657ce7700e116cc5ec4797dd5283b1e00531c88827def",
+                "442f20c98cab33b0585b43962830b58014ce3cb1a42145d5f5c5d2df854d4bf5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cookies.js": 0.0000070733363512901765,
+                "sf_cid": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "blade-tech.com",
+                "refrigerantscenter.com",
+                "www.fashioneyewear.com",
+                "www.turtlewax.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 12
+    },
+    "nameservers": []
+}

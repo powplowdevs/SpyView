@@ -1,0 +1,95 @@
+{
+    "domain": "adnium.com",
+    "owner": {
+        "name": "Adnium Inc",
+        "displayName": "Adnium",
+        "privacyPolicy": "https://adnium.com/privacy",
+        "url": "http://adnium.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "a"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "adnium\\.com\\/static",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "2aa6e1ab3d18529a07bd0a864a68e8891b93cdd65e298a05101db83b2722c156",
+                "3b9e11a31b3b55013bec8f67bdbf53174f57df881eec600f147ab365fe6f6262"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atkingdom.com",
+                "www.atkingdom.com",
+                "www.pornhomemade.com"
+            ]
+        },
+        {
+            "rule": "adnium\\.com\\/popunder",
+            "cookies": 0.0000141,
+            "fingerprinting": 3,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.screenLeft": 2,
+                "window.screenTop": 2,
+                "Navigator.prototype.mimeTypes": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bfcb3503eda7a5c517f23dfbc09d7602cbf22a46103fdc172426734c2eff9e2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pornhomemade.com",
+                "www.pornhomemade.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "fred.ns.cloudflare.com",
+        "olga.ns.cloudflare.com"
+    ]
+}

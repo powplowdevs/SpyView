@@ -1,0 +1,78 @@
+{
+    "domain": "csp.withgoogle.com",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000714,
+    "sites": 7,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "csp\\.withgoogle\\.com\\/csp\\/frame-ancestors\\/38fac9d5b82543fc4729580d18ff2d3d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arduino.cc",
+                "www.bresser.de",
+                "www.echtemamas.de",
+                "www.mathworks.com"
+            ]
+        },
+        {
+            "rule": "csp\\.withgoogle\\.com\\/csp\\/scaffolding\\/ascgcycc:1365:0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flypgs.com",
+                "www.novasol.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "gstatic.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Other": 6
+    },
+    "nameservers": []
+}

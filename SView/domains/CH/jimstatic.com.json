@@ -1,0 +1,203 @@
+{
+    "domain": "jimstatic.com",
+    "owner": {
+        "name": "Jimdo GmbH",
+        "displayName": "Jimdo"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000308,
+    "sites": 3,
+    "subdomains": [
+        "fonts",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "jimstatic\\.com\\/css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fonts"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000411,
+            "cnames": [],
+            "responseHashes": [
+                "932b81b4af0506a64bd506b16be1a9172534b12a1f50cca39f3cb5c447b560f4",
+                "b5fba3bd8fd2fb920d6bb4d7a539de5259470a698aa7dab924c4b5e6de878202",
+                "21e3cea39ed5a8d0dc2381bc2aa0c0269ef2b1fe3827073ebaa8dd5f48ce19d0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bernaba25.ch",
+                "www.bernaba25.ch",
+                "www.paesse.info",
+                "www.sempacherseelauf.ch"
+            ]
+        },
+        {
+            "rule": "jimstatic\\.com\\/ckies\\.js\\.709aa75a18f19bef610f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "b65dd6c765ad59925ea4fe83c12a8db3245b4a3d578ab4b84bf8b39c0ebe3ca5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paesse.info",
+                "www.sempacherseelauf.ch"
+            ]
+        },
+        {
+            "rule": "jimstatic\\.com\\/cookieControl\\.js\\.e50b9a6ff67392f24693\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "d9370f7013edd6ee0877ee4b3a6a151444ecf568dbab1bb115ed5886e7fcfbea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paesse.info",
+                "www.sempacherseelauf.ch"
+            ]
+        },
+        {
+            "rule": "jimstatic\\.com\\/web\\.css\\.31c8eb08643fc289aca37924fd02347b\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "887cdd708d0fec19328d7eccb9f0e8f5a3d6662755aa67f7ee182d47f6dc1fe2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paesse.info",
+                "www.sempacherseelauf.ch"
+            ]
+        },
+        {
+            "rule": "jimstatic\\.com\\/web\\.js\\.7408653d778b085daf60\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "window.name": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.screenX": 2,
+                "window.screenY": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "window.screenLeft": 2,
+                "window.screenTop": 2,
+                "window.indexedDB": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "8ffd5f43ba9f1e1e049b1efcbaa338c8da740450894a8d51f06d6fd3dffc2ec2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paesse.info",
+                "www.sempacherseelauf.ch"
+            ]
+        },
+        {
+            "rule": "jimstatic\\.com\\/at\\.js\\.49bf148e78807d5bbf85\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "293a05bb1095d157a23d13bd35c26f8f93cf969f7d79897a6a6243e86e9be60a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paesse.info",
+                "www.sempacherseelauf.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "jimcdn.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Stylesheet": 6,
+        "Script": 8
+    },
+    "nameservers": [
+        "ns-1218.awsdns-24.org",
+        "ns-1939.awsdns-50.co.uk",
+        "ns-60.awsdns-07.com",
+        "ns-738.awsdns-28.net"
+    ]
+}

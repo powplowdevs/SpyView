@@ -1,0 +1,80 @@
+{
+    "domain": "apmex.com",
+    "owner": {
+        "name": "APMEX inc.",
+        "displayName": "APMEX"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "widgets"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "apmex\\.com\\/content\\/themes\\/logos\\/blue\\.png",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f7b1e0c91e6f82760a30c5a89acfb9113061147207b4de1fdfe739f1a4df7b5f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coinnews.net",
+                "www.coinnews.net"
+            ]
+        },
+        {
+            "rule": "apmex\\.com\\/widget\\/spotprice\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d2bdb1bce60ab9ecbc333dba4fd773a4a939ea5e74b4fc9ac56027ab7377f466"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coinnews.net",
+                "www.coinnews.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "hope.ns.cloudflare.com",
+        "hal.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "domain": "dyn-rev.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00298,
+    "sites": 421,
+    "subdomains": [
+        "bundle",
+        "ei"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dyn-rev\\.app\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bundle"
+            ],
+            "apis": {},
+            "sites": 329,
+            "prevalence": 0.00233,
+            "cnames": [],
+            "responseHashes": [
+                "acddd21bbdeda7ae2939270c4028992f403275953a134bb09cb9fb7d003578d1",
+                "3fdd5aabf51dbcdb196a89fdab214ffb6f120e65d044b556f3739cad283ce789"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tirebuyer.com",
+                "nicksboots.com",
+                "www.sandmarc.com",
+                "brickhousenutrition.com",
+                "baysmokes.com",
+                "lucy.co",
+                "www.englishteastore.com",
+                "www.rsvlts.com",
+                "www.gruntstyle.com",
+                "mauviel-usa.com",
+                "freerangesupplements.com",
+                "revo.com",
+                "www.torquedetail.com",
+                "www.pacificabeauty.com",
+                "nutrimill.com",
+                "unboundmerino.com",
+                "jaxxon.com",
+                "antiquelampsupply.com",
+                "www.freshcutpaper.com",
+                "www.bandolierstyle.com"
+            ]
+        },
+        {
+            "rule": "dyn-rev\\.app\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bundle"
+            ],
+            "apis": {
+                "window.sessionStorage": 69,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 252,
+            "prevalence": 0.00178,
+            "cnames": [],
+            "responseHashes": [
+                "f1e936a64accacb02d6cf2344dee262101b0fdff137213aa8675ddd99f360a2a",
+                "d976a14cc79e0acd7c05a77afdac62fc53f4821123e0edaf0b39ece9bc19d7ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "us.haynes.com",
+                "knifewear.com",
+                "theliquorbarn.com",
+                "yawnder.com",
+                "www.united-states-flag.com",
+                "www.shinesty.com",
+                "nomadgoods.com",
+                "freedomgorilla.com",
+                "boody.com",
+                "www.mavaquadoc.com",
+                "bestpricenutrition.com",
+                "www.farmhousetack.com",
+                "www.alaninu.com",
+                "starforgesystems.com",
+                "boostautoparts.com",
+                "snakeriverfarms.com",
+                "www.milehighshooting.com",
+                "www.bartonwatchbands.com",
+                "ruffgreens.com",
+                "vinegarsyndrome.com"
+            ]
+        },
+        {
+            "rule": "dyn-rev\\.app\\/public\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ei"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iliabeauty.com",
+                "jaxxon.com",
+                "nomadgoods.com",
+                "pyleusa.com",
+                "tilley.com",
+                "urbancarryholsters.com",
+                "www.aviatornation.com",
+                "www.barenecessities.com",
+                "www.earthrunners.com",
+                "www.naturemade.com",
+                "www.wearpepper.com"
+            ]
+        },
+        {
+            "rule": "dyn-rev\\.app\\/public\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ei"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "7a02a89827372656abe711ded604081cf0a12ea1526609c4b9fe616902b7a99a",
+                "5dcf9360cc413ae139f84c28eaea6af402b125ca87ef86a38100051bae7f85be",
+                "14d80731089c17f816096b62fee87bffe6f1de18209ee0aa298bddab5c4470dd",
+                "3216b6e034af3b725bb024e6be4a78f187ccb805d9ba913b5da2a708823424e7",
+                "a945d5f8f12a0c21c25128c9f8d2838f20ad405029f7d42c0a4bc685aa564acc",
+                "214fcb6cee7c219f5c7ff905f9a608ec47208eb15a74e8073d389813b259e855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iliabeauty.com",
+                "jaxxon.com",
+                "nomadgoods.com",
+                "pyleusa.com",
+                "tilley.com",
+                "urbancarryholsters.com",
+                "www.aviatornation.com",
+                "www.barenecessities.com",
+                "www.earthrunners.com",
+                "www.naturemade.com",
+                "www.wearpepper.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.937888198757764
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.018633540372670808
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.016563146997929608
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.006211180124223602
+        },
+        {
+            "domain": "sdiapi.com",
+            "prevalence": 0.004140786749482402
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.004140786749482402
+        },
+        {
+            "domain": "pyleusa.com",
+            "prevalence": 0.004140786749482402
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.004140786749482402
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.004140786749482402
+        }
+    ],
+    "types": {
+        "Script": 581,
+        "Preflight": 11,
+        "XHR": 11
+    },
+    "nameservers": [
+        "aitana.ns.cloudflare.com",
+        "jose.ns.cloudflare.com"
+    ]
+}

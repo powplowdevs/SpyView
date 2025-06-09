@@ -1,0 +1,91 @@
+{
+    "domain": "sojern.com",
+    "owner": {
+        "name": "Sojern, Inc.",
+        "displayName": "Sojern",
+        "privacyPolicy": "https://www.sojern.com/privacy/",
+        "url": "http://sojern.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "pixel",
+        "beacon"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sojern\\.com\\/partner\\/G1Y1bSljXSyAcB8V\\/hp",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3273bb375f5e1e4f4a79223c60a30e973e9808117d3d46affa77033b8cd2b6d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "france-voyage.com",
+                "www.france-voyage.com"
+            ]
+        },
+        {
+            "rule": "sojern\\.com\\/pixel\\/p\\/318000",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6e79f3fccc8fc411d51b73dd304495b3552117e16485b1dc5a6ab438a01d7d1e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moma.org",
+                "www.moma.org"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a4.googledomains.com"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "domain": "subway.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "prod.san"
+    ],
+    "cnames": [
+        {
+            "original": "media.amp.subway.com",
+            "resolved": "prod.san.subway.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "subway\\.com\\.edgekey\\.net\\/adaptivemedia\\/rendition",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.san"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "media.amp.subway.com",
+                    "resolved": "prod.san.subway.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a5b1f388168070250953816e1594cf9a493cf67b9b80438d96ff0a9ef4fd6549"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "subway.com",
+                "www.subway.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Image": 2
+    },
+    "nameservers": []
+}

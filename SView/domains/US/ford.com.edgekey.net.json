@@ -1,0 +1,133 @@
+{
+    "domain": "ford.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "www.vdm",
+        "login",
+        "www.globalowneraem"
+    ],
+    "cnames": [
+        {
+            "original": "login.ford.com",
+            "resolved": "login.ford.com.edgekey.net"
+        },
+        {
+            "original": "www.globalowneraem.ford.com",
+            "resolved": "www.globalowneraem.ford.com.edgekey.net"
+        },
+        {
+            "original": "www.vdm.ford.com",
+            "resolved": "www.vdm.ford.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ford\\.com\\.edgekey\\.net\\/content\\/dam\\/brand_ford\\/en_us\\/brand\\/campaigns\\/2025\\/FAFA-Triptych-Billboard-16x9_desktop-04_v2\\.jpg\\/jcr:content\\/renditions\\/cq5dam\\.web\\.2160\\.2160\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www.vdm"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "www.vdm.ford.com",
+                    "resolved": "www.vdm.ford.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4c081a0ac186b497d5eec675f012ec52e4c866a1c8dbb57da9dcb0e25eca7743"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ford.com",
+                "shop.ford.com",
+                "www.ford.com"
+            ]
+        },
+        {
+            "rule": "ford\\.com\\.edgekey\\.net\\/4566605f-43a7-400a-946e-89cc9fdb0bd7\\/B2C_1A_SignInSignUp_en-US\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "login.ford.com",
+                    "resolved": "login.ford.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ford.com",
+                "shop.ford.com",
+                "www.ford.com",
+                "www.vdm.ford.com"
+            ]
+        },
+        {
+            "rule": "ford\\.com\\.edgekey\\.net\\/content\\/dam\\/global-owner\\/ford\\/us\\/en-us\\/content-fragments\\/emplifi\\/recalls-search-terms\\.global-owner-model\\.json",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www.globalowneraem"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "www.globalowneraem.ford.com",
+                    "resolved": "www.globalowneraem.ford.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "13307b7c62cbb3637debaf77351a5d87d66b6538ffbe5dc22d4a354c3863ff94"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ford.com",
+                "www.ford.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000424,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Document": 4,
+        "XHR": 2
+    },
+    "nameservers": []
+}

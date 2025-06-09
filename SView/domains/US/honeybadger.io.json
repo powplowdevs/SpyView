@@ -1,0 +1,118 @@
+{
+    "domain": "honeybadger.io",
+    "owner": {
+        "name": "Honeybadger Industries",
+        "displayName": "Honeybadger Industries"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "honeybadger\\.io\\/v6\\.10\\/honeybadger\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7d8cf134745ed2f12fd183496f96ea88327b056c807e19dde7a63b0e6a41b258"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stanford.edu",
+                "petition.theamericapac.org",
+                "www.backerkit.com"
+            ]
+        },
+        {
+            "rule": "honeybadger\\.io\\/v6\\.8\\/honeybadger\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b96eda518b97a84044b90e6a80a3fd993052853476fb5ff7075579367f6e19be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stanford.edu",
+                "searchworks.stanford.edu"
+            ]
+        },
+        {
+            "rule": "honeybadger\\.io\\/v3\\.0\\/honeybadger\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "18a0c72749f7fc62974ac442882fbf68d83172352b791d3d7a5cebb03a506d3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haymarketbooks.org",
+                "www.merrillgardens.com",
+                "www.missionrockresidential.com",
+                "www.morgan-properties.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7647058823529411
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.17647058823529413
+        },
+        {
+            "domain": "pledge.to",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "ns-869.awsdns-44.net",
+        "ns-157.awsdns-19.com",
+        "ns-1478.awsdns-56.org",
+        "ns-1637.awsdns-12.co.uk"
+    ]
+}

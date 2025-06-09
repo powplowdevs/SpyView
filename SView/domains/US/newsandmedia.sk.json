@@ -1,0 +1,75 @@
+{
+    "domain": "newsandmedia.sk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "prod.donbox.datahub"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "newsandmedia\\.sk\\/api\\/donbox",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.donbox.datahub"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2c83087a2dd95305599a4297e5ca8e6c93155e3b942523a45c511e78065b3971"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cas.sk",
+                "www1.pluska.sk"
+            ]
+        },
+        {
+            "rule": "newsandmedia\\.sk\\/api\\/donbox",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.donbox.datahub"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cas.sk",
+                "www1.pluska.sk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "chuck.ns.cloudflare.com",
+        "erin.ns.cloudflare.com"
+    ]
+}

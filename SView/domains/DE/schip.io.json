@@ -1,0 +1,177 @@
+{
+    "domain": "schip.io",
+    "owner": {
+        "name": "Schibsted Media Group",
+        "displayName": "Schibsted Media Group"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00051,
+    "sites": 5,
+    "subdomains": [
+        "kleinanzeigen-legacy.sgtm-pro",
+        "marktplaats.sgtm-pro",
+        "ka.lrs.liberty"
+    ],
+    "cnames": [
+        {
+            "original": "server.sgtm-legacy.kleinanzeigen.de",
+            "resolved": "kleinanzeigen-legacy.sgtm-pro.schip.io"
+        },
+        {
+            "original": "server.sgtm.marktplaats.nl",
+            "resolved": "marktplaats.sgtm-pro.schip.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "schip\\.io\\/gtm\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 1,
+            "subdomains": [
+                "kleinanzeigen-legacy.sgtm-pro",
+                "marktplaats.sgtm-pro"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [
+                {
+                    "original": "server.sgtm-legacy.kleinanzeigen.de",
+                    "resolved": "kleinanzeigen-legacy.sgtm-pro.schip.io"
+                },
+                {
+                    "original": "server.sgtm.marktplaats.nl",
+                    "resolved": "marktplaats.sgtm-pro.schip.io"
+                }
+            ],
+            "responseHashes": [
+                "eff6cda064d22abf001524ea278cdbdfce45d64b1981024aa58ac214be29fc36",
+                "cb1a7e2871bc05fe9e064d76037bd56ad7107fe1f6bdfbbd53675c6d499ebfdc",
+                "e55f64775fd613c36ebf0014ecbf2c278e92dda5e78c00204d686bd8b9d4357b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kleinanzeigen.de",
+                "themen.kleinanzeigen.de",
+                "www.kleinanzeigen.de",
+                "www.marktplaats.nl"
+            ]
+        },
+        {
+            "rule": "schip\\.io\\/liberty-metrics\\/ad-requests",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ka.lrs.liberty"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kleinanzeigen.de",
+                "www.kleinanzeigen.de"
+            ]
+        },
+        {
+            "rule": "schip\\.io\\/liberty-metrics\\/ad-requests",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ka.lrs.liberty"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kleinanzeigen.de",
+                "www.kleinanzeigen.de"
+            ]
+        },
+        {
+            "rule": "schip\\.io\\/liberty-metrics\\/ad-impressions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ka.lrs.liberty"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kleinanzeigen.de",
+                "www.kleinanzeigen.de"
+            ]
+        },
+        {
+            "rule": "schip\\.io\\/g\\/collect",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marktplaats.sgtm-pro"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "server.sgtm.marktplaats.nl",
+                    "resolved": "marktplaats.sgtm-pro.schip.io"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marktplaats.nl",
+                "www.marktplaats.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 2,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "ns-1356.awsdns-41.org",
+        "ns-588.awsdns-09.net",
+        "ns-100.awsdns-12.com",
+        "ns-1999.awsdns-57.co.uk"
+    ]
+}

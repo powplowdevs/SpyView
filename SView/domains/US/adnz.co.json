@@ -1,0 +1,715 @@
+{
+    "domain": "adnz.co",
+    "owner": {
+        "name": "audienzz AG",
+        "displayName": "NZZ Management"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000276,
+    "sites": 39,
+    "subdomains": [
+        "api",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adnz\\.co\\/header\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 15,
+                "URL.createObjectURL": 12,
+                "Navigator.prototype.language": 13,
+                "Date.prototype.getTimezoneOffset": 13,
+                "Screen.prototype.height": 13,
+                "Screen.prototype.width": 13,
+                "window.innerHeight": 14,
+                "window.innerWidth": 13,
+                "NavigatorUAData.prototype.brands": 12,
+                "NavigatorUAData.prototype.platform": 12,
+                "window.sessionStorage": 12,
+                "Navigator.prototype.userAgent": 13,
+                "Notification.permission": 12,
+                "Navigator.prototype.plugins": 12,
+                "Date.prototype.getTime": 12,
+                "Screen.prototype.availWidth": 9,
+                "Screen.prototype.availHeight": 9,
+                "Screen.prototype.colorDepth": 9,
+                "window.outerWidth": 9,
+                "window.outerHeight": 9,
+                "Navigator.prototype.doNotTrack": 9,
+                "Navigator.prototype.webdriver": 9,
+                "Navigator.prototype.cookieEnabled": 9,
+                "Document.cookie getter": 9,
+                "Document.cookie setter": 4,
+                "window.devicePixelRatio": 6,
+                "Navigator.prototype.connection": 7,
+                "Screen.prototype.orientation": 4,
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "Navigator.prototype.deviceMemory": 4
+            },
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "ee5d854e8cd66decf0ab1273af6e434fa80caebee678fe3403dcac02d90c9417",
+                "e59c2a4672daf4e06bcfbd75b6c67ad4ea3dba8b5ec92c497efb28fa79063969",
+                "dc226a8fb589d2f85ece1d4600cef89b0dcf896ffc1a8dfe7bd138e054b8ee19",
+                "537b78095da69c9d874852423b4c8eed32b34a284eb6c74ef54dcaefffe81d85",
+                "94d8fcc06f874300702177f9274cb67f47aea134d2fec474a6d4fcaa76c812b3",
+                "e68b907050afb185564679bbd113ed4c43dfbf66511c3d7112de833308990ce9",
+                "01dcd7a318fba0d27a1f87b3d11f2c053f0bf2d735621d1f9b7e3831688b5c75",
+                "38713920557c1aa35cd45852cf49829819e0a2429f8d4a0aa311c7a802f4a055",
+                "e4ec544cf748fb98e61ac833300e635aa95b86f90a6711334133d8a3eb8e3174",
+                "3f78f8e06a92ad31961cc80dd7a03e1ef7cce692c12504e8398c65f4b01eb982",
+                "3817b5b1e9fbb39ada5fb590b68452cee92b765bcc3a31d344674802a2a04dbb",
+                "138e869f0ac0a35015429bc8889d68bc705594ad141013202ef6eae0540027a9",
+                "cb278e6c3e3c23290cbfae0c194c287d6a8e76ef8d02468f55ff1861f841a723",
+                "0acdfc7f8c375745fc14afcab1e5a7e9357f51739417d9ca35a89eb09c130392",
+                "0ccff2a680de8dea99a520ba8ac9a496b7adcdf4f1ccb67078e4a50c5bdff7f3",
+                "8b5c475f4b0a15fcc80d2757fb536f2a7585b0cbc8def25d4a06dcbadec50d82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__vads": {
+                    "ttl": 2592011,
+                    "length": 25,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apollo-news.net",
+                "exxpress.at",
+                "merkurist.de",
+                "polizeiticker.ch",
+                "weltwoche.de",
+                "www.50plus.ch",
+                "www.aargauerzeitung.ch",
+                "www.bzbasel.ch",
+                "www.finanzen.at",
+                "www.letemps.ch",
+                "www.luzernerzeitung.ch",
+                "www.nachhaltigleben.ch",
+                "www.pctipp.ch",
+                "www.solothurnerzeitung.ch",
+                "www.suedostschweiz.ch",
+                "www.tagblatt.ch",
+                "www.zentralplus.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/semantiq\\/semantiq-track\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "f908a685deb6cf517a9cde32e5e0735f3a5fe3280f121ebccb349f16f8d7f98d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "debeste.de",
+                "stadtleben.de",
+                "www.vielfliegertreff.de"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-semantiq\\/page-keywords",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000184,
+            "cnames": [],
+            "responseHashes": [
+                "5fc1ed290c696458431c72e9b86a27ec1bc7b3358677fbc025874ea32013be37",
+                "7cb105fd3211abfb5365ecd68b779b153d959e219d94528c70bd9e3dea947993",
+                "cabf5609dd3ca129d4a52f774801221dd9715298f4d99d36959ce24dc3c716ad",
+                "e46461e3ddfe77e67650c187a86edeb1bac340b157b37277fc88efb808806727",
+                "243259b6b05d183de4013ff6df18801ce223f299775147cb4cba3fe8d211179f",
+                "841ee40f620bc52f64ce78e254b89faf62f602abc614536d8db7d42e7fbbf921",
+                "38c741e77e038a8ab5a585c7f43a289380c8f46ba73f5095c3304ecc0c32b52e",
+                "6c15fd7062239f89fc778ac79a292140296c91ef07b74bfd8c4ff4f8da896ec2",
+                "644bf6262edab2197a4dc3f249b5866fa75f09114e841b13c22c2873ce754d87",
+                "90e129771bdc76d39550f41be0d417dce73e2f7e76ad91faeeac1f684e6053c8",
+                "2bfc12e3f17c2754ccaf427e34e6315cf9cf7bd31ee0f1c1372cf911baf44d4d",
+                "c6df15fa179f6fc9cf676f9f2cb7c060892743e6df7904b109768f358066866a",
+                "63ea76a86de720df313e886749146daca76b44dbd31dab72fcbb896874e34b1f",
+                "0dd09731658e96def5c7e1b331401c7a00309aaec78e7240d3c94392e18e9121",
+                "aa89e114d7f735df2026624398e951c468ea2128cb52ab01093b41dc3159d2ed",
+                "d332be91a3465b0b255963b9f655758f57d4b8a8c00271f8ba6f2c62e4e2f99d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "news.orf.at",
+                "www.20min.ch",
+                "www.luzernerzeitung.ch",
+                "www.50plus.ch",
+                "orf.at",
+                "debeste.de",
+                "www.finanzen.at",
+                "www.vielfliegertreff.de",
+                "sport.orf.at",
+                "insideparadeplatz.ch",
+                "www.tagblatt.ch",
+                "www.zentralplus.ch",
+                "www.suedostschweiz.ch",
+                "noe.orf.at",
+                "www.solothurnerzeitung.ch",
+                "weltwoche.de",
+                "www.pctipp.ch",
+                "www.lematin.ch",
+                "www.aargauerzeitung.ch",
+                "tirol.orf.at"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-convey\\/visitor-id",
+            "cookies": 0.0000849,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "a3f0b706f4603e7b1d0e346f8f6332b1f8a8ec1c7fad08dcb0dfa72b3fc705c8",
+                "e07471c15c6cd4833c2e4470764aaf35dcdd42cc181a1c3dd4db9082020d18df",
+                "621e50673c38f03b8f34914b63c62480af4b4726c86457cc8bec668472c12326",
+                "3ef452590900f7b0a09c61e85c0c8540bcf8e10347fc27b4f4bfce319c85878f",
+                "593798bc7bab5e0abec8e46b30355d0a6416c83610c6842b6211055f2af26cd1",
+                "1af7ab6bc553a693d0f4a2ceec3b8e958ac6bd2cf374d2eeac69f42a9544eca3",
+                "cc211ff848772bd79b2268203bddca8a060864d412ff7ba7e5198b266bcea08d",
+                "329a03a1ac85a6f6beb8738a861a045cff0e993760b426f0ebca66f91661e7cd",
+                "53756b1bc4a02aa1ca7b6aa92b97f5efa20459bd5c44b4ba326ad514326060dc",
+                "dbfded207927ac892db66a01ac80aeda41122e1835cbb02c66e771edcef5995f",
+                "32e0b097dfdebb5483905423916b472ade80eff8c3d38cf7e3392fd97af520f9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "debeste.de",
+                "stadtleben.de",
+                "weltwoche.de",
+                "www.50plus.ch",
+                "www.aargauerzeitung.ch",
+                "www.bzbasel.ch",
+                "www.finanzen.at",
+                "www.nachhaltigleben.ch",
+                "www.pctipp.ch",
+                "www.solothurnerzeitung.ch",
+                "www.tagblatt.ch",
+                "www.vielfliegertreff.de"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-events-sink\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000113,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "debeste.de",
+                "news.orf.at",
+                "noe.orf.at",
+                "orf.at",
+                "religion.orf.at",
+                "salzburg.orf.at",
+                "sport.orf.at",
+                "stadtleben.de",
+                "tirol.orf.at",
+                "wien.orf.at",
+                "www.50plus.ch",
+                "www.kreuzwortraetsel.de",
+                "www.nachhaltigleben.ch",
+                "www.ruhrnachrichten.de",
+                "www.tt.com",
+                "www.vielfliegertreff.de"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-appnexus-proxy\\/creatives\\/mediation-excluded",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "eb00563156f0104bd0ce092e651dfa86ac9e82759175a470d117597fa991a027",
+                "40087a87afe14e84f9a0eb25fe6c4e9c94da650b2774b3cb089ecb214640c41f",
+                "59eddfd4494b9cacd477d8eda45ceaf890abca22632e5298d9a4e2ea5f63f75b",
+                "0c20a82aa889ecdeb4a085acbd1d9c4e0eb99b5b254cd27e900f6c1f64a9dbd4",
+                "e54a399674dd2715a9010abed6a773ee2aa7d2924a14e50961ff32e063402a63"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exxpress.at",
+                "weltwoche.de",
+                "www.50plus.ch",
+                "www.aargauerzeitung.ch",
+                "www.bzbasel.ch",
+                "www.finanzen.at",
+                "www.letemps.ch",
+                "www.luzernerzeitung.ch",
+                "www.nachhaltigleben.ch",
+                "www.pctipp.ch",
+                "www.solothurnerzeitung.ch",
+                "www.suedostschweiz.ch",
+                "www.tagblatt.ch",
+                "www.zentralplus.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-geodata\\/country",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "f95f0957248172735a00bb8901600a2c7eea6cce756b9e29a353e221cf7483c8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exxpress.at",
+                "weltwoche.de",
+                "www.50plus.ch",
+                "www.aargauerzeitung.ch",
+                "www.bzbasel.ch",
+                "www.finanzen.at",
+                "www.letemps.ch",
+                "www.luzernerzeitung.ch",
+                "www.nachhaltigleben.ch",
+                "www.pctipp.ch",
+                "www.solothurnerzeitung.ch",
+                "www.suedostschweiz.ch",
+                "www.tagblatt.ch",
+                "www.zentralplus.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/convey2-scripts\\/contextual\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e6dffbf2152ce2c1d29eae75c6986c707de83412d859c6189c6dc3a3b4a65f1a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "oe3.orf.at",
+                "tv.orf.at"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-contextual\\/page-keywords",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7100ac2e6424504cad454307d84fb6332677ba63e45df209df013720a9250fe5",
+                "25b2b3e6717f638c073d1e0f0f80af870b4a0eda754ff3e5cc0baf147155c3fc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "oe3.orf.at",
+                "tv.orf.at"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-events-sink\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "oe3.orf.at",
+                "tv.orf.at"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-yaleo\\/v2\\/bta-feed-data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "fd506649101a566555a48bedfab4316d4550459c4cfc0160affb774180da769a",
+                "3aac3358215d2a2b1be6e66751e0aa04fddb603d4c2b85ad8ff623c38c5cd3cd",
+                "552bfb9088d43828ac75f97b3f2b86a8a3d9c7ef6c85ea76ef537b6c9d546a48",
+                "5499de94d1fe70ad5557ae478c66192cc9a59c54e3f4443e3b0e6ba50aa010df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "bclk": 0.000028293345405160706,
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "insideparadeplatz.ch",
+                "www.50plus.ch",
+                "www.letemps.ch",
+                "www.nachhaltigleben.ch",
+                "www.suedostschweiz.ch",
+                "www.zentralplus.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/semantiq\\/semantiq\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 11
+            },
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "5b8b6a781451ce4f5dd282f31595e48edc0c35f3fd3d59e4f092702cfbd6beab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "noe.orf.at",
+                "religion.orf.at",
+                "salzburg.orf.at",
+                "sport.orf.at",
+                "tirol.orf.at",
+                "wien.orf.at",
+                "www.kreuzwortraetsel.de",
+                "www.ruhr24.de",
+                "www.ruhrnachrichten.de",
+                "www.tt.com"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-clickstream-collector\\/submit\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.de",
+                "www.50plus.ch",
+                "www.aargauerzeitung.ch",
+                "www.bzbasel.ch",
+                "www.finanzen.at",
+                "www.nachhaltigleben.ch",
+                "www.pctipp.ch",
+                "www.solothurnerzeitung.ch",
+                "www.tagblatt.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-clickstream-collector\\/submit\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.de",
+                "www.50plus.ch",
+                "www.aargauerzeitung.ch",
+                "www.bzbasel.ch",
+                "www.finanzen.at",
+                "www.nachhaltigleben.ch",
+                "www.pctipp.ch",
+                "www.solothurnerzeitung.ch",
+                "www.tagblatt.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-clickstream-collector\\/submit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20min.ch",
+                "www.lematin.ch",
+                "www.lessentiel.lu"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-clickstream-collector\\/submit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20min.ch",
+                "www.lematin.ch",
+                "www.lessentiel.lu"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/app-bta-feed\\/index\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.matchMedia(\"prefers-color-scheme\")": 3,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.innerWidth": 3,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "3cec130a17a4d067984be6a375fb283dd2dc16de0ed0d2030016afcdd7a260d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bclk": {
+                    "ttl": 2678417,
+                    "length": 17,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50plus.ch",
+                "www.letemps.ch",
+                "www.nachhaltigleben.ch",
+                "www.suedostschweiz.ch",
+                "www.zentralplus.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/dmp\\/publisher\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "962af39b3876607711f707ac8ea15d602e97d2906a49e59bae492b34c37289ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50plus.ch",
+                "www.letemps.ch",
+                "www.nachhaltigleben.ch",
+                "www.suedostschweiz.ch",
+                "www.zentralplus.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/yaleo\\/index\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "window.innerWidth": 1,
+                "window.matchMedia(\"prefers-color-scheme\")": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "258ef4403cc6cf238b0c266248ec383975ee8d44303f7420f1f2ccc0274dda93"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bclk": {
+                    "ttl": 2678403,
+                    "length": 16,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "letemps.ch",
+                "www.suedostschweiz.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000099,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8266666666666667
+        },
+        {
+            "domain": "netpoint-media.de",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.05333333333333334
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.02666666666666667
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.013333333333333334
+        }
+    ],
+    "types": {
+        "Script": 46,
+        "Fetch": 78,
+        "Ping": 25,
+        "XHR": 3,
+        "Preflight": 12
+    },
+    "nameservers": [
+        "charles.ns.cloudflare.com",
+        "cheryl.ns.cloudflare.com"
+    ]
+}

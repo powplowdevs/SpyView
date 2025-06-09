@@ -1,0 +1,236 @@
+{
+    "domain": "tatadigital.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "accounts",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tatadigital\\.com\\/v2\\/tdl-sso-auth\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 1,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 7,
+                "Document.cookie getter": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie setter": 5
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "07385f8e16622831fedb2c0589701d5481d2ba2a663e1241d20f4a5c2bf77484"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "jarvis-id": {
+                    "ttl": 34560000,
+                    "length": 36,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tatamotors.com",
+                "www.1mg.com",
+                "www.airindiaexpress.com",
+                "www.bigbasket.com",
+                "www.croma.com",
+                "www.tajhotels.com",
+                "www.tanishq.co.in",
+                "www.titan.co.in"
+            ]
+        },
+        {
+            "rule": "tatadigital\\.com\\/analytics-engine\\/config\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tatamotors.com",
+                "www.1mg.com",
+                "www.bigbasket.com",
+                "www.croma.com",
+                "www.tajhotels.com",
+                "www.tanishq.co.in",
+                "www.titan.co.in"
+            ]
+        },
+        {
+            "rule": "tatadigital\\.com\\/analytics-engine\\/config\\/v2",
+            "cookies": 0.0000495,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "94c4dfecaefaf4fa6bbcf9e1b7fb14269c115a77821d3a5007475dee1048aec5",
+                "da5ff714734c4a3f166d1a4695b769d90f34d3d1c10cbe67994d28c804b79e4f",
+                "6dc8c0b1a98f76a73068ac58ca453c26cabb51df496c9dfe0174db2b4a58a93a",
+                "8586297e64126c1d07125e29b788e0747d93ff648ae21280c3be2e6664da422a",
+                "504c523cb7ec677c737ac4a6cb7b652281eb86fdd94d895ba80086597226d7d8",
+                "d610fb5430ce9c70e871af931debba6bdefae1765d9d0bcfcd7d21dded38f5c1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tatamotors.com",
+                "www.1mg.com",
+                "www.bigbasket.com",
+                "www.croma.com",
+                "www.tajhotels.com",
+                "www.tanishq.co.in",
+                "www.titan.co.in"
+            ]
+        },
+        {
+            "rule": "tatadigital\\.com\\/api\\/v2\\/sso\\/check-session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1mg.com",
+                "www.1mg.com",
+                "www.bigbasket.com",
+                "www.croma.com"
+            ]
+        },
+        {
+            "rule": "tatadigital\\.com\\/api\\/v2\\/sso\\/check-session",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "246d742d1ac2e7e302bd2480fbf79f52d9dcb866147b32a3c8820bbd9aea5710",
+                "3215ccfbc6e6ffde4f3a41cea528b0ccc76c8e1ee19f7d633ae3225d9e20608c",
+                "e272a2519add46ec3bf45a7033f95cb8221c18bfcc2f5148c4902a18982a7843"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1mg.com",
+                "www.1mg.com",
+                "www.bigbasket.com",
+                "www.croma.com"
+            ]
+        },
+        {
+            "rule": "tatadigital\\.com\\/analytics-engine\\/events\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1mg.com",
+                "www.1mg.com",
+                "www.bigbasket.com"
+            ]
+        },
+        {
+            "rule": "tatadigital\\.com\\/analytics-engine\\/events\\/v1",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "fa5c91905c6fea2b045d5009bb3a06ad63ab76ff1effb6e3bf5064879bd7c1fd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1mg.com",
+                "www.1mg.com",
+                "www.bigbasket.com",
+                "www.croma.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000566,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.35714285714285715
+        },
+        {
+            "domain": "bbassets.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Preflight": 14,
+        "Fetch": 15
+    },
+    "nameservers": [
+        "ns4-05.azure-dns.info",
+        "ns3-05.azure-dns.org",
+        "ns1-05.azure-dns.com",
+        "ns2-05.azure-dns.net"
+    ]
+}

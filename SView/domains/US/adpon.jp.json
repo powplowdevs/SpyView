@@ -1,0 +1,85 @@
+{
+    "domain": "adpon.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "ad"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adpon\\.jp\\/fr\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d45103364e7194a974f3f60ae3f4f4d609822257cbedfcb91eff71baf2521bbc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "min-h.com",
+                "yamucollege.com"
+            ]
+        },
+        {
+            "rule": "adpon\\.jp\\/tg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "min-h.com",
+                "yamucollege.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "bance.jp",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-1978.awsdns-55.co.uk",
+        "ns-423.awsdns-52.com",
+        "ns-974.awsdns-57.net",
+        "ns-1134.awsdns-13.org"
+    ]
+}

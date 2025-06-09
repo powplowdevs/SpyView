@@ -1,0 +1,64 @@
+{
+    "domain": "unidy.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "fcsp-prod.dns"
+    ],
+    "cnames": [
+        {
+            "original": "unidy.fcstpauli.com",
+            "resolved": "fcsp-prod.dns.unidy.de"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "unidy\\.de\\/custom_styles\\/1-20241212103119077147\\.css",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fcsp-prod.dns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "unidy.fcstpauli.com",
+                    "resolved": "fcsp-prod.dns.unidy.de"
+                }
+            ],
+            "responseHashes": [
+                "69ea1e8b8a082708388103dc3afaff32b205ad018b26afbd250ecc152749e29e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcstpauli.com",
+                "www.fcstpauli.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "azurefd.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "robin.ns.cloudflare.com",
+        "hassan.ns.cloudflare.com"
+    ]
+}

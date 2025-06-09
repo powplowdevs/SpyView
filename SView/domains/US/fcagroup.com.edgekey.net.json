@@ -1,0 +1,96 @@
+{
+    "domain": "fcagroup.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "cookielaw.emea"
+    ],
+    "cnames": [
+        {
+            "original": "cookielaw.emea.fcagroup.com",
+            "resolved": "cookielaw.emea.fcagroup.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fcagroup\\.com\\.edgekey\\.net\\/CookieLawProduct\\/resources\\/generatejs",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cookielaw.emea"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cookielaw.emea.fcagroup.com",
+                    "resolved": "cookielaw.emea.fcagroup.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a0e4e9ba6d93f3d0b9e70dfb766fd4eafabbdf3d395dfe0bf10b783370743a53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fiat.it",
+                "www.fiatprofessional.com"
+            ]
+        },
+        {
+            "rule": "fcagroup\\.com\\.edgekey\\.net\\/CookieLawProduct\\/resources\\/generatehtml",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookielaw.emea"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cookielaw.emea.fcagroup.com",
+                    "resolved": "cookielaw.emea.fcagroup.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fiat.it",
+                "www.fiatprofessional.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": []
+}

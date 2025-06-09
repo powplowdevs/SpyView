@@ -1,0 +1,925 @@
+{
+    "domain": "dell.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "sm",
+        "cdn-nexus",
+        "aiq-in"
+    ],
+    "cnames": [
+        {
+            "original": "aiq-in.dell.com",
+            "resolved": "aiq-in.dell.com.edgekey.net"
+        },
+        {
+            "original": "nexus.dell.com",
+            "resolved": "cdn-nexus.dell.com.edgekey.net"
+        },
+        {
+            "original": "sm.dell.com",
+            "resolved": "sm.dell.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/id",
+            "cookies": 0.0000495,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sm"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [
+                {
+                    "original": "sm.dell.com",
+                    "resolved": "sm.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6b03dcd87d855c4a443606f8b98d6ef8e5009bb06d20187b6d013f2ca097f17d",
+                "40bc1466cc8695871d64014aeeb5e71a0174778fa884732df80686f5a0c5df08",
+                "a2d8bfda297fac7efb994f680190054d3c28c9da7d191b36bb84c31629cf7c91",
+                "47ffb1bc574792b2201ac5fc25e4c039552d5daacb22c2048be7fd5b7a09f367",
+                "233778149252cf5637fb81abe814b22bec2ac31ea4596d61efdd2e6ae718b737",
+                "e76166dce16acd276e0ea73abdef8d7c8b8e65b841068031fa16235e036e21e0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "dl.dell.com",
+                "downloads.dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/eSupport\\/Bootstrap\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6afa58e1dc1442ca846a4334dd2f41580a8ac27c610e00484987e277ce588489"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "dl.dell.com",
+                "downloads.dell.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/eSupport\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "47cb3562d9032934da67fd80e5042b5b4212e04541c1b5f8609ae3575c1cfc4e",
+                "0beaf95a420d13dddfa7d10cf747423c2c70e66f336cfb573250402d7bb3de5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "dl.dell.com",
+                "downloads.dell.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/eSupport\\/code\\/5056cc6522661d9b3114d93e9f653bd0\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "39f77bf9498df9acb789e013437b0d3a7847219452f2e1c35902ba531283d0ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "dl.dell.com",
+                "downloads.dell.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/d_vi",
+            "cookies": 0.0000495,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "dl.dell.com",
+                "downloads.dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/stpfooter\\/Bootstrap\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7c486a4c57f991b5aa267c092cd1d697032c5054377015156220efc4f3dea95f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/Bootstrap\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2f8f01afa83be7204221614b52d5829ae77a02b1084413dab2f41f0a47787dfc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/stpfooter\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "39f1b640da2e3af26008b7d11943d26568527b72e1aac0367d93f144d96a8200",
+                "4766cce9c4cd524740318bd2900244a91384f707cb6cce8ee480dd55fcae25dd",
+                "feb3b0854401e5889348369e0b5c33a3b3ec1a7cf25dd23b3a403c4d31ee8704"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/stpfooter\\/code\\/1b582ab522fd2e3200539856dbcc6f11\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e55d594a3f608b7bb254f98906fd2cfa1754ba85bd83b6fad39b7fbd02a2ec99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/stpfooter\\/code\\/90efb27a9c9171f28932f5fe2df59598\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "02815d8365b2193df631b51e1e3cbb9cf9bb427dd56c8fb16c09fcd8e45d7d13"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ab8873709ec06e250d97eed18192c2d2d4b13f44d9a3b0e3241e3c72eca0a2e7",
+                "3b106621f253df09f130a6fa21b19abe907fae0b3a474b14c13280beda3914df",
+                "b48e04550d0747906e39219e75a630524178a422dce37ce3b12157f6a0e9fabe",
+                "e92786b4cda24fb996d977e6530549cea5d217415c35da38d834dd4b7f837ac0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpv_pn": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/859bbc001cc2693a6a06974fb6e4b9ab\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bd564e014589a381814a0043b448fdb53ebc2d917474d30992bf26a739a3b83f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/ec7513cce44261e1c47c2f4e48458076\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "068cd0525b376d89f30eedc84f6b1fd359d873085cad7aabb28300f622603fe4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/bb052b1d064fa59def7a00fbd20d39b4\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "67c951521356d15b62ca7dcc6dfd737fd4f71059991c53e962fa7ed52eeb74f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/985b7fd726c5b905a611fd52e186207c\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2e983fcb2572d4c8ec504c485a55e571f7bb2d937d3ae37d051e310ded662eb9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/508bf7ce1962b8769f4e2b4dabd31f7b\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "67008cccab49044593922b086e8dc90e02d4593dc5c436e34798579031d59538"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/6bc73c5a2e1ae9d540d34a4bd6e02226\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c897b84494bc6fa297f5c216163754a3ebe6c00a3398a2269ae854451dac305f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/230d34dea3591590bfedeabdeafac6ef\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ca3ca9257b71814639447c4e4a8e41b4b78dc89264c58f778dad4c911167d1cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/8c1e12b695feecd0b429b2d78c3b2540\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "fd354e680956905720356ad8099b3891550fc9284b76ea0b3ac44ac25897e1c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/c020011fd6d067dcc90a05454e00a69d\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3aa892bda77595d646b044328794d7dad1ab6dbf360ebd08c49f941345adaa4c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/acd5a7e57c1a505b7661af656d734307\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "132cb6733df22626f2474d3e41dadad3622bdf3116638f79f965ffd7f6d1f81e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/1fac60c26dddb41531f8a7c80664d08c\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c7f66533fd549b1e65485ee4b40843fc86e0bedaf48c2d9ab6e5c49c2f492978"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/b716f8350a77ab887029fa1ac5a0f75c\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "79f362da20445d69752d2f61072682ab5270b49849b0935534a0efd2e519605f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/5011e0247bafe4b4956704274a0db222\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "71d15dfa01373d636bb197f17b8ab24c81a0e2d262284b82b4fa94899d8b4042"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/dc529b17eeed2d45ebca42f5ee1c1cab\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5b1e1a71fbfe9d748a3447347240f3a023f34edb410316e37ccbba66c523101d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/e83063efb68634408a891fdff4786636\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "70ea2e57bfc51594b45fb387982ab3fe392cd15dcb17e56683b3e76190b0541d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/dell\\/marketing\\/code\\/d883b1b46ae182c4468821a3d7931f2e\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "56e802e3aa233f720be2480aaee704887eafd4890e6f31279c822cae4e7f6240"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/aiq\\/dell-prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aiq-in"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "aiq-in.dell.com",
+                    "resolved": "aiq-in.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a62d507299d0c860a0f6bf1ed6803fd54ef9e02555c743ddb00312c1b43f6b7b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "i.dell.com",
+                "infohub.delltechnologies.com",
+                "www.dell.com",
+                "www.delltechnologies.com"
+            ]
+        },
+        {
+            "rule": "dell\\.com\\.edgekey\\.net\\/error\\/e\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nexus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "nexus.dell.com",
+                    "resolved": "cdn-nexus.dell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "downloads.dell.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "dellcdn.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "securiti.ai",
+            "prevalence": 0.45
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "XHR": 12,
+        "Script": 107,
+        "Image": 9
+    },
+    "nameservers": []
+}

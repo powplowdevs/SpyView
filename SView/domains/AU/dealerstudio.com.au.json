@@ -1,0 +1,78 @@
+{
+    "domain": "dealerstudio.com.au",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000212,
+    "sites": 2,
+    "subdomains": [
+        "search4"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dealerstudio\\.com\\.au\\/multi-search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search4"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000318,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "johnhughes.com.au",
+                "www.johnhughes.com.au",
+                "www.motorama.com.au"
+            ]
+        },
+        {
+            "rule": "dealerstudio\\.com\\.au\\/multi-search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search4"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000318,
+            "cnames": [],
+            "responseHashes": [
+                "41048ca59d3ff26b6a28fdeeb93e294b64e9666eb5cb5589f96dc74b6a070bbc",
+                "3ea6253354af6b0e3ee47d2e77cad715f7b036cc371c8e9ecb4114c2e785d7b2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "johnhughes.com.au",
+                "www.johnhughes.com.au",
+                "www.motorama.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "bob.ns.cloudflare.com",
+        "ursula.ns.cloudflare.com"
+    ]
+}

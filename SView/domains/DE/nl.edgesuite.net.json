@@ -1,0 +1,87 @@
+{
+    "domain": "nl.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "api.anwb"
+    ],
+    "cnames": [
+        {
+            "original": "api.anwb.nl",
+            "resolved": "api.anwb.nl.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "nl\\.edgesuite\\.net\\/routing\\/v1\\/incidents\\/incidents-summary",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.anwb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "api.anwb.nl",
+                    "resolved": "api.anwb.nl.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "2530b85979dde613c3e42eb2fc2e6dd056602cfd11d4b6bca6bf9a18d5ca995a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anwb.nl",
+                "www.anwb.nl"
+            ]
+        },
+        {
+            "rule": "nl\\.edgesuite\\.net\\/iris\\/v1\\/iris-chat-api\\/event\\/onLoad",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.anwb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "api.anwb.nl",
+                    "resolved": "api.anwb.nl.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anwb.nl",
+                "www.anwb.nl"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000102,
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": []
+}

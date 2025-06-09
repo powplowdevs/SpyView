@@ -1,0 +1,120 @@
+{
+    "domain": "company-target.com",
+    "owner": {
+        "name": "Demandbase, Inc.",
+        "displayName": "Demandbase",
+        "privacyPolicy": "http://www.demandbase.com/privacy-policy/",
+        "url": "http://demandbase.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000918,
+    "sites": 9,
+    "subdomains": [
+        "s",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "company-target\\.com\\/s\\/sync",
+            "cookies": 0.000816,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "ab4ae8cd269848a234a6ed178d19a5b9ebe1f455943567a755a4d7ec74398683",
+                "aba792c7e6283138f346e39bc8e41248fda128edea3eea535532b28cb548ce79",
+                "1e53fc5a9ce3c817058c8f45f5bb5027ca35ae6ad2568b95761073a697dc58d8"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sophos.com",
+                "docs.paloaltonetworks.com",
+                "docs.nginx.com",
+                "pubs.acs.org",
+                "www.citrix.com",
+                "www.msci.com",
+                "www.ups.com",
+                "www.zebra.com"
+            ]
+        },
+        {
+            "rule": "company-target\\.com\\/api\\/v3\\/ip\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "e3d9296704e494f85ab7e4a82e0cb38eb4eb11dab782d88daee97e2d56fe41ca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sophos.com",
+                "docs.paloaltonetworks.com",
+                "docs.nginx.com",
+                "pubs.acs.org",
+                "www.citrix.com",
+                "www.epson.de",
+                "www.msci.com",
+                "www.ups.com",
+                "www.zebra.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "Obscure Ownership"
+    ],
+    "performance": {},
+    "cookies": 0.000816,
+    "topInitiators": [
+        {
+            "domain": "demandbase.com",
+            "prevalence": 0.47368421052631576
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3157894736842105
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.15789473684210525
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Document": 8,
+        "XHR": 9
+    },
+    "nameservers": [
+        "ns-1317.awsdns-36.org",
+        "ns-1712.awsdns-22.co.uk",
+        "ns-276.awsdns-34.com",
+        "ns-706.awsdns-24.net"
+    ]
+}

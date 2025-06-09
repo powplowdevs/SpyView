@@ -1,0 +1,112 @@
+{
+    "domain": "vidcrunch.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "tg1",
+        "servt",
+        "serv"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vidcrunch\\.com\\/api\\/adserver\\/spt",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tg1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1ac0fd21ef41d9a712d266649ecde015f79eeb5b0e20c5c545bfd83c330cb674"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delftstack.com",
+                "www.gamingdeputy.com"
+            ]
+        },
+        {
+            "rule": "vidcrunch\\.com\\/track",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "servt"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delftstack.com",
+                "www.delftstack.com",
+                "www.gamingdeputy.com"
+            ]
+        },
+        {
+            "rule": "vidcrunch\\.com\\/api\\/adserver\\/tag\\/",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "serv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c9ce0687215bda87db11b7caf4c490b270af626cc27569041030a295fd93baea"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delftstack.com",
+                "www.gamingdeputy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "aniview.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-56.awsdns-07.com",
+        "ns-964.awsdns-56.net",
+        "ns-1033.awsdns-01.org",
+        "ns-2008.awsdns-59.co.uk"
+    ]
+}

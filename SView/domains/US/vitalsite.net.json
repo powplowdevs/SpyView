@@ -1,0 +1,80 @@
+{
+    "domain": "vitalsite.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "vitalsite\\.net\\/Rendering\\/render\\.ashx",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capecodhealth.org",
+                "www.capecodhealth.org"
+            ]
+        },
+        {
+            "rule": "vitalsite\\.net\\/Rendering\\/render\\.ashx",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "4dd8a97556a3ad924a3ff6b7fbea21a3e9787ad154e212fb5f2666f8819c8b87",
+                "1c896f64b540a057d391755c0f8aa1879fe09701e3272030ae28a411637615a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cottagehealth.org",
+                "www.cottagehealth.org",
+                "www.mymichigan.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 3
+    },
+    "nameservers": [
+        "pdns09.domaincontrol.com",
+        "pdns10.domaincontrol.com",
+        "ns5.dnsmadeeasy.com",
+        "ns6.dnsmadeeasy.com",
+        "ns7.dnsmadeeasy.com"
+    ]
+}

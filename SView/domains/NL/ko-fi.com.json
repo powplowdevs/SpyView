@@ -1,0 +1,103 @@
+{
+    "domain": "ko-fi.com",
+    "owner": {
+        "name": "Ko-Fi Labs Limited",
+        "displayName": "Ko-Fi Labs"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000408,
+    "sites": 4,
+    "subdomains": [
+        "storage"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ko-fi\\.com\\/cdn\\/widget\\/Widget_2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ca4cda19c47fd21a5fbeb822a2802f62a29acf6797bdd3cf811bc3f09e09489c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drumbit.app",
+                "vidburner.com"
+            ]
+        },
+        {
+            "rule": "ko-fi\\.com\\/cdn\\/cup-border\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5ae48e2d9fd89eab4b99439b563dce9bb8476ecf2ca8eac52ff2613d441b81bb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drumbit.app",
+                "vidburner.com"
+            ]
+        },
+        {
+            "rule": "ko-fi\\.com\\/cdn\\/whitelogo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storage"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "a97e2486e279a2b5bf69bcff95f7cb25134574da875dbbcf9404467749b21253"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drumbit.app",
+                "playclassic.games",
+                "vidburner.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 5
+    },
+    "nameservers": [
+        "eve.ns.cloudflare.com",
+        "ruben.ns.cloudflare.com"
+    ]
+}

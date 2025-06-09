@@ -1,0 +1,111 @@
+{
+    "domain": "getblue.io",
+    "owner": {
+        "name": "getblue",
+        "displayName": "getblue"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "event",
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getblue\\.io\\/js\\/blue-tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a2be364e2921857c3e1415e1e9e74e5628a02318662a25da27a23da90929c84a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "getblue\\.io\\/p\\/",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "getblue\\.io\\/event\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5b92a408bbe994550b7055a07066d79ec13a646062d36f046dbd84a9d59e86e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-48.awsdns-06.com",
+        "ns-1053.awsdns-03.org",
+        "ns-1752.awsdns-27.co.uk",
+        "ns-730.awsdns-27.net"
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "domain": "zamimg.com",
+    "owner": {
+        "name": "ZAM Network",
+        "displayName": "ZAM Network"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000141,
+    "sites": 20,
+    "subdomains": [
+        "wow"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zamimg\\.com\\/widgets\\/power\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wow"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "4a8bd46b89fe4d67246ee72e7ef0b40ec2d4f7634a0d9de0f857c5eaba598b9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blizzardwatch.com",
+                "raider.io",
+                "www.method.gg",
+                "www.raidbots.com",
+                "www.warcraftpets.com",
+                "www.wow-petguide.com",
+                "www.wow-petopia.com",
+                "www.wow-professions.com"
+            ]
+        },
+        {
+            "rule": "zamimg\\.com\\/css\\/universal\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wow"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "58e584268c0ccbce5dbb2e766225f77ba8dab62a6e953a886c77449b91ddce9d",
+                "2f915c2b6cdedc12b3929e0a9de5b3bce4ed42aefb4edb9e4814142e9e943214"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blizzardwatch.com",
+                "raider.io",
+                "seemeta.com",
+                "wowvendor.com",
+                "www.breakflip.com",
+                "www.buffed.de",
+                "www.gamosaurus.com",
+                "www.method.gg",
+                "www.pcgames.de",
+                "www.raidbots.com",
+                "www.warcraftpets.com",
+                "www.wow-petguide.com",
+                "www.wow-petopia.com",
+                "www.wow-professions.com"
+            ]
+        },
+        {
+            "rule": "zamimg\\.com\\/js\\/tooltips\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wow"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "4a8bd46b89fe4d67246ee72e7ef0b40ec2d4f7634a0d9de0f857c5eaba598b9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seemeta.com",
+                "wowvendor.com",
+                "www.breakflip.com",
+                "www.buffed.de",
+                "www.gamosaurus.com",
+                "www.pcgames.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9777777777777777
+        },
+        {
+            "domain": "wowhead.com",
+            "prevalence": 0.022222222222222223
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Stylesheet": 14
+    },
+    "nameservers": [
+        "ns-1623.awsdns-10.co.uk",
+        "ns-73.awsdns-09.com",
+        "ns-561.awsdns-06.net",
+        "ns-1036.awsdns-01.org"
+    ]
+}

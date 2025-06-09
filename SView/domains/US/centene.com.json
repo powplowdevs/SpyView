@@ -1,0 +1,204 @@
+{
+    "domain": "centene.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "smetrics",
+        "my",
+        "content"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "centene\\.com\\/ee\\/va6\\/v1\\/interact",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "52a328a46a391e7a11f2571894b989df4f8efa3155108f398d247cb1102b9011",
+                "be21a17598cd2b348dac14b2d1c786645a01623503b430e1f9e59fb31189d16b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellcare.com",
+                "www.healthnet.com",
+                "www.wellcare.com"
+            ]
+        },
+        {
+            "rule": "centene\\.com\\/\\.well-known\\/interceptor-configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "2c43cd801f456d24df38edd31e4b8edbe5b1dff0d2f48ab41d983aaf40523132",
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "c7aa876fba521cb264073688cfcf84832f8ff99e230fb94cd5024a29d8e9408e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellcare.com",
+                "www.ambetterhealth.com",
+                "www.healthnet.com",
+                "www.sunshinehealth.com",
+                "www.wellcare.com"
+            ]
+        },
+        {
+            "rule": "centene\\.com\\/chat\\/message\\.wav",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellcare.com",
+                "provider.wellcare.com"
+            ]
+        },
+        {
+            "rule": "centene\\.com\\/content\\/web-content\\/public\\/en_us\\/maintenance\\.model\\.json",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "a2d080d513fa199cc6181a5b58b1030b9cfa8c8edd7577e682d0fbfad7c81d33"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambetterhealth.com",
+                "www.ambetterhealth.com",
+                "www.healthnet.com",
+                "www.sunshinehealth.com"
+            ]
+        },
+        {
+            "rule": "centene\\.com\\/interceptor\\/usearch-public-search-component\\/main\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6a3036a5aa0d32fc7c48ec0b0e62974182facf0ba086357c082e8a06bfbdd8d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambetterhealth.com",
+                "www.ambetterhealth.com"
+            ]
+        },
+        {
+            "rule": "centene\\.com\\/interceptor\\/usearch-public-search-component\\/568\\.5f0b81e44b8242bae9d5\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e1dcf3082f9516f0cfc6e2024bdf11130ec883a43b5ca1a56add473a41dd0824"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambetterhealth.com",
+                "www.ambetterhealth.com"
+            ]
+        },
+        {
+            "rule": "centene\\.com\\/interceptor\\/usearch-public-search-component\\/ExampleComponent\\.82e474899a837a900be7\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6c4e60b4aa281098dbca27ec0147a6bfed9daf6f4e4288bcd4b3148162a3689d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambetterhealth.com",
+                "www.ambetterhealth.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7407407407407407
+        },
+        {
+            "domain": "cnc-interceptor.com",
+            "prevalence": 0.25925925925925924
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "XHR": 9,
+        "Media": 2,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns11.centene.com",
+        "ns12.centene.com"
+    ]
+}

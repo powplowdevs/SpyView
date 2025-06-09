@@ -1,0 +1,159 @@
+{
+    "domain": "boost.shop",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "boost\\.shop\\/js\\/cart\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "959cbe179b6402faf5b8752d8d9fe228494b9b227e05e7ccfe9932e8c601c737"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carnivoresnax.com",
+                "lineageprovisions.com",
+                "www.equipfoods.com",
+                "www.wildfoods.co"
+            ]
+        },
+        {
+            "rule": "boost\\.shop\\/storefront\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a18cea497825b05afca3a48fcc103f8aa077a0db125c83959c5beb919aa04840",
+                "8ce6188970305ae9d82ddb05c17c43bfd445a33820a8ba1e2e8ec373f2d6e412"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carnivoresnax.com",
+                "lineageprovisions.com",
+                "www.equipfoods.com"
+            ]
+        },
+        {
+            "rule": "boost\\.shop\\/storefront\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carnivoresnax.com",
+                "lineageprovisions.com",
+                "www.equipfoods.com"
+            ]
+        },
+        {
+            "rule": "boost\\.shop\\/storefront\\/cart\\/recommendations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carnivoresnax.com",
+                "lineageprovisions.com",
+                "www.equipfoods.com"
+            ]
+        },
+        {
+            "rule": "boost\\.shop\\/storefront\\/cart\\/recommendations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "5ea425898997fb122a18b37a993aadf7dc092547faa7c257304feb367a94bc6b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carnivoresnax.com",
+                "lineageprovisions.com",
+                "www.equipfoods.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9090909090909091
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 6,
+        "Preflight": 6
+    },
+    "nameservers": [
+        "kate.ns.cloudflare.com",
+        "noah.ns.cloudflare.com"
+    ]
+}

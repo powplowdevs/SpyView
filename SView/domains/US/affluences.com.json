@@ -1,0 +1,83 @@
+{
+    "domain": "affluences.com",
+    "owner": {
+        "name": "Affluences",
+        "displayName": "Affluences"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "webapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "affluences\\.com\\/js\\/timetable_api_latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webapi"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7ca7098e1f51500d897afcbf621a82de98f2343dd8dbd5bed2317e76f802bdd7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "u-paris.fr",
+                "uclouvain.be"
+            ]
+        },
+        {
+            "rule": "affluences\\.com\\/js\\/webapi_latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webapi"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "743f9b2f401b47c89cb6bc590c45891969e61fcd30aba5ba04c9e85b9e4ed33c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "u-paris.fr",
+                "uclouvain.be"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "laura.ns.cloudflare.com",
+        "terry.ns.cloudflare.com"
+    ]
+}

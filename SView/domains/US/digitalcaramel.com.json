@@ -1,0 +1,100 @@
+{
+    "domain": "digitalcaramel.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000163,
+    "sites": 23,
+    "subdomains": [
+        "ads",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "digitalcaramel\\.com\\/caramel\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads",
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 10,
+                "window.innerWidth": 10,
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "8ef404102f3f416c052a2917e5334135483a31db1f0346cc7b8acca3c11faa5b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "4ege.ru",
+                "akniga.org",
+                "fb2.top",
+                "fuseandrelay.com",
+                "m1.yaoi-poisk.ru",
+                "mytabs.ru",
+                "smotret.tv",
+                "studfile.net",
+                "wikimapia.org",
+                "www.euroki.org"
+            ]
+        },
+        {
+            "rule": "digitalcaramel\\.com\\/prebid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3a7ba8974fe1547200051f4c601d72c596896b622349fc78dbc3cd7dcc6f6bac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cronica.com.ar",
+                "zotuf.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12
+    },
+    "nameservers": [
+        "robotns2.second-ns.de",
+        "robotns3.second-ns.com",
+        "ns1.first-ns.de"
+    ]
+}

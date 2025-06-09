@@ -1,0 +1,74 @@
+{
+    "domain": "cloudflareaccess.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000778,
+    "sites": 11,
+    "subdomains": [
+        "nerdwallet",
+        "sohohouse"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cloudflareaccess\\.com\\/cdn-cgi\\/access\\/login\\/meta\\.nerdwallet\\.io",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nerdwallet"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nerdwallet.com",
+                "www.nerdwallet.com"
+            ]
+        },
+        {
+            "rule": "cloudflareaccess\\.com\\/cdn-cgi\\/access\\/login\\/posthog\\.infra\\.sohohousedigital\\.com",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sohohouse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sohohouse.com",
+                "www.sohohouse.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "eva.ns.cloudflare.com",
+        "kanye.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,831 @@
+{
+    "domain": "awswaf.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00214,
+    "sites": 21,
+    "subdomains": [
+        "d8c14d4960ca.edge.sdk",
+        "15149e30ace7.us-east-1.sdk",
+        "15149e30ace7.0ecba478.us-east-1.token",
+        "4ca23a2755bf.eu-central-1.sdk",
+        "4ca23a2755bf.dbe04f38.eu-central-1.token",
+        "static.captcha",
+        "c60708c831e2.edge.captcha-sdk",
+        "c60708c831e2.e253bde8.eu-central-1.captcha",
+        "c60708c831e2.e253bde8.eu-central-1.token",
+        "82d925f87a91.edge.sdk",
+        "f637c21d504a.79eb4403.eu-central-1.token",
+        "38b12937d261.bcd65730.eu-central-1.token",
+        "ad6304386f59.edge.sdk",
+        "67de5edb740e.edge.sdk",
+        "4422a912521b.edge.sdk",
+        "b01ff50746e4.edge.captcha-sdk",
+        "b01ff50746e4.451736d1.eu-central-1.captcha",
+        "b01ff50746e4.edge.sdk",
+        "f2765db39baa.56c53c3b.eu-central-1.token",
+        "c09bc9c04079.edge.sdk",
+        "b04ce71eb2db.e14fe838.eu-central-1.token",
+        "b04ce71eb2db.eu-central-1.sdk",
+        "b04ce71eb2db.9e153fac.eu-central-1.token",
+        "017ae153ccc5.ad9a0bc3.eu-central-1.token",
+        "017ae153ccc5.us-west-2.sdk",
+        "017ae153ccc5.23ef3a14.us-west-2.token",
+        "392b24c375d2.edge.sdk",
+        "851818c3fbb6.e5e16bcf.eu-central-1.token"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "awswaf\\.com\\/d8c14d4960ca\\/a18a4859af9c\\/challenge\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 3,
+            "subdomains": [
+                "d8c14d4960ca.edge.sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Navigator.prototype.webdriver": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "MediaSource.isTypeSupported": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "441506e2eec1c32b066fe8b5ba5b46b1b2279f599dc107223c3f13e963996819"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aws-waf-token": {
+                    "ttl": 345617,
+                    "length": 313,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "booking.com",
+                "www.booking.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/d8c14d4960ca\\/a18a4859af9c\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d8c14d4960ca.edge.sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b995b31f2e4cbf26ae54f0feb65aa10c31a88af7815cb8bc5e356478d184d038"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "booking.com",
+                "www.booking.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/d8c14d4960ca\\/a18a4859af9c\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d8c14d4960ca.edge.sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9f4df2995b4ba44289818b5ae67da5689dd21579233539bc51cf69fb3d276090"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "booking.com",
+                "www.booking.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/15149e30ace7\\/bb2d53562941\\/challenge\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 3,
+            "subdomains": [
+                "15149e30ace7.us-east-1.sdk",
+                "15149e30ace7.0ecba478.us-east-1.token"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Navigator.prototype.webdriver": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "MediaSource.isTypeSupported": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "22f56fa58a9f74fbe68b408859a14467eafeaefc369de315d074db13da8c760b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aws-waf-token": {
+                    "ttl": 345614,
+                    "length": 321,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricklink.com",
+                "www.bricklink.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/15149e30ace7\\/bb2d53562941\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "15149e30ace7.0ecba478.us-east-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d5e63916b53d44f6217643468acfdd0d342bd48b06c30f7a1c2e80f52c2f1997"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricklink.com",
+                "www.bricklink.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/4ca23a2755bf\\/77f1c4e56e4e\\/challenge\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 2,
+            "subdomains": [
+                "4ca23a2755bf.eu-central-1.sdk",
+                "4ca23a2755bf.dbe04f38.eu-central-1.token"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Navigator.prototype.webdriver": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "329bca4d87d37605dac19f53d6d4d5d7d714f2165fd1c8c7de80e612efb30042"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aws-waf-token": {
+                    "ttl": 345607,
+                    "length": 318,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecovacs.com",
+                "www.ecovacs.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/4ca23a2755bf\\/77f1c4e56e4e\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "4ca23a2755bf.dbe04f38.eu-central-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "99977dd4ef6e351643b148c52c9c71ef069d792e4d0b5b7ac169b8f8f6afee5f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecovacs.com",
+                "www.ecovacs.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/fonts\\/AmazonEmberLt\\/stylesheet\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.captcha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2998d81cfd55c682823a732f696790f3745c3c1b394ca6701cc91dda9dc54516"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euronics.de",
+                "www.tonerpartner.de"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/fonts\\/AmazonEmberLt\\/AmazonEmber-Light\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.captcha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7ba49badcc6d0141f4a12d364346e737e063627cad02365666f6ce39628a6f26"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euronics.de",
+                "www.tonerpartner.de"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/c60708c831e2\\/jsapi\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c60708c831e2.edge.captcha-sdk",
+                "c60708c831e2.e253bde8.eu-central-1.captcha"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7fe312451c8c910a84ccf703d343b89e3627afba5c58796ebdedccdfd0c666e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geogebra.org",
+                "www.geogebra.org"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/c60708c831e2\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c60708c831e2.e253bde8.eu-central-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2f8d8bc917124e1330140b4151d211eed18ac67e4619c9b2c64181827d7c9ac5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geogebra.org",
+                "www.geogebra.org"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/82d925f87a91\\/dc8cf73809de\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "82d925f87a91.edge.sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4abccb5e23ad2f0c625e33e50881bda9a193469dd5f94bef27cb8fe6d1b35602"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.immobilienscout24.de"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/f637c21d504a\\/be304383d355\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "f637c21d504a.79eb4403.eu-central-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "224893229ee12dd2c052f85976a4147eed373781cf68d0e5a69aba101f90cc38"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kfzteile24.de",
+                "www.kfzteile24.de"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/38b12937d261\\/1be2c35156de\\/2f5cb8c93ee7\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "38b12937d261.bcd65730.eu-central-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "klarna.com",
+                "www.klarna.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/ad6304386f59\\/59d0e189c5de\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad6304386f59.edge.sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d073516781bde811ffc0d455824196134060f363e4439a0e550e197505ad19a3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "litcharts.com",
+                "www.litcharts.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/67de5edb740e\\/ad20c9bd210d\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "67de5edb740e.edge.sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "07a6f818a13f75907cc0fb9d3d679bb4e229d57857da17ab51765f0d982a1758"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manyvids.com",
+                "www.manyvids.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/4422a912521b\\/b585abc30bbe\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "4422a912521b.edge.sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "151dc43c1b45fb790475978ffcd5bcfe80f145363d6a57b07a960ed4da73e9f5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marktplaats.nl",
+                "www.marktplaats.nl"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/b01ff50746e4\\/jsapi\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "b01ff50746e4.edge.captcha-sdk",
+                "b01ff50746e4.451736d1.eu-central-1.captcha"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a7b3f3c46a5218deae0c579bbd736cf6c6128e923c848bc9416877b6f837fafe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.com",
+                "www.morningstar.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/b01ff50746e4\\/707a685b9b97\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b01ff50746e4.edge.sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "fddeecbd62fd2e7bcfb46b780c03dd28ca043c977a83417f64c356d5f365c351"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.com",
+                "www.morningstar.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/f2765db39baa\\/a120236f0cdb\\/2874166a4290\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "f2765db39baa.56c53c3b.eu-central-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbb.ch",
+                "www.sbb.ch"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/c09bc9c04079\\/4996efde3854\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c09bc9c04079.edge.sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a396532b427b1486e7f99e797d442c53997c5575ce04f40b2730a47065bdb790"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "semanticscholar.org",
+                "www.semanticscholar.org"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/b04ce71eb2db\\/6c5d23f75652\\/d2796c3deb0f\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b04ce71eb2db.e14fe838.eu-central-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "singulart.com",
+                "www.singulart.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/b04ce71eb2db\\/6c5d23f75652\\/challenge\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 1,
+            "subdomains": [
+                "b04ce71eb2db.eu-central-1.sdk",
+                "b04ce71eb2db.9e153fac.eu-central-1.token"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "88db24c43ff4a95652022cc0c37121ac0116047d335f401ac669c526f0578310"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aws-waf-token": {
+                    "ttl": 345624,
+                    "length": 297,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "singulart.com",
+                "www.singulart.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/b04ce71eb2db\\/6c5d23f75652\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b04ce71eb2db.9e153fac.eu-central-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "592460b350b1a1cb13caba940821a11a8246fa183640acca104950c92f598fd6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "singulart.com",
+                "www.singulart.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/017ae153ccc5\\/3e51ef353b55\\/908594a2e5b8\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "017ae153ccc5.ad9a0bc3.eu-central-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skool.com",
+                "www.skool.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/017ae153ccc5\\/627e7f256e22\\/challenge\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 1,
+            "subdomains": [
+                "017ae153ccc5.us-west-2.sdk",
+                "017ae153ccc5.23ef3a14.us-west-2.token"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7ff80045b22c8dc23322d34498bfb51dac8e87c202c887670bb41b4ae1d509a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aws-waf-token": {
+                    "ttl": 345609,
+                    "length": 292,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skool.com",
+                "www.skool.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/017ae153ccc5\\/627e7f256e22\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "017ae153ccc5.23ef3a14.us-west-2.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a544d72394ef43167cf0863191cc0797c85eeba36637fbc669d73ec98d8aeb29"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skool.com",
+                "www.skool.com"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/392b24c375d2\\/4c10dc55af02\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "392b24c375d2.edge.sdk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "386c4c4594a47824f72f4340a2a7a1371b464b041f8ab5703c7a7413c4200fbe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sport-thieme.de",
+                "www.sport-thieme.de"
+            ]
+        },
+        {
+            "rule": "awswaf\\.com\\/851818c3fbb6\\/42ed7001789c\\/d4798c1e2127\\/telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "851818c3fbb6.e5e16bcf.eu-central-1.token"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b1db2370a8b07f69812570fc982e1b698373f872265c2b03f1581088025ab909"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tonerpartner.de",
+                "www.tonerpartner.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00194,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8148148148148148
+        },
+        {
+            "domain": "static-immobilienscout24.de",
+            "prevalence": 0.09876543209876543
+        },
+        {
+            "domain": "omnisnippet1.com",
+            "prevalence": 0.04938271604938271
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Fetch": 40,
+        "Stylesheet": 2,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns-43.awsdns-05.com",
+        "ns-759.awsdns-30.net",
+        "ns-1878.awsdns-42.co.uk",
+        "ns-1121.awsdns-12.org"
+    ]
+}

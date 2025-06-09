@@ -1,0 +1,288 @@
+{
+    "domain": "trackedweb.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00136,
+    "sites": 192,
+    "subdomains": [
+        "static",
+        "r1",
+        "r2",
+        "r3"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trackedweb\\.net\\/js\\/_dmptv4\\.js",
+            "cookies": 0.000622,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 104,
+                "Document.cookie getter": 88,
+                "Document.cookie setter": 88,
+                "Date.prototype.getTime": 82
+            },
+            "sites": 149,
+            "prevalence": 0.00105,
+            "cnames": [],
+            "responseHashes": [
+                "c72f012e07a5fac88d991fc10495262fbfaec34695922d01c9b29862384f1472"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "recordID": {
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.0006224535989135355,
+                    "uniqueness": 1
+                },
+                "dmSessionID": {
+                    "ttl": 1205,
+                    "length": 36,
+                    "prevalence": 0.0006224535989135355,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "store.rainbird.com",
+                "www.bartelldrugs.com",
+                "www.reeds.com",
+                "www.panini.it",
+                "www.virginexperiencedays.co.uk",
+                "www.charlies.co.uk",
+                "shop.ordnancesurvey.co.uk",
+                "www.bristol.ac.uk",
+                "www.rmweb.co.uk",
+                "fatquartershop.com",
+                "www.vacationsbyrail.com",
+                "super.rugby",
+                "www.rct.uk",
+                "www.ss396.com",
+                "www.bedbathntable.com.au",
+                "www.zip-corvette.com",
+                "www.lhasaoms.com",
+                "www.maidenform.com",
+                "www.sloanex.com",
+                "www.paniniamerica.net"
+            ]
+        },
+        {
+            "rule": "trackedweb\\.net\\/pagevisit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r1",
+                "r2",
+                "r3"
+            ],
+            "apis": {},
+            "sites": 142,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "recordID": 0.000721480307831598,
+                "dmSessionID": 0.000721480307831598,
+                "dy_fs_page": 0.000028293345405160706,
+                "cookies.js": 0.00009195337256677229,
+                "domain": 0.000028293345405160706,
+                "sf_cid": 0.000014146672702580353,
+                "dnsDisplayed": 0.000014146672702580353,
+                "signedLspa": 0.000014146672702580353,
+                "IR_gbd": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "shop.ordnancesurvey.co.uk",
+                "www.seetickets.com",
+                "www.ezup.com",
+                "www.bettermusic.com.au",
+                "www.paddypallin.com.au",
+                "www.vegro.nl",
+                "www.stanstedexpress.com",
+                "www.demon-tweeks.com",
+                "www.timpson.co.uk",
+                "www.vacationsbyrail.com",
+                "www.rsaconference.com",
+                "www.australianplantsonline.com.au",
+                "lwtheatres.co.uk",
+                "www.zip-corvette.com",
+                "www.lowes.com.au",
+                "www.yopa.co.uk",
+                "www.rya.org.uk",
+                "leevalley.com",
+                "gundigest.com",
+                "www.mountainwarehouse.com"
+            ]
+        },
+        {
+            "rule": "trackedweb\\.net\\/cartInsight",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r1",
+                "r2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "recordID": 0.00002122000905387053,
+                "dmSessionID": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "marshallsgarden.com",
+                "norwall.com",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "trackedweb\\.net\\/cartInsight",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r1",
+                "r2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "recordID": 0.00002122000905387053,
+                "dmSessionID": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "marshallsgarden.com",
+                "norwall.com",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "trackedweb\\.net\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "recordID": 0.000028293345405160706,
+                "dmSessionID": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "directsupply.com",
+                "www.bartelldrugs.com",
+                "www.safety-kleen.com",
+                "www.theisens.com"
+            ]
+        },
+        {
+            "rule": "trackedweb\\.net\\/js\\/_dmpt\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e0a8dadbf006b8929fb90999372a77c006ecc2ebf0c3790b7e2a60baaf1d7949"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avogel.co.uk",
+                "www.avogel.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000813,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.608
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.252
+        },
+        {
+            "domain": "trackedlink.net",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "ddlnk.net",
+            "prevalence": 0.032
+        },
+        {
+            "domain": "webinsight.s3.amazonaws.com",
+            "prevalence": 0.008
+        },
+        {
+            "domain": "bondsaustralia.com",
+            "prevalence": 0.004
+        },
+        {
+            "domain": "onetrust.com",
+            "prevalence": 0.004
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.004
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.004
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.004
+        }
+    ],
+    "types": {
+        "Script": 151,
+        "Ping": 146,
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns01.dot-dns.net",
+        "ns02.dot-dns.net",
+        "ns02.dot-dns.co.uk",
+        "ns01.dot-dns.co.uk"
+    ]
+}

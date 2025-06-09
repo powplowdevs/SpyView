@@ -1,0 +1,107 @@
+{
+    "domain": "sa7eer.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "p"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sa7eer\\.com\\/api\\/v3\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "383a01f58c0df8dfc1af650b72858854e13c866b882aed2dea223d40dcc53171"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "brusheezy.com",
+                "www.videezy.com"
+            ]
+        },
+        {
+            "rule": "sa7eer\\.com\\/api\\/v3\\/direct",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a99ce0ff04ad1031ed8d3df0861b845a08161e083ae95fc0f15ffcca956d5358",
+                "c2de9b12361cf46b19a46753b7c7ec80a0844f5333223b7a2f3b193284557814"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "brusheezy.com",
+                "www.vecteezy.com",
+                "www.videezy.com"
+            ]
+        },
+        {
+            "rule": "sa7eer\\.com\\/api\\/v3\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "94d287c8b03facebb385417c850a2b73fcbc0204f5d44d8106167791b2f93957"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "vecteezy.com",
+                "www.vecteezy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "XHR": 5
+    },
+    "nameservers": [
+        "apollo.ns.cloudflare.com",
+        "reza.ns.cloudflare.com"
+    ]
+}

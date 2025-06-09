@@ -1,0 +1,74 @@
+{
+    "domain": "aura-apps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aura-apps\\.com\\/shoppable\\/engine\\/js\\/addons\\/shoppable_gallery\\/shoppable_gallery\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.innerWidth": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "95f9bc51731b35b6df841d3971f42a7fa20816ba9b51ab64a259b3f84b86bf6e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fancysteel.com",
+                "www.hoselink.com",
+                "www.nemoequipment.com"
+            ]
+        },
+        {
+            "rule": "aura-apps\\.com\\/shoppable\\/engine\\/index\\.php",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "65f2fe479ee7fc5ee31f004243ef3df1567997451903bdd4e36a45090c286ae0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fancysteel.com",
+                "www.nemoequipment.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "charles.ns.cloudflare.com",
+        "meg.ns.cloudflare.com"
+    ]
+}

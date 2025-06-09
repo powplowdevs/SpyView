@@ -1,0 +1,1019 @@
+{
+    "domain": "facebook.net",
+    "owner": {
+        "name": "Facebook, Inc.",
+        "displayName": "Facebook",
+        "privacyPolicy": "https://www.facebook.com/privacy/explanation",
+        "url": "http://facebook.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0427,
+    "sites": 419,
+    "subdomains": [
+        "connect"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "facebook\\.net\\/en_US\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 46,
+                "window.name": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 2
+            },
+            "sites": 57,
+            "prevalence": 0.00581,
+            "cnames": [],
+            "responseHashes": [
+                "206c65f1fb3ad6d0b626a04ed5553c19f9f125561a5c1cb1bc18f021e0de61d1",
+                "2a072176d7608c345d9daab60080bacfd7438f35a44617da67aa7939a51a262c",
+                "d24d15baa9fcb4aa52499207672b5ecf97da9f8a9a603cee8eae2675721dd6bd",
+                "dcd8f2527b929bbd23e7686d09381178cff5b3de7f49c072d6cc0a66002b51c3",
+                "74c7739f02267ebd23151a28dac1a3edd586ab1700955381ac07f68b81da5b11",
+                "077523316db9c5f1dad9bb24b3010f802ef74465abf7cbcc1c3af5d5844b3176",
+                "7e649bf9045326ed7db535bb536b96434f4d4e76c2438f110bf63423f80cc870",
+                "04b018e5ea022315599bc2284eb6774955f3361e217ce8635b976b8afd1104ed",
+                "8701c2ea031e4364b0f09ffd40e0e63c53b83dd7726659d0d2516792e4869c39",
+                "9d1de4cf035205a11a413ca51be0b228e4e9c439ccd5a1284b0585b94d9d7d01",
+                "f517fb66926173d80392dae03060fde29f678717320c05c8ec92ea67598e7062",
+                "bec68bea1dd56d0dbee2b5ee15066daf3c3e822555565f50faba640b563610b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9gag.com",
+                "pixabay.com",
+                "www.pinterest.com",
+                "krank.de",
+                "zauber-magie.de",
+                "en8.pornhd8k.me",
+                "www.javaguides.net",
+                "www.mtggoldfish.com",
+                "www.pinterest.de",
+                "www.artstation.com",
+                "www.wattpad.com",
+                "www.livesoccertv.com",
+                "www.thaiairways.com",
+                "coolrom.com",
+                "www.bandsintown.com",
+                "www.geo-fs.com",
+                "solitaired.com",
+                "nuerburgring.de",
+                "www.royalenfield.com",
+                "forum.prusa3d.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/en_US\\/fbevents\\.js",
+            "cookies": 0.0232,
+            "fingerprinting": 2,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 294,
+                "Navigator.prototype.vendor": 293,
+                "window.sessionStorage": 269,
+                "NavigatorUAData.prototype.brands": 266,
+                "NavigatorUAData.prototype.platform": 266,
+                "Document.cookie getter": 253,
+                "Document.cookie setter": 227,
+                "Screen.prototype.width": 239,
+                "Screen.prototype.height": 239
+            },
+            "sites": 321,
+            "prevalence": 0.0327,
+            "cnames": [],
+            "responseHashes": [
+                "d077807b2373375b2d5c8ffbfeeea0bcb152e29c21ec147aecfab6b5502e5463",
+                "cd86380b2035e1bd12d5f428442a74b28d1e00a7f175db0925725121928eb983",
+                "7f4781af8ea11219bde213593fb2b7b0ad07242c807430cedae95022d5f43c90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_fbp": {
+                    "ttl": 7776006,
+                    "length": 37,
+                    "prevalence": 0.023151453340132584,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9gag.com",
+                "dictionary.cambridge.org",
+                "flickr.com",
+                "mashable.com",
+                "techcrunch.com",
+                "tvtropes.org",
+                "www.cbc.ca",
+                "www.ebay.com",
+                "www.flickr.com",
+                "www.newegg.com",
+                "www.thermofisher.com",
+                "www.bbraun.de",
+                "www.wurzelwerk.net",
+                "setapp.com",
+                "www.scribd.com",
+                "november.de",
+                "www.haustierratgeber.de",
+                "www.vevor.de",
+                "livetv.sx",
+                "indianexpress.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/\\/log\\/error",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9gag.com",
+                "de.jooble.org",
+                "unraid.net",
+                "www.daz3d.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/de_DE\\/all\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "d6c1802647d214f38d11ee798164cdf148ad178d9c267d690bef09168bace91f",
+                "683decbb6eb8795936549c421a343b5a04e47700add5357283aff72674f2530e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anrufer.info",
+                "www.bubbleshooter.de",
+                "www.energie-fachberater.de",
+                "www.freecellspielen.de",
+                "www.inch-cm.de",
+                "www.karriereakademie.de",
+                "www.mahjongkostenlos.de",
+                "www.umrechnung-zoll-cm.de",
+                "www.vermoegenmagazin.de"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/1808215336057912",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9b9fd5bf7aa5428e29d86fc7a9953236abd9c00521ba24bd1c2ce1f51443aff7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atu.de",
+                "www.atu.de"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/2020283235003922",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "83e9bbae25d9240f11b0b2c131d5d3fed9acdef511513046a9d169e04b6ddcbc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "n8n.io",
+                "docs.n8n.io"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/en_US\\/all\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 9,
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 14,
+            "prevalence": 0.00143,
+            "cnames": [],
+            "responseHashes": [
+                "4845742ae3112f596834f651f8555839b3487471fda51800a194266110e05d71",
+                "e53a2946cbef68126f12a545963e491fb57b4e733af1654c5f9ae844af6ef870",
+                "ac3fbd3fb38d073552a489def527db68c06ee3ae6dc5132bd67926e0aef43f02",
+                "409e7bf881087a38f3536bdf72720a9f0f3ea711e6ebec02aa5f9ee9b4c9b649"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "countrymeters.info",
+                "merkurist.de",
+                "songmeanings.com",
+                "www.bubbleshooter.de",
+                "www.digitalphoto.de",
+                "www.explainxkcd.com",
+                "www.free-spider-solitaire.com",
+                "www.geni.com",
+                "www.maclife.de",
+                "www.musicnotes.com",
+                "www.systemrequirementslab.com",
+                "www.thesimsresource.com",
+                "www.understandingwar.org",
+                "www.worldtimebuddy.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/de_DE\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 16,
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 23,
+            "prevalence": 0.00235,
+            "cnames": [],
+            "responseHashes": [
+                "80ae9dbe76775a6efc4400c52a04dae4107da174f43bde82f13e611cfe6e3be7",
+                "6ccc790cbf21ac08abe16b7c103aa71b5e191cb205b1d24120cd5e0ba42ecaf9",
+                "cef37ad04085d015108d45011ecc8f386ed53c55c3e11f257a390e322416dd42",
+                "4a71bedd5f2e5da283adf0f429ab1c6689a3e1d2d829a0dbf54814d6c703c65d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.glassdoor.com",
+                "www.panasonic.com",
+                "www.wetter24.de",
+                "www.simfisch.de",
+                "www.fitundattraktiv.de",
+                "lovoo.com",
+                "www.schwerin.de",
+                "lokalo.de",
+                "de.rbth.com",
+                "jedipedia.fandom.com",
+                "die-deutsche-wirtschaft.de",
+                "www.hannover96.de",
+                "deluxemusic.de",
+                "frankfurtflyer.de",
+                "www.mondkalender-online.de",
+                "www.goleasy.de",
+                "www.ovb-online.de",
+                "www.forschung-und-wissen.de",
+                "www.morecore.de",
+                "kochenkinderleicht.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/en_GB\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "2217227568f1a4f12cebc049a116e53cf935367eeec6c90a760f458030e23667",
+                "4dc4cd8aa2f77a171998a57b6089a87f8cc05880f0f280ef6e7c43a21a3fa8bb",
+                "67df00c011782abd06f7bc5b5984c92ed05f510078b0e2a1643860516f965602"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thejigsawpuzzles.com",
+                "de.thejigsawpuzzles.com",
+                "www.france-voyage.com",
+                "www.r-bloggers.com",
+                "www.secretescapes.de",
+                "www.webcamtaxi.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/161755414605325",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "ef48ed5164551cbeadfca06a44898fb2a3b9f3d6a1ef609d20b58b47ff52b9a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvidia.com",
+                "forums.developer.nvidia.com",
+                "www.nvidia.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/1930855327060283",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b8dcb719dbfacda07aeb579a8f5cd8c22bdb2c29f6c9d2a24f873a95e5bd2182"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flowzz.com",
+                "www.doktorabc.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/1317323709695663",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "902c7706f8154e9257380f4108c9b0ba220eb1e10e1528112e3bc5a480cc7564"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickr.com",
+                "www.flickr.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/plugins\\/openbridge3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "a203aee2c6eb5f6ce2ee414261cc320b219fb13f3899c9586a1722fc92955d0d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frankfurtflyer.de",
+                "wiesieliebt.de",
+                "www.accountable.de",
+                "www.haustierratgeber.de",
+                "www.top10berlin.de",
+                "www.wurzelwerk.net"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/3739102526366187",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "bc37db627ed2caf4ce9bda00afaaf82d8e769c43ddc8e32e6b7dce4b024e69e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hackaday.com",
+                "www.alldatasheet.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/643442745228346",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1b1969a687e344c967d536b88f19ffa9367efe3dbceb44d0cedd2446023e28d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "webex.com",
+                "www.webex.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/3177049609241091",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "159cd2e90990f73c40b43416025d119078786a2ce42cc6162d92edff213bac0b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narayana-verlag.de",
+                "www.narayana-verlag.de"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/1412984716258449",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d5386c10ffd19090f3b02be97e88cf82e0013372379fb001d8fd950063d54aee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/1932558340518186",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "83b771ed4692d2f7fa13ddc08bfc447f58925da4ded36b064c3fbf0ddceed73f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mueller.de",
+                "www.mueller.de"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/353731461716730",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3cef72b89972e0f6f3dd8655ec5ccf0b125e050faa155f86ac5ffe4ff5c357d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/965408856927387",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "81f749bdb6fbf48efb8ff33ce582cf29f83e641d44b104167e2661c3e5f3a061"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "alamy.de",
+                "www.alamy.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/sv_SE\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3b56474156dba3dd9f04fa4725bf87081b49b4cd954fbb6029f33227055cbab4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asciiart.eu",
+                "www.asciiart.eu"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/1380417578947782",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "82a2889dcbc10eba60470b5cfc12d327ce55d8a0a4c0174f725a474106c194f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chiemgau24.de",
+                "www.rosenheim24.de"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/1661820504633073",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f209cd6bee85cc1073f74d93fdfab29ca01beff72b1f7b03383cad39d51e92c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "feinschmecker.de",
+                "www.merian.de"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/nl_NL\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "f94a0476c6d397ac6495c4592209959fe1e57ad8cbaeb8ebbc309ee4d3d8b5fa",
+                "3a216d78333cdc8e2d01f90e6844b1a879da2b205ff547e62563083e9ea5803f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "focus-bikes.com",
+                "www.focus-bikes.com",
+                "www.prospektangebote.de"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/it_IT\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "6a6b1f01cc33dfc5624b62a617cc6e53b6c62f4587b197e8a4f8cfaa6feed04e",
+                "ef44c23e6273659fb85a289ff52ac01169b5004e76d3563d78588ffff06acd98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "giroditalia.it",
+                "www.giroditalia.it",
+                "www.songtextemania.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/en_US\\/fbds\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2a8c2269893959dd5d851533ee9b725aedbf8c2f6fdd84a5ee8923ea87894a00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lernen.net",
+                "www.mtggoldfish.com",
+                "www.wetter24.de"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/632505510231268",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "823540d40701287484bb9ca494fb3b242a1ef85ebf2bde5cf073a5432d6ee6ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oanda.com",
+                "www1.oanda.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/en_GB\\/all\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2020514412a19e3094dffbb0b87573066e72c35b57a192aa7c824efea928e4c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sheetmusicdirect.com",
+                "www.sheetmusicdirect.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/es_ES\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ea79b26eefb9f1e83e84b8e4458c41dc31f1a2d5af5dd1dedd7f09c1071b95c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spain.info",
+                "www.spain.info"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/195238849417509",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techrepublic.com",
+                "www.techrepublic.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/en_EN\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thaiairways.com",
+                "www.uefa.com"
+            ]
+        },
+        {
+            "rule": "facebook\\.net\\/signals\\/config\\/1651819368405783",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5697a12b94e0d50b165422adcb986cd1e583a9570d5e400cf4b06bc6859b29c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wickedweasel.com",
+                "www.wickedweasel.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud",
+        "Analytics",
+        "Audience Measurement",
+        "Federated Login",
+        "Social - Comment",
+        "Social - Share",
+        "Action Pixels",
+        "Badge",
+        "Embedded Content",
+        "Social Network"
+    ],
+    "performance": {},
+    "cookies": 0.0238,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6157024793388429
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.22520661157024793
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.04132231404958678
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.008264462809917356
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.008264462809917356
+        },
+        {
+            "domain": "pinimg.com",
+            "prevalence": 0.006198347107438017
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.006198347107438017
+        },
+        {
+            "domain": "adroll.com",
+            "prevalence": 0.004132231404958678
+        },
+        {
+            "domain": "hsadspixel.net",
+            "prevalence": 0.004132231404958678
+        },
+        {
+            "domain": "supplyframe.com",
+            "prevalence": 0.004132231404958678
+        }
+    ],
+    "types": {
+        "Script": 488,
+        "Image": 4
+    },
+    "nameservers": [
+        "a.ns.facebook.com",
+        "b.ns.facebook.com",
+        "d.ns.facebook.com",
+        "c.ns.facebook.com"
+    ]
+}

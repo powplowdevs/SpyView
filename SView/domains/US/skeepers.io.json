@@ -1,0 +1,428 @@
+{
+    "domain": "skeepers.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000297,
+    "sites": 42,
+    "subdomains": [
+        "cl-pbr.cxr",
+        "swa.datap",
+        "api.ugv",
+        "player.ugv",
+        "widgets.rr",
+        "cl-ppr.rr"
+    ],
+    "cnames": [
+        {
+            "original": "swa.h2r-equipements.com",
+            "resolved": "swa.datap.skeepers.io"
+        },
+        {
+            "original": "swa.makeupforever.com",
+            "resolved": "swa.datap.skeepers.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "skeepers\\.io\\/698e2820-e88a-f844-1921-29068640a32d\\/links\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ad9b3ecc9f0f7abe89245f658de17a067935e4a488a1492fad16e3ca67f3f227"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carrefour.it",
+                "www.carrefour.it"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/v1\\/collect",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swa.datap"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "swa.h2r-equipements.com",
+                    "resolved": "swa.datap.skeepers.io"
+                },
+                {
+                    "original": "swa.makeupforever.com",
+                    "resolved": "swa.datap.skeepers.io"
+                }
+            ],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gifi.fr",
+                "www.gifi.fr",
+                "www.h2r-equipements.com",
+                "www.makeupforever.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/75c5d324-42bd-9154-2d31-6d1e86eeae97\\/links\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "842ba6809111268e34a3e5ad12058bd7decab988ed15a802c8a11d3f05239cf7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.ugv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.ugv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bad16de8638af4f89f8a54078b572ccb41695b65dcc20df55838125693c7980c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player.ugv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/generated\\/c2527bc0-6cbe-9154-75ad-e3d86caf0099\\/30ccbe5b-67ba-4085-9305-15d5c78834f0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.rr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "192715b5fc66d4ca88895b169b02c3452bca33b370d28b40e7c5aaa78050f419"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "italotreno.com",
+                "www.italotreno.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/c2527bc0-6cbe-9154-75ad-e3d86caf0099\\/stats\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0a51305b2bdd4c26da5a2ad006119a01a181a60e7a752eea1f7360c155998e7b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "italotreno.com",
+                "www.italotreno.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/c2527bc0-6cbe-9154-75ad-e3d86caf0099\\/links\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3b910fb63b5650fc7a961daf6bc832c81745e9a3967104a89ecaf99a520e7e27"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "italotreno.com",
+                "www.italotreno.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/v2\\/17e97b00-dd8c-5a14-f5e5-63de38eb5dc8\\/OBZG6ZDVMN2F6NJXGAZDAMJXG44DINZZGM\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-ppr.rr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joueclub.fr",
+                "www.joueclub.fr"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/v2\\/17e97b00-dd8c-5a14-f5e5-63de38eb5dc8\\/product_5702017784793\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-ppr.rr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joueclub.fr",
+                "www.joueclub.fr"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/carousel\\/d3c036e1-1cb5-4f24-490e-f446ffe4f0d0\\/a0cf8caa-7f4b-4547-920b-0448064894c8\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets.rr"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6d3daf56b687c03eb59394098a84657934665a9dc590e03936870854844fb239"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "personalabs.com",
+                "www.personalabs.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/d3c036e1-1cb5-4f24-490e-f446ffe4f0d0\\/brand_widget\\/brief\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "34d09ae92551b9b39bf6faa47030abf8f1f2706a289cde9239860765a21e557e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "personalabs.com",
+                "www.personalabs.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/d3c036e1-1cb5-4f24-490e-f446ffe4f0d0\\/links\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3758ba14b4b7ef852d7aa66bd30d3c8dd1953643cdeb52be8ed5df098ece485d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "personalabs.com",
+                "www.personalabs.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/58347b31-d20a-f7a4-fd5a-c29026af8ec5\\/links\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4835c9500e85bd1ad282a9cb8e2b63096e48291dabe527f7ff36dd55e4901476"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ultalabtests.com",
+                "www.ultalabtests.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7252747252747253
+        },
+        {
+            "domain": "get-potions.com",
+            "prevalence": 0.06593406593406594
+        },
+        {
+            "domain": "skeepers.io",
+            "prevalence": 0.04395604395604396
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.04395604395604396
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.03296703296703297
+        },
+        {
+            "domain": "prestashop3.com",
+            "prevalence": 0.03296703296703297
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.02197802197802198
+        },
+        {
+            "domain": "sdv.fr",
+            "prevalence": 0.01098901098901099
+        },
+        {
+            "domain": "contentsquare.net",
+            "prevalence": 0.01098901098901099
+        },
+        {
+            "domain": "teester.com",
+            "prevalence": 0.01098901098901099
+        }
+    ],
+    "types": {
+        "Fetch": 20,
+        "XHR": 4,
+        "Preflight": 2,
+        "Document": 2,
+        "Script": 4
+    },
+    "nameservers": [
+        "ryan.ns.cloudflare.com",
+        "jillian.ns.cloudflare.com"
+    ]
+}

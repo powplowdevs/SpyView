@@ -1,0 +1,251 @@
+{
+    "domain": "disco-api.com",
+    "owner": {
+        "name": "Discovery Communications Europe Limited",
+        "displayName": "Discovery Communications Europe"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "eu1-prod",
+        "eu3-prod",
+        "us1-prod",
+        "us1-prod-images"
+    ],
+    "cnames": [
+        {
+            "original": "eu3-prod-direct-eurosport.tvn24.pl",
+            "resolved": "eu3-prod.disco-api.com"
+        },
+        {
+            "original": "eu3-prod-direct.eurosport.de",
+            "resolved": "eu3-prod.disco-api.com"
+        },
+        {
+            "original": "eu3-prod-direct.eurosport.es",
+            "resolved": "eu3-prod.disco-api.com"
+        },
+        {
+            "original": "us1-prod-direct.investigationdiscovery.com",
+            "resolved": "us1-prod.disco-api.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "disco-api\\.com\\/token",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod",
+                "eu3-prod",
+                "us1-prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "eu3-prod-direct.eurosport.es",
+                    "resolved": "eu3-prod.disco-api.com"
+                },
+                {
+                    "original": "us1-prod-direct.investigationdiscovery.com",
+                    "resolved": "us1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "5142601bf04476278bbf7461750bc3b670f400130e8c4cc18f5e76d99908bb0f",
+                "7994c5cb9be98604dd43c93cca979d61ac4e1b45ff4ce8592e12b363370eaf42"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmax.de",
+                "nove.tv",
+                "www.eurosport.es",
+                "www.investigationdiscovery.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod",
+                "eu3-prod",
+                "us1-prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "eu3-prod-direct.eurosport.es",
+                    "resolved": "eu3-prod.disco-api.com"
+                },
+                {
+                    "original": "us1-prod-direct.investigationdiscovery.com",
+                    "resolved": "us1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmax.de",
+                "nove.tv",
+                "www.eurosport.es",
+                "www.investigationdiscovery.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/playback\\/v3\\/videoPlaybackInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu3-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "eu3-prod-direct-eurosport.tvn24.pl",
+                    "resolved": "eu3-prod.disco-api.com"
+                },
+                {
+                    "original": "eu3-prod-direct.eurosport.es",
+                    "resolved": "eu3-prod.disco-api.com"
+                },
+                {
+                    "original": "eu3-prod-direct.eurosport.de",
+                    "resolved": "eu3-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvn24.pl",
+                "www.eurosport.es",
+                "www.eurosport.de"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/playback\\/v3\\/videoPlaybackInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu3-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "eu3-prod-direct-eurosport.tvn24.pl",
+                    "resolved": "eu3-prod.disco-api.com"
+                },
+                {
+                    "original": "eu3-prod-direct.eurosport.es",
+                    "resolved": "eu3-prod.disco-api.com"
+                },
+                {
+                    "original": "eu3-prod-direct.eurosport.de",
+                    "resolved": "eu3-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "849bfb6e8db680796844f0b78930e56353e1da29ad77ef24af15c35aa6c9e9b1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvn24.pl",
+                "www.eurosport.es",
+                "www.eurosport.de"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/users\\/me",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "us1-prod-direct.investigationdiscovery.com",
+                    "resolved": "us1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "0e7afcc71db9c3c68f1de73c4d7ad2524a623569625e2fa7a4807bee6b09b697"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investigationdiscovery.com",
+                "www.investigationdiscovery.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/2025\\/05\\/12\\/ae924adf-adeb-3e69-a39a-82b96309c477\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us1-prod-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "06f74da40bd60f5f11341c249e8315790c1f973febf9da91994d1a35a22ff6a9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investigationdiscovery.com",
+                "www.investigationdiscovery.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "hyogaplayer.com",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Fetch": 9,
+        "Preflight": 7,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-235.awsdns-29.com",
+        "ns-722.awsdns-26.net",
+        "ns-1647.awsdns-13.co.uk",
+        "ns-1277.awsdns-31.org"
+    ]
+}

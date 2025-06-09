@@ -1,0 +1,95 @@
+{
+    "domain": "farmatodo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "gw-backend"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "farmatodo\\.com\\/_ah\\/api\\/categoryEndpoint\\/getShortcuts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gw-backend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farmatodo.com.co",
+                "www.farmatodo.com.co"
+            ]
+        },
+        {
+            "rule": "farmatodo\\.com\\/_ah\\/api\\/categoryEndpoint\\/getShortcuts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gw-backend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d965f2f7a5d54c9fd323da74ed9bbbdcb0523095f4bbbaebbffe7be6d64721e6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farmatodo.com.co",
+                "www.farmatodo.com.co"
+            ]
+        },
+        {
+            "rule": "farmatodo\\.com\\/\\/_ah\\/v2\\/api\\/offers\\/highlights",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gw-backend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farmatodo.com.co",
+                "www.farmatodo.com.co"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns19.domaincontrol.com",
+        "ns20.domaincontrol.com"
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "domain": "recurly.com",
+    "owner": {
+        "name": "Recurly, Inc.",
+        "displayName": "Recurly"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000184,
+    "sites": 26,
+    "subdomains": [
+        "js",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "recurly\\.com\\/v4\\/recurly\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 15,
+                "Navigator.prototype.userAgent": 11,
+                "window.sessionStorage": 4
+            },
+            "sites": 19,
+            "prevalence": 0.000134,
+            "cnames": [],
+            "responseHashes": [
+                "af20751ed9800f6f314f104bd038506988aada456b5d0edf5cf84410811d7c2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "watchduty.org",
+                "app.watchduty.org",
+                "homealliance.com",
+                "kahoot.com",
+                "link.us.paramountplus.com",
+                "my.wyze.com",
+                "paramountplus.com",
+                "watch.livebarn.com",
+                "web.gc.com",
+                "www.acrevalue.com",
+                "www.amateurgolf.com",
+                "www.dailywire.com",
+                "www.hos.com",
+                "www.importgenius.com",
+                "www.mathway.com",
+                "www.molotov.tv",
+                "www.noteflight.com",
+                "www.paramountplus.com",
+                "www.yumpu.com"
+            ]
+        },
+        {
+            "rule": "recurly\\.com\\/v4\\/recurly\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "db16b375b9cc94e99d181e402140a50550d0764384e2aea73d50a1ea3e16122d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "watchduty.org",
+                "app.watchduty.org",
+                "homealliance.com",
+                "watch.livebarn.com",
+                "www.acrevalue.com",
+                "www.amateurgolf.com",
+                "www.beatport.com",
+                "www.dailywire.com",
+                "www.hos.com",
+                "www.molotov.tv",
+                "www.noteflight.com",
+                "www.yumpu.com"
+            ]
+        },
+        {
+            "rule": "recurly\\.com\\/js\\/v1\\/risk\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "6604083ae71cc792724fc7044fad943a093c8f92616af02eb1b336a1c2995f72"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kahoot.com",
+                "link.us.paramountplus.com",
+                "my.wyze.com",
+                "paramountplus.com",
+                "www.paramountplus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "Stylesheet": 12,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c2.googledomains.com"
+    ]
+}

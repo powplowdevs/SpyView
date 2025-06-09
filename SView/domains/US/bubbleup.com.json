@@ -1,0 +1,92 @@
+{
+    "domain": "bubbleup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "mydatascript",
+        "cynthiawoods.7.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bubbleup\\.com\\/mydata-non-eu\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mydatascript"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "1e6a4907ae4bb790dc12e13e1617f242e59afc136d29a5b81bf2db8a7040a9fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eagles.com",
+                "www.acmcountry.com",
+                "www.alanjackson.com",
+                "www.drweil.com",
+                "www.kennychesney.com",
+                "www.littlefeat.net",
+                "www.lukebryan.com",
+                "www.takamine.com",
+                "www.woodlandscenter.org"
+            ]
+        },
+        {
+            "rule": "bubbleup\\.com\\/api\\/cwdata\\/all",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cynthiawoods.7.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2075c74c18ab52940f95196789941be82a219050bf94bc480ed099fd32aa1cf9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woodlandscenter.org",
+                "www.woodlandscenter.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns43.domaincontrol.com",
+        "ns44.domaincontrol.com"
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "domain": "ivastudio.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "messenger.usw",
+        "messenger-ui.usw"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ivastudio\\.ai\\/loader",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "messenger.usw"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ea4afec17449b902e4444bc5a6a4ed26b87cda0bb21e37a0ea02ff32c501c3fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "id.me",
+                "help.id.me",
+                "www.archives.gov"
+            ]
+        },
+        {
+            "rule": "ivastudio\\.ai\\/ivas-messenger-ui\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "messenger-ui.usw"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "4f886471f8a57bfaeceea267b379e33fa4fc1474e1f691b16032aceb72ff7d0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "id.me",
+                "help.id.me",
+                "www.archives.gov"
+            ]
+        },
+        {
+            "rule": "ivastudio\\.ai\\/store",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "messenger.usw"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "id.me",
+                "help.id.me",
+                "www.archives.gov"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 3
+    },
+    "nameservers": [
+        "ns-22.awsdns-02.com",
+        "ns-2000.awsdns-58.co.uk",
+        "ns-1044.awsdns-02.org",
+        "ns-979.awsdns-58.net"
+    ]
+}

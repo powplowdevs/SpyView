@@ -1,0 +1,171 @@
+{
+    "domain": "cdn.adobeaemcloud.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "aem.danmurphys.com.au",
+            "resolved": "cdn.adobeaemcloud.com"
+        },
+        {
+            "original": "dam.keurig.com",
+            "resolved": "cdn.adobeaemcloud.com"
+        },
+        {
+            "original": "odin.adobe.com",
+            "resolved": "cdn.adobeaemcloud.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cdn\\.adobeaemcloud\\.com\\/content\\/dam\\/ccsurfaces\\/banners\\/en_US\\/assets\\/icons\\/Account\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "odin.adobe.com",
+                    "resolved": "cdn.adobeaemcloud.com"
+                }
+            ],
+            "responseHashes": [
+                "c99e4db26b135a16f314fb1f1b19620bf33b1c3b008ed31ca1028ca3f69ef634"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "creativecloud.adobe.com"
+            ]
+        },
+        {
+            "rule": "cdn\\.adobeaemcloud\\.com\\/content\\/dam\\/ccsurfaces\\/banners\\/en_US\\/assets\\/icons\\/Help\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "odin.adobe.com",
+                    "resolved": "cdn.adobeaemcloud.com"
+                }
+            ],
+            "responseHashes": [
+                "32fca29d12735777b79ac64c168ab652770fab101b75ff18c4fff572494c6e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "creativecloud.adobe.com"
+            ]
+        },
+        {
+            "rule": "cdn\\.adobeaemcloud\\.com\\/content\\/dam\\/ccsurfaces\\/banners\\/en_US\\/assets\\/icons\\/Apps\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "odin.adobe.com",
+                    "resolved": "cdn.adobeaemcloud.com"
+                }
+            ],
+            "responseHashes": [
+                "3dfa8da88bb0808271c41965460cd9db031ae7f6349a55d0c77f0f20b05f8dde"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "creativecloud.adobe.com"
+            ]
+        },
+        {
+            "rule": "cdn\\.adobeaemcloud\\.com\\/\\/etc\\/dam\\/viewers\\/s7viewers\\/html5\\/js\\/VideoViewer\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "dam.keurig.com",
+                    "resolved": "cdn.adobeaemcloud.com"
+                }
+            ],
+            "responseHashes": [
+                "9490843f8f4ada5512072dc15d2e5219a5f0d28d6f85e45450f588726e7eb9b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "keurig.com",
+                "support.keurig.com"
+            ]
+        },
+        {
+            "rule": "cdn\\.adobeaemcloud\\.com\\/content\\/dam\\/company\\/dan-murphys\\/dans-daily\\/dd-white\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "aem.danmurphys.com.au",
+                    "resolved": "cdn.adobeaemcloud.com"
+                }
+            ],
+            "responseHashes": [
+                "28ef29b948a5df4a5289df0cbca632b34d51772d1876eb2001d3fde9ebfc6f77"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "danmurphys.com.au",
+                "www.danmurphys.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "signalfx.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Image": 6,
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

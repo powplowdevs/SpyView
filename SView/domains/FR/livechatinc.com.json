@@ -1,0 +1,642 @@
+{
+    "domain": "livechatinc.com",
+    "owner": {
+        "name": "LiveChat Inc",
+        "displayName": "LiveChat",
+        "privacyPolicy": "https://www.livechatinc.com/legal/privacy-policy/",
+        "url": "http://livechatinc.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "cdn",
+        "api",
+        "api-fra",
+        "secure",
+        "secure-fra",
+        "accounts"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "livechatinc\\.com\\/tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 8,
+                "window.sessionStorage": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Notification.permission": 6,
+                "Navigator.prototype.plugins": 6,
+                "Navigator.prototype.platform": 7,
+                "BroadcastChannel.prototype.constructor": 1,
+                "Navigator.prototype.vendor": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "eff4e256034623924ebfbe44b55b351e551cc449f5d103a0c2c4f0bb98a5cfef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.belle-ile.com",
+                "www.france-mineraux.fr",
+                "www.imagetotext.io",
+                "www.imobie.com",
+                "www.lorientbretagnesudtourisme.fr",
+                "www.sport-decouverte.com",
+                "www.studiosport.fr",
+                "www.synology.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/v3\\.6\\/customer\\/action\\/get_dynamic_configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api-fra"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "f24be36104000fbfab8eb2e5b1397f24a67016b4b72d5c2391a24b4d7a0c261a",
+                "9d9d2c99e72fbdf6510b2cf2e411f051825fbf43735f725d5aba8aadecb11f15",
+                "85298fbabd80498bb5defd58d83ae51594aad9307a03fce142e5da448891cae3",
+                "8fa03f73b0e5fd9b1293ad4727e97ea07da57dbcc2db5317f92ad6ce91f685fe",
+                "9e6ae6fb07dfc3b9a8e9e34e127eda0408a9e951b97a700cef522d54142e5f34",
+                "14d97b8dca316398037c1d09a197a683cf32a8e71a8ad7383309f02679fc40e9",
+                "14fa2b4dd6bfbaf8515c255f4e14826a14bd505f97f2d911d2cd153bf74f2795",
+                "19610480d08b4db6ca863101751cf36cbb4cf716cc283cf233e8a2629bba0bd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.belle-ile.com",
+                "www.france-mineraux.fr",
+                "www.imagetotext.io",
+                "www.imobie.com",
+                "www.lorientbretagnesudtourisme.fr",
+                "www.sport-decouverte.com",
+                "www.studiosport.fr",
+                "www.synology.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/v3\\.5\\/customer\\/action\\/get_configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api-fra"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000819,
+            "cnames": [],
+            "responseHashes": [
+                "8e8405a54342a316f97d7a7c718a3538f37b4f6d61ce81db63488da6407c749d",
+                "f368b40cb47a0346254ad9b078afb068659f8bc2df7a430009dc7d736a6e6ae8",
+                "8d2a9ea809d573c79693f67a556239a1fe7e52a4f7add1e6fd3000a82a9a18df",
+                "b8eea2e0a60f7ba9e54a920ff5e9c3a5c46257123ea23509caa19084d9ba29b7",
+                "744a99a7df137522d4be2ad34ac421eec5ef6b6dea5a8d8e296d503a41ee8eb3",
+                "c98ffb55cd2726a0ba20b602588a89c2c7b4510ac7035d3f46527214e627d003"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.france-mineraux.fr",
+                "www.imagetotext.io",
+                "www.imobie.com",
+                "www.sport-decouverte.com",
+                "www.studiosport.fr",
+                "www.synology.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/customer\\/action\\/open_chat",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure",
+                "secure-fra"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000716,
+            "cnames": [],
+            "responseHashes": [
+                "2b3fdbd0c2c27030499d567f9b64c75a9426ba30b3a76f12260dc1d7ee693413"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.france-mineraux.fr",
+                "www.imagetotext.io",
+                "www.imobie.com",
+                "www.sport-decouverte.com",
+                "www.studiosport.fr",
+                "www.synology.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/v3\\.5\\/customer\\/action\\/get_localization",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api-fra"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000716,
+            "cnames": [],
+            "responseHashes": [
+                "9917fa5aae6c4e8ff68683c6f5491a4536312ebd9a7d619e64b70ad12b273337",
+                "95ddc879fac62cf334ea4dc0d1a76e2c6850639878301204245a50586e0d7dec",
+                "12b9c2f60c49c677927dfefbba8c023cd65f8eb1a9421d9c8ee641ec5b0d123f",
+                "ab31531b96fb2a1203621c4d8e5eef036257528045ee5018f8bf74e0e0fac7b4",
+                "49f4c8fcc490cf10ba560e575aea237a08f098ae17f3aef3debc1f99cce5b0fb",
+                "18fc1c10addeb1474f1f190f38e1b2aaee771fbfc5ffad20e33c9c720b1fd9eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.france-mineraux.fr",
+                "www.imagetotext.io",
+                "www.imobie.com",
+                "www.sport-decouverte.com",
+                "www.studiosport.fr",
+                "www.synology.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/livechat\\.VJM1RzmD\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "82fbd9f8a0246d634ed64fa8b7150ae875b7878d4b0efb984a1d6b344d3f698b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/0\\.DE-rLYtI\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "c97966c90384fa230e9814a002dc90350ff3d3c44b286d82cd750b70374095a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/1\\.BeDGznv7\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "b1248c0dc80613d964a8a1fa6349ab39f9dbd7ffb3f380c25c160d52832ce237"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/2\\.D8heW2YI\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "bcd838393608fd696796656cb2d4303d3a126286a2601c49db5edc9a70419d91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/3\\.BzsxNxGu\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "dd81c71b84f7adefd0500fa389f622af02d0dc11148b81aca8e27f52d57918bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/4\\.C_rgEAoe\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "6e148df31d721a0ff08563f2d676751786e01418c86ee54ee8f0e88aa46ae26a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/5\\.D_uKc_ak\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "cc9af994a65e2deac1f388408504e6a4059652a5c652bcbfd0898731b9153be0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/6\\.D_CKFAbE\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "62ceb8a88b98bbe24a3b9fd8d65f58988e3b424bdb754e8d3effcc2d18e6d6c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/7\\.xhyEK0_l\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "af2012b0cdfa449f186df2f8dc9b3e64b48b8c5c630cc8d3c4df61973499e7c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/8\\.qYTqns9Q\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "80353503e48ebf6c2ae9f70184d3e758f64bacf48afe147e039df807509200cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/9\\.CY_IeU07\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "de702e4605dcd6d1018e7bfb38ea7dcbe69ea71817082652eeba9a4c26061bb9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/10\\.2HNrD4jL\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "5e6213ec7129ae7e0c44e773c278658add33281f874733021a8bbd2d4028f447"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/11\\.Gv78iMd6\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "d3b76fb03a7607b5da00fc0252be26fef8c76a0b68feb2ff19b439eeeab3f705"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/12\\.DJPUQwQu\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "fb8eb817d7251014c136b441bd4004fa6567908059013edbb938925f23b67ceb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/widget\\/static\\/js\\/13\\.Du4z9uvj\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "bc125921b5e4dde1c19d4fbc0a6ef3ea616eee9577822c96b29789b7f69ba5fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/v3\\.5\\/customer\\/rtm\\/ws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/v2\\/customer\\/token",
+            "cookies": 0.000307,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "31e7828aae25f27871f182cc8a76fd4161db9d2c6356da38ee7defe2582871a6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "50factory.com",
+                "www.imobie.com",
+                "www.sport-decouverte.com"
+            ]
+        },
+        {
+            "rule": "livechatinc\\.com\\/global-mapper\\/lc_license_id\\/13486359\\/region",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "a379b1707064386da00957301b6eb053249cfb462047d44e4fb6d52898f5b78b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wickedweasel.com",
+                "www.wickedweasel.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content",
+        "Support Chat Widget"
+    ],
+    "performance": {},
+    "cookies": 0.000307,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7272727272727273
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "imobie-resource.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 82,
+        "Document": 7,
+        "WebSocket": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ruth.ns.cloudflare.com",
+        "vin.ns.cloudflare.com"
+    ]
+}

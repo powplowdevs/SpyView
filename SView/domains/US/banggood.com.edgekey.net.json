@@ -1,0 +1,130 @@
+{
+    "domain": "banggood.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [
+        {
+            "original": "bi.banggood.com",
+            "resolved": "www.banggood.com.edgekey.net"
+        },
+        {
+            "original": "rec.banggood.com",
+            "resolved": "www.banggood.com.edgekey.net"
+        },
+        {
+            "original": "web-device-id.banggood.com",
+            "resolved": "www.banggood.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "banggood\\.com\\.edgekey\\.net\\/deviceId",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "web-device-id.banggood.com",
+                    "resolved": "www.banggood.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a919c4f60fa8fac0341b4d23a0a036128e3170313bad372d8b1b8e90d05fb318"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banggood.com",
+                "www.banggood.com"
+            ]
+        },
+        {
+            "rule": "banggood\\.com\\.edgekey\\.net\\/upf\\/heat_map_page\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "bi.banggood.com",
+                    "resolved": "www.banggood.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "daaabf9ca85b308b28bc8fa55bcfe6938d62b95a9e5e0bc98ada8e1ba7f941e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banggood.com",
+                "www.banggood.com"
+            ]
+        },
+        {
+            "rule": "banggood\\.com\\.edgekey\\.net\\/index\\.php",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "rec.banggood.com",
+                    "resolved": "www.banggood.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b608d3caf4578b84f57f8b0990c752a44403f46f62fa57ce091b684dbbd67af1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "bg_email": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "banggood.com",
+                "www.banggood.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "staticbg.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": []
+}

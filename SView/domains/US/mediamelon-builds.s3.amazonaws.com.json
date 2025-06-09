@@ -1,0 +1,70 @@
+{
+    "domain": "mediamelon-builds.s3.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mediamelon-builds\\.s3\\.amazonaws\\.com\\/MM-RELEASE-BUILDS\\/1432265447\\/theoWeb\\/mmsmartstreaming-theo-ssai\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "02dc2222537f66e07c7f952a1c61489f49c9031270f6e7713777625e35e8e4b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americastestkitchen.com",
+                "bossip.com",
+                "thecharliekirkshow.com",
+                "www.americastestkitchen.com",
+                "www.clayandbuck.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "zype.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-328.awsdns-41.com",
+        "ns-1620.awsdns-10.co.uk",
+        "ns-674.awsdns-20.net",
+        "ns-1173.awsdns-18.org"
+    ]
+}

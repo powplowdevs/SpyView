@@ -1,0 +1,134 @@
+{
+    "domain": "pstatic.net",
+    "owner": {
+        "name": "Naver Corporation",
+        "displayName": "Naver"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000488,
+    "sites": 69,
+    "subdomains": [
+        "ssl"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pstatic\\.net\\/melona\\/libs\\/gfp-nac-module\\/synchronizer\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 35,
+                "window.localStorage": 37
+            },
+            "sites": 43,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "a071e796adb442dbd8af4e03a0f8b90c6b8b3b5f333bf456a7236099e434ca1a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gall.dcinside.com",
+                "www.airpremia.com",
+                "www.edrawsoft.com",
+                "www.webtoonguide.com",
+                "wondershare.net",
+                "www.figma.com",
+                "autoreserve.com",
+                "www.suse.com",
+                "www.lotuscars.com",
+                "tym.world",
+                "docs.databricks.com",
+                "movavi.com",
+                "product.kyobobook.co.kr",
+                "www.inven.co.kr",
+                "documentation.suse.com",
+                "ridibooks.com",
+                "enter.dcinside.com",
+                "www.koreaherald.com",
+                "www.edrawmax.com",
+                "avjoa70.com"
+            ]
+        },
+        {
+            "rule": "pstatic\\.net\\/adimg3\\.search\\/adpost\\/js\\/adpost_show_ads_v2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssl"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "89e1c3ef53bd10975f39e647b067103e6a8d6f91148682129a636de8e2b1dbef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ruliweb.com",
+                "m.ruliweb.com",
+                "www.clien.net",
+                "www.dogdrip.net",
+                "www.instiz.net"
+            ]
+        },
+        {
+            "rule": "pstatic\\.net\\/static\\/maps\\/mantle\\/1x\\/dot\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9bb0cd4cf48cc03f6567cbcbb2ab40ee8ab022ae654c4577c83625add32c997b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitkorea.or.kr",
+                "english.visitkorea.or.kr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "naver.net",
+            "prevalence": 0.47619047619047616
+        },
+        {
+            "domain": "naver.com",
+            "prevalence": 0.3412698412698413
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.18253968253968253
+        }
+    ],
+    "types": {
+        "Script": 48,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns2.naver.com",
+        "ns1.naver.com"
+    ]
+}

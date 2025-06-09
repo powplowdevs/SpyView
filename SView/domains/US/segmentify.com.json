@@ -1,0 +1,89 @@
+{
+    "domain": "segmentify.com",
+    "owner": {
+        "name": "Segmentify Yazilim A.S.",
+        "displayName": "Segmentify Yazilim"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "gandalf-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "segmentify\\.com\\/ceae53d6-3ee1-4072-8f98-7aad64d61bf3\\/segmentify\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pickswise.com",
+                "www.pickswise.com"
+            ]
+        },
+        {
+            "rule": "segmentify\\.com\\/add\\/events\\/v1\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gandalf-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "61326da1c0ade32db583206f03ca53b1c9988af3e40a612e1b71e45e0c7fff59"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vrijbuiter.nl",
+                "www.vrijbuiter.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b3.googledomains.com"
+    ]
+}

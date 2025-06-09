@@ -1,0 +1,186 @@
+{
+    "domain": "cricketwireless.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "zr-legacy"
+    ],
+    "cnames": [
+        {
+            "original": "evt-api.cricketwireless.com",
+            "resolved": "zr-legacy.cricketwireless.com.akadns.net"
+        },
+        {
+            "original": "exmgr.cricketwireless.com",
+            "resolved": "zr-legacy.cricketwireless.com.akadns.net"
+        },
+        {
+            "original": "rs.cricketwireless.com",
+            "resolved": "zr-legacy.cricketwireless.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cricketwireless\\.com\\.akadns\\.net\\/s\\/fs\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "zr-legacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "rs.cricketwireless.com",
+                    "resolved": "zr-legacy.cricketwireless.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "8f1471d0854bd85e778f596e36dbbe6d8fe2f23fe14e534f8d9ad847ff1eb50c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricketwireless.com",
+                "www.cricketwireless.com"
+            ]
+        },
+        {
+            "rule": "cricketwireless\\.com\\.akadns\\.net\\/ckmain\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "zr-legacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "exmgr.cricketwireless.com",
+                    "resolved": "zr-legacy.cricketwireless.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "fee672f09b8f847a448538cf2cfefe50234a0e0aa87eba4781c38914fe34b066"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricketwireless.com",
+                "www.cricketwireless.com"
+            ]
+        },
+        {
+            "rule": "cricketwireless\\.com\\.akadns\\.net\\/s\\/settings\\/KX23T\\/v1\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zr-legacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "rs.cricketwireless.com",
+                    "resolved": "zr-legacy.cricketwireless.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "d7e7d2fd08a6d34614afc4ce621a29fae956876a1dc7632a9b5ff320c160f516"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricketwireless.com",
+                "www.cricketwireless.com"
+            ]
+        },
+        {
+            "rule": "cricketwireless\\.com\\.akadns\\.net\\/rec\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zr-legacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "rs.cricketwireless.com",
+                    "resolved": "zr-legacy.cricketwireless.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "42a59afee03866d8a9de759b3fef3de3dfe72063908e12e3b5ffc1798c68411e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricketwireless.com",
+                "www.cricketwireless.com"
+            ]
+        },
+        {
+            "rule": "cricketwireless\\.com\\.akadns\\.net\\/v1\\/p",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zr-legacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "evt-api.cricketwireless.com",
+                    "resolved": "zr-legacy.cricketwireless.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricketwireless.com",
+                "www.cricketwireless.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "d2wy8f7a9ursnm.cloudfront.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

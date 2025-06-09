@@ -1,0 +1,94 @@
+{
+    "domain": "d2gi4m6t8pdszk.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "reviews.prtl.co",
+            "resolved": "d2gi4m6t8pdszk.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "d2gi4m6t8pdszk\\.cloudfront\\.net\\/v1\\/universities\\/12848",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "reviews.prtl.co",
+                    "resolved": "d2gi4m6t8pdszk.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "da2d36d393bd70ff6d06d58a209d6c84a7b85a25cf686421a2f77593d6fa7618"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mastersportal.com",
+                "www.mastersportal.com"
+            ]
+        },
+        {
+            "rule": "d2gi4m6t8pdszk\\.cloudfront\\.net\\/v1\\/reviews",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "reviews.prtl.co",
+                    "resolved": "d2gi4m6t8pdszk.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "07f61d23325195d516e9aa021d63ba9f2e551c592da86da382c2ff3d572eb9cb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mastersportal.com",
+                "www.mastersportal.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "rollbar.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-1065.awsdns-05.org",
+        "ns-1836.awsdns-37.co.uk",
+        "ns-355.awsdns-44.com",
+        "ns-969.awsdns-57.net"
+    ]
+}

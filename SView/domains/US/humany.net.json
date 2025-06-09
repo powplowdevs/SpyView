@@ -1,0 +1,107 @@
+{
+    "domain": "humany.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "postnord",
+        "entur"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "humany\\.net\\/contact-customer-service-new\\/categories",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "postnord"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "33a4f94e4b299ac70e230d8a6070549c6ecbd77d73d8bc81ad83479de17248fe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postnord.se",
+                "www.postnord.se"
+            ]
+        },
+        {
+            "rule": "humany\\.net\\/entur-v5\\/config\\.json",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "entur"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vy.no",
+                "www.vy.no"
+            ]
+        },
+        {
+            "rule": "humany\\.net\\/vy-v5\\/config\\.json",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "entur"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vy.no",
+                "www.vy.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.5294117647058824
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.35294117647058826
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "teliacompany.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Fetch": 6
+    },
+    "nameservers": [
+        "ns1.loopia.se",
+        "ns2.loopia.se"
+    ]
+}

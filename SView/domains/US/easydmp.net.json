@@ -1,0 +1,79 @@
+{
+    "domain": "easydmp.net",
+    "owner": {
+        "name": "EMATCH",
+        "displayName": "EMATCH"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "asset"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "easydmp\\.net\\/etag\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "712f12245dd819ce0076f4262bc1363baa848e06c4b5929d21f030de3f098d64"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ktotv.com",
+                "www.ktotv.com"
+            ]
+        },
+        {
+            "rule": "easydmp\\.net\\/get_delivery_data\\.php",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c09032eea4996c5446b52d2a69d05f6147040c83140f0c0aed158e0e4a3f3eba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ktotv.com",
+                "www.ktotv.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "email-match.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns109.ovh.net",
+        "dns109.ovh.net"
+    ]
+}

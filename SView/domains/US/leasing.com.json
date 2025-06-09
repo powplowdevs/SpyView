@@ -1,0 +1,57 @@
+{
+    "domain": "leasing.com",
+    "owner": {
+        "name": "LEASING.COM GROUP LTD",
+        "displayName": "LEASING.COM GROUP"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "webapps"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "leasing\\.com\\/api\\/deals\\/search\\/facets\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webapps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f1cfd26129d310b1efed71b4d8f06fa087644b227367b60722d097e6d35baa16"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parkers.co.uk",
+                "www.parkers.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "may.ns.cloudflare.com",
+        "burt.ns.cloudflare.com"
+    ]
+}

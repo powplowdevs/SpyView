@@ -1,0 +1,135 @@
+{
+    "domain": "smg.com",
+    "owner": {
+        "name": "Service Management Group",
+        "displayName": "Service Management Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "id.services"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "smg\\.com\\/rcid\\/gethtmlrcid",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id.services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mywingstopsurvey.com",
+                "www.mcexperienciasurvey.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/readsmgrcid\\.html",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id.services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "69a322e0fd8e2d989b50a3ed860e8ed078e2d83a1f39df334f5876deca3d57da"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mywingstopsurvey.com",
+                "www.mcexperienciasurvey.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/Scripts\\/jquery-2\\.1\\.4\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id.services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "22642f202577f0ba2f22cbe56b6cf291a09374487567cd3563e0d2a29f75c0c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mywingstopsurvey.com",
+                "www.mcexperienciasurvey.com"
+            ]
+        },
+        {
+            "rule": "smg\\.com\\/Scripts\\/EnhRcidRead\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "id.services"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.name": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "89a0d76a721d8526ed4cc76b23844d8fb2172b3c86ff43aebf41bd79f38956f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mywingstopsurvey.com",
+                "www.mcexperienciasurvey.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1-01.azure-dns.com",
+        "ns2-01.azure-dns.net",
+        "ns3-01.azure-dns.org",
+        "ns4-01.azure-dns.info"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "domain": "crossdevicetracking.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "retag"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "crossdevicetracking\\.com\\/universaltag\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "retag"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.language": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f33761860f526447ec2f839fc5039051b980aec4d681c7c4e4d689195975f3da"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "crossdevicetracking": {
+                    "ttl": 2592026,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thefitville.com",
+                "www.eufymake.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "d1v2u6by4izioz.cloudfront.net",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "jack.ns.cloudflare.com",
+        "melinda.ns.cloudflare.com"
+    ]
+}

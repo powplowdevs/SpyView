@@ -1,0 +1,84 @@
+{
+    "domain": "affilae.com",
+    "owner": {
+        "name": "AETIUM",
+        "displayName": "AETIUM"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000141,
+    "sites": 20,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "affilae\\.com\\/ae-v3\\.5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 10,
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.cookieEnabled": 11
+            },
+            "sites": 16,
+            "prevalence": 0.000113,
+            "cnames": [],
+            "responseHashes": [
+                "f6584968c8f86d256d110243f046759c0750ce91e966161c4656c804492ded62",
+                "cae54bdb3a555eba219bd716bf28f9cffe45201d135abb7b085ae4c98de0b2e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lafourche.fr",
+                "nutriandco.com",
+                "ocarat.com",
+                "www.50factory.com",
+                "www.espritjeu.com",
+                "www.eyrolles.com",
+                "www.freelogodesign.org",
+                "www.guitar-pro.com",
+                "www.homeexchange.com",
+                "www.label-emmaus.co",
+                "www.legalplace.fr",
+                "www.recyclivre.com",
+                "www.santevet.com",
+                "www.smallable.com",
+                "www.son-video.com",
+                "www.woodbrass.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.35
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 16
+    },
+    "nameservers": [
+        "ns18.ovh.net",
+        "dns18.ovh.net"
+    ]
+}

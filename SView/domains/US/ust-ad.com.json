@@ -1,0 +1,150 @@
+{
+    "domain": "ust-ad.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "adjs",
+        "ad",
+        "rcv"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ust-ad\\.com\\/scripts\\/ad\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 1,
+            "subdomains": [
+                "adjs"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "1aece3779e2437e58d211f92acfffde3f7adcc115e9d461cafaf3097df3afc3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "uq_uid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpnculture.net",
+                "lit.link",
+                "mamagirl.jp",
+                "unknown-phone.portal.jp.net",
+                "www.nishino-it-office.com"
+            ]
+        },
+        {
+            "rule": "ust-ad\\.com\\/ads\\/adn",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpnculture.net",
+                "lit.link",
+                "mamagirl.jp",
+                "rank1-media.com",
+                "www.nishino-it-office.com"
+            ]
+        },
+        {
+            "rule": "ust-ad\\.com\\/ads\\/adn",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "a2f253a0d7b6a1c8022fabae4baf9856619a8c28e7ec5bf2bc9019dd971bf713",
+                "38af8162819b890e2eeb94dd6cc15c62234252d129fd8bc2e0fee238d52d8d17",
+                "9fa964c544e30e80841b8d32d59e4f67110fb3d25d8ae63ad26febe9f66e15d5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpnculture.net",
+                "lit.link",
+                "mamagirl.jp",
+                "rank1-media.com",
+                "www.nishino-it-office.com"
+            ]
+        },
+        {
+            "rule": "ust-ad\\.com\\/imp",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rcv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bcf52d2a87ed2f1c6c25c4da7f239e15747b23ec2255457a677941a02a86ec6c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lit.link",
+                "www.nishino-it-office.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000424,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9583333333333334
+        },
+        {
+            "domain": "anymind360.com",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Preflight": 5,
+        "XHR": 5,
+        "Image": 2
+    },
+    "nameservers": [
+        "01.dnsv.jp",
+        "02.dnsv.jp",
+        "03.dnsv.jp",
+        "04.dnsv.jp"
+    ]
+}

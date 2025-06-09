@@ -1,0 +1,59 @@
+{
+    "domain": "trustindex.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000309,
+    "sites": 3,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trustindex\\.io\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000309,
+            "cnames": [],
+            "responseHashes": [
+                "969552891a163cdd72ee3f53ef63c26f39618587b3a0f2ea147efb9d5854eaa1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twotyres.co.uk",
+                "www.acibademhealthpoint.com",
+                "www.stuartmillersolicitors.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "pdns1.registrar-servers.com",
+        "pdns2.registrar-servers.com"
+    ]
+}

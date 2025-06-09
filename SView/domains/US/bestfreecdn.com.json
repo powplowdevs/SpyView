@@ -1,0 +1,88 @@
+{
+    "domain": "bestfreecdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "coupon"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bestfreecdn\\.com\\/storage\\/js\\/coupon-78293467416\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "coupon"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c3c9165b7cfc3eb3a66eef564d060b735098c3803aa48874eea8e005eb83766e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CouponShopifyKaktusAppCurrentShownPerMonth": {
+                    "ttl": 2160017,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "CouponShopifyKaktusAppStartDatePerMonth": {
+                    "ttl": 2160017,
+                    "length": 45,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "CouponShopifyKaktusAppPerDayNew": {
+                    "ttl": 86417,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "CouponShopifyKaktusAppStartDatePerDay": {
+                    "ttl": 86417,
+                    "length": 45,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "birdfy.com",
+                "www.birdfy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "parastorage.com",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "roan.ns.cloudflare.com",
+        "kate.ns.cloudflare.com"
+    ]
+}

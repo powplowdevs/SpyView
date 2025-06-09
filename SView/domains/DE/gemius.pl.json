@@ -1,0 +1,169 @@
+{
+    "domain": "gemius.pl",
+    "owner": {
+        "name": "Gemius S.A.",
+        "displayName": "Gemius",
+        "privacyPolicy": "https://www.gemius.com/privacy-policy.html",
+        "url": "http://gemius.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [
+        "gahu.hit",
+        "idm.hit",
+        "pro.hit",
+        "onet.hit",
+        "spir.hit",
+        "gabe.hit",
+        "ls.hit"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gemius\\.pl\\/xgemius\\.js",
+            "cookies": 0.000306,
+            "fingerprinting": 2,
+            "subdomains": [
+                "gahu.hit",
+                "idm.hit",
+                "pro.hit",
+                "onet.hit",
+                "spir.hit",
+                "gabe.hit"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Navigator.prototype.plugins": 5,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "Date.prototype.getTime": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "window.devicePixelRatio": 5,
+                "Screen.prototype.colorDepth": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Notification.permission": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.maxTouchPoints": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "20e4c2da52bafbc2b04932b36b6683b2441c73702229c094395e153c400a930a",
+                "94bceef3f5e246a6128dcdb2af370160fdfbe2067c93c6c104b124b4115403bd",
+                "bec4d770e90d546a11d6d1a79be30834224e1519f27334fe6ec8795dd36e9170",
+                "63d62b95df1495b831b826b242edb83e4f227fe0c617cc3e80369a6582db6ffb",
+                "6b6804f54f0e1bc867f06042780270f34cb5e5b553892c4db81adc154b210c91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__gfp_64b": {
+                    "ttl": 34128003,
+                    "length": 71,
+                    "prevalence": 0.00030596634370219276,
+                    "uniqueness": 1
+                },
+                "__gfp_ruid": {
+                    "ttl": 34128011,
+                    "length": 62,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "videa.hu",
+                "www.cda.pl",
+                "www.filmweb.pl",
+                "www.onet.pl",
+                "www.rajce.idnes.cz",
+                "www.vrt.be"
+            ]
+        },
+        {
+            "rule": "gemius\\.pl\\/fpdata\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pro.hit",
+                "idm.hit",
+                "onet.hit",
+                "spir.hit"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "59179ed8b2e8972ba1bce56277392360bc13c298050d3d9d270342ed60f5fc6d",
+                "5c5f1538b6f53c7849edd803327ecb8deae52c0d494d4f2a45e35a07a725c1d7",
+                "34aa037f7db42db7ce705cc0438e8f783e70a14ac78ed479e0199b9bd22e7743"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "videa.hu",
+                "www.cda.pl",
+                "www.onet.pl",
+                "www.rajce.idnes.cz"
+            ]
+        },
+        {
+            "rule": "gemius\\.pl\\/lsget\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ls.hit"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "b6e1fe15a1ecc2415863fea688b55fd5cd2769ba6078d966adf84fc4ab4d71e1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "videa.hu",
+                "www.cda.pl",
+                "www.onet.pl",
+                "www.rajce.idnes.cz"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Audience Measurement"
+    ],
+    "performance": {},
+    "cookies": 0.000408,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns1.gemius.pl",
+        "ns2.gemius.pl"
+    ]
+}

@@ -1,0 +1,287 @@
+{
+    "domain": "fatwin.com",
+    "owner": {
+        "name": "PERQ LLC",
+        "displayName": "PERQ"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "stresslessen",
+        "farmershomefurniture",
+        "woodstockoutlet"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "fatwin\\.com\\/api\\/websites\\/resources\\/4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stresslessen"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "bd7fd8a9bc11f847ba59f43636d59b7b0d4503b83b584fa036aaf30298d74af6",
+                "e60735f25a305121e8963a61f7ae66bf5ea472e54344f4f711b1de5181704a5b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stressless.com",
+                "shop.stressless.com",
+                "www.stressless.com"
+            ]
+        },
+        {
+            "rule": "fatwin\\.com\\/assets\\/FWWebsitePlugins-1\\.0\\.751\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "stresslessen",
+                "farmershomefurniture",
+                "woodstockoutlet"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "window.innerWidth": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "01ebfac4a28ec9ad993de25526f528703a05e959af01d3e351aa3286a2495c96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_fw.1268.sessionCount": {
+                    "ttl": 15552007,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_fw.1268.session": {
+                    "ttl": 15552007,
+                    "length": 291,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_fw.1268.visitCount": {
+                    "ttl": 15552007,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_fw.1268.returningSessionId": {
+                    "ttl": 15552007,
+                    "length": 42,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stressless.com",
+                "shop.stressless.com",
+                "www.farmershomefurniture.com",
+                "www.stressless.com",
+                "www.woodstockoutlet.com"
+            ]
+        },
+        {
+            "rule": "fatwin\\.com\\/api\\/websiteplugins\\/config\\/8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stresslessen"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "b389e914625bd6b4cf5078c0beb2d6e3ba377567cec1e4ffe3a26ed433329a62",
+                "23e58881c9b632f3348b28429343abad776b74fa8c70cc0394e65d082112d665"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stressless.com",
+                "shop.stressless.com",
+                "www.stressless.com"
+            ]
+        },
+        {
+            "rule": "fatwin\\.com\\/api\\/websiteplugins\\/config\\/8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stresslessen"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stressless.com",
+                "shop.stressless.com",
+                "www.stressless.com"
+            ]
+        },
+        {
+            "rule": "fatwin\\.com\\/api\\/PluginPageHitTracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stresslessen",
+                "farmershomefurniture",
+                "woodstockoutlet"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stressless.com",
+                "shop.stressless.com",
+                "www.farmershomefurniture.com",
+                "www.stressless.com",
+                "www.woodstockoutlet.com"
+            ]
+        },
+        {
+            "rule": "fatwin\\.com\\/api\\/PluginPageHitTracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stresslessen",
+                "farmershomefurniture",
+                "woodstockoutlet"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stressless.com",
+                "shop.stressless.com",
+                "www.farmershomefurniture.com",
+                "www.stressless.com",
+                "www.woodstockoutlet.com"
+            ]
+        },
+        {
+            "rule": "fatwin\\.com\\/api\\/websites\\/resources\\/3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "farmershomefurniture",
+                "woodstockoutlet"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farmershomefurniture.com",
+                "www.woodstockoutlet.com"
+            ]
+        },
+        {
+            "rule": "fatwin\\.com\\/api\\/PluginEventTracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "farmershomefurniture",
+                "woodstockoutlet"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farmershomefurniture.com",
+                "www.woodstockoutlet.com"
+            ]
+        },
+        {
+            "rule": "fatwin\\.com\\/api\\/PluginEventTracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "farmershomefurniture",
+                "woodstockoutlet"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farmershomefurniture.com",
+                "www.farmershomefurniture.com",
+                "www.woodstockoutlet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 11,
+        "Preflight": 10
+    },
+    "nameservers": [
+        "ns-167.awsdns-20.com",
+        "ns-836.awsdns-40.net",
+        "ns-1084.awsdns-07.org",
+        "ns-1972.awsdns-54.co.uk"
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "domain": "ultracart.com",
+    "owner": {
+        "name": "BPS Info Solutions, Inc.",
+        "displayName": "BPS Info Solutions"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "secure"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ultracart\\.com\\/rest\\/v2\\/checkout\\/cart",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athleanx.com",
+                "learn.athleanx.com",
+                "www.greenvalleynaturals.com"
+            ]
+        },
+        {
+            "rule": "ultracart\\.com\\/rest\\/v2\\/checkout\\/cart",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "4ae54982046cd3a76660b2eec4779198e9a1b3da6c95808227e84c0bac3bfaa9",
+                "21b2a59658a799002679ff1fba0a12e080918713983f74a830043abd4292b0f1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athleanx.com",
+                "learn.athleanx.com",
+                "www.greenvalleynaturals.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns1.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com"
+    ]
+}

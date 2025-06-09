@@ -1,0 +1,561 @@
+{
+    "domain": "m10s.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000707,
+    "sites": 10,
+    "subdomains": [
+        "static.pro.cmp",
+        "sdk-cdn.pulse",
+        "sdkconfig.pulse",
+        "dc",
+        "cis"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "m10s\\.io\\/cmp\\/vend_logo_20250311\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.pro.cmp"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "3de0e41dfdf2c895ccd136b06a6f7a2116b02f852204d508f5547c12c52e9871"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oikotie.fi",
+                "hintaopas.fi",
+                "prisjakt.nu",
+                "www.bilbasen.dk",
+                "www.bytbil.com",
+                "www.dba.dk",
+                "www.finn.no",
+                "www.prisjakt.no",
+                "www.prisjakt.nu"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/cmp\\/brands\\/none\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.pro.cmp"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "84255d24e92f853624bcd2f2fe8e69dcbc11742f62bdbf8b286bc4eb5881b116"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oikotie.fi",
+                "hintaopas.fi",
+                "prisjakt.nu",
+                "www.bilbasen.dk",
+                "www.bytbil.com",
+                "www.dba.dk",
+                "www.finn.no",
+                "www.prisjakt.no",
+                "www.prisjakt.nu"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/cmp\\/fonts\\/VendSans-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.pro.cmp"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "79730b6d1cb97b4c7fde27f3f78037c48142a0fdb2709c1d17efb996bf50a5cc"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oikotie.fi",
+                "hintaopas.fi",
+                "prisjakt.nu",
+                "www.bilbasen.dk",
+                "www.bytbil.com",
+                "www.dba.dk",
+                "www.finn.no",
+                "www.prisjakt.no",
+                "www.prisjakt.nu"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/cmp\\/fonts\\/VendSans-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.pro.cmp"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "73a849abe3fe7b4adb1d4dfb6aaa20b0e706016f21c00fa083e68144ed41cc9a"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oikotie.fi",
+                "hintaopas.fi",
+                "prisjakt.nu",
+                "www.bilbasen.dk",
+                "www.bytbil.com",
+                "www.dba.dk",
+                "www.finn.no",
+                "www.prisjakt.no",
+                "www.prisjakt.nu"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/cmp\\/chevron_down_20231017\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.pro.cmp"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "53a98e310c4db79172f690c63752dac0230996667934dd7322dfbf5d861d9a1c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oikotie.fi",
+                "hintaopas.fi",
+                "prisjakt.nu",
+                "www.bilbasen.dk",
+                "www.bytbil.com",
+                "www.dba.dk",
+                "www.finn.no",
+                "www.prisjakt.no",
+                "www.prisjakt.nu"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/versioned\\/3\\.1\\.5\\/pulse\\.min\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk-cdn.pulse"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.permissions": 4,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "375ad0438ef88dd15505e8b1dd50aa1bad0463a7fa3c0ec9a57875406d927ef0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pulse2data": {
+                    "ttl": 63072029,
+                    "length": 573,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                },
+                "_pulsesession": {
+                    "ttl": 1829,
+                    "length": 109,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hintaopas.fi",
+                "prisjakt.nu",
+                "www.prisjakt.no",
+                "www.prisjakt.nu"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/js\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdkconfig.pulse"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "f4bca744f1e0cfd3d18c9654db86ed066e6668e32589194381eef2ed16f542c0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hintaopas.fi",
+                "prisjakt.nu",
+                "www.bilbasen.dk",
+                "www.blocket.se",
+                "www.bytbil.com",
+                "www.dba.dk",
+                "www.finn.no",
+                "www.prisjakt.no",
+                "www.prisjakt.nu"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/api\\/v1\\/track\\/sdrn:schibsted:client:prisjaktse",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prisjakt.nu",
+                "www.prisjakt.nu"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/cmp\\/brands\\/Prisjakt\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.pro.cmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "efbd7053c2f14d4efa5e64638d2b79f20f3bff930dd4774418c7531d6fb9299b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prisjakt.nu",
+                "www.prisjakt.no",
+                "www.prisjakt.nu"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/api\\/v2\\/identify\\/guest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cis"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilbasen.dk",
+                "www.blocket.se",
+                "www.bytbil.com",
+                "www.dba.dk",
+                "www.finn.no"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/api\\/v2\\/identify\\/guest",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cis"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "ffefdb6a6614f49b0957222f13a4eb2961a7900ea2369c6bb8ad0f847b3ebeee",
+                "a4b72b2c1c8ce7140986d1cb724e2f7805d358e5307700409c2e712d5af5a54a",
+                "92a9fca37e182f7c1d4a1a7c3a7b17f420417839b7acc30f4b09cb8184355b16"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilbasen.dk",
+                "www.blocket.se",
+                "www.bytbil.com",
+                "www.dba.dk",
+                "www.finn.no"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/dist\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.pro.cmp"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Navigator.prototype.userAgent": 3,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "6c97d91feae26615d46b9c75bc728aa84b933fb9338c5a7e8656c20807109b39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blocket.se",
+                "www.bytbil.com",
+                "www.dba.dk",
+                "www.finn.no"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/api\\/v1\\/track\\/sdrn:schibsted:client:bytbilse",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bytbil.com",
+                "www.bytbil.com"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/versioned\\/3\\/loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-cdn.pulse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8c42b217ed6ecf9e590963a215260b663521f891c46d37f551d07bfe00f177b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dba.dk",
+                "www.finn.no"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/versioned\\/3\\.3\\.2\\/pulse\\.min\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk-cdn.pulse"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.permissions": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "27eee8edd35fc51b77ed0a2ea5d113039159fcff1959bd79ff83d5048058e439"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pulse2data": {
+                    "ttl": 63072014,
+                    "length": 647,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_pulsesession": {
+                    "ttl": 1814,
+                    "length": 109,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dba.dk",
+                "www.finn.no"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/api\\/v1\\/track\\/sdrn:schibsted:client:dba-dk",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dba.dk",
+                "www.dba.dk"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/api\\/v1\\/track\\/sdrn:schibsted:client:finn",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finn.no",
+                "www.finn.no"
+            ]
+        },
+        {
+            "rule": "m10s\\.io\\/api\\/v1\\/track\\/sdrn:schibsted:client:prisjaktno",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prisjakt.no",
+                "www.prisjakt.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000637,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8392857142857143
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08928571428571429
+        },
+        {
+            "domain": "blocketcdn.se",
+            "prevalence": 0.05357142857142857
+        },
+        {
+            "domain": "finn.no",
+            "prevalence": 0.017857142857142856
+        }
+    ],
+    "types": {
+        "Image": 30,
+        "Font": 18,
+        "Script": 12,
+        "Fetch": 14,
+        "Ping": 10,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns-1592.awsdns-07.co.uk",
+        "ns-482.awsdns-60.com",
+        "ns-922.awsdns-51.net",
+        "ns-1251.awsdns-28.org"
+    ]
+}

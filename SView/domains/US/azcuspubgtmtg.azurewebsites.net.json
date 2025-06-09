@@ -1,0 +1,65 @@
+{
+    "domain": "azcuspubgtmtg.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "ssgtm.travelzoo.com",
+            "resolved": "azcuspubgtmtg.azurewebsites.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "azcuspubgtmtg\\.azurewebsites\\.net\\/g\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "ssgtm.travelzoo.com",
+                    "resolved": "azcuspubgtmtg.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000014146672702580353,
+                "_li_dcdm_c": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "travelzoo.com",
+                "www.travelzoo.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

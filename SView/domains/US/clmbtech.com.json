@@ -1,0 +1,206 @@
+{
+    "domain": "clmbtech.com",
+    "owner": {
+        "name": "Times Internet Ltd",
+        "displayName": "Times Internet"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00207,
+    "sites": 293,
+    "subdomains": [
+        "ade",
+        "ase",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clmbtech\\.com\\/uid\\/sync\\.htm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ade"
+            ],
+            "apis": {},
+            "sites": 250,
+            "prevalence": 0.00177,
+            "cnames": [],
+            "responseHashes": [
+                "370dbc0a7e85181d81ecf29999a4782fc0fde9621e538b4d17887e2d1af1522d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.cityfeet.com",
+                "janeiredale.com",
+                "www.vistaprint.com",
+                "www.jumia.ma",
+                "www.cavenders.com",
+                "www.chicksaddlery.com",
+                "aeropostale.com",
+                "honeylove.com",
+                "www.fossil.com",
+                "www.budgetheating.com",
+                "www.mercadolivre.com.br",
+                "www.florsheim.com",
+                "www.getty.edu",
+                "intheswim.com",
+                "www.woot.com",
+                "www.guttersupply.com",
+                "www.jumia.co.ke",
+                "help.bjs.com",
+                "www.viator.com",
+                "www.swisswatchexpo.com"
+            ]
+        },
+        {
+            "rule": "clmbtech\\.com\\/message",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ase"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3dfeb2aa531e577e1f56a5f4fcb05ca047cc7daba2c55b5fbe7b8202f6302bca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sakshipost.com",
+                "www.wattpad.com"
+            ]
+        },
+        {
+            "rule": "clmbtech\\.com\\/cde\\/data\\/-1\\/-1\\/v6\\.htm",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ade"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8262238706c1d59c7b6c7f7bca9e7069c4392344b496beb40a4630c15a5b8607"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "www.sakshipost.com"
+            ]
+        },
+        {
+            "rule": "clmbtech\\.com\\/ctn\\/commons\\/js\\/colombia_v2\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.plugins": 1,
+                "Notification.permission": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e954adb51b288d9fcfdc25a81122a7862725b0f2e650640f9a481069894c67d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_col_uuid": {
+                    "ttl": 315360018,
+                    "length": 41,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sakshipost.com",
+                "www.thehansindia.com"
+            ]
+        },
+        {
+            "rule": "clmbtech\\.com\\/ase\\/65973\\/3140\\/aa\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.storage": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a8f693f1053c014c2a9118b3bcd047302496a861cd0bdbf2d3eb7e73e284ebba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_col_uuid": {
+                    "ttl": 315360004,
+                    "length": 41,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wattpad.com",
+                "www.wattpad.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "criteo.com",
+            "prevalence": 0.9208860759493671
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.056962025316455694
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.015822784810126583
+        },
+        {
+            "domain": "pubmatic.com",
+            "prevalence": 0.006329113924050633
+        }
+    ],
+    "types": {
+        "Image": 250,
+        "Script": 8
+    },
+    "nameservers": [
+        "ns-1748.awsdns-26.co.uk",
+        "ns-800.awsdns-36.net",
+        "ns-477.awsdns-59.com",
+        "ns-1534.awsdns-63.org"
+    ]
+}

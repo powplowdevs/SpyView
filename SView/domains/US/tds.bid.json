@@ -1,0 +1,60 @@
+{
+    "domain": "tds.bid",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tds\\.bid\\/bid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "080c1ce036d47540816de635b6ecffd14d2732eafea5b22eb574cb8e24ec3615",
+                "303aff5cf173f4ebfaec877c8b705702c231a6b9428c3ccf13f2c8862febcd39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animevost.org",
+                "ficbook.net",
+                "lafoy.ru",
+                "studme.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "luke.ns.cloudflare.com",
+        "hazel.ns.cloudflare.com"
+    ]
+}

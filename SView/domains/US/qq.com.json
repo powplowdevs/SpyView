@@ -1,0 +1,288 @@
+{
+    "domain": "qq.com",
+    "owner": {
+        "name": "Tencent Holdings Ltd.",
+        "displayName": "Tencent"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000849,
+    "sites": 12,
+    "subdomains": [
+        "res.wx",
+        "t.captcha",
+        "snowflake",
+        "h.trace",
+        "otheve.beacon"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "qq\\.com\\/open\\/js\\/jweixin-1\\.6\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "res.wx"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "0f17c4f7daf51a49a9627714ad2da6c037352442699ba8ceca68b7c6dc0b1dba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.gov.cn",
+                "solitaires.com",
+                "www.chinadaily.com.cn",
+                "www.cnblogs.com"
+            ]
+        },
+        {
+            "rule": "qq\\.com\\/open\\/js\\/jweixin-1\\.2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "res.wx"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f71c9148687236888aea3d72b657ad58cb40076184b3acaff723df19bf8e7466"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gitee.com",
+                "lsptu25.com"
+            ]
+        },
+        {
+            "rule": "qq\\.com\\/cap_union_new_getcapbysig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t.captcha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "857d911768395a6fa58fe563aa10f4ed45e0ef2d1a4ac556eefacba06b7446f9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smzdm.com",
+                "post.smzdm.com"
+            ]
+        },
+        {
+            "rule": "qq\\.com\\/open\\/js\\/jweixin-1\\.4\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "res.wx"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e16906ca679a580debea3d2c0f6d03503337d85ae3284879dd70a0d5cd1b5efa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globaltimes.cn",
+                "www.tuya.com"
+            ]
+        },
+        {
+            "rule": "qq\\.com\\/ola\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snowflake"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iflix.com",
+                "www.iflix.com"
+            ]
+        },
+        {
+            "rule": "qq\\.com\\/ola\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snowflake"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ee035d654dd99c3ee921836884a6f36e084e4bfe0ccd64a794513ae5b095ecf1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iflix.com",
+                "www.iflix.com"
+            ]
+        },
+        {
+            "rule": "qq\\.com\\/bosskv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h.trace"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "guid": 0.000014146672702580353,
+                "_qimei_uuid42": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "iflix.com",
+                "www.iflix.com"
+            ]
+        },
+        {
+            "rule": "qq\\.com\\/analytics\\/v2_upload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otheve.beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iflix.com",
+                "www.iflix.com"
+            ]
+        },
+        {
+            "rule": "qq\\.com\\/analytics\\/v2_upload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otheve.beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iflix.com",
+                "www.iflix.com"
+            ]
+        },
+        {
+            "rule": "qq\\.com\\/kv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h.trace"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iflix.com",
+                "www.iflix.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "wetvinfo.com",
+            "prevalence": 0.44680851063829785
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2553191489361702
+        },
+        {
+            "domain": "cdn-go.cn",
+            "prevalence": 0.1702127659574468
+        },
+        {
+            "domain": "gtimg.com",
+            "prevalence": 0.10638297872340426
+        },
+        {
+            "domain": "chinadaily.com.cn",
+            "prevalence": 0.02127659574468085
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Image": 4,
+        "Preflight": 4,
+        "XHR": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns4.qq.com",
+        "ns1.qq.com",
+        "ns2.qq.com",
+        "ns3.qq.com"
+    ]
+}

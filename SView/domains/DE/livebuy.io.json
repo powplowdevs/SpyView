@@ -1,0 +1,104 @@
+{
+    "domain": "livebuy.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "sdk",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "livebuy\\.io\\/livebuy-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7329a4d3942485eb39e42ff0853bf7de5ae4b0c78d08ad9ad3dd6273a97b0520"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauhaus.info",
+                "www.bauhaus.info"
+            ]
+        },
+        {
+            "rule": "livebuy\\.io\\/trk\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f91461126ecce35e465d5cb2edaa3a2a4df0050ee78c6946204af1c988143271"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauhaus.info",
+                "www.bauhaus.info"
+            ]
+        },
+        {
+            "rule": "livebuy\\.io\\/trk\\/assets\\/index-Dx809Y8E\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e1251b4ef41f381e02821eaae1dfea2ff2d1804d98b0b4f7bab9c1ccf27c039e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauhaus.info",
+                "www.bauhaus.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns66.domaincontrol.com",
+        "ns65.domaincontrol.com"
+    ]
+}

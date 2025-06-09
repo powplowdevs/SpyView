@@ -1,0 +1,78 @@
+{
+    "domain": "popupmaker.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "popupmaker\\.com\\/assets\\/lib\\/SGPMPopup\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "38d2acb42b1123a8fecfff83c07e2ed5bd153527f7c3c50825b4a207a4050d5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriesinc.net",
+                "iwantclips.com",
+                "www.erzieherin-ausbildung.de"
+            ]
+        },
+        {
+            "rule": "popupmaker\\.com\\/public\\/assets\\/lib\\/SGPMPopup\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "82b50c85536df085f1935dbcccdbcb8cd3aa176027a9714ed23355ebe61a6b3b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriesinc.net",
+                "iwantclips.com",
+                "www.erzieherin-ausbildung.de",
+                "www.factandmyth.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "isla.ns.cloudflare.com",
+        "jay.ns.cloudflare.com"
+    ]
+}

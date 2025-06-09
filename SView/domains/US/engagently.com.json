@@ -1,0 +1,251 @@
+{
+    "domain": "engagently.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [
+        "ct82a9e4d2pr",
+        "fkp4jn",
+        "fqt4su",
+        "bkp4jn",
+        "bqt4su",
+        "sbx01-frontend",
+        "ctsz78ki3g0p"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "engagently\\.com\\/counts\\/commentaries\\/82a9e4d2pr\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ct82a9e4d2pr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fr.de",
+                "m.fr.de"
+            ]
+        },
+        {
+            "rule": "engagently\\.com\\/counts\\/commentaries\\/82a9e4d2pr\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ct82a9e4d2pr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "30439775cc6bc53b8dc81ada78ddfdd4acb38a444710d2b861d798524efa502e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fr.de",
+                "m.fr.de"
+            ]
+        },
+        {
+            "rule": "engagently\\.com\\/engagently\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fkp4jn",
+                "fqt4su"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "27396ea96d80023afab15785a0d8583b113c5d9f1bf8cd63ce7d608b0f85f264",
+                "0d88bdda06af68025b0196814e98a04e737538f6eeeed04d3be9b321e72063ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noz.de",
+                "www.serienjunkies.de",
+                "www.shz.de"
+            ]
+        },
+        {
+            "rule": "engagently\\.com\\/auth\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bkp4jn",
+                "bqt4su"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "4c398f0239e2e3cf5c973af0364f0cab13e283b376635b7615939a7d1d6894c3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noz.de",
+                "www.serienjunkies.de",
+                "www.shz.de"
+            ]
+        },
+        {
+            "rule": "engagently\\.com\\/auth\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bkp4jn",
+                "bqt4su"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noz.de",
+                "www.serienjunkies.de",
+                "www.shz.de"
+            ]
+        },
+        {
+            "rule": "engagently\\.com\\/egy-manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fkp4jn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f7b03bb23083b324e90d0c5f307bb26541acfcf84f40ec71287d5872540c9445"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noz.de",
+                "www.shz.de"
+            ]
+        },
+        {
+            "rule": "engagently\\.com\\/config\\/bf3e06f1pr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sbx01-frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "serienjunkies.de",
+                "www.serienjunkies.de"
+            ]
+        },
+        {
+            "rule": "engagently\\.com\\/i18n\\/bf3e06f1pr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sbx01-frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "serienjunkies.de",
+                "www.serienjunkies.de"
+            ]
+        },
+        {
+            "rule": "engagently\\.com\\/counts\\/commentaries\\/sz78Ki3g0p\\/li\\.3244369\\/counter\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ctsz78ki3g0p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9b719894281525bef69d2f15e40caeb96282fd4292dd13ab3d05220ee6b825e5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sueddeutsche.de",
+                "www.sueddeutsche.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9230769230769231
+        },
+        {
+            "domain": "idcdn.de",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "XHR": 2,
+        "Script": 3,
+        "Fetch": 11
+    },
+    "nameservers": [
+        "ns-62.awsdns-07.com",
+        "ns-522.awsdns-01.net",
+        "ns-1668.awsdns-16.co.uk",
+        "ns-1131.awsdns-13.org"
+    ]
+}

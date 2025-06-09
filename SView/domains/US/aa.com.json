@@ -1,0 +1,217 @@
+{
+    "domain": "aa.com",
+    "owner": {
+        "name": "American Airlines Inc",
+        "displayName": "American Airlines"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "cdn",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aa\\.com\\/aileron-web\\/cookie-banner@latest\\/cookie-banner\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "2b040d1286d27e62e6773eebbc020b1db96bdaaecc99105126868076d1eed249"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com.do",
+                "www.aacargo.com",
+                "www.aavacations.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\/fonts\\/css\\/family\\/american-sans-variable\\.css",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7565b466cd00a14bb5a3cc18b4c5f60282ec7858b95a4a88249c3698d0214c3d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com.do",
+                "www.aacargo.com",
+                "www.aavacations.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\/fonts\\/css",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7565b466cd00a14bb5a3cc18b4c5f60282ec7858b95a4a88249c3698d0214c3d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com.do",
+                "www.aacargo.com",
+                "www.aavacations.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\/fonts\\/american-sans-v2\\/variable\\/AmericanSansVar\\.woff2",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "0f398da3659c1be803327b7f6aef2bdd9d51f0cea1200e4c52db742fcfa4aa7f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com.do",
+                "www.aacargo.com",
+                "www.aavacations.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\/aileron\\/icons\\/navigation\\/new-window\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e5be253d46f12742c762bdb1ec48a25455bbef770112dd5ce78544e91deb7bdd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com.do",
+                "www.aa.com.do",
+                "www.aacargo.com",
+                "www.aavacations.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\/aileron\\/icons\\/signal\\/information\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "37723390905eaceadaa5dc1f7338e707219fbdda1d1f11c938c13703d6024b31"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com.do",
+                "www.aacargo.com",
+                "www.aavacations.com"
+            ]
+        },
+        {
+            "rule": "aa\\.com\\/assets\\/html\\/gdpr\\/sync\\.html",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aa.com.do",
+                "www.aacargo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.90625
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.03125
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Stylesheet": 6,
+        "Font": 3,
+        "Fetch": 7,
+        "Document": 2
+    },
+    "nameservers": [
+        "usw2.akam.net",
+        "asia2.akam.net",
+        "ns1-118.akam.net",
+        "ns1-149.akam.net",
+        "asia3.akam.net",
+        "eur5.akam.net",
+        "eur6.akam.net",
+        "asia4.akam.net"
+    ]
+}

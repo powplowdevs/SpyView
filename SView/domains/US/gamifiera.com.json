@@ -1,0 +1,287 @@
+{
+    "domain": "gamifiera.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gamifiera\\.com\\/static\\/gmf\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "811fd1e487574b97bcf2550249420cf3f436d14c2304be0e0b569d89afab3edc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagarenochkocken.se",
+                "panduro.com",
+                "www.apohem.se",
+                "www.cervera.se",
+                "www.jollyroom.se",
+                "www.skruvat.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/v1\\/merchant-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "d0dc01d0bd800b75c3a3ecefead6ddd9cd5df9f61d8660d1f85b7fe062b89288",
+                "ddc5e797615f9db3abd472bd12d57c6d013afe76801521d8a2933f34fc55677f",
+                "256e4fec23898f4233e0702cd271a4e22537b55f666ac9e5bad653fa194813c7",
+                "356c03ee91452aa6ba97ac3b52287b80af1f22b4b9a416d395da901221e7e505",
+                "77b522292eb67e1def0ee40ed279f711b789cccc917a4c0b94604179bb4f088b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagarenochkocken.se",
+                "panduro.com",
+                "www.apohem.se",
+                "www.cervera.se",
+                "www.jollyroom.se",
+                "www.skruvat.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/v1\\/merchant-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagarenochkocken.se",
+                "panduro.com",
+                "www.apohem.se",
+                "www.cervera.se",
+                "www.jollyroom.se",
+                "www.skruvat.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/static\\/gmf\\/3\\.9\\.32\\/gmf\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.vendor": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "window.sessionStorage": 6,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "1261cb2da0d9b07812453443568cdae5d92ea6040b0cb7e966df2a215b900565"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagarenochkocken.se",
+                "panduro.com",
+                "www.apohem.se",
+                "www.cervera.se",
+                "www.jollyroom.se",
+                "www.skruvat.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/static\\/gmf\\/3\\.9\\.32\\/base\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "fa74eea45355b8d0f16d9c74ddac3a0ca0cc3df47f848393307001314d3baa97"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagarenochkocken.se",
+                "panduro.com",
+                "www.apohem.se",
+                "www.cervera.se",
+                "www.jollyroom.se",
+                "www.skruvat.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/static\\/gmf\\/3\\.9\\.32\\/locales\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "a09fde3f6dd3f817be594b4e24a7986cf2042fbe0ac3450b844fe43c4231b86a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagarenochkocken.se",
+                "panduro.com",
+                "www.apohem.se",
+                "www.cervera.se",
+                "www.jollyroom.se",
+                "www.skruvat.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/static\\/icons\\/v2\\/star_filled\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "b64ca3cec490625cf9794be155cf6b8131f162ab2739fc1e813a389781289c56"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagarenochkocken.se",
+                "www.apohem.se",
+                "www.cervera.se",
+                "www.skruvat.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/v3\\/comments\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "57e2ee04eefc08282807dc4520c25f5447d2f417403cc21db103da9ecab30094",
+                "caaa8f13936e7ee4628a7c30319c8b6fa0d4e646e0db03f668f26b54bfa46722"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panduro.com",
+                "www.cervera.se",
+                "www.jollyroom.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/v3\\/comments\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panduro.com",
+                "www.cervera.se",
+                "www.jollyroom.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8125
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.10416666666666667
+        },
+        {
+            "domain": "raygun.io",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "XHR": 6,
+        "Preflight": 9,
+        "Stylesheet": 6,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "pdns1.registrar-servers.com",
+        "pdns2.registrar-servers.com"
+    ]
+}

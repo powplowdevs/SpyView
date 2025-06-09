@@ -1,0 +1,152 @@
+{
+    "domain": "giveaway.ninja",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "giveaway\\.ninja\\/widget\\/scripts\\/giveawayninja\\.start\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "4a8aa30a24456c4521abb107780d816a256684f97a1e9881c6327023da01d8da"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barraairguns.com",
+                "coffeebros.com",
+                "ds18.com",
+                "tengtoolsusa.com",
+                "www.americanapipedream.com",
+                "www.goruck.com",
+                "www.lonerider-motorcycle.com"
+            ]
+        },
+        {
+            "rule": "giveaway\\.ninja\\/widget\\/scripts\\/giveawayninja\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "eb3cf300d79fe7f7509c98ae949ae58bd8734421dd9bfbb8be7f6147189d686a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barraairguns.com",
+                "coffeebros.com",
+                "ds18.com",
+                "tengtoolsusa.com",
+                "www.americanapipedream.com",
+                "www.goruck.com"
+            ]
+        },
+        {
+            "rule": "giveaway\\.ninja\\/api\\/token\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "295a666013505de6703e7daf42d049e9d6743c08b1044b4c2b841deca18c860d",
+                "87b057433ca3a8698a8d9fa7177b0525405a3ca414141f2b5d5499deac1293ff",
+                "4458f7a7a8919ed218b05eaa5cef80c2e2c14a33cf1daed6a0241d64253afaff",
+                "89ebe35128b767df0418f156bb67532e38d63063cb7b11ff40189f816f976145",
+                "252e14b35d5c5fc3b2e00e5608dc1730619b6f0b77956ec7f8543f66d4e309e2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barraairguns.com",
+                "coffeebros.com",
+                "ds18.com",
+                "tengtoolsusa.com",
+                "www.americanapipedream.com",
+                "www.goruck.com"
+            ]
+        },
+        {
+            "rule": "giveaway\\.ninja\\/api\\/giveaway\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "6c32e828bac8600e1b0306eafdc435693c6b3ee7ef66a617fa333c94e095c508"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barraairguns.com",
+                "coffeebros.com",
+                "ds18.com",
+                "tengtoolsusa.com",
+                "www.americanapipedream.com",
+                "www.goruck.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.92
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.08
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "XHR": 12
+    },
+    "nameservers": [
+        "ns-392.awsdns-49.com",
+        "ns-647.awsdns-16.net",
+        "ns-1510.awsdns-60.org",
+        "ns-1996.awsdns-57.co.uk"
+    ]
+}

@@ -1,0 +1,629 @@
+{
+    "domain": "reviews.io",
+    "owner": {
+        "name": "Liquid New Media Limited",
+        "displayName": "Liquid New Media"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "widget",
+        "assets",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "reviews\\.io\\/modern-widgets\\/rating-bar\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "64ac7ad53a31202182b99afba7855bb351be9b39f6d2e3c3de55eb9f43980a75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.leuchtmittelmarkt.com"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/css\\/widgets\\/carousel-widget\\.css",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "af117f145825a0b33c82ae0c844f8710ea04ab76e0f0e0bec3cfe07abb795711"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.fairment.de",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/iconfont\\/reviewsio-icons\\/style\\.css",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "7d1f794e9939422ac65a69c93cc25d15b9e038f2e8bb66441b75953a8d60117b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.fairment.de",
+                "www.leuchtmittelmarkt.com",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/rating-snippet\\/dist\\.js",
+            "cookies": 0.00051,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "6ec5c9c5f6028794668c751036a50c2302d9bff48a631a2ce73dbf72f7b7dc6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "motorland.de",
+                "www.bavarian-bike.de",
+                "www.fahrrad.de",
+                "www.fairment.de",
+                "www.leuchtmittelmarkt.com",
+                "www.solakon.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/rating-snippet\\/dist\\.css",
+            "cookies": 0.000612,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "6a4ba2478be68b917acbdc10f40e0a554ac94c47f836cdccd8ac20f4f51847ae"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "motorland.de",
+                "www.bavarian-bike.de",
+                "www.fahrrad.de",
+                "www.fairment.de",
+                "www.leuchtmittelmarkt.com",
+                "www.solakon.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/locale\\/en\\.json",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "72220e5b5e023147a0e8c087e2aed18faef8f2a020e91c6aef312b7912d6b4ff"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.leuchtmittelmarkt.com"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/locale\\/de\\.json",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2260d3b30d9e13d972e09611a002380f9441eeefcf53f5ca02aa636d90974377"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.leuchtmittelmarkt.com"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/widget\\/options",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "dfb79fd88b59ee9d2d596c717536edfd5b0b09d81586dacffef0398d41499b44",
+                "2504aa4ff095e547313cd14e1608641d3f9b493a07769995c971ceff3b8b2ee6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.leuchtmittelmarkt.com"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/widget\\/options",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.leuchtmittelmarkt.com"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/css\\/widgets\\/rating-bar-widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "42bb5515ead3865d8fd808145068fc23a742faf6cb33d75c6253a00a03a9a107"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.leuchtmittelmarkt.com"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/stats\\/all",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "eb7d6f071354922740cc08defcee359de1fe67c0679b1847be94d08a761bc123",
+                "122250a3e219f1508463a800620bda96c794b636bf4780d968c27b5837d398f6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.leuchtmittelmarkt.com"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/stats\\/all",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.leuchtmittelmarkt.com"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/img\\/all-global-assets\\/logo\\/reviewsio-logo--inverted\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "93d9c8872c3a4c6605192213da805c020643b10ca09bebbe4dc379aa42c5652e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.leuchtmittelmarkt.com",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/iconfont\\/reviewsio-icons\\/fonts\\/reviewsio-font\\.woff2",
+            "cookies": 0.00051,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "2072ca7560dd9c47900363d06eed46b5e59fa48a9dd655facb7397dee99b1fd8"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "de.weareholy.com",
+                "www.fairment.de",
+                "www.leuchtmittelmarkt.com",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/iconfont\\/legacy\\/revsglobal-pr-mod\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "44ab1cb9af3d2c26fc706b2d07ef6884a2439eff8fb7afe6c13832381bf289b5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "motorland.de",
+                "www.bavarian-bike.de",
+                "www.fahrrad.de",
+                "www.fairment.de",
+                "www.leuchtmittelmarkt.com",
+                "www.santosgrills.de",
+                "www.solakon.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/product\\/rating-batch",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7dd9050fa05f8cecb6c114361cbbdaf2a75896fd4fc38024d75eacac2ca1a544"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "www.fairment.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/iconfont\\/legacy\\/revsglobal-pr-mod\\/fonts\\/revsglobal-pr-mod\\.woff2",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "9dbe1584f77f96f4f21489536a2437e5be60f7097d99d84493e57867e2d9b6a7"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balkonkraftwerk-express.de",
+                "www.fairment.de",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/carousel-inline-iframeless\\/dist\\.js",
+            "cookies": 0.000306,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2e7933d6f0f2957639559dd5758293e07e595ff0e7cee7660becf3e01c0d912e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weareholy.com",
+                "www.fairment.de",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/polaris\\/build\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 4,
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "96a466b64c4ef00f8dfbc1341a2684a3393a209aa175abb52d12a97536c2f636"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weareholy.com",
+                "motorland.de",
+                "www.bavarian-bike.de",
+                "www.fairment.de",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/timeline\\/data",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weareholy.com",
+                "www.fairment.de",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/timeline\\/data",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "c65ba4030a2fe56caea71d3b8ccd11f35505e52791aa9b5cce175d762bd359a8",
+                "481fdc19db0c042258c7e9de897d1e990b9032968da1cd1e0dda06437209eb53"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weareholy.com",
+                "www.fairment.de",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/json-ld\\/company\\/snippet",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2a008ae71772199f152094bb6704079e91aad2d30bf78182aa1a234da275ca5a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weareholy.com",
+                "www.fairment.de",
+                "www.santosgrills.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/img\\/all-global-assets\\/logo\\/reviewsio-logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7a1dc4540977baca4f1d271046f4011d06c790956b989b25e31d45819ef76ae3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weareholy.com",
+                "www.fairment.de"
+            ]
+        },
+        {
+            "rule": "reviews\\.io\\/product\\/rating-batch",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3aaf75378594fd9c61873865c99ee74d1f7f285f57c689911b6827e26be85127"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ergotopia.de",
+                "www.ergotopia.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9381443298969072
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.041237113402061855
+        },
+        {
+            "domain": "reviews.co.uk",
+            "prevalence": 0.020618556701030927
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "Stylesheet": 28,
+        "Fetch": 8,
+        "XHR": 14,
+        "Preflight": 9,
+        "Image": 6,
+        "Font": 8
+    },
+    "nameservers": [
+        "jeremy.ns.cloudflare.com",
+        "adrian.ns.cloudflare.com"
+    ]
+}

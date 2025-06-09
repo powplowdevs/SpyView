@@ -1,0 +1,69 @@
+{
+    "domain": "att.com",
+    "owner": {
+        "name": "AT&T Services, Inc.",
+        "displayName": "AT&T Services"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "smetrics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "att\\.com\\/id",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7efa66591f36ed124853142ea98e1f52346f4be3d2869d7244965dcaeed71c2c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yahoo.com",
+                "www.firstnet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "yimg.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "a5-66.akam.net",
+        "a4-64.akam.net",
+        "a2-64.akam.net",
+        "a22-67.akam.net",
+        "a11-65.akam.net",
+        "a1-187.akam.net"
+    ]
+}

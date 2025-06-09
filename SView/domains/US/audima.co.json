@@ -1,0 +1,131 @@
+{
+    "domain": "audima.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "audio4",
+        "audio",
+        "audio8",
+        "audio7",
+        "audio10"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "audima\\.co\\/audima-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "audio4",
+                "audio",
+                "audio8",
+                "audio7",
+                "audio10"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.product": 3,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "window.localStorage": 2
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "77caa5dbf7ebb2a5dbaf91d0a20f227a73ee6fa70ad20d59e778cf233d5604e2",
+                "9bac389ae19f8c2703dae9870e52a44ff1658a7c6b0e98f00d98d71e9a4bc183",
+                "cd127bf1af5d7f2d2b08668d40ee0f7213af07ed3091ee7ec8c567759476bca9",
+                "78a9ed0edfb1e7ccbf294743e25de9cfc1faf5ddef1a7cd4f5c3d117f5dd289e",
+                "d9084596c49130769139169f410b86bb2601a90b0fd2150a5efef703fc9e6a50",
+                "8fbc11baa3d8809b7b50adda600b306fa7cfe0b0bb107f7111856c351b1b34f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uol.com.br",
+                "forbes.com.br",
+                "noticias.r7.com",
+                "www.allthingshair.com",
+                "www.estrategiaconcursos.com.br",
+                "www.iberdrola.com",
+                "www.serasa.com.br",
+                "www.terra.com.br"
+            ]
+        },
+        {
+            "rule": "audima\\.co\\/iframe-later-thin-audima\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "audio4",
+                "audio",
+                "audio8",
+                "audio7"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "5a5bf6ad0de4cc9c9a7621eea7513509238e6d1e758a9df4e8cfbb7a3284126a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uol.com.br",
+                "forbes.com.br",
+                "noticias.r7.com",
+                "www.estrategiaconcursos.com.br",
+                "www.serasa.com.br"
+            ]
+        },
+        {
+            "rule": "audima\\.co\\/call-init\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "audio8",
+                "audio10"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "852ec930a724b6c7bac9ad426e89c8b2921cd382350981232a2016373ac7168d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "r7.com",
+                "www.terra.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Document": 5
+    },
+    "nameservers": [
+        "tegan.ns.cloudflare.com",
+        "dave.ns.cloudflare.com"
+    ]
+}

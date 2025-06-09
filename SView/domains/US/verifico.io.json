@@ -1,0 +1,144 @@
+{
+    "domain": "verifico.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "agechecked"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "verifico\\.io\\/tr\\/",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "agechecked"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "1db51152fde1d1fec716899acba8caebc141cf0a52c7244487c3c2d9c209eb10",
+                "596782ac899fe134c0b22346377ec1d70921487ec0878261dbf608ee58558fa9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ac_sessid": {
+                    "ttl": 31536017,
+                    "length": 32,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heinnie.com",
+                "www.souschef.co.uk",
+                "www.vapestore.co.uk"
+            ]
+        },
+        {
+            "rule": "verifico\\.io\\/s\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "agechecked"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heinnie.com",
+                "www.souschef.co.uk",
+                "www.vapestore.co.uk"
+            ]
+        },
+        {
+            "rule": "verifico\\.io\\/s\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "agechecked"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "febe4ea9cdd9199c49b32877b9bb89510805e1532c376171a182e449c543e865"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heinnie.com",
+                "www.souschef.co.uk",
+                "www.vapestore.co.uk"
+            ]
+        },
+        {
+            "rule": "verifico\\.io\\/css\\/tracking\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "agechecked"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "2571796ee1e1e4bed21c2d1d3dd1a0313c8ba2930d12986a89557d8ab8bf7418"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heinnie.com",
+                "www.souschef.co.uk",
+                "www.vapestore.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Preflight": 3,
+        "XHR": 3,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "ns-573.awsdns-07.net",
+        "ns-1871.awsdns-41.co.uk",
+        "ns-1152.awsdns-16.org",
+        "ns-191.awsdns-23.com"
+    ]
+}

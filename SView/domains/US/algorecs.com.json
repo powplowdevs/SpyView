@@ -1,0 +1,175 @@
+{
+    "domain": "algorecs.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000156,
+    "sites": 22,
+    "subdomains": [
+        "media",
+        "recs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "algorecs\\.com\\/rrserver\\/js\\/2\\.1\\/p13n\\.js",
+            "cookies": 0.000106,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Date.prototype.getTime": 11,
+                "window.localStorage": 11,
+                "Document.cookie setter": 9
+            },
+            "sites": 15,
+            "prevalence": 0.000106,
+            "cnames": [],
+            "responseHashes": [
+                "8b61ac4bed0b6f0ff5c1b01ac7359334fb9699a203f1ab896a082b9f4f18b81b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rr_rcs": {
+                    "ttl": 31449616,
+                    "length": 91,
+                    "prevalence": 0.00005658669081032141,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acwholesalers.com",
+                "www.acwholesalers.com",
+                "www.cdjapan.co.jp",
+                "www.cigar.com",
+                "www.cigarsinternational.com",
+                "www.ecomfort.com",
+                "www.ibs.it",
+                "www.lafeltrinelli.it",
+                "www.libraccio.it",
+                "www.lojasrenner.com.br",
+                "www.mec.ca",
+                "www.netonnet.se",
+                "www.notonthehighstreet.com",
+                "www.thompsoncigar.com",
+                "www.tiffany.com"
+            ]
+        },
+        {
+            "rule": "algorecs\\.com\\/rrserver\\/p13n_generated\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rr_sess": 0.00002122000905387053,
+                "rr_session_id": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "acwholesalers.com",
+                "www.acwholesalers.com",
+                "www.cdjapan.co.jp",
+                "www.cigar.com",
+                "www.cigarsinternational.com",
+                "www.ecomfort.com",
+                "www.ibs.it",
+                "www.lafeltrinelli.it",
+                "www.lojasrenner.com.br",
+                "www.notonthehighstreet.com",
+                "www.thompsoncigar.com",
+                "www.tiffany.com"
+            ]
+        },
+        {
+            "rule": "algorecs\\.com\\/rrserver\\/p13n_generated\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "bd4a0b7642359a89e029a5269cb1e0aee2e91c0a29778c347cdf785f562e2ad2",
+                "759ff8590dafd97cbf09ad7ec442f61b95160c2301c740dd5498ded471eb9632",
+                "6143c3c9e63143ad11e86a99a728b1da539110a4d96a519a3cb970b45c03c4f1",
+                "9950517fd07a3169779b3c3682ee7031103758d41b83626a7c404e748dad8a19",
+                "7d167d14aeb3177f50467ad61022800f8cbd7f53469f6b7f04b370cf59de1938",
+                "6f92606d92b40c0598ba6d08af88b05acdcc96a37dbbe0bd836b4cf1c544fdb7",
+                "d3eec00cf7139fcf7f2227042187b1dfdd0e9f844b209bdbcef769bb3004f7b9",
+                "65d547542e54cda9e9fc53c88d8c97e471b2249d7861093c8e63874bc74adc76",
+                "ecc37fd8f142e4a204bc01356b053eae294e4c1df2673d20a1f94efa31c53cf4",
+                "5f45206c314f10666ab7fb8166164c8dee7d39fb9790a826e8ce7df713cacf85"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rr_sess": 0.00002122000905387053,
+                "rr_session_id": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "acwholesalers.com",
+                "www.acwholesalers.com",
+                "www.cdjapan.co.jp",
+                "www.cigar.com",
+                "www.cigarsinternational.com",
+                "www.ecomfort.com",
+                "www.ibs.it",
+                "www.lafeltrinelli.it",
+                "www.lojasrenner.com.br",
+                "www.notonthehighstreet.com",
+                "www.thompsoncigar.com",
+                "www.tiffany.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000156,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7906976744186046
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.09302325581395349
+        },
+        {
+            "domain": "richrelevance.com",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.023255813953488372
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Preflight": 12,
+        "Fetch": 12
+    },
+    "nameservers": [
+        "hera.ns.cloudflare.com",
+        "rayden.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "domain": "northstartravelmedia.com",
+    "owner": {
+        "name": "Northstar Travel Media",
+        "displayName": "Northstar Travel Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "ai"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "northstartravelmedia\\.com\\/track\\/",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ai"
+            ],
+            "apis": {
+                "Document.cookie setter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "907cc1adfc69bf5945c8fd216df3d6bbb90968594b45dd910856a6460176d056",
+                "1011f5123e613f56c5500a0b1564013397533809c7abaaf45f26444f058ed18a",
+                "957413f897df4768a1346328557206f3f22dad473192f9e91584e82884b2c3d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "polacs_rs": {
+                    "ttl": 3155673618,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meetings-conventions.com",
+                "www.travelagewest.com",
+                "www.travelpulse.com",
+                "www.travelweekly.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns11.constellix.com",
+        "ns51.constellix.net",
+        "ns41.constellix.net",
+        "ns21.constellix.com",
+        "ns61.constellix.net",
+        "ns31.constellix.com"
+    ]
+}

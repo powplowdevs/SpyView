@@ -1,0 +1,62 @@
+{
+    "domain": "o9.de",
+    "owner": {
+        "name": "Telefonica Germany GmbH und Co. OHG",
+        "displayName": "Telefonica Germany"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "one"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "o9\\.de\\/main\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "one"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 1,
+                "window.innerHeight": 2,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "bd6ac382ed96f89508c5d05190f9c5864fa7824cef5edb0e7cc160ed0efa9d21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alditalk-kundenbetreuung.de",
+                "www.fonic.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.o2online.de",
+        "ns2.o2online.de",
+        "ns3.o2online.de"
+    ]
+}

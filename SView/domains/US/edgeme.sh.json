@@ -1,0 +1,134 @@
+{
+    "domain": "edgeme.sh",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000255,
+    "sites": 36,
+    "subdomains": [
+        "static",
+        "static-canary",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "edgeme\\.sh\\/client\\.js",
+            "cookies": 0.000184,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static",
+                "static-canary"
+            ],
+            "apis": {
+                "window.localStorage": 23,
+                "window.indexedDB": 19,
+                "Navigator.prototype.userAgent": 16,
+                "Document.cookie getter": 17
+            },
+            "sites": 26,
+            "prevalence": 0.000184,
+            "cnames": [],
+            "responseHashes": [
+                "f589a5f38ea186c7851eb15c8a874b9fa49ab4651a3e2bf87ae6ed286e4ef432",
+                "2f8b40262fb22bf2315489987a8dda2c8665f2ea343c16f59527669bd965ccf4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "badbirdiegolf.com",
+                "tryfum.com",
+                "aloha.com",
+                "www.lowbrowcustoms.com",
+                "www.bareperformancenutrition.com",
+                "www.tenthousand.cc",
+                "www.tnnursery.net",
+                "dimebeautyco.com",
+                "mypatriotsupply.com",
+                "www.dagnedover.com",
+                "hexclad.com",
+                "www.100percentpure.com",
+                "www.luxyhair.com",
+                "oliveandjune.com",
+                "www.nyandcompany.com",
+                "www.mypatriotsupply.com",
+                "www.calpaktravel.com",
+                "www.simplemodern.com",
+                "greenworkstools.com",
+                "plunge.com"
+            ]
+        },
+        {
+            "rule": "edgeme\\.sh\\/node\\/check",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aloha.com",
+                "melin.com",
+                "www.nyandcompany.com",
+                "www.tenthousand.cc"
+            ]
+        },
+        {
+            "rule": "edgeme\\.sh\\/node\\/check",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "c3ba067a12e569d9b32fa16a7e882f03d758831d75b7bdbd6c98163e48c1ff9f",
+                "7cef9ebfdb93277a473f92cbd866d77a264430ca630485713c4a1e783c5ab840"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aloha.com",
+                "melin.com",
+                "www.nyandcompany.com",
+                "www.tenthousand.cc"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000255,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9512195121951219
+        },
+        {
+            "domain": "omnisnippet1.com",
+            "prevalence": 0.04878048780487805
+        }
+    ],
+    "types": {
+        "Script": 26,
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "liz.ns.cloudflare.com",
+        "pablo.ns.cloudflare.com"
+    ]
+}

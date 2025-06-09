@@ -1,0 +1,73 @@
+{
+    "domain": "report-uri.io",
+    "owner": {
+        "name": "Report-URI Ltd.",
+        "displayName": "Report-URI"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "openjdk",
+        "multimediasolutions"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "report-uri\\.io\\/r\\/default\\/csp\\/reportOnly",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "openjdk",
+                "multimediasolutions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openjdk.org",
+                "www.njta.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "usefathom.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "confiant-integrations.net",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "luckyorange.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Other": 2
+    },
+    "nameservers": [
+        "carl.ns.cloudflare.com",
+        "coco.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "domain": "simplr.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "chat-web"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "simplr\\.ai\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat-web"
+            ],
+            "apis": {
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "283c93d66b58f2e05471829cdf8d7c412802f74103c0b3a884d29c9c921f887c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princesspolly.com",
+                "us.princesspolly.com",
+                "www.asurion.com",
+                "www.keenfootwear.com",
+                "www.ubreakifix.com"
+            ]
+        },
+        {
+            "rule": "simplr\\.ai\\/app\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "chat-web"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.product": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "7ca1f540a3c16520c17374705cd331abb06b964a5bb9048692d01d82f30f73d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mp_793b461ca2372f1b4799b37619ed79bd_mixpanel": {
+                    "ttl": 31536017,
+                    "length": 939,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princesspolly.com",
+                "us.princesspolly.com",
+                "www.asurion.com",
+                "www.keenfootwear.com",
+                "www.ubreakifix.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "ns-1304.awsdns-35.org",
+        "ns-118.awsdns-14.com",
+        "ns-634.awsdns-15.net",
+        "ns-1979.awsdns-55.co.uk"
+    ]
+}

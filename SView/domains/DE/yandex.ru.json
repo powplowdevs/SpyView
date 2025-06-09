@@ -1,0 +1,942 @@
+{
+    "domain": "yandex.ru",
+    "owner": {
+        "name": "Yandex LLC",
+        "displayName": "Yandex",
+        "privacyPolicy": "https://yandex.com/legal/privacy/",
+        "url": "http://yandex.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.014,
+    "sites": 137,
+    "subdomains": [
+        "mc",
+        "matchid.adfox",
+        "an",
+        "log.strm",
+        "amc"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "yandex\\.ru\\/metrika\\/tag\\.js",
+            "cookies": 0.0102,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 95,
+                "Document.cookie setter": 98,
+                "Document.cookie getter": 96,
+                "Date.prototype.getTime": 97,
+                "PerformanceTiming.prototype.navigationStart": 97,
+                "window.localStorage": 98,
+                "Navigator.prototype.language": 95,
+                "Navigator.prototype.connection": 95,
+                "Date.prototype.getTimezoneOffset": 92,
+                "Navigator.prototype.cookieEnabled": 97,
+                "Screen.prototype.width": 97,
+                "Screen.prototype.height": 97,
+                "Screen.prototype.colorDepth": 97,
+                "window.devicePixelRatio": 98,
+                "Navigator.prototype.webdriver": 95,
+                "Navigator.prototype.plugins": 95,
+                "Notification.permission": 93,
+                "Navigator.prototype.vendor": 95,
+                "Navigator.prototype.storage": 96,
+                "Navigator.prototype.platform": 95,
+                "Navigator.prototype.getBattery": 32,
+                "Navigator.prototype.javaEnabled": 33,
+                "NavigatorUAData.prototype.getHighEntropyValues": 53,
+                "Navigator.prototype.appVersion": 24,
+                "Screen.prototype.orientation": 24,
+                "window.sessionStorage": 24,
+                "Navigator.prototype.onLine": 34
+            },
+            "sites": 100,
+            "prevalence": 0.0102,
+            "cnames": [],
+            "responseHashes": [
+                "d619812a6093f3c698b98a7913fc5fa464da4944156765b367a4d47fa8ebbce4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ym_uid": {
+                    "ttl": 31536003,
+                    "length": 19,
+                    "prevalence": 0.009484956654767975,
+                    "uniqueness": 1
+                },
+                "_ym_d": {
+                    "ttl": 31536003,
+                    "length": 10,
+                    "prevalence": 0.009484956654767975,
+                    "uniqueness": 0.978494623655914
+                },
+                "_ym_isad": {
+                    "ttl": 72005,
+                    "length": 1,
+                    "prevalence": 0.009688934217236104,
+                    "uniqueness": 0.021052631578947368
+                },
+                "_ym_visorc": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.002447730749617542,
+                    "uniqueness": 0.08333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beeg.com",
+                "ok.ru",
+                "mail.ru",
+                "www.trannytube.tv",
+                "milfporn8.net",
+                "www.friseurenet.de",
+                "www.pornhits.com",
+                "namensbedeutung.net",
+                "de.zbporn.com",
+                "clickthis.blog",
+                "koroglutech.com",
+                "txxx.tube",
+                "ciksiti.com",
+                "www.mangaread.org",
+                "justuseapp.com",
+                "wer-steckt-hinter-dieser-telefonnummer.de",
+                "trannyclips.com",
+                "fapix.porn",
+                "musify.club",
+                "de.xxxvogue.net"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/sync_cookie_image_start",
+            "cookies": 0.0132,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 129,
+            "prevalence": 0.0132,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+                "ee2f91e85185c10fb4e2511b377b30b0df780f841cfc89c132d1f1b16c158437"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beeg.com",
+                "hqporner.com",
+                "ok.ru",
+                "mail.ru",
+                "otvet.mail.ru",
+                "outagedown.com",
+                "pornhat.tv",
+                "de.hdsex.org",
+                "analporn.tv",
+                "umrechnungeuro.com",
+                "thefappening.pro",
+                "milfporn8.net",
+                "yandex.kz",
+                "blackporn24.com",
+                "www.guitaretab.com",
+                "de.gay.bingo",
+                "musify.club",
+                "presspassblog.com",
+                "japanesehdporn.com",
+                "bdsmx.tube"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/sync_cookie_image_finish",
+            "cookies": 0.00153,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00173,
+            "cnames": [],
+            "responseHashes": [
+                "ee2f91e85185c10fb4e2511b377b30b0df780f841cfc89c132d1f1b16c158437",
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aberdame.com",
+                "bestpornstars.tv",
+                "eispop.com",
+                "hdpornpictures.net",
+                "hqporner.com",
+                "m.hqporner.com",
+                "niceporn.tv",
+                "pornhat.tv",
+                "redporn.tv",
+                "support.kaspersky.com",
+                "tukif.porn",
+                "www.guitaretab.com",
+                "www.kaspersky.de",
+                "www.machinemfg.com",
+                "www.porndig.com",
+                "xnxx.health",
+                "yandex.kz"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/sync_cookie_image_start_secondary",
+            "cookies": 0.00153,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00153,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744",
+                "ee2f91e85185c10fb4e2511b377b30b0df780f841cfc89c132d1f1b16c158437"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestpornstars.tv",
+                "blackporn24.com",
+                "de.zbporn.com",
+                "de.xxxvogue.net",
+                "f5tube.com",
+                "hdpornpictures.net",
+                "justthegays.com",
+                "japanesehdporn.com",
+                "niceporn.tv",
+                "pornhd4k.net",
+                "redporn.tv",
+                "vjav.com",
+                "www.amateurest.com",
+                "zbporn.com",
+                "zbporn.tv"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/sync_cookie_image_finish_secondary",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "ee2f91e85185c10fb4e2511b377b30b0df780f841cfc89c132d1f1b16c158437",
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestpornstars.tv",
+                "hdpornpictures.net",
+                "niceporn.tv",
+                "redporn.tv"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/watch\\/3",
+            "cookies": 0.00102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "eb11b04281adcefb2792e5d54285fdae7046fd4914d059c656b855745d265eb8",
+                "e121cb84cabe4e0a77cf34d30553f3031fedef64d8a8e166be769282c1e379c9",
+                "6e7a32f4e5f8cc7829f84af9d610e0508ee8ca48191ea1e7ddf5965c04f3e6e9",
+                "ac11319fea8ac35bb2754901762fc18941824792993cb464ab65ade8760a6267",
+                "5883a2eecca79d1edfcda70cdc10b6190287c5d90c9b502562b49f021626043b",
+                "702a499f2eaadc3b2276e7c63d7088251bccd0eb3a1ee3ca36a2af4eb963c52e",
+                "8e26e3e7df64aa367e9afb16b69d067cf0c59ee8734e632e2f655ba464b4b393",
+                "c0bca1cbd5d3db3496de4febf7639b176bfed1fa976449d2d6f3fea9a9acf809",
+                "64110e82f7dab37486b8ba55a36726979fb82e870303b970c4747225da3a50c6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ym_uid": 0.0010198878123406426,
+                "_ym_d": 0.0010198878123406426
+            },
+            "exampleSites": [
+                "8muses.com",
+                "de.frwiki.wiki",
+                "deutsch.news-pravda.com",
+                "exporntoons.net",
+                "leak.xxx",
+                "m.ashemaletube.com",
+                "rezka.ag",
+                "videocelebs.net",
+                "www.ashemaletube.com",
+                "www.boyfriendtv.com"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/metrika\\/advert\\.gif",
+            "cookies": 0.00102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "8muses.com",
+                "de.frwiki.wiki",
+                "deutsch.news-pravda.com",
+                "exporntoons.net",
+                "leak.xxx",
+                "m.ashemaletube.com",
+                "rezka.ag",
+                "videocelebs.net",
+                "www.ashemaletube.com",
+                "www.boyfriendtv.com"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/metrika\\/metrika_match\\.html",
+            "cookies": 0.00102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "8muses.com",
+                "de.frwiki.wiki",
+                "deutsch.news-pravda.com",
+                "exporntoons.net",
+                "leak.xxx",
+                "m.ashemaletube.com",
+                "rezka.ag",
+                "videocelebs.net",
+                "www.ashemaletube.com",
+                "www.boyfriendtv.com"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/watch\\/3\\/1",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "eb11b04281adcefb2792e5d54285fdae7046fd4914d059c656b855745d265eb8",
+                "e121cb84cabe4e0a77cf34d30553f3031fedef64d8a8e166be769282c1e379c9",
+                "6e7a32f4e5f8cc7829f84af9d610e0508ee8ca48191ea1e7ddf5965c04f3e6e9",
+                "ac11319fea8ac35bb2754901762fc18941824792993cb464ab65ade8760a6267",
+                "5883a2eecca79d1edfcda70cdc10b6190287c5d90c9b502562b49f021626043b",
+                "702a499f2eaadc3b2276e7c63d7088251bccd0eb3a1ee3ca36a2af4eb963c52e",
+                "8e26e3e7df64aa367e9afb16b69d067cf0c59ee8734e632e2f655ba464b4b393",
+                "c0bca1cbd5d3db3496de4febf7639b176bfed1fa976449d2d6f3fea9a9acf809",
+                "64110e82f7dab37486b8ba55a36726979fb82e870303b970c4747225da3a50c6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ym_uid": 0.0010198878123406426,
+                "_ym_d": 0.0010198878123406426
+            },
+            "exampleSites": [
+                "8muses.com",
+                "de.frwiki.wiki",
+                "deutsch.news-pravda.com",
+                "exporntoons.net",
+                "leak.xxx",
+                "m.ashemaletube.com",
+                "rezka.ag",
+                "videocelebs.net",
+                "www.ashemaletube.com",
+                "www.boyfriendtv.com"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/ads\\/system\\/context\\.js",
+            "cookies": 0.00133,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 16,
+                "window.sessionStorage": 16,
+                "Navigator.prototype.userAgent": 16,
+                "window.innerHeight": 16,
+                "window.innerWidth": 16,
+                "window.devicePixelRatio": 10,
+                "Navigator.prototype.connection": 10,
+                "Date.prototype.getTime": 10,
+                "Document.cookie getter": 10,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.vendor": 10,
+                "Element.prototype.getClientRects": 7,
+                "Notification.permission": 3,
+                "Navigator.prototype.plugins": 3
+            },
+            "sites": 17,
+            "prevalence": 0.00173,
+            "cnames": [],
+            "responseHashes": [
+                "5d21dfdaefe204ba45c36105a6907b8bb8a3562d1ac648c98f5f473f13334fb5",
+                "b3d05ef87edd95bc019f52fbb3f92826ddabe19febf135b591bbbc8914bf50fc",
+                "bdd23bf1d87cbd0cf301e895db48060a45a38d8e2b4aa9982131ad6840f03ef3",
+                "fc61ce574be9e91dd94a317b9acca24cdfbab2c19225385723febcc614210bc3",
+                "5ef44b14fae0a938e7fdf09b78f1ee284154ca8c0b9662cd371ed701e4406b0c",
+                "01d591b70a0e36a27496d84bf4810ed69a22b5c75e2a2ca206beaae502a66b7b",
+                "0ef9bc123837ced7892a004cc67bd4e65f8db4a11e02582359d668e87cef0257",
+                "17c5cdf99d86aeba82085e98e1e05743d3836ac6e341c05f267bf3b96dca27fe",
+                "70961bb9b4f5144eb5c26714e61dd41b6da058624f20c941a11e92d43214a8ed",
+                "8482e79e1d7130577ac5114fd467fde8df974a8d8e92b694de13e8630b5c0c1c",
+                "719b2d6c4e28b5c128edf42c8cbe8a5e0da6016c2f80a59e0e7b6328ec821924",
+                "69620f33eec5c9f16e0a01b3095acef45cc576650b6795fe0396e30b0ab5e358",
+                "ffc1bb67b7345a1b897a7767a36fdfd6c6427b80694484ef1966c331eefe0128",
+                "b65bf81c9e53b5f8d68afd695eac3557280d6bb45aa3aaaff36be99528ae7db9",
+                "5ad93067ef9319cb94b9df0b9fc7282bd9c05636aa0b7b43ea3111339d04e260",
+                "a2d134c623c5688a469c9f1ec43f5a504c44a603cdee22e4dd8d0dae72929a37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "re_theme": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "iliveok.com",
+                "de.vgtimes.com",
+                "de.rbth.com",
+                "flugradar24.eu",
+                "habr.com",
+                "koroglutech.com",
+                "musify.club",
+                "mail.ru",
+                "otvet.mail.ru",
+                "my.mail.ru",
+                "symbl.cc",
+                "rutube.ru",
+                "vgtimes.com",
+                "www.avito.ru",
+                "www.film.ru",
+                "www.mangaread.org",
+                "yandex.kz"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/clck\\/click",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "1bd2aa0bb9f0a0fd919c42a18c81645bd6d9601f60086928b05db8a5be978689"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iliveok.com",
+                "de.iliveok.com",
+                "mail.ru"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/metrika\\/watch\\.js",
+            "cookies": 0.00133,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "Document.cookie setter": 13,
+                "Document.cookie getter": 13,
+                "Date.prototype.getTime": 12,
+                "PerformanceTiming.prototype.navigationStart": 13,
+                "window.localStorage": 13,
+                "Navigator.prototype.language": 12,
+                "Navigator.prototype.connection": 12,
+                "Navigator.prototype.getBattery": 7,
+                "Date.prototype.getTimezoneOffset": 12,
+                "Navigator.prototype.cookieEnabled": 12,
+                "Screen.prototype.width": 12,
+                "Screen.prototype.height": 12,
+                "Screen.prototype.colorDepth": 12,
+                "window.devicePixelRatio": 13,
+                "Navigator.prototype.javaEnabled": 11,
+                "Navigator.prototype.webdriver": 12,
+                "Navigator.prototype.plugins": 12,
+                "Notification.permission": 12,
+                "Navigator.prototype.vendor": 12,
+                "Navigator.prototype.storage": 12,
+                "NavigatorUAData.prototype.getHighEntropyValues": 7,
+                "Navigator.prototype.platform": 9,
+                "Navigator.prototype.onLine": 6,
+                "Navigator.prototype.appVersion": 2,
+                "Screen.prototype.orientation": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "7b4f7e6be96bce22db4fefead470f80035885d70cafef8949d8b933e4c9e489b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ym_uid": {
+                    "ttl": 31536003,
+                    "length": 19,
+                    "prevalence": 0.0005099439061703213,
+                    "uniqueness": 1
+                },
+                "_ym_d": {
+                    "ttl": 31536003,
+                    "length": 10,
+                    "prevalence": 0.0005099439061703213,
+                    "uniqueness": 1
+                },
+                "_ym_isad": {
+                    "ttl": 72004,
+                    "length": 1,
+                    "prevalence": 0.0006119326874043855,
+                    "uniqueness": 0.16666666666666666
+                },
+                "_ym_visorc": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iliveok.com",
+                "emojis.wiki",
+                "jut.su",
+                "musify.club",
+                "rail.cc",
+                "mail.ru",
+                "otvet.mail.ru",
+                "my.mail.ru",
+                "tubepornclassic.com",
+                "txxx.com",
+                "txxx.tube",
+                "umrechnungeuro.com",
+                "vjav.com"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/webvisor\\/94082702",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ym_uid": 0.0002039775624681285,
+                "_ym_d": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "news-pravda.com",
+                "deutsch.news-pravda.com"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/ads\\/system\\/header-bidding\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "e4cedc76746d9b14750def0d4abe769b307c51b3897f634e7d5f953a4bd28c7f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "musify.club",
+                "symbl.cc",
+                "www.film.ru"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/getcookie",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matchid.adfox"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "17df4cd5994525a43dafe4332b709e42bffb292c30964e4217dc3ad40c12e95c",
+                "67cde08a950e37427d2e2eccf0c4249f1ec4e706aa2e98dc55b1c0df791bcb45",
+                "9236983e5bbb813720dfc30cea5fe78146d6557d9d9e90ac866181ff613ccc86"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "musify.club",
+                "symbl.cc",
+                "www.film.ru"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/event_confirmation",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "an"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jut.su",
+                "musify.club",
+                "mail.ru",
+                "yandex.kz"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/event_confirmation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "an"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jut.su",
+                "musify.club",
+                "mail.ru",
+                "yandex.kz"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/watch\\/47365792",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "925e4fcba4cc9f6aa54ee887ec39ed85572cc89d5866721527b390d4f4996c29"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ym_uid": 0.0002039775624681285,
+                "_ym_d": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "ashemaletube.com",
+                "www.ashemaletube.com"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/watch\\/47365792\\/1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "925e4fcba4cc9f6aa54ee887ec39ed85572cc89d5866721527b390d4f4996c29"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ym_uid": 0.0002039775624681285,
+                "_ym_d": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "ashemaletube.com",
+                "www.ashemaletube.com"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log.strm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "musify.club",
+                "www.film.ru"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/show",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "amc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "musify.club",
+                "www.film.ru"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/ads\\/meta\\/147025",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d7256cc64d450a0a90ab3c291553179fba9236b08f42134ef1037e6d8d7760ac"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mail.ru",
+                "my.mail.ru"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/ads\\/meta\\/1591488",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avito.ru",
+                "www.avito.ru"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/ads\\/adfox\\/254954\\/getCode",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "film.ru",
+                "www.film.ru"
+            ]
+        },
+        {
+            "rule": "yandex\\.ru\\/adfox\\/301551\\/getBulk\\/v2",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "an"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "dfee96dcc2a99fdc0eaab902282c745d92ca7a9b473e07e092c6fc07b445f43a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "film.ru",
+                "www.film.ru"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "SSO",
+        "Online Payment",
+        "Action Pixels",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0139,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4352078239608802
+        },
+        {
+            "domain": "yastatic.net",
+            "prevalence": 0.17603911980440098
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.16136919315403422
+        },
+        {
+            "domain": "adplay.ru",
+            "prevalence": 0.05623471882640587
+        },
+        {
+            "domain": "webvisor.org",
+            "prevalence": 0.05134474327628362
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.03667481662591687
+        },
+        {
+            "domain": "adfox.ru",
+            "prevalence": 0.02444987775061125
+        },
+        {
+            "domain": "avito.st",
+            "prevalence": 0.014669926650366748
+        },
+        {
+            "domain": "yandex.ru",
+            "prevalence": 0.009779951100244499
+        },
+        {
+            "domain": "yandex.com",
+            "prevalence": 0.009779951100244499
+        }
+    ],
+    "types": {
+        "Script": 134,
+        "Image": 179,
+        "Fetch": 26,
+        "Document": 10,
+        "Ping": 5,
+        "XHR": 14,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns1.yandex.ru",
+        "ns2.yandex.ru"
+    ]
+}

@@ -1,0 +1,214 @@
+{
+    "domain": "chartbeat.net",
+    "owner": {
+        "name": "Chartbeat",
+        "displayName": "Chartbeat",
+        "privacyPolicy": "https://chartbeat.com/privacy/",
+        "url": "http://chartbeat.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0123,
+    "sites": 1743,
+    "subdomains": [
+        "ping",
+        "pnytimes",
+        "pong",
+        "pespn",
+        "mabping"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "chartbeat\\.net\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ping",
+                "pnytimes",
+                "pong",
+                "pespn"
+            ],
+            "apis": {},
+            "sites": 1222,
+            "prevalence": 0.00864,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cb": 0.006670156179266636,
+                "_cb_svref": 0.0065357627885921235,
+                "_li_dcdm_c": 0.0011034404708012676,
+                "__pid": 0.0003183001358080579,
+                "lotame_domain_check": 0.0006861136260751472
+            },
+            "exampleSites": [
+                "247sports.com",
+                "abcnews.go.com",
+                "finance.yahoo.com",
+                "globalnews.ca",
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "mashable.com",
+                "money.cnn.com",
+                "news.com.au",
+                "pjmedia.com",
+                "www.bol.uol.com.br",
+                "food.ndtv.com",
+                "notredame.rivals.com",
+                "www.onmed.gr",
+                "www.vpm.org",
+                "www.edinburghlive.co.uk",
+                "www.dcnewsnow.com",
+                "www3.nhk.or.jp",
+                "www.fox13memphis.com",
+                "www.beefmagazine.com"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.net\\/ping\\/conversion_event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ping"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cb": 0.00009195337256677229,
+                "cookies.js": 0.0000070733363512901765,
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "timesofisrael.com",
+                "forward.com",
+                "fr.timesofisrael.com",
+                "grist.org",
+                "milano.corriere.it",
+                "roma.corriere.it",
+                "www.afr.com",
+                "www.boredpanda.com",
+                "www.corriere.it",
+                "www.dagen.se",
+                "www.timesofisrael.com",
+                "www.tvnet.lv"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.net\\/ping\\/mab",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mabping"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.000248,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cb": 0.00022634676324128565,
+                "lotame_domain_check": 0.000014146672702580353,
+                "_cb_folha": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "cnn.com",
+                "pjmedia.com",
+                "townhall.com",
+                "www.cbc.ca",
+                "www.cnn.com",
+                "www.politico.com",
+                "www.washingtonpost.com",
+                "www.scientificamerican.com",
+                "www.military.com",
+                "www.pahomepage.com",
+                "cp24.com",
+                "www.plasticsnews.com",
+                "www.dailysignal.com",
+                "www.wwlp.com",
+                "www.aljazeera.com",
+                "cnnespanol.cnn.com",
+                "edition.cnn.com",
+                "www.wate.com",
+                "koreajoongangdaily.joins.com",
+                "www.wdtn.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "chartbeat.com",
+            "prevalence": 0.95129442738043
+        },
+        {
+            "domain": "yimg.com",
+            "prevalence": 0.01184730144800351
+        },
+        {
+            "domain": "d3plfjw9uod7ab.cloudfront.net",
+            "prevalence": 0.011408512505484861
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.010092145677928916
+        },
+        {
+            "domain": "9cdn.net",
+            "prevalence": 0.004826678367705134
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.0035103115401491883
+        },
+        {
+            "domain": "brightcove.net",
+            "prevalence": 0.0026327336551118913
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.002193944712593243
+        },
+        {
+            "domain": "ampproject.org",
+            "prevalence": 0.0008775778850372971
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.0008775778850372971
+        }
+    ],
+    "types": {
+        "Image": 1257,
+        "Fetch": 12
+    },
+    "nameservers": [
+        "ns-125.awsdns-15.com",
+        "ns-1329.awsdns-38.org",
+        "ns-1726.awsdns-23.co.uk",
+        "ns-905.awsdns-49.net"
+    ]
+}

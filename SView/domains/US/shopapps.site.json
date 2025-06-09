@@ -1,0 +1,186 @@
+{
+    "domain": "shopapps.site",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000729,
+    "sites": 103,
+    "subdomains": [
+        "options",
+        "motivate"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shopapps\\.site\\/js\\/options\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "options"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 21
+            },
+            "sites": 68,
+            "prevalence": 0.000481,
+            "cnames": [],
+            "responseHashes": [
+                "5635aa3c9c48ef6077593662c600ccfa42444c7faeeb635778c4f48e3fcd225f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.wolftoothcomponents.com",
+                "www.gnomonwatches.com",
+                "www.tacomalifestyle.com",
+                "thelostco.com",
+                "www.consolevault.com",
+                "verabradley.com",
+                "chrisking.com",
+                "www.electricwheelchairsusa.com",
+                "www.garagedoornation.com",
+                "www.galenleather.com",
+                "www.raygunsite.com",
+                "www.4runnerlifestyle.com",
+                "thomaskinkade.com",
+                "www.legsmart.com",
+                "lotioncrafter.com",
+                "www.northernbrewer.com",
+                "www.insectshield.com",
+                "oliveandjune.com",
+                "ballerinafarm.com",
+                "archivaldesigns.com"
+            ]
+        },
+        {
+            "rule": "shopapps\\.site\\/motivator\\.php",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "motivate"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "dda968dd683175fcc22559613c9b7f7802f132be3788cfcbdb3725bfbcd038e6",
+                "b369febf36245b9e75ea1c4118e8041e23ec21c7849ada60fcbca03d74739c63",
+                "b872e8d20ed056b9671a29d89da0691470b92f9af0cf6ae8f8e5f7fea8a3b213"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "motivator_initialised_11952": {
+                    "ttl": 3605,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "motivator_initialised_4237": {
+                    "ttl": 3615,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deeringbanjos.com",
+                "www.printedsolid.com",
+                "www.sinunapteekki.fi",
+                "www.suzannesomers.com",
+                "www.vaporauthority.com"
+            ]
+        },
+        {
+            "rule": "shopapps\\.site\\/cf_helper\\/get_country\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "motivate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b5e86cefc9cfb8c972b2ede02131e8a270e7fbc4216e7be80bf800aea5de029b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vaporauthority.com",
+                "www.vaporauthority.com"
+            ]
+        },
+        {
+            "rule": "shopapps\\.site\\/get_premium_goals\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "motivate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f98ef2cb554dcaed4ee3a206eed1fce8655bd0e3c33c799ce5733fab94afba82"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vaporauthority.com",
+                "www.vaporauthority.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.926829268292683
+        },
+        {
+            "domain": "route.com",
+            "prevalence": 0.032520325203252036
+        },
+        {
+            "domain": "termly.io",
+            "prevalence": 0.016260162601626018
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.008130081300813009
+        },
+        {
+            "domain": "boldapps.net",
+            "prevalence": 0.008130081300813009
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.008130081300813009
+        }
+    ],
+    "types": {
+        "Script": 73,
+        "XHR": 4
+    },
+    "nameservers": [
+        "aurora.ns.cloudflare.com",
+        "clark.ns.cloudflare.com"
+    ]
+}

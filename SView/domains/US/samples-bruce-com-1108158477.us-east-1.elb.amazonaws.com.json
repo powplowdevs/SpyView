@@ -1,0 +1,66 @@
+{
+    "domain": "samples-bruce-com-1108158477.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "comsamples.armstrongflooring.com",
+            "resolved": "samples-bruce-com-1108158477.us-east-1.elb.amazonaws.com"
+        },
+        {
+            "original": "samples.bruce.com",
+            "resolved": "samples-bruce-com-1108158477.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "samples-bruce-com-1108158477\\.us-east-1\\.elb\\.amazonaws\\.com\\/getcartcount\\.php",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "comsamples.armstrongflooring.com",
+                    "resolved": "samples-bruce-com-1108158477.us-east-1.elb.amazonaws.com"
+                },
+                {
+                    "original": "samples.bruce.com",
+                    "resolved": "samples-bruce-com-1108158477.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "8cb8a786be7cfc911912e24c04f00e5fa456417187cb5d63c3bb2308cb5e79d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armstrongflooring.com",
+                "www.bruce.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

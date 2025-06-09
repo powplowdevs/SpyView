@@ -1,0 +1,145 @@
+{
+    "domain": "connectad.io",
+    "owner": {
+        "name": "ConnectAd",
+        "displayName": "ConnectAd",
+        "privacyPolicy": "https://www.connectadrealtime.com",
+        "url": "http://connectadrealtime.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [
+        "i",
+        "cdn",
+        "sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "connectad\\.io\\/api\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appleinsider.com",
+                "de.wukihow.com",
+                "weltwoche.ch",
+                "www.24auto.de",
+                "www.20min.ch",
+                "www.finanzen.at",
+                "www.finanzen.ch",
+                "www.iplocation.net",
+                "www.marktcom.de",
+                "www.resizepixel.com",
+                "www.ricardo.ch"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/connectmyusers\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appleinsider.com",
+                "www.iplocation.net"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/iFrameSyncer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__cmpconsentx97691": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "weltwoche.ch",
+                "www.20min.ch",
+                "www.24auto.de",
+                "www.finanzen.at",
+                "www.finanzen.ch",
+                "www.ricardo.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "adnz.co",
+            "prevalence": 0.3181818181818182
+        },
+        {
+            "domain": "bidmatic.io",
+            "prevalence": 0.13636363636363635
+        },
+        {
+            "domain": "relevant-digital.com",
+            "prevalence": 0.13636363636363635
+        },
+        {
+            "domain": "optad360.io",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "cdntrf.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "buysellads.net",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "fuseplatform.net",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Fetch": 11,
+        "Document": 8
+    },
+    "nameservers": [
+        "amit.ns.cloudflare.com",
+        "elma.ns.cloudflare.com"
+    ]
+}

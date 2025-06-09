@@ -1,0 +1,63 @@
+{
+    "domain": "clearpay.co.uk",
+    "owner": {
+        "name": "Block, Inc.",
+        "displayName": "Block, Inc."
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "placement-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "clearpay\\.co\\.uk\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "placement-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "board-game.co.uk",
+                "www.bonmarche.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "squarecdn.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "afterpay.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "pat.ns.cloudflare.com",
+        "logan.ns.cloudflare.com"
+    ]
+}

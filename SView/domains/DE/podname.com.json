@@ -1,0 +1,100 @@
+{
+    "domain": "podname.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000816,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "podname\\.com\\/dist\\/d70a86db6\\/bce6a2e34dd2a28d0976a02ab91502bf2e44cb2ba82bc\\.v2\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "window.sessionStorage": 7,
+                "CookieStore.prototype.getAll": 7,
+                "window.localStorage": 7,
+                "HTMLCanvasElement.prototype.toDataURL": 6,
+                "Date.prototype.getTimezoneOffset": 3,
+                "CookieStore.prototype.set": 1,
+                "Notification.permission": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "acb0ad5023b7ee8a3a3a976e55f1f407de422888b19f7908ecae2cb3a198b58b",
+                "3c10fdd85919b4d945eb704104084061204fb3df5adfeed6440b2b4b87e98c62",
+                "de50c31f1024549f0681ee78f5b7c3522e4906294a2e3a81200cad078f9cb53d",
+                "270a278c4dd59cd9d59feda15ee6b32a8fcb4113bb81ba71fb3f10212796eb7a",
+                "f973f2c979dccc9ab4593c74f042ea8e5317b3ee4095ded35820724fd8b1d4fe",
+                "e09fa4b62149daa6067b7bf325088bf1b8ad1b9144e2f2b41f53c1340b85fb5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fextralife.com",
+                "darksouls2.wiki.fextralife.com",
+                "darksouls3.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "expedition33.wiki.fextralife.com",
+                "monsterhunterworld.wiki.fextralife.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com"
+            ]
+        },
+        {
+            "rule": "podname\\.com\\/send\\/m3wszr75fy31x07qeaznnqry_4xnxg3tit5s7626ylau96nzc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "b94cb6475b2493f822e13b7c12b4c0d1689e77ff9c86324b7cc1019fc9349572"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fextralife.com",
+                "darksouls3.wiki.fextralife.com",
+                "expedition33.wiki.fextralife.com",
+                "monsterhunterworld.wiki.fextralife.com",
+                "pathfinderwrathoftherighteous.wiki.fextralife.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "adsninja.ca",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "ns-909.awsdns-49.net",
+        "ns-1606.awsdns-08.co.uk",
+        "ns-504.awsdns-63.com",
+        "ns-1256.awsdns-29.org"
+    ]
+}

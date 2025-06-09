@@ -1,0 +1,88 @@
+{
+    "domain": "d2yc9u4j5yz48x.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d2yc9u4j5yz48x\\.cloudfront\\.net\\/purchase\\.pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "c181ad192e02beabe224cb4944f2dcb0ae5b36f9005d09cc398d9eec77b409d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americantall.com",
+                "macduggal.com",
+                "www.jaanuu.com",
+                "www.jennikayne.com",
+                "www.simmsfishing.com"
+            ]
+        },
+        {
+            "rule": "d2yc9u4j5yz48x\\.cloudfront\\.net\\/purchase\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "console.memory": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "menswearhouse.com",
+                "www.menswearhouse.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "ns-1298.awsdns-34.org",
+        "ns-627.awsdns-14.net",
+        "ns-1590.awsdns-06.co.uk",
+        "ns-220.awsdns-27.com"
+    ]
+}

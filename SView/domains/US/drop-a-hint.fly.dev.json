@@ -1,0 +1,73 @@
+{
+    "domain": "drop-a-hint.fly.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "drop-a-hint\\.fly\\.dev\\/api",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ohmymahjong.com",
+                "southernsparrow.com",
+                "www.longsjewelers.com"
+            ]
+        },
+        {
+            "rule": "drop-a-hint\\.fly\\.dev\\/api",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "59f4f91ff60d10ee9132a4f89b59d19ab5ca8733919c298da6cb39f83e720c11",
+                "618fe8c2472e4377c8b4d158cb618f9e893e0bbfa170229845a9e3d417dbfeab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ohmymahjong.com",
+                "southernsparrow.com",
+                "www.longsjewelers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": []
+}

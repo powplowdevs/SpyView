@@ -1,0 +1,134 @@
+{
+    "domain": "amazon.dev",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00572,
+    "sites": 54,
+    "subdomains": [
+        "prod.us-east-1.cxm-bcn.publisher-services"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "amazon\\.dev\\/v1\\/recordVendorsLoaded",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.us-east-1.cxm-bcn.publisher-services"
+            ],
+            "apis": {},
+            "sites": 52,
+            "prevalence": 0.00551,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whatismyipaddress.com",
+                "www.makeuseof.com",
+                "www.npr.org",
+                "www.pcmag.com",
+                "www.spanishdict.com",
+                "www.logicprohelp.com",
+                "www.whatfontis.com",
+                "www.v8sleuth.com.au",
+                "www.utctime.net",
+                "www.wordhippo.com",
+                "steamcharts.com",
+                "hellomusictheory.com",
+                "www.tastingtable.com",
+                "www.gosunoob.com",
+                "www.propertychat.com.au",
+                "www.whattowatch.com",
+                "thenerdstash.com",
+                "www.bbcgoodfood.com",
+                "dotesports.com",
+                "www.talkbass.com"
+            ]
+        },
+        {
+            "rule": "amazon\\.dev\\/v1\\/recordVendorsLoaded",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.us-east-1.cxm-bcn.publisher-services"
+            ],
+            "apis": {},
+            "sites": 53,
+            "prevalence": 0.00562,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whatismyipaddress.com",
+                "www.makeuseof.com",
+                "www.npr.org",
+                "www.pcmag.com",
+                "www.spanishdict.com",
+                "www.thegamer.com",
+                "www.vox.com",
+                "myqueenstowndiary.com",
+                "www.aljazeera.com",
+                "www.tastingtable.com",
+                "www.twz.com",
+                "player.fm",
+                "www.logicprohelp.com",
+                "www.utctime.net",
+                "www.whowhatwear.com",
+                "ultimatebackyard.com.au",
+                "forgottenrealms.fandom.com",
+                "www.talkbass.com",
+                "devicetests.com",
+                "thenerdstash.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000106,
+    "topInitiators": [
+        {
+            "domain": "amazon-adsystem.com",
+            "prevalence": 0.8392857142857143
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.08928571428571429
+        },
+        {
+            "domain": "futurecdn.net",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "lasso.link",
+            "prevalence": 0.017857142857142856
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.017857142857142856
+        }
+    ],
+    "types": {
+        "Preflight": 52,
+        "XHR": 53
+    },
+    "nameservers": [
+        "ns-729.awsdns-27.net",
+        "ns-1648.awsdns-14.co.uk",
+        "ns-1373.awsdns-43.org",
+        "ns-101.awsdns-12.com"
+    ]
+}

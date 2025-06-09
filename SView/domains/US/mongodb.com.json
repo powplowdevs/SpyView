@@ -1,0 +1,132 @@
+{
+    "domain": "mongodb.com",
+    "owner": {
+        "name": "MongoDB, Inc.",
+        "displayName": "MongoDB"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "us-east-1.aws.services.cloud",
+        "realm"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mongodb\\.com\\/api\\/client\\/v2\\.0\\/auth\\/profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-east-1.aws.services.cloud",
+                "realm"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "09771dd35d250904888b6a858ea7438b86acfeb7cc2324aa350a6040a082fef4",
+                "21fe5eee2e9ba6a76ca0a903971f06d5450acd1e49f252b7032746fbe073a503"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilbr.com",
+                "drjoedispenza.com",
+                "www.campfirewriting.com"
+            ]
+        },
+        {
+            "rule": "mongodb\\.com\\/api\\/client\\/v2\\.0\\/auth\\/profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-east-1.aws.services.cloud",
+                "realm"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilbr.com",
+                "drjoedispenza.com",
+                "www.campfirewriting.com"
+            ]
+        },
+        {
+            "rule": "mongodb\\.com\\/api\\/client\\/v2\\.0\\/app\\/blaze-backend-oerzm\\/functions\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campfirewriting.com",
+                "www.campfirewriting.com"
+            ]
+        },
+        {
+            "rule": "mongodb\\.com\\/api\\/client\\/v2\\.0\\/app\\/blaze-backend-oerzm\\/functions\\/call",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dfd5c065adb3f907adea4c4a426a1a846f48e32794f68c59c545558bdf92e373"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "campfirewriting.com",
+                "www.campfirewriting.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9626168224299065
+        },
+        {
+            "domain": "unpkg.com",
+            "prevalence": 0.037383177570093455
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns-1047.awsdns-02.org",
+        "ns-1636.awsdns-12.co.uk",
+        "ns-276.awsdns-34.com",
+        "ns-868.awsdns-44.net"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "domain": "maxcdn.com",
+    "owner": {
+        "name": "StackPath, LLC",
+        "displayName": "StackPath",
+        "privacyPolicy": "https://www.stackpath.com/legal/privacy-statement/",
+        "url": "http://stackpath.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "twemoji",
+        "oss"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "maxcdn\\.com\\/twemoji\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twemoji"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lukebryan.com",
+                "www.lukebryan.com"
+            ]
+        },
+        {
+            "rule": "maxcdn\\.com\\/summernote\\/0\\.5\\.1\\/summernote\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oss"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radiologyimagingcenters.com",
+                "www.radiologyimagingcenters.com"
+            ]
+        },
+        {
+            "rule": "maxcdn\\.com\\/summernote\\/0\\.5\\.1\\/summernote\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oss"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radiologyimagingcenters.com",
+                "www.radiologyimagingcenters.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.7111111111111111
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.24444444444444444
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.044444444444444446
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

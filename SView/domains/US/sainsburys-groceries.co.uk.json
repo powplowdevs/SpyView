@@ -1,0 +1,77 @@
+{
+    "domain": "sainsburys-groceries.co.uk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "firebaseremoteconfig"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sainsburys-groceries\\.co\\.uk\\/v1\\/projects\\/gol-ui-prod\\/namespaces\\/firebase:fetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "firebaseremoteconfig"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sainsburys.co.uk",
+                "www.sainsburys.co.uk"
+            ]
+        },
+        {
+            "rule": "sainsburys-groceries\\.co\\.uk\\/v1\\/projects\\/gol-ui-prod\\/namespaces\\/firebase:fetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "firebaseremoteconfig"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "191bd51fb63997b7e2f89d6321c921086a54ad10d203896645073a63112f3d3f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sainsburys.co.uk",
+                "www.sainsburys.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-217.awsdns-27.com",
+        "ns-946.awsdns-54.net",
+        "ns-1390.awsdns-45.org",
+        "ns-2000.awsdns-58.co.uk"
+    ]
+}

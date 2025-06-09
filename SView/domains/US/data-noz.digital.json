@@ -1,0 +1,75 @@
+{
+    "domain": "data-noz.digital",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "umami"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "data-noz\\.digital\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "umami"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noz.de",
+                "trauer.shz.de"
+            ]
+        },
+        {
+            "rule": "data-noz\\.digital\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "umami"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "82e8f77bd4fb48a43ac2ee6f67b0e262c20d2878f24117d68c75332354a12df8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noz.de",
+                "trauer.shz.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "emerson.ns.cloudflare.com",
+        "romina.ns.cloudflare.com"
+    ]
+}

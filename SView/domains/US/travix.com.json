@@ -1,0 +1,147 @@
+{
+    "domain": "travix.com",
+    "owner": {
+        "name": "Travix International",
+        "displayName": "Travix International"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "hermes",
+        "edge-api",
+        "ubt-sgp"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "travix\\.com\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hermes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cheaptickets.nl",
+                "www.cheaptickets.nl"
+            ]
+        },
+        {
+            "rule": "travix\\.com\\/edge\\/content\\/farecache",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cheaptickets.nl",
+                "www.cheaptickets.nl"
+            ]
+        },
+        {
+            "rule": "travix\\.com\\/edge\\/content\\/farecache",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "088d48b6ee7dd717c43b41c7500ee27e359f76fcfdabd66ac1e74e787cbed820"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cheaptickets.nl",
+                "www.cheaptickets.nl"
+            ]
+        },
+        {
+            "rule": "travix\\.com\\/bee\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ubt-sgp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UBT_VID": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "cheaptickets.nl",
+                "www.cheaptickets.nl"
+            ]
+        },
+        {
+            "rule": "travix\\.com\\/bee\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ubt-sgp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7ddb1b6c485849a88dd6eb4811314b457fc291bf28224576a8012f96768264fe"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cheaptickets.nl",
+                "www.cheaptickets.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Preflight": 4,
+        "Ping": 2
+    },
+    "nameservers": [
+        "adam.ns.cloudflare.com",
+        "nora.ns.cloudflare.com"
+    ]
+}

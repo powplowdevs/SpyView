@@ -1,0 +1,86 @@
+{
+    "domain": "push-sdk.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "push-sdk\\.com\\/f\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.indexedDB": 6,
+                "Notification.permission": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "91cf9b34af48f3b62d706127b1140c89d8bb3a5455120acd2cfcfc41ab4ad5ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amkstation.com",
+                "clickthis.blog",
+                "download.cnet.com",
+                "thefilibusterblog.com",
+                "v2.youconvert.net",
+                "www.opensubtitles.org"
+            ]
+        },
+        {
+            "rule": "push-sdk\\.com\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amkstation.com",
+                "clickthis.blog",
+                "download.cnet.com",
+                "thefilibusterblog.com",
+                "v2.youconvert.net",
+                "www.opensubtitles.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "dwncdn.net",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 6
+    },
+    "nameservers": [
+        "braden.ns.cloudflare.com",
+        "aspen.ns.cloudflare.com"
+    ]
+}

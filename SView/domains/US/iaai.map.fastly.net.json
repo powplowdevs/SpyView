@@ -1,0 +1,65 @@
+{
+    "domain": "iaai.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "vis.iaai.com",
+            "resolved": "iaai.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "iaai\\.map\\.fastly\\.net\\/resizer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "vis.iaai.com",
+                    "resolved": "iaai.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "3412f7f3d1fdf03646b9b5b245190384bae372a77b046ac5ffadd05141dd1b70"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iaai.com",
+                "www.iaai.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Image": 2
+    },
+    "nameservers": []
+}

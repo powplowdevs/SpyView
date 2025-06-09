@@ -1,0 +1,107 @@
+{
+    "domain": "dk.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "www.berlingske",
+        "bt",
+        "login.dr"
+    ],
+    "cnames": [
+        {
+            "original": "berlingske.bmcdn.dk",
+            "resolved": "www.berlingske.dk.edgekey.net"
+        },
+        {
+            "original": "bt.bmcdn.dk",
+            "resolved": "bt.dk.edgekey.net"
+        },
+        {
+            "original": "login.dr.dk",
+            "resolved": "login.dr.dk.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dk\\.edgekey\\.net\\/users\\/berlingske\\/files\\/sphynx\\/2024\\/4\\/25\\/e6c3c9118449775b42289eb994da9e27813a0afa-dre-components\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www.berlingske",
+                "bt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "berlingske.bmcdn.dk",
+                    "resolved": "www.berlingske.dk.edgekey.net"
+                },
+                {
+                    "original": "bt.bmcdn.dk",
+                    "resolved": "bt.dk.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ea3f55cec82f78f39c2f9823826224c599d877e346c2625f49faa5ddc0ad225f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlingske.dk",
+                "www.bt.dk"
+            ]
+        },
+        {
+            "rule": "dk\\.edgekey\\.net\\/oidc\\/authorize",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login.dr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "login.dr.dk",
+                    "resolved": "login.dr.dk.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dr.dk",
+                "www.dr.dk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": []
+}

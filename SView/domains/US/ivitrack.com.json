@@ -1,0 +1,172 @@
+{
+    "domain": "ivitrack.com",
+    "owner": {
+        "name": "Ividence",
+        "displayName": "Ividence",
+        "privacyPolicy": "http://blog.ividence.com/privacy-policy/?lang=en",
+        "url": "http://ividence.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "itm",
+        "matching"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ivitrack\\.com\\/v1\\/reworldmedia-tag\\/itm\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "itm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "10aa96fd28128edfad55d6a2d36f1ffbff99feb96e07e90b14b8d4c8fc468cd6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maison-travaux.fr",
+                "www.lejournaldelamaison.fr"
+            ]
+        },
+        {
+            "rule": "ivitrack\\.com\\/v1\\/planet-tag\\/itm\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "itm"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7a302374c760480864e6ebe71874deafb5dea71bdcccacdec1f4ada5c90cc7e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ivid_dev": {
+                    "ttl": 33696008,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "e-sante.fr",
+                "www.planet.fr"
+            ]
+        },
+        {
+            "rule": "ivitrack\\.com\\/v1\\/commander-frame\\/2\\.2512\\.0\\/itm\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "itm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "e-sante.fr",
+                "www.planet.fr"
+            ]
+        },
+        {
+            "rule": "ivitrack\\.com\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matching"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressio.fr",
+                "www.maggotdrowning.com"
+            ]
+        },
+        {
+            "rule": "ivitrack\\.com\\/v1\\/petitfute-tag\\/itm\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "itm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bc948793a6963229908a24519ff168362bb90894826dd29be3eff7ac047a8463"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petitfute.com",
+                "www.petitfute.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "omnitagjs.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "fastcmp.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

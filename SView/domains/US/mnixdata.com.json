@@ -1,0 +1,180 @@
+{
+    "domain": "mnixdata.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "tracker",
+        "pixelconnector"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mnixdata\\.com\\/pixel\\.js",
+            "cookies": 0.0000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Document.cookie setter": 10,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "eaec8c74a66d0b53a2dc695f8f80cae4f812c5232e99935ed22e0e74b7f12ce9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ga_dl": {
+                    "ttl": null,
+                    "length": 118,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 1
+                },
+                "ga_gtm": {
+                    "ttl": null,
+                    "length": 99,
+                    "prevalence": 0.00004244001810774106,
+                    "uniqueness": 1
+                },
+                "ga_events": {
+                    "ttl": null,
+                    "length": 213,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "syr.edu",
+                "inside.nku.edu",
+                "vmfa.museum",
+                "www.excellusbcbs.com",
+                "www.hhs.nd.gov",
+                "www.lastateparks.com",
+                "www.nku.edu",
+                "www.ourfirstfed.com",
+                "www.resurgens.com",
+                "www.scad.edu",
+                "www.syracuse.edu"
+            ]
+        },
+        {
+            "rule": "mnixdata\\.com\\/validate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixelconnector"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "35f056fe8ab0e0b86a1ea53b10205302307be4faaae9b7951a09b5d29a010c6f",
+                "767c3878a79439dc09f1cd330d9cc6b4ec68580f5283f2981e5e029c6ad0781a",
+                "1bd00afd1b06b774b2e41736fa0f04cfdd276ba67e4521d8a7a8e70e70d7d567",
+                "6d54777d8bea64d037c296a3a98f456dc69ef12e85916d630397336cdf946fad",
+                "b00233bf0c066e6d65482a489789412c73fcd7e598f4496751cfa83584210d63",
+                "9e7226110004b41e471c306c3b472d37ee990381382c80b9e99af121e0b2b9e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "syr.edu",
+                "inside.nku.edu",
+                "vmfa.museum",
+                "www.excellusbcbs.com",
+                "www.hhs.nd.gov",
+                "www.lastateparks.com",
+                "www.nku.edu",
+                "www.ourfirstfed.com",
+                "www.palottery.pa.gov",
+                "www.palottery.state.pa.us",
+                "www.resurgens.com",
+                "www.scad.edu",
+                "www.visitomaha.com"
+            ]
+        },
+        {
+            "rule": "mnixdata\\.com\\/update",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixelconnector"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "42347032c46a27b70cd8f88d3838bc9fa61af37b6b07450d196dd96a964f15c3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "syr.edu",
+                "inside.nku.edu",
+                "vmfa.museum",
+                "www.excellusbcbs.com",
+                "www.hhs.nd.gov",
+                "www.nku.edu",
+                "www.scad.edu"
+            ]
+        },
+        {
+            "rule": "mnixdata\\.com\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ef61046ef1615ebd2c102e45ba09e43f1fd8a9fa276757d6bdc6ae6b7cd906c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pa.gov",
+                "www.palottery.state.pa.us",
+                "www.visitomaha.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000778,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7058823529411765
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.29411764705882354
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "XHR": 20
+    },
+    "nameservers": [
+        "ingrid.ns.cloudflare.com",
+        "seth.ns.cloudflare.com"
+    ]
+}

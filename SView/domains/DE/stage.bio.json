@@ -1,0 +1,647 @@
+{
+    "domain": "stage.bio",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00133,
+    "sites": 13,
+    "subdomains": [
+        "dashboard",
+        "api",
+        "about"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stage\\.bio\\/static\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dashboard"
+            ],
+            "apis": {
+                "window.localStorage": 13,
+                "Navigator.prototype.userAgent": 13,
+                "Navigator.prototype.product": 13,
+                "Navigator.prototype.platform": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "5e4e2077e75d73df30793509a6b179ab2a5e35932a2fcdfa61b269d99011c19a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden-wuerttemberg.de",
+                "um.baden-wuerttemberg.de",
+                "www.baden-wuerttemberg.de",
+                "www.bfr.bund.de",
+                "www.esslingen.de",
+                "www.heilbronn.de",
+                "www.land.nrw",
+                "www.landkreis-karlsruhe.de",
+                "www.lgl-bw.de",
+                "www.lmz-bw.de",
+                "www.mags.nrw",
+                "www.ptb.de",
+                "www.reutlingen.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/ministerium-fuer-wissenschaft-forschung-und-kunst-baden-wuerttemberg\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden-wuerttemberg.de",
+                "mwk.baden-wuerttemberg.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/ministerium-fuer-wissenschaft-forschung-und-kunst-baden-wuerttemberg\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c2861a5570697432434ce01d6b14263f5f2a836eb6282d6815b46adcaf22fb3e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden-wuerttemberg.de",
+                "mwk.baden-wuerttemberg.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/ministerium-fuer-umwelt-klima-und-energiewirtschaft-baden-wuerttemberg\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden-wuerttemberg.de",
+                "um.baden-wuerttemberg.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/ministerium-fuer-umwelt-klima-und-energiewirtschaft-baden-wuerttemberg\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1dfff74b027a7b90360780bf7c85805b18a1ef59295117762482c915dccf35d5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden-wuerttemberg.de",
+                "um.baden-wuerttemberg.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/baden-wuerttemberg\\/source\\/entry\\/filter\\/carousel-widget-lp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden-wuerttemberg.de",
+                "www.baden-wuerttemberg.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/baden-wuerttemberg\\/source\\/entry\\/filter\\/carousel-widget-lp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f860d446ee8a1d416623d2436dcde981615b249ad50c7aadc1e3f7b4e08730c6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baden-wuerttemberg.de",
+                "www.baden-wuerttemberg.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/bundesinstitut-fuer-risikobewertung-bfr\\/source\\/entry\\/filter\\/7a9f6074089dcaafa7190bb421f1816c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bund.de",
+                "www.bfr.bund.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/bundesinstitut-fuer-risikobewertung-bfr\\/source\\/entry\\/filter\\/7a9f6074089dcaafa7190bb421f1816c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7f8a3eb4f55931e12a6fbaebe81c67cbaee72fe49e075dc899e8801342561979"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bund.de",
+                "www.bfr.bund.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/stadt-esslingen-am-neckar\\/source\\/entry\\/filter\\/9bcb09b25b1a2bada3f3d687cc892344",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esslingen.de",
+                "www.esslingen.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/stadt-esslingen-am-neckar\\/source\\/entry\\/filter\\/9bcb09b25b1a2bada3f3d687cc892344",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7ee79d5e1ac9d1513bdbe453c9bbcaa3cc3584ac8b5a147c9334e1b96a5ef7f0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esslingen.de",
+                "www.esslingen.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/stadtheilbronn\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heilbronn.de",
+                "www.heilbronn.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/stadtheilbronn\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "fc1245a82bf1cce51c102d60598b7efa7fa2670c0c73abb7a62571bf05b0a27e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heilbronn.de",
+                "www.heilbronn.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/land\\.nrw\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "land.nrw",
+                "www.land.nrw"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/land\\.nrw\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ee5a3b92c5ce948da04146cd49a9e9858e1903c711a0b9d171a83fc67b846f6b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "land.nrw",
+                "www.land.nrw"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/landratsamt-karlsruhe\\/source\\/entry\\/filter\\/aa285670e2c159711ad84c5d66d2309c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "landkreis-karlsruhe.de",
+                "www.landkreis-karlsruhe.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/landratsamt-karlsruhe\\/source\\/entry\\/filter\\/aa285670e2c159711ad84c5d66d2309c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b44119f9172eb9b5a40b7ab85f03ea4fca0b7b7417d757fd0c9aebd2490d0c91"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "landkreis-karlsruhe.de",
+                "www.landkreis-karlsruhe.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/images\\/stage_icon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "about"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d90c5163fdec0f6a7edfe70c5ef453483825d11e8896215f42220c22c8f2de1f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "landkreis-karlsruhe.de",
+                "www.ptb.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/landesamt-fuer-geoinformation-und-landentwicklung\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lgl-bw.de",
+                "www.lgl-bw.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/landesamt-fuer-geoinformation-und-landentwicklung\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5978c88097ab2be8cf088033ecfd7c454885a33a7866c1f1d734b8b4630a4ca5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lgl-bw.de",
+                "www.lgl-bw.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/landesmedienzentrum-baden-wuerttemberg\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lmz-bw.de",
+                "www.lmz-bw.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/landesmedienzentrum-baden-wuerttemberg\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8ad60a16db12fd96471d100efc85d796d1477ee90d6bfb81791b5aad1273be9b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lmz-bw.de",
+                "www.lmz-bw.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/mags-nrw\\/source\\/entry\\/filter\\/24749d5741a0be6ec934d91659536114",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mags.nrw",
+                "www.mags.nrw"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/mags-nrw\\/source\\/entry\\/filter\\/24749d5741a0be6ec934d91659536114",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "93a57f3aa7e16ffdcd6d6bafff3625ab5d36ab47173c50010f03d47d15898031"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mags.nrw",
+                "www.mags.nrw"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/physikalisch-technische-bundesanstalt\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2d3ff2d2d4be9381581481c966cb45d3d3e9203e5592dcb7ad6953b36cbbc21d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ptb.de",
+                "www.ptb.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/physikalisch-technische-bundesanstalt\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ptb.de",
+                "www.ptb.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/stadt-reutlingen\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reutlingen.de",
+                "www.reutlingen.de"
+            ]
+        },
+        {
+            "rule": "stage\\.bio\\/api\\/account\\/stadt-reutlingen\\/source\\/entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0ffcd15796c4a7a85d9da9ba129a01558247595849f390029c93c4a8b1c58125"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reutlingen.de",
+                "www.reutlingen.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Preflight": 26,
+        "Fetch": 26,
+        "Image": 2
+    },
+    "nameservers": [
+        "helium.ns.hetzner.de",
+        "hydrogen.ns.hetzner.com",
+        "oxygen.ns.hetzner.com"
+    ]
+}

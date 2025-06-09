@@ -1,0 +1,112 @@
+{
+    "domain": "storylane.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "storylane\\.io\\/js\\/v1\\/storylane\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "1a9a2c2f2845917a80193078fd78039a58065a592a762ca869bfecb6cdec5202"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hiverhq.com",
+                "www.macmillanlearning.com",
+                "www.springhealth.com"
+            ]
+        },
+        {
+            "rule": "storylane\\.io\\/js\\/v2\\/storylane\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "9f9721a663f9a29dc0d749fe22281a3de0cabf4d99a6bfe5d73d63d0be7123b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "credly.com",
+                "www.entrust.com",
+                "www.notta.ai",
+                "www.rsmeans.com",
+                "www.the-qrcode-generator.com"
+            ]
+        },
+        {
+            "rule": "storylane\\.io\\/js\\/v1\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e1eb83a1c857fb7845ad04c3315667afe5f4e778f0f6953ef6f6495451afa249"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macmillanlearning.com",
+                "www.springhealth.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "ns-1656.awsdns-15.co.uk",
+        "ns-896.awsdns-48.net",
+        "ns-1081.awsdns-07.org",
+        "ns-234.awsdns-29.com"
+    ]
+}

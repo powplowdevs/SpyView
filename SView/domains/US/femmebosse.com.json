@@ -1,0 +1,103 @@
+{
+    "domain": "femmebosse.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "femmebosse\\.com\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "023d8e20a6dc800a6415a305418e11c27484c01ab373778d26d87e8b020961c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femdoming.com",
+                "www.matriarchmatch.com"
+            ]
+        },
+        {
+            "rule": "femmebosse\\.com\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femdoming.com",
+                "www.matriarchmatch.com"
+            ]
+        },
+        {
+            "rule": "femmebosse\\.com\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4d35ac4e33648d5a802584bae46c3594e4393d4d6a3db05efdaf972b1f73aa3b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femdoming.com",
+                "www.matriarchmatch.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "karl.ns.cloudflare.com",
+        "fay.ns.cloudflare.com"
+    ]
+}

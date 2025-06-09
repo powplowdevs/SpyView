@@ -1,0 +1,79 @@
+{
+    "domain": "carbonads.com",
+    "owner": {
+        "name": "BuySellAds",
+        "displayName": "BuySellAds",
+        "privacyPolicy": "https://www.buysellads.com/about/privacy",
+        "url": "http://buysellads.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000439,
+    "sites": 62,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "carbonads\\.com\\/carbon\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 35
+            },
+            "sites": 48,
+            "prevalence": 0.00034,
+            "cnames": [],
+            "responseHashes": [
+                "7e5643cefc4f56e241ff1305f751d197c476bf2dae181c41ecbc1dce3e97641f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "css-tricks.com",
+                "kottke.org",
+                "react-hook-form.com",
+                "gridfiti.com",
+                "vitest.dev",
+                "jsfiddle.net",
+                "vite.dev",
+                "community.octoprint.org",
+                "regexr.com",
+                "devsnap.me",
+                "octoprint.org",
+                "sequelize.org",
+                "geshan.com.np",
+                "coolors.co",
+                "www.listennotes.com",
+                "forum.magicmirror.builders",
+                "andrewlock.net",
+                "filamentphp.com",
+                "javascript.info",
+                "quickref.me"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 48
+    },
+    "nameservers": [
+        "dns2.registrar-servers.com",
+        "dns1.registrar-servers.com"
+    ]
+}

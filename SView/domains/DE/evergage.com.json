@@ -1,0 +1,171 @@
+{
+    "domain": "evergage.com",
+    "owner": {
+        "name": "Salesforce.com, Inc.",
+        "displayName": "Salesforce.com",
+        "privacyPolicy": "https://www.salesforce.com/company/privacy/",
+        "url": "http://salesforce.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [
+        "digikey",
+        "invaluable.us-1",
+        "lottoland",
+        "delonghi.germany-2",
+        "foxit.us-6",
+        "zebra.us-1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "evergage\\.com\\/twreceiver",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digikey",
+                "invaluable.us-1",
+                "lottoland"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "eec1b7f57109ac1a13ae67a48cc3994a7ace66417807f8eeea04c5b513b2163c",
+                "06daf21ac2df5e69951a0adc9671256a80b31b4145eae1255bf4ae8cf5c67648"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digikey.de",
+                "www.invaluable.com",
+                "www.lottoland.com"
+            ]
+        },
+        {
+            "rule": "evergage\\.com\\/er",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digikey",
+                "invaluable.us-1",
+                "lottoland"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digikey.de",
+                "www.invaluable.com",
+                "www.lottoland.com"
+            ]
+        },
+        {
+            "rule": "evergage\\.com\\/pr",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digikey",
+                "lottoland"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digikey.de",
+                "www.lottoland.com"
+            ]
+        },
+        {
+            "rule": "evergage\\.com\\/pr",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delonghi.germany-2",
+                "foxit.us-6",
+                "zebra.us-1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.foxit.com",
+                "www.zebra.com"
+            ]
+        },
+        {
+            "rule": "evergage\\.com\\/api2\\/event\\/foxit_prod",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "foxit.us-6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5a11492a1c8a9f955271d8a1690048ada9c880695dfccbd225cbc6bc6e0746b5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxit.com",
+                "www.foxit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000612,
+    "topInitiators": [
+        {
+            "domain": "evgnet.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "XHR": 7,
+        "Image": 3,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns-181.awsdns-22.com",
+        "ns-678.awsdns-20.net",
+        "ns-1244.awsdns-27.org",
+        "ns-2026.awsdns-61.co.uk"
+    ]
+}

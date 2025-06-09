@@ -1,0 +1,52 @@
+{
+    "domain": "bmv.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bmv\\.de\\/DE\\/Home\\/home\\.html",
+            "cookies": 0.000102,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a9acd5e98089bbdfeb1bf5d052a450f939f29791816471c411acc75bca79945f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bund.de",
+                "bmdv.bund.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "dns-3.dfn.de",
+        "dnsisp1.dwd.de",
+        "dnsisp2.dwd.de"
+    ]
+}

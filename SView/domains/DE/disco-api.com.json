@@ -1,0 +1,346 @@
+{
+    "domain": "disco-api.com",
+    "owner": {
+        "name": "Discovery Communications Europe Limited",
+        "displayName": "Discovery Communications Europe"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "eu1-prod",
+        "global-prod",
+        "eu1-prod-images"
+    ],
+    "cnames": [
+        {
+            "original": "eu1-prod-direct.discoveryplus.com",
+            "resolved": "eu1-prod.disco-api.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "disco-api\\.com\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmax.de",
+                "tele5.de",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/token",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "927f277b2e18ec314c36516426784bd0ba13e247a89c2a8f3d1c59f03728da6c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmax.de",
+                "tele5.de",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/playback\\/v3\\/videoPlaybackInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a72f8dd632bcb9f0843ff32f13d5095eae667a9b0aa21eb66338435796f92406"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmax.de",
+                "tele5.de"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/playback\\/v3\\/videoPlaybackInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmax.de",
+                "tele5.de"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/bootstrapInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4d36eb272cb08e916a08c80e8b4f164d331da1f012e2fabb48334e321acb0d94"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/cms\\/configs\\/web-prod",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/users\\/me\\/profiles\\/selected",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "d0b82233b72a33328f497d0afa4eee11533d1fc40dc9493b8c15cabcfd07f80f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/users\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "f8e4265ce61f6bac8c6f5ce2cc860fffbdd13e4e490b6e8b5dc81ef5674b365b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/entitlements\\/userEntitlementsSummary\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "d319ca373dd189c6f2a4e0cabef46ba4ded5eddfaf725ee2bb0412107bcccc3d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/users\\/me\\/profiles",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "b26edc9f4fc742dc1e8b22e5e8ae319607769ce10e665b515dd26310ac4ba4dc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/2021\\/2\\/18\\/e9accebf-808e-4b6e-aa51-9cfecf5dc641\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "424303fd7aaeaf850f4db0e5d5a4237a3547ba7c037fb555ce1bda561a85600a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/2025\\/05\\/15\\/699b758e-5ea2-3152-bd1a-a02ed5fbf096\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d011ab34e20dc01108702a05b07c5e2887612485687740f999f986acdfd85012"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.926605504587156
+        },
+        {
+            "domain": "hyogaplayer.com",
+            "prevalence": 0.07339449541284404
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "Fetch": 15,
+        "XHR": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-1647.awsdns-13.co.uk",
+        "ns-1277.awsdns-31.org",
+        "ns-722.awsdns-26.net",
+        "ns-235.awsdns-29.com"
+    ]
+}

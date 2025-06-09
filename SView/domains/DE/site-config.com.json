@@ -1,0 +1,116 @@
+{
+    "domain": "site-config.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000816,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "fr.time.is",
+            "resolved": "site-config.com"
+        },
+        {
+            "original": "info.craiyon.com",
+            "resolved": "site-config.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "site-config\\.com\\/v2\\/abr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [
+                {
+                    "original": "fr.time.is",
+                    "resolved": "site-config.com"
+                },
+                {
+                    "original": "info.craiyon.com",
+                    "resolved": "site-config.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emojipedia.org",
+                "getemoji.com",
+                "pc-builds.com",
+                "time.is",
+                "www.1001freefonts.com",
+                "www.craiyon.com",
+                "www.flightconnections.com",
+                "www.myabandonware.com"
+            ]
+        },
+        {
+            "rule": "site-config\\.com\\/v2\\/abr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [
+                {
+                    "original": "fr.time.is",
+                    "resolved": "site-config.com"
+                },
+                {
+                    "original": "info.craiyon.com",
+                    "resolved": "site-config.com"
+                }
+            ],
+            "responseHashes": [
+                "8f0da5be6b2e863ac8eac5329e2b9d45de0bfa24512f070320f424ff11b31746"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emojipedia.org",
+                "getemoji.com",
+                "pc-builds.com",
+                "time.is",
+                "www.1001freefonts.com",
+                "www.craiyon.com",
+                "www.flightconnections.com",
+                "www.myabandonware.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "twitter.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "quantserve.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Preflight": 8,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "anirban.ns.cloudflare.com",
+        "zara.ns.cloudflare.com"
+    ]
+}

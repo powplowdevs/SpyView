@@ -1,0 +1,126 @@
+{
+    "domain": "permutive.app",
+    "owner": {
+        "name": "Permutive, Inc.",
+        "displayName": "Permutive",
+        "privacyPolicy": "https://permutive.com/privacy/",
+        "url": "http://permutive.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00153,
+    "sites": 15,
+    "subdomains": [
+        "6093eccf-6734-4877-ac8b-83d6d0e27b46.edge",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "permutive\\.app\\/6093eccf-6734-4877-ac8b-83d6d0e27b46-web\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "6093eccf-6734-4877-ac8b-83d6d0e27b46.edge"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "URL.createObjectURL": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6a28a5d9195cd60ca6f5619260fc200c7cd469a0e0011dabd63d1ff294342a5b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomshardware.com",
+                "www.techspot.com"
+            ]
+        },
+        {
+            "rule": "permutive\\.app\\/6ccc4e64-d4bc-4642-97b6-db50a75d8a5d-web\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "URL.createObjectURL": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "07175d5b4d7cdaa3c5d47b880a0e771392f021ad21fe0c1a079303eaaae6ce1c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "corriere.it",
+                "www.giroditalia.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00133,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5882352941176471
+        },
+        {
+            "domain": "conde.digital",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "permutive.app",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "corriereobjects.it",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "rcsobjects.it",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "da-services.ch",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ryleigh.ns.cloudflare.com",
+        "sevki.ns.cloudflare.com"
+    ]
+}

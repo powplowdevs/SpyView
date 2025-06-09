@@ -1,0 +1,624 @@
+{
+    "domain": "cxense.com",
+    "owner": {
+        "name": "Piano Software",
+        "displayName": "Piano Software",
+        "privacyPolicy": "https://piano.io/privacy-policy/",
+        "url": "http://piano.io"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00561,
+    "sites": 55,
+    "subdomains": [
+        "cdn",
+        "scdn",
+        "p1cluster",
+        "comcluster",
+        "id",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cxense\\.com\\/cx\\.cce\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn",
+                "scdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 1
+            },
+            "sites": 52,
+            "prevalence": 0.0053,
+            "cnames": [],
+            "responseHashes": [
+                "bf0c89a6d466325e7481eca13bbecf43daa80644400723d47e43457bc14985f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "variety.com",
+                "www.bbc.com",
+                "www.bbc.co.uk",
+                "www.cnbc.com",
+                "www.marketwatch.com",
+                "www.npr.org",
+                "www.stuttgarter-nachrichten.de",
+                "www.test.de",
+                "www.echo-online.de",
+                "www.zeit.de",
+                "sz-magazin.sueddeutsche.de",
+                "www.pnp.de",
+                "test.de",
+                "www.onetz.de",
+                "www.rollingstone.com",
+                "www.billboard.com",
+                "www.krone.at",
+                "www.tagesanzeiger.ch",
+                "www.allgaeuer-zeitung.de",
+                "www.augsburger-allgemeine.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/cx\\.js",
+            "cookies": 0.00469,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn",
+                "scdn"
+            ],
+            "apis": {
+                "window.localStorage": 47,
+                "Date.prototype.getTime": 46,
+                "Document.cookie setter": 46,
+                "Document.cookie getter": 46,
+                "Navigator.prototype.userAgent": 46,
+                "window.sessionStorage": 46,
+                "window.innerWidth": 34,
+                "window.innerHeight": 34,
+                "Date.prototype.getTimezoneOffset": 33,
+                "Screen.prototype.width": 30,
+                "Screen.prototype.height": 30,
+                "window.devicePixelRatio": 30,
+                "Screen.prototype.colorDepth": 30,
+                "Navigator.prototype.language": 30
+            },
+            "sites": 53,
+            "prevalence": 0.00541,
+            "cnames": [],
+            "responseHashes": [
+                "78589dad462503a6f419f5902d2f727b9e27bc3af9a2e8dd42989d6aed871b84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cX_P": {
+                    "ttl": 34128010,
+                    "length": 16,
+                    "prevalence": 0.003161652218255992,
+                    "uniqueness": 1
+                },
+                "_pctx": {
+                    "ttl": 34128013,
+                    "length": 83,
+                    "prevalence": 0.000407955124936257,
+                    "uniqueness": 0.75
+                },
+                "cX_G": {
+                    "ttl": 34128027,
+                    "length": 46,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                },
+                "_pcid": {
+                    "ttl": 34128013,
+                    "length": 46,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "variety.com",
+                "www.bbc.co.uk",
+                "www.bbc.com",
+                "www.cbc.ca",
+                "www.marketwatch.com",
+                "www.npr.org",
+                "www.politico.com",
+                "www.alpin.de",
+                "trauer.nn.de",
+                "hilfe.sueddeutsche.de",
+                "www.nn.de",
+                "www.onetz.de",
+                "www.schweizer-illustrierte.ch",
+                "www.mallorcazeitung.es",
+                "test.de",
+                "www.stuttgarter-nachrichten.de",
+                "www.vrm-trauer.de",
+                "www.mittelbayerische.de",
+                "www.mannheimer-morgen.de",
+                "www.film.at"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/sp1\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 34,
+            "prevalence": 0.00347,
+            "cnames": [],
+            "responseHashes": [
+                "1643f549380aeab61b23502d9f260f7350d9c2bd34dbc3cb0af73644332b6ef5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "variety.com",
+                "www.bbc.co.uk",
+                "www.bbc.com",
+                "www.cbc.ca",
+                "www.marketwatch.com",
+                "www.tagesanzeiger.ch",
+                "sudoku.tagesspiegel.de",
+                "www.schwarzwaelder-bote.de",
+                "www.all-in.de",
+                "www.mittelhessen.de",
+                "kurier.at",
+                "www.lkz.de",
+                "www.rollingstone.com",
+                "www.schweizer-illustrierte.ch",
+                "www.corriere.it",
+                "www.mannheimer-morgen.de",
+                "www.stuttgarter-zeitung.de",
+                "www.stuttgarter-nachrichten.de",
+                "www.film.at",
+                "futurezone.at"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/p1\\.js",
+            "cookies": 0.00102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1cluster"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "62bd2f7335f8174454f0a99318f5aa245c8d6c886b2b96012d95319a566fe789",
+                "b538966f052893a5381c879df03bd3ce604a5b261fa8b82991e9355eebd186ed",
+                "a0d535da16f81704ea98a3f8657a341afb610e5ac472975a03406dac1843156f",
+                "d3ff420fd434052f48bf4a286626c78b7d019b5757886c183262524680d66054",
+                "e897b3e71c22b12a3b09135a59ca76ab4e77d954704c0248ab99c39f4a20fc4e",
+                "bf1ccdd29277c80130bc00d9fe5d0792ed6908438a6d543445e73a3945d16313",
+                "babbf12061004b1966c6714a61411d04fe045efebe389051547052819fa00b1a",
+                "d6f088f84b6c848e2029cd0ef2d5f5b95edce4e2b4d0c3e565d52b04cef82342",
+                "395dd711f67459ff2527ae265fb22a15260501c69e1dedeb2ff7a1bff57ede99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futurezone.at",
+                "kurier.at",
+                "spiele.zeit.de",
+                "sudoku.zeit.de",
+                "sudoku.tagesspiegel.de",
+                "www.augsburger-allgemeine.de",
+                "www.marketwatch.com",
+                "www.tagesanzeiger.ch",
+                "www.tagesspiegel.de",
+                "www.zeit.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/Repo\\/rep\\.gif",
+            "cookies": 0.00102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comcluster"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_P": 0.0010198878123406426
+            },
+            "exampleSites": [
+                "futurezone.at",
+                "kurier.at",
+                "spiele.zeit.de",
+                "sudoku.zeit.de",
+                "sudoku.tagesspiegel.de",
+                "www.augsburger-allgemeine.de",
+                "www.marketwatch.com",
+                "www.tagesanzeiger.ch",
+                "www.tagesspiegel.de",
+                "www.zeit.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/public\\/user\\/id",
+            "cookies": 0.000918,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "e3bfdd31ac278f58b602e801d6f0425fea577cc41a6c6ff19b00f8ecaa4e94f4",
+                "1bc695824a0924c66be00aa803fae43eef9de4ef16ae423d86b5fec8b7e5bebd",
+                "de0011f238cda3c502fabc91419cde6c40a98a79ab5df351f2adbdbe2fe5f0fc",
+                "dea3d07e7787936095edb94bdb22ea1299a554565c66221bc55f20cfdce85614",
+                "1bdf9e14f6ae0ee1921f4b2aa2e54c73f611fb3ac71741ac7630b6d0b7bd8e90",
+                "2d2d3b8a4c559db3529577345d934643f109010c4e656efae8e3048387232f68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_P": 0.0009178990311065783
+            },
+            "exampleSites": [
+                "futurezone.at",
+                "kurier.at",
+                "spiele.zeit.de",
+                "sudoku.zeit.de",
+                "sudoku.tagesspiegel.de",
+                "www.augsburger-allgemeine.de",
+                "www.marketwatch.com",
+                "www.tagesspiegel.de",
+                "www.zeit.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/cx\\.js",
+            "cookies": 0.000408,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sueddeutsche.de",
+                "hilfe.sueddeutsche.de",
+                "sz-magazin.sueddeutsche.de",
+                "www.sueddeutsche.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/sclear\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "986bb62fce27559943cd049b87fb0658bfe6924c3461a7f4698689087339b839"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nn.de",
+                "www.donaukurier.de",
+                "www.krone.at",
+                "www.nn.de",
+                "www.nordbayern.de",
+                "www.nussbaum.de",
+                "www.politico.eu",
+                "www.suedkurier.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/public\\/clearid",
+            "cookies": 0.000816,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comcluster"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "7068cb9a82af5118aa2f010a371d78ffc9ad3973f213dd670e6609d12e9cb0f0",
+                "21fb96298942208516e544e8e38eddfe75f3fffc2e2946dfc397354d4b1f5181"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nn.de",
+                "www.donaukurier.de",
+                "www.krone.at",
+                "www.nn.de",
+                "www.nordbayern.de",
+                "www.nussbaum.de",
+                "www.politico.eu",
+                "www.suedkurier.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/dmp\\/push",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comcluster"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2fed4470e040a1a687d7933b20ee3d5dcad853d114c4453c663d98fcb2ee28bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_P": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "allgaeuer-zeitung.de",
+                "www.augsburger-allgemeine.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/ari-ci\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ffeabfbe178c7eb289284c20e7c2e67c7487dc0275db76bc1f5111dd09ce7a01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "corriere.it",
+                "www.tagesanzeiger.ch"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/public\\/widget\\/data",
+            "cookies": 0.00112,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "7ede7ebf23eddbecdd829d9286cd791978654079c0c39af6070490a646a8e7ee",
+                "07c48388f6c59a684759a7a08d29e8787a3053372fe68bb1d935d5fdcb570b28",
+                "da3fe306df791a20d43a2125d19736be91ff75347c9e1d1e2a8e91683480da16",
+                "1fa89e39a8adbe3fe92525ee43c4a8e2cf1e246db9d222d543d20b7d850f349d",
+                "95b88f03f7b9cd88fcc9cfd7dd18d26743a674756ad50eac432cc21ab74a9339",
+                "b04e0c375273195717d3367789a7310df8c5f740c549aaecc301ab4fc77e58fd",
+                "ff36f4001edbc22e7e461c6ee83673ff94466062b5b7846ffb24b08991396ef8",
+                "eca51feed8f56ed3ef85668ee3439948693e02568acd779b38c76a9d3e17f4b7",
+                "380704d75d9aee789a431b67c5bb0b10cf0d0cb1139e27ad0edbc12b2f5e1f6d",
+                "7bd56c784541eb903cb71450903f080ae4d40e3afa03f25c22c8c184abb14a23"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_P": 0.0007139214686384497,
+                "pa_user": 0.00030596634370219276,
+                "atuserid": 0.00030596634370219276
+            },
+            "exampleSites": [
+                "donaukurier.de",
+                "www.donaukurier.de",
+                "www.echo-online.de",
+                "www.marketwatch.com",
+                "www.mittelhessen.de",
+                "www.mittelbayerische.de",
+                "www.onetz.de",
+                "www.pnp.de",
+                "www.schwarzwaelder-bote.de",
+                "www.stuttgarter-nachrichten.de",
+                "www.stuttgarter-zeitung.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/public\\/widget\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "echo-online.de",
+                "www.echo-online.de",
+                "www.krone.at",
+                "www.mittelhessen.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/public\\/widget\\/data",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "7a3984f393da836c4372fdf03f1d5963bc8dc11b09e59a50ea0e2b16bbf418a5",
+                "a606909c297f585501173be0595acc438459a4486e186ad5ecce12924471f60d",
+                "b2373813c854c268fed2bbd1b89349a1bf31224d9e9ca05059ea1324ec2aa607"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "echo-online.de",
+                "www.echo-online.de",
+                "www.krone.at",
+                "www.mittelhessen.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/public\\/widget\\/visibility",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2289d3044dee86b2283c75e4b0d68fef1612099a4be6fccdab7f1a02abf146ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketwatch.com",
+                "www.onetz.de"
+            ]
+        },
+        {
+            "rule": "cxense\\.com\\/profile\\/user\\/segment",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9e9a0fee08f54a7955afc0f906fdbfca87e2d33860d26a713bf052bc185588f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cX_P": 0.0002039775624681285
+            },
+            "exampleSites": [
+                "politico.com",
+                "www.politico.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0.0049,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5639097744360902
+        },
+        {
+            "domain": "piano.io",
+            "prevalence": 0.21804511278195488
+        },
+        {
+            "domain": "tinypass.com",
+            "prevalence": 0.18045112781954886
+        },
+        {
+            "domain": "asadcdn.com",
+            "prevalence": 0.022556390977443608
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.007518796992481203
+        },
+        {
+            "domain": "ay.delivery",
+            "prevalence": 0.007518796992481203
+        }
+    ],
+    "types": {
+        "Script": 151,
+        "Document": 42,
+        "Image": 10,
+        "Fetch": 4,
+        "Preflight": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-1268.awsdns-30.org",
+        "ns-1864.awsdns-41.co.uk",
+        "ns-935.awsdns-52.net",
+        "ns-97.awsdns-12.com"
+    ]
+}

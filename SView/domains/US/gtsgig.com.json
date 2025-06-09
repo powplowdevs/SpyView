@@ -1,0 +1,62 @@
+{
+    "domain": "gtsgig.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "widgets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gtsgig\\.com\\/boot\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e64857c8b9dacd9c8eb37f70a3f3f9f0603741b98a843fcf21a4210b204e7560"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ayreshotels.com",
+                "www.goldennugget.com",
+                "www.queenmary.com",
+                "www.talkingstickresort.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "alla.ns.cloudflare.com",
+        "darl.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "domain": "intentiq.com",
+    "owner": {
+        "name": "Almondnet Group",
+        "displayName": "Almondnet Group"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00051,
+    "sites": 5,
+    "subdomains": [
+        "agent",
+        "sync",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "intentiq\\.com\\/Agent\\/GA\\/UniversalID-Sync\\/IIQUniversalID-sync\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "agent"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "69b4b16446ebc83806cee98294e6eea1a70a2121fb2277023590502a33ef33e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9gag.com",
+                "dotesports.com",
+                "time.com",
+                "www.webtoons.com"
+            ]
+        },
+        {
+            "rule": "intentiq\\.com\\/profiles_engine\\/ProfilesEngineServlet",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync",
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9gag.com",
+                "dotesports.com",
+                "time.com",
+                "www.jpost.com",
+                "www.webtoons.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ntv.io",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "ay.delivery",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-1070.awsdns-05.org",
+        "ns-244.awsdns-30.com",
+        "ns-1805.awsdns-33.co.uk",
+        "ns-1009.awsdns-62.net"
+    ]
+}

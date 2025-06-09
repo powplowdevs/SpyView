@@ -1,0 +1,135 @@
+{
+    "domain": "pizzahut.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "services.digital"
+    ],
+    "cnames": [
+        {
+            "original": "services.digital.pizzahut.com",
+            "resolved": "services.digital.pizzahut.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "pizzahut\\.com\\.edgekey\\.net\\/content-gateway\\/stores\\/000002\\/menu",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "services.digital.pizzahut.com",
+                    "resolved": "services.digital.pizzahut.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pizzahut.com",
+                "www.pizzahut.com"
+            ]
+        },
+        {
+            "rule": "pizzahut\\.com\\.edgekey\\.net\\/content-gateway\\/stores\\/000002\\/menu",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "services.digital.pizzahut.com",
+                    "resolved": "services.digital.pizzahut.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pizzahut.com",
+                "www.pizzahut.com"
+            ]
+        },
+        {
+            "rule": "pizzahut\\.com\\.edgekey\\.net\\/consolidated-gql\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "services.digital.pizzahut.com",
+                    "resolved": "services.digital.pizzahut.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pizzahut.com",
+                "www.pizzahut.com"
+            ]
+        },
+        {
+            "rule": "pizzahut\\.com\\.edgekey\\.net\\/consolidated-gql\\/query",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "services.digital.pizzahut.com",
+                    "resolved": "services.digital.pizzahut.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pizzahut.com",
+                "www.pizzahut.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "types": {
+        "Preflight": 4,
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

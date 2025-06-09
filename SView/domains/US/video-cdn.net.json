@@ -1,0 +1,254 @@
+{
+    "domain": "video-cdn.net",
+    "owner": {
+        "name": "movingimage EVP GmbH",
+        "displayName": "movingimage EVP"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "e",
+        "asset-out-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "video-cdn\\.net\\/v2\\/embed\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 3,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.product": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "window.devicePixelRatio": 5,
+                "Date.prototype.getTime": 4,
+                "Notification.permission": 5,
+                "Navigator.prototype.plugins": 5,
+                "Navigator.prototype.vendor": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "OfflineAudioContext.prototype.constructor": 5,
+                "Screen.prototype.availTop": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.availLeft": 5,
+                "Screen.prototype.availHeight": 5,
+                "AudioBuffer.prototype.getChannelData": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.languages": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Navigator.prototype.deviceMemory": 5,
+                "Navigator.prototype.hardwareConcurrency": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+                "window.sessionStorage": 5,
+                "window.indexedDB": 4,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 5,
+                "HTMLCanvasElement.prototype.toDataURL": 5,
+                "Document.cookie setter": 4,
+                "WebGLRenderingContext.prototype.getExtension": 5,
+                "WebGLRenderingContext.prototype.getParameter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "82b038e55425ec459ebdfa7db2042516f66fe146cd9c8501ea4d0a716473f99d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1747328841,
+                    "length": 1,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belimo.com",
+                "www.belimo.com",
+                "www.dak.de",
+                "www.klett.de",
+                "www.phoenixcontact.com"
+            ]
+        },
+        {
+            "rule": "video-cdn\\.net\\/watch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a7781aff6cca143dbfdc4804f638de6da3d43271345aaa6f896ed8aa3c0e4828"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belimo.com",
+                "www.belimo.com"
+            ]
+        },
+        {
+            "rule": "video-cdn\\.net\\/latest\\/mi-playout-player\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belimo.com",
+                "www.belimo.com"
+            ]
+        },
+        {
+            "rule": "video-cdn\\.net\\/latest\\/asset-manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belimo.com",
+                "www.belimo.com"
+            ]
+        },
+        {
+            "rule": "video-cdn\\.net\\/latest\\/static\\/js\\/mi-playout-player\\.2255a000\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belimo.com",
+                "www.belimo.com"
+            ]
+        },
+        {
+            "rule": "video-cdn\\.net\\/latest\\/static\\/js\\/react\\.ada55ed4\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belimo.com",
+                "www.belimo.com"
+            ]
+        },
+        {
+            "rule": "video-cdn\\.net\\/latest\\/static\\/js\\/vendor-main-video\\.es\\.js\\.82b55434\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belimo.com",
+                "www.belimo.com"
+            ]
+        },
+        {
+            "rule": "video-cdn\\.net\\/private\\/bucketid\\/C7oAQRcqcjeJ5yCTw4U_dg\\/fileid\\/2iztLnggrUrgfKfqaEJFyq\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset-out-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6695ca13e68a23103f48e91906a9739318b25bebd007275f2d3d1869735af42e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dak.de",
+                "www.dak.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "movingimage.com",
+            "prevalence": 0.6153846153846154
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.38461538461538464
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Document": 2,
+        "XHR": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1-06.azure-dns.com",
+        "ns2-06.azure-dns.net",
+        "ns3-06.azure-dns.org",
+        "ns4-06.azure-dns.info"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "domain": "franecki.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "franecki\\.net\\/js\\/lib\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.connection": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "769697dea83872462d89a8e322aaf97488bd4f512fb8428d47a1555cb6b383d9",
+                "189552d4b4cbeea00c5028fcb6ca26f558666842514e0916d9ace6ca062eecfb",
+                "d0466c3da687ec6470a2e36fcd8769cd3a045cf34491f38b587a80e1bc102a47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dizivar.top",
+                "gidonline.eu",
+                "kinogo.eu",
+                "rezka.ag"
+            ]
+        },
+        {
+            "rule": "franecki\\.net\\/r\\/",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dizivar.top",
+                "gidonline.eu",
+                "rezka.ag"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 3
+    },
+    "nameservers": [
+        "henry.ns.cloudflare.com",
+        "tori.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "domain": "hubspotfeedback.com",
+    "owner": {
+        "name": "HubSpot, Inc.",
+        "displayName": "HubSpot",
+        "privacyPolicy": "https://legal.hubspot.com/privacy-policy",
+        "url": "http://hubspot.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "js-eu1",
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hubspotfeedback\\.com\\/feedbackweb-new\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-eu1",
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "57b2695b2c6d237f867f1ba739de743b398eb8ab3018900685b0fa946df11cea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "btc-echo.de",
+                "www.singulart.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "hs-scripts.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "jerry.ns.cloudflare.com",
+        "yolanda.ns.cloudflare.com"
+    ]
+}

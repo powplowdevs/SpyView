@@ -1,0 +1,122 @@
+{
+    "domain": "indicative.com",
+    "owner": {
+        "name": "Indicative Inc.",
+        "displayName": "Indicative"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "api",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "indicative\\.com\\/service\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creately.com",
+                "pornhub.en.aptoide.com",
+                "simontok-app.en.aptoide.com",
+                "simontok-app.id.aptoide.com"
+            ]
+        },
+        {
+            "rule": "indicative\\.com\\/service\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creately.com",
+                "pornhub.en.aptoide.com",
+                "simontok-app.en.aptoide.com",
+                "simontok-app.id.aptoide.com"
+            ]
+        },
+        {
+            "rule": "indicative\\.com\\/js\\/Indicative\\.min\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "8285c1725e231c98aa0a4f0cb4621ab1bca38f07b9eeee8801c5aebc2aa1659f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "Indicative_305bdd41-271f-4618-a1ea-0793da9e04ef": {
+                    "ttl": 31536006,
+                    "length": 287,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptoide.com",
+                "simontok-app.en.aptoide.com",
+                "simontok-app.id.aptoide.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "XHR": 4,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1496.awsdns-59.org",
+        "ns-1594.awsdns-07.co.uk",
+        "ns-781.awsdns-33.net",
+        "ns-183.awsdns-22.com"
+    ]
+}

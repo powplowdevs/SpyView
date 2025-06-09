@@ -1,0 +1,114 @@
+{
+    "domain": "slgnt.eu",
+    "owner": {
+        "name": "Selligent",
+        "displayName": "Selligent"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000613,
+    "sites": 6,
+    "subdomains": [
+        "site-azp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "slgnt\\.eu\\/frontend\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pontmeyer.nl",
+                "www.hunkemoller.nl",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/frontend\\/api\\/track",
+            "cookies": 0.000306,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000613,
+            "cnames": [],
+            "responseHashes": [
+                "9ab4524a04ee07fcc0e4377484484bcee455ad372b1568d6197fe09cbde63911",
+                "7961a8d0b8e5afd953de143a2e4d701ed94b12140a3d6bb641c10bbf0e8469ce"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pontmeyer.nl",
+                "www.hunkemoller.nl",
+                "www.pontmeyer.nl",
+                "www.postcodeloterij.nl",
+                "www.vandenborre.be",
+                "www.vriendenloterij.nl"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/frontend\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pontmeyer.nl",
+                "www.postcodeloterij.nl",
+                "www.vriendenloterij.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000306,
+    "topInitiators": [
+        {
+            "domain": "windows.net",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Other": 3,
+        "Fetch": 6,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns10.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com"
+    ]
+}

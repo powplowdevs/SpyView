@@ -1,0 +1,211 @@
+{
+    "domain": "smoxy.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "ingress"
+    ],
+    "cnames": [
+        {
+            "original": "checkout.depot-online.de",
+            "resolved": "ingress.smoxy.eu"
+        },
+        {
+            "original": "lbt.lucky-bike.de",
+            "resolved": "ingress.smoxy.eu"
+        },
+        {
+            "original": "sst.armedangels.com",
+            "resolved": "ingress.smoxy.eu"
+        },
+        {
+            "original": "sst.kirstein.de",
+            "resolved": "ingress.smoxy.eu"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smoxy\\.eu\\/gtm\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ingress"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "sst.armedangels.com",
+                    "resolved": "ingress.smoxy.eu"
+                },
+                {
+                    "original": "sst.kirstein.de",
+                    "resolved": "ingress.smoxy.eu"
+                },
+                {
+                    "original": "lbt.lucky-bike.de",
+                    "resolved": "ingress.smoxy.eu"
+                }
+            ],
+            "responseHashes": [
+                "fa6435e56771bcc562f83c5cc5eebc732caf7598df0fbdbbebe6fecac24b4744",
+                "63f45f5616b8809112074212584595aecd6a824a89e8d96213612aa7c9f08e5e",
+                "be518122951394f160d8f8df80aa3c0ba5d4f6c45c2fec9c23294db36c45706f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com",
+                "www.kirstein.de",
+                "www.lucky-bike.de"
+            ]
+        },
+        {
+            "rule": "smoxy\\.eu\\/gtag\\/js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ingress"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sst.armedangels.com",
+                    "resolved": "ingress.smoxy.eu"
+                },
+                {
+                    "original": "sst.kirstein.de",
+                    "resolved": "ingress.smoxy.eu"
+                }
+            ],
+            "responseHashes": [
+                "55ef7832846e66dcb03b408e75fd92445ded3969d870eefcd261003a13eae4d6",
+                "03db400c64ac9277e9390173c9a57ae1388bc3d1f8aa763e47756bcacb4b9afb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com",
+                "www.kirstein.de"
+            ]
+        },
+        {
+            "rule": "smoxy\\.eu\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingress"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "sst.armedangels.com",
+                    "resolved": "ingress.smoxy.eu"
+                },
+                {
+                    "original": "sst.kirstein.de",
+                    "resolved": "ingress.smoxy.eu"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com",
+                "www.kirstein.de"
+            ]
+        },
+        {
+            "rule": "smoxy\\.eu\\/store-api\\/product-listing\\/01916af99c94750080fba2b66bdc4cf9",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingress"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "checkout.depot-online.de",
+                    "resolved": "ingress.smoxy.eu"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "depot-online.de",
+                "www.depot-online.de"
+            ]
+        },
+        {
+            "rule": "smoxy\\.eu\\/store-api\\/product-listing\\/01916af99c94750080fba2b66bdc4cf9",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingress"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "checkout.depot-online.de",
+                    "resolved": "ingress.smoxy.eu"
+                }
+            ],
+            "responseHashes": [
+                "350dfcdd20179085db8d8690977d728257313591ade8063bb5f3c52ee66919a8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "depot-online.de",
+                "www.depot-online.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "sitesearch360.com",
+            "prevalence": 0.6428571428571429
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.35714285714285715
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 5,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ishaan.ns.cloudflare.com",
+        "blakely.ns.cloudflare.com"
+    ]
+}

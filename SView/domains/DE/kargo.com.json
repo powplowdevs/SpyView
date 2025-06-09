@@ -1,0 +1,101 @@
+{
+    "domain": "kargo.com",
+    "owner": {
+        "name": "Kargo Global, Inc.",
+        "displayName": "Kargo"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [
+        "krk2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "kargo\\.com\\/api\\/v1\\/prebid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "krk2"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000714,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fextralife.com",
+                "darksouls.wiki.fextralife.com",
+                "darksouls3.wiki.fextralife.com",
+                "eldenring.wiki.fextralife.com",
+                "expedition33.wiki.fextralife.com",
+                "monsterhunterworld.wiki.fextralife.com",
+                "timesofindia.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "kargo\\.com\\/api\\/v1\\/prebid",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "krk2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macrumors.com",
+                "linuxize.com",
+                "linuxsimply.com",
+                "www.macrumors.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud"
+    ],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "adthrive.com",
+            "prevalence": 0.4666666666666667
+        },
+        {
+            "domain": "adsninja.ca",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "toiimg.com",
+            "prevalence": 0.13333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 7,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-1512.awsdns-61.org",
+        "ns-635.awsdns-15.net",
+        "ns-1837.awsdns-37.co.uk",
+        "ns-243.awsdns-30.com"
+    ]
+}

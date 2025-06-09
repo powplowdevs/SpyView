@@ -1,0 +1,100 @@
+{
+    "domain": "festool.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "sgtm"
+    ],
+    "cnames": [
+        {
+            "original": "data.festool.de",
+            "resolved": "sgtm.festool.com"
+        },
+        {
+            "original": "data.festoolusa.com",
+            "resolved": "sgtm.festool.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "festool\\.com\\/gtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sgtm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "data.festool.de",
+                    "resolved": "sgtm.festool.com"
+                },
+                {
+                    "original": "data.festoolusa.com",
+                    "resolved": "sgtm.festool.com"
+                }
+            ],
+            "responseHashes": [
+                "43a7a6b6beeb327b524493122bda837cc3bf4a191685a5c3491cb69f5cb05eb3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "festool.de",
+                "www.festoolusa.com"
+            ]
+        },
+        {
+            "rule": "festool\\.com\\/ns\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sgtm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "data.festool.de",
+                    "resolved": "sgtm.festool.com"
+                },
+                {
+                    "original": "data.festoolusa.com",
+                    "resolved": "sgtm.festool.com"
+                }
+            ],
+            "responseHashes": [
+                "2a3aad7d885a603ad86de2b2034bdac17f340884a4ccc7baca4477740bc898cb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "festool.de",
+                "www.festoolusa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns2.netnames.net",
+        "ns1.netnames.net",
+        "ns5.netnames.net",
+        "ns6.netnames.net"
+    ]
+}

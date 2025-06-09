@@ -1,0 +1,690 @@
+{
+    "domain": "gatedcontent.com",
+    "owner": {
+        "name": "Esperto Ltd",
+        "displayName": "Esperto"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "app",
+        "insights"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "gatedcontent\\.com\\/scripts\\/14319476\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockwellautomation.com",
+                "www.rockwellautomation.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/assets\\/js\\/countries\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "627d267436988ca19668ca77c267a985c215f247e880397d0678ab1805ec2413"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockwellautomation.com",
+                "www.canon-europe.com",
+                "www.canon.co.uk",
+                "www.canon.de",
+                "www.canon.fr",
+                "www.docusign.com",
+                "www.intacct.com",
+                "www.opentext.com",
+                "www.rockwellautomation.com",
+                "www.sage.com",
+                "www.zebra.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/styles\\/14319476\\/app\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "92b7b37916163780c7e448f614929adfb758daeacb80d863ad7edf7ae04df8f2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockwellautomation.com",
+                "www.rockwellautomation.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/components\\/events\\/14319476\\/get\\/live\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0bcb5934c099c0eaf64151108f9a0abd384130961f3564c5b478b8f3864ed1fd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockwellautomation.com",
+                "www.rockwellautomation.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/tools\\/geoip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "671faf7194e580de17c44b0924166683a395e6264ff9209baaa5c910d302a01d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockwellautomation.com",
+                "www.canon-europe.com",
+                "www.canon.co.uk",
+                "www.canon.de",
+                "www.canon.fr",
+                "www.docusign.com",
+                "www.intacct.com",
+                "www.opentext.com",
+                "www.rockwellautomation.com",
+                "www.sage.com",
+                "www.zebra.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/scripts\\/13020245\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.appName": 4,
+                "Navigator.prototype.appCodeName": 4,
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.platform": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Navigator.prototype.doNotTrack": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "a596c9b922dd955d4c7940ad14299307f2323ebc5df7115f47b968207d150989"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon-europe.com",
+                "www.canon-europe.com",
+                "www.canon.co.uk",
+                "www.canon.de",
+                "www.canon.fr"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/styles\\/13020245\\/app\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "7728de71f92abd85b6e6cae1fa67c8b3892a166bc5b06f51ac3d319d359412e3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon-europe.com",
+                "www.canon-europe.com",
+                "www.canon.co.uk",
+                "www.canon.de",
+                "www.canon.fr"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/components\\/events\\/13020245\\/get\\/live\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "7fe902d493a3a99cc5634215266086af9ac83f9b8be3c469fdf0b6acfcaa649f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon-europe.com",
+                "www.canon-europe.com",
+                "www.canon.co.uk",
+                "www.canon.de",
+                "www.canon.fr"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/assets\\/img\\/preloader\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "85b8ad23db59da176fffaefe7bfa91e127b9e7f2fc3312cbcf7dd1589d6bf68e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docusign.com",
+                "www.intacct.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/log_entry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insights"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docusign.com",
+                "www.intacct.com",
+                "www.opentext.com",
+                "www.sage.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/scripts\\/50338383\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "589e2dcb491c7687bd4115954ef5a1b75b9ca537c87f1a98c0b765d74b03dc35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intacct.com",
+                "www.sage.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/styles\\/50338383\\/app\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "036c24ab5ed5796e67aeeddcb3e4a1a680211c7e50ef4a88686358cc9b6b6bcc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intacct.com",
+                "www.sage.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/components\\/events\\/50338383\\/get\\/live\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7872ea736234d76ba098816797bd4ef77951805365fda41ec18f8896aef28e6e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intacct.com",
+                "www.sage.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/gates\\/50338383\\/04b3d937-2c5a-4031-9ed1-22c4d9c7b90b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "be2d6247282f3ee036e05a28b8e88631b170d8c0edddc73b78f1c7e42407b4a0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intacct.com",
+                "www.intacct.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/gates\\/50338383\\/8778ce00-6000-41fe-946a-ff9bb050e7a6",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7e699b177cff229fa6eec5307e3243a18f0d2e8906ab297fda5d4106296f6d9a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intacct.com",
+                "www.intacct.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/components\\/form_types\\/50338383\\/get\\/live\\/MultiStepGate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cfddd8eb902db394e93a669a6c85d17c22f834fabfdb05ef5606e30ad5f7863e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intacct.com",
+                "www.sage.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/components\\/translations\\/50338383\\/get\\/live\\/en-us",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f1b56de5a600cda858372d73fd8bbdce6f63d4da8abd7b77bdfcee178cf29746"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intacct.com",
+                "www.sage.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/scripts\\/25583474\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b88f548add47c825295f67542822249092b5af1e34957b445fbfced22a3cc76a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opentext.com",
+                "www.opentext.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/styles\\/25583474\\/app\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4876f1806533494388096908fe468044b39938b0889265013584ccb11cd4e53f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opentext.com",
+                "www.opentext.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/components\\/events\\/25583474\\/get\\/live\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cb7ccf31ba054d0ac0250ff498a8d6c5abd5bf17b8ce6746909dbd63502bbea0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opentext.com",
+                "www.opentext.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/gate_translation_groups\\/25583474\\/9abcd9ae-a140-42c1-9b57-8dddd284e0b3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d9810b6326f9ea8e2c779aafb02b6ea29b482c4ba08e50c6ff9c3718e7f9df6a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opentext.com",
+                "www.opentext.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/scripts\\/67770621\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1c0e6805d5a91a66e88f6ba9fb8253cdd0110dc97d935b08efd4052b830647fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "www.zebra.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/styles\\/67770621\\/app\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1d1bfeadc107996ada0f8036b6981639803ade1cbcc60f055839f7fd73e8156a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "www.zebra.com"
+            ]
+        },
+        {
+            "rule": "gatedcontent\\.com\\/components\\/events\\/67770621\\/get\\/live\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4e7cfa310f6aa0899fc399ad9fa425723aa9791332124ba25217d705f1f14795"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "www.zebra.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.39705882352941174
+        },
+        {
+            "domain": "sage.com",
+            "prevalence": 0.35294117647058826
+        },
+        {
+            "domain": "driftt.com",
+            "prevalence": 0.1323529411764706
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.07352941176470588
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.029411764705882353
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.014705882352941176
+        }
+    ],
+    "types": {
+        "Script": 24,
+        "Stylesheet": 13,
+        "XHR": 38,
+        "Image": 2
+    },
+    "nameservers": [
+        "darwin.ns.cloudflare.com",
+        "kia.ns.cloudflare.com"
+    ]
+}

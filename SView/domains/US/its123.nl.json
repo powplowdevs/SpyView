@@ -1,0 +1,105 @@
+{
+    "domain": "its123.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "its123\\.nl\\/stats\\/matomo\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.name": 1,
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.mimeTypes": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.platform": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "89e35b18e2ddd93f040839eb32f71a22a7781f27fca6e294f9405d5fb0ea2cc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.1.cb75": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_pk_ses.1.cb75": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "123test.com",
+                "www.123test.com"
+            ]
+        },
+        {
+            "rule": "its123\\.nl\\/stats\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "123test.com",
+                "www.123test.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c2.googledomains.com"
+    ]
+}

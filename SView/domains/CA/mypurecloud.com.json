@@ -1,0 +1,219 @@
+{
+    "domain": "mypurecloud.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000837,
+    "sites": 8,
+    "subdomains": [
+        "apps"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mypurecloud\\.com\\/genesys-bootstrap\\/genesys\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.product": 4,
+                "window.localStorage": 4,
+                "window.name": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000523,
+            "cnames": [],
+            "responseHashes": [
+                "489da52051a9d5a3c8275f861dc0a7139978b7d14990029f261254c268a9711b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bchydro.com",
+                "www.clearly.ca",
+                "www.lenscrafters.ca",
+                "www.oakley.com",
+                "www.partzilla.com"
+            ]
+        },
+        {
+            "rule": "mypurecloud\\.com\\/webfonts\\/roboto\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000418,
+            "cnames": [],
+            "responseHashes": [
+                "3b7019f0c310bb3b78c1595f2bc96bad82d45b27c4eb14678fa4bd939b4192e3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebox.ca",
+                "www.partzilla.com",
+                "www.tdinsurance.com",
+                "www.te.com"
+            ]
+        },
+        {
+            "rule": "mypurecloud\\.com\\/journey\\/messenger-plugins\\/offersHelper\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000314,
+            "cnames": [],
+            "responseHashes": [
+                "83a7f85c092e56846e6b509c9600d2b8c70abbf5b40400fc10553dc00d9ddd62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenscrafters.ca",
+                "www.oakley.com",
+                "www.partzilla.com"
+            ]
+        },
+        {
+            "rule": "mypurecloud\\.com\\/messenger\\/thirdparty-plugins\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000314,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenscrafters.ca",
+                "www.oakley.com",
+                "www.partzilla.com"
+            ]
+        },
+        {
+            "rule": "mypurecloud\\.com\\/messenger\\/messenger\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000314,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenscrafters.ca",
+                "www.oakley.com",
+                "www.partzilla.com"
+            ]
+        },
+        {
+            "rule": "mypurecloud\\.com\\/messenger\\/messenger-renderer\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000314,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenscrafters.ca",
+                "www.oakley.com",
+                "www.partzilla.com"
+            ]
+        },
+        {
+            "rule": "mypurecloud\\.com\\/cobrowse-next\\/sharer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000209,
+            "cnames": [],
+            "responseHashes": [
+                "f8ebe9677ee3abe99f2e631d3ee7852584face9d5f11db8ab46685e983591238"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oakley.com",
+                "www.partzilla.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4666666666666667
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "pure.cloud",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Stylesheet": 4,
+        "Document": 9
+    },
+    "nameservers": [
+        "ns-160.awsdns-20.com",
+        "ns-947.awsdns-54.net",
+        "ns-1609.awsdns-09.co.uk",
+        "ns-1295.awsdns-33.org"
+    ]
+}

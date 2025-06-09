@@ -1,0 +1,81 @@
+{
+    "domain": "temptalia.workers.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "tempt"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "temptalia\\.workers\\.dev\\/tempt\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tempt"
+            ],
+            "apis": {
+                "window.innerHeight": 2,
+                "Navigator.prototype.webdriver": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4ce2f12a914a6e2b587c2446a32ca6182f65c3a9620bad55b27225a1ab5d1768"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tryhardguides.com",
+                "www.temptalia.com"
+            ]
+        },
+        {
+            "rule": "temptalia\\.workers\\.dev\\/tempt\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tempt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tryhardguides.com",
+                "www.temptalia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "lila.ns.cloudflare.com",
+        "peyton.ns.cloudflare.com"
+    ]
+}

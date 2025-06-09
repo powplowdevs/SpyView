@@ -1,0 +1,117 @@
+{
+    "domain": "justservingfiles.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "bmedia"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "justservingfiles\\.net\\/tracking\\/matomo\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bmedia"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.name": 3,
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "d81a0d4d8a32f2b91a7b61f0e3ff9a9ecb327472f4f46291a00c856a534e44e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.1.a8c4": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_pk_ses.1.a8c4": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_pk_id.1.155a": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_pk_ses.1.155a": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_pk_id.1.5509": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_pk_ses.1.5509": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fansmetrics.com",
+                "hubite.com",
+                "modelsearcher.com",
+                "onlyfanslifestyle.com",
+                "onlyfanssigns.com",
+                "onlyselects.com",
+                "onlyxnude.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "rtbsuperhub.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "ns0107.secondary.cloudflare.com",
+        "ns0137.secondary.cloudflare.com"
+    ]
+}

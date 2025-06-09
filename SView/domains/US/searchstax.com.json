@@ -1,0 +1,175 @@
+{
+    "domain": "searchstax.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000778,
+    "sites": 11,
+    "subdomains": [
+        "static",
+        "searchcloud-2-us-east-1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "searchstax\\.com\\/studio-js\\/v3\\/js\\/studio-analytics\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "a09f9cb917dc999648b2b1d015c77063f4345121bcc7810ccb4e8d802080fb6b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ms_visitorid": {
+                    "ttl": 604805,
+                    "length": 36,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kroll.com",
+                "restructuring.ra.kroll.com",
+                "www.kroll.com",
+                "www.paychex.com",
+                "www.pennfoster.edu"
+            ]
+        },
+        {
+            "rule": "searchstax\\.com\\/studio-js\\/v3\\/js\\/search-widget\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c0159a6f88db46f9b41c0fb63bee9922b0cc68e3ba970af160528f9ecd3b5349"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeniusbank.com",
+                "www.pointloma.edu"
+            ]
+        },
+        {
+            "rule": "searchstax\\.com\\/studio-js\\/v4\\/js\\/search-ux\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6d03697cacb61cbaf98e4d7c9c95fe328595b13436bedd5f12d136fdffd2c56e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "searchstax_session_id": {
+                    "ttl": 3600,
+                    "length": 25,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pennfoster.edu",
+                "www.pennfoster.edu"
+            ]
+        },
+        {
+            "rule": "searchstax\\.com\\/29847\\/uchicagomedicineprod-1596\\/emselect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "searchcloud-2-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uchicagomedicine.org",
+                "www.uchicagomedicine.org"
+            ]
+        },
+        {
+            "rule": "searchstax\\.com\\/29847\\/uchicagomedicineprod-1596\\/emselect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "searchcloud-2-us-east-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "123f2cc7a747f4c9dcf7b8cce0db3af312d8ea79bb8dfc9051b4286dd60a5c4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uchicagomedicine.org",
+                "www.uchicagomedicine.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.23076923076923078
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1319.awsdns-36.org",
+        "ns-45.awsdns-05.com",
+        "ns-1692.awsdns-19.co.uk",
+        "ns-954.awsdns-55.net"
+    ]
+}

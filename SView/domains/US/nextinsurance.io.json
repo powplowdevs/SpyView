@@ -1,0 +1,176 @@
+{
+    "domain": "nextinsurance.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "user-interaction-events.eng-ext-prod-02",
+        "gtm-tag-server-cf.eng-ext-prod-02"
+    ],
+    "cnames": [
+        {
+            "original": "tag.nextinsurance.com",
+            "resolved": "gtm-tag-server-cf.eng-ext-prod-02.nextinsurance.io"
+        },
+        {
+            "original": "user-interaction-events.nextinsurance.com",
+            "resolved": "user-interaction-events.eng-ext-prod-02.nextinsurance.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nextinsurance\\.io\\/api\\/user-interaction",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "user-interaction-events.eng-ext-prod-02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "user-interaction-events.nextinsurance.com",
+                    "resolved": "user-interaction-events.eng-ext-prod-02.nextinsurance.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextinsurance.com",
+                "www.nextinsurance.com"
+            ]
+        },
+        {
+            "rule": "nextinsurance\\.io\\/api\\/user-interaction",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "user-interaction-events.eng-ext-prod-02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "user-interaction-events.nextinsurance.com",
+                    "resolved": "user-interaction-events.eng-ext-prod-02.nextinsurance.io"
+                }
+            ],
+            "responseHashes": [
+                "33fed6c496f98ef482599ade502e7adab875ed793b7f7f002a61def2e7fb5612"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextinsurance.com",
+                "www.nextinsurance.com"
+            ]
+        },
+        {
+            "rule": "nextinsurance\\.io\\/gtm\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gtm-tag-server-cf.eng-ext-prod-02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tag.nextinsurance.com",
+                    "resolved": "gtm-tag-server-cf.eng-ext-prod-02.nextinsurance.io"
+                }
+            ],
+            "responseHashes": [
+                "a8c3b93a9886e778e6eea6bf1c33aae63c7231d1f7d3e78b4c8f968830317578"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextinsurance.com",
+                "www.nextinsurance.com"
+            ]
+        },
+        {
+            "rule": "nextinsurance\\.io\\/gtag\\/js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gtm-tag-server-cf.eng-ext-prod-02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tag.nextinsurance.com",
+                    "resolved": "gtm-tag-server-cf.eng-ext-prod-02.nextinsurance.io"
+                }
+            ],
+            "responseHashes": [
+                "a835d3b720dc1fa6b0d5a0f17e5498d4b3e7989526a7d451399374748db78f7f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nextinsurance.com",
+                "www.nextinsurance.com"
+            ]
+        },
+        {
+            "rule": "nextinsurance\\.io\\/g\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm-tag-server-cf.eng-ext-prod-02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "tag.nextinsurance.com",
+                    "resolved": "gtm-tag-server-cf.eng-ext-prod-02.nextinsurance.io"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "nextinsurance.com",
+                "www.nextinsurance.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "types": {
+        "Preflight": 2,
+        "Ping": 2,
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-916.awsdns-50.net",
+        "ns-1795.awsdns-32.co.uk",
+        "ns-478.awsdns-59.com",
+        "ns-1462.awsdns-54.org"
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "domain": "myvisitors.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "myvisitors\\.se\\/js",
+            "cookies": 0.0000354,
+            "fingerprinting": 2,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.language": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "adbf263c8ebc29396eef6b02800ba4d311bf238b9eb3ebbffac75b85d388ef58"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "fpv_907239": {
+                    "ttl": 1204,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_mtruid": {
+                    "ttl": 34214404,
+                    "length": 10,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                },
+                "fpv_729562": {
+                    "ttl": 1206,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "fpv_980605": {
+                    "ttl": 1204,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "fpv_548339": {
+                    "ttl": 1202,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nelly.com",
+                "nicokick.com",
+                "www.affarsvarlden.se",
+                "www.dagensps.se",
+                "www.moomin.com"
+            ]
+        },
+        {
+            "rule": "myvisitors\\.se\\/t",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "b54791e32a9e4bc597c69f064f529694b8357c24098d4749ae32f2232847bfec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_mtruid": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "nelly.com",
+                "www.affarsvarlden.se",
+                "www.dagensps.se",
+                "www.moomin.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000424,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5384615384615384
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.46153846153846156
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "art.ns.cloudflare.com",
+        "ivy.ns.cloudflare.com"
+    ]
+}

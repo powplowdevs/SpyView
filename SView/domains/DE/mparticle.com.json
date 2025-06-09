@@ -1,0 +1,136 @@
+{
+    "domain": "mparticle.com",
+    "owner": {
+        "name": "mParticle, Inc",
+        "displayName": "mParticle"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00051,
+    "sites": 5,
+    "subdomains": [
+        "identity",
+        "jssdks"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mparticle\\.com\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gymshark.com",
+                "reverb.com",
+                "www.treatwell.de",
+                "www.westernunion.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e89da1bfa91bd69e4f28f92215799ad1834c3554fa6a027d03ba4619555bfe88"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gymshark.com",
+                "reverb.com",
+                "www.westernunion.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/eu1-ebd2cad076757c498ce604d818b0d8ae\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "03edb422c1cda53ef914b050596cd7db85a8f16de767367c7273e8fe16dedaa6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gymshark.com",
+                "de.gymshark.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.com\\/v3\\/JS\\/us1-fdd5f1abc3a1f3499fd53e18a790704f\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jssdks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "09829c6d27066d5d107e8ed2d5cfbd17a5d5340fb5c86de19529379e2ea393d7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westernunion.com",
+                "www.westernunion.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "reverb-assets.com",
+            "prevalence": 0.6382978723404256
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3404255319148936
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.02127659574468085
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "ns-553.awsdns-05.net",
+        "ns-1796.awsdns-32.co.uk",
+        "ns-1447.awsdns-52.org",
+        "ns-206.awsdns-25.com"
+    ]
+}

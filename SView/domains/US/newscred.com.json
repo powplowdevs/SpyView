@@ -1,0 +1,75 @@
+{
+    "domain": "newscred.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "newscred\\.com\\/analytics_bedc07d840c44bff9f05386c5d933010\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a0d4b576f63dce9e7a17cea58df36ea0f30b3fe496b5a56f69c5981f623bdf90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__ncuid": {
+                    "ttl": 31536014,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valley.com",
+                "www.valley.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000495,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1925.awsdns-48.co.uk",
+        "ns-148.awsdns-18.com",
+        "ns-1110.awsdns-10.org",
+        "ns-890.awsdns-47.net"
+    ]
+}

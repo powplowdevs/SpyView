@@ -1,0 +1,103 @@
+{
+    "domain": "lnd.bz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "sdp-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "lnd\\.bz\\/api\\/v3\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "datart.cz",
+                "www.sportisimo.cz"
+            ]
+        },
+        {
+            "rule": "lnd\\.bz\\/api\\/v3\\/recommendation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportisimo.cz",
+                "www.sportisimo.cz"
+            ]
+        },
+        {
+            "rule": "lnd\\.bz\\/api\\/v3\\/recommendation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "978a2c62bce04d15c101ea073be3f73bde15b877be78c28b29592b3a1ea56b39"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportisimo.cz",
+                "www.sportisimo.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Ping": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1.regzone.cz",
+        "ns1.regzone.de",
+        "ns1.regzone.info"
+    ]
+}

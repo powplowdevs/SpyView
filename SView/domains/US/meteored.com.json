@@ -1,0 +1,525 @@
+{
+    "domain": "meteored.com",
+    "owner": {
+        "name": "Alpred, S.L.",
+        "displayName": "Alpred"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "cmp",
+        "services"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "meteored\\.com\\/cmp\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "2b703e473dd0d099611455f2cd04c13db1c3e91fa09a4b396efdbf665568bdc5",
+                "f2e9341b9a26ca6d0026a8a36e806f2fa79308aa972ab469db5ad935f86c3c60",
+                "d0d091ac456c9511f8167e9704b7f5d7f1a7486a081913c27965c3ab554470b4",
+                "c44ec9e9d17c22f0c98c5321e71b1c2d0b59353b83e675f2ac38daf6333d0610",
+                "ff2696635d5f12ba563e328c9689a549f9bb1cf0cd40d186578a4fb23a34ef59",
+                "a95e61d48476bcac2c746df5a6f0806d8a12911278e890d7647b2692bd86dbf7",
+                "f96cdeab5f3aedc6f624006281f743b83890029ab44818a6bc4e27f81f4c2e08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/cmp\\/js\\/bundle\\/runtime\\/4d63a6112b44e69bdebf\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "1ed96f25d3314b887251fe64f8e41c787ed16a148641a5dfe7903b655e8aff1c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/cmp\\/js\\/bundle\\/vendor\\/0cc55638e334b3b03977\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "c2a7f91ecf49466bb4cf53d9ac195ff939cf2ba5a636aedc5e139e87aa95de74"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/cmp\\/js\\/bundle\\/cmp\\/2a9f8478fb8edec2a2f2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Document.cookie getter": 7,
+                "window.sessionStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "2f39f32bc3ba1f293a51e9e8296492d9d3f5519aaac3645524d57b103b1f4b16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/hurricanes\\/v4\\/notices\\/140\\/190\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "18aa37820c0bb880d5d82ffc0406c203af513b0d5e019c21860a7b15d3e11417"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.tameteo.nl"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/warnings\\/v4\\/loc\\/count\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "6936121bd44a9b0e92c98b2f6e49cbc57c6e6311d77bd2ab0b8014aa63bad776",
+                "268193e6bcc0a5f0b1a9e825c7975b3cc9c6975a8349d08b13d21c6bbff80f17",
+                "4db6662d216f2e72b17c11098b0b92844e464fbb8dcb471295c0a0f414c63552",
+                "6be8692cd8bc64117f53cf147599ef92662d5c07fb2b1a1349b50cbb2768c715",
+                "936600c81b3e57304001e5540cc821c7b9bd06b14ec1ae9a949a4d26177d4d7e",
+                "5c3abf2e6bc8347d588b5871eb8efd9e00e9d974a61cddd0f244077c0048452d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/cmp\\/js\\/bundle\\/common\\/chunk\\/eb21b51551facd87d7be\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "b0fc7e866a959204da701701ea45e6a8e5f677209426cd406a722d1622aa1e95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/cmp\\/template\\/main\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "8a3604649a7c0c41c616a988b1fa58a16b51edb08ef3b3489ffcff84efa60052",
+                "c280be7852828b7aacd0e304587412d0073c85fe32b182b2aa0ff0e64fc5d95f",
+                "d82f1b6c6cafaf4d6073297787f55c2346b73ea6f3534d5762d17b09a21c976d",
+                "0675ec068678f15d0112ae299e503f24365f23321d551ab3e22b5ebadb9b954a",
+                "2066806be414ac699c284c34f41bad142dc204eb523afa71b1edd82bf2a5e777",
+                "72673f26b977f1d43b68acefd897fa5ecfff3a40c1ba5c4874b61f16657fd234",
+                "bb5040b26111fc5f61659aa6873fbfe58229cf0449a667672ef5196fd7201f88"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/cmp\\/web\\/events\\/analytic\\/register",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/cmp\\/web\\/events\\/analytic\\/register",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/usr\\/v2\\/check\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "44a9a3568dbcd6aec99e306623d2010396ac20227b032c5659b0e696e93e07d0",
+                "5cce32bfb03a9ad2641593da33810dd246486dab4f8f0b26fe88ad20c836ec7c",
+                "3637059035a0f712df5c87cefb439307b6170afaab4218f23abb401fc7ced995",
+                "4817feacd87000c490033e7074b1cc54c5805801b20035cff57b3cc9ed99f6f8",
+                "dd8518b7a08c238a0f7cf0ed617db983298d0773969887cf66ffd23fe70b94a0",
+                "7c460e09d4da3fb993d1d2fbe3a26bc6e2651016a3c6e7a5012814472143c9f5",
+                "d73fa334bdf59c018380782d1f22589a26e75fb9ee5c31e8a5f86b73caef1968"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/usr\\/v2\\/check\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daswetter.com",
+                "www.ilmeteo.net",
+                "www.meteored.cl",
+                "www.meteored.com.ar",
+                "www.tameteo.nl",
+                "www.tameteo.com",
+                "www.theweather.com",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/search\\/weather\\/v4\\/uid\\/last\\/eu\\/en-US\\/1-11290",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "34b1e579ab91d1e78901f3304577e2e5dbec35a0d76f2d10a165644da04c2b17"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweather.com",
+                "www.theweather.com"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/weather\\/mixed\\/cookies\\/v4\\/1-11290\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b823deb8358ce658e49e228290ec8c4c5a63143082329a4fba813bd2068c2642"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweather.com",
+                "www.theweather.com"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/search\\/weather\\/v4\\/uid\\/last\\/eu\\/en-US\\/1-11859",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4277f49debcb51f0a373b7597e9e5d9a0cc7d639b04d383e62e23c101e18e404"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweather.com",
+                "www.theweather.com"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/weather\\/mixed\\/cookies\\/v4\\/1-11859\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a0b5ef3bade0d5748fc8d34e56b76df8f00614a89f1c47bbc9edf821a373d882"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweather.com",
+                "www.theweather.com"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/search\\/weather\\/v4\\/uid\\/last\\/eu\\/en-US\\/1-10379",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8fd338815e4e3f72a6165792333f2840afdf915c381256cae0c1489b5c41379a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweather.com",
+                "www.theweather.com"
+            ]
+        },
+        {
+            "rule": "meteored\\.com\\/web\\/weather\\/mixed\\/cookies\\/v4\\/1-10379\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0d28b8ff2cbf73c29591e9613460ba67304ec4f6f9ce27e9b072b9f932cc195d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweather.com",
+                "www.theweather.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 40,
+        "XHR": 29,
+        "Fetch": 17,
+        "Preflight": 17
+    },
+    "nameservers": [
+        "emily.ns.cloudflare.com",
+        "marek.ns.cloudflare.com"
+    ]
+}

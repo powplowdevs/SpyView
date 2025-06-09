@@ -1,0 +1,693 @@
+{
+    "domain": "abtasty.com",
+    "owner": {
+        "name": "AB Tasty",
+        "displayName": "AB Tasty"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00377,
+    "sites": 37,
+    "subdomains": [
+        "try",
+        "dcinfos-cache",
+        "ariane"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "abtasty\\.com\\/shared\\/commons\\.f6df72059769da430881\\.js",
+            "cookies": 0.00051,
+            "fingerprinting": 1,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "8f5efdec53a935668a6e256ae729994e7182388935556d950071a72804c59944"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ABTasty": {
+                    "ttl": 34214408,
+                    "length": 3,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "ABTastySession": {
+                    "ttl": 1808,
+                    "length": 5,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accor.com",
+                "www.alamy.com",
+                "www.hotel-bb.com",
+                "www.intimissimi.com",
+                "www.wmf.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/fbd276baf898444441ace09dc61a4f90\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "97e952b1403417e7d62b385d54fa29ed4b391a294158e88a32904314d19e8a6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blume2000.de",
+                "www.blume2000.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/commons\\.12c836eb88fdf410d455\\.js",
+            "cookies": 0.00214,
+            "fingerprinting": 1,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {
+                "Document.cookie getter": 21,
+                "Document.cookie setter": 21
+            },
+            "sites": 21,
+            "prevalence": 0.00214,
+            "cnames": [],
+            "responseHashes": [
+                "9c3b76d61dbdfdf5f7706c5dc61a2d603432bdd0c047e6fb9b9c60d4b4fed445"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ABTasty": {
+                    "ttl": 34214405,
+                    "length": 3,
+                    "prevalence": 0.001223865374808771,
+                    "uniqueness": 0.08333333333333333
+                },
+                "ABTastySession": {
+                    "ttl": 1805,
+                    "length": 5,
+                    "prevalence": 0.001223865374808771,
+                    "uniqueness": 0.08333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newsweek.com",
+                "www.wgv.de",
+                "blume2000.de",
+                "marc-o-polo.com",
+                "www.iu.de",
+                "www.fritz-berger.de",
+                "www.mdm.de",
+                "www.nordkurier.de",
+                "www.belastingdienst.nl",
+                "puma.com",
+                "www.tagesschau.de",
+                "www.sparhandy.de",
+                "www.gorewear.com",
+                "www.asics.com",
+                "www.schwaebische.de",
+                "www.muenchener-verein.de",
+                "www.manomano.de",
+                "www.blume2000.de",
+                "openvpn.net",
+                "qonto.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/fbd276baf898444441ace09dc61a4f90\\/main\\.398d23f8edd6aac0349a\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4fee8312360ffe2e4451b445b865472c50b539219ee0032eaaf0e4b8db6bb839"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ABTastyDomainTest": {
+                    "ttl": -1747363561,
+                    "length": 4,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blume2000.de",
+                "www.blume2000.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/me\\.e0c994d88b13c5a52123\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00245,
+            "cnames": [],
+            "responseHashes": [
+                "977126a0ae98ffbd6adaf7aa8e8ad5154c28bc5c0d0dfcfea1b32bdbcf87d3ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newsweek.com",
+                "puma.com",
+                "www.blume2000.de",
+                "www.hotel-bb.com",
+                "www.fritz-berger.de",
+                "www.wmf.com",
+                "marc-o-polo.com",
+                "www.asics.com",
+                "www.nordkurier.de",
+                "www.intimissimi.com",
+                "www.razer.com",
+                "www.iu.de",
+                "qonto.com",
+                "www.alamy.com",
+                "www.myhermes.de",
+                "www.schwaebische.de",
+                "www.muenchener-verein.de",
+                "blume2000.de",
+                "www.gorewear.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/analytics\\.350968f4fad4dfbd2efc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "ad13b74cf1b0f53660f01e3e4303844fc33063522ef236f56d87e3ef9deb790e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blume2000.de",
+                "www.blume2000.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/v1\\/ua-parser",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcinfos-cache"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00275,
+            "cnames": [],
+            "responseHashes": [
+                "64a51d79c813c3ad7e59e0910f77ff395c053ddfa34966278a4c89c578ca688a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.nordkurier.de",
+                "www.hotel-bb.com",
+                "www.asics.com",
+                "www.ubisoft.com",
+                "qonto.com",
+                "www.razer.com",
+                "www.wmf.com",
+                "eu.patagonia.com",
+                "www.myhermes.de",
+                "www.intimissimi.com",
+                "www.blume2000.de",
+                "www.alamy.com",
+                "puma.com",
+                "www.marc-o-polo.com",
+                "marc-o-polo.com",
+                "www.fritz-berger.de",
+                "www.mdm.de",
+                "blume2000.de",
+                "www.muenchener-verein.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/v1\\/geoip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dcinfos-cache"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00184,
+            "cnames": [],
+            "responseHashes": [
+                "3897a44401641b0e3d3c5ea90d74884fe416e2370c050f2dd196a7555bdf6719"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blume2000.de",
+                "marc-o-polo.com",
+                "puma.com",
+                "qonto.com",
+                "www.alamy.com",
+                "www.asics.com",
+                "www.blume2000.de",
+                "www.fritz-berger.de",
+                "www.gorewear.com",
+                "www.hotel-bb.com",
+                "www.marc-o-polo.com",
+                "www.mdm.de",
+                "www.muenchener-verein.de",
+                "www.razer.com",
+                "www.schwaebische.de",
+                "www.sparhandy.de",
+                "www.ubisoft.com",
+                "www.wmf.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ariane"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blume2000.de",
+                "qonto.com",
+                "www.alamy.com",
+                "www.asics.com",
+                "www.belastingdienst.nl",
+                "www.blume2000.de",
+                "www.fritz-berger.de",
+                "www.mdm.de",
+                "www.nordkurier.de",
+                "www.schwaebische.de",
+                "www.sparhandy.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/84fcf342ee774abac4a39f9151939b98\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1081e75947100c23b6aefbca726bd809897b40400327e9a37df9c04e9a263924"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "statista.com",
+                "www.statista.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/commons\\.4cda1915aacffe52022f\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "97e783a7d99c8b12c3c328e20f1a38fa9eb3657ec23707c6dcb9bf84c34df107"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ABTasty": {
+                    "ttl": 34214407,
+                    "length": 3,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "ABTastySession": {
+                    "ttl": 1807,
+                    "length": 5,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patagonia.com",
+                "www.razer.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/93d20c9a0e002bcc3b9e8bb055e8a65c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "216964e4568d34a01471f1aea7f386ba6ebd784a7c8dce898b95e4cf1009cf5f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/93d20c9a0e002bcc3b9e8bb055e8a65c\\/main\\.b4e137a6207cb38965db\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1e7cf1218e726755d7ef787004195168f1afd1c5ecc98df5c86d5e11df9c2520"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/analytics\\.16c03445688ca823523d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8b3354d412a9d43125d24468ddb84a849a607f86b549b2f3022f31979ad83f16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/cross-domain-iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0aac52b373e1cedbed04ba6d2ad9f668de22f4f58ab796d6dc84dc51422bc513"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openvpn.net",
+                "www.sparhandy.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/analytics\\.dd89727da199374504af\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "01589452c68fbe4ca4a2fe3cb93e12080ada51df14006472534d9efa540edbce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "puma.com",
+                "tamaris.com",
+                "www.asics.com",
+                "www.muenchener-verein.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/emotionsai",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ariane"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qonto.com",
+                "www.alamy.com",
+                "www.nordkurier.de",
+                "www.schwaebische.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/analytics\\.c608e8e52a6c570c7dc7\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "59a65ec5e2f90222d39dea6b3b8b0fa41feb45f3870a1349b921261ece9a614f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alamy.com",
+                "www.gorewear.com"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/analytics\\.f47a2917d93b62fa0d20\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e0fa696650eab26b81cfc1f1972d42b083a72875fc4f3d7d28e4851e0424dd75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belastingdienst.nl",
+                "www.manomano.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/analytics\\.994b8298f8ce5aa7895f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "d3521ea37504c3d16746c21202f605f4bb6eb9fe3c8e7becbaa1d493953c9036"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iu.de",
+                "www.mdm.de",
+                "www.myhermes.de"
+            ]
+        },
+        {
+            "rule": "abtasty\\.com\\/shared\\/me\\.0c0baf972ee8ec1c9481\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "try"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "18428e1eeeb79d8a3f07958584ea74cf4dd85498b487b79250f3944f70b5b67d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manomano.de",
+                "www.sparhandy.de",
+                "www.wgv.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.00316,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7222222222222222
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.1527777777777778
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.013888888888888888
+        }
+    ],
+    "types": {
+        "Script": 81,
+        "Fetch": 61,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-1919.awsdns-47.co.uk",
+        "ns-673.awsdns-20.net",
+        "ns-1493.awsdns-58.org",
+        "ns-306.awsdns-38.com"
+    ]
+}

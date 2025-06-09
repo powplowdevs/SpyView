@@ -1,0 +1,79 @@
+{
+    "domain": "webfg.ch",
+    "owner": {
+        "name": "Julio Bueso",
+        "displayName": "Julio Bueso"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "prod1.solutions"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "webfg\\.ch\\/restweb\\/chartsdata\\/998032-830-814",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod1.solutions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vermoegenszentrum.de",
+                "www.vermoegenszentrum.de"
+            ]
+        },
+        {
+            "rule": "webfg\\.ch\\/restweb\\/chartsdata\\/998032-830-814",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod1.solutions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "515e51057260109c3d62b177e535762aa7e0f205ce15d3d77a11a68c7d940e1c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vermoegenszentrum.de",
+                "www.vermoegenszentrum.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dns01.webfg.ch",
+        "pns31.cloudns.net",
+        "pns32.cloudns.net"
+    ]
+}

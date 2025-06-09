@@ -1,0 +1,160 @@
+{
+    "domain": "zoominfo.com",
+    "owner": {
+        "name": "Zoom Information, Inc.",
+        "displayName": "Zoom Information"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [
+        "schedule",
+        "ws-assets",
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zoominfo\\.com\\/zischedule\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "schedule"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3f97d633d3e1f8787cd265d7c025243095074a6b577245ed9be2bfda35a69d3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dzone.com",
+                "www.mongodb.com"
+            ]
+        },
+        {
+            "rule": "zoominfo\\.com\\/formcomplete\\.js",
+            "cookies": 0.00051,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "dcb09186a3d016b8ae56ecd0cb76f787254388177fc8318061d619b56a7d81b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dzone.com",
+                "pitchbook.com",
+                "pro.arcgis.com",
+                "resources.altium.com",
+                "www.mongodb.com"
+            ]
+        },
+        {
+            "rule": "zoominfo\\.com\\/formcomplete-v2\\/forms",
+            "cookies": 0.000408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dzone.com",
+                "pro.arcgis.com",
+                "resources.altium.com",
+                "www.mongodb.com"
+            ]
+        },
+        {
+            "rule": "zoominfo\\.com\\/formcomplete-v2\\/forms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "53b7b20f47265694fef3a98e1a93daa24475dad1984eda8618c3354030abb3dd",
+                "d6d80a461d70c6a5dc9deeb0cbb6efb677c48568dce8debd667e554fceddcb06",
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dzone.com",
+                "pro.arcgis.com",
+                "resources.altium.com",
+                "www.mongodb.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00112,
+    "topInitiators": [
+        {
+            "domain": "zi-scripts.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2777777777777778
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "fullstory.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "prismic.io",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "queue-it.net",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "rita.ns.cloudflare.com",
+        "tim.ns.cloudflare.com"
+    ]
+}

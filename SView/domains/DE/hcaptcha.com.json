@@ -1,0 +1,276 @@
+{
+    "domain": "hcaptcha.com",
+    "owner": {
+        "name": "Intuition Machines, Inc.",
+        "displayName": "Intuition Machines"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00184,
+    "sites": 18,
+    "subdomains": [
+        "js",
+        "newassets",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "hcaptcha\\.com\\/1\\/api\\.js",
+            "cookies": 0.00184,
+            "fingerprinting": 3,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 18,
+                "console.memory": 16,
+                "Navigator.prototype.language": 18,
+                "Navigator.prototype.maxTouchPoints": 18,
+                "window.innerWidth": 18,
+                "window.innerHeight": 18,
+                "Screen.prototype.availWidth": 18,
+                "Screen.prototype.availHeight": 18,
+                "Screen.prototype.width": 18,
+                "Screen.prototype.height": 18,
+                "Screen.prototype.colorDepth": 18,
+                "Screen.prototype.pixelDepth": 18,
+                "Screen.prototype.availLeft": 18,
+                "Screen.prototype.availTop": 18,
+                "Screen.prototype.orientation": 18,
+                "Navigator.prototype.vendorSub": 18,
+                "Navigator.prototype.productSub": 18,
+                "Navigator.prototype.vendor": 18,
+                "Navigator.prototype.doNotTrack": 18,
+                "Navigator.prototype.connection": 18,
+                "Navigator.prototype.plugins": 18,
+                "Navigator.prototype.mimeTypes": 18,
+                "Navigator.prototype.webkitTemporaryStorage": 18,
+                "Navigator.prototype.hardwareConcurrency": 18,
+                "Navigator.prototype.cookieEnabled": 18,
+                "Navigator.prototype.appCodeName": 18,
+                "Navigator.prototype.appName": 18,
+                "Navigator.prototype.appVersion": 18,
+                "Navigator.prototype.platform": 18,
+                "Navigator.prototype.product": 18,
+                "Navigator.prototype.languages": 18,
+                "Navigator.prototype.onLine": 18,
+                "Navigator.prototype.webdriver": 17,
+                "Navigator.prototype.keyboard": 18,
+                "Navigator.prototype.mediaDevices": 18,
+                "Navigator.prototype.storage": 18,
+                "Navigator.prototype.deviceMemory": 18,
+                "Navigator.prototype.mediaCapabilities": 18,
+                "Navigator.prototype.permissions": 18,
+                "Navigator.prototype.presentation": 18,
+                "window.devicePixelRatio": 18
+            },
+            "sites": 18,
+            "prevalence": 0.00184,
+            "cnames": [],
+            "responseHashes": [
+                "1d8f8ae4c6b47cd7ee96ee4c5c2f622c7e876b514feef68e05e1b7259b050708"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docker.com",
+                "docs.espressif.com",
+                "docs.nvidia.com",
+                "esp32.com",
+                "forum.iobroker.net",
+                "helpcenter.veeam.com",
+                "suno.com",
+                "wolt.com",
+                "www.bingenheimersaatgut.de",
+                "www.bueroshop24.de",
+                "www.electrive.net",
+                "www.livejasmin.com",
+                "www.museum-barberini.de",
+                "www.mytheresa.com",
+                "www.office-discount.de",
+                "www.sunexpress.com",
+                "www.veeam.com",
+                "www.visitduesseldorf.de"
+            ]
+        },
+        {
+            "rule": "hcaptcha\\.com\\/captcha\\/v1\\/a06d3b476b91a921b59b6903a8d913fadd871d2f\\/static\\/hcaptcha\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newassets"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "d222542d9356d5c13378367edc9671a073484522a41e4838a354cc2bf01a8377"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docker.com",
+                "docs.docker.com",
+                "docs.espressif.com",
+                "esp32.com",
+                "helpcenter.veeam.com",
+                "suno.com",
+                "www.bingenheimersaatgut.de",
+                "www.bueroshop24.de",
+                "www.electrive.net",
+                "www.office-discount.de",
+                "www.sunexpress.com",
+                "www.veeam.com"
+            ]
+        },
+        {
+            "rule": "hcaptcha\\.com\\/checksiteconfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "cf1a79f3141070327c71f4a045cf567b920ce7c42f3f91403830cd2954942180",
+                "612f6494cfb1e550e490dcb783e66458773e7f10f8c0e1f067cae2e716d3cfa9",
+                "c20ff8262efd37e44aed3ecaa63ad0bd11f3d2cb8f35c44b9a4203e13cc95c18",
+                "91bd18011191227980870b36998a7dc293658f6eb56e6c4f42cc40355103921e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esp32.com",
+                "www.bueroshop24.de",
+                "www.electrive.net",
+                "www.office-discount.de",
+                "www.sunexpress.com"
+            ]
+        },
+        {
+            "rule": "hcaptcha\\.com\\/c\\/020a8a0929d3b1a67ddaad028998f3efa80db23cc8386b6c5491d245a22d4200\\/hsw\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "newassets"
+            ],
+            "apis": {
+                "Navigator.prototype.connection": 1,
+                "window.devicePixelRatio": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.plugins": 1,
+                "URL.createObjectURL": 1,
+                "SharedWorker.prototype.constructor": 1,
+                "OfflineAudioContext.prototype.constructor": 1,
+                "RTCPeerConnection.prototype.constructor": 1,
+                "speechSynthesis.__proto__.getVoices": 1,
+                "Performance.prototype.memory": 1,
+                "Navigator.prototype.storage": 1,
+                "Navigator.prototype.webkitTemporaryStorage": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Screen.prototype.pixelDepth": 1,
+                "window.outerWidth": 1,
+                "window.outerHeight": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1,
+                "CanvasRenderingContext2D.prototype.measureText": 1,
+                "AudioBuffer.prototype.getChannelData": 1,
+                "Element.prototype.getClientRects": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "MediaSource.isTypeSupported": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.webdriver": 1,
+                "WebGL2RenderingContext.prototype.getParameter": 1,
+                "WebGL2RenderingContext.prototype.getShaderPrecisionFormat": 1,
+                "WebGL2RenderingContext.prototype.getExtension": 1,
+                "WebGL2RenderingContext.prototype.getContextAttributes": 1,
+                "WebGL2RenderingContext.prototype.getSupportedExtensions": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.mimeTypes": 1,
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "Navigator.prototype.keyboard": 1,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1,
+                "window.indexedDB": 1,
+                "Notification.permission": 1
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "3ddedfec4ba4c5c4f10b87190e860be696c900206917e28e71043db6d162826f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esp32.com",
+                "www.bueroshop24.de",
+                "www.electrive.net",
+                "www.office-discount.de",
+                "www.sunexpress.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00184,
+    "topInitiators": [
+        {
+            "domain": "kapa.ai",
+            "prevalence": 0.32608695652173914
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.32608695652173914
+        },
+        {
+            "domain": "hcaptcha.com",
+            "prevalence": 0.2608695652173913
+        },
+        {
+            "domain": "cahosting.de",
+            "prevalence": 0.043478260869565216
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.021739130434782608
+        },
+        {
+            "domain": "perfdrive.com",
+            "prevalence": 0.021739130434782608
+        }
+    ],
+    "types": {
+        "Script": 23,
+        "Document": 12,
+        "XHR": 5
+    },
+    "nameservers": [
+        "josh.ns.cloudflare.com",
+        "eva.ns.cloudflare.com"
+    ]
+}

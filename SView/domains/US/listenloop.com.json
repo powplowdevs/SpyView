@@ -1,0 +1,74 @@
+{
+    "domain": "listenloop.com",
+    "owner": {
+        "name": "LISTENLOOP by SR SOLUTIONS",
+        "displayName": "LISTENLOOP by SR SOLUTIONS"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "v2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "listenloop\\.com\\/analytics\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "v2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "ee6a30dfcf0eaa04539934d74860a2b0a3db4bd73689026db58af521f11cbddc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "secure.adobesign.com",
+                "www.applitrack.com",
+                "www.frontlineeducation.com",
+                "www.ironmountain.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "adobe.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "frontlineeducation.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "cloe.ns.cloudflare.com",
+        "neil.ns.cloudflare.com"
+    ]
+}

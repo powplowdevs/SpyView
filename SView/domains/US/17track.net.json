@@ -1,0 +1,142 @@
+{
+    "domain": "17track.net",
+    "owner": {
+        "name": "Demon Network Tech Co., Ltd",
+        "displayName": "Demon Network Tech"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000099,
+    "sites": 14,
+    "subdomains": [
+        "shopify-proxy",
+        "shopify"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "17track\\.net\\/protection\\/shopify\\/widget-embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify-proxy"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "f93f4fde3efa91bcbb3cbd3e3267f03115349dcc17f391f512c1f7e7887aa4d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biqu.equipment",
+                "birdfy.com",
+                "mechmaxx.com",
+                "twoseasarts.com",
+                "www.birdfy.com",
+                "www.enginediy.com",
+                "www.wattcycle.com"
+            ]
+        },
+        {
+            "rule": "17track\\.net\\/protection\\/shopify\\/assets\\/index-Brp5OVVn\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify-proxy"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "9540cf465402e4a700eebbe72dee9da744a9674263b8664ff7fca7b8950ca9c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biqu.equipment",
+                "birdfy.com",
+                "twoseasarts.com",
+                "www.anker.com",
+                "www.birdfy.com",
+                "www.enginediy.com",
+                "www.eufy.com",
+                "www.soundcore.com",
+                "www.wattcycle.com"
+            ]
+        },
+        {
+            "rule": "17track\\.net\\/protection\\/shopify\\/widget-embed-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify-proxy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6fb6b7e4c4508c8ce3619e74629767f7e11c9e61e570d5539f55c621e6d63eda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anker.com",
+                "www.eufy.com",
+                "www.soundcore.com"
+            ]
+        },
+        {
+            "rule": "17track\\.net\\/consumer-api\\/get-profile-config%2F3\\.0%3Fshop_name%3Denginediy%26theme_store_id%3D838",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ae700634bd07c4f2f3d6a2e69910554fa9e84580f44555e5d931e76d9f5c7cf6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enginediy.com",
+                "www.enginediy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6551724137931034
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.3448275862068966
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns3.dnsv4.com",
+        "ns4.dnsv4.com"
+    ]
+}

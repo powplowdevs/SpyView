@@ -1,0 +1,112 @@
+{
+    "domain": "retailrocket.net",
+    "owner": {
+        "name": "Retail Rocket",
+        "displayName": "Retail Rocket"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "retailrocket\\.net\\/content\\/javascript\\/tracking\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "8fe8fb65bf04c8d7322693617cd1efea18b77c59a482dd80b6b878fa7a094274"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rr-testCookie": {
+                    "ttl": 14,
+                    "length": 9,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "rrpvid": {
+                    "ttl": 31536005,
+                    "length": 15,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "rcuid": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutricionyfarmacia.com",
+                "www.a-alvarez.com",
+                "www.welkoop.nl"
+            ]
+        },
+        {
+            "rule": "retailrocket\\.net\\/api\\/markupblocks\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9cc753087e1c2bff86bb49399a326e3410f8e42920b35caebf466fe26296d3d4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rrpvid": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "nutricionyfarmacia.com",
+                "www.welkoop.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "retailrocket.ru",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "alaric.ns.cloudflare.com",
+        "ullis.ns.cloudflare.com"
+    ]
+}

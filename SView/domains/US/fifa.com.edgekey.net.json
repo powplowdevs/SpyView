@@ -1,0 +1,173 @@
+{
+    "domain": "fifa.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "play",
+        "cxm-api"
+    ],
+    "cnames": [
+        {
+            "original": "cxm-api.fifa.com",
+            "resolved": "cxm-api.fifa.com.edgekey.net"
+        },
+        {
+            "original": "play.fifa.com",
+            "resolved": "play.fifa.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "fifa\\.com\\.edgekey\\.net\\/components\\/main\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "play.fifa.com",
+                    "resolved": "play.fifa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "72231566c81bd880388c4e9c55e7176f5b0a8e4293fbb847503dc77bdd3e554b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fifa.com",
+                "www.fifa.com"
+            ]
+        },
+        {
+            "rule": "fifa\\.com\\.edgekey\\.net\\/fifaplusweb\\/api\\/themePalette",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cxm-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cxm-api.fifa.com",
+                    "resolved": "cxm-api.fifa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "458141ff311b852f6d354debe8f2bcb6fdd59cb0d6ceaf878e131cdfbb320fdd"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fifa.com",
+                "www.fifa.com"
+            ]
+        },
+        {
+            "rule": "fifa\\.com\\.edgekey\\.net\\/fifaplusweb\\/api\\/headerManagement",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cxm-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cxm-api.fifa.com",
+                    "resolved": "cxm-api.fifa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fifa.com",
+                "www.fifa.com"
+            ]
+        },
+        {
+            "rule": "fifa\\.com\\.edgekey\\.net\\/fifaplusweb\\/api\\/resources",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cxm-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cxm-api.fifa.com",
+                    "resolved": "cxm-api.fifa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "74cb89693d94ab688f708b8fe3577dde54499e8686e41b3c687fb84286b3b122"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fifa.com",
+                "www.fifa.com"
+            ]
+        },
+        {
+            "rule": "fifa\\.com\\.edgekey\\.net\\/fifaplusweb\\/api\\/themePalette",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cxm-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "cxm-api.fifa.com",
+                    "resolved": "cxm-api.fifa.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "458141ff311b852f6d354debe8f2bcb6fdd59cb0d6ceaf878e131cdfbb320fdd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fifa.com",
+                "www.fifa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Script": 2,
+        "Other": 2,
+        "XHR": 6
+    },
+    "nameservers": []
+}

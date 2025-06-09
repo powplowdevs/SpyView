@@ -1,0 +1,194 @@
+{
+    "domain": "mezereon.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "api",
+        "cdn",
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mezereon\\.net\\/api\\/1\\.0\\/search\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fabricdepot.com",
+                "www.everythingpolarisranger.com"
+            ]
+        },
+        {
+            "rule": "mezereon\\.net\\/api\\/1\\.0\\/search\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "441eb51582bf6f38af06faaad4bef8d6dbc796fe6f02e5a550ebb4f49447a7a8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fabricdepot.com",
+                "www.everythingpolarisranger.com"
+            ]
+        },
+        {
+            "rule": "mezereon\\.net\\/assets\\/icons\\/tick\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f4ef8578e841b806d6d307037662be35beea0727cc74bd88d7e7942bb3c12bda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fabricdepot.com",
+                "www.everythingpolarisranger.com"
+            ]
+        },
+        {
+            "rule": "mezereon\\.net\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fabricdepot.com",
+                "www.everythingpolarisranger.com"
+            ]
+        },
+        {
+            "rule": "mezereon\\.net\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fabricdepot.com",
+                "www.everythingpolarisranger.com"
+            ]
+        },
+        {
+            "rule": "mezereon\\.net\\/api\\/1\\.0\\/search\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grandbrass.com",
+                "www.everythingpolarisranger.com",
+                "www.yakattack.us"
+            ]
+        },
+        {
+            "rule": "mezereon\\.net\\/api\\/1\\.0\\/search\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "78e5f8530d44e5da208d0d181daecc7d1a2470c77c87d1622a26623705abce23",
+                "377a8967f94d45a12d92226991d843b913316e770a9401849ddb08841e09176e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grandbrass.com",
+                "www.everythingpolarisranger.com",
+                "www.yakattack.us"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Preflight": 7,
+        "Fetch": 5,
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com"
+    ]
+}

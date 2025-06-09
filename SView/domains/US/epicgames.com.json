@@ -1,0 +1,86 @@
+{
+    "domain": "epicgames.com",
+    "owner": {
+        "name": "Epic Games, Inc.",
+        "displayName": "Epic Games"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "tracking"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "epicgames\\.com\\/tracking\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "8918692f222018ef5fd1286856c58e56f19bc3d7cace0fa22639148421681991"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artstation.com",
+                "www.fallguys.com"
+            ]
+        },
+        {
+            "rule": "epicgames\\.com\\/track\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artstation.com",
+                "www.artstation.com",
+                "www.fallguys.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns-286.awsdns-35.com",
+        "ns-1720.awsdns-23.co.uk",
+        "ns-992.awsdns-60.net",
+        "ns-1094.awsdns-08.org"
+    ]
+}

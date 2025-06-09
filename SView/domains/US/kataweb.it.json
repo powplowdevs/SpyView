@@ -1,0 +1,121 @@
+{
+    "domain": "kataweb.it",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "scripts",
+        "oasjs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kataweb\\.it\\/wt\\/wt\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "e2c210c9b2a5c08a0d5056bf8b49e2b95bb6d2755094e29e490867a9c185263f",
+                "004fa578ab110496ddc67ffd2709cf6672c413654bae075ebedaebedd8a4efc0",
+                "272f3b60c2ca66ecf23b6d1b4c410f42125ebed700031b207032cb1735ca3df0",
+                "15febc4819ad059b1713a7c6f5a3dcf6130b242148a5d5eb89f4dc146a259c20",
+                "45d0b1aaf57e7716c81ef3d8b46cd1285d537dced00f2d5455b32f5a24c15eeb",
+                "7865b392be562f22fe4879370eaeb423c8875a64c0f05ee2fa1a6c864cc61e6f",
+                "953f6f54fddfe79e6dabd874b9b4a2fd4bf845bcb5cf3c217129e3608cae987d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cb_svref": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "alfemminile.com",
+                "www.alfemminile.com",
+                "www.deejay.it",
+                "www.formulapassion.it",
+                "www.huffingtonpost.it",
+                "www.ilsecoloxix.it",
+                "www.lastampa.it",
+                "www.repubblica.it"
+            ]
+        },
+        {
+            "rule": "kataweb\\.it\\/adsetup\\.real\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "oasjs"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "169eaf90550a5a71083922c367b173efd26834a4661f0ecbc79b8b5990c897fa",
+                "7ea6e3cc1870a82872d0295f880245d8620092801fee75e5e5337b0c3bb138f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alfemminile.com",
+                "www.alfemminile.com",
+                "www.deejay.it"
+            ]
+        },
+        {
+            "rule": "kataweb\\.it\\/zbanner_consorzio\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "repubblica.it",
+                "www.repubblica.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "gedidigital.it",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 13
+    },
+    "nameservers": [
+        "ns-1380.awsdns-44.org",
+        "ns-30.awsdns-03.com",
+        "ns-953.awsdns-55.net",
+        "ns-1737.awsdns-25.co.uk"
+    ]
+}

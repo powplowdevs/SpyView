@@ -1,0 +1,157 @@
+{
+    "domain": "proofpoint.com",
+    "owner": {
+        "name": "Proofpoint, Inc.",
+        "displayName": "Proofpoint"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00012,
+    "sites": 17,
+    "subdomains": [
+        "urldefense",
+        "securelogin-us1.protect"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "proofpoint\\.com\\/v2\\/url",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "urldefense"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "fd6d8dbc66512f9548655217bc4151d41955c32007e1131ce39768ac53fe7690",
+                "d1e8a1f74e308b3a1dbb63107dfd162276e0e00ba0f97fc8b398f8b727c67f82",
+                "82236c41780dc6208fc2c2c16f4a381391340c4ebcdcd86b1a72a6c4e36187b8",
+                "17df3a3167676b3b9e8c8cbf7ee95904d9477a5a5c3c43eecd5be194c948f30a",
+                "3f588cefefebf9ee69241df57152c2ae52d97669115322554d654df9139edb83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_gd_visitor": {
+                    "ttl": 63158416,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_gd_session": {
+                    "ttl": 14416,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "rbuid": {
+                    "ttl": 2592003,
+                    "length": 41,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gomotive.com",
+                "us.dealertrack.com",
+                "www.msg.com",
+                "www.northwest.bank",
+                "www.sunstateequip.com",
+                "www.visitgreenvillesc.com",
+                "www.woodlandscenter.org"
+            ]
+        },
+        {
+            "rule": "proofpoint\\.com\\/v2\\/url",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "urldefense"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+                "f3882f998713d264095c3b132fade64a677f2a51ffc7a1e6703bb76aa210616f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mgmresorts.com",
+                "mgmgrand.mgmresorts.com",
+                "parkmgm.mgmresorts.com",
+                "www.lotterywest.wa.gov.au",
+                "www.unitedagandturf.com",
+                "www.visitgreenvillesc.com"
+            ]
+        },
+        {
+            "rule": "proofpoint\\.com\\/public\\/inigo\\/DeltaAirLines\\/saml\\/O365_PF\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "securelogin-us1.protect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delta.com",
+                "ssaa.delta.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7222222222222222
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Image": 6,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.proofpoint.com",
+        "ns3.proofpoint.com",
+        "pdns99.ultradns.biz",
+        "pdns99.ultradns.com",
+        "pdns99.ultradns.net",
+        "pdns99.ultradns.org"
+    ]
+}

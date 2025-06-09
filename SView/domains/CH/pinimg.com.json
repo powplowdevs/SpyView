@@ -1,0 +1,163 @@
+{
+    "domain": "pinimg.com",
+    "owner": {
+        "name": "Pinterest, Inc.",
+        "displayName": "Pinterest",
+        "privacyPolicy": "https://policy.pinterest.com/en/privacy-policy",
+        "url": "http://pinterest.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0133,
+    "sites": 130,
+    "subdomains": [
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pinimg\\.com\\/ct\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 126,
+            "prevalence": 0.0129,
+            "cnames": [],
+            "responseHashes": [
+                "4dcc63f7d8103225fdef27e536a7ef191efca98ee1c806bc1795ad1d483e235e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.com",
+                "get.adobe.com",
+                "helpx.adobe.com",
+                "mashable.com",
+                "www.digitaltrends.com",
+                "www.ebay.com",
+                "www.zillow.com",
+                "creately.com",
+                "www.tuasaude.com",
+                "www.kpt.ch",
+                "www.sunrise.ch",
+                "www.news.com.au",
+                "micasa.ch",
+                "www.similasan.swiss",
+                "de.toyota.ch",
+                "www.beauxarts.com",
+                "www.vivino.com",
+                "www.penguinrandomhouse.com",
+                "www.doitgarden.ch",
+                "depositphotos.com"
+            ]
+        },
+        {
+            "rule": "pinimg\\.com\\/ct\\/lib\\/main\\.8821a9da\\.js",
+            "cookies": 0.00955,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "window.sessionStorage": 105,
+                "Document.cookie getter": 102,
+                "window.localStorage": 105,
+                "Date.prototype.getTime": 105,
+                "Screen.prototype.height": 103,
+                "Screen.prototype.width": 103,
+                "Document.cookie setter": 93,
+                "NavigatorUAData.prototype.getHighEntropyValues": 60
+            },
+            "sites": 123,
+            "prevalence": 0.0126,
+            "cnames": [],
+            "responseHashes": [
+                "8fdbfa23058836e9a847e16898c904faa58a54b48830af1df5a344bb69b591e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pin_unauth": {
+                    "ttl": 31536010,
+                    "length": 70,
+                    "prevalence": 0.00944558521560575,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.com",
+                "get.adobe.com",
+                "helpx.adobe.com",
+                "mashable.com",
+                "www.digitaltrends.com",
+                "www.ebay.com",
+                "www.zillow.com",
+                "www.bexio.com",
+                "www.kpt.ch",
+                "beliani.ch",
+                "www.schaefer-shop.ch",
+                "www.ticino.ch",
+                "fonts.adobe.com",
+                "www.sheetmusicdirect.com",
+                "www.japan-experience.com",
+                "www.zweifel.ch",
+                "www.vivino.com",
+                "micasa.ch",
+                "www.swissmilk.ch",
+                "www.einfachmalene.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Social - Share",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00955,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5548387096774193
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.36774193548387096
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.025806451612903226
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.01935483870967742
+        },
+        {
+            "domain": "bmw.com",
+            "prevalence": 0.012903225806451613
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.012903225806451613
+        },
+        {
+            "domain": "ebay.com",
+            "prevalence": 0.0064516129032258064
+        }
+    ],
+    "types": {
+        "Script": 249
+    },
+    "nameservers": [
+        "ns5.pinterest.com",
+        "ns6.pinterest.com",
+        "ns9.pinterest.com",
+        "ns10.pinterest.com"
+    ]
+}

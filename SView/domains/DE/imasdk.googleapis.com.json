@@ -1,0 +1,353 @@
+{
+    "domain": "imasdk.googleapis.com",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0101,
+    "sites": 99,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "imasdk\\.googleapis\\.com\\/pal\\/sdkloader\\/pal\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "Date.prototype.getTime": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.colorDepth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "thehill.com"
+            ]
+        },
+        {
+            "rule": "imasdk\\.googleapis\\.com\\/js\\/sdkloader\\/ima3\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 67,
+                "Navigator.prototype.deviceMemory": 63,
+                "NavigatorUAData.prototype.brands": 41,
+                "Screen.prototype.availHeight": 41,
+                "Screen.prototype.availWidth": 41,
+                "Notification.permission": 33,
+                "Navigator.prototype.plugins": 33,
+                "PerformanceTiming.prototype.navigationStart": 24
+            },
+            "sites": 94,
+            "prevalence": 0.00959,
+            "cnames": [],
+            "responseHashes": [
+                "47498e10d74b64cc29facf109354dd40d6b554c67e51eca75842752fe7abfba1",
+                "fdeb4118380a7b25518f87280e8e0a0f263f5d9d9f0608f33a6cf3c391e7b943",
+                "2f3d278bcdfc71dd0105b15c276eff5c3ee96e47c3901cfb6db0f975490b5e20",
+                "138b162e2d7e4aeb5c5bce680b44e112df2ac4630a38f7a329ec423fe150eab2",
+                "71a9ec413a2bd89fd58bbbd8622039aa48d24241319d26ea814a7c34c9cab037",
+                "9a42dc2c12f112161a5fc4689d2d1ebc03f55d77816dd917a713ef877b9311c7",
+                "78962e216297f7a08380f0352b273a4156f0bf728484f7f6c33a6c49e7f6edb6",
+                "c3c336e3c9d2fb1d46c64a7522218a49d8ed866db69aa5d7e9840b6cec9fdf7a",
+                "2b24a3299dac0155253c93bfb2c930151488d4fb2902d7402b9a96120f44f930",
+                "6a526329c57e1ad79cc216311135b6ca37b396baf876d7b316cdb08fad8cca8e",
+                "fcc9732dda2eacba92abf79c5b474c1b9cfd698e0f623746787978f6085a1835",
+                "76e6e4c946abd4a70fafe520fd0a0f1558f0e76d2145a5d23c01dcbe5a464ed1",
+                "b3df54d896cfba870b82b3798a2f96fb884e54a87577ee9f24f004371c3dc84d",
+                "907a172be5ba34a04a3a778a5949905732ce04458344677da0f272179257ed1d",
+                "3361f07245987461d821a15e117a950f297f269e3fff845d83fa83efb806d647",
+                "5a341aef394b5248f1b44eae81422e337eed32b2235fb3baacd8815bc52cc880",
+                "3d1679ca4f1fa77af130d5c83da9d39d1b0f58406451f5093e625ebc252caaf9",
+                "4a0d18ca7d14dc5284f3fe38a0658ed0cd6fc7408dc9a3fb434189e00c93c8cf",
+                "ce7109d3df12eb320922c70b6be452b0ad1d15457299abde145909efe0277940",
+                "14dd9993f19104a38183d9b3b2721fa89d3eeed7217435b611ace6eee5462b3f",
+                "e2eb60da960759116d947d1306e07cfa829f1f1e2e8f87fb7f05620636311011",
+                "f173076a25291dd704f5f16bd15a62122bbc6b1a43f795c58da1e0c950c7a44d",
+                "7dc97378b552df302aa0ddd9d3afbbb8a4cfe505f7008b095f31fe3cf6c761ce",
+                "06538a642fd0e7068c0c8f417fb1dd77944c04077fdaaa4f904e4a49affc3580",
+                "951c275284cb1cee606c727df17d1b7ad3f57770e8c182b1d55172378fe46f43",
+                "2ffaf5461bb9b6f53c62891bb838d638775301ec42e97f816b2c9ac314e84395",
+                "d8be138d47a5c0072beadf7a052db651d48e085c92eddbc388ef75d9df55162f",
+                "3b83dc0571dd602adb17635f29e2dc7ea1f646142c7b62f5554cc5887089a079",
+                "84c016ceba371eb269be0d2bc422f6dd4eaed8ce87d1190e3f88a95df247184b",
+                "6429f8b41be4c49267e2e4fe8c52571976c03108e4126b05249f733341b82e97",
+                "af04825d5d2c0752a87d127043c2433599638aa0ef2ce2046e9198d890a6aa1c",
+                "f28de5cab82678a45fecaee65d229600f17cc8dc178dd0f4745aedc925f64ee2",
+                "280cb6fdc54699d456190954403a8f8958567abf2940dd5f411a6e43d0d8cb3f",
+                "e40e37bd47131056d615d056984eb365f42703a402db3843a5006c6330db4a6b",
+                "72870d49a47f4266c4b5c5d1a6714a8e90aa55696e6c6a052738bb2ffada22fd",
+                "bab14bc198c15191cd36afa34a931e15fadc4cefb1177111469b5aaec713e63d",
+                "e0b54b69fa9782a0e700ab9fb512aeb16c8fe28b3afe24ffc2d0db14da801b5f",
+                "7b8b4d2a4950327622d47280d78a0e956e6fa67d3bc02274fb0f1f43eb50b6dd",
+                "0c9cc0ad90d2b986a92d591287267fea646669d10e255d62384234b49cbd8c5e",
+                "11705f24d028f1e6544c1a96929d6f9ed025075422721b71bf9d9e161a57fc96",
+                "583307167d64d43f96130c7c35c938eba57a6439a4f3b4a682db80d6f6c31556",
+                "0219b46047f6b6224219abc577d83c5ce3f9ad5c981799131f4b6421630ba881",
+                "1454d2ebb6c78903a54a004d9bceb2dbfc0a969e4abd5638bba6d738daf319ab",
+                "51d0e01b2a8594121f78e43867747711a52f00871a89debf827c51a55c64d8a4",
+                "dbb42634defb6fd167f2314ca7724cf95e02780f4352a34ebde25fa24112319b",
+                "b38f0bde9772203578bd4d8d1302594b023e683c8fd6d04882691fad7bbedf54",
+                "49dc98b94fbc5d807f699645098ce6966eceffb9ff488ce04a96ee19e5406325",
+                "2c1648c5ef2262240fbb78492ba80b9c8251caa657bcc7b9d8f3831e294a378b",
+                "a0728c5db970666dd87e4a0681215e72c4f7d70508ef9c80f2d903003378cb58",
+                "fc908ec8faa074fbb65947fe55c61568db8add13c13e1d64aed923696bdb1a7a",
+                "00ee7f8bd274f77e2a442384d0bcf7c1391b6e67fa24fdfce92a48e77d14b087",
+                "051b08261119bbb2f7363a91d58431796656c644d04b47e45b66e7cd5a066f11",
+                "1300836f3bfed374bc68e40374f662ba1e930d354157fab8910d2ec58687e76c",
+                "4c0c684a8d167f76e1b7ba3c2907a71966e12d89ca7daa956f8c00022e3db93f",
+                "d1b857d575c8e935b98383bb5d8e2216886d34dd01df0f192763afa4a86b833a",
+                "d17fb7d90cb54218c7674434429a975e8018f00aed9915e65192f8493d6d03cf",
+                "55878ab249750ab126f8fcc25fcf17c90fbc57c1d0cc0a97b03d14a4715d627b",
+                "5e55af68fae54b1116d78d330167435c4b024f1bedb00609c616a33a77b62ddd",
+                "ff4617a12f99448e77a2798a2df7e9b91dbccdaf8a59ca850098cb42d235eec9",
+                "4b39e786e29266948e81ebd099209304c5e2137e4f074a131b4a25d2477181ea",
+                "a56dd5e295ae1e44a92928022482adbc45845a801fefece6b91a7ad4a5667797",
+                "a33b87b42097f0a78562427371316443d0374bfac9b5edbb204ad42a62ce5511",
+                "525ea3627c7ab777b5d6c4d28d0c24c5f8e48ee55ff389bc71edc4ad030d9020",
+                "542cb9c38d125cb57745fb8e952be9928003987f1b126d0045e98b8557c81164",
+                "5921cd240b840cd638ec569fb87e048cf4decc7cfe9097cd778fd698c5d5e668",
+                "52d2dae617e83e227dac23b8eb55de84b5bddc18cdca41e88b46c80019697b60",
+                "9806ec7cfd62212d84fcc06ee1bbcf1a654d4fc47375d818f9b9a9e06821c7da",
+                "07b1c1816808b1307544131ef68bd321584225d419e83d4df7cefb8279a48ad0",
+                "f078dd0534511755c0a3855f1738fd49a0747d5c213cc6560278e7519602accc",
+                "fa10862e69c5dd61bb26763d2219fb07e7e23fb905135fdc4cf34bb6da4556ab",
+                "1cace8ede208f9a3ff373c406e7f9eb6f8567523a032bdf67a840b668c9383bd",
+                "11019485fa71ae4bf790877c321b530e8b2282049bf69bec6e96d04f6e497244",
+                "1f80d46eaf737aeebfd0fc4538b88e4b26fb06f916f1c613782e7ae9d5f5ba0a",
+                "4d869b357e7ef6d9fdef97cc4197cec7e31ab74270e59a81f4b925e4261986ed",
+                "be8075cf086ccda8957ba09a154558c0b95d8dfa1270ee89f578d4a4532c307a",
+                "b15e75b94ee8273ae717f8e63131372a73a599461b80fef4924924c5ef76079b",
+                "aaa5b8277a59bca37c46b7eca7139390d82fd94e796e28b315dbcf66cd2a7937",
+                "006e6afe1398093262db5a709981802e7adcbddc20069699eda9eee200352c87",
+                "49e8ab5568c284ed55234dbf9c75f7c9ce199c91a93cedc4a66f0eeb7336b453",
+                "a48efeef63d74a525d80249f27422965d9a4b0d4f6a6437b5a2fbea77cf31405",
+                "753a89eb9c36db166fff2f099e14abab4a94b8c5ab2919bdabe5e318861c4253"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abcnews.go.com",
+                "metro.co.uk",
+                "pastebin.com",
+                "screenrant.com",
+                "spankbang.com",
+                "thehill.com",
+                "time.com",
+                "www.cbc.ca",
+                "www.dailymail.co.uk",
+                "www.dailymotion.com",
+                "deluxemusic.de",
+                "www.isteshaltbar.de",
+                "www.npr.org",
+                "www.ign.com",
+                "www.timesnownews.com",
+                "www.xda-developers.com",
+                "www.giroditalia.it",
+                "darksouls3.wiki.fextralife.com",
+                "monsterhunterworld.wiki.fextralife.com",
+                "www.24rhein.de"
+            ]
+        },
+        {
+            "rule": "imasdk\\.googleapis\\.com\\/js\\/core\\/bridge3\\.695\\.1_en\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 1,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 39,
+            "prevalence": 0.00398,
+            "cnames": [],
+            "responseHashes": [
+                "afea105e2021c43fa7d4e5244c93981f34c1b3c53dcaade1f774dcbef177c496"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "metro.co.uk",
+                "screenrant.com",
+                "spankbang.com",
+                "time.com",
+                "www.dailymotion.com",
+                "www.healthline.com",
+                "www.howtogeek.com",
+                "www.ign.com",
+                "www.makeuseof.com",
+                "www.npr.org",
+                "www.der-betze-brennt.de",
+                "kotaku.com",
+                "technical.city",
+                "deluxemusic.de",
+                "www.thegamer.com",
+                "www.gratis-in-berlin.de",
+                "gamerant.com",
+                "www.cbr.com",
+                "die-gesunde-wahrheit.de",
+                "www.ad-magazin.de"
+            ]
+        },
+        {
+            "rule": "imasdk\\.googleapis\\.com\\/js\\/sdkloader\\/gpt_proxy\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.deviceMemory": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "08be75c9c2e8b156df9099fdf7ca90c5aa5e2896e815b5501850426c5c59d372"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deutsche-wirtschafts-nachrichten.de",
+                "www.ad-magazin.de",
+                "www.nfl.com"
+            ]
+        },
+        {
+            "rule": "imasdk\\.googleapis\\.com\\/js\\/core\\/bridge3\\.695\\.1_de\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "685dbf153f014c719c6075966cf2b1bf8ba5447e1a91787ec8e123b5e8aa131b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcbinside.de",
+                "www.24rhein.de",
+                "www.buzzfeed.de",
+                "www.heidelberg24.de",
+                "www.hna.de",
+                "www.mannheim24.de",
+                "www.merkur.de",
+                "www.serienjunkies.de",
+                "www.tz.de",
+                "www.wa.de"
+            ]
+        },
+        {
+            "rule": "imasdk\\.googleapis\\.com\\/js\\/sdkloader\\/ima3\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.deviceMemory": 1,
+                "NavigatorUAData.prototype.brands": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.availWidth": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "sportdeutschland.tv",
+                "sudoku.com",
+                "www.iihf.com",
+                "www.pgatour.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.23030303030303031
+        },
+        {
+            "domain": "adsninja.ca",
+            "prevalence": 0.15757575757575756
+        },
+        {
+            "domain": "greenvideo.io",
+            "prevalence": 0.10909090909090909
+        },
+        {
+            "domain": "refinery89.com",
+            "prevalence": 0.05454545454545454
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.04242424242424243
+        },
+        {
+            "domain": "vdo.ai",
+            "prevalence": 0.024242424242424242
+        },
+        {
+            "domain": "redpineapplemedia.com",
+            "prevalence": 0.024242424242424242
+        },
+        {
+            "domain": "jwpcdn.com",
+            "prevalence": 0.024242424242424242
+        },
+        {
+            "domain": "vlitag.com",
+            "prevalence": 0.024242424242424242
+        },
+        {
+            "domain": "vlyby.com",
+            "prevalence": 0.024242424242424242
+        }
+    ],
+    "types": {
+        "Script": 99,
+        "Document": 49,
+        "Fetch": 5
+    },
+    "nameservers": []
+}

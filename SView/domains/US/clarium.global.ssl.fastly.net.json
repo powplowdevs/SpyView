@@ -1,0 +1,71 @@
+{
+    "domain": "clarium.global.ssl.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clarium\\.global\\.ssl\\.fastly\\.net\\/gpt\\/a\\/wrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Notification.permission": 3,
+                "Navigator.prototype.plugins": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "f397f400854aae546dd6142184ae1d9a2a157370539a1d65a148994c574fd21f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "backpackinglight.com",
+                "thefallen.militarytimes.com",
+                "www.courtreference.com",
+                "www.gayot.com",
+                "www.publicrecords.onlinesearches.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": []
+}

@@ -1,0 +1,246 @@
+{
+    "domain": "found.ee",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "found\\.ee\\/dmp\\/pixel\\.js",
+            "cookies": 0.0000707,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.language": 10,
+                "Navigator.prototype.languages": 10,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 9,
+                "Date.prototype.getTimezoneOffset": 9,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "Screen.prototype.colorDepth": 9,
+                "Screen.prototype.orientation": 9,
+                "NavigatorUAData.prototype.platform": 9,
+                "Navigator.prototype.platform": 10,
+                "Navigator.prototype.maxTouchPoints": 10,
+                "Navigator.prototype.hardwareConcurrency": 10,
+                "Navigator.prototype.deviceMemory": 9,
+                "Navigator.prototype.cookieEnabled": 10,
+                "Navigator.prototype.doNotTrack": 10,
+                "Navigator.prototype.webdriver": 9,
+                "Navigator.prototype.vendor": 9,
+                "Navigator.prototype.plugins": 10,
+                "WebGLRenderingContext.prototype.getExtension": 9,
+                "WebGLRenderingContext.prototype.getParameter": 9
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "10d39387980cf724e46e7904bc060ad6f0e7ec36059d84d226a7b28d131c419c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "uid": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.00007073336351290176,
+                    "uniqueness": 1
+                },
+                "cookieAcceptance": {
+                    "ttl": 2592004,
+                    "length": 1,
+                    "prevalence": 0.00007073336351290176,
+                    "uniqueness": 0.1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gravelmap.com",
+                "imwithherband.com",
+                "louderthanlifefestival.com",
+                "rodgersandhammerstein.com",
+                "sonictemplefestival.com",
+                "welcometorockville.com",
+                "whitewater.org",
+                "www.billystrings.com",
+                "www.goosetheband.com",
+                "www.merrymaids.com"
+            ]
+        },
+        {
+            "rule": "found\\.ee\\/universal\\/cbd42ac9-c947-41a0-a340-cc2163106c8c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "09594efad44595542081ec6158e7f4e3087ee8aa4715a50e9f5d4b1882135466"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gravelmap.com",
+                "whitewater.org"
+            ]
+        },
+        {
+            "rule": "found\\.ee\\/dmp\\/fire\\/cbd42ac9-c947-41a0-a340-cc2163106c8c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "uid": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "gravelmap.com",
+                "whitewater.org"
+            ]
+        },
+        {
+            "rule": "found\\.ee\\/modal\\/cbd42ac9-c947-41a0-a340-cc2163106c8c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gravelmap.com",
+                "whitewater.org"
+            ]
+        },
+        {
+            "rule": "found\\.ee\\/universal\\/bcd4c6a5-2f6b-4a6b-aa80-16c6f2e8c2b9",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7348c5a7fb56e02faf4a7979305c25be97fba0203c3c20944e686b050bb4a2e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "billystrings.com",
+                "www.billystrings.com"
+            ]
+        },
+        {
+            "rule": "found\\.ee\\/dmp\\/fire\\/bcd4c6a5-2f6b-4a6b-aa80-16c6f2e8c2b9",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "uid": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "billystrings.com",
+                "www.billystrings.com"
+            ]
+        },
+        {
+            "rule": "found\\.ee\\/modal\\/bcd4c6a5-2f6b-4a6b-aa80-16c6f2e8c2b9",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "billystrings.com",
+                "www.billystrings.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000106,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.13333333333333333
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 8,
+        "Ping": 4
+    },
+    "nameservers": [
+        "ns-1417.awsdns-49.org",
+        "ns-1646.awsdns-13.co.uk",
+        "ns-402.awsdns-50.com",
+        "ns-922.awsdns-51.net"
+    ]
+}

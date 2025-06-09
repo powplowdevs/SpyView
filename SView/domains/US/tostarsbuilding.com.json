@@ -1,0 +1,152 @@
+{
+    "domain": "tostarsbuilding.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "obs",
+        "ob"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "tostarsbuilding\\.com\\/ct",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "obs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6a133f9b4f144e2b99f54969fe9cefe7790d3c8e255dfc748848fe6fb8a8a0cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000014146672702580353,
+                "_cq_duid": 0.0000070733363512901765,
+                "_cq_suid": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "indwes.edu",
+                "www.stamps.com"
+            ]
+        },
+        {
+            "rule": "tostarsbuilding\\.com\\/i\\/ae6460e23a3a67ef667d11c5fe879611\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "ob"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "Navigator.prototype.permissions": 1,
+                "Navigator.prototype.getBattery": 1,
+                "Navigator.prototype.mediaDevices": 1,
+                "MediaDevices.prototype.enumerateDevices": 1,
+                "URL.createObjectURL": 1,
+                "speechSynthesis.__proto__.getVoices": 1,
+                "Navigator.prototype.keyboard": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2e81a0c4d9848401ef468e0cd75ceead48cfbb6f2810be13a17b0b283d55b803"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stamps.com",
+                "www.stamps.com"
+            ]
+        },
+        {
+            "rule": "tostarsbuilding\\.com\\/tracker\\/tc_imp\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "obs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stamps.com",
+                "www.stamps.com"
+            ]
+        },
+        {
+            "rule": "tostarsbuilding\\.com\\/mon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "obs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stamps.com",
+                "www.stamps.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-278.awsdns-34.com",
+        "ns-728.awsdns-27.net",
+        "ns-1882.awsdns-43.co.uk",
+        "ns-1429.awsdns-50.org"
+    ]
+}

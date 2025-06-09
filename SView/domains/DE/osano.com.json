@@ -1,0 +1,184 @@
+{
+    "domain": "osano.com",
+    "owner": {
+        "name": "Osano, Inc.",
+        "displayName": "Osano"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00204,
+    "sites": 20,
+    "subdomains": [
+        "cmp"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "osano\\.com\\/16BZ95S4qp9Kl2gUA\\/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d\\/osano\\.js",
+            "cookies": 0.000306,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "window.name": 2,
+                "window.localStorage": 4,
+                "window.sessionStorage": 3,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.doNotTrack": 4,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 4,
+                "URL.createObjectURL": 2,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.appVersion": 1,
+                "Screen.prototype.pixelDepth": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "fbacb63202f4d97ec1e26111ebd335782d213a82aa897f9131aba8597308b77a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playvalorant.com",
+                "wiki.leagueoflegends.com",
+                "www.leagueoflegends.com",
+                "www.riotgames.com"
+            ]
+        },
+        {
+            "rule": "osano\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "0dcefa0b117fa5dc44eefa92d2bf221f3455b29354cc940f144bb268100fc116"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playvalorant.com",
+                "wiki.leagueoflegends.com",
+                "www.basketball-reference.com",
+                "www.harley-davidson.com",
+                "www.kingston.com",
+                "www.leagueoflegends.com",
+                "www.lucidchart.com",
+                "www.playboyplus.com",
+                "www.riotgames.com",
+                "www.scribd.com"
+            ]
+        },
+        {
+            "rule": "osano\\.com\\/16BZ95S4qp9Kl2gUA\\/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playvalorant.com",
+                "wiki.leagueoflegends.com",
+                "www.leagueoflegends.com",
+                "www.riotgames.com"
+            ]
+        },
+        {
+            "rule": "osano\\.com\\/16BZ95S4qp9Kl2gUA\\/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d\\/osano-ui\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "090a5f919db3a00544f0e3bcf3dcd5bdb09230d32a353734ec248f6ff0213e01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playvalorant.com",
+                "wiki.leagueoflegends.com",
+                "www.leagueoflegends.com",
+                "www.riotgames.com"
+            ]
+        },
+        {
+            "rule": "osano\\.com\\/16BZ95S4qp9Kl2gUA\\/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "28c3aac8e4fda6fb44c54aa77fa5153602c08231dfe42f090edcca86e14ecf49"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playvalorant.com",
+                "wiki.leagueoflegends.com",
+                "www.leagueoflegends.com",
+                "www.riotgames.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00184,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 10,
+        "Preflight": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-353.awsdns-44.com",
+        "ns-950.awsdns-54.net",
+        "ns-1530.awsdns-63.org",
+        "ns-1770.awsdns-29.co.uk"
+    ]
+}

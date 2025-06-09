@@ -1,0 +1,233 @@
+{
+    "domain": "mparticle.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000612,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "mp-data.gofundme.com",
+            "resolved": "mparticle.map.fastly.net"
+        },
+        {
+            "original": "mp.sostrenegrene.com",
+            "resolved": "mparticle.map.fastly.net"
+        },
+        {
+            "original": "mp.traderepublic.com",
+            "resolved": "mparticle.map.fastly.net"
+        },
+        {
+            "original": "mparticle.weather.com",
+            "resolved": "mparticle.map.fastly.net"
+        },
+        {
+            "original": "web.corsair.com",
+            "resolved": "mparticle.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mparticle\\.map\\.fastly\\.net\\/identity\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [
+                {
+                    "original": "mp.sostrenegrene.com",
+                    "resolved": "mparticle.map.fastly.net"
+                },
+                {
+                    "original": "mp.traderepublic.com",
+                    "resolved": "mparticle.map.fastly.net"
+                },
+                {
+                    "original": "mparticle.weather.com",
+                    "resolved": "mparticle.map.fastly.net"
+                },
+                {
+                    "original": "web.corsair.com",
+                    "resolved": "mparticle.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "08460e0356087b9518b72448185eadf2347070ab9e72a09da859f100ba257a4c",
+                "8bd8d0fc18288a2628b67373ed82e7a05fe70280c8805e565382b30c80c8db41",
+                "19b4bec2403896c5542c94011b0563b412fd8358d586508142324f74588883a9",
+                "566c1a2018a3686ef159c7d467d037b5196e57811ace99c0388de31dbb5b7a4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sostrenegrene.com",
+                "support.traderepublic.com",
+                "traderepublic.com",
+                "weather.com",
+                "www.corsair.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.map\\.fastly\\.net\\/identity\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [
+                {
+                    "original": "mp.sostrenegrene.com",
+                    "resolved": "mparticle.map.fastly.net"
+                },
+                {
+                    "original": "mp.traderepublic.com",
+                    "resolved": "mparticle.map.fastly.net"
+                },
+                {
+                    "original": "mparticle.weather.com",
+                    "resolved": "mparticle.map.fastly.net"
+                },
+                {
+                    "original": "web.corsair.com",
+                    "resolved": "mparticle.map.fastly.net"
+                },
+                {
+                    "original": "mp-data.gofundme.com",
+                    "resolved": "mparticle.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sostrenegrene.com",
+                "support.traderepublic.com",
+                "traderepublic.com",
+                "weather.com",
+                "www.corsair.com",
+                "www.gofundme.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.map\\.fastly\\.net\\/webevents\\/v3\\/JS\\/us1-31061d5a983dd14d971f5588d3fa254f\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "web.corsair.com",
+                    "resolved": "mparticle.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "399a3a747a0bca87ef04ec7d8b76facdbe4fa99a57c23f1ab66b58feacfd441d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "corsair.com",
+                "www.corsair.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.map\\.fastly\\.net\\/webevents\\/v1\\/JS\\/us2-61f41b8a4f501a41901cf46e7710c5d3\\/Forwarding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "mp-data.gofundme.com",
+                    "resolved": "mparticle.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.com",
+                "www.gofundme.com"
+            ]
+        },
+        {
+            "rule": "mparticle\\.map\\.fastly\\.net\\/webevents\\/v3\\/JS\\/us2-61f41b8a4f501a41901cf46e7710c5d3\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "mp-data.gofundme.com",
+                    "resolved": "mparticle.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "243b413001d60182b62b054b77419dc8c3673976599867a01e31948d968015c3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gofundme.com",
+                "www.gofundme.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.35714285714285715
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Fetch": 9,
+        "Preflight": 6,
+        "XHR": 2
+    },
+    "nameservers": []
+}

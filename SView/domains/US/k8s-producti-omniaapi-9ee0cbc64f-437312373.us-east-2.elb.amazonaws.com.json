@@ -1,0 +1,132 @@
+{
+    "domain": "k8s-producti-omniaapi-9ee0cbc64f-437312373.us-east-2.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "prod-api.omniafishing.com",
+            "resolved": "k8s-producti-omniaapi-9ee0cbc64f-437312373.us-east-2.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "k8s-producti-omniaapi-9ee0cbc64f-437312373\\.us-east-2\\.elb\\.amazonaws\\.com\\/v1\\/search_defaults",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "prod-api.omniafishing.com",
+                    "resolved": "k8s-producti-omniaapi-9ee0cbc64f-437312373.us-east-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "6d2a189b3eb5211b24fa37b340e60ced3c7a94f3e3c19a098920e06eb6a6b27d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "omniafishing.com",
+                "www.omniafishing.com"
+            ]
+        },
+        {
+            "rule": "k8s-producti-omniaapi-9ee0cbc64f-437312373\\.us-east-2\\.elb\\.amazonaws\\.com\\/v1\\/cart",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "prod-api.omniafishing.com",
+                    "resolved": "k8s-producti-omniaapi-9ee0cbc64f-437312373.us-east-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "omniafishing.com",
+                "www.omniafishing.com"
+            ]
+        },
+        {
+            "rule": "k8s-producti-omniaapi-9ee0cbc64f-437312373\\.us-east-2\\.elb\\.amazonaws\\.com\\/v1\\/cart",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "prod-api.omniafishing.com",
+                    "resolved": "k8s-producti-omniaapi-9ee0cbc64f-437312373.us-east-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "c5e48847b4f2d712f12b2bbef57b215060fadb86a61f02d79bada2357ea4e89d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "omniafishing.com",
+                "www.omniafishing.com"
+            ]
+        },
+        {
+            "rule": "k8s-producti-omniaapi-9ee0cbc64f-437312373\\.us-east-2\\.elb\\.amazonaws\\.com\\/v1\\/cart\\/promos",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "prod-api.omniafishing.com",
+                    "resolved": "k8s-producti-omniaapi-9ee0cbc64f-437312373.us-east-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "a33fdeaba346f19ce1054a6ce6e50cf7484cfdb394b3d647e409a39d35e25c93"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "omniafishing.com",
+                "www.omniafishing.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "XHR": 6,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

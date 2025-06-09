@@ -1,0 +1,292 @@
+{
+    "domain": "gazeta.pl",
+    "owner": {
+        "name": "AGORA SA",
+        "displayName": "AGORA"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "squid",
+        "static",
+        "biv"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gazeta\\.pl\\/bdtrck\\/getScript\\/bluewhale",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "squid"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 1,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "2f8146e8001356600e8225a0b7e9bbd3e7acbbf3bc66b6f52a531a4343bd21cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bwGuidv2": {
+                    "ttl": 31536025,
+                    "length": 24,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "bwVisitId": {
+                    "ttl": 1825,
+                    "length": 24,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "bwPageviewId": {
+                    "ttl": 3625,
+                    "length": 24,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helios.pl",
+                "wiadomosci.radiozet.pl",
+                "zdrowie.radiozet.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/info\\/bluewhale\\/3\\.0\\.15\\/main-min\\.jsgz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "2f8146e8001356600e8225a0b7e9bbd3e7acbbf3bc66b6f52a531a4343bd21cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helios.pl",
+                "wiadomosci.radiozet.pl",
+                "zdrowie.radiozet.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/bdtrck\\/getBdIf2",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "squid"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "OptanonConsent": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "helios.pl",
+                "moto.pl",
+                "wiadomosci.radiozet.pl",
+                "www.plotek.pl",
+                "www.sport.pl",
+                "zdrowie.radiozet.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/static\\/front\\/ot-iab-consent\\/master\\/rodoGuard-ux\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "biv"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Notification.permission": 3,
+                "Navigator.prototype.plugins": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "0a822cf856ce2deb90ca1ed05182a5e866777a6197af775933961a461a06e433"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moto.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/static\\/front\\/ot-iab-consent\\/master\\/ot-ux-fix-gazeta\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "biv"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.language": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "c8d75ea752daada495657c6b2bedf73dac8b234719a08bcd22d75b576fe032b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rodoAccepted": {
+                    "ttl": 31536004,
+                    "length": 2,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "rodoConfigData": {
+                    "ttl": 31536004,
+                    "length": 70,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "rodoConsents": {
+                    "ttl": 31536004,
+                    "length": 32,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moto.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/static\\/front\\/ot-iab-consent\\/master\\/rebranding\\/ot\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "biv"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "0c315a0c8c9728326f100e81b6eb1b513741a77d72efbda4860c8c878df7061f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moto.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/static\\/front\\/ot-iab-consent\\/master\\/rebranding\\/logos\\/gazetapl\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "biv"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "fedef6e9dee25098ceeb72a7b0b253b8741645f171fe783e6623608089959c95"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moto.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        },
+        {
+            "rule": "gazeta\\.pl\\/static\\/front\\/ot-iab-consent\\/master\\/rebranding\\/tcf-decoder\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "biv"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ce9e38ab99636fd88d6817429aabe70d975051ef5090bca3c571e304517dfa9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moto.pl",
+                "www.plotek.pl",
+                "www.sport.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000424,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5217391304347826
+        },
+        {
+            "domain": "im-g.pl",
+            "prevalence": 0.34782608695652173
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.13043478260869565
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Document": 6,
+        "Stylesheet": 3,
+        "Image": 3
+    },
+    "nameservers": [
+        "hera.gazeta.pl",
+        "zeus.gazeta.pl"
+    ]
+}

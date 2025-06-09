@@ -1,0 +1,98 @@
+{
+    "domain": "powerad.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "reporting"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "powerad\\.ai\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "reporting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "watchdocumentaries.com",
+                "www.trophies.de"
+            ]
+        },
+        {
+            "rule": "powerad\\.ai\\/detect-aau",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "watchdocumentaries.com",
+                "www.trophies.de"
+            ]
+        },
+        {
+            "rule": "powerad\\.ai\\/pubPls\\/",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ae23bd4379dc23632abae6ba0c9c4dbf8b125a7c43d8427d42bb93beb9861e33"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "watchdocumentaries.com",
+                "www.trophies.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Ping": 2,
+        "Fetch": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-888.awsdns-47.net",
+        "ns-495.awsdns-61.com",
+        "ns-2030.awsdns-61.co.uk",
+        "ns-1200.awsdns-22.org"
+    ]
+}

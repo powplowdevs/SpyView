@@ -1,0 +1,138 @@
+{
+    "domain": "gcprivacy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000918,
+    "sites": 9,
+    "subdomains": [
+        "p",
+        "p2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gcprivacy\\.com\\/t\\/gcid_s\\.min\\.js",
+            "cookies": 0.000816,
+            "fingerprinting": 1,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {
+                "window.localStorage": 8,
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "838758441f84717091712d78704b651cf43ad5912e60d3545389eb653d21d6bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gc_session_id": {
+                    "ttl": 3460,
+                    "length": 21,
+                    "prevalence": 0.000815910249872514,
+                    "uniqueness": 1
+                },
+                "gcid_first": {
+                    "ttl": 7776005,
+                    "length": 36,
+                    "prevalence": 0.0007139214686384497,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dotesports.com",
+                "finviz.com",
+                "www.gameskinny.com",
+                "www.jpost.com",
+                "www.oracletutorial.com",
+                "www.pythontutorial.net",
+                "www.w3docs.com",
+                "www.whatfontis.com"
+            ]
+        },
+        {
+            "rule": "gcprivacy\\.com\\/v4\\/sync",
+            "cookies": 0.000918,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p2"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [],
+            "responseHashes": [
+                "bfa0eadf4af641ea9f97c1bedba9c041e30a82f539dba8b22d5bc54c3bcbc183",
+                "ea06d06ca40907535a1219c15241d0f217266da167438e93eea43a128b3aea14",
+                "09c5781fae01206402d76babddbb84c6dc7dea33c461fe740177205d36f6defc",
+                "069d0b33befe8cced9ba4408288fd285439a238e5fe4ba33538dd640af8e6401",
+                "01aff58f391534eec49ba05c200b755bb8a5a3222d171c577ec308a145b5bb19",
+                "b99e19630f1ff57ed44b67369bbb8a83b1ff5b755ff665fdf9a327ad83f0d831",
+                "5398fc5ff59c24fc925c525f2868482f9ef0ce5ee3d684ac2d3c995c99864412",
+                "62fcbaae5cfdbbd73be82d37d4aa38d170ca0d6aa467537b61f4ff814e8ce860"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dotesports.com",
+                "finviz.com",
+                "www.gameskinny.com",
+                "www.jpost.com",
+                "www.oracletutorial.com",
+                "www.pythontutorial.net",
+                "www.sportskeeda.com",
+                "www.w3docs.com",
+                "www.whatfontis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000918,
+    "topInitiators": [
+        {
+            "domain": "adapex.io",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "increaserev.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "mediatradecraft.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "investingchannel.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "htlbid.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 9
+    },
+    "nameservers": [
+        "ns-409.awsdns-51.com",
+        "ns-828.awsdns-39.net",
+        "ns-1134.awsdns-13.org",
+        "ns-1818.awsdns-35.co.uk"
+    ]
+}

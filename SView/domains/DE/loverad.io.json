@@ -1,0 +1,96 @@
+{
+    "domain": "loverad.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "auth-cdn",
+        "iris-80s80s",
+        "iris-bob",
+        "iris-sunshinelive"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "loverad\\.io\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "auth-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Event.prototype.timeStamp": 3,
+                "Navigator.prototype.product": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "622e3b3d5afedde913ee5e93706af9365a73240fbc820b2c6e4cf3829086fb75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "80s80s.de",
+                "www.radiobob.de",
+                "www.sunshine-live.de"
+            ]
+        },
+        {
+            "rule": "loverad\\.io\\/flow\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iris-80s80s",
+                "iris-bob",
+                "iris-sunshinelive"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "08d2d9df923ca0652f3661d44e802f684b12abbf619c36e5bd6aec935288e719",
+                "d252cd9973dd83abe33a5adaf2d1410cedb7f243a58c15f3e9a30cb696a2bb34"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "80s80s.de",
+                "www.radiobob.de",
+                "www.sunshine-live.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "loverad.io",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-272.awsdns-34.com",
+        "ns-959.awsdns-55.net",
+        "ns-1238.awsdns-26.org",
+        "ns-1539.awsdns-00.co.uk"
+    ]
+}

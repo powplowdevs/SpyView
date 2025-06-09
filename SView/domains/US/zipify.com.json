@@ -1,0 +1,137 @@
+{
+    "domain": "zipify.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "ocu",
+        "cdn03"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zipify\\.com\\/widgets\\/v1\\/cart_drawer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ocu"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrocksandals.com",
+                "gardeningwithcreekside.com",
+                "lavinialingerie.com",
+                "obviousshirts.com",
+                "yankum.com"
+            ]
+        },
+        {
+            "rule": "zipify\\.com\\/widgets\\/v1\\/cart_drawer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ocu"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "07763922c0b378b086d1689db36068ac1f91a5380c1727696d58c0718c21bfb6",
+                "f5e9d4ad90b312234d45a33ffe69dbca3b971ce9c3adf01631caafe71cb90b2e",
+                "d374a24f9ea6f85133aa94d0c2ca8d1a1c07f5a2fda96029365a01ac01c61b1c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedrocksandals.com",
+                "gardeningwithcreekside.com",
+                "lavinialingerie.com",
+                "obviousshirts.com",
+                "yankum.com"
+            ]
+        },
+        {
+            "rule": "zipify\\.com\\/css\\/zipifypages\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "dd9511df164dbd3d89e01a8b6eecb78757ec8361ffb3423a01edf900b65ce98e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vandycrisps.com",
+                "www.masachips.com"
+            ]
+        },
+        {
+            "rule": "zipify\\.com\\/javascript\\/page-published-scripts\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn03"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 1,
+                "Element.prototype.getClientRects": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c1cabfa5df2ca2d36bc366af7bd23f9b965e3f400595c1c414e307491e69eae7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vandycrisps.com",
+                "www.masachips.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "Fetch": 5,
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-679.awsdns-20.net",
+        "ns-261.awsdns-32.com",
+        "ns-1041.awsdns-02.org"
+    ]
+}

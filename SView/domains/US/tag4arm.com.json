@@ -1,0 +1,148 @@
+{
+    "domain": "tag4arm.com",
+    "owner": {
+        "name": "Havas SA",
+        "displayName": "Havas SA"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tag4arm\\.com\\/tags4arm\\/tag4arm\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.mimeTypes": 4,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.platform": 4,
+                "Document.cookie setter": 3,
+                "window.name": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "b1b75514d48a2b7424484be811526a87ec3cb972c4b426e5586d0b743b7663bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.16.c682": {
+                    "ttl": 33955212,
+                    "length": 28,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_pk_id.455.c682": {
+                    "ttl": 33955212,
+                    "length": 28,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_pk_ses.455.c682": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_pk_ses.16.c682": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_pk_id.603.75d7": {
+                    "ttl": 33955216,
+                    "length": 28,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_pk_ses.603.75d7": {
+                    "ttl": 1815,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlestyrwhitt.com",
+                "support.shutterfly.com",
+                "www.charlestyrwhitt.com",
+                "www.nordictrack.com",
+                "www.particleformen.com",
+                "www.visitorlando.com"
+            ]
+        },
+        {
+            "rule": "tag4arm\\.com\\/tags4arm\\/tag4arm\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlestyrwhitt.com",
+                "dusk.com",
+                "support.shutterfly.com",
+                "www.charlestyrwhitt.com",
+                "www.particleformen.com",
+                "www.visitorlando.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 6
+    },
+    "nameservers": [
+        "ns3.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com",
+        "ns1.dnsmadeeasy.com"
+    ]
+}

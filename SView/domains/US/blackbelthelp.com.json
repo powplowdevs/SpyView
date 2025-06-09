@@ -1,0 +1,152 @@
+{
+    "domain": "blackbelthelp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "bbh-preprod-bot",
+        "ccsfkb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "blackbelthelp\\.com\\/preprod\\/chat\\/chat-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bbh-preprod-bot"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "1190e8d44114db1109ec4c4fc1a52a26b7018317863e920b75f62e355aea7f06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broward.edu",
+                "www.ccsf.edu",
+                "www.cuit.columbia.edu"
+            ]
+        },
+        {
+            "rule": "blackbelthelp\\.com\\/preprod\\/v1\\/bot\\/CCSFBot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bbh-preprod-bot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "594755810a73d84087b12a87badba9ff4ec67e3b57d99f97cb6cdc1e93a9d25d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccsf.edu",
+                "www.ccsf.edu"
+            ]
+        },
+        {
+            "rule": "blackbelthelp\\.com\\/preprod\\/v1\\/bot\\/CCSFBot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bbh-preprod-bot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccsf.edu",
+                "www.ccsf.edu"
+            ]
+        },
+        {
+            "rule": "blackbelthelp\\.com\\/preprod\\/v1\\/impsuggestions\\/CCSFBot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bbh-preprod-bot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "2284246153e85fd4241d62c7df08126d161ba8f8feb671fe01869efc619016f0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccsf.edu",
+                "www.ccsf.edu"
+            ]
+        },
+        {
+            "rule": "blackbelthelp\\.com\\/wp-content\\/uploads\\/2021\\/04\\/RockyB\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ccsfkb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3be643f5fa1d076f3a1b47581928fc8be582fd35cd8e09faea5a7733f58dd430"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccsf.edu",
+                "www.ccsf.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 4,
+        "Preflight": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns15.worldnic.com",
+        "ns16.worldnic.com"
+    ]
+}

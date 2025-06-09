@@ -1,0 +1,90 @@
+{
+    "domain": "kts.fox",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "prod-foxkit"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kts\\.fox\\/js\\/sdk\\/common\\/v2\\.15\\.1\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod-foxkit"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b222129971fbd6f27617c53f01955f54184473f38f94708759205bf86f01a424"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tmz.com",
+                "www.tmz.com"
+            ]
+        },
+        {
+            "rule": "kts\\.fox\\/js\\/sdk\\/profile\\/v6\\.6\\.1\\/profile\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod-foxkit"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7d1574768bacca1529798eb364576520eb59d6f555c1eaed5a1eb0fa4277bf22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tmz.com",
+                "www.tmz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns02.foxdoua.com",
+        "ns03.dns.fox",
+        "ns04.foxdoua.com",
+        "ns01.dns.fox",
+        "ns02.dns.fox",
+        "ns01.foxdoua.com",
+        "ns03.foxdoua.com",
+        "ns04.dns.fox"
+    ]
+}

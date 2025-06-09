@@ -1,0 +1,112 @@
+{
+    "domain": "smartlook.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00115,
+    "sites": 11,
+    "subdomains": [
+        "web-sdk",
+        "rec"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "smartlook\\.com\\/recorder\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-sdk",
+                "rec"
+            ],
+            "apis": {
+                "window.sessionStorage": 8,
+                "window.localStorage": 8
+            },
+            "sites": 11,
+            "prevalence": 0.00115,
+            "cnames": [],
+            "responseHashes": [
+                "a81bf318de7ff87017f6ea6b1a370534ca10cddd8956b14c6712595d22c63f9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allevents.in",
+                "golfnorth.ca",
+                "www.calgarycoop.com",
+                "www.cleo.ca",
+                "www.monrovia.com",
+                "www.ocadu.ca",
+                "www.partswarehouse.com",
+                "www.philstar.com",
+                "www.productindetail.com",
+                "www.rickis.com",
+                "www.urbanbarn.com"
+            ]
+        },
+        {
+            "rule": "smartlook\\.com\\/es6\\/init\\.4e02050bca448f127b3f\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "web-sdk",
+                "rec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.webdriver": 8,
+                "window.localStorage": 9,
+                "Notification.permission": 7,
+                "Navigator.prototype.plugins": 6
+            },
+            "sites": 11,
+            "prevalence": 0.00115,
+            "cnames": [],
+            "responseHashes": [
+                "cd975a368006fc64d1b45b2455ace6efd8bc555f3b9f7f8fb40caa5247c18f5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allevents.in",
+                "golfnorth.ca",
+                "www.calgarycoop.com",
+                "www.cleo.ca",
+                "www.monrovia.com",
+                "www.ocadu.ca",
+                "www.partswarehouse.com",
+                "www.philstar.com",
+                "www.productindetail.com",
+                "www.rickis.com",
+                "www.urbanbarn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 22
+    },
+    "nameservers": [
+        "ns-1600.awsdns-08.co.uk",
+        "ns-429.awsdns-53.com",
+        "ns-1317.awsdns-36.org",
+        "ns-949.awsdns-54.net"
+    ]
+}

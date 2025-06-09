@@ -1,0 +1,114 @@
+{
+    "domain": "colgate.com",
+    "owner": {
+        "name": "Colgate-Palmolive Company",
+        "displayName": "Colgate-Palmolive Company"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "serverside-galb"
+    ],
+    "cnames": [
+        {
+            "original": "serverside.eltamd.com",
+            "resolved": "serverside-galb.colgate.com"
+        },
+        {
+            "original": "serverside.tomsofmaine.com",
+            "resolved": "serverside-galb.colgate.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "colgate\\.com\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "serverside-galb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "serverside.eltamd.com",
+                    "resolved": "serverside-galb.colgate.com"
+                },
+                {
+                    "original": "serverside.tomsofmaine.com",
+                    "resolved": "serverside-galb.colgate.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000014146672702580353,
+                "IR_gbd": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "eltamd.com",
+                "www.tomsofmaine.com"
+            ]
+        },
+        {
+            "rule": "colgate\\.com\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "serverside-galb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "serverside.eltamd.com",
+                    "resolved": "serverside-galb.colgate.com"
+                },
+                {
+                    "original": "serverside.tomsofmaine.com",
+                    "resolved": "serverside-galb.colgate.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "eltamd.com",
+                "www.tomsofmaine.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "edns3.ultradns.net",
+        "edns3.ultradns.com",
+        "edns3.ultradns.biz",
+        "edns3.ultradns.org"
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "domain": "app-us1.com",
+    "owner": {
+        "name": "ActiveCampaign, Inc.",
+        "displayName": "ActiveCampaign"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00163,
+    "sites": 16,
+    "subdomains": [
+        "diffuser-cdn",
+        "prism"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "app-us1\\.com\\/diffuser\\/diffuser\\.js",
+            "cookies": 0.000816,
+            "fingerprinting": 1,
+            "subdomains": [
+                "diffuser-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 16,
+            "prevalence": 0.00163,
+            "cnames": [],
+            "responseHashes": [
+                "26db36707844fa367f47c47b4b614db27a608286fe71d9ff8c3012dbe71c5499"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "prism_226349813": {
+                    "ttl": 2592010,
+                    "length": 36,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "prism_90822704": {
+                    "ttl": 2592003,
+                    "length": 36,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "prism_225600763": {
+                    "ttl": 2592010,
+                    "length": 36,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "prism_225531533": {
+                    "ttl": 2592005,
+                    "length": 36,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "prism_611487216": {
+                    "ttl": 2592002,
+                    "length": 36,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "prism_69078272": {
+                    "ttl": 2592005,
+                    "length": 36,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "prism_799467011": {
+                    "ttl": 2592004,
+                    "length": 36,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                },
+                "prism_652622855": {
+                    "ttl": 2592012,
+                    "length": 36,
+                    "prevalence": 0.00010198878123406426,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifixit.com",
+                "deutsch-mit-anna.de",
+                "november.de",
+                "weltwoche.de",
+                "weltwoche.ch",
+                "www.addictivetips.com",
+                "www.fairment.de",
+                "www.firma.de",
+                "www.flightconnections.com",
+                "www.ifixit.com",
+                "www.iso.org",
+                "www.jpost.com",
+                "www.thesimsresource.com",
+                "www.verbraucherschutz.com",
+                "www.visitdenmark.de",
+                "www.zendure.de"
+            ]
+        },
+        {
+            "rule": "app-us1\\.com\\/",
+            "cookies": 0.00112,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prism"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "2c83a6f494955f28c552e68bc443f4f59ff9b9e309e0ca8253b2a2d18e6385fa",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "50f32caa839766dbd0c11f1b770abbb76fa099b701bff2266b28db319ef0b320",
+                "f09b1cc6c138ec026da35f32a2f668f250d6bcc50448a16eff7fc3e043fd26f7",
+                "13921e7ef1f28c590e5d02ee1aef4d0928cbe2c5b770b69186ef00bb5a58b0bd",
+                "07146253434c68d4a2e4b286a8ea1dc6481cc07351a6cce928c8e3c9d0551660",
+                "a2631069847809356899db726277238d86e929c9639b5e8f129876b7a2116243",
+                "e6625e56bc8e123563eecf5c23be80eaf3b12e23f9fdf7b4791bedf1aabb5aed",
+                "9fbdd13bf4e6db8e3e2461119928c3fc37ca93226e01567bd093dc9f68884194"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gtm_lp_url": 0.00010198878123406426
+            },
+            "exampleSites": [
+                "deutsch-mit-anna.de",
+                "november.de",
+                "weltwoche.de",
+                "weltwoche.ch",
+                "www.addictivetips.com",
+                "www.firma.de",
+                "www.flightconnections.com",
+                "www.jpost.com",
+                "www.thesimsresource.com",
+                "www.verbraucherschutz.com",
+                "www.zendure.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00112,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7222222222222222
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "matomo.cloud",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 27
+    },
+    "nameservers": [
+        "alex.ns.cloudflare.com",
+        "abby.ns.cloudflare.com"
+    ]
+}

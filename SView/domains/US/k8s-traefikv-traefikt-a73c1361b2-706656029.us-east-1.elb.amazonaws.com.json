@@ -1,0 +1,64 @@
+{
+    "domain": "k8s-traefikv-traefikt-a73c1361b2-706656029.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "uploads.tradestation.com",
+            "resolved": "k8s-traefikv-traefikt-a73c1361b2-706656029.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "k8s-traefikv-traefikt-a73c1361b2-706656029\\.us-east-1\\.elb\\.amazonaws\\.com\\/uploads\\/icon-68-v2\\.png",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "uploads.tradestation.com",
+                    "resolved": "k8s-traefikv-traefikt-a73c1361b2-706656029.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "235bafb65b9551153d87f0ae299dec1d87ea28f061150d06ed51367df487dddc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tradestation.com",
+                "www.tradestation.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "osano.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2
+    },
+    "nameservers": []
+}

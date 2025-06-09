@@ -1,0 +1,106 @@
+{
+    "domain": "rq7cuf9.x.incapdns.net",
+    "owner": {
+        "name": "Imperva Inc.",
+        "displayName": "Imperva"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "secure.myfico.com",
+            "resolved": "rq7cuf9.x.incapdns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rq7cuf9\\.x\\.incapdns\\.net\\/v4\\/marketingtracking",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "secure.myfico.com",
+                    "resolved": "rq7cuf9.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myfico.com",
+                "ficoforums.myfico.com",
+                "www.myfico.com"
+            ]
+        },
+        {
+            "rule": "rq7cuf9\\.x\\.incapdns\\.net\\/v4\\/marketingtracking",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "secure.myfico.com",
+                    "resolved": "rq7cuf9.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "17608c2bfe2fca3a7fffbdafdc46f37f5a7f638ec38496e928deb23bf99a827f",
+                "f04982f8feab6e532ba023dd2a6976b239fad66329094aaddc2de165dc86e2ec"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myfico.com",
+                "ficoforums.myfico.com",
+                "www.myfico.com"
+            ]
+        },
+        {
+            "rule": "rq7cuf9\\.x\\.incapdns\\.net\\/dashboard",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "secure.myfico.com",
+                    "resolved": "rq7cuf9.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myfico.com",
+                "ficoforums.myfico.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000283,
+    "types": {
+        "Preflight": 3,
+        "XHR": 5
+    },
+    "nameservers": []
+}

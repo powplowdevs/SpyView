@@ -1,0 +1,101 @@
+{
+    "domain": "purplemanager.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "catalog",
+        "eu.cdn2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "purplemanager\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "catalog"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nussbaum.de",
+                "www.nussbaum.de"
+            ]
+        },
+        {
+            "rule": "purplemanager\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "catalog"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "46bbd1b80af4df39ebf318d2788a47c07b05953858f97ffe8c6aed53148cf341"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nussbaum.de",
+                "www.nussbaum.de"
+            ]
+        },
+        {
+            "rule": "purplemanager\\.com\\/193c804a-a673-47bd-b09b-11baf4822a17\\/thumbnails\\/6ab86ca8-b028-4715-93c8-27c92ae62f2a\\/web_kiosk_favicon_1\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu.cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c11808947008a54be0911cf4ce8f079a43a9c3108806c3f509a96278c54afd91"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sciencefocus.com",
+                "www.sciencefocus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-129.awsdns-16.com",
+        "ns-826.awsdns-39.net",
+        "ns-1590.awsdns-06.co.uk",
+        "ns-1190.awsdns-20.org"
+    ]
+}

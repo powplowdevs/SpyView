@@ -1,0 +1,1267 @@
+{
+    "domain": "classy.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000318,
+    "sites": 45,
+    "subdomains": [
+        "sdk",
+        "www",
+        "mask13",
+        "prod-frs.content",
+        "pay",
+        "vanity",
+        "mask20",
+        "mask19",
+        "giving"
+    ],
+    "cnames": [
+        {
+            "original": "donate.ajc.org",
+            "resolved": "vanity.classy.org"
+        },
+        {
+            "original": "donate.nami.org",
+            "resolved": "mask20.classy.org"
+        },
+        {
+            "original": "donate.nationaleczema.org",
+            "resolved": "vanity.classy.org"
+        },
+        {
+            "original": "give.nationalbook.org",
+            "resolved": "vanity.classy.org"
+        },
+        {
+            "original": "give.salvationarmy.org",
+            "resolved": "mask13.classy.org"
+        },
+        {
+            "original": "investinamericanhistory.gilderlehrman.org",
+            "resolved": "vanity.classy.org"
+        },
+        {
+            "original": "support.whitehousehistory.org",
+            "resolved": "mask19.classy.org"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "classy\\.org\\/embedded-giving\\.js",
+            "cookies": 0.000156,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.localStorage": 14,
+                "window.innerHeight": 3
+            },
+            "sites": 22,
+            "prevalence": 0.000156,
+            "cnames": [],
+            "responseHashes": [
+                "4d5f496c39477f06afda579ce27e7bac7fc777f1c0870d5fdbcf4eb132948c35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thesatanictemple.com",
+                "www.nationalbook.org",
+                "heartland.org",
+                "www.gilderlehrman.org",
+                "salvationarmy.org",
+                "www.nami.org",
+                "www.guttmacher.org",
+                "www.calacademy.org",
+                "www.whitehousehistory.org",
+                "www.baptistjax.com",
+                "t2t.org",
+                "gloryofzion.org",
+                "www.moffitt.org",
+                "www.prageru.com",
+                "www.chesterton.org",
+                "www.ajc.org",
+                "littlefreelibrary.org",
+                "www.hazeldenbettyford.org",
+                "iocdf.org",
+                "www.missingkids.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/510859\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "mask13"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "give.salvationarmy.org",
+                    "resolved": "mask13.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "easternusa.salvationarmy.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/frs\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "addf01767db5d3f952395c4de267adce5cb4d039d6e00070de172de42b0240b8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/libs\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "HTMLCanvasElement.prototype.toDataURL": 4,
+                "Navigator.prototype.userAgent": 5,
+                "window.devicePixelRatio": 5,
+                "Navigator.prototype.mimeTypes": 5,
+                "Navigator.prototype.language": 5,
+                "Date.prototype.getTime": 5,
+                "window.name": 5,
+                "Document.cookie getter": 4,
+                "Event.prototype.timeStamp": 5
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "e392e8ffe0bf242b3e3b19f6ef053ac8559267fc114e623d24b52726a56c80a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/module\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.languages": 5,
+                "window.innerHeight": 5,
+                "window.innerWidth": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "581b39412493134b6b547edbf21736fa1dd5cce739848b504c1171e80817e45c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/frs\\/donation\\/module\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "8a205001bd3c03229cb99373a364be70c54e72e9a658b8c913f61c7e32ab1ec8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/token\\/plaid\\/createLinkToken",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/token\\/paypal",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "d2a8e663b51525c289bf47d5c0513f9e8305b6c05ff1539447b9e0e7f98b56ed",
+                "59bef539f2039b580bb1e176eb01b083826fb82afa3001c69b68a429b4938185"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/token\\/plaid\\/createLinkToken",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "9bb23b7877771f0344fa87924acef97519c0055ce7d07d78e285970ba0b5bc7a",
+                "3b2e86ed131e8d6e8892346233a0245d533c1c7f7555e1cbd2fa222d348dbab2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-visa\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "7f872f37d93f6ad26cfde22f5fd7ae4e99f18c4dc7d3386384f92f845056750b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-amex\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "65ade054b003fb12ff528ad2640f69f49bca65d9f9d25b53dea8aee0d5d238cf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-discover\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "b0fb4e1235c0c4815d6bd272ce4c9c65579c04f9c6e52a080a66393d01f84293"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-mastercard\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "9f88c56c75499f8886bcdbd43330029b3108f9aefb7e496788f448ed36311b90"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-shield-icon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "38bc775802a9e96e44997f4e9374726a41d5c781752e590a76ad5a4f06673458"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-ach\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "ebeeb6852c8d5689249269cfa59febdad1141a9810331c31d4331f53f47750f7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/images\\/dropdown-caret\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "bc0a71276f63a3490a9b27a6fea0fc1610576a415a8d45d05e53a7a0b88ba6b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/global\\/fonts\\/ClassyIcons\\.woff",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "c29d5316fc387c630f40fd7e0e590e6f92ba4c1f54b78524816f79d683d4e824"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/8e48bdbdeef45747f1e12967f7dfec133a69b918\\/static\\/fonts\\/fontawesome-webfont\\.woff2",
+            "cookies": 0.0000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "d792afdac7f7ae5de7c6964950c6c61dc6e3f3813180a59e141c7cb4ac4364dc"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlefreelibrary.org",
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/sso\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask20",
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "donate.nationaleczema.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.ajc.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "investinamericanhistory.gilderlehrman.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "give.nationalbook.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "8579be04990bec48a51d0d39b7cb9a29be82037593934e504acac39de6794337"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask20",
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "donate.nationaleczema.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.ajc.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "investinamericanhistory.gilderlehrman.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "give.nationalbook.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/static\\/global\\/images\\/user-icon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask20",
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [
+                {
+                    "original": "donate.nationaleczema.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.ajc.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "investinamericanhistory.gilderlehrman.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "give.nationalbook.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "bfb92ada1872e7b784777fabb6e61340269324d4d03929090169b767ff5387f4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/sso\\/ssobuild\\/js\\/iframeResizer\\.17b3e8f66abcbf803ee0eb0adc771137\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask20",
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "donate.nationaleczema.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.ajc.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "give.nationalbook.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "8913290a4db258fa9e0d3fd267fb61666aa81f82b1a459ba098352c427a57c37"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.nami.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/sso\\/status",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "donate.nationaleczema.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.ajc.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "give.nationalbook.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "a7d48a6f2a6dffa120ce8d964ce6f971abe5f538e0080fac4eb22df7d1b6c369",
+                "6f1a844cac8e6eb2250499d3de36c8e7b5f06c8db0ca92f93ac922a26c5880d9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleczema.org",
+                "www.ajc.org",
+                "www.nationalbook.org",
+                "www.whitehousehistory.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/512962\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "donate.ajc.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajc.org",
+                "www.ajc.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/512962\\/channels",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "donate.ajc.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "efb6ab8389e462ad097b090b872494434353fa959834de50728870a0b849f40f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajc.org",
+                "www.ajc.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaign\\/512962\\/transaction-estimates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "donate.ajc.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "0edee158d7e1f6f489a61a70218bd9a9d819dad1b26235d9f0385f26dc6179aa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajc.org",
+                "www.ajc.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/69667",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "70684865b172a2b84bfdc92a0047a11a40b1a7206ef052f8e5f2eb5904003e11"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "i18next": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breastcancer.org",
+                "www.breastcancer.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk-config\\/campaigns\\/678940",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "0ff3857ec9c433561758f2c016ca2144e8ff26021a0d80e5e1d31cbe970f65e5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breastcancer.org",
+                "www.breastcancer.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/6849",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "70684865b172a2b84bfdc92a0047a11a40b1a7206ef052f8e5f2eb5904003e11"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "classy-session-id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "i18next": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cityofhope.org",
+                "www.cityofhope.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk-config\\/campaigns\\/646423",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a33bffb7dc98902ac5bb8216495f337bd640bc4f7fdb5779eef5b1c5c51deabd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "classy-session-id": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "cityofhope.org",
+                "www.cityofhope.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/610989\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "investinamericanhistory.gilderlehrman.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gilderlehrman.org",
+                "www.gilderlehrman.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/509521\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "8dabb50348ee84a2498c5380bfb491734f9a639c8b64c20fac1718c91255c249"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/509521\\/channels",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "4652126e1060a91bc846089563bacf65b4d96355406122afbeba362af2d692bc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaign\\/509521\\/transaction-estimates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "0d1ccc4bdc9d8c14065b10058d61601cdcd0fb68ae92eaf18cf5233b95519da7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/571788\\/",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www",
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "give.nationalbook.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "633e9f8dd1fd6c78307887c6de7c3db40400cd57cfe412c6c4f1f51e5395a72a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalbook.org",
+                "www.nationalbook.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/54819",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "70684865b172a2b84bfdc92a0047a11a40b1a7206ef052f8e5f2eb5904003e11"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "classy-session-id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "i18next": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petittigardencenter.com",
+                "www.petittigardencenter.com"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/420949\\/channels",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask19"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "support.whitehousehistory.org",
+                    "resolved": "mask19.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "8e5db1da1a44f3fde1a9d86cd7d7965c4abe5cd0e700cc06ebbfb4bfe1c0cd06"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitehousehistory.org",
+                "www.whitehousehistory.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000318,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7096774193548387
+        },
+        {
+            "domain": "classy.org",
+            "prevalence": 0.17050691244239632
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.041474654377880185
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "basis.net",
+            "prevalence": 0.018433179723502304
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.018433179723502304
+        },
+        {
+            "domain": "privacyedge-lokker.com",
+            "prevalence": 0.009216589861751152
+        }
+    ],
+    "types": {
+        "Script": 58,
+        "Document": 10,
+        "Stylesheet": 8,
+        "Preflight": 4,
+        "XHR": 35,
+        "Image": 54,
+        "Font": 14,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "elsa.ns.cloudflare.com",
+        "eric.ns.cloudflare.com"
+    ]
+}

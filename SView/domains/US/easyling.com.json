@@ -1,0 +1,140 @@
+{
+    "domain": "easyling.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "easyling\\.com\\/client\\/5v5d29yr\\/0\\/stub\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f240c441f71c6ae735af1a85ef57e43610ae915810573415bb862eea33cc6ad0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomfordfashion.com",
+                "www.tomfordfashion.com"
+            ]
+        },
+        {
+            "rule": "easyling\\.com\\/client\\/5v5d29yr\\/reporter\\/en-US\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6c65fd07fc607c8a91d7e16c9e9f26d9f862132627845c65dd6e135a59d04781"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomfordfashion.com",
+                "www.tomfordfashion.com"
+            ]
+        },
+        {
+            "rule": "easyling\\.com\\/_el\\/ext\\/crest\\/missing\\/5v5d29yr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomfordfashion.com",
+                "www.tomfordfashion.com"
+            ]
+        },
+        {
+            "rule": "easyling\\.com\\/_el\\/ext\\/crest\\/missing\\/5v5d29yr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d9880ac829d782427a2f0414188752bb5b8aa61ebc213c94c8829025db5612ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomfordfashion.com",
+                "www.tomfordfashion.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "global-e.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "maps.googleapis.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "abby.ns.cloudflare.com",
+        "fred.ns.cloudflare.com"
+    ]
+}

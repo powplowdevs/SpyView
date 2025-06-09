@@ -1,0 +1,111 @@
+{
+    "domain": "stripe.network",
+    "owner": {
+        "name": "Stripe, Inc",
+        "displayName": "Stripe",
+        "privacyPolicy": "https://stripe.com/privacy",
+        "url": "http://stripe.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00178,
+    "sites": 17,
+    "subdomains": [
+        "m"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stripe\\.network\\/inner\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00178,
+            "cnames": [],
+            "responseHashes": [
+                "34a85e78b5402c253c2bc4cf64426c2b6b18601602e8a9a71568139fb3ee6599"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huggingface.co",
+                "itsfoss.com",
+                "moosehidecampaign.ca",
+                "mubi.com",
+                "nunatsiaq.com",
+                "onplants.ca",
+                "photolab.londondrugs.com",
+                "watchcharts.com",
+                "www.artstation.com",
+                "www.brighteon.com",
+                "www.counterpunch.org",
+                "www.fluentu.com",
+                "www.flexclip.com",
+                "www.fotor.com",
+                "www.grailed.com",
+                "www.partselect.ca",
+                "www.roomies.ca"
+            ]
+        },
+        {
+            "rule": "stripe\\.network\\/out-4\\.5\\.44\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2,
+                "window.sessionStorage": 3,
+                "window.localStorage": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000627,
+            "cnames": [],
+            "responseHashes": [
+                "bd6e71e0a8f18b3dd4bbeb6fd673015fec896bd92e17c11f3dc8fe96a06de1f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itsfoss.com",
+                "photolab.londondrugs.com",
+                "www.flexclip.com",
+                "www.grailed.com",
+                "www.partselect.ca",
+                "www.roomies.ca"
+            ]
+        }
+    ],
+    "categories": [
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "stripe.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 17,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1087.awsdns-07.org",
+        "ns-1882.awsdns-43.co.uk",
+        "ns-423.awsdns-52.com",
+        "ns-705.awsdns-24.net"
+    ]
+}

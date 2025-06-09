@@ -1,0 +1,70 @@
+{
+    "domain": "cvshealth.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "metrics-sentry"
+    ],
+    "cnames": [
+        {
+            "original": "metrics-sentry.cvshealth.com",
+            "resolved": "metrics-sentry.cvshealth.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cvshealth\\.com\\.edgekey\\.net\\/id",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics-sentry"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "metrics-sentry.cvshealth.com",
+                    "resolved": "metrics-sentry.cvshealth.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e263bd8716f88add928210f29a0948bb28a804ac80e148270dfcd012ab4236ae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cvshealth.com",
+                "www.cvshealth.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": []
+}

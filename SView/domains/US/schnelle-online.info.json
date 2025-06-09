@@ -1,0 +1,63 @@
+{
+    "domain": "schnelle-online.info",
+    "owner": {
+        "name": "Holger Schulz Online e.K.",
+        "displayName": "Holger Schulz Online"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "homepage-tools",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "schnelle-online\\.info\\/Homepage\\/atomicclock2_1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "homepage-tools",
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "349ba59908a8589078ceb035d3138d755640cd7e6be0f1e1f8d08b39c479912a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atomuhr.de",
+                "www.atomuhr.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns0.inetsolutions.de",
+        "ns3.inetsolutions.de",
+        "ns2.inetsolutions.de",
+        "ns1.inetsolutions.de"
+    ]
+}

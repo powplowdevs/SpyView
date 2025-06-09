@@ -1,0 +1,123 @@
+{
+    "domain": "optimove.net",
+    "owner": {
+        "name": "Mobius Solutions",
+        "displayName": "Mobius Solutions"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000102,
+    "sites": 1,
+    "subdomains": [
+        "stream-389",
+        "realtime-389"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "optimove\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stream-389"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "41430564d30bac202eed17b236def4b45cdee63f333a7d0f51b61fab3b9c4526"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lottoland.com",
+                "www.lottoland.com"
+            ]
+        },
+        {
+            "rule": "optimove\\.net\\/reportEvent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtime-389"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "14811480475c2171ce84c472a6d16a5355ce92a03e8955814fde8827e8a34d55"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lottoland.com",
+                "www.lottoland.com"
+            ]
+        },
+        {
+            "rule": "optimove\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stream-389"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lottoland.com",
+                "www.lottoland.com"
+            ]
+        },
+        {
+            "rule": "optimove\\.net\\/reportEvent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtime-389"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lottoland.com",
+                "www.lottoland.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-1517.awsdns-61.org",
+        "ns-858.awsdns-43.net",
+        "ns-1880.awsdns-43.co.uk",
+        "ns-90.awsdns-11.com"
+    ]
+}

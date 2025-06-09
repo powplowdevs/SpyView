@@ -1,0 +1,61 @@
+{
+    "domain": "affilired.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "customs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "affilired\\.com\\/track\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "customs"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "89790865ab7a259421c7386d4c58735b86114ee736a4cdf147bd3134ce08545b",
+                "19c6f5a9d436d3194ffa6d209994e8186bf694467fc41dae463d0e60f6c8fc85",
+                "00361f48c9ef0cfec1abcbcdcb4a99aeb7f3d664afd4d8d35f01a3b77787d034"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jetsmart.com",
+                "www.byfood.com",
+                "www.hotelsbyday.com",
+                "www.millenniumhotels.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-uk.joopbox.com",
+        "ns-es.joopbox.com"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "domain": "octo25.me",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000408,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "octo25\\.me\\/lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.platform": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "55bc6b4176f4cb694e4a76ba3b32a3d668d52786d6b303a93b7bff7d9e304c91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rusoska.com",
+                "smotretporno.online"
+            ]
+        },
+        {
+            "rule": "octo25\\.me\\/st",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rusoska.com",
+                "smotretporno.online"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "hugh.ns.cloudflare.com",
+        "kay.ns.cloudflare.com"
+    ]
+}

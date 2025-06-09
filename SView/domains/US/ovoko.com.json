@@ -1,0 +1,95 @@
+{
+    "domain": "ovoko.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "sentry",
+        "cezaris"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ovoko\\.com\\/api\\/5\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sentry"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovoko.fr",
+                "rrr.lt"
+            ]
+        },
+        {
+            "rule": "ovoko\\.com\\/com\\.ovokoanalytics\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cezaris"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovoko.fr",
+                "rrr.lt"
+            ]
+        },
+        {
+            "rule": "ovoko\\.com\\/com\\.ovokoanalytics\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cezaris"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovoko.fr",
+                "rrr.lt"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Ping": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "bob.ns.cloudflare.com",
+        "melody.ns.cloudflare.com"
+    ]
+}

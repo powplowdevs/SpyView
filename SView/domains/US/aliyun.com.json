@@ -1,0 +1,86 @@
+{
+    "domain": "aliyun.com",
+    "owner": {
+        "name": "Alibaba Group",
+        "displayName": "Alibaba"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "cf"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "aliyun\\.com\\/nocaptcha\\/initialize\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cf"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "adba5c9a138a88dcb1bea5cef465cff0815b4d34e8cd6baeca06a75c3769c001",
+                "4892fe0e4e1573f2234a1e615b1549f41f35cb7376e464d056dfbb8151deeab2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "miravia.es",
+                "www.qcc.com",
+                "www.thepaper.cn"
+            ]
+        },
+        {
+            "rule": "aliyun\\.com\\/nvc\\/nvcPrepare\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "51eb539f919dec11d2c1301217553b052b7313bd5303e0c324a3257138aa4187"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qcc.com",
+                "www.thepaper.cn"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "alicdn.com",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "lazcdn.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns3.aliyun.com",
+        "ns4.aliyun.com",
+        "ns5.aliyun.com"
+    ]
+}

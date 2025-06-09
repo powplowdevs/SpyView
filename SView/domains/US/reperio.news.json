@@ -1,0 +1,80 @@
+{
+    "domain": "reperio.news",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "tracker.adh"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "reperio\\.news\\/track\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker.adh"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "1dcf15efeec55b5324705d8e216deca7070d0c48b5aa123ec0f818aab9c1548e",
+                "f2d7a6c8ba6dd375d32eca34d28406e82e88ccf2ef1c62bd5757fdc5a98fdb20"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adevarul.ro",
+                "click.ro",
+                "historia.ro"
+            ]
+        },
+        {
+            "rule": "reperio\\.news\\/track\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker.adh"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adevarul.ro",
+                "click.ro",
+                "historia.ro"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-340.awsdns-42.com",
+        "ns-723.awsdns-26.net",
+        "ns-1108.awsdns-10.org",
+        "ns-1616.awsdns-10.co.uk"
+    ]
+}

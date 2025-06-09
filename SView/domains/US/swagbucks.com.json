@@ -1,0 +1,83 @@
+{
+    "domain": "swagbucks.com",
+    "owner": {
+        "name": "Prodege, LLC",
+        "displayName": "Prodege"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [
+        {
+            "original": "api.inboxdollars.com",
+            "resolved": "www.swagbucks.com"
+        },
+        {
+            "original": "api.mypoints.com",
+            "resolved": "www.swagbucks.com"
+        },
+        {
+            "original": "api.upromise.com",
+            "resolved": "www.swagbucks.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "swagbucks\\.com\\/",
+            "cookies": 0.0000283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "api.inboxdollars.com",
+                    "resolved": "www.swagbucks.com"
+                },
+                {
+                    "original": "api.mypoints.com",
+                    "resolved": "www.swagbucks.com"
+                },
+                {
+                    "original": "api.upromise.com",
+                    "resolved": "www.swagbucks.com"
+                }
+            ],
+            "responseHashes": [
+                "03affe847537d2ea3e1d524474478f5c42f044eafe6ec5b3b05eeda16d218e6c",
+                "a382a0d91868672925280785ada64d4b9de128680914d721cbb28330a8949056",
+                "05fdd404eebf4c896346e30594d5b63d7feecb96c332538068e653261921119f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inboxdollars.com",
+                "www.inboxdollars.com",
+                "www.mypoints.com",
+                "www.upromise.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-230.awsdns-28.com",
+        "ns-749.awsdns-29.net",
+        "ns-1582.awsdns-05.co.uk",
+        "ns-1158.awsdns-16.org"
+    ]
+}

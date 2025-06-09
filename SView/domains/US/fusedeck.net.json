@@ -1,0 +1,103 @@
+{
+    "domain": "fusedeck.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "swissmedical-io.cust",
+        "ubs-io.cust"
+    ],
+    "cnames": [
+        {
+            "original": "fuse.swissmedical.net",
+            "resolved": "swissmedical-io.cust.fusedeck.net"
+        },
+        {
+            "original": "fuse.ubs.com",
+            "resolved": "ubs-io.cust.fusedeck.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "fusedeck\\.net\\/d\\/tm\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "swissmedical-io.cust",
+                "ubs-io.cust"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "fuse.swissmedical.net",
+                    "resolved": "swissmedical-io.cust.fusedeck.net"
+                },
+                {
+                    "original": "fuse.ubs.com",
+                    "resolved": "ubs-io.cust.fusedeck.net"
+                }
+            ],
+            "responseHashes": [
+                "499a9d8d0efabaae07353b3098c3ec2d52f1687959683f0ea17b0a2352c276bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "s_gpv_url": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "swissmedical.net",
+                "www.ubs.com"
+            ]
+        },
+        {
+            "rule": "fusedeck\\.net\\/t\\/eng",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swissmedical-io.cust",
+                "ubs-io.cust"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "fuse.swissmedical.net",
+                    "resolved": "swissmedical-io.cust.fusedeck.net"
+                },
+                {
+                    "original": "fuse.ubs.com",
+                    "resolved": "ubs-io.cust.fusedeck.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissmedical.net",
+                "www.ubs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "types": {
+        "Script": 2,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "ns-220.awsdns-27.com",
+        "ns-733.awsdns-27.net",
+        "ns-1584.awsdns-06.co.uk",
+        "ns-1186.awsdns-20.org"
+    ]
+}

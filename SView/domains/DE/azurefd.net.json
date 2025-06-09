@@ -1,0 +1,1645 @@
+{
+    "domain": "azurefd.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00337,
+    "sites": 33,
+    "subdomains": [
+        "statuscast-web-1",
+        "meh-web-meu-apfd001",
+        "b2c-shop-production-dngdd3ead7b5f3an.z01",
+        "aviramhub-a2dfbvbedqbda7av.a03",
+        "ccleanermhub-bjhybxceamebajhe.a03",
+        "imageservice-beajhpgsh7dxf5g9.a03",
+        "ase-gtm-prod-fmfbh8dkc5cxf3cr.a02",
+        "flysascom-gtm-prod-endpoint-cvapaegcgwaecfg0.z01",
+        "shgfdgtm100prod-h8dpbpgecga5acdr.a03",
+        "fcsp-cdn-etaed4h5eackgzeb.a01",
+        "components-endpoint-d5fsg8cubsezdqcz.z01",
+        "components-test-endpoint-hrhpaubadnf6bgh5.z01",
+        "cdn-p-gydva5h6bncefvf6.a02",
+        "rockworld-marketoscript-p-euw-001-cqeydnfcdvfbbpap.a02",
+        "vattenfallde-web-cdn-fe-prd-bkb0e9h5dtakg5en.a03",
+        "pbhmg-cow-ww-cdn-endpoint-f6ethjfha0evaee5.a03"
+    ],
+    "cnames": [
+        {
+            "original": "components.flysas.com",
+            "resolved": "components-endpoint-d5fsg8cubsezdqcz.z01.azurefd.net"
+        },
+        {
+            "original": "components.test.flysas.com",
+            "resolved": "components-test-endpoint-hrhpaubadnf6bgh5.z01.azurefd.net"
+        },
+        {
+            "original": "content.www.wiwo.de",
+            "resolved": "pbhmg-cow-ww-cdn-endpoint-f6ethjfha0evaee5.a03.azurefd.net"
+        },
+        {
+            "original": "gtm.flysas.com",
+            "resolved": "flysascom-gtm-prod-endpoint-cvapaegcgwaecfg0.z01.azurefd.net"
+        },
+        {
+            "original": "imageservice.ecom-api.beck-shop.de",
+            "resolved": "imageservice-beajhpgsh7dxf5g9.a03.azurefd.net"
+        },
+        {
+            "original": "img.muji.eu",
+            "resolved": "meh-web-meu-apfd001.azurefd.net"
+        },
+        {
+            "original": "metrics.boels.com",
+            "resolved": "ase-gtm-prod-fmfbh8dkc5cxf3cr.a02.azurefd.net"
+        },
+        {
+            "original": "mhubc.avira.com",
+            "resolved": "aviramhub-a2dfbvbedqbda7av.a03.azurefd.net"
+        },
+        {
+            "original": "mhubc.ccleaner.com",
+            "resolved": "ccleanermhub-bjhybxceamebajhe.a03.azurefd.net"
+        },
+        {
+            "original": "p-cdn.rockwool.com",
+            "resolved": "cdn-p-gydva5h6bncefvf6.a02.azurefd.net"
+        },
+        {
+            "original": "static.vattenfall.de",
+            "resolved": "vattenfallde-web-cdn-fe-prd-bkb0e9h5dtakg5en.a03.azurefd.net"
+        },
+        {
+            "original": "stats.schwaebisch-hall.de",
+            "resolved": "shgfdgtm100prod-h8dpbpgecga5acdr.a03.azurefd.net"
+        },
+        {
+            "original": "status.sophos.com",
+            "resolved": "statuscast-web-1.azurefd.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "azurefd\\.net\\/components\\.json",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statuscast-web-1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "status.sophos.com",
+                    "resolved": "statuscast-web-1.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "1630810741875cd8005092a2501f18d02800c196b03a729aa7037c0449d0b4df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sophos.com",
+                "docs.sophos.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/img\\/vid\\/bcvideo\\/25ss_mujilabo_main_summer\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "meh-web-meu-apfd001"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "img.muji.eu",
+                    "resolved": "meh-web-meu-apfd001.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "296fab6dd7630f705ad03bd11fd1f476b6a30cc0d087cc5e1f3fa60093264b6f"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muji.eu",
+                "germany.muji.eu"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/fonts\\/MOPGothic-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "860452ddb57bda2d788a33991b83dfbaccdb5f87235411d78be9a72f39ccb09b"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/fonts\\/MOPGothic-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3cec63fbfc401964380fc2c26e7db50cab31427729f1019ea5f629c602de005"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/entry\\.ydUwyf-u\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2853dc73a12f30e2157dc776b1556b4625fa82780bd085f0a33230c92588b00d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/default\\.GokhaFsH\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "76a34abb26835001680b77e77845ada5d803d4b8b072c808fe3323d7e11a616c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Home\\.xy5CApzj\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "be64ad4d13e08a53b41b8f3794c62480444864e5ee356a4777622ac178a87832"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/entry\\.3JRS18eK\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9306a2f5f8ccb9079f5d2b7f804dc9be595ddd22398f4884155f6fdb6d27d293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "lang": {
+                    "ttl": 2678405,
+                    "length": 5,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/default\\.kAtOn3mA\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "dd5b183fab67733427ec7b435eeb1196a1eef8168257099b1274c50c18141aa3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Home\\._WNlhexL\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1f357c4f69b4c2dbf7074879a18b74d38d2c86967e2ee8c25eb952005aa5fd82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/useMopCategories\\.yLBkdFuk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8eb1ff6a981c37b692f40a3dde482fa48c75b354cdde7230cf7c7096a13025be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/de\\.ka2635qw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4f1ee0544b5f54e73e847d13604c8c2c19e4ba4bcd8c29bc9b07bd06d3a13682"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/builds\\/meta\\/4e5547ac-a787-403b-9d13-753284598bc4\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a5eea980c172672a52efc4fac1b6f1432d3f76f7ed47906a936da58cd36d9d4e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/chevron-down\\.k2DU8fDx\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d96343eca6c69ae34fc639b3d63730de74299114bb73a07f131697bd460e1f69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/menu\\.Gk_P0X3D\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d02306d4afaa9d1b94cc61d6b1268b7a9e40c4ef50fb3a24cf67956053fce35c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/help\\._6dHNg4i\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6a96ee047bc71e2ca1a53c1be586f848129dc1bee72d7ec66daed033de9a095a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/user\\.VHCO86Dg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "06d4b36c8c805bf21debb503b1863be7f892c9aeb5de928731525e25740d94b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/shopping-bag\\.xcFcdrkS\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "634a0be02d40533ab6ffd0c07d22b2299d66d1392d87241e106641366d1964e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Footer\\._jJPQXDq\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8fb1a0910a7edc35045f7e60610ef5c31771ab25cfbd2ae29034295078d542ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Logos\\.pEWTL3GV\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7cd2487534a567a1c67ed2ea8ad739336bc922a88325095f53d62197630023a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Logos\\.RCX33dqB\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2a9ed17b9be29407d8366f4e191bb4e4cb915fcd40496d82f716592281c492b7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Footer\\.3ihKCFMG\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "b7aba62f60743c1480b2573abbd4e9fdb2923d46dc46a7454652dec79715cf8c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/SaizWidget\\.5LZm7bKz\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e5cd280410510650ebfa1dbb3e5988150dcf0c7568440741feca06d48bd4a500"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/SaizWidget\\.9cjKjE7o\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "187adcd9cc46b785c2a048bf9480f0befce8fe50ff9ea361913ea95a01502ad1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/AddToCartOverlay\\.R5EWlQ2J\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "58635d2bde3bf560866ffee6d0a24e94cbaa185bea088408968760bde42af96d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/ProductListCard\\.bti2sBtc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2f544e571c42c0b6d06d8188a1db3820580fad1739ba7b0ecad835651824ca2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Ui2DotBadge\\.vue\\.-JUmq9yQ\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ea7e6a0c1d44111630ffb9e32fd719d565b52d300fe1e966e2d11e61a98288c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Ui2DotBadge\\.e4J2xXHM\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "5014af3cd89ae06ada27470fa8efc2ab2e5322cf889c1138b6b7e79c7971874d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Availability\\.6nbdxIgP\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d2ee8f7811ef4653fd1b530504f76680336a5e5b2e52b7132718cea80447ff29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Availability\\.Malk-J9s\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "848a81b1456156f9a4389a7f5ca96f081b6b1e05cbd8ba0dc5794cf37ec0d45a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/ProductListCard\\.Xy4x1M7z\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a654215256cf5417afa4bfa3e0dcf454aec0b3270fd698905139783d1a529ac1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Divider\\.B1OzcXzO\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c5e949fe3c64becd519eb5207a65ef1564caa85557890d5f96f0a819971f587d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Divider\\.nejMxvb7\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "bd856372f84b64d75a52032864d987bebd08f324f8911592fc2724d507510b9a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/AddToCartOverlay\\.2yQg8Wn5\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "100390479eac888d3438dc08cc77eee21f94d6926b9655915e2e7bf5bd66fee6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/CountrySelectorOverlay\\.yDFK-lGl\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a796b0fb0038608fa8ca73a1f840eb147ad5973da62e5711395ebc7c44c9ee89"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Select\\.vue\\.DeGXLw5d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "85933f4245f61a38d5bed48053de148f06cfefc87406db5cb0d581c3d1e56e1f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/SelectItem\\.vue\\.YpY9auqp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "202923b26dbe06024efad9c61210fb774d15c03ccd03c0bde471e8ab95ef94a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Ui2Radio\\.vue\\.P31Yqb-1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "aecfbc1b0eec9340652d28159d8c2dc27b1c47fe34f0f5cfce662b15cca9cf41"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/useUi2FormElement\\.U8xpe5ec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3c07b33a3a0cb200e292f9593353bb474ee47d062cc624e8cf5d8e513b9d3a58"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Ui2Radio\\.U98pMOon\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7a503a84f9b1d04d51c92ddd0567aa069a4f66501583504536430305436e964e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/SelectItem\\.4rqKI4Uj\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "29b890b35148bbebdbe75dda98dc4b629b692802abd1468978b9be556fc2db76"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Select\\.5iTljYYu\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0fd36bfe8a6cb8ca8eb627e45f94bcc61b399ee24c5680a5602333703739d4f9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Ui2Form\\.vue\\.FJv62wIO\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "13f476e1a0e65f99a04a16f5b987a518354f66cd495123b87ee4df3ef484a174"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/CountrySelectorOverlay\\.f83FaVnQ\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "832cad36c769e20492a0a85de79e75cd42e62786d7269d2d39fa504e02f7f0ae"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/SlotUiCmsMediaBottom\\.034tn39q\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "69ceb3fdc402b41c2a2ec8bc473818f9205f5f0348a8a55b41b6233aa5229fe0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Hotspots\\.g4ccOrId\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8c67375b8535daf51eabc3577968ba98fded630055b10ce5ab67a4541c2e92b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/HotspotHoverProduct\\.18gXID3Q\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "bfb03b0a71c465e11249aefb09edcc51337a07e805babe871ad3f4499a55d63d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Price\\.rpdeBBfD\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "ff07552211787edc8fff26c49957d36573f5a89c34df7b837c776c5275fd75e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Price\\.luFj62vy\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2d45c93b810cf88c122d6a1d4f4612564e7029d5893de2a7ef27b30806b575ec"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/HotspotHoverProduct\\.xHZX_CoH\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "fd9792ca1b2e3d8b22d641e3095932d99b3c89350a3ebb2570d961199c0ce41a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/HotspotHoverText\\.4FpVtrL-\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "981d954b5bee14503d3222ac89b525cbb297a72425aa688632af27d05c56250b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/HotspotHoverText\\.g8fem44p\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "87f709c097517cf0fc564b69b189a09ee56ba62e9d3e76ba762737fd2baaf16d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/UiTooltip\\.y7IKr2Ij\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "538172b080924696a264e8f59b0baff96f1d57ad5539f9052476776cd2231af9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/UiTooltip\\.8ZOCLsAP\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "2dad1b0ffc156913cdb31628e81b2fd6e259de61c03f3d66437530ff08749467"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/_nuxt4\\/Hotspots\\.WP-sHk4e\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b2c-shop-production-dngdd3ead7b5f3an.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4769d3464c61a02c1189583021c7b0d463f2ebe617b9e5811109b2dccc6b9a27"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marc-o-polo.com",
+                "www.marc-o-polo.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/script\\/mhubc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aviramhub-a2dfbvbedqbda7av.a03",
+                "ccleanermhub-bjhybxceamebajhe.a03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "mhubc.avira.com",
+                    "resolved": "aviramhub-a2dfbvbedqbda7av.a03.azurefd.net"
+                },
+                {
+                    "original": "mhubc.ccleaner.com",
+                    "resolved": "ccleanermhub-bjhybxceamebajhe.a03.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "3cd6d64d61788f176d2f8dc67d11a7adac8620e5b1a7eed4acf6e25b1ca0770e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avira.com",
+                "www.ccleaner.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/api\\/getimage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imageservice-beajhpgsh7dxf5g9.a03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "imageservice.ecom-api.beck-shop.de",
+                    "resolved": "imageservice-beajhpgsh7dxf5g9.a03.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "7a37df8a5125a8c741e17b91d6acc94f793cae24faeb054e637afbd73160fc84"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beck-shop.de",
+                "www.beck-shop.de"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/gtm\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ase-gtm-prod-fmfbh8dkc5cxf3cr.a02",
+                "flysascom-gtm-prod-endpoint-cvapaegcgwaecfg0.z01",
+                "shgfdgtm100prod-h8dpbpgecga5acdr.a03"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [
+                {
+                    "original": "metrics.boels.com",
+                    "resolved": "ase-gtm-prod-fmfbh8dkc5cxf3cr.a02.azurefd.net"
+                },
+                {
+                    "original": "gtm.flysas.com",
+                    "resolved": "flysascom-gtm-prod-endpoint-cvapaegcgwaecfg0.z01.azurefd.net"
+                },
+                {
+                    "original": "stats.schwaebisch-hall.de",
+                    "resolved": "shgfdgtm100prod-h8dpbpgecga5acdr.a03.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "12e8b31a055d6f53ffb81dbedcacb8cd8e424b1a9763179190f90f9940ab702d",
+                "526be0a9ec890bb861dd3d24604571ebcbc97d69f6ec6ca8f4fcbf85c030448c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boels.com",
+                "www.flysas.com",
+                "www.schwaebisch-hall.de"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/crop\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fcsp-cdn-etaed4h5eackgzeb.a01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcstpauli.com",
+                "www.fcstpauli.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/media\\/200863\\/witters_2135932\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fcsp-cdn-etaed4h5eackgzeb.a01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "39943b569b17307c182236808045c3519328a96fb1cfb56cefb44510bc049917"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcstpauli.com",
+                "www.fcstpauli.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/v2\\/cms-s4s-elements\\/assets\\/fonts\\/ScandinavianNew-Regular\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "components-endpoint-d5fsg8cubsezdqcz.z01",
+                "components-test-endpoint-hrhpaubadnf6bgh5.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "components.flysas.com",
+                    "resolved": "components-endpoint-d5fsg8cubsezdqcz.z01.azurefd.net"
+                },
+                {
+                    "original": "components.test.flysas.com",
+                    "resolved": "components-test-endpoint-hrhpaubadnf6bgh5.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flysas.com",
+                "www.flysas.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/gtag\\/js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "flysascom-gtm-prod-endpoint-cvapaegcgwaecfg0.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "gtm.flysas.com",
+                    "resolved": "flysascom-gtm-prod-endpoint-cvapaegcgwaecfg0.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "920fbbe2cef5954a2c20c0dd309c740074634c8917568f523d76a174c0b3b7e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flysas.com",
+                "www.flysas.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/munchkin\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-p-gydva5h6bncefvf6.a02",
+                "rockworld-marketoscript-p-euw-001-cqeydnfcdvfbbpap.a02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "p-cdn.rockwool.com",
+                    "resolved": "cdn-p-gydva5h6bncefvf6.a02.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "081ad4206bfeb1950c8382b5bc32aac31c4698598563d87080ee67a8fc5318d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockwool.com",
+                "www.rockwool.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/davis-config\\/davisSettings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vattenfallde-web-cdn-fe-prd-bkb0e9h5dtakg5en.a03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "static.vattenfall.de",
+                    "resolved": "vattenfallde-web-cdn-fe-prd-bkb0e9h5dtakg5en.a03.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "ef89f5a7e08516328c3581ea9319b968c003e7ae845b5a81fc8b99d238bd3ad1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vattenfall.de",
+                "www.vattenfall.de"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/api\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pbhmg-cow-ww-cdn-endpoint-f6ethjfha0evaee5.a03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "content.www.wiwo.de",
+                    "resolved": "pbhmg-cow-ww-cdn-endpoint-f6ethjfha0evaee5.a03.azurefd.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiwo.de",
+                "www.wiwo.de"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00122,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.935672514619883
+        },
+        {
+            "domain": "b2clogin.com",
+            "prevalence": 0.029239766081871343
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.017543859649122806
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.011695906432748537
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.005847953216374269
+        }
+    ],
+    "types": {
+        "Fetch": 8,
+        "Media": 2,
+        "Font": 6,
+        "Stylesheet": 40,
+        "Script": 69,
+        "Image": 6
+    },
+    "nameservers": [
+        "ns2-37.azure-dns.net",
+        "ns3-37.azure-dns.org",
+        "ns4-37.azure-dns.info",
+        "ns1-37.azure-dns.com"
+    ]
+}

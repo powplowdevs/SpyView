@@ -1,0 +1,107 @@
+{
+    "domain": "iambin.eu.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "webanalysis"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "iambin\\.eu\\.org\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webanalysis"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "56e70678cbf7e8c157c423bac4d2872f3b384a1784f43b1126ae5e59fd45d144"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aitoolnet.com",
+                "www.aitoolnet.com",
+                "www.theflowerwiki.com"
+            ]
+        },
+        {
+            "rule": "iambin\\.eu\\.org\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webanalysis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aitoolnet.com",
+                "www.aitoolnet.com",
+                "www.theflowerwiki.com"
+            ]
+        },
+        {
+            "rule": "iambin\\.eu\\.org\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webanalysis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e6acf6767901efee0ae87028bcd3a89e26c8d077324ace5d969d4ea15d71ad69",
+                "4b4678b82eac10d9906154d1cb09f6709e5e07c2d0fea88ba866ca232ed77a5d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aitoolnet.com",
+                "www.aitoolnet.com",
+                "www.theflowerwiki.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "KIP.NS.CLOUDFLARE.COM",
+        "HOPE.NS.CLOUDFLARE.COM"
+    ]
+}

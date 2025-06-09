@@ -1,0 +1,100 @@
+{
+    "domain": "onequince.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "api",
+        "storefront-api",
+        "api-prod-public"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "onequince\\.com\\/sand-services\\/products\\/enrich",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quince.com",
+                "www.quince.com"
+            ]
+        },
+        {
+            "rule": "onequince\\.com\\/Production\\/get-delivery-date-eligibility",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quince.com",
+                "www.quince.com"
+            ]
+        },
+        {
+            "rule": "onequince\\.com\\/edd-platform\\/product-edd-detail",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prod-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3a48758039f6e7a49848aea8c33f3df649eb50b85405766be5f86f0ff30298e5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quince.com",
+                "www.quince.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-365.awsdns-45.com",
+        "ns-908.awsdns-49.net",
+        "ns-1276.awsdns-31.org",
+        "ns-1996.awsdns-57.co.uk"
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "domain": "d2511vxry32owh.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api-rog.asus.com",
+            "resolved": "d2511vxry32owh.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "d2511vxry32owh\\.cloudfront\\.net\\/recent-data\\/api\\/v4\\/Account\\/Status",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api-rog.asus.com",
+                    "resolved": "d2511vxry32owh.cloudfront.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asus.com",
+                "rog.asus.com"
+            ]
+        },
+        {
+            "rule": "d2511vxry32owh\\.cloudfront\\.net\\/recent-data\\/api\\/v4\\/Level\\/PopUPAds",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api-rog.asus.com",
+                    "resolved": "d2511vxry32owh.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "b9da913726b1d6776e2b1b61825ed7e6883b86262e465c5aa7534e0b50592399"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asus.com",
+                "rog.asus.com"
+            ]
+        },
+        {
+            "rule": "d2511vxry32owh\\.cloudfront\\.net\\/recent-data\\/api\\/v4\\/Account\\/Status",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api-rog.asus.com",
+                    "resolved": "d2511vxry32owh.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "5979de193852509fd310df5a6db0692e3b743fed2c4ff921f8125dbcb10e6369"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asus.com",
+                "rog.asus.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Preflight": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-1094.awsdns-08.org",
+        "ns-2011.awsdns-59.co.uk",
+        "ns-506.awsdns-63.com",
+        "ns-964.awsdns-56.net"
+    ]
+}

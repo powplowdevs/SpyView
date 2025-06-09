@@ -1,0 +1,141 @@
+{
+    "domain": "hikeorders.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000099,
+    "sites": 14,
+    "subdomains": [
+        "jsappcdn",
+        "a11yenablerapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hikeorders\\.com\\/main\\/assets\\/js\\/hko-accessibility\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jsappcdn"
+            ],
+            "apis": {
+                "window.localStorage": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.plugins": 6,
+                "Date.prototype.getTime": 6,
+                "Notification.permission": 4
+            },
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "1b837c6abe3d1e2b44f1a55c0166f8c0d2acb9f61391d63dda52b58e384b0818"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eatprima.com",
+                "fultonfishmarket.com",
+                "stopboxusa.com",
+                "tilley.com",
+                "transitionbikes.com",
+                "www.beautybyearth.com",
+                "www.elitefts.com",
+                "www.matsukiyococokara-online.com",
+                "www.microingredients.com",
+                "www.rods.com",
+                "www.thinkvacuums.com"
+            ]
+        },
+        {
+            "rule": "hikeorders\\.com\\/site_bridge\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a11yenablerapi"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "4eeb785073174871af110429c4e51d5c41fbda9ae0cbc4e9c6372f82ab34e0bf",
+                "1fcf85951ffa229c639006d8f2fa162f110160888f109114c5a0e7572c64d6a0",
+                "996ede6ac0e27ab27d64f0ba30f39a2f668b7c99051c2245e7787eb9dc3aad77",
+                "55090ae5c89f2c5bb200390b00e3dfd58239245f57c6ce890355232f3eb2a5ae",
+                "f047b5ca73c51159ea5ad487db130ecb47449c21b5551cfffeca1518c45ab57e",
+                "42f47c06064033faddfd6a2473496b59711a1893878051cd47a70d28495c6076"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eatprima.com",
+                "stopboxusa.com",
+                "tilley.com",
+                "transitionbikes.com",
+                "www.beautybyearth.com",
+                "www.elitefts.com",
+                "www.matsukiyococokara-online.com",
+                "www.rods.com",
+                "www.thinkvacuums.com"
+            ]
+        },
+        {
+            "rule": "hikeorders\\.com\\/assets\\/a11y-icons\\/a11y-icons\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jsappcdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "add31347661c4e52a5f6db6f5d56d18b0d1297a14ea15e6dcad8f7a616f24b21"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eatprima.com",
+                "tilley.com",
+                "transitionbikes.com",
+                "www.elitefts.com",
+                "www.rods.com",
+                "www.thinkvacuums.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.88
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "XHR": 9,
+        "Font": 6
+    },
+    "nameservers": [
+        "ns3.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns1.digitalocean.com"
+    ]
+}

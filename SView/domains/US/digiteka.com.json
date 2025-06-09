@@ -1,0 +1,469 @@
+{
+    "domain": "digiteka.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000127,
+    "sites": 18,
+    "subdomains": [
+        "cdn",
+        "ot",
+        "player",
+        "videofeed",
+        "trck",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "digiteka\\.com\\/media\\/js\\/common\\/inread_manager\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 4,
+                "Document.cookie getter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "98aa9c95c82fce75e48851e275704e0cfa2d1b3bd90342ef179e9e86059aa334"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ouest-france.fr",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.magicmaman.com",
+                "www.public.fr"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/video-js\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ot"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "01df456b85acb77a180ad7d890f265ea448289bdae9a4b54c58d919b4d484c2e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.dhnet.be",
+                "www.ladepeche.fr",
+                "www.larep.fr",
+                "www.larepubliquedespyrenees.fr",
+                "www.lepopulaire.fr",
+                "www.lesoir.be",
+                "www.letelegramme.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/videojs-errors\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ot"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "8f77a5637f21ed2fd3ec40fdabed99089c7e9483b26601ada71eb546cf959930"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.dhnet.be",
+                "www.ladepeche.fr",
+                "www.larep.fr",
+                "www.larepubliquedespyrenees.fr",
+                "www.lepopulaire.fr",
+                "www.lesoir.be",
+                "www.letelegramme.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/quality-selector\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ot"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "bbd9db8e1c208458a477d2d4bf7187b0fdf46ed806104228f278aeda0cf91cf4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.dhnet.be",
+                "www.ladepeche.fr",
+                "www.larep.fr",
+                "www.larepubliquedespyrenees.fr",
+                "www.lepopulaire.fr",
+                "www.lesoir.be",
+                "www.letelegramme.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/build\\/dtkplayer-vjs\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "570222be4bee1de0dbac524589beca115d6357658f15d3153f884a54c2976d88"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.dhnet.be",
+                "www.ladepeche.fr",
+                "www.larep.fr",
+                "www.larepubliquedespyrenees.fr",
+                "www.lepopulaire.fr",
+                "www.lesoir.be",
+                "www.letelegramme.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/video\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ot"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.maxTouchPoints": 6,
+                "Navigator.prototype.languages": 6,
+                "URL.createObjectURL": 1,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.connection": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "c1f8781857b27f14efa5a99aa634f5497f36f3fe50a8e3f5577c9f0b6dd755ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.dhnet.be",
+                "www.ladepeche.fr",
+                "www.larep.fr",
+                "www.larepubliquedespyrenees.fr",
+                "www.lepopulaire.fr",
+                "www.lesoir.be",
+                "www.letelegramme.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/videojs-errors\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ot"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "fa0911dcc4faf8c1af34373c4ef2646f429c5d322344e0e94034c1b8a5fb72bb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.dhnet.be",
+                "www.ladepeche.fr",
+                "www.larep.fr",
+                "www.larepubliquedespyrenees.fr",
+                "www.lepopulaire.fr",
+                "www.lesoir.be",
+                "www.letelegramme.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/silvermine-videojs-quality-selector\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ot"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "2b17f02db63529b2ba6fe67c320b69ff803b775b7bd6c70ce4809c5c660ab30b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.dhnet.be",
+                "www.ladepeche.fr",
+                "www.larep.fr",
+                "www.larepubliquedespyrenees.fr",
+                "www.lepopulaire.fr",
+                "www.lesoir.be",
+                "www.letelegramme.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/pbLibrary\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ot"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 6,
+                "NavigatorUAData.prototype.platform": 6,
+                "window.sessionStorage": 6,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "2d0b916be8016ff46ab4da8890f09a29808ee23b739199500c29edce7be90293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.dhnet.be",
+                "www.ladepeche.fr",
+                "www.larep.fr",
+                "www.larepubliquedespyrenees.fr",
+                "www.lepopulaire.fr",
+                "www.lesoir.be",
+                "www.letelegramme.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/build\\/dtkplayer-vjs\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 5,
+                "window.name": 5,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "798108fc30b8ec816f7476b371b9abf57d553e81b4d58aa39c26feef8ee7ad85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boursorama.com",
+                "www.dhnet.be",
+                "www.ladepeche.fr",
+                "www.larep.fr",
+                "www.larepubliquedespyrenees.fr",
+                "www.lepopulaire.fr",
+                "www.lesoir.be",
+                "www.letelegramme.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/launcher\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "videofeed"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 4,
+                "window.innerWidth": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "b336ca30cabd4fa64405c6d36c0118eccfdcf76c06775bedb93d6e962ed6ed59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lavoixdunord.fr",
+                "www.lesoir.be",
+                "www.lunion.fr",
+                "www.paris-normandie.fr",
+                "www.sudinfo.be"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/v\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trck"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lunion.fr",
+                "www.lunion.fr",
+                "www.paris-normandie.fr"
+            ]
+        },
+        {
+            "rule": "digiteka\\.com\\/encoded\\/ngs-728e1b8d\\/mp4\\/6adc6bfe19019b72c4e24956006db76dc4c8b0c6\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3323cd898b15cdc650bfbb1279f17740ec2f43ec8e92f0c3cdb91e8075fbd246"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paris-normandie.fr",
+                "www.paris-normandie.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ultimedia.com",
+            "prevalence": 0.924812030075188
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.045112781954887216
+        },
+        {
+            "domain": "prsmedia.fr",
+            "prevalence": 0.015037593984962405
+        },
+        {
+            "domain": "pbstck.com",
+            "prevalence": 0.007518796992481203
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.007518796992481203
+        }
+    ],
+    "types": {
+        "Script": 70,
+        "Stylesheet": 48,
+        "Ping": 3,
+        "Media": 2
+    },
+    "nameservers": [
+        "ns-555.awsdns-05.net",
+        "ns-1445.awsdns-52.org",
+        "ns-187.awsdns-23.com",
+        "ns-1871.awsdns-41.co.uk"
+    ]
+}

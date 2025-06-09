@@ -1,0 +1,897 @@
+{
+    "domain": "in.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000141,
+    "sites": 20,
+    "subdomains": [
+        "v6analytics.htmedia",
+        "im.indiatimes",
+        "static.gst.gov",
+        "webservices.bajajfinserv",
+        "app-design-system-s6web-prod-skyplus6e.goindigo",
+        "app-login-s6web-prod-skyplus6e.goindigo",
+        "app-login-sso-s6web-prod-skyplus6e.goindigo",
+        "app-booking-s6web-prod-skyplus6e.goindigo",
+        "api-prod-session-skyplus6e.goindigo"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.htmedia.in",
+            "resolved": "v6analytics.htmedia.in.edgekey.net"
+        },
+        {
+            "original": "api-prod-session-skyplus6e.goindigo.in",
+            "resolved": "api-prod-session-skyplus6e.goindigo.in.edgekey.net"
+        },
+        {
+            "original": "app-booking-s6web-prod-skyplus6e.goindigo.in",
+            "resolved": "app-booking-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+        },
+        {
+            "original": "app-design-system-s6web-prod-skyplus6e.goindigo.in",
+            "resolved": "app-design-system-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+        },
+        {
+            "original": "app-login-s6web-prod-skyplus6e.goindigo.in",
+            "resolved": "app-login-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+        },
+        {
+            "original": "app-login-sso-s6web-prod-skyplus6e.goindigo.in",
+            "resolved": "app-login-sso-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+        },
+        {
+            "original": "im.indiatimes.in",
+            "resolved": "im.indiatimes.in.edgekey.net"
+        },
+        {
+            "original": "static.gst.gov.in",
+            "resolved": "static.gst.gov.in.edgekey.net"
+        },
+        {
+            "original": "webservices.bajajfinserv.in",
+            "resolved": "webservices.bajajfinserv.in.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "in\\.edgekey\\.net\\/analytics-js\\/tracker\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "v6analytics.htmedia"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "analytics.htmedia.in",
+                    "resolved": "v6analytics.htmedia.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ddf4d99f6b0facdc2219412d70c23117f4204f4e645fde5f80a6f8a012eed9c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sp_ses.57ef": {
+                    "ttl": 1814,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_id.57ef": {
+                    "ttl": 63072014,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_ses.e8bf": {
+                    "ttl": 1801,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_id.e8bf": {
+                    "ttl": 63072001,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_ses.9d0c": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sp_id.9d0c": {
+                    "ttl": 63072002,
+                    "length": 108,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hindustantimes.com",
+                "tamil.hindustantimes.com",
+                "tech.hindustantimes.com",
+                "www.hindustantimes.com",
+                "www.livemint.com"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/content\\/2025\\/Apr\\/Murmur-Tamil-Official-Trailer_67ed49c5950ae\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "im.indiatimes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "im.indiatimes.in",
+                    "resolved": "im.indiatimes.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "36d08b55ad532f6cd60ceb4716d3f4274ffdebb334e27eb81783afc3c97d6948"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indiatimes.com",
+                "m.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/dist\\/web_english\\.ca5a3e308f1834b55185\\.chunk\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "im.indiatimes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "im.indiatimes.in",
+                    "resolved": "im.indiatimes.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "eef9fb055d9aedf3fd1fc396682ae538a8a628d3e169af30d277b0eee7e141d1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indiatimes.com",
+                "www.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/content\\/2023\\/Oct\\/big-test-min_6528266ce9a76\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "im.indiatimes"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "im.indiatimes.in",
+                    "resolved": "im.indiatimes.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a0316246b5e1956a066452b8d93df1486782bc4466f4d1fdbcc71e307bccf9ce",
+                "2e4a6d4fae0567bb7bdf94ef1f290c2a5ec51f0baa7b08c721636415b95ead1e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indiatimes.com",
+                "m.indiatimes.com",
+                "www.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/content\\/2024\\/Jan\\/whatshot-web_65a8f8a0ba763\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "im.indiatimes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "im.indiatimes.in",
+                    "resolved": "im.indiatimes.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ff8ef0527d43a719840137d50c6a2d00d1384d2cd35e1fe691d2cccf9f4fdd3b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indiatimes.com",
+                "www.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/content\\/2025\\/May\\/New-Project---2025-05-15T114634817-Picsart-AiImageEnhancer_682586eec3c32\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "im.indiatimes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "im.indiatimes.in",
+                    "resolved": "im.indiatimes.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "34efa23853ec8c221a054a32e46cb470bbd64c947dfeee6b6f6a5f2fd6814c4b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indiatimes.com",
+                "www.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/content\\/2025\\/May\\/REAL-MADRID_6825879b4c512\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "im.indiatimes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "im.indiatimes.in",
+                    "resolved": "im.indiatimes.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3848ef23219ff5e5c318d40b4c67070aff6dcd008feea0fb7c8085c4210d4eb9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indiatimes.com",
+                "www.indiatimes.com"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/uiassets\\/javascripts\\/fwk\\/uiscriptsupgrd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.gst.gov"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.gst.gov.in",
+                    "resolved": "static.gst.gov.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ee580a6b42740b2177247c9e7ecd03a81e3d1e8979fb639eb395b00202889e4b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gst.gov.in",
+                "www.gst.gov.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/uiassets\\/javascripts\\/fwk\\/datepicker\\.min\\.1\\.4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.gst.gov"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.gst.gov.in",
+                    "resolved": "static.gst.gov.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1cb80d244f84a14e4313ad511a0b7d8ffbb0300c2770af8b6364e276ad47d812"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gst.gov.in",
+                "www.gst.gov.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/uiassets\\/javascripts\\/fwk\\/angular-all1\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.gst.gov"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.gst.gov.in",
+                    "resolved": "static.gst.gov.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f59de94aca9af144912614896e6a63ba9bcf747efef1a879dbf924c078f0b4e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gst.gov.in",
+                "www.gst.gov.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/uiassets\\/images\\/Emblem_of_India-white\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.gst.gov"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.gst.gov.in",
+                    "resolved": "static.gst.gov.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0894b6a6eb077ce403ed9e7bd3eaa4828219717217b7c82318fc21300d16fe1d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gst.gov.in",
+                "www.gst.gov.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/uiassets\\/images\\/Facebook\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.gst.gov"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.gst.gov.in",
+                    "resolved": "static.gst.gov.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "29d856d66ed2178f96320b859ef8d66a5197701a0812a2d64c8104a1bbd31f10"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gst.gov.in",
+                "www.gst.gov.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/uiassets\\/images\\/Youtube\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.gst.gov"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.gst.gov.in",
+                    "resolved": "static.gst.gov.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "30b7197024a10065b95041ae233de577be544cb2eca1920517815340f21a8b0d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gst.gov.in",
+                "www.gst.gov.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/uiassets\\/images\\/X\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.gst.gov"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.gst.gov.in",
+                    "resolved": "static.gst.gov.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "00a92c87649390b67b1db8c8b00447d6ccc603676c51593fe377def83d9861dd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gst.gov.in",
+                "www.gst.gov.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/uiassets\\/images\\/Linkedin\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.gst.gov"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.gst.gov.in",
+                    "resolved": "static.gst.gov.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d6b0b528fa1e06d3ad88b790660377a638a7ee1cf540b629c04485291cfd6fee"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gst.gov.in",
+                "www.gst.gov.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/api\\/v1\\/master\\/url-module-mapping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webservices.bajajfinserv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "webservices.bajajfinserv.in",
+                    "resolved": "webservices.bajajfinserv.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7946643cebcfc50508fcd404d3d3d734be815774c1601fda66a8b7f0e3a2871b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bajajfinserv.in",
+                "www.bajajfinserv.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/des-system\\/css\\/main\\.css",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-design-system-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-design-system-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-design-system-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9bf3d2478bb5a7325292f767692a88b1c3c64c2c0ade085598ac4062e02b1216"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/remoteEntry\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-login-s6web-prod-skyplus6e.goindigo",
+                "app-login-sso-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-login-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-login-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                },
+                {
+                    "original": "app-login-sso-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-login-sso-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c6f60582977574f930bf465d018cf110219f11f498040c4402ddf50691ba4615"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/41\\.a093444165472c18f098\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-login-sso-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-login-sso-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-login-sso-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ec6d35881cb3d1e6d1b4d75863c8193314ec2f3d40c21cf97ac0063fae7e1fcf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/vendors\\.59593cdf1e624e87123b\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-login-sso-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-login-sso-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-login-sso-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2356eb349c6c4dd6bdbd08f445bbbe3d5024fdb62daa7eff936b1d4ecac0baa9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/144\\.06b57c8cff591739f668\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-login-sso-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-login-sso-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-login-sso-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5ccc1d4cd4265c1776eafc8a23bf62002b9dffbbad172ec553feaf5813381830"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/styles\\.6ab0845da1cbd7509ea4\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-booking-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-booking-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-booking-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "fa29f721da21e1eab77a9ec2e375f107dd9aa1d4d0be92e3bbdcb541bc347c86"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/v1\\/token\\/create",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prod-session-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api-prod-session-skyplus6e.goindigo.in",
+                    "resolved": "api-prod-session-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/v1\\/token\\/create",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prod-session-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api-prod-session-skyplus6e.goindigo.in",
+                    "resolved": "api-prod-session-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6e118733eda99d33e771fb2a7bb4c79176748da0bc89c83583ed3ac040034335"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/301\\.715efcf91e8f2a629491\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-login-sso-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-login-sso-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-login-sso-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "77e4e2e774a4e7da708906a7de548404597dc78816965f0ef270683589ca329c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/520\\.9631799d47d6f13580ad\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-login-sso-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-login-sso-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-login-sso-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ec742dd051d8cc68f35ecfe87c5785f60699cfe7f4307b915840ea1facde3e98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/vendors\\.c443418f2c9a70c3927c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-login-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-login-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-login-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7ff0f9c6b38c5cd3e086b392626d88f97d57219953e0e04c80a8f0c58d5b4ad2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        },
+        {
+            "rule": "in\\.edgekey\\.net\\/734\\.b4f9acc5ad8cb94f5355\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-login-s6web-prod-skyplus6e.goindigo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "app-login-s6web-prod-skyplus6e.goindigo.in",
+                    "resolved": "app-login-s6web-prod-skyplus6e.goindigo.in.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0020515b1cc34a5f72d13550044d4deba074ec163839c4d9fbd48e2e874b167a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goindigo.in",
+                "www.goindigo.in"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000707,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8928571428571429
+        },
+        {
+            "domain": "indiatimes.com",
+            "prevalence": 0.05357142857142857
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "oraclecloud.com",
+            "prevalence": 0.017857142857142856
+        }
+    ],
+    "types": {
+        "Script": 27,
+        "Image": 21,
+        "Stylesheet": 6,
+        "XHR": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

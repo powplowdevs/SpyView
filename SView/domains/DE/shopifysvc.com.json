@@ -1,0 +1,273 @@
+{
+    "domain": "shopifysvc.com",
+    "owner": {
+        "name": "Shopify Inc.",
+        "displayName": "Shopify",
+        "privacyPolicy": "https://www.shopify.com/legal/privacy",
+        "url": "http://shopify.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.005,
+    "sites": 49,
+    "subdomains": [
+        "monorail-edge",
+        "error-analytics-sessions-production",
+        "otlp-http-production"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "shopifysvc\\.com\\/unstable\\/produce_batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "monorail-edge"
+            ],
+            "apis": {},
+            "sites": 42,
+            "prevalence": 0.00428,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shop.ford.de",
+                "de.roborock.com",
+                "de.nothing.tech",
+                "fahrrad-teile.shop",
+                "www.fairment.de",
+                "www.titus.de",
+                "nature-heart.de",
+                "dashboardsexcel.com",
+                "reformhaus.de",
+                "morenutrition.de",
+                "sp-connect.de",
+                "balkonkraftwerk-express.de",
+                "www.esn.com",
+                "de.ecoflow.com",
+                "www.wildling.shoes",
+                "alteserien.de",
+                "sodastream.de",
+                "www.shelly.com",
+                "vitamoment.de",
+                "gesundheitsvergleich-deutschland.de"
+            ]
+        },
+        {
+            "rule": "shopifysvc\\.com\\/v1\\/produce",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "monorail-edge"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.00255,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifixit.com",
+                "www.bavarian-bike.de",
+                "naturtreu.de",
+                "www.az-delivery.de",
+                "shellyparts.de",
+                "navimow.segway.com",
+                "www.shelly.com",
+                "www.minisforum.com",
+                "upway.de",
+                "www.titus.de",
+                "de.nothing.tech",
+                "morenutrition.de",
+                "www.sq-lab.com",
+                "sp-connect.de",
+                "www.ifixit.com",
+                "woom.com",
+                "solarhandel24.de",
+                "eu.store.bambulab.com",
+                "reformhaus.de",
+                "gesundheitsvergleich-deutschland.de"
+            ]
+        },
+        {
+            "rule": "shopifysvc\\.com\\/v1\\/produce",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "monorail-edge"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.00255,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifixit.com",
+                "upway.de",
+                "de.nothing.tech",
+                "morenutrition.de",
+                "woom.com",
+                "eu.store.bambulab.com",
+                "navimow.segway.com",
+                "www.shelly.com",
+                "naturtreu.de",
+                "www.titus.de",
+                "www.esn.com",
+                "www.sq-lab.com",
+                "shellyparts.de",
+                "www.ifixit.com",
+                "solarhandel24.de",
+                "reformhaus.de",
+                "de.ortlieb.com",
+                "www.minisforum.com",
+                "esn.com",
+                "deutscher-gesundheits-fachkreis.de"
+            ]
+        },
+        {
+            "rule": "shopifysvc\\.com\\/observeonly",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "error-analytics-sessions-production"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sp-connect.de",
+                "www.titus.de"
+            ]
+        },
+        {
+            "rule": "shopifysvc\\.com\\/observeonly",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "error-analytics-sessions-production"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sp-connect.de",
+                "www.titus.de"
+            ]
+        },
+        {
+            "rule": "shopifysvc\\.com\\/v1\\/metrics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otlp-http-production"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f56b35823a693646bf987ca07c9cbc4ff72a83b79b34595b20546b539795fdf0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "az-delivery.de",
+                "www.az-delivery.de"
+            ]
+        },
+        {
+            "rule": "shopifysvc\\.com\\/v1\\/produce",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "monorail-edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "d20pfsrd.com",
+                "www.d20pfsrd.com",
+                "www.iww.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7480314960629921
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.11023622047244094
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.047244094488188976
+        },
+        {
+            "domain": "shopifycdn.com",
+            "prevalence": 0.03937007874015748
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.031496062992125984
+        },
+        {
+            "domain": "trafficly.site",
+            "prevalence": 0.007874015748031496
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.007874015748031496
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.007874015748031496
+        }
+    ],
+    "types": {
+        "Ping": 45,
+        "Preflight": 27,
+        "Fetch": 29
+    },
+    "nameservers": [
+        "gold.foundationdns.net",
+        "gold.foundationdns.org",
+        "gold.foundationdns.com"
+    ]
+}

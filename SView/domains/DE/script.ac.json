@@ -1,0 +1,134 @@
+{
+    "domain": "script.ac",
+    "owner": {
+        "name": "Human Security, Inc.",
+        "displayName": "Human Security"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00245,
+    "sites": 24,
+    "subdomains": [
+        "cadmus"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "script\\.ac\\/d1oykxszdrgjgl\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cadmus"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.languages": 13,
+                "Notification.permission": 12,
+                "Navigator.prototype.plugins": 11,
+                "Date.prototype.getTimezoneOffset": 11,
+                "WebGLRenderingContext.prototype.getParameter": 1
+            },
+            "sites": 14,
+            "prevalence": 0.00143,
+            "cnames": [],
+            "responseHashes": [
+                "be7e151de5a7f8c1932b0e5da482145addf94465b576359ba8727554a98ef9cf",
+                "1d0480cf5d4df018d02114ced9c903fe3d10c778c5662f2e17e5b3d6acde20a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fortnite.gg",
+                "garticphone.com",
+                "openguessr.com",
+                "prosettings.net",
+                "wh40k.lexicanum.com",
+                "www.futbin.com",
+                "www.mtggoldfish.com",
+                "www.op.gg",
+                "www.overtake.gg",
+                "www.pcgamingwiki.com",
+                "www.pokemoncoders.com",
+                "www.planetminecraft.com",
+                "www.systemrequirementslab.com",
+                "www.trueachievements.com"
+            ]
+        },
+        {
+            "rule": "script\\.ac\\/d14pdm1b7fi5kh\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cadmus"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.languages": 2,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "70cd86082dfb9a36cbcf2635f9a3ac596214ef07688ceb247ae8fd5c378de8ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dexerto.com",
+                "www.mydealz.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "vntsm.com",
+            "prevalence": 0.52
+        },
+        {
+            "domain": "mediatradecraft.com",
+            "prevalence": 0.16
+        },
+        {
+            "domain": "dn0qt3r0xannq.cloudfront.net",
+            "prevalence": 0.12
+        },
+        {
+            "domain": "adinplay.com",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "xlgmedia.com",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "aditude.io",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "prebidwrapper.com",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "Script": 16
+    },
+    "nameservers": [
+        "algin.ns.cloudflare.com",
+        "marge.ns.cloudflare.com"
+    ]
+}

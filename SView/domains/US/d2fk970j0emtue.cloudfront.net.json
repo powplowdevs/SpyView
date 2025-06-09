@@ -1,0 +1,103 @@
+{
+    "domain": "d2fk970j0emtue.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000113,
+    "sites": 16,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d2fk970j0emtue\\.cloudfront\\.net\\/shop\\/js\\/free-gift-cart-upsell-pro\\.min\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 8,
+                "Date.prototype.getTime": 7,
+                "window.localStorage": 8,
+                "Document.cookie getter": 8,
+                "Document.cookie setter": 5
+            },
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "91de01f8635987789236c36b91a5e37f2da81f0d10cc78c918c87093d7c00889"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buddhaandkarma.com",
+                "hotcherry.com",
+                "innersensebeauty.com",
+                "megelin.com",
+                "mutts.com",
+                "www.andrewchristian.com",
+                "www.gnomonwatches.com",
+                "www.greatgardenplants.com",
+                "www.knifejoy.com",
+                "www.lazarusnaturals.com",
+                "www.pacificabeauty.com"
+            ]
+        },
+        {
+            "rule": "d2fk970j0emtue\\.cloudfront\\.net\\/shop\\/css\\/free-gift-cart-upsell-pro\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "4b69f8e08ef5526d1a20e58719b58d9e287cc6e108823295ba6ec8707e537e87"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buddhaandkarma.com",
+                "hotcherry.com",
+                "megelin.com",
+                "www.andrewchristian.com",
+                "www.gnomonwatches.com",
+                "www.greatgardenplants.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000566,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9583333333333334
+        },
+        {
+            "domain": "vitals.app",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Stylesheet": 6
+    },
+    "nameservers": [
+        "ns-1523.awsdns-62.org",
+        "ns-1582.awsdns-05.co.uk",
+        "ns-605.awsdns-11.net",
+        "ns-9.awsdns-01.com"
+    ]
+}

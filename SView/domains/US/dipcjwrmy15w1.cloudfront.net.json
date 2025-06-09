@@ -1,0 +1,127 @@
+{
+    "domain": "dipcjwrmy15w1.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dipcjwrmy15w1\\.cloudfront\\.net\\/lex-web-ui-loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6b500d511f3b85ee537ae37235bcb9101ba9d45c8eca677716159840b4433109"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ca.gov",
+                "www.cdtfa.ca.gov"
+            ]
+        },
+        {
+            "rule": "dipcjwrmy15w1\\.cloudfront\\.net\\/lex-web-ui-loader\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "04ca7eee3de4bad0ce2e88a9f7b09325c2166cac778afedd8d8fa05bb5624d85"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ca.gov",
+                "www.cdtfa.ca.gov"
+            ]
+        },
+        {
+            "rule": "dipcjwrmy15w1\\.cloudfront\\.net\\/aws-sdk-2\\.903\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ca.gov",
+                "www.cdtfa.ca.gov"
+            ]
+        },
+        {
+            "rule": "dipcjwrmy15w1\\.cloudfront\\.net\\/lex-web-ui-loader-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ca.gov",
+                "www.cdtfa.ca.gov"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "dipcjwrmy15w1.cloudfront.net",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1691.awsdns-19.co.uk",
+        "ns-411.awsdns-51.com",
+        "ns-874.awsdns-45.net",
+        "ns-1469.awsdns-55.org"
+    ]
+}

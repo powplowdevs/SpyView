@@ -1,0 +1,130 @@
+{
+    "domain": "nq-api.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "connect",
+        "fa-v37",
+        "v37"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nq-api\\.net\\/api\\/v3\\.3\\/core\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 2,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 1,
+                "window.outerHeight": 1,
+                "window.outerWidth": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "6e61f6628f81359eb5f84535776e7b1d388d6db03ad2ca7f4893f3b67f130bb2",
+                "6c669c7882cf59cb0d60126e451799a0f2d0e2982145a63c0ddc3d2dde49c166",
+                "9aea99859303ffe613837f919ed6dd6c87864667373c0bd841d44a1294dedf95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nqcore": {
+                    "ttl": 2678410,
+                    "length": 66,
+                    "prevalence": 0.000028293345405160706,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "footasylum.com",
+                "www.crewclothing.co.uk",
+                "www.houseofbruar.com",
+                "www.sjscycles.co.uk"
+            ]
+        },
+        {
+            "rule": "nq-api\\.net\\/api\\/v3\\.7\\/stylesheet\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fa-v37",
+                "v37"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "d26c2daf2c20c7dbbeb49ce1ba236f2d6c46dd7754d1e4b49869f747ba68546d",
+                "28f01a2b4abeec960040341024a5f11bb585791fa7516bd9ec0d8dea4dd9150b",
+                "21e301796cf38b7e3d6feab4fe00bca4a92c6c86bf8a50ba5520cad042ce5aac"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "footasylum.com",
+                "www.crewclothing.co.uk",
+                "www.houseofbruar.com",
+                "www.sjscycles.co.uk"
+            ]
+        },
+        {
+            "rule": "nq-api\\.net\\/api\\/v3\\.7\\/sjs-ckehpn8d4h\\/zones\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v37"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "34887dd8d4eff236375071d0f1945c9df43a43c09581f5ef43bfee0b33f4660f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sjscycles.co.uk",
+                "www.sjscycles.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "apollo.ns.cloudflare.com",
+        "robin.ns.cloudflare.com"
+    ]
+}

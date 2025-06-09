@@ -1,0 +1,85 @@
+{
+    "domain": "wmg.com",
+    "owner": {
+        "name": "Warner Music Group",
+        "displayName": "Warner Music Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "smetrics",
+        "wmas-main-pixel.fbcapi-gateway.data"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wmg\\.com\\/id",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c5b74f2c0912dd03516275f4bd310b1cb042a8f8db2a68f88245e80c4d78381c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bensonboone.com",
+                "www.bensonboone.com"
+            ]
+        },
+        {
+            "rule": "wmg\\.com\\/events\\/3872c93418fbd03413501ebdef765f4b03708a20f0ccabb21a56fc6443817ed3",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wmas-main-pixel.fbcapi-gateway.data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bensonboone.com",
+                "www.bensonboone.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dns1.p04.nsone.net",
+        "dns2.p04.nsone.net",
+        "dns3.p04.nsone.net",
+        "dns4.p04.nsone.net"
+    ]
+}

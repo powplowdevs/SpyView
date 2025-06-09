@@ -1,0 +1,70 @@
+{
+    "domain": "atgsvcs.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [
+        {
+            "original": "static.atgsvcs.com",
+            "resolved": "static.atgsvcs.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "atgsvcs\\.com\\.edgekey\\.net\\/js\\/atgsvcs\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "static.atgsvcs.com",
+                    "resolved": "static.atgsvcs.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c17ff28b850140b77cb7e9c1db94eb069ae4bd41ada3661dad9f61e3df72f083"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mysql.com",
+                "www.mysql.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "oracle.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,332 @@
+{
+    "domain": "responseiq.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "app",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "responseiq\\.com\\/widgetsrc\\.php",
+            "cookies": 0.0000354,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "dd57829def282b8f3a8d99a6e536b88c88657105b7376a9b7a65a50910046234",
+                "94b0e6849d48e5ebe6abf7aa17d4f74003fa8cd4cd3d69830757c3db39e0abd2",
+                "db670d2917b3f1585d388f94060c07253b08f223f2f18f3193122dc774e8a472",
+                "5b614c937f905c25e7a5df68af795e35624481d4f35bfb5e6bb560ab3acca8c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.amtrakvacations.com",
+                "www.luxurytraintickets.com",
+                "www.northshorecare.com",
+                "www.railbookers.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/1747159750\\/js\\/widgets\\.min\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "511aec63513983e43959de95f543736d23ce06b1b4492b717951c0ea5785f9f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.amtrakvacations.com",
+                "www.luxurytraintickets.com",
+                "www.northshorecare.com",
+                "www.railbookers.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/1747159750\\/js\\/vendor\\.de521b7c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "5cdeb5252092d3a4fa2d5fb5f78e215e8166429464ed81c98a4fb9fe331ea665"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.amtrakvacations.com",
+                "www.luxurytraintickets.com",
+                "www.northshorecare.com",
+                "www.railbookers.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/1747159750\\/css\\/default_new\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "b9c1d1ab19b8a76052252c1454218c58fbcdb4d401addc03e5318dfcbb8e63c3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.luxurytraintickets.com",
+                "www.railbookers.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/1747159750\\/css\\/riq_widget_fonts\\.min\\.css\\.gz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "a5befbaf8e5c7c78a420ff4387286ae4bc9cdd5863466eda423870bba3f7f8fa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.luxurytraintickets.com",
+                "www.northshorecare.com",
+                "www.railbookers.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/widget_timezone\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "54a0e8c17ebb21a11f8a25b8042786ef7efe52441e6cc87e92c67e0c4c0c6e78"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.luxurytraintickets.com",
+                "www.northshorecare.com",
+                "www.railbookers.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/keywordwidgets\\/keywordbasedsettings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dlv-leadlandurl": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.luxurytraintickets.com",
+                "www.northshorecare.com",
+                "www.railbookers.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/keywordwidgets\\/revisit_user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dlv-leadlandurl": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.luxurytraintickets.com",
+                "www.northshorecare.com",
+                "www.railbookers.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/asteriskcallwidgets\\/savevisiters_querystring",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "0c1d0da87ded129434a64272263fff7301f2915fe286cd383a2f979cca4965a5",
+                "4bba90f260e09fa7e62e1474837b8385eac4198c66fbe049aac5732876442d27"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dlv-leadlandurl": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.luxurytraintickets.com",
+                "www.northshorecare.com",
+                "www.railbookers.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/asteriskcallwidgets\\/store_ga_client",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.northshorecare.com"
+            ]
+        },
+        {
+            "rule": "responseiq\\.com\\/asteriskcallwidgets\\/savewidgetimpression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amtrakvacations.com",
+                "www.northshorecare.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "Stylesheet": 7,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ed.ns.cloudflare.com",
+        "nelly.ns.cloudflare.com"
+    ]
+}

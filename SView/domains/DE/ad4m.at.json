@@ -1,0 +1,215 @@
+{
+    "domain": "ad4m.at",
+    "owner": {
+        "name": "advanced STORE GmbH",
+        "displayName": "advanced STORE"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00143,
+    "sites": 14,
+    "subdomains": [
+        "as"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ad4m\\.at\\/csf\\.html",
+            "cookies": 0.000102,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie setter": 1
+            },
+            "sites": 14,
+            "prevalence": 0.00143,
+            "cnames": [],
+            "responseHashes": [
+                "da8ad50d5d25bf3d6d6b3e76ebd9713327aee2b3e058ca3591f3dc7cc1f05fb1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "city-tourist.de",
+                "lizenzguru.de",
+                "ninjakitchen.de",
+                "www.bikes.de",
+                "www.gartentraum.de",
+                "www.hanfgartenshop.de",
+                "www.hifi-forum.de",
+                "www.leguano.eu",
+                "www.ninjakitchen.de",
+                "www.radonline.de",
+                "www.reifen.de",
+                "www.smartbrokerplus.de",
+                "www.stromauskunft.de",
+                "www.vielfliegertreff.de"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/network-tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "f955d89f655c48cd7cab94ec3fc64c803112e673dbc657903d1cbcb56d0d5dac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lizenzguru.de",
+                "www.bikes.de",
+                "www.hanfgartenshop.de",
+                "www.smartbrokerplus.de"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/ad\\/ant",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "as"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "3f5149061e89223d1eb7cf6207b9fe032f9c498ac77156eab4bbb75aedb46957",
+                "fe01176a996bd63ab02b5f07f268bd79a08318f7922ccf157c9ab9d2cb1a4a5f",
+                "180e618c071007bc0d1ffcd0bd9d39cae93dbdf2be6d1ba030be6d5287ea4622"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lizenzguru.de",
+                "www.bikes.de",
+                "www.hanfgartenshop.de",
+                "www.smartbrokerplus.de"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/kmotbqnf\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c528c6bb8d9aab73b266cb346f68fc95c9e1c012963e61585307cdf2eab33364"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.de",
+                "www.ninjakitchen.de"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/ad\\/dst",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "as"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikes.de",
+                "www.hanfgartenshop.de",
+                "www.leguano.eu",
+                "www.smartbrokerplus.de"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/ad\\/dpe",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "as"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikes.de",
+                "www.bikes.de",
+                "www.hanfgartenshop.de",
+                "www.leguano.eu",
+                "www.smartbrokerplus.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.47058823529411764
+        },
+        {
+            "domain": "adcell.com",
+            "prevalence": 0.2647058823529412
+        },
+        {
+            "domain": "smarketer.de",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "belboon.com",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "dwin1.com",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "ccm19.de",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "adform.net",
+            "prevalence": 0.029411764705882353
+        }
+    ],
+    "types": {
+        "Document": 14,
+        "Script": 6,
+        "XHR": 4,
+        "Image": 9
+    },
+    "nameservers": [
+        "elliot.ns.cloudflare.com",
+        "nora.ns.cloudflare.com"
+    ]
+}

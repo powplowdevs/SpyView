@@ -1,0 +1,126 @@
+{
+    "domain": "lotteryservices.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "kys.p1.awc",
+        "ris.p1.awc"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "lotteryservices\\.net\\/api\\/v2\\/draw-games\\/draws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kys.p1.awc",
+                "ris.p1.awc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kylottery.com",
+                "www.kylottery.com",
+                "www.rilot.com"
+            ]
+        },
+        {
+            "rule": "lotteryservices\\.net\\/api\\/v2\\/draw-games\\/draws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kys.p1.awc",
+                "ris.p1.awc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "448cab63a4433b2b2c46df3504960414f694013824b2da46bc708ee32ad1e61f",
+                "27ace86f39f67dae5e84a085088f07ae15d1d32dff7c4c85fe4ddcbe4218b7be"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kylottery.com",
+                "www.kylottery.com",
+                "www.rilot.com"
+            ]
+        },
+        {
+            "rule": "lotteryservices\\.net\\/api\\/v2\\/draw-games\\/rules",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kys.p1.awc",
+                "ris.p1.awc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kylottery.com",
+                "www.rilot.com"
+            ]
+        },
+        {
+            "rule": "lotteryservices\\.net\\/api\\/v2\\/draw-games\\/rules",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kys.p1.awc",
+                "ris.p1.awc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4669667af8a9404cb8618e644847a86b181b2c4682d03763ae9b8f0f343fe972"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kylottery.com",
+                "www.rilot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "XHR": 5
+    },
+    "nameservers": [
+        "nst.g2-networks.com",
+        "nsm.g2-networks.com",
+        "nsc.g2-networks.com"
+    ]
+}

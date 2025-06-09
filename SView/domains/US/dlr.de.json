@@ -1,0 +1,60 @@
+{
+    "domain": "dlr.de",
+    "owner": {
+        "name": "Deutsches Zentrum fuer Luft- und Raumfahrt e.V. (DLR)",
+        "displayName": "Deutsches Zentrum fuer Luft- und Raumfahrt e.V. (DLR)"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "geoservice"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dlr\\.de\\/eoc\\/basemap\\/wms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geoservice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "aff5609decafe20a676fa91547795583aa592ee925fed47185379c87980dfde5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citypopulation.de",
+                "www.citypopulation.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2
+    },
+    "nameservers": [
+        "ns3.dlr.de",
+        "ns4.dlr.de",
+        "dns-1.dfn.de",
+        "dns-2.dfn.de",
+        "dns-3.dfn.de"
+    ]
+}

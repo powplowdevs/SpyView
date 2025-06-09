@@ -1,0 +1,920 @@
+{
+    "domain": "logly.co.jp",
+    "owner": {
+        "name": "Logly, Inc.",
+        "displayName": "Logly"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000545,
+    "sites": 77,
+    "subdomains": [
+        "l",
+        "liftapi",
+        "b",
+        "sync",
+        "cdn",
+        "dsp"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "logly\\.co\\.jp\\/lift_widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "l"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 50,
+                "Navigator.prototype.appVersion": 50,
+                "Document.cookie getter": 48,
+                "Date.prototype.getTime": 48,
+                "window.innerWidth": 38,
+                "window.innerHeight": 38
+            },
+            "sites": 58,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "15b22a8c253aedbaf10529abc269f2140afe1591b6d0cb567497ee2d22562d4b",
+                "d31ff97f7f3ff0b97ce4d973933fe5d883c00ce8b1f56b1a95b7054677f2e0f5",
+                "0a200b5a4327c71a916faa6b8580ae02690e9d3ba9f257de4a21eabc700e2998",
+                "2146c0d1c57bbaef283342a0efb6cc9af9e74c9169205ba6ae56a462c123ba3e",
+                "655112161377a196544383a1f757e93e03494c0103c7b8d5bbab33bf4943fe57",
+                "9c9b29464a14a7d8acadd53ec14fa565159b6fb24b861c55c4434ae5cf000466",
+                "fcb5c24b6d40e27d9fd9319b775bc44fdf0495eb0e071c9f7d2c2c603badffab",
+                "d43b1d9eefd379376ebaab19cc94d82cca6b04ffc4231d3c9e1194d99e538c1f",
+                "66fe361faed475e6fa618c1665cb5aeff1843fb1bfb22e60e8cb0b2363ef2b38",
+                "cf1196dd6c9c21a849bcb3b86704001edd42640971af5cb264ecaea499e6354b",
+                "1d20895d906cff5f39364b290498d4009aaa16f0bcdfbce84645e09d2aaa8d10",
+                "42de9ae2a2dcade8fd42e0db58c1a72204139bcaf473cf4f731c99d66c62ec41",
+                "b7763144c2e4d41dd872aba402ef7acca852579e3137c0c4b1fec73061fec756",
+                "10879e6e0736d1523e9820d38b7de8724144b1bfea1c290879524d19e093df80",
+                "a94375a137ee5486333d59cdeadd12ca8e351bf2e345cd5388b5c546eda36c62",
+                "7fd573bf3102573711266df801b7410626fb508fa031ca29f647251da694e0b2",
+                "00be662cf301aa895618690332cc03c41e55a56cc17edf82e6ed1d6d399d8281",
+                "7cb5e6a213ddbcf79ae6ef3cbbb2ca4b1bdbc2b0a7aad9938423ba2239f2300f",
+                "50f05ed3abe3c3aaf5ea402b241c1bd6c329351f360e4667a71913ec033e4a13",
+                "8ccaef84e10356a525ec66d7230531c2d97137fdf262952f279fa8e622f7780c",
+                "e035d7fa36d21f4125bd273b94a93aa4cd74abacd2859dd8028c481825b32104",
+                "41c48ee7591c575515eac0f9c371f07a9a21ecf315e0e03e979eb12e392b9d40",
+                "bb7093d033b495e481059bc8e90338623f8f2079eacfd4ae6342b292740d5aea",
+                "7a946496034401fb329801b409d61a3b43aa70b8e948c4e03c3d20c70f696c5c",
+                "5eddffb557573a1057c69416e9280723da158d0c217baea4580b5e569a5ff98e",
+                "7729497e63aed18d2dc5a344500a07cbc962c97e283d9bba554f43725e973d85",
+                "1c95f6428e891619f8b61ac5eb54e6f3d160192572dfb91968e3496cf7ecafc3",
+                "8323dbe13d96b72e5576b48276454bd0d221ee5a0ca33e364cd862b808f928f0",
+                "a796692d3d2eda58d67c85bd5322436653a39ae350d16a0bcdd93837c1512773",
+                "a76fe2a187cc406c0fe10d5f3f3172166daba903a1b489738e4596ea76af9ea0",
+                "dd0f8b73401afef9a123c91494aede26b2523820912109a4036c82d7b3701516",
+                "575a3e7e294361f1385532a3cb4478afd2fb35354d6b63eb940514b16e955160",
+                "6b9d828b223d76f1cd417c565bb63e94c46674294dd40377c4ec210943c7d5e5",
+                "99775b4c3b2ef6b816ca5107dafa12c8d611912f63d708ad227d4bc5130ccf92",
+                "31be34095e9a12d8dad13a4d9a5ab5c45195397fc2dcc86e4d2278175833a9f6",
+                "e0e3620e2c9b9d2b6cd09431554e9b4b5b8f19cb3631b8e69eaa851ad485b850",
+                "16de4530cdb376e736c560f8a4290f4e1798841ae2e8a46dbb3a44f2f3785dcb",
+                "5878211fc23389b0660cc032be228843a850d00463aa1f27591020f2779462c3",
+                "0d6925b962fd2682596d222b10f891b261c1e59f56826ed36575f7d241be7c0a",
+                "bc73569ec8cbf0839a974d68a9d39020304cd910114ad22c0f597a1fd1d84f6d",
+                "7a0dbcaaddec6ed614ec54188caa245bdc1b2c049ef61f41145b3361c4e8af88",
+                "8c71e429a5a350061673383f1ee34f59d16c74315278bab1605d7c98f7157f31",
+                "acb3cbe62cb092380af4abfa1dd996e1482a8022f77b3a741b1153113b1e6ce8",
+                "153ed67fea83414cbb5ca4d6cdb44c254ddf9fd9824f96dbcd601a52d35bc121",
+                "f13e31ceab2dba4027dbb988ec7a6f6d5c3d38d2fff5730984b474c11f5b9ba8",
+                "ea1c5ed9d5f966018889210672eb115ef179e2e2fa3787ad57ea7a504947d8a4",
+                "00c1240c15b7186ea29d3b6c4f0f17afeba923e0478dab44cf4b0f67a2159a28",
+                "abfd9ed570da636d73582aa294ba4ba670105b5444074ed86a6c04f9f2ab6419",
+                "56e61b6c0c143dd7c8e22c88958fa78a051fd518997ae1d910113559404a9139",
+                "6249cc953709edba7be2ec95820ba3308ebbe61e4918b6873a4724a6ac323ce9",
+                "bb318b3ac2a37c58ab2a9706884cc00edea9f0c81f0cb97c74ce0277460bd3b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "togetter.com",
+                "www.sponichi.co.jp",
+                "domani.shogakukan.co.jp",
+                "nlab.itmedia.co.jp",
+                "komachi.yomiuri.co.jp",
+                "st.benesse.ne.jp",
+                "medicalnote.jp",
+                "mamagirl.jp",
+                "souzoku.asahi.com",
+                "book.asahi.com",
+                "ranking.goo.ne.jp",
+                "www.chunichi.co.jp",
+                "qiita.com",
+                "utaten.com",
+                "www.lettuceclub.net",
+                "s.kakaku.com",
+                "thetv.jp",
+                "www.daily.co.jp",
+                "youravhost.net",
+                "times.abema.tv"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/lift\\.json",
+            "cookies": 0.000431,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l",
+                "liftapi"
+            ],
+            "apis": {},
+            "sites": 62,
+            "prevalence": 0.000439,
+            "cnames": [],
+            "responseHashes": [
+                "45c3029b14687ffa83c3f87c394a78f365315673e5f33d14f0d9f0b564bbb107",
+                "0c265fde0043124fbb3ca914328027f34ca14d607e5f1d6e7bcbacafccdd3020",
+                "79be76127d652dae0a4d1d3256361ed93b8b5dca790ac63c7652d8498c584921",
+                "2f8dcdc4ed5efdcf0b7f4a8ab04b9812034219a231e1dcaf7488d7b537356686",
+                "19959d4fc33bbc33ca70b88cd611e57b503e6a25d6661d32b0f221cdba3153f8",
+                "38647a28c8b86db1b40c55d8fd105082d56bddaf1825250d10590bd3e23c8899",
+                "47f50d41c2c4f85855a6b55d6479cc677dab89bb2e181466a6099269254cf76a",
+                "0fc05300beaef142d12864f0cc0c6cf6ec74b919b7e011d784d2c1a4f773b9a1",
+                "596197380baf17afa68415d6e3765f0fc9f2f3bb7da335bcbbce1cebb6cdf92c",
+                "678a772036c7237933896d6f221cd8eb5d08c40208f6489232c02d768f27d92e",
+                "5695369025399d1f4690a13f7370c33be2ca526283b5eb93a6cf5a49db5764d5",
+                "911e662cb67feb91c73fcd6653939dc42f00ef3e2084d369880ba0daf19d1efd",
+                "37f0e64f8fd719fb8cc58f12e48d68e8be0989f84251f5b291421662b24d130f",
+                "ec10a8d776b6a99d8ece5c9c427778333f54e7d3057797ba8de4b9be20e2cd1f",
+                "13cb2a8b39d2eb5756c165d89a1cd2a88a86b898fdf6debe5e4b63a1b17ca998",
+                "85dbd3dbc926d273fffaa60de85bb994c3f0347dda87074f5f04697c32fdf340",
+                "6815fdb55ae2b524eed3bd98c687a7ec7d803082c8429eef64d529df662b5a17",
+                "96f745a66bb2c1918c6678e12a25f32344e2da4c1ae573e2d7d6234e520af28b",
+                "2efa30a7eeac915b03b12d73a6c2dcf1417ebbca49b405e51b52c502f6c700f0",
+                "b4ded0c95935a4ace4cc0d79af19e70f3d4f544cb73bde56a539c36943385884",
+                "799cb9a3a039ebd281625dd4a70c179d26540f8019e8a274e780b71722d95de6",
+                "8436714429103839a666456851714ad53201a8631ab765d6d58e59e9b79f31a4",
+                "54b241cf9e2045c95ec89ad67158b758ebafce2f3b7533a755d8b6c779df528c",
+                "e1b18c6aa84f13fbe690df333c3c882e7158dbc5838b41420ba1044dff14cce1",
+                "a991a03e804462673e77a3176d4e5c13d68e420a6127b2339d342cc2064588dd",
+                "ca19bb210dc73098659dd794bf8e3a8be4f0d406a64e6b3e7966fbeebc8fe271",
+                "f02ac10cbf72c27327e8e081937b238254f99b548b94fec580ef2a4a4f016fe8",
+                "c2f850983be2fa1b740a1fc10276bb3c5c50b93df914e1d806c7648c7c4f9c7b",
+                "be83cf6f7cbdb0f96803e7057db9f9b4624034805b2ebc80bf092af6950661fa",
+                "d79a7d01d753bc338cb0e77a49a69f61fd105e61b7f87edb7e0745bc96c520de",
+                "e30270f9d2acb91c367d86fa18dcc44c69ff5f28745fa218b3ac5e08d4b94838",
+                "8fcea56b41ee0a865f6005508f481ea5b4b83edb72b9d85fce4b65eaee82bc90",
+                "140aae36d654b9624615632a5d06c27b29e3105b08744c9f4c2c301a4f78b155",
+                "01d1d6cfeb7bcb089055ef872788eb9f3a3d0447a493d7087126f7cd06a122c6",
+                "0afac42bb96f1b606e0579b02d87d7725976f6857f1b7dfc195ad537e23c327a",
+                "9fc43a3f7be5b264bb4fd9b2050e44210b64f7b3fd1bf798b6d9e6ef873f5e36",
+                "b4a644bf9fa4ee4d50da8794a6c65cf4f2dfc97d0a008b185ee8e6968d7f93ed",
+                "cc4c05ae95cf208747ac17d22e07ade50276284362f88b15086ae1931aa2ae7c",
+                "9515c09ad2262aa72e826fc494654ca1aa5d2024be8abf1e7a890a045b4fd0fb",
+                "97a925341ebe0bb7712e198453a0bdbefcc3f930c811cbd56222eb1cdc75d626",
+                "74e08d4a4c40701373be0203b0e2f0084b6b25d52e5b5b69f0bb906711ae9483",
+                "d3b239485c785a064f87406e870716ec82e5b92fd55605165bd417a93ee307fc",
+                "705e37afaa910745f4c5b6b573222ee516214bf2d1d6b97d93ff792cf5bd2f76",
+                "e9d05ba09b4e90f93b2a13487a6ed7c71c034529743d914cae70e0003cbe78e2",
+                "00b5954fde4fb155c550a00f4b0913adfc7ea424dba43b2a20a641345d72461c",
+                "c2654e72dd77700dbb8dc4010117d9978aad10c51c258151a365199e816ea4a7",
+                "88900f902d0b9d7e0f35ec238d67f324fa8034247a3fc989cb2349915bf9135c",
+                "9459c12d76d008bef4893f2b912893c660d21d06a1a0fed249c895c49675537a",
+                "c1c559cb351d3e38d3b345a72fe4ff196133bdd6673bcfbeefc8b943781eabae",
+                "0a3fa4e54411d928767369011c28f3a50a06650315bcfe628c3f7d886ba445d6",
+                "8a20ec5935690f9aed20c5e7f88375a65874eb37642ef5b610c75037bafd1fc0",
+                "51e8d3bee401a6c11e5690158388d78f931cc2d12813f03671f09b60cce9ccb1",
+                "7e547dd189d057df4e574a88e3d00d8b7c686eaae93311e4707042820acb64df",
+                "dd3d9973dfd511f090f969d49235349c396a8410e72ebfc390c957bd6389fb04",
+                "eae548bc0e97c0c71f7791a533037243732e13af25649e6f1d02752d616584d4",
+                "7607052314d785fc68c63e64440e80e028e28d2621088f8b018c17568c7ca253",
+                "c00e3e53d487931797c8bc7422f09485a3c49f47afc08e9c1f8b891c34c4f74c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "kufura.jp",
+                "mtmx.jp",
+                "allabout.co.jp",
+                "kakakumag.com",
+                "qiita.com",
+                "www.daily.co.jp",
+                "www.fnn.jp",
+                "dic.pixiv.net",
+                "39mag.benesse.ne.jp",
+                "www.sponichi.co.jp",
+                "www.tokyo-sports.co.jp",
+                "benesse.ne.jp",
+                "www.biteki.com",
+                "dramanavi.net",
+                "karapaia.com",
+                "ranking.net",
+                "mamagirl.jp",
+                "rocketnews24.com",
+                "thetv.jp",
+                "pmall.gpoint.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/bc",
+            "cookies": 0.000134,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 41,
+            "prevalence": 0.00029,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ascii.jp",
+                "dog.benesse.ne.jp",
+                "natgeo.nikkeibp.co.jp",
+                "www.biteki.com",
+                "domani.shogakukan.co.jp",
+                "st.benesse.ne.jp",
+                "dramanavi.net",
+                "thetv.jp",
+                "book.asahi.com",
+                "qiita.com",
+                "syosetu.com",
+                "kufura.jp",
+                "activel.jp",
+                "medicalnote.jp",
+                "pmall.gpoint.co.jp",
+                "mtmx.jp",
+                "blog.esuteru.com",
+                "www.lettuceclub.net",
+                "ranking.goo.ne.jp",
+                "www.sponichi.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/sync\\/sync\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 54,
+            "prevalence": 0.000382,
+            "cnames": [],
+            "responseHashes": [
+                "13d5c0f2451f0a14104098f72c6f3334114a68927e50beb4779a0bf98966d9f5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karapaia.com",
+                "akanbo-media.jp",
+                "rocketnews24.com",
+                "times.abema.tv",
+                "financial-field.com",
+                "tocana.jp",
+                "nlab.itmedia.co.jp",
+                "www.kadokawa.co.jp",
+                "dog.benesse.ne.jp",
+                "mamagirl.jp",
+                "dramanavi.net",
+                "kufura.jp",
+                "ranking.net",
+                "qiita.com",
+                "mtmx.jp",
+                "www.sponichi.co.jp",
+                "www.daily.co.jp",
+                "st.benesse.ne.jp",
+                "www.fnn.jp",
+                "www.tokyo-np.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/491\\/215\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "b98d5acfbc5f2de93e001d3c3417cc835342b258d703147151ba39c24a658fd3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "activel.jp",
+                "togetter.com"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/526\\/249\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "95c5b0ca2f7d49485f0984de15ad19c59dde98473f83a354943e1b150e7861c2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "activel.jp",
+                "natgeo.nikkeibp.co.jp",
+                "togetter.com",
+                "www.daily.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/526\\/248\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "c28a644d0e9f8312e8768d9409edde4a9c992525b1b1a80c4c56990839bdec18"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "activel.jp",
+                "togetter.com",
+                "tomonite.com",
+                "www.daily.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/526\\/366\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "activel.jp",
+                "komachi.yomiuri.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/spritesource-v74j50a002\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 31,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [
+                "7ae9f5dd7effdb6df78d151f117ee156d72a28ad42b88b95ac7765ad99b52fd3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.lettuceclub.net",
+                "anond.hatelabo.jp",
+                "st.benesse.ne.jp",
+                "www.kadokawa.co.jp",
+                "dramanavi.net",
+                "natgeo.nikkeibp.co.jp",
+                "www.tokyo-sports.co.jp",
+                "www.bepal.net",
+                "tomonite.com",
+                "blog.esuteru.com",
+                "tocana.jp",
+                "www.tokyo-np.co.jp",
+                "times.abema.tv",
+                "ranking.goo.ne.jp",
+                "activel.jp",
+                "souzoku.asahi.com",
+                "qiita.com",
+                "kakakumag.com",
+                "dime.jp",
+                "pmall.gpoint.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/abc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "www.bepal.net",
+                "mamagirl.jp",
+                "www.sponichi.co.jp",
+                "komachi.yomiuri.co.jp",
+                "qiita.com",
+                "www.daily.co.jp",
+                "ddnavi.com",
+                "blog.esuteru.com",
+                "financial-field.com",
+                "domani.shogakukan.co.jp",
+                "ascii.jp",
+                "anond.hatelabo.jp",
+                "times.abema.tv",
+                "ranking.net",
+                "pmall.gpoint.co.jp",
+                "www.kadokawa.co.jp",
+                "www.fnn.jp",
+                "oggi.jp",
+                "dramanavi.net",
+                "natgeo.nikkeibp.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/550\\/255\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f9bac6de22ee4aa26164247ecf2f8d08fbc31049ed3daaab7af602972a51f36a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ddnavi.com",
+                "oggi.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/550\\/207\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c9c8e28403879a6bf18402171c108a1689f2685e7405314bfc7f070b7307e2f6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ddnavi.com",
+                "kakakumag.com"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/484\\/028\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "c3b1e1eccee63e1e097109e4089f44b16b0c189a599fc35df3e99b93a3090e9b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benesse.ne.jp",
+                "komachi.yomiuri.co.jp",
+                "kufura.jp",
+                "www.daily.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/535\\/787\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "9e588cfa0d4b95b1984d303a5a35ad495af28e0ea3c690b9b1bb58f2aa7c7a7f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shogakukan.co.jp",
+                "www.tokyo-sports.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/sync\\/sync\\.js",
+            "cookies": 0.0000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "ba9889d2fb285cc066e6c139e8d7bee8723459c0ba3ca9d7a0a4ffb942a7caa1",
+                "f2ce29965c1e3a733e5087b6d2661f4166bf5cd932f9feeb6302d82602f751a3",
+                "1de31b136c6a735b34ead69f136fe592289b2e54b315680909fb2b7c754ed76e",
+                "46d3eecaa6cb07ea911b217dbbb49ab1dfccb04d14ed7ef639eea3ff9cc0ee0b",
+                "d79f89bef89672f05f7d96fbd10230b8eb3af2d851af115761d93b59c16363f8",
+                "fe867b68f9b63248338c3dc0491ea84e743eba0e2a15e448e79c9717c8b34948",
+                "b1e9a92d403e0bea948244b39b2e88560015dfbf843c65fdbb8381baba506731",
+                "eaf5c2b921fd0ecee37b3d53bbf5f27fccf386757422f6a4f023b9a1fc86f409"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shogakukan.co.jp",
+                "kufura.jp",
+                "natgeo.nikkeibp.co.jp",
+                "oggi.jp",
+                "pmall.gpoint.co.jp",
+                "tocana.jp",
+                "www.kadokawa.co.jp",
+                "www.seselah.com",
+                "www.setn.com",
+                "youravhost.net"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/rtb\\/pubmatic\\.gif",
+            "cookies": 0.0000566,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shogakukan.co.jp",
+                "natgeo.nikkeibp.co.jp",
+                "pmall.gpoint.co.jp",
+                "tocana.jp",
+                "www.kadokawa.co.jp",
+                "www.seselah.com",
+                "www.setn.com",
+                "youravhost.net"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/rtb\\/rubicon\\.gif",
+            "cookies": 0.0000637,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shogakukan.co.jp",
+                "kufura.jp",
+                "natgeo.nikkeibp.co.jp",
+                "oggi.jp",
+                "pmall.gpoint.co.jp",
+                "tocana.jp",
+                "www.kadokawa.co.jp",
+                "www.seselah.com",
+                "www.setn.com",
+                "youravhost.net"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/seg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dsp"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "233b22d0e2405202ca2dbe1178b5bf5facf6fdf70becdbcc244861d9d7af7c61"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dokusho-ojikan.jp",
+                "jbpress.ismedia.jp",
+                "medicalnote.jp",
+                "minerva-clinic.or.jp",
+                "www.lifehacker.jp",
+                "www.roomie.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/sync\\/sync\\.gif",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "05e6e6dab50a2ed29baa52bb9cd3d88afa3c5392fb53c2ac026c8d316da72a32"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biglobe.ne.jp",
+                "hentaitokyo.com",
+                "pmall.gpoint.co.jp",
+                "www.osohshiki.jp",
+                "www.suruga-ya.jp",
+                "yourtown.work"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/544\\/513\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "folk-media.com",
+                "natgeo.nikkeibp.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/498\\/800\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e045b61a93819c043976a770c1da524ec8a1a0b55b075d50079806e37d10cff5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yomiuri.co.jp",
+                "www.daily.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/509\\/740\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e6ba449195b444645d60b6bf24c8556b893124cf9995fe6370f03a6deb4f81fe"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yomiuri.co.jp",
+                "kufura.jp",
+                "www.sponichi.co.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/images\\/001\\/509\\/751\\/normal\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7adead5b3b49055e48c68bddac03dfd25368e481365983f985e2dedd0578ff97"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yomiuri.co.jp",
+                "kufura.jp",
+                "st.benesse.ne.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/vbc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mtmx.jp",
+                "togetter.com",
+                "www.bepal.net"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/12125\\/sg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dsp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.jp",
+                "www.roomie.jp"
+            ]
+        },
+        {
+            "rule": "logly\\.co\\.jp\\/recommend\\/static\\.tokyo-np\\.co\\.jp\\/ba1eb451bfb04ab35c98c8346cff61e6\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a5aca71aaa05434ede17af4b5299466af2ac835a5b423da1f3e9eff1b425f3c7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tokyo-np.co.jp",
+                "www.tokyo-np.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000467,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8603104212860311
+        },
+        {
+            "domain": "compass-fit.jp",
+            "prevalence": 0.04878048780487805
+        },
+        {
+            "domain": "rubiconproject.com",
+            "prevalence": 0.022172949002217297
+        },
+        {
+            "domain": "i-mobile.co.jp",
+            "prevalence": 0.017738359201773836
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.015521064301552107
+        },
+        {
+            "domain": "juicer.cc",
+            "prevalence": 0.013303769401330377
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.008869179600886918
+        },
+        {
+            "domain": "shinobi.jp",
+            "prevalence": 0.004434589800443459
+        },
+        {
+            "domain": "softbank.jp",
+            "prevalence": 0.0022172949002217295
+        },
+        {
+            "domain": "mad-infeed.jp",
+            "prevalence": 0.0022172949002217295
+        }
+    ],
+    "types": {
+        "Script": 138,
+        "Image": 163,
+        "Document": 54
+    },
+    "nameservers": [
+        "ns-39.awsdns-04.com",
+        "ns-742.awsdns-28.net",
+        "ns-1528.awsdns-63.org",
+        "ns-1875.awsdns-42.co.uk"
+    ]
+}

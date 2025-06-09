@@ -1,0 +1,58 @@
+{
+    "domain": "prod-dotca-lbs-alb-p-959356091.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.remax.ca",
+            "resolved": "prod-dotca-lbs-alb-p-959356091.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prod-dotca-lbs-alb-p-959356091\\.us-east-1\\.elb\\.amazonaws\\.com\\/api\\/v1\\/listings\\/ca",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.remax.ca",
+                    "resolved": "prod-dotca-lbs-alb-p-959356091.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "43fbf88d953be0f61243ae6aca7ba0ecc04229260a8474530a73f0d16bad97a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "remax.ca",
+                "www.remax.ca"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

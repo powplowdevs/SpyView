@@ -1,0 +1,149 @@
+{
+    "domain": "sefaria.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000149,
+    "sites": 21,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sefaria\\.org\\/linker\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.innerWidth": 8
+            },
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "60098aa6c3f3224cc442fc67f33e6163aa95851c1e0e60eba2afc7f8c6236a63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aish.com",
+                "blogs.timesofisrael.com",
+                "jewishstandard.timesofisrael.com",
+                "jwa.org",
+                "outorah.org",
+                "rabbisacks.org",
+                "www.clevelandjewishnews.com",
+                "www.etzion.org.il",
+                "www.jewfaq.org",
+                "www.jewishencyclopedia.com",
+                "www.jewishvirtuallibrary.org",
+                "www.jtsa.edu",
+                "www.tabletmag.com"
+            ]
+        },
+        {
+            "rule": "sefaria\\.org\\/api\\/linker-track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "262a73cdd1872b1a51eeb71d8ed5bba41d0ff3e6e19895dc27f19ac34fb62637",
+                "005e7bc86c671c0e35cfc6652b2dea6b983b076977450deba5e8bd34ccbc8cd9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aish.com",
+                "blogs.timesofisrael.com",
+                "jewishstandard.timesofisrael.com",
+                "jwa.org",
+                "rabbisacks.org",
+                "www.clevelandjewishnews.com",
+                "www.etzion.org.il",
+                "www.jewfaq.org",
+                "www.jewishencyclopedia.com",
+                "www.jewishvirtuallibrary.org",
+                "www.jtsa.edu",
+                "www.myjewishlearning.com"
+            ]
+        },
+        {
+            "rule": "sefaria\\.org\\/linker\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "310997c365c942e8c962a9b15f0be17cbf9fd498aeea28d9ec41ce58998f5594"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "etzion.org.il",
+                "www.etzion.org.il"
+            ]
+        },
+        {
+            "rule": "sefaria\\.org\\/linker\\.v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Screen.prototype.width": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "24e6f108691834bc8fb4a79319d3fd8f149389688501b52f1bf3a44f5e91d758"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myjewishlearning.com",
+                "www.myjewishlearning.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "XHR": 12
+    },
+    "nameservers": [
+        "pola.ns.cloudflare.com",
+        "rajeev.ns.cloudflare.com"
+    ]
+}

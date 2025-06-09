@@ -1,0 +1,119 @@
+{
+    "domain": "tinybird.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000566,
+    "sites": 8,
+    "subdomains": [
+        "api.us-east.aws",
+        "api.us-east"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tinybird\\.co\\/v0\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.us-east.aws",
+                "api.us-east"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "20ed2c7729ac9449640657d70ab9151911fe808faaa26fad4d747f6c0eac9878"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "activeman.com",
+                "kunesrv.com",
+                "www.carshop.com"
+            ]
+        },
+        {
+            "rule": "tinybird\\.co\\/v0\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.us-east.aws",
+                "api.us-east"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "activeman.com",
+                "kunesrv.com",
+                "rmac.store",
+                "thebeesupply.com",
+                "www.anandabazar.com",
+                "www.carshop.com"
+            ]
+        },
+        {
+            "rule": "tinybird\\.co\\/v0\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.us-east.aws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "20ed2c7729ac9449640657d70ab9151911fe808faaa26fad4d747f6c0eac9878"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rmac.store",
+                "thebeesupply.com",
+                "www.anandabazar.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "unpkg.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.21428571428571427
+        },
+        {
+            "domain": "productfinder.app",
+            "prevalence": 0.21428571428571427
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Preflight": 6,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns2.vercel-dns.com",
+        "ns1.vercel-dns.com"
+    ]
+}

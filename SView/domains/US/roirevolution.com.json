@@ -1,0 +1,86 @@
+{
+    "domain": "roirevolution.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "roirevolution\\.com\\/gate\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "7e65a6772f14743532a428ba41165eed608f30952253908f24876cbbf97d00a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domyown.com",
+                "www.cablestogo.com",
+                "www.domyown.com",
+                "www.legrand.us",
+                "www.musicnotes.com"
+            ]
+        },
+        {
+            "rule": "roirevolution\\.com\\/configurations\\/cdb0ce2e50e4e376aa32\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "98dd50868c0b2bcbec49739c3b8c777764a74a8062fa76e8e2a87a49cf68407a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domyown.com",
+                "www.domyown.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ben.ns.cloudflare.com",
+        "pat.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "domain": "calphalon.com",
+    "owner": {
+        "name": "NEWELL BRANDS INC.",
+        "displayName": "NEWELL BRANDS"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "tags"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "calphalon\\.com\\/g\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a1c4705c26f086a85d389fb157fd9b084e7254691699bb30b63faedc40d8c74c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0000070733363512901765,
+                "__cq_uuid": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "mrcoffee.com",
+                "www.mrcoffee.com"
+            ]
+        },
+        {
+            "rule": "calphalon\\.com\\/_\\/service_worker\\/5570\\/sw_iframe\\.html",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrcoffee.com",
+                "www.mrcoffee.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "udns1.cscdns.net",
+        "udns2.cscdns.uk"
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "domain": "confidence.dev",
+    "owner": {
+        "name": "Spotify AB",
+        "displayName": "Spotify"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "resolver"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "confidence\\.dev\\/v1\\/flags:resolve",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resolver"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "menti.com",
+                "www.menti.com",
+                "www.mentimeter.com"
+            ]
+        },
+        {
+            "rule": "confidence\\.dev\\/v1\\/flags:resolve",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resolver"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "d8279c5b2af039f8d240e4d86fad031dde8f2c175fb1edf3e372c621804d3155"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "menti.com",
+                "www.menti.com",
+                "www.mentimeter.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "iggcdn.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "mentimeter.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "dns2.p07.nsone.net",
+        "dns4.p07.nsone.net",
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d4.googledomains.com",
+        "ns-cloud-d3.googledomains.com",
+        "dns1.p07.nsone.net",
+        "dns3.p07.nsone.net",
+        "ns-cloud-d2.googledomains.com"
+    ]
+}

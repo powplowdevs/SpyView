@@ -1,0 +1,129 @@
+{
+    "domain": "uh-manoa.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "start"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "uh-manoa\\.org\\/mtc\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "start"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "077ef201e97e5a83370731e3ab3a33909f57650f165f49df5500005791b15162"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtc_id": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "mtc_sid": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "mautic_device_id": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hawaii.edu",
+                "manoa.hawaii.edu"
+            ]
+        },
+        {
+            "rule": "uh-manoa\\.org\\/mtc\\/event",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "start"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a799528d3ec72d7334bd96e8a79e92353ef67cffc0c3411c82cfd326ec4b661f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hawaii.edu",
+                "manoa.hawaii.edu"
+            ]
+        },
+        {
+            "rule": "uh-manoa\\.org\\/mtc\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "start"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hawaii.edu",
+                "manoa.hawaii.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1229.awsdns-25.org",
+        "ns-492.awsdns-61.com",
+        "ns-819.awsdns-38.net",
+        "ns-1987.awsdns-56.co.uk"
+    ]
+}

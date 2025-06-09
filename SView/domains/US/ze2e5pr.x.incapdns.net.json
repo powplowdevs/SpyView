@@ -1,0 +1,117 @@
+{
+    "domain": "ze2e5pr.x.incapdns.net",
+    "owner": {
+        "name": "Imperva Inc.",
+        "displayName": "Imperva"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "www.shop.regence.com",
+            "resolved": "ze2e5pr.x.incapdns.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ze2e5pr\\.x\\.incapdns\\.net\\/individual\\/spa\\/iframe\\.html",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "www.shop.regence.com",
+                    "resolved": "ze2e5pr.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "59cce524f944690f44147d22e51ed873709f5698b65ba4dca6fc1b8b5f1eb07d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tealiumid": 0.0000070733363512901765,
+                "tealiumsesid": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "regence.com",
+                "www.regence.com"
+            ]
+        },
+        {
+            "rule": "ze2e5pr\\.x\\.incapdns\\.net\\/_Incapsula_Resource",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "www.shop.regence.com",
+                    "resolved": "ze2e5pr.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "e5e860c74611acbebc363d8007380e01b99434eb555d03019edfd1280abd4fa1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "regence.com",
+                "www.regence.com"
+            ]
+        },
+        {
+            "rule": "ze2e5pr\\.x\\.incapdns\\.net\\/_Incapsula_Resource",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "www.shop.regence.com",
+                    "resolved": "ze2e5pr.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "regence.com",
+                "www.regence.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

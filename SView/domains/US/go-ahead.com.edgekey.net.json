@@ -1,0 +1,74 @@
+{
+    "domain": "go-ahead.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "sitecore"
+    ],
+    "cnames": [
+        {
+            "original": "api-goahead.go-ahead.com",
+            "resolved": "sitecore.go-ahead.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "go-ahead\\.com\\.edgekey\\.net\\/disruptions\\/getmessages",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sitecore"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api-goahead.go-ahead.com",
+                    "resolved": "sitecore.go-ahead.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "158ca42c4962b61fcf527d47bec3c661bcecd33fccc4bc352265de8119a6bb27"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "southernrailway.com",
+                "www.thameslinkrailway.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "otrl.io",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "fabdigital.uk",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

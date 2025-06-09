@@ -1,0 +1,118 @@
+{
+    "domain": "elfsight.com",
+    "owner": {
+        "name": "Vladimir Fedotov",
+        "displayName": "Vladimir Fedotov"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000816,
+    "sites": 8,
+    "subdomains": [
+        "static",
+        "storage"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "elfsight\\.com\\/platform\\/platform\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 8,
+            "prevalence": 0.000816,
+            "cnames": [],
+            "responseHashes": [
+                "4148d0c90ebd46c31db6786edc9679893db53c97e68fee894309bdf9913cc9d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vimeo.com",
+                "www.eat-the-world.com",
+                "www.marcelpaa.com",
+                "www.naehrwertrechner.de",
+                "www.steico.com",
+                "www.uniklinik-ulm.de",
+                "www.waffenfuzzi.de",
+                "www.wtb-tennis.de"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/api\\/v2\\/youtube",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "928623939f046ee913c4d9551ee7e08a96e4c19ae412f0afeb13930d8ee76e62"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "waffenfuzzi.de",
+                "www.waffenfuzzi.de"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/api\\/v2\\/youtube",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "waffenfuzzi.de",
+                "www.waffenfuzzi.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "elfsightcdn.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "dilbert.ns.cloudflare.com",
+        "rihana.ns.cloudflare.com"
+    ]
+}

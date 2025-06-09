@@ -1,0 +1,119 @@
+{
+    "domain": "ikea.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "ds.ov12882",
+        "san.external.secure"
+    ],
+    "cnames": [
+        {
+            "original": "accounts.ikea.com",
+            "resolved": "ds.ov12882.ikea.com.edgekey.net"
+        },
+        {
+            "original": "api.ingka.ikea.com",
+            "resolved": "san.external.secure.ikea.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ikea\\.com\\.edgekey\\.net\\/resources\\/cie-utils\\/cie-utils-fragment\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ds.ov12882"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "accounts.ikea.com",
+                    "resolved": "ds.ov12882.ikea.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "266dd0bf1ca59059a7f659ba04d6c410c9beb205b29f938e31795570c3eee2e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ikea.com",
+                "www.ikea.com"
+            ]
+        },
+        {
+            "rule": "ikea\\.com\\.edgekey\\.net\\/guest\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san.external.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.ingka.ikea.com",
+                    "resolved": "san.external.secure.ikea.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ikea.com",
+                "www.ikea.com"
+            ]
+        },
+        {
+            "rule": "ikea\\.com\\.edgekey\\.net\\/guest\\/token",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "san.external.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "api.ingka.ikea.com",
+                    "resolved": "san.external.secure.ikea.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "afbdbd9842f6bc4621666fbbf701b771083bb89b9aa60edef8b2a884c33448dc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ikea.com",
+                "www.ikea.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

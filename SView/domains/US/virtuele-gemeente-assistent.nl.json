@@ -1,0 +1,91 @@
+{
+    "domain": "virtuele-gemeente-assistent.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "virtuele-gemeente-assistent\\.nl\\/static\\/js\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ca77ee0955e5e1dd35f3e1810ccbc48c04a3e3e1170039802bc02cbd4bd6cc0f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rotterdam.nl",
+                "www.utrecht.nl"
+            ]
+        },
+        {
+            "rule": "virtuele-gemeente-assistent\\.nl\\/domain-metadata-api",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rotterdam.nl",
+                "www.utrecht.nl"
+            ]
+        },
+        {
+            "rule": "virtuele-gemeente-assistent\\.nl\\/domain-metadata-api",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rotterdam.nl",
+                "www.utrecht.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns0.transip.net",
+        "ns1.transip.nl",
+        "ns2.transip.eu"
+    ]
+}

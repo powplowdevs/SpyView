@@ -1,0 +1,106 @@
+{
+    "domain": "recomaticapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "cdn2",
+        "async"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "recomaticapp\\.com\\/assets\\/recomatic2-2-6870f0d8cdd901a4fad810959f7ab74f0ffc99b3e84caa4e2a46d0d1e3424881\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "6870f0d8cdd901a4fad810959f7ab74f0ffc99b3e84caa4e2a46d0d1e3424881"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "singer-featherweight.com",
+                "speckproducts.com",
+                "strolleria.com",
+                "vinegarsyndrome.com",
+                "www.sexyland.com.au"
+            ]
+        },
+        {
+            "rule": "recomaticapp\\.com\\/api_v2\\/ratings\\/judgeme",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "async"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sexyland.com.au",
+                "www.sexyland.com.au"
+            ]
+        },
+        {
+            "rule": "recomaticapp\\.com\\/api_v2\\/ratings\\/judgeme",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "async"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d4a07b1989ff33375a1fdf395f2b582438914786d1bfbbcd2b8d054adf3f0531"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sexyland.com.au",
+                "www.sexyland.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns2.dnsimple.com",
+        "ns4.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns1.dnsimple.com"
+    ]
+}

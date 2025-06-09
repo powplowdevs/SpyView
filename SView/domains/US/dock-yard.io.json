@@ -1,0 +1,61 @@
+{
+    "domain": "dock-yard.io",
+    "owner": {
+        "name": "Holiday Extras",
+        "displayName": "Holiday Extras"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "flight"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dock-yard\\.io\\/searchDayFlights",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "flight"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "700c9873aa4beca733f106c0371db1e173b08e4502dc0eee31f32937f411c45f",
+                "2f7b7cf1e8790ba64ee9c1907168dfb8cb0edd488c518864ee5011830859e3d9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holidayextras.com",
+                "www.holidayextras.com",
+                "www.purpleparking.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-1073.awsdns-06.org",
+        "ns-2037.awsdns-62.co.uk",
+        "ns-888.awsdns-47.net",
+        "ns-153.awsdns-19.com"
+    ]
+}

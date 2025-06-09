@@ -1,0 +1,227 @@
+{
+    "domain": "beyable.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000092,
+    "sites": 13,
+    "subdomains": [
+        "tag",
+        "front.activation",
+        "front.lytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "beyable\\.com\\/api\\/beYableJS-specialchem-notracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6bf5949dc48d5f258e8f71c229bed60bfa0d565d46da1a2f4867749f63fb20e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "specialchem.com",
+                "omnexus.specialchem.com"
+            ]
+        },
+        {
+            "rule": "beyable\\.com\\/api\\/beYableJSvnext-notracking\\.js",
+            "cookies": 0.0000283,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "window.innerHeight": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "98c5148c1584224dc5755679a37496c4595806decd9c0612b48f98eb5849e7a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aaaaaaaaa14e4e5b3ba2e49a5b550ca079effbd46_cs": {
+                    "ttl": 1828,
+                    "length": 794,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001pneus.fr",
+                "www.la-spa.fr",
+                "www.lafoirfouille.fr",
+                "www.speedway.fr"
+            ]
+        },
+        {
+            "rule": "beyable\\.com\\/apiwithnotracking\\/v2\\/displayswithnotracking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front.activation"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "9672885a3a28275947ba1dc84b9f3097451f2a12ecdfe2633aa1541cb9116651",
+                "bfa2bec036061cb9ed17049ed224f8017c8c93ff238789cef7da208ab1baee9a",
+                "a0336e4e142a656bf0cc6f70df8d0200eeddc603f6c7b04ecd5de385840d14ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1001pneus.fr",
+                "www.la-spa.fr",
+                "www.lafoirfouille.fr",
+                "www.speedway.fr"
+            ]
+        },
+        {
+            "rule": "beyable\\.com\\/api\\/beYableJS-analytics\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "f16560393b5ba226601d40eece81c2bce9cfd7e8bcffc6e8a181f96d03afa62c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_bey_id": {
+                    "ttl": 33696006,
+                    "length": 32,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricocash.fr",
+                "www.bricomarche.com",
+                "www.bricorama.fr"
+            ]
+        },
+        {
+            "rule": "beyable\\.com\\/v1\\/api\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front.lytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "dbf47111a893d428f066499de12892512cb6f073e5e8d1893b763805466885d8",
+                "5dd888e1f77efd503457f256964300e64e9aaceed06a7b1233ff120cbb7d31d6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricocash.fr",
+                "www.bricomarche.com",
+                "www.bricorama.fr"
+            ]
+        },
+        {
+            "rule": "beyable\\.com\\/v1\\/api\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front.lytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricocash.fr",
+                "www.bricomarche.com",
+                "www.bricorama.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000566,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7391304347826086
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.10869565217391304
+        },
+        {
+            "domain": "webappv3-001-beyable-prod.azurewebsites.net",
+            "prevalence": 0.06521739130434782
+        },
+        {
+            "domain": "get-potions.com",
+            "prevalence": 0.043478260869565216
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.021739130434782608
+        },
+        {
+            "domain": "omnisnippet1.com",
+            "prevalence": 0.021739130434782608
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "dns200.anycast.me",
+        "ns200.anycast.me"
+    ]
+}

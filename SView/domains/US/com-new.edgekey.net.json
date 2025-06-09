@@ -1,0 +1,66 @@
+{
+    "domain": "com-new.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "img.smartpak"
+    ],
+    "cnames": [
+        {
+            "original": "img.smartpak.com",
+            "resolved": "img.smartpak.com-new.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "com-new\\.edgekey\\.net\\/images\\/_landing\\/guides\\/blankets\\/blanketBullet\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img.smartpak"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "img.smartpak.com",
+                    "resolved": "img.smartpak.com-new.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "013480345f51edf0f57464578346ed558b81dc64b1d8b2284a5a90b6104c283e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smartpakequine.com",
+                "www.smartpakequine.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2
+    },
+    "nameservers": []
+}

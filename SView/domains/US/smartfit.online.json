@@ -1,0 +1,103 @@
+{
+    "domain": "smartfit.online",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "widget3",
+        "api.oz.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smartfit\\.online\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "6c36e99457d8df3b6a16255eecbc4fa4594cea064a64c7df4c2ad8d2ceb0ac3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cubestores.nl",
+                "www.lucky-bike.de"
+            ]
+        },
+        {
+            "rule": "smartfit\\.online\\/loader-6_0_0\\/core\\.Dj_87oo8\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget3"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "3b07bc98e876abfd64c708accb2c08bee2afc290a3ad4d7fc3962a652ce7b19a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cubestores.nl",
+                "www.lucky-bike.de"
+            ]
+        },
+        {
+            "rule": "smartfit\\.online\\/v6-0-0\\/coloader",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.oz.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "d13305063498f247ff3645a392e1237e8dac26d46a4204a216ebf32fd936e2f1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cubestores.nl",
+                "www.lucky-bike.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.routing.net",
+        "ns2.routing.net",
+        "ns3.routing.net"
+    ]
+}

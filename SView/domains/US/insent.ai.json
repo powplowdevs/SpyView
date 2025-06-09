@@ -1,0 +1,311 @@
+{
+    "domain": "insent.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "alarmcomincorporated.widget",
+        "clarisinternational.widget",
+        "diligent.widget",
+        "coherent.widget",
+        "ixsystems.widget",
+        "zoominfo.widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "insent\\.ai\\/insent",
+            "cookies": 0.00000707,
+            "fingerprinting": 1,
+            "subdomains": [
+                "alarmcomincorporated.widget",
+                "clarisinternational.widget",
+                "diligent.widget",
+                "coherent.widget",
+                "ixsystems.widget",
+                "zoominfo.widget"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "window.localStorage": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [
+                "c0e96c0f51eb10934d2022f7d30dbeaf05f748f85d32dfe71711f2dbb21621d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "insent-user-id": {
+                    "ttl": 63072011,
+                    "length": 30,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarm.com",
+                "community.claris.com",
+                "www.alarm.com",
+                "www.boardeffect.com",
+                "www.claris.com",
+                "www.coherent.com",
+                "www.truenas.com",
+                "www.zoominfo.com"
+            ]
+        },
+        {
+            "rule": "insent\\.ai\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alarmcomincorporated.widget",
+                "diligent.widget",
+                "clarisinternational.widget",
+                "coherent.widget",
+                "zoominfo.widget"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "48815fbb5f633f9cb5626f936e0d1dac41bf5c1efdc5116ec8cccdce38d4aaad"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_zitok": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "alarm.com",
+                "www.alarm.com",
+                "www.boardeffect.com",
+                "www.claris.com",
+                "www.coherent.com",
+                "www.zoominfo.com"
+            ]
+        },
+        {
+            "rule": "insent\\.ai\\/env\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alarmcomincorporated.widget",
+                "diligent.widget",
+                "clarisinternational.widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "ff4e0b144f55e6bf1ac619baad9714973a381bc5c106e2cf62543d8d671f9c19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarm.com",
+                "www.boardeffect.com",
+                "www.claris.com"
+            ]
+        },
+        {
+            "rule": "insent\\.ai\\/static\\/js\\/vendors\\.4ab3aba2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "alarmcomincorporated.widget",
+                "diligent.widget",
+                "clarisinternational.widget"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Event.prototype.timeStamp": 1,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "89981b7bf2db31d357f370414d3fd3b7f9d08723e250243f90c6dc89d29e534d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarm.com",
+                "www.boardeffect.com",
+                "www.claris.com"
+            ]
+        },
+        {
+            "rule": "insent\\.ai\\/static\\/js\\/commons\\.1ac640fa\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "alarmcomincorporated.widget",
+                "diligent.widget",
+                "clarisinternational.widget"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "f92176cabb942248a3bdf36e5f538e19f3d196302408aae764a7b9a0442d7716"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarm.com",
+                "www.boardeffect.com",
+                "www.claris.com"
+            ]
+        },
+        {
+            "rule": "insent\\.ai\\/static\\/js\\/reduxComponents\\.88b8087e\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "alarmcomincorporated.widget",
+                "diligent.widget",
+                "clarisinternational.widget"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "bd7fd21fe699d272d53303d1dd56c2daf5a411ae9ee5848128f4782ea3b8f244"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarm.com",
+                "www.boardeffect.com",
+                "www.claris.com"
+            ]
+        },
+        {
+            "rule": "insent\\.ai\\/static\\/js\\/main\\.59cf0a6a\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alarmcomincorporated.widget",
+                "diligent.widget",
+                "clarisinternational.widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "606ca7dd3f8d0df61a97687e517e6d5fb8ab2add8d09fd3ff43f4b823a66fc82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarm.com",
+                "www.boardeffect.com",
+                "www.claris.com"
+            ]
+        },
+        {
+            "rule": "insent\\.ai\\/english\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alarmcomincorporated.widget",
+                "diligent.widget",
+                "clarisinternational.widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "49b84adc90a6ba9867d67442dc9570f9d2857657851e06881fed9b518e424089"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarm.com",
+                "www.boardeffect.com",
+                "www.claris.com"
+            ]
+        },
+        {
+            "rule": "insent\\.ai\\/getuser",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alarmcomincorporated.widget",
+                "diligent.widget",
+                "clarisinternational.widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "a71d57489d69cc70c15fe556ddf73584319bb95460f72dfde3dcb9bdef7e2151"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarm.com",
+                "www.boardeffect.com",
+                "www.claris.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "zi-scripts.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 23,
+        "Document": 6,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-1698.awsdns-20.co.uk",
+        "ns-260.awsdns-32.com",
+        "ns-1144.awsdns-15.org",
+        "ns-849.awsdns-42.net"
+    ]
+}

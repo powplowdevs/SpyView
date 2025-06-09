@@ -1,0 +1,501 @@
+{
+    "domain": "richpanel.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000403,
+    "sites": 57,
+    "subdomains": [
+        "cdn",
+        "ws-prod",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "richpanel\\.com\\/js\\/tracking\\.js",
+            "cookies": 0.0000354,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "window.localStorage": 6,
+                "Document.cookie setter": 5,
+                "Screen.prototype.availWidth": 4,
+                "Screen.prototype.availHeight": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 4,
+                "RTCPeerConnection.prototype.constructor": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "06e1f89bc5af19c186a05dcbf43ef0dfca642948bb484b0f33326cde2fb60f83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rpdid": {
+                    "ttl": 117194402,
+                    "length": 36,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 1
+                },
+                "rpsid": {
+                    "ttl": 21602,
+                    "length": 36,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 1
+                },
+                "rptkn": {
+                    "ttl": 117194402,
+                    "length": 12,
+                    "prevalence": 0.00003536668175645088,
+                    "uniqueness": 0.4
+                }
+            },
+            "firstPartyCookiesSent": {
+                "rptkn": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "applianceparts.com",
+                "encompass.com",
+                "healthygut.com",
+                "onno.com",
+                "partstore.encompass.com",
+                "philips.encompass.com",
+                "strapsco.com",
+                "www.hrmorning.com",
+                "www.particleformen.com",
+                "xeroshoes.com"
+            ]
+        },
+        {
+            "rule": "richpanel\\.com\\/js\\/vendor~micro-app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 18,
+                "Navigator.prototype.userAgent": 18,
+                "Navigator.prototype.product": 17
+            },
+            "sites": 27,
+            "prevalence": 0.000191,
+            "cnames": [],
+            "responseHashes": [
+                "a9d7ff77cc13d840e714aa5ee687ecb17db40bea3b4d323beeed33276ca628df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onno.com",
+                "kurufootwear.com",
+                "sewingpartsonline.com",
+                "xeroshoes.com",
+                "healthygut.com",
+                "encompass.com",
+                "wildpastures.com",
+                "durstongear.com",
+                "www.konaworld.com",
+                "www.znaturalfoods.com",
+                "tensunits.com",
+                "applianceparts.com",
+                "www.hrmorning.com",
+                "www.kurufootwear.com",
+                "www.rightchannelradios.com",
+                "www.petratools.com",
+                "www.particleformen.com",
+                "paleovalley.com",
+                "philips.encompass.com",
+                "partstore.encompass.com"
+            ]
+        },
+        {
+            "rule": "richpanel\\.com\\/js\\/micro-app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 18,
+                "window.localStorage": 18,
+                "window.sessionStorage": 16
+            },
+            "sites": 27,
+            "prevalence": 0.000191,
+            "cnames": [],
+            "responseHashes": [
+                "1e55f7152e83c681cec3ee8eab838e98929d28c0dcaedc41ef499e62e7c6fe94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wildpastures.com",
+                "www.sewingpartsonline.com",
+                "www.znaturalfoods.com",
+                "tensunits.com",
+                "pestie.com",
+                "healthygut.com",
+                "partstore.encompass.com",
+                "paleovalley.com",
+                "kurufootwear.com",
+                "www.knifejoy.com",
+                "www.ammunitiondepot.com",
+                "www.kurufootwear.com",
+                "www.konaworld.com",
+                "encompass.com",
+                "www.hrmorning.com",
+                "shop.hak5.org",
+                "onno.com",
+                "sewingpartsonline.com",
+                "www.petratools.com",
+                "www.particleformen.com"
+            ]
+        },
+        {
+            "rule": "richpanel\\.com\\/tenant-messenger\\/messenger\\/new-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws-prod"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000191,
+            "cnames": [],
+            "responseHashes": [
+                "0dfa3208a0aa52df4222bdd64b518c87c37797c17be70e8f4f46a091b3df041b",
+                "499fa110bcfa5265fea0b8aceccdc60e2a0edb1dda4aae4eaad2525575790440",
+                "b515763124a46c4cc934305fc20ad4356d4a292ced1960e1a51a3ca1df46459b",
+                "7db87d5c0f97be9cb73036014eb2559894d8bc96b3a8bc3e1779562e19db87ed",
+                "a7c4d1ed1b9e96d53120fd2d0bf65ba03a7df43f80641634b9e70fc5a5bfc90f",
+                "d634dc0816177293d36fb874ff7f7add8cc48ebb6f2269b58bf9955e9b8e505b",
+                "77999321e0d5822ef2124481b64e07cb8922c1a8e164ac2d15c3a2421247c05a",
+                "e544cca81e1e58d3cbb1d4c2c609188f0c4c8fb901da447daa220783cc605104",
+                "0581a2d2677ce5e9bd5dc9bffe56f49f4ae04f7add40d420b34268c1d90af815",
+                "c49e8f96b311e63011b2ae05bbc39ac8206f615a6a152542ad6f2382e8bd8682",
+                "fe75e2e387d918b13247e399778f56ccc08e32582491d01919b80fbda31d00d0",
+                "2d2d0fd49c436d6db5f70e70a24e9903d662c7e2011dc6972211f27da14f882a",
+                "3dfc4f8bfe1996420026aa2c14ebe42f79c4c80a72b5df1bc0f3472ae7cddf92",
+                "04db9398106106ae486064dc92f798951b6f974a7c5c4cc7801d13948657bbaa",
+                "fdbc7592dd8eb46e3bd2733ed4f21adbc0db04b536df3a7969ce44e509602015",
+                "8567e32b14f470491e8950b9db196c3b8a67450ebf380fdc7eb8dfb8d4f80f2f",
+                "c20a17506326928a48813f4e419ee91c260cf791e0011b397fbf695188a715ae",
+                "84ae379b23e6a1b44e255f3a973ab48e4d8613622bd0d23eab6a48677f1b9116",
+                "c227516f08d3f15b4158a1be8ab7f5eaccc7862a0b835f5b27993c511c3db8ea",
+                "28fcda6788097b82a15fb6f9da4cb3a5758a0697c7497412cb7f15546fcfd59b",
+                "6009ff9a26fd6dc8b5ac2263fb2760b64546e85704e33841b814c79a45d4e308",
+                "1e3aec8893410a8de87c91a1bcd3fc7d599967b79806e3d692ce93d24e483860"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kurufootwear.com",
+                "www.konaworld.com",
+                "www.petratools.com",
+                "www.znaturalfoods.com",
+                "shop.hak5.org",
+                "wildpastures.com",
+                "onno.com",
+                "durstongear.com",
+                "strapsco.com",
+                "healthygut.com",
+                "www.hrmorning.com",
+                "www.particleformen.com",
+                "paleovalley.com",
+                "www.ammunitiondepot.com",
+                "partstore.encompass.com",
+                "www.rightchannelradios.com",
+                "tensunits.com",
+                "sewingpartsonline.com",
+                "www.knifejoy.com",
+                "www.kurufootwear.com"
+            ]
+        },
+        {
+            "rule": "richpanel\\.com\\/tenant-messenger\\/messenger\\/new-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws-prod"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000191,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "strapsco.com",
+                "shop.hak5.org",
+                "paleovalley.com",
+                "durstongear.com",
+                "healthygut.com",
+                "www.particleformen.com",
+                "www.hrmorning.com",
+                "www.kurufootwear.com",
+                "www.rightchannelradios.com",
+                "www.sewingpartsonline.com",
+                "www.petratools.com",
+                "applianceparts.com",
+                "encompass.com",
+                "sewingpartsonline.com",
+                "pestie.com",
+                "tensunits.com",
+                "www.ammunitiondepot.com",
+                "partstore.encompass.com",
+                "philips.encompass.com",
+                "kurufootwear.com"
+            ]
+        },
+        {
+            "rule": "richpanel\\.com\\/websocket\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws-prod"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000163,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rpdid": 0.00011317338162064282
+            },
+            "exampleSites": [
+                "www.znaturalfoods.com",
+                "onno.com",
+                "www.petratools.com",
+                "www.hrmorning.com",
+                "xeroshoes.com",
+                "www.konaworld.com",
+                "www.knifejoy.com",
+                "partstore.encompass.com",
+                "philips.encompass.com",
+                "www.rightchannelradios.com",
+                "kurufootwear.com",
+                "applianceparts.com",
+                "strapsco.com",
+                "pestie.com",
+                "www.particleformen.com",
+                "wildpastures.com",
+                "www.sewingpartsonline.com",
+                "sewingpartsonline.com",
+                "www.ammunitiondepot.com",
+                "encompass.com"
+            ]
+        },
+        {
+            "rule": "richpanel\\.com\\/js\\/richpanel_shopify_script\\.js",
+            "cookies": 0.0000566,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "Document.cookie setter": 8,
+                "window.localStorage": 8
+            },
+            "sites": 25,
+            "prevalence": 0.000177,
+            "cnames": [],
+            "responseHashes": [
+                "1750a435c40ea6fb3a8b85f21c42a109c9a99a7edd808f17c39a5a880da0625f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rptkn": 0.00004244001810774106
+            },
+            "exampleSites": [
+                "www.rightchannelradios.com",
+                "www.knifejoy.com",
+                "atoleajewelry.com",
+                "tacomabeast.com",
+                "kurufootwear.com",
+                "sewingpartsonline.com",
+                "www.konaworld.com",
+                "tensunits.com",
+                "betterwild.com",
+                "www.sewingpartsonline.com",
+                "casadesante.com",
+                "carnivoresnax.com",
+                "www.oneupcomponents.com",
+                "www.all4cycling.com",
+                "durstongear.com",
+                "singer-featherweight.com",
+                "www.eleyhosereels.com",
+                "shop.hak5.org",
+                "eleyhosereels.com",
+                "us.jins.com"
+            ]
+        },
+        {
+            "rule": "richpanel\\.com\\/js\\/richpanel-root\\.js",
+            "cookies": 0.0000778,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "Document.cookie getter": 11,
+                "window.localStorage": 11,
+                "Document.cookie setter": 11,
+                "RTCPeerConnection.prototype.constructor": 9,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 8,
+                "Screen.prototype.availWidth": 11,
+                "Screen.prototype.availHeight": 11,
+                "Screen.prototype.colorDepth": 11,
+                "Navigator.prototype.language": 11,
+                "Navigator.prototype.cookieEnabled": 11,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 8
+            },
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "06e1f89bc5af19c186a05dcbf43ef0dfca642948bb484b0f33326cde2fb60f83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rpdid": {
+                    "ttl": 117194409,
+                    "length": 36,
+                    "prevalence": 0.00007780669986419194,
+                    "uniqueness": 1
+                },
+                "rpsid": {
+                    "ttl": 21609,
+                    "length": 36,
+                    "prevalence": 0.00007780669986419194,
+                    "uniqueness": 1
+                },
+                "rptkn": {
+                    "ttl": 117194409,
+                    "length": 17,
+                    "prevalence": 0.00007780669986419194,
+                    "uniqueness": 0.9090909090909091
+                }
+            },
+            "firstPartyCookiesSent": {
+                "rptkn": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "culturesforhealth.com",
+                "durstongear.com",
+                "fashionablecanes.com",
+                "kurufootwear.com",
+                "paleovalley.com",
+                "pestie.com",
+                "sewingpartsonline.com",
+                "shop.hak5.org",
+                "tensunits.com",
+                "wildpastures.com",
+                "www.ammunitiondepot.com",
+                "www.knifejoy.com",
+                "www.konaworld.com",
+                "www.kurufootwear.com",
+                "www.petratools.com",
+                "www.rightchannelradios.com",
+                "www.sewingpartsonline.com"
+            ]
+        },
+        {
+            "rule": "richpanel\\.com\\/v3\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "strapsco.com",
+                "www.ammunitiondepot.com"
+            ]
+        },
+        {
+            "rule": "richpanel\\.com\\/v3\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "00bc56584f9a4fcd88b36d63c326d29ea2c7110f02d4b32cc36afdceee49bc7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "strapsco.com",
+                "www.ammunitiondepot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000233,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9285714285714286
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.023809523809523808
+        },
+        {
+            "domain": "reamaze.com",
+            "prevalence": 0.011904761904761904
+        }
+    ],
+    "types": {
+        "Script": 106,
+        "XHR": 29,
+        "Preflight": 29,
+        "WebSocket": 23
+    },
+    "nameservers": [
+        "ns-382.awsdns-47.com",
+        "ns-1010.awsdns-62.net",
+        "ns-1142.awsdns-14.org",
+        "ns-1981.awsdns-55.co.uk"
+    ]
+}

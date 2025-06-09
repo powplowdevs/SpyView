@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>SpyView Statistics</title>
+        <script src="../tailwindcss.js"></script>
+        <link rel="stylesheet" href="leaflet/leaflet.css" />
+        <script src="leaflet/leaflet.js"></script>
+        <style type="text/tailwindcss">
+            @layer base {
+            html{
+                font-family: 'Inter', sans-serif;
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-neutral-900 text-white p-6 space-y-6 min-h-screen">
+        <button id="refreshBtn" class="text-sm px-3 py-1 bg-gray-600 rounded hover:bg-gray-700">↻ Refresh</button>
+
+        <header class="flex justify-between items-center">
+            <h1 class="text-2xl font-bold">📊 SpyView Stats Dashboard</h1>
+            <button id="downloadJson" class="text-sm px-4 py-2 bg-blue-500 rounded hover:bg-blue-600">Download JSON data</button>
+        </header>
+
+        <section class="bg-neutral-800 p-4 rounded shadow space-y-2">
+            <h2 class="text-lg font-semibold">Privacy Score</h2>
+            <div class="w-full bg-neutral-700 h-3 rounded-full overflow-hidden">
+                <div id="privacyScoreBar" class="h-3 rounded-full bg-green-500 transition-all duration-300" style="width: 80%;"></div>
+            </div>
+            <div id="privacyScoreLabel" class="text-sm mt-1 text-gray-400">Loading...</div>
+        </section>
+
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-neutral-800 p-4 rounded shadow space-y-2">
+            <h2 class="text-lg font-semibold">Total Trackers Detected</h2>
+            <ul id="totals" class="text-sm text-gray-300 space-y-1"></ul>
+            </div>
+
+            <div class="bg-neutral-800 p-4 rounded shadow space-y-2">
+            <h2 class="text-lg font-semibold">Top Tracker Sources</h2>
+            <ul id="topDomains" class="text-sm text-gray-300 space-y-1"></ul>
+            </div>
+        </section>
+
+        <section class="bg-neutral-800 p-4 rounded shadow space-y-2">
+            <h2 class="text-lg font-semibold">Tracker Heavy Sites</h2>
+            <ul id="topSites" class="text-sm text-gray-300 space-y-1"></ul>
+        </section>
+
+        <section class="bg-neutral-800 p-4 rounded shadow space-y-2">
+            <h2 class="text-lg font-semibold">Recent Tracker History</h2>
+            <ul id="recentHistory" class="text-sm text-gray-300 space-y-1"></ul>
+        </section>
+
+        <section class="bg-neutral-800 p-4 rounded shadow space-y-2">
+            <h2 class="text-lg font-semibold">Tracker Location Map</h2>
+            <div id="locationMap" class="h-[400px] rounded shadow"></div>
+        </section>
+     
+        <section class="bg-neutral-800 p-4 rounded-lg shadow-lg ring-1 ring-neutral-700 space-y-3">
+            <h2 class="text-lg font-semibold text-white">Live Trackers (Currently Active)</h2>
+            <ul id="liveTrackers" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm text-gray-200"></ul>
+        </section>
+
+        <script src="chart.min.js"></script>
+        <script src="analytics.js"></script>
+    </body>
+</html>

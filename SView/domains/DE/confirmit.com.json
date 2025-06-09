@@ -1,0 +1,140 @@
+{
+    "domain": "confirmit.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "digitalfeedback.us"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "confirmit\\.com\\/api\\/digitalfeedback\\/loader",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "digitalfeedback.us"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "6b990a8df22294b84b32a4a314be53dca0afec975a500d420b23ef395abb3e62",
+                "68fbbf819889d1167475c23ead46f73ec411e45f05053d73cf15825b6bae270d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "www.lenovo.com",
+                "www.motorola.com"
+            ]
+        },
+        {
+            "rule": "confirmit\\.com\\/api\\/digitalfeedback\\/loader\\/prod\\/program",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalfeedback.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "de00904f96a2fc5cb1bc67d14528855df0d7fc4974dd77de9c4811cb027992da"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "www.lenovo.com"
+            ]
+        },
+        {
+            "rule": "confirmit\\.com\\/api\\/digitalfeedback\\/loader\\/prod\\/scenario",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalfeedback.us"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "00e934c689cd4dd76f8da60b7fe9ecf4ebb5bd53f6b1a39cfec424b0692dcba2",
+                "ea1fb1dd0f3532b129a6b83a7fed1f8d953f8a7243c8bd6858a9d3b16364767b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "support.lenovo.com",
+                "www.lenovo.com"
+            ]
+        },
+        {
+            "rule": "confirmit\\.com\\/api\\/digitalfeedback\\/static\\/v33\\/intercept-survey\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "digitalfeedback.us"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "www.motorola.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.6818181818181818
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.22727272727272727
+        },
+        {
+            "domain": "static.pub",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 2
+    },
+    "nameservers": [
+        "udns2.cscdns.uk",
+        "udns1.cscdns.net"
+    ]
+}

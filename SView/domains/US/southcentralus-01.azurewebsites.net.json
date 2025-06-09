@@ -1,0 +1,75 @@
+{
+    "domain": "southcentralus-01.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "sy-live-gtm-tagging-server-fyhdh2fubraveqbg"
+    ],
+    "cnames": [
+        {
+            "original": "sy-live-tagging.stickeryou.com",
+            "resolved": "sy-live-gtm-tagging-server-fyhdh2fubraveqbg.southcentralus-01.azurewebsites.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "southcentralus-01\\.azurewebsites\\.net\\/g\\/collect",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sy-live-gtm-tagging-server-fyhdh2fubraveqbg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "sy-live-tagging.stickeryou.com",
+                    "resolved": "sy-live-gtm-tagging-server-fyhdh2fubraveqbg.southcentralus-01.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "b20e3c77659a608f213019ac4c9542976d779a70c7fbfd6424567bbdebae0708"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "stickeryou.com",
+                "www.stickeryou.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1-35.azure-dns.com",
+        "ns2-35.azure-dns.net",
+        "ns3-35.azure-dns.org",
+        "ns4-35.azure-dns.info"
+    ]
+}

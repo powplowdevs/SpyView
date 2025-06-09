@@ -1,0 +1,80 @@
+{
+    "domain": "opensend.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00017,
+    "sites": 24,
+    "subdomains": [
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "opensend\\.com\\/os\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "window.sessionStorage": 13,
+                "window.localStorage": 14,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "62bca33e75cdf68964cf1cffcf3dd5d52a34dc8c4afe067d9e120bcd71c63317"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "copperfitusa.com",
+                "daily-harvest.com",
+                "eriehome.com",
+                "faxonfirearms.com",
+                "happymammoth.com",
+                "opencare.com",
+                "shopsolarkits.com",
+                "silencerco.com",
+                "speckproducts.com",
+                "store.happymammoth.com",
+                "thetrailerpartsoutlet.com",
+                "welloflife.com",
+                "www.carandtruckremotes.com",
+                "www.opencare.com",
+                "www.rhone.com",
+                "www.stacksocial.com",
+                "yankum.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Script": 17
+    },
+    "nameservers": [
+        "ns-480.awsdns-60.com",
+        "ns-1809.awsdns-34.co.uk",
+        "ns-658.awsdns-18.net",
+        "ns-1224.awsdns-25.org"
+    ]
+}

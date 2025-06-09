@@ -1,0 +1,107 @@
+{
+    "domain": "traf-memcont-digweb-prod-westus2-01.trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "contentservices.premera.com",
+            "resolved": "traf-memcont-digweb-prod-westus2-01.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "traf-memcont-digweb-prod-westus2-01\\.trafficmanager\\.net\\/api\\/v1\\.0\\/content\\/componentstate",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "contentservices.premera.com",
+                    "resolved": "traf-memcont-digweb-prod-westus2-01.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "premera.com",
+                "www.premera.com"
+            ]
+        },
+        {
+            "rule": "traf-memcont-digweb-prod-westus2-01\\.trafficmanager\\.net\\/api\\/v1\\.0\\/content\\/componentstate",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "contentservices.premera.com",
+                    "resolved": "traf-memcont-digweb-prod-westus2-01.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "eca02398334e98c7d7e53f36726387806be68065b30dd33a97aa0e30d09016e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "premera.com",
+                "www.premera.com"
+            ]
+        },
+        {
+            "rule": "traf-memcont-digweb-prod-westus2-01\\.trafficmanager\\.net\\/api\\/v1\\.0\\/environment\\/information",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "contentservices.premera.com",
+                    "resolved": "traf-memcont-digweb-prod-westus2-01.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "ed72a96a1f81cfc28b20ef16641e8a6f2701ae75ac5362395eabf54ee053f9e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "premera.com",
+                "www.premera.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000707,
+    "types": {
+        "Preflight": 2,
+        "XHR": 4
+    },
+    "nameservers": []
+}

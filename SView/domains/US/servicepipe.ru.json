@@ -1,0 +1,83 @@
+{
+    "domain": "servicepipe.ru",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "servicepipe\\.ru\\/static\\/jsrsasign-all-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.appName": 6,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "e449351ed95032e79995f8635ecdb1b07e74611e315c3a4975a8320f5e29649b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "av.ru",
+                "fon.bet",
+                "megamarket.ru",
+                "samokat.ru",
+                "uchi.ru",
+                "www.vseinstrumenti.ru"
+            ]
+        },
+        {
+            "rule": "servicepipe\\.ru\\/static\\/fp\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "b3fbad5f59c4a99836fda1a5a57d74d102c10751359249ade717fffa7ea61f07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "av.ru",
+                "fon.bet",
+                "megamarket.ru",
+                "samokat.ru",
+                "uchi.ru",
+                "www.vseinstrumenti.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12
+    },
+    "nameservers": [
+        "dns-02.servicepipe.ru",
+        "ns04.servicepipe.ru",
+        "ns03.servicepipe.ru",
+        "dns-01.servicepipe.ru"
+    ]
+}

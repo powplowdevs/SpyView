@@ -1,0 +1,151 @@
+{
+    "domain": "perfops.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000306,
+    "sites": 3,
+    "subdomains": [
+        "zre7wwycr26e1w5y.test.resolver",
+        "tp3l09r7vtacac48.test.resolver",
+        "rum-cdn",
+        "cdn",
+        "devnull"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "perfops\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zre7wwycr26e1w5y.test.resolver",
+                "tp3l09r7vtacac48.test.resolver"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8596324f1936e728112f845818eb0003efbaff0073af471de7858137b7299e47"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vuejs.org",
+                "www.idrlabs.com"
+            ]
+        },
+        {
+            "rule": "perfops\\.net\\/providers",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8480bdcde8e6d3dfc23d02170215735d968e0abf079fe26f673b05fec3a963e4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vuejs.org",
+                "www.idrlabs.com"
+            ]
+        },
+        {
+            "rule": "perfops\\.net\\/providers",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vuejs.org",
+                "www.idrlabs.com"
+            ]
+        },
+        {
+            "rule": "perfops\\.net\\/rom3\\/rom3\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 1,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a4fef32f2e02f7c21ef16d72389838afbbbe1678bacc1c9d83a96789259f032c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idrlabs.com",
+                "www.opensubtitles.org"
+            ]
+        },
+        {
+            "rule": "perfops\\.net\\/rum\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "devnull"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "67ff8d8bcf6a8b7bcfde940446aedd7dd95b6aa423621083679ff39c98905236"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idrlabs.com",
+                "www.idrlabs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Preflight": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "amber.ns.cloudflare.com",
+        "dave.ns.cloudflare.com"
+    ]
+}

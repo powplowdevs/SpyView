@@ -1,0 +1,97 @@
+{
+    "domain": "comodo.com",
+    "owner": {
+        "name": "Sectigo Limited",
+        "displayName": "Sectigo"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000156,
+    "sites": 22,
+    "subdomains": [
+        "secure",
+        "ssl"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "comodo\\.com\\/trustlogo\\/javascript\\/trustlogo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.appVersion": 6,
+                "Navigator.prototype.appName": 6
+            },
+            "sites": 15,
+            "prevalence": 0.000106,
+            "cnames": [],
+            "responseHashes": [
+                "1ba30b444f0489b7da1ca80092c7879835ba96404751aabbdb2647de4261fa05"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agrussell.com",
+                "winlink.org",
+                "www.autobodytoolmart.com",
+                "www.bmikarts.com",
+                "www.cigarplace.biz",
+                "www.dubiobikinis.com",
+                "www.fuelmotousa.com",
+                "www.hockeyworld.com",
+                "www.nalc.org",
+                "www.poolsupply4less.com",
+                "www.teambuick.com",
+                "www.ula-equipment.com",
+                "www.universal-radio.com",
+                "www.woodworkerssource.com",
+                "www2.heart.org"
+            ]
+        },
+        {
+            "rule": "comodo\\.com\\/images\\/trusted-site-seal\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssl"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ftfindustries.com",
+                "www.ftfindustries.com",
+                "www.lingenfelter.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns1.nurd.com",
+        "ns2.nurd.com"
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "domain": "ebxcdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0053,
+    "sites": 52,
+    "subdomains": [
+        "applets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ebxcdn\\.com\\/ebx\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "applets"
+            ],
+            "apis": {
+                "window.sessionStorage": 42,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 52,
+            "prevalence": 0.0053,
+            "cnames": [],
+            "responseHashes": [
+                "ac326f6781dff803f38b680f6a65d2a2d7d24849de123ed05630dae5407f4be2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "screenrant.com",
+                "www.snopes.com",
+                "www.telegraph.co.uk",
+                "www.connect.de",
+                "deutsche-wirtschafts-nachrichten.de",
+                "collider.com",
+                "www.brigitte.de",
+                "www.sport1.de",
+                "www.vox.de",
+                "www.ultimate-guitar.com",
+                "indianexpress.com",
+                "www.weser-kurier.de",
+                "www.wetter.de",
+                "www.rnz.de",
+                "www.vip.de",
+                "www.insuedthueringen.de",
+                "www.np-coburg.de",
+                "sport.sky.de",
+                "ga.de",
+                "www.frankenpost.de"
+            ]
+        },
+        {
+            "rule": "ebxcdn\\.com\\/applets\\/www\\.mz\\.de\\/scripts\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "applets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "cd02dd589dd16a038f83879dac6de9354a2e8fbee1e70d945c6707d3aead0f0b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mz.de",
+                "www.mz.de"
+            ]
+        },
+        {
+            "rule": "ebxcdn\\.com\\/applets\\/www\\.volksstimme\\.de\\/scripts\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "applets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "560dd61c6b5fb9c732c21b7ce9d2313ef0702de7d5b9481d674c645bf0fded99"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "volksstimme.de",
+                "www.volksstimme.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8392857142857143
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.017857142857142856
+        }
+    ],
+    "types": {
+        "Script": 52,
+        "XHR": 4
+    },
+    "nameservers": [
+        "arvind.ns.cloudflare.com",
+        "vita.ns.cloudflare.com"
+    ]
+}

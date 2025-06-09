@@ -1,0 +1,147 @@
+{
+    "domain": "convertexperiments.com",
+    "owner": {
+        "name": "Convert Insights Inc",
+        "displayName": "Convert Insights"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00103,
+    "sites": 10,
+    "subdomains": [
+        "logs",
+        "cdn-4",
+        "100416617.metrics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "convertexperiments\\.com\\/v1\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ipinfo.io",
+                "www.knivesandtools.de"
+            ]
+        },
+        {
+            "rule": "convertexperiments\\.com\\/js\\/10042404-10043068\\.js",
+            "cookies": 0.000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-4"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "03196c8c39aee8d835696b13235f73557f79adf81268372211c573a35e05a267"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_conv_sptest": {
+                    "ttl": -159995,
+                    "length": 7,
+                    "prevalence": 0.0002053388090349076,
+                    "uniqueness": 0.5
+                },
+                "_conv_v": {
+                    "ttl": 15768005,
+                    "length": 52,
+                    "prevalence": 0.0002053388090349076,
+                    "uniqueness": 0.5
+                },
+                "_conv_s": {
+                    "ttl": 1205,
+                    "length": 52,
+                    "prevalence": 0.0002053388090349076,
+                    "uniqueness": 0.5
+                },
+                "_conv_r": {
+                    "ttl": -159995,
+                    "length": 7,
+                    "prevalence": 0.0002053388090349076,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daft.ie",
+                "www.daft.ie"
+            ]
+        },
+        {
+            "rule": "convertexperiments\\.com\\/v1\\/track\\/100414187\\/100416617",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "100416617.metrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knivesandtools.de",
+                "www.knivesandtools.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000616,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6923076923076923
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3076923076923077
+        }
+    ],
+    "types": {
+        "Ping": 4,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1039.awsdns-01.org",
+        "ns-1950.awsdns-51.co.uk",
+        "ns-300.awsdns-37.com",
+        "ns-740.awsdns-28.net"
+    ]
+}

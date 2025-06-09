@@ -1,0 +1,162 @@
+{
+    "domain": "vizury.com",
+    "owner": {
+        "name": "Vizury Interactive Solutions Pvt Ltd",
+        "displayName": "Vizury Interactive Solutions"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "cdn26",
+        "in-tags",
+        "tags",
+        "us-pl",
+        "ssl"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vizury\\.com\\/ssp\\/US_GlassesUSA\\/wpn5035\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn26"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "32a660e5ddee5ab0abac6cafdd6e83da1c900db07b268e71ae3f0b848cf661a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glassesusa.com",
+                "www.glassesusa.com"
+            ]
+        },
+        {
+            "rule": "vizury\\.com\\/analyze\\/pixel\\.php",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "in-tags",
+                "tags"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "2ac8aac8645e251a797a2dee3db9deb19e85d65d05337a51f22d7fdafa7258a6",
+                "e52b7bf33fecca1ef63c87a810962cadf5888be71e22bd7a681b718beca70751"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "Nvis": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 0.5
+                },
+                "_vz": {
+                    "ttl": 31536006,
+                    "length": 17,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glassesusa.com",
+                "www.faucetdirect.com",
+                "www.glassesusa.com",
+                "www.lightingdirect.com"
+            ]
+        },
+        {
+            "rule": "vizury\\.com\\/analyze\\/analyze\\.php",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-pl"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dy_fs_page": 0.00002122000905387053,
+                "_vz": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "faucetdirect.com",
+                "www.faucetdirect.com",
+                "www.lightingdirect.com"
+            ]
+        },
+        {
+            "rule": "vizury\\.com\\/analyze\\/cookieCallback\\.php",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssl"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "15096e8b79cd9103943e68fe8c4c59ddc6cbc2e45a00199c6d9569b96b66cea3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dy_fs_page": 0.000014146672702580353,
+                "IR_gbd": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "faucetdirect.com",
+                "www.faucetdirect.com",
+                "www.glassesusa.com",
+                "www.lightingdirect.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Document": 3
+    },
+    "nameservers": [
+        "demi.ns.cloudflare.com",
+        "bruce.ns.cloudflare.com"
+    ]
+}

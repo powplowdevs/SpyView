@@ -1,0 +1,152 @@
+{
+    "domain": "gravitec.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000608,
+    "sites": 86,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gravitec\\.media\\/track\\.min\\.js",
+            "cookies": 0.000431,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 61,
+                "Date.prototype.getTime": 60,
+                "Document.cookie setter": 61
+            },
+            "sites": 72,
+            "prevalence": 0.000509,
+            "cnames": [],
+            "responseHashes": [
+                "051d72fee35a1656da7f68a12fce47e0b2a05a77b10feba942f25458955d8487"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "GN_USER_ID_KEY": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.0004314735174287008,
+                    "uniqueness": 1
+                },
+                "GN_SESSION_ID_KEY": {
+                    "ttl": 1805,
+                    "length": 36,
+                    "prevalence": 0.0004314735174287008,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bighomeprojects.com",
+                "mentalmars.com",
+                "www.livefoot.fr",
+                "worldsoccertalk.com",
+                "www.newtral.es",
+                "www.eluniversal.com.co",
+                "www.kyivpost.com",
+                "totalrenting.es",
+                "www.meteored.mx",
+                "www.meteored.cl",
+                "www.brainzilla.com",
+                "agrolearner.com",
+                "www.salon24.pl",
+                "www.meteored.com.ar",
+                "hotline.ua",
+                "www.ecranlarge.com",
+                "www.footmarseillais.com",
+                "omghitched.com",
+                "www.national-geographic.pl",
+                "www.yourweather.co.uk"
+            ]
+        },
+        {
+            "rule": "gravitec\\.media\\/api\\/stats\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 68,
+            "prevalence": 0.000481,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "GN_USER_ID_KEY": 0.0004314735174287008,
+                "GN_SESSION_ID_KEY": 0.0004314735174287008,
+                "_li_dcdm_c": 0.00002122000905387053,
+                "lotame_domain_check": 0.000028293345405160706
+            },
+            "exampleSites": [
+                "americanmarijuana.org",
+                "www.daswetter.com",
+                "omghitched.com",
+                "bessergesundleben.de",
+                "www.articulo14.es",
+                "nordicperspective.com",
+                "www.meteored.mx",
+                "www.tameteo.com",
+                "www.meteored.com.ar",
+                "thriftyminnesota.com",
+                "www.culturequizz.com",
+                "krokdozdrowia.com",
+                "www.newtral.es",
+                "hotline.ua",
+                "stegforhalsa.se",
+                "brickset.com",
+                "theguyshack.com",
+                "cruisefever.net",
+                "www.elcomercio.com",
+                "polki.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000516,
+    "topInitiators": [
+        {
+            "domain": "gravitec.net",
+            "prevalence": 0.8421052631578947
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.09473684210526316
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.031578947368421054
+        },
+        {
+            "domain": "ezojs.com",
+            "prevalence": 0.021052631578947368
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.010526315789473684
+        }
+    ],
+    "types": {
+        "Script": 72,
+        "Fetch": 68
+    },
+    "nameservers": [
+        "thomas.ns.cloudflare.com",
+        "chan.ns.cloudflare.com"
+    ]
+}

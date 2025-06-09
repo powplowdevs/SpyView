@@ -1,0 +1,189 @@
+{
+    "domain": "juicyads.com",
+    "owner": {
+        "name": "JuicyAds",
+        "displayName": "JuicyAds",
+        "privacyPolicy": "http://juicyads.com/privacy",
+        "url": "http://juicyads.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00214,
+    "sites": 21,
+    "subdomains": [
+        "adserver",
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "juicyads\\.com\\/js\\/jads\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "adserver"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "4a80819c5ee89f3ea534b99fe485991302abc498d994ba29d5c893ac5d795f79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babesrater.com",
+                "e-hentai.org",
+                "r.e-hentai.org",
+                "www.famousboard.com",
+                "www.iafd.com",
+                "www.spankingtube.com"
+            ]
+        },
+        {
+            "rule": "juicyads\\.com\\/adshow\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adserver"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00173,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babesrater.com",
+                "bestbondagevideos.com",
+                "camarads.com",
+                "e-hentai.org",
+                "hentaiforce.net",
+                "hentai2read.com",
+                "hypnotube.com",
+                "justthegays.tv",
+                "myhentaigallery.com",
+                "r.e-hentai.org",
+                "rule34.paheal.net",
+                "www.famousboard.com",
+                "www.fusker.xxx",
+                "www.iafd.com",
+                "www.loverslab.com",
+                "www.spankingtube.com",
+                "www4.javhdporn.net"
+            ]
+        },
+        {
+            "rule": "juicyads\\.com\\/16x16\\/info-icon-16x16-05\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adserver"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00153,
+            "cnames": [],
+            "responseHashes": [
+                "30d880c6caa7337d2e5e8d8ab9b323cae77fd86f7489682975a42f36409c968c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babesrater.com",
+                "bestbondagevideos.com",
+                "camarads.com",
+                "e-hentai.org",
+                "hentaiforce.net",
+                "hentai2read.com",
+                "hypnotube.com",
+                "myhentaigallery.com",
+                "r.e-hentai.org",
+                "rule34.paheal.net",
+                "www.famousboard.com",
+                "www.fusker.xxx",
+                "www.iafd.com",
+                "www.spankingtube.com",
+                "www4.javhdporn.net"
+            ]
+        },
+        {
+            "rule": "juicyads\\.com\\/jp\\.php",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.mimeTypes": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "window.screenX": 6,
+                "window.screenY": 6,
+                "window.localStorage": 6,
+                "window.screenTop": 2,
+                "Date.prototype.getTime": 4,
+                "window.screenLeft": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "a82f7be6d98a95717638d53121883fafaef67149678c372767eeb7ad6a7edbe8",
+                "e54ff05d93ac607421642823fa4c63f4f7cade77fd56cca22da6ce963abfb3fd",
+                "723c334efe3929e09828e2641d427cb90c8c45add4202bcf01f70da885eaa8b8",
+                "3997024dd4cb705fa34b7eef7c76c586e6de39be62d2294ad1f4b789a287b6be",
+                "54842fd3b9cfb26f4bd0d5b4ec9cf62a6d664ec6e38bf114e542ed54698118b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batecord.com",
+                "bestbondagevideos.com",
+                "erogames.to",
+                "gayforfans.com",
+                "www.loverslab.com",
+                "www.shemale6.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Malware"
+    ],
+    "performance": {},
+    "cookies": 0.00173,
+    "topInitiators": [
+        {
+            "domain": "jads.co",
+            "prevalence": 0.7719298245614035
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.22807017543859648
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Document": 17,
+        "Image": 15
+    },
+    "nameservers": [
+        "ns-125.awsdns-15.com",
+        "ns-890.awsdns-47.net",
+        "ns-1559.awsdns-02.co.uk",
+        "ns-1099.awsdns-09.org"
+    ]
+}

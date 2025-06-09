@@ -1,0 +1,186 @@
+{
+    "domain": "feverup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000262,
+    "sites": 37,
+    "subdomains": [
+        "data-logging.apigw",
+        "www",
+        "cdn",
+        "www.cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "feverup\\.com\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data-logging.apigw"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barcelonasecreta.com",
+                "bostonuncovered.com",
+                "madridsecreto.co",
+                "parissecret.com",
+                "secretatlanta.co",
+                "secretchicago.com",
+                "secretdc.com",
+                "secretdenver.com",
+                "secrethouston.com",
+                "secretlasvegas.co",
+                "secretldn.com",
+                "secretlosangeles.com",
+                "secretmanchester.com",
+                "secretnyc.co",
+                "secretsanfrancisco.com",
+                "secretseattle.co",
+                "valenciasecreta.com"
+            ]
+        },
+        {
+            "rule": "feverup\\.com\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data-logging.apigw"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00012,
+            "cnames": [],
+            "responseHashes": [
+                "f1ea07a1e51a389c8de07120ae5c2e432e9dd8f4fbd6f92489f185b0523a3fd4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barcelonasecreta.com",
+                "bostonuncovered.com",
+                "madridsecreto.co",
+                "parissecret.com",
+                "secretatlanta.co",
+                "secretchicago.com",
+                "secretdc.com",
+                "secretdenver.com",
+                "secrethouston.com",
+                "secretlasvegas.co",
+                "secretldn.com",
+                "secretlosangeles.com",
+                "secretmanchester.com",
+                "secretnyc.co",
+                "secretsanfrancisco.com",
+                "secretseattle.co",
+                "valenciasecreta.com"
+            ]
+        },
+        {
+            "rule": "feverup\\.com\\/",
+            "cookies": 0.0000354,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravocompanyusa.com",
+                "sexyhive.com",
+                "torrbrowser.ru",
+                "www.nude.hu",
+                "www.planetsuzy.org",
+                "you-stories.com",
+                "zooporner.com"
+            ]
+        },
+        {
+            "rule": "feverup\\.com\\/utmkeeper\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn",
+                "www.cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "0dcd8a0e569a44188f6a6aa4796d164e259d53931b0b7ee98bc75551a94c964d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "candlelightexperience.com",
+                "spyscape.com",
+                "www.nybg.org"
+            ]
+        },
+        {
+            "rule": "feverup\\.com\\/en",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sexyhive.com",
+                "torrbrowser.ru",
+                "you-stories.com",
+                "zooporner.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9402985074626866
+        },
+        {
+            "domain": "korfo.org",
+            "prevalence": 0.05970149253731343
+        }
+    ],
+    "types": {
+        "Preflight": 17,
+        "Fetch": 17,
+        "Script": 14
+    },
+    "nameservers": [
+        "ns-122.awsdns-15.com",
+        "ns-1317.awsdns-36.org",
+        "ns-1537.awsdns-00.co.uk",
+        "ns-685.awsdns-21.net"
+    ]
+}

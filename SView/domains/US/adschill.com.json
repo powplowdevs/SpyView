@@ -1,0 +1,69 @@
+{
+    "domain": "adschill.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000283,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "adschill\\.com\\/v2\\/unit\\/pt\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.vendor": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.webkitTemporaryStorage": 1,
+                "Performance.prototype.memory": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4a4fe35d521f72a287f8d37daebda930258da27b6d3e5b5aae0e371f8d04d40d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mangabuddy.com",
+                "mangamirror.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "cheryl.ns.cloudflare.com",
+        "elliott.ns.cloudflare.com"
+    ]
+}

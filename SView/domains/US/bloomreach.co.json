@@ -1,0 +1,292 @@
+{
+    "domain": "bloomreach.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [
+        "lms-api.ca",
+        "microcenter-api",
+        "cme-api"
+    ],
+    "cnames": [
+        {
+            "original": "mktg-api.simons.ca",
+            "resolved": "lms-api.ca.bloomreach.co"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bloomreach\\.co\\/js\\/exponea\\.min\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lms-api.ca",
+                "microcenter-api",
+                "cme-api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mktg-api.simons.ca",
+                    "resolved": "lms-api.ca.bloomreach.co"
+                }
+            ],
+            "responseHashes": [
+                "3be9844be130057fd69c9a0b957f77f6cdf93cdc4d0d4aaccd1fccb740593d95",
+                "7b8cfeb075e980856acc38802467ffb13a8948ef7d7744fe98d76f3a4a4acd31",
+                "4e68f7fee746a4d7a9ff1476a20d586307625aa96ed97b54d9e42e79e56176ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__exponea_etc__": {
+                    "ttl": 94608007,
+                    "length": 36,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "__exponea_time2__": {
+                    "ttl": 3607,
+                    "length": 20,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simons.ca",
+                "www.microcenter.com",
+                "www.oneplay.cz",
+                "www.simons.ca"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.co\\/webxp\\/projects\\/3d726c60-eb70-11ee-bd52-7a9e9095c5a2\\/bundle",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lms-api.ca"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "mktg-api.simons.ca",
+                    "resolved": "lms-api.ca.bloomreach.co"
+                }
+            ],
+            "responseHashes": [
+                "7f56373977dd7d932381c46eec56d4239cc434a244ae4d7ccb0422983c8d1fba"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simons.ca",
+                "m.simons.ca"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.co\\/bulk",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lms-api.ca",
+                "microcenter-api",
+                "cme-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mktg-api.simons.ca",
+                    "resolved": "lms-api.ca.bloomreach.co"
+                }
+            ],
+            "responseHashes": [
+                "40e3d639f2939e3ca400ad26fd7e0463bd0ebc726916c4adb1854470f75eacc3",
+                "2f807468d4097c994c1a7898a71659f9b9bab9969f80e44a46a5e70f3f45cee6",
+                "fc1d93e2bbc347fa5f640a679611411f7d8fbeabca8430e69467da70229f4e1e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simons.ca",
+                "m.simons.ca",
+                "www.microcenter.com",
+                "www.oneplay.cz"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.co\\/managed-tags\\/show",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lms-api.ca",
+                "microcenter-api",
+                "cme-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "mktg-api.simons.ca",
+                    "resolved": "lms-api.ca.bloomreach.co"
+                }
+            ],
+            "responseHashes": [
+                "5c858b1c80e2a37e46abc26525a908fe14db93ebdce1dbdbdd2828cd180bbeec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simons.ca",
+                "www.microcenter.com",
+                "www.oneplay.cz"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.co\\/campaigns\\/banners\\/show",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lms-api.ca",
+                "microcenter-api",
+                "cme-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "mktg-api.simons.ca",
+                    "resolved": "lms-api.ca.bloomreach.co"
+                }
+            ],
+            "responseHashes": [
+                "ca2512632fcac9fd897f708db383648ac85b987bae632fabdb1879ea820a1638",
+                "c148b2a7922b7d44e6f8c9b87d6a7b0acececdd384471c364cf75ee8ee9c9f24",
+                "f5c1388868f22487ce09932804f0203ff0e4821dc325963da6337358b3c6274f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simons.ca",
+                "m.simons.ca",
+                "www.microcenter.com",
+                "www.oneplay.cz"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.co\\/webxp\\/projects\\/ffcaa020-4381-11ef-9b0e-daafc745905b\\/bundle",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "microcenter-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "c75549078e2ff7c5b3f1c76e550ebfc8fefef6d1f0cd64583d27fbaf22b7d132"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microcenter.com",
+                "www.microcenter.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.co\\/optimization\\/recommend\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "microcenter-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microcenter.com",
+                "www.microcenter.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.co\\/webxp\\/projects\\/2f4dc166-d1ca-11ef-bf4a-0ae140833a32\\/bundle",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cme-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "71d9514d3ddf7f753d20f2162b8990def0e625cb4abae2eda4b2354c3f0b587e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oneplay.cz",
+                "www.oneplay.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.37037037037037035
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07407407407407407
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 19
+    },
+    "nameservers": [
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d4.googledomains.com",
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d3.googledomains.com"
+    ]
+}

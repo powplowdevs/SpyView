@@ -1,0 +1,567 @@
+{
+    "domain": "wtg-ads.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000347,
+    "sites": 49,
+    "subdomains": [
+        "lib",
+        "wa"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "wtg-ads\\.com\\/lib\\.single\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f47e0378dbabb7c5ee1a9a3674d205eec23b71ea5e8abd9becee46d65f6a47fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rumah123.com",
+                "www.kalbi.pl"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/lib\\.single\\.wtg\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 7,
+                "Navigator.prototype.language": 7
+            },
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [],
+            "responseHashes": [
+                "0ff128262417e9bac71524f04fb8950a32120ca325fcdaa2c2ac5066ab921673"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femina.hu",
+                "hvg.hu",
+                "outagedown.com",
+                "pcmacstore.com",
+                "www.10000recipe.com",
+                "www.24chasa.bg",
+                "www.bibliaplus.org",
+                "www.olx.kz",
+                "www.quoka.de",
+                "www.whatsupcams.com"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/prebid\\/wtg_prebid_9\\.11\\.0\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 3,
+                "Document.cookie getter": 2,
+                "window.localStorage": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Document.cookie setter": 1,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "fdc0b63918aff9fc29613892af039c73d535906647802ba356de56543adcac83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cto_bundle": {
+                    "ttl": 33696027,
+                    "length": 220,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696027,
+                    "length": 164,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femina.hu",
+                "outagedown.com",
+                "pcmacstore.com",
+                "www.bibliaplus.org"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/lib\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "window.localStorage": 9,
+                "Screen.prototype.width": 6,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.userAgent": 9,
+                "Date.prototype.getTime": 1,
+                "window.name": 3,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "d75243acfe683483034e8f311e8559b2264cbe90ac8060749b99dac4a39cf089"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "forumprawne.org",
+                "opoka.org.pl",
+                "pogled.info",
+                "www.danas.rs",
+                "www.fronda.pl",
+                "www.medme.pl",
+                "www.polityka.pl",
+                "www.republika.rs",
+                "www.vijesti.me"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/prebid\\/prebid_9\\.11\\.0\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 4,
+                "NavigatorUAData.prototype.platform": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 4,
+                "window.localStorage": 4,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "window.devicePixelRatio": 1,
+                "Navigator.prototype.hardwareConcurrency": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "495199213beb2eca487ab5adb6c7d6697b3ed53d40cc72c2b60f39388be5b3db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cto_bundle": {
+                    "ttl": 33696005,
+                    "length": 192,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696005,
+                    "length": 138,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "_sharedid": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "_sharedid_cst": {
+                    "ttl": 31536005,
+                    "length": 16,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "forumprawne.org",
+                "www.fronda.pl",
+                "www.polityka.pl",
+                "www.republika.rs",
+                "www.vijesti.me"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/publisher\\/10000recipe\\.com\\/wtg_skyscraper\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5ac15bb6b38efc8c37d2cffa4452341024babbd49a38bb2cbf6524b90eee3597"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "10000recipe.com",
+                "www.10000recipe.com"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/publisher\\/10000recipe\\.com\\/sb_ad\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.name": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "311910a55161206ed933f72115ab7ed9345b7ef90941786b884b083da879784a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "10000recipe.com",
+                "www.10000recipe.com"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/publisher\\/10000recipe\\.com\\/standard\\.publisher\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "window.name": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "7061c194cb7bd7eabb98cdf8e9259f3b05afc8cf30c76f03d0c28cc950d4adbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "10000recipe.com",
+                "www.10000recipe.com"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/prebid\\/wtg_prebid_9\\.11\\.10\\.js",
+            "cookies": 0.00000707,
+            "fingerprinting": 3,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "Document.cookie getter": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.webdriver": 1,
+                "window.outerWidth": 1,
+                "window.outerHeight": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "window.screenLeft": 1,
+                "window.screenTop": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Navigator.prototype.connection": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "bcd9401c52f330d4ea1b2d69c54a7042ef6bb1acec8eb7f76454415b433a0cf9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cto_bundle": {
+                    "ttl": 33696015,
+                    "length": 183,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696015,
+                    "length": 140,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "10000recipe.com",
+                "www.10000recipe.com"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/pv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wa"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "90minut.pl",
+                "www.activenews.ro",
+                "www.mp.pl",
+                "www.rmf24.pl",
+                "www.rmf.fm",
+                "www.sinoptik.bg",
+                "www.tportal.hr",
+                "www.vesti.bg",
+                "www.wyborkierowcow.pl"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/pv",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wa"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000637,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "90minut.pl",
+                "www.activenews.ro",
+                "www.mp.pl",
+                "www.rmf24.pl",
+                "www.rmf.fm",
+                "www.sinoptik.bg",
+                "www.tportal.hr",
+                "www.vesti.bg",
+                "www.wyborkierowcow.pl"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/publisher\\/www\\.bibliaplus\\.org\\/sb_v\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "window.name": 2,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "4a2ac8d3e23bb5b44ebc14b0469aa280c8cb89e66af8e56973df413fb88b42d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "bibliaplus.org",
+                "www.bibliaplus.org"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/publisher\\/www\\.bibliaplus\\.org\\/videoWtg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e6578e66910a75283c0c2d6199b306824406f7c6260e704f472d727ca5add99c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "bibliaplus.org",
+                "www.bibliaplus.org"
+            ]
+        },
+        {
+            "rule": "wtg-ads\\.com\\/publisher\\/www\\.bibliaplus\\.org\\/standard\\.publisher\\.config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "ee9933207ccc34eb3c11917a56d0072912969201b8df6b91b31449831f97efd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000014146672702580353
+            },
+            "exampleSites": [
+                "bibliaplus.org",
+                "www.bibliaplus.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000149,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7681159420289855
+        },
+        {
+            "domain": "inmobi.com",
+            "prevalence": 0.07246376811594203
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.043478260869565216
+        },
+        {
+            "domain": "adocean.pl",
+            "prevalence": 0.028985507246376812
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.028985507246376812
+        },
+        {
+            "domain": "adverticum.net",
+            "prevalence": 0.014492753623188406
+        },
+        {
+            "domain": "cookiebot.eu",
+            "prevalence": 0.014492753623188406
+        },
+        {
+            "domain": "rmfon.pl",
+            "prevalence": 0.014492753623188406
+        },
+        {
+            "domain": "iprom.net",
+            "prevalence": 0.014492753623188406
+        }
+    ],
+    "types": {
+        "Script": 44,
+        "Ping": 9,
+        "Preflight": 9
+    },
+    "nameservers": [
+        "megan.ns.cloudflare.com",
+        "ajay.ns.cloudflare.com"
+    ]
+}

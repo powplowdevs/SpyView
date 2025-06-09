@@ -1,0 +1,148 @@
+{
+    "domain": "marketo.net",
+    "owner": {
+        "name": "Adobe Inc.",
+        "displayName": "Adobe",
+        "privacyPolicy": "https://www.adobe.com/privacy/marketing-cloud.html",
+        "url": "http://adobe.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00235,
+    "sites": 23,
+    "subdomains": [
+        "munchkin"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "marketo\\.net\\/munchkin\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "munchkin"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00225,
+            "cnames": [],
+            "responseHashes": [
+                "081ad4206bfeb1950c8382b5bc32aac31c4698598563d87080ee67a8fc5318d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pitchbook.com",
+                "webflow.com",
+                "www.afp.com",
+                "arubanetworking.hpe.com",
+                "sketchup.com",
+                "forums.developer.nvidia.com",
+                "lalilo.com",
+                "www.sketchup.com",
+                "www.crucial.fr",
+                "helpcenter.veeam.com",
+                "docs.gitlab.com",
+                "www.byd.com",
+                "docs.saltproject.io",
+                "www.veeam.com",
+                "blogs.vmware.com",
+                "developer.nvidia.com",
+                "www.postman.com",
+                "gitlab.com",
+                "grabcad.com",
+                "www.cegid.com"
+            ]
+        },
+        {
+            "rule": "marketo\\.net\\/164\\/munchkin\\.js",
+            "cookies": 0.00154,
+            "fingerprinting": 2,
+            "subdomains": [
+                "munchkin"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 15,
+                "Document.cookie getter": 15,
+                "Navigator.prototype.userAgent": 15,
+                "window.localStorage": 15,
+                "Date.prototype.getTime": 14,
+                "Document.cookie setter": 15
+            },
+            "sites": 16,
+            "prevalence": 0.00164,
+            "cnames": [],
+            "responseHashes": [
+                "dea9df0145848ffeb3c6931228d41e833341b4837c0e713d321c5bfcf6dcd4e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_mkto_trk": {
+                    "ttl": 63072005,
+                    "length": 70,
+                    "prevalence": 0.0015353121801432957,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hpe.com",
+                "blogs.vmware.com",
+                "developer.nvidia.com",
+                "docs.gitlab.com",
+                "docs.saltproject.io",
+                "forums.developer.nvidia.com",
+                "grabcad.com",
+                "pitchbook.com",
+                "sketchup.com",
+                "webflow.com",
+                "www.afp.com",
+                "www.byd.com",
+                "www.cegid.com",
+                "www.crucial.fr",
+                "www.postman.com",
+                "www.sketchup.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Third-Party Analytics Marketing",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00154,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8372093023255814
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06976744186046512
+        },
+        {
+            "domain": "discourse-cdn.com",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "d1pspl52z5rk07.cloudfront.net",
+            "prevalence": 0.023255813953488372
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.023255813953488372
+        }
+    ],
+    "types": {
+        "Script": 38
+    },
+    "nameservers": [
+        "ns2.mktdns.com",
+        "ns1.marketo.com"
+    ]
+}

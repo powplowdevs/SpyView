@@ -1,0 +1,1584 @@
+{
+    "domain": "tiktokcdn-us.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "lf16-tiktok-web",
+        "lf16-cdn-tos",
+        "lf16-tiktok-common"
+    ],
+    "cnames": [
+        {
+            "original": "lf16-cdn-tos.tiktokcdn-us.com",
+            "resolved": "lf16-cdn-tos.tiktokcdn-us.com.edgesuite.net"
+        },
+        {
+            "original": "lf16-tiktok-common.tiktokcdn-us.com",
+            "resolved": "lf16-tiktok-common.tiktokcdn-us.com.edgesuite.net"
+        },
+        {
+            "original": "lf16-tiktok-web.tiktokcdn-us.com",
+            "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tiktok_privacy_protection_framework\\/loader\\/2\\.0\\.0\\.243\\/index\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "f5d3b33d68a6f7a7159576121545dc99465109d96e4f146f096d26d2eac258f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tiktok_webapp_theme_source": {
+                    "ttl": 25920003,
+                    "length": 4,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "tiktok_webapp_theme": {
+                    "ttl": 25920003,
+                    "length": 5,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "delay_guest_mode_vid": {
+                    "ttl": 25920004,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "msToken": {
+                    "ttl": 7776013,
+                    "length": 131,
+                    "prevalence": 0.000014146672702580353,
+                    "uniqueness": 1
+                },
+                "cookietest": {
+                    "ttl": -1747290818,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/static-tx\\/tiktok-infra\\/csp\\/sdk-pre\\/slardar\\.web\\.pre\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-cdn-tos"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "lf16-cdn-tos.tiktokcdn-us.com",
+                    "resolved": "lf16-cdn-tos.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "4ab4625dfffe728cc00c6d70d628c2a568a33ba30a55acef3bbba6c7aebba563"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "newsroom.tiktok.com",
+                "support.tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/static-tx\\/slardar\\/fe\\/sdk-web\\/browser\\.oci\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lf16-cdn-tos"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "lf16-cdn-tos.tiktokcdn-us.com",
+                    "resolved": "lf16-cdn-tos.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "8d0ce4ab3d68d9d174423052f51d3fd9bb0e8f7a755f60b652e6db3c1a877b0e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "newsroom.tiktok.com",
+                "support.tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tiktok_privacy_protection_framework\\/loader\\/2\\.0\\.0\\.243\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "a2a1c0204c5cdf9662a5568222784a1fc1ae2ece59bd0b188eecb12c70fa7376"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tiktok_privacy_protection_framework\\/loader\\/2\\.0\\.0\\.243\\/devtools\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "3b03d0e0c98487ee6f0344d2a5b028ff2d9c93f6f5980cbbbf1c520486b83b28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/webmssdk\\/2\\.0\\.0\\.412\\/webmssdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "2285101dd10243436587f4a0e9e73c45fe716fcb96b08eb5462dcb0f1a6aa587"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/static-tx\\/secsdk\\/secsdk-lastest\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-cdn-tos"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-cdn-tos.tiktokcdn-us.com",
+                    "resolved": "lf16-cdn-tos.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "7c44e1cc629853eab2bedda6262f3d60146e7c0406171a9a28d6e28ee3c5390b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/pns\\/tiktok-cookie-banner\\/2\\.0\\.0\\.46\\/default\\.ttp\\.esm\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "b7b0db0d82ba1a8c8e11d9c118a79cffa3f041f43ab94f26e6f9808d52a17f90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/static-tx\\/slardar\\/fe\\/sdk-web\\/plugins\\/common-monitors\\.1\\.14\\.3\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lf16-cdn-tos"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [
+                {
+                    "original": "lf16-cdn-tos.tiktokcdn-us.com",
+                    "resolved": "lf16-cdn-tos.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "0f9558a5ec08931f5bd7bba38874e5d195f403b5e055d6e9764fcfaf366956c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "newsroom.tiktok.com",
+                "support.tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/static-tx\\/slardar\\/fe\\/sdk-web\\/plugins\\/\\/common-monitors\\.1\\.12\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-cdn-tos"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-cdn-tos.tiktokcdn-us.com",
+                    "resolved": "lf16-cdn-tos.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "2c7b8657d520fc5b21362a70a63e358e3ff342724e3fdf776cdc70a67c59502e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/static-tx\\/slardar\\/fe\\/sdk-web\\/plugins\\/common-monitors\\.1\\.14\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-cdn-tos"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-cdn-tos.tiktokcdn-us.com",
+                    "resolved": "lf16-cdn-tos.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "a37ccd355cc2221d46aa8bd3230a6197872972dc2c27810cdcd12bd31c31e5f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "www.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/static-tx\\/tiktok-infra\\/csp\\/sdk-pre\\/tea\\.pre\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-cdn-tos"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-cdn-tos.tiktokcdn-us.com",
+                    "resolved": "lf16-cdn-tos.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "1f52264fd5d386d5008ec527bc8c87886dceb7a43397b6507ad9579f3ffb2ab5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/static-tx\\/log-sdk\\/collect\\/5\\.2\\/collect\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lf16-cdn-tos"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-cdn-tos.tiktokcdn-us.com",
+                    "resolved": "lf16-cdn-tos.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "dd1a8c4a8afbf1d714ef82aa9ee5855cddcfc0f5de102d29e317eb6f0c414214"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/app-d49701353a7d73f1d013\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "2fd3f77dafacfdb3905c42a636b691ed1f82848bf722c2aa8ee492cd676e1aa1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/index-0affda7eeefcced905b9\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "4bcc15824cce61121624ffdf3e784f02bfd486d0a03b0b9deb7d83ad168b1f3c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/remixScrollRestoration-35cd8cc08589e48c7b01-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "c1befd99af7d06a56c932800fc993c69ff46efb0d3719362eb58c6ac02fef6ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/entry\\.client-3132f7c40f4eb6154113-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "a3fd2b20d667e0f176a6b5afdc540d04d65b62bd8f2742465782db67511ece06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/runtime-39fdccc8b01d26258438-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "b64badc5e3aee693479753c4ffe9c47c4c26e55e66b9fc37fc768a462b12e2c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/vendors\\/807-271a0c5f9770b1dd72c4-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "ef4128ea9945d9863531dc8629ec53dc816051aa3b057e4acc371ecdbf1782ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/vendors\\/43-50010a0cb03e6008b4db-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "e741a3bbb5fbbd08b1c4a83e0519281ef891f8c8792bcabdf27a94cf9cd81280"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/vendors\\/20-24bdd1a7e51531a09a10-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "034e8aafa096a0fabcd1ef0cbc6ec49e9b64f2905f52fc25f9778fb1e3811298"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/vendors\\/973-d89b4ae578d600cee253-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "78ed193eafcf9f6228ef85dfc62da72acb55c53a83524e2d6b053df7014d0938"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/root-94e259882d6b19bb22c1-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "c6dd4bccc996b68e1714409a3b36642b66099350a31d8166a2e6fbc5c9f0ed0f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/remixContext-d11850e75b80d8db6ed4-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "287e1d26bfe6843b1f559359ba70bd905be4db73e94db2c8cc87f24cb342e49e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/manifest-EB578357449068D5442A42D0AF0DB13F-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "bd17640edd18bc54088bc726fee0b64abb965da4b893d1eb755bdca60c441c3b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/i18n\\/f10462f7\\/web\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "b3862c5669e332e812a297f4b6bdfbff864619434985b6866178385fd00969c2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/routes\\/$lang-be8b00130ca3077453de-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "3a53657e1048a1fbd88275f3aa5d52a443f8ae9925213d489c2cd16f89a99871"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/vendors\\/357-be176ca27925b7f30b5a-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "0f41fe3757f07a49891d6a804d76feb7ad228950a216750682eb1e967b460222"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/vendors\\/512-bf8aedf3836edf3d1b42-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "015e97b31172c6f76f0051a8f9ec3e2b95b8447819b4e1542467fa2723dffdbd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/Drawer-f2fb222a689fce8336e9\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "366f344cdb66f1bb98da72b27b13b456be4b6da1a67fbe54b80179a3f0b6087b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/vendors\\/749-f53c67b3c56f5fb6246b-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "5e3469d429cc3d31fa7ec155bd1918fe5d21718c7a6a9ceea348895620798f08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/HamburgerMenu-1cb04ab31f1bbabbdad6\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "da942c091d52789a5f69c0ae2d769c5c79527e886425e5480b97918f453e5465"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/vendors\\/942-82e4a06bcff42c1476b1-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "bbf0d608532326d7c1cdbebee6c8d7377c2058a5f24251d0282e12917e1feacb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/index-94f9fe1defe59fcaf878\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "7e648abc4edec8a5456ea7c8f78600dcf34b2022c14398b9c2c924397ff51254"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/vendors\\/727-b5c14f7a3f6bd14ab483-56991837c4494b009dd8c12c81158dc3e2d97e42\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "4b3d9d7e0b8f9e2ebe6f90c66543d99c6f59e255423527d5f8b91237c0c26641"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/Logo-a25bca2de8ff8fdd5ff0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "32ff2b888baed8e19111f8815343c1eac0b9aef8eba9063b89cbf216f5ccc069"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/index-c3d23145f4ec2d74143f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "139870e051356e43c6b40fc0a2041cccc010e16a58f51a7d8f608e0ae2b137c1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/download-ae62d70542d74253f7ae\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "03ec5606d2c001298017bc3e77fe3e387cb60a8c4e4ef86c5b632789982924ca"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/Logo-c942c92f6d51340f5589\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "c0dd24fe64d06c9214b06dd794707b78a73f056bf9c4c3ecdff2343a36436a89"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/ArticleLayout-f75f43688b46e7ce9286\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "e98c8a3f4ed27f3a068d729286b2ae6be049d83c51b3da64ac9a3518b6e4953a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/SideList-1735f2ddd8e144ca5ba6\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "919872fd548fe7b4e16a6534fda498e721255c50d025563dfd69cf8d91047964"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/SideListDropdown-e0d7153ca738a2459513\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "ff769a1c23e99c1257c05c8bf6f2b858add790ebc6a0934958e5f7662e90c023"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/index-5b980b1b182cb1e89bf9\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "35a07e3e25648e5486dcda281d40071c035c5016f6145e035e305044148e4936"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/index-8812f28e47b38cc91747\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "6e7aa693cf7e87a73fa3edd59256bd3892bf6a008f9f5cca7eb93aa0ca850cee"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/index-68114ce6e99816d13cad\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "73bea7b6ee0c038297b73692468a6731b7400a93d018ccce6457f5db1f879a3a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/index-5073d01bba4a44777f6c\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "298ef55a82373c5a5cfb99de9b701040fb2b23ebd4c21a55f2e560e93c0a4e84"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/content-7e47001ec2463790e3e5\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "3bfc385057254f624ad7a73c2f5977261f095b3275dc84cebaef04f8a936f09c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/support-856b5fc59dd046f9bff8\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "e109ba991e275df1b4570c431fe01b1e21df89260673d46c6d82ec919754cddb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/logo-dark-d62c3812fbf2f687daa9\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "f3002f440208533779f449a4b7797ec893328003969685c3f06ea085ef9dd3da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/logo-text-dark-d795c282c11fef16f8fa\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "32c0a04b9406b61b17f0138a5b5e9d2456de1800de6619d54e64d5a94eba0c53"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/search-icon-f1293e3d7e0642d327a2\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "12b9f685767bbd3aad48af855f75ee9dd76d346958288326d38f4e68cf933da7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/logo-27d6cf4b2491ddf10a58\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "a48ed64a2a5438d3fd7635733385dea43555b2bbd7cd5f0b3bb6feb5f0977657"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-tx\\/tns\\/article\\/static\\/build\\/_assets\\/logotext-969cd3ed892da756e59b\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-web.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-web.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "87ce2739c8bb679a1aebcde2a8071e6b6f428b22be30c8124960e678b7fe6f6e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-common-tx\\/tiktok_fonts\\/TikTokFont-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-common"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-common.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-common.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "d0bfc5aefdf7737483d6e887ade921a134c719f2a49470238af004bf7cd27db6"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        },
+        {
+            "rule": "tiktokcdn-us\\.com\\.edgesuite\\.net\\/obj\\/tiktok-web-common-tx\\/tiktok_fonts\\/TikTokFont-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lf16-tiktok-common"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "lf16-tiktok-common.tiktokcdn-us.com",
+                    "resolved": "lf16-tiktok-common.tiktokcdn-us.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "6adee7ee7d2093ec0f1b2dac275dad099d06eefb76503fec00b33cf3548f11a1"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tiktok.com",
+                "support.tiktok.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9933774834437086
+        },
+        {
+            "domain": "oecstatic.com",
+            "prevalence": 0.006622516556291391
+        }
+    ],
+    "types": {
+        "Script": 67,
+        "Stylesheet": 36,
+        "Fetch": 2,
+        "Image": 10,
+        "Font": 4
+    },
+    "nameservers": []
+}

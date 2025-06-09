@@ -1,0 +1,96 @@
+{
+    "domain": "contactpigeon.com",
+    "owner": {
+        "name": "GRAMMEDIA LTD",
+        "displayName": "GRAMMEDIA"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "ping",
+        "pl-ping"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "contactpigeon\\.com\\/bi\\/modal2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ping",
+                "pl-ping"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "d7db37de492b62f24b051dfeecea54b8e4f7b7078c74a3d107114a87f66ee2d2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "akispetretzikis.com",
+                "www.pfu-us.ricoh.com",
+                "www.plaisio.gr"
+            ]
+        },
+        {
+            "rule": "contactpigeon\\.com\\/bi\\/px\\/cutm\\.jpg",
+            "cookies": 0.0000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ping",
+                "pl-ping"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cpab": 0.00002122000905387053,
+                "ConstructorioID_client_id": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "akispetretzikis.com",
+                "www.pfu-us.ricoh.com",
+                "www.plaisio.gr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Image": 3
+    },
+    "nameservers": [
+        "boyd.ns.cloudflare.com",
+        "sonia.ns.cloudflare.com"
+    ]
+}

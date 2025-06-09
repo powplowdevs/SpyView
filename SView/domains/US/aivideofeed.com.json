@@ -1,0 +1,108 @@
+{
+    "domain": "aivideofeed.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "cdn",
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aivideofeed\\.com\\/pixel\\/v1\\/analytics\\.1\\.0\\.2\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "b4bf084254bcbe7a3ea19038b4d0ab7877dbc8fde250e8a8ce2daddba57b728e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__videoTrack_uid": {
+                    "ttl": 63072015,
+                    "length": 24,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capecodxplore.com",
+                "claremont-courier.com",
+                "northpennnow.com",
+                "ocnjdaily.com",
+                "qns.com",
+                "www.ohiomagazine.com"
+            ]
+        },
+        {
+            "rule": "aivideofeed\\.com\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__videoTrack_uid": 0.00002122000905387053
+            },
+            "exampleSites": [
+                "capecodxplore.com",
+                "claremont-courier.com",
+                "northpennnow.com",
+                "ocnjdaily.com",
+                "www.ohiomagazine.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000283,
+    "topInitiators": [
+        {
+            "domain": "mmvideocdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 5
+    },
+    "nameservers": [
+        "ns-315.awsdns-39.com",
+        "ns-886.awsdns-46.net",
+        "ns-1166.awsdns-17.org",
+        "ns-1814.awsdns-34.co.uk"
+    ]
+}

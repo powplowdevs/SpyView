@@ -1,0 +1,72 @@
+{
+    "domain": "ccmbg.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000113,
+    "sites": 16,
+    "subdomains": [
+        "p"
+    ],
+    "cnames": [
+        {
+            "original": "p.ccmbg.com",
+            "resolved": "p.ccmbg.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ccmbg\\.com\\.edgekey\\.net\\/ws\\/mediaplayer-data\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "p.ccmbg.com",
+                    "resolved": "p.ccmbg.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f84410aa9384c9879cb2fb7f6cc1b4d77bbed7b88baa991abd67461bc42a2763",
+                "05d3dfbaad4f5943a854f26cc496ace8609b9d37c115558fcde56bbd8d433b2b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "www.commentcamarche.net",
+                "www.linternaute.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "XHR": 3
+    },
+    "nameservers": []
+}

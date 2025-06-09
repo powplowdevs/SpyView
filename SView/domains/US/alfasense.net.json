@@ -1,0 +1,208 @@
+{
+    "domain": "alfasense.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "ads"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "alfasense\\.net\\/lib\\/alfadart\\.lib\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerHeight": 3,
+                "window.innerWidth": 3
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "2d133c3ce391cf58c727b64afe769da439dfe19f95b52227cc3c95ca31d91637"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gramota.me",
+                "m1.yaoi-poisk.ru",
+                "mytabs.ru",
+                "ucrazy.org",
+                "wikimapia.org",
+                "www.euroki.org"
+            ]
+        },
+        {
+            "rule": "alfasense\\.net\\/lib\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "14b48ec3b38e2ba173becba9890937a8ddd0d59f3a1b9e32e388dd51d3fccf1b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gramota.me",
+                "m1.yaoi-poisk.ru",
+                "wikimapia.org",
+                "www.euroki.org"
+            ]
+        },
+        {
+            "rule": "alfasense\\.net\\/lib\\/alfadart-player\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Notification.permission": 1,
+                "Navigator.prototype.plugins": 1,
+                "Screen.prototype.width": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "119d62ffaa4dbe6c7ac51495ed8a14f74559edfa340d95ec9d3946995d791a55"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gramota.me",
+                "m1.yaoi-poisk.ru",
+                "wikimapia.org",
+                "www.euroki.org"
+            ]
+        },
+        {
+            "rule": "alfasense\\.net\\/lib\\/prebid\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.plugins": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "370e2d974c6227f1e89d5f07dbbb4c61865273cfb58e55566e2096fcc7d72ccf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "\"_pubcid\"": {
+                    "ttl": 31536028,
+                    "length": 36,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "\"_pubcid\"_cst": {
+                    "ttl": 31536028,
+                    "length": 16,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 0.3333333333333333
+                },
+                "adrcid": {
+                    "ttl": 157680028,
+                    "length": 23,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "adrcid_cd": {
+                    "ttl": 157680028,
+                    "length": 13,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "stableid_cd": {
+                    "ttl": 329,
+                    "length": 13,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gramota.me",
+                "wikimapia.org",
+                "www.euroki.org"
+            ]
+        },
+        {
+            "rule": "alfasense\\.net\\/adserver\\/www\\/delivery\\/asyncjs\\.php",
+            "cookies": 0.00000707,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gramota.me",
+                "wikimapia.org",
+                "www.euroki.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "yastatic.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 20
+    },
+    "nameservers": [
+        "ns2.mcs.mail.ru",
+        "ns1.mcs.mail.ru"
+    ]
+}

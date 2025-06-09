@@ -1,0 +1,76 @@
+{
+    "domain": "corso.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "corso\\.com\\/js\\/corso-checkout-plus\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 4
+            },
+            "sites": 11,
+            "prevalence": 0.0000778,
+            "cnames": [],
+            "responseHashes": [
+                "bd961cd097f6efba46c486cb5491348c592abeb172c7ce8bf071e549312fd828",
+                "562371f6c648eb03523d2e449bc77480e135ed1e6630ec9b1d2bafe60733260d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brucebolt.us",
+                "carawayhome.com",
+                "crbnpickleball.com",
+                "tnuck.com",
+                "trueclassictees.com",
+                "villagehatshop.com",
+                "www.brumate.com",
+                "www.bulletpointmountingsolutions.com",
+                "www.carawayhome.com",
+                "www.trueclassictees.com",
+                "www.villagehatshop.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8823529411764706
+        },
+        {
+            "domain": "reamaze.com",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 11
+    },
+    "nameservers": [
+        "miles.ns.cloudflare.com",
+        "joyce.ns.cloudflare.com"
+    ]
+}

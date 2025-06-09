@@ -1,0 +1,98 @@
+{
+    "domain": "postescanada-canadapost.ca",
+    "owner": {
+        "name": "Canada Post Corporation",
+        "displayName": "Canada Post"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [
+        "ws1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "postescanada-canadapost\\.ca\\/css\\/addresscomplete-2\\.30\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws1"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "8f63a02e9a3f1a65ddb174cbab3cd7ea7b08646016fe179eac1bfbc8a16952ee",
+                "1b982696a281d267ab16262ea886c07e2e5d49fe6eb879e6be8d10a9253540b9",
+                "dd1e949f1b6b4616a8db0d187c908614e8c51c56c27a9dfc1684cdc833b96fac",
+                "4ed614564cee29a37a37b9d5aa1be6daa1e87c2bafac36cc0bdf341b8bead47e",
+                "aadaba5c8ccadb1f004a5bf7d33773d8578840ffb7693f87c1e806bfbc0c7086"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.ca",
+                "support.brother.ca",
+                "ufa.com",
+                "www.joefresh.com",
+                "www.mmfoodmarket.com",
+                "www.pcoptimum.ca"
+            ]
+        },
+        {
+            "rule": "postescanada-canadapost\\.ca\\/js\\/addresscomplete-2\\.30\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "01cec0eb6b497a047d195782850fc052ac35bbfd7222d85ad3b3c25b4e258dab",
+                "55f77aaf1d34462599a7870c260da3b250191902afb3f023103265bcc702f8b4",
+                "a227ab856fa6ee7d218a707eeea5ac59b674d993d0d6494332b7c6c44beed0f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother.ca",
+                "support.brother.ca",
+                "www.joefresh.com",
+                "www.pcoptimum.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 6,
+        "Script": 4
+    },
+    "nameservers": [
+        "a6-65.akam.net",
+        "a2-64.akam.net",
+        "a8-67.akam.net",
+        "a13-67.akam.net",
+        "a1-226.akam.net",
+        "a7-66.akam.net"
+    ]
+}

@@ -1,0 +1,232 @@
+{
+    "domain": "quantserve.com",
+    "owner": {
+        "name": "Quantcast Corporation",
+        "displayName": "Quantcast",
+        "privacyPolicy": "http://www.quantcast.com/privacy",
+        "url": "http://quantcast.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.0162,
+    "sites": 158,
+    "subdomains": [
+        "secure",
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "quantserve\\.com\\/quant\\.js",
+            "cookies": 0.00246,
+            "fingerprinting": 2,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {
+                "window.localStorage": 138,
+                "Date.prototype.getTime": 138,
+                "Navigator.prototype.cookieEnabled": 130,
+                "Date.prototype.getTimezoneOffset": 129,
+                "Document.cookie getter": 24,
+                "Document.cookie setter": 24,
+                "Navigator.prototype.vendor": 24,
+                "NavigatorUAData.prototype.getHighEntropyValues": 73
+            },
+            "sites": 148,
+            "prevalence": 0.0151,
+            "cnames": [],
+            "responseHashes": [
+                "fe8a423167615c47b6dca6080c7ed7d6edabb9707b3c459fcdee04d707b7ef64",
+                "fe524af3eefa0c849a3c0380ee2720a31b9f3be1f17d4f0743f66f48d19ea48c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9to5mac.com",
+                "brainly.com",
+                "giphy.com",
+                "thechive.com",
+                "tvtropes.org",
+                "www.livestrong.com",
+                "www.spanishdict.com",
+                "www.zerohedge.com",
+                "wikimonde.com",
+                "fr.timesofisrael.com",
+                "www.actugaming.net",
+                "www.bouger-voyager.com",
+                "appelinconnu.fr",
+                "www.universfreebox.com",
+                "www.futura-sciences.com",
+                "faitsdivers365.fr",
+                "www.faitsdivers.org",
+                "www.ma-propriete.fr",
+                "www.directvelo.com",
+                "www.nme.com"
+            ]
+        },
+        {
+            "rule": "quantserve\\.com\\/pixel",
+            "cookies": 0.00287,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.00297,
+            "cnames": [],
+            "responseHashes": [
+                "66273f863360b660019e8e720d8f204f99ead55b93f0df904561af6fb90297a9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9to5mac.com",
+                "thechive.com",
+                "www.goodreads.com",
+                "www.mylife.com",
+                "www.nme.com",
+                "www.cannes.com",
+                "www.idee-message.fr",
+                "www.dyson.fr",
+                "www.gta5-mods.com",
+                "www.slashgear.com",
+                "www.androidauthority.com",
+                "context.reverso.net",
+                "www.planetminecraft.com",
+                "jerkmate.com",
+                "www.hominides.com",
+                "www.science.org",
+                "doctonat.com",
+                "gamebanana.com",
+                "www.vice.com",
+                "www.nosartisansontdutalent.fr"
+            ]
+        },
+        {
+            "rule": "quantserve\\.com\\/aquant\\.js",
+            "cookies": 0.000307,
+            "fingerprinting": 2,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.cookieEnabled": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.vendor": 3
+            },
+            "sites": 7,
+            "prevalence": 0.000716,
+            "cnames": [],
+            "responseHashes": [
+                "fe524af3eefa0c849a3c0380ee2720a31b9f3be1f17d4f0743f66f48d19ea48c",
+                "fe8a423167615c47b6dca6080c7ed7d6edabb9707b3c459fcdee04d707b7ef64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reverso.net",
+                "conjugueur.reverso.net",
+                "context.reverso.net",
+                "synonyms.reverso.net",
+                "www.goodreads.com",
+                "www.mylife.com",
+                "www.wowhead.com"
+            ]
+        },
+        {
+            "rule": "quantserve\\.com\\/quant\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "fe8a423167615c47b6dca6080c7ed7d6edabb9707b3c459fcdee04d707b7ef64"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fap-nation.com",
+                "www.win10.fr"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0.00297,
+    "topInitiators": [
+        {
+            "domain": "themoneytizer.com",
+            "prevalence": 0.31736526946107785
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.31736526946107785
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1377245508982036
+        },
+        {
+            "domain": "seedtag.com",
+            "prevalence": 0.11377245508982035
+        },
+        {
+            "domain": "adpushup.com",
+            "prevalence": 0.03592814371257485
+        },
+        {
+            "domain": "ezodn.com",
+            "prevalence": 0.017964071856287425
+        },
+        {
+            "domain": "issuu.com",
+            "prevalence": 0.017964071856287425
+        },
+        {
+            "domain": "network-n.com",
+            "prevalence": 0.011976047904191617
+        },
+        {
+            "domain": "udmserve.net",
+            "prevalence": 0.011976047904191617
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.011976047904191617
+        }
+    ],
+    "types": {
+        "Script": 155,
+        "Image": 29,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-128.awsdns-16.com",
+        "ns-1370.awsdns-43.org",
+        "ns-1984.awsdns-56.co.uk",
+        "ns-531.awsdns-02.net"
+    ]
+}

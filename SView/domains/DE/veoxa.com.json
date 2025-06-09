@@ -1,0 +1,95 @@
+{
+    "domain": "veoxa.com",
+    "owner": {
+        "name": "J S WEB PRODUCTION",
+        "displayName": "J S WEB PRODUCTION"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "profiling"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "veoxa\\.com\\/boot\\/request\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "profiling"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "d97c5bbfadb49503d35e69f4d3a32053aa8016fb8b4835563e64438397f47410"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampenwelt.de",
+                "www.lampenwelt.de"
+            ]
+        },
+        {
+            "rule": "veoxa\\.com\\/store\\/js",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "profiling"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "89f01cdd8c74d30d5c4f01ea838973f2e877c06380878e63fb3e12107d3e359e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vuidck": {
+                    "ttl": 7776022,
+                    "length": 36,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampenwelt.de",
+                "www.lampenwelt.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000204,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-713.awsdns-25.net",
+        "ns-475.awsdns-59.com",
+        "ns-1096.awsdns-09.org",
+        "ns-1729.awsdns-24.co.uk"
+    ]
+}

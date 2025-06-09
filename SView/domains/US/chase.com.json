@@ -1,0 +1,61 @@
+{
+    "domain": "chase.com",
+    "owner": {
+        "name": "JPMorgan Chase and Co.",
+        "displayName": "JPMorgan Chase"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "chase\\.com\\/content\\/pq\\/auto\\/subaru",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "5431e18757a6afbd8a6a0a6b1ce4d15b879a6a24972e533ffca9d6aa897d0613"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "subarumotorsfinance.com",
+                "www.subarumotorsfinance.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.jpmorganchase.com",
+        "ns2.jpmorganchase.com",
+        "ns05.jpmorganchase.com",
+        "ns06.jpmorganchase.com",
+        "ns0119.secondary.cloudflare.com",
+        "ns0140.secondary.cloudflare.com"
+    ]
+}

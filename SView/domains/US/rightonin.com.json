@@ -1,0 +1,145 @@
+{
+    "domain": "rightonin.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "scripts",
+        "capture",
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rightonin\\.com\\/v1\\/capture\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "6b97b2375eb200138b68bf2e7a379e612b54cd1545fb39b2f40db9b610078dd2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfortkeepers.com",
+                "www.firstcommunity.com",
+                "www.mainstreetcu.org",
+                "www.silverstatecu.com",
+                "www.uoficreditunion.org"
+            ]
+        },
+        {
+            "rule": "rightonin\\.com\\/api\\/setup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capture"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "3be1fb4e8b8a0a9ea52de8f83ea84fcd7e1a4f067301a1c84e5b085498222111",
+                "a260303668521f22597d9994a48a13f120649fe73ed525fe6c28e6ec99420bac",
+                "308ececac5a836db97a120e19f60e549576697e094cf7308c0ad0e53194015b2",
+                "bbcadc97fc344f63d121282483acaed54900628670b31866deb1bc2334bc9359"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfortkeepers.com",
+                "www.firstcommunity.com",
+                "www.mainstreetcu.org",
+                "www.silverstatecu.com",
+                "www.uoficreditunion.org"
+            ]
+        },
+        {
+            "rule": "rightonin\\.com\\/scripts\\/capture\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "6f1834a3d73afa97942d4d7becf99d0834d6ce43d8d2e5cbaf9571f1885a5974"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstcommunity.com",
+                "www.firstcommunity.com",
+                "www.mainstreetcu.org",
+                "www.wcu.com"
+            ]
+        },
+        {
+            "rule": "rightonin\\.com\\/scripts\\/plugins\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "17ceebb798d685ca4d324c8c973372dfea32bbb74714e4b3cf6b9a56b7e9644b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstcommunity.com",
+                "www.firstcommunity.com",
+                "www.mainstreetcu.org",
+                "www.wcu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6470588235294118
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.35294117647058826
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "ns-604.awsdns-11.net",
+        "ns-494.awsdns-61.com",
+        "ns-1194.awsdns-21.org",
+        "ns-1858.awsdns-40.co.uk"
+    ]
+}

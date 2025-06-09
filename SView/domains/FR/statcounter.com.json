@@ -1,0 +1,156 @@
+{
+    "domain": "statcounter.com",
+    "owner": {
+        "name": "StatCounter",
+        "displayName": "StatCounter",
+        "privacyPolicy": "https://statcounter.com/about/legal/",
+        "url": "http://statcounter.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00276,
+    "sites": 27,
+    "subdomains": [
+        "c",
+        "www",
+        "secure"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "statcounter\\.com\\/t\\.php",
+            "cookies": 0.00276,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00276,
+            "cnames": [],
+            "responseHashes": [
+                "eb2697b60c526a1d4980e0874700e7c2b4f43bb9292770f71bb4bb972506e415",
+                "4b77528c4ef55a916a6cc5e602616a79d1e7f7455030352edd6fa6360cf8338a",
+                "a5461f847913db347d9bae01765c3fc41abc5386e8c6f7d72efb60f9375d6823",
+                "4902214192246e6900588bc6e7d3cf18f52adcc1d28a6bf6f0a5d4921631089e",
+                "f62edd4d137ec20dfecec1bc8b0baade5c633956bd1cff9db4f4614e7085f425"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.zerohedge.com",
+                "fr.readkong.com",
+                "www.lemeilleuravis.com",
+                "www.danword.com",
+                "www.seterra.com",
+                "www.credit-et-banque.com",
+                "fr.thejigsawpuzzles.com",
+                "www.meilleure-banque.com",
+                "trycatchdebug.net",
+                "www.plantuml.com",
+                "www.lavise.fr",
+                "www.man7.org",
+                "calendriersolaire.com",
+                "www.minecraftskins.com",
+                "subwaysurfersunblocked.org",
+                "sagessesante.fr",
+                "oemdrivers.com",
+                "pressegalactique.com",
+                "intelx.io",
+                "www.waveshare.com"
+            ]
+        },
+        {
+            "rule": "statcounter\\.com\\/counter\\/counter\\.js",
+            "cookies": 0.00235,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www",
+                "secure"
+            ],
+            "apis": {
+                "window.sessionStorage": 26,
+                "Navigator.prototype.userAgent": 24,
+                "Date.prototype.getTime": 18,
+                "NavigatorUAData.prototype.platform": 19,
+                "window.localStorage": 23,
+                "Document.cookie getter": 23,
+                "Document.cookie setter": 23,
+                "Screen.prototype.width": 20,
+                "Screen.prototype.height": 20,
+                "NavigatorUAData.prototype.getHighEntropyValues": 6,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.plugins": 1,
+                "Notification.permission": 1
+            },
+            "sites": 26,
+            "prevalence": 0.00266,
+            "cnames": [],
+            "responseHashes": [
+                "d2ca3faebab95cbe8cde0faa7ef73553a49472df2cc0334ee53c5d1f4252dd50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sc_is_visitor_unique": {
+                    "ttl": 63072004,
+                    "length": 73,
+                    "prevalence": 0.002354145342886387,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.zerohedge.com",
+                "www.lavise.fr",
+                "fr.readkong.com",
+                "oemdrivers.com",
+                "www.seterra.com",
+                "pressegalactique.com",
+                "sagessesante.fr",
+                "www.credit-et-banque.com",
+                "toxigon.com",
+                "www.hayley7.lat",
+                "www.y9freegames.com",
+                "www.codes-et-reductions.com",
+                "www.papillesetpupilles.fr",
+                "intelx.io",
+                "histoiresexe.net",
+                "www.danword.com",
+                "fr.thejigsawpuzzles.com",
+                "subwaysurfersunblocked.org",
+                "trycatchdebug.net",
+                "calendriersolaire.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics"
+    ],
+    "performance": {},
+    "cookies": 0.00276,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8928571428571429
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.10714285714285714
+        }
+    ],
+    "types": {
+        "XHR": 27,
+        "Script": 26
+    },
+    "nameservers": [
+        "may.ns.cloudflare.com",
+        "tim.ns.cloudflare.com"
+    ]
+}

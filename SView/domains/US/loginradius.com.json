@@ -1,0 +1,158 @@
+{
+    "domain": "loginradius.com",
+    "owner": {
+        "name": "LoginRadius, Inc.",
+        "displayName": "LoginRadius"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "postmedia.hub",
+        "cbc-login.hub",
+        "hub"
+    ],
+    "cnames": [
+        {
+            "original": "login.cbc.ca",
+            "resolved": "cbc-login.hub.loginradius.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "loginradius\\.com\\/ssologin\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "postmedia.hub"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "f7a4a046540cd7b682afc0d129cbbdea16081d1a54dfd3385115725f960c54c9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lfpress.com",
+                "nationalpost.com",
+                "www.saltwire.com"
+            ]
+        },
+        {
+            "rule": "loginradius\\.com\\/ssologin\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "postmedia.hub",
+                "cbc-login.hub"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [
+                {
+                    "original": "login.cbc.ca",
+                    "resolved": "cbc-login.hub.loginradius.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lfpress.com",
+                "nationalpost.com",
+                "newsinteractives.cbc.ca",
+                "www.cbc.ca",
+                "www.saltwire.com"
+            ]
+        },
+        {
+            "rule": "loginradius\\.com\\/ssologin\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cbc-login.hub"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [
+                {
+                    "original": "login.cbc.ca",
+                    "resolved": "cbc-login.hub.loginradius.com"
+                }
+            ],
+            "responseHashes": [
+                "f7a4a046540cd7b682afc0d129cbbdea16081d1a54dfd3385115725f960c54c9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "newsinteractives.cbc.ca",
+                "www.cbc.ca"
+            ]
+        },
+        {
+            "rule": "loginradius\\.com\\/include\\/js\\/LoginRadius\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hub"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "896f74b3d1df0b6f396f917c54ea1eef594bc7656d8050bf3ebb330bb222bd9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "watson.de",
+                "www.watson.ch",
+                "www.watson.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "lrcontent.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "postmedia.digital",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Preflight": 5,
+        "XHR": 3,
+        "Script": 3
+    },
+    "nameservers": [
+        "noah.ns.cloudflare.com",
+        "hope.ns.cloudflare.com"
+    ]
+}

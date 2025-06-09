@@ -1,0 +1,60 @@
+{
+    "domain": "24nettbutikk.chat",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000307,
+    "sites": 3,
+    "subdomains": [
+        "client"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "24nettbutikk\\.chat\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "216861cbb057919e70a055de1bf1d0f8903c793ecd891f06d888966ab90e6f65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brewshop.no",
+                "urteboden.no",
+                "www.bmwear.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1286.awsdns-32.org",
+        "ns-1994.awsdns-57.co.uk",
+        "ns-331.awsdns-41.com",
+        "ns-930.awsdns-52.net"
+    ]
+}

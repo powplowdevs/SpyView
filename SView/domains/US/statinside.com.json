@@ -1,0 +1,111 @@
+{
+    "domain": "statinside.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000354,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "statinside\\.com\\/counter\\.js",
+            "cookies": 0.0000212,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 3,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.devicePixelRatio": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.plugins": 2,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "209d0649f3ce6499b0df8fe49650042b4e5cecdd7df313c1bb73460e5d330638"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "si_usr_id": {
+                    "ttl": 31536001,
+                    "length": 15,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                },
+                "si_ses_id": {
+                    "ttl": 901,
+                    "length": 15,
+                    "prevalence": 0.00002122000905387053,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slangdefine.org",
+                "trustburn.com",
+                "www.carlsguides.com"
+            ]
+        },
+        {
+            "rule": "statinside\\.com\\/api\\/add-hit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "b6a353f89ed3c85178fb14825439b67b7b5658f8c8756666e72ee5c8dbe7a68e",
+                "bc9a036fad7650f83337896804a5cbed11998295a995a715fcdab81eb8e7b8a7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slangdefine.org",
+                "trustburn.com",
+                "www.carlsguides.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000354,
+    "topInitiators": [
+        {
+            "domain": "emograph.net",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "q1mediahydraplatform.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "chad.ns.cloudflare.com",
+        "rachel.ns.cloudflare.com"
+    ]
+}

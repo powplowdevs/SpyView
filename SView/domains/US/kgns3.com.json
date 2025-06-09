@@ -1,0 +1,64 @@
+{
+    "domain": "kgns3.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "developers-3l4uiegr"
+    ],
+    "cnames": [
+        {
+            "original": "developers.kakao.com",
+            "resolved": "developers-3l4uiegr.kgns3.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kgns3\\.com\\/sdk\\/js\\/kakao\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "developers-3l4uiegr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "developers.kakao.com",
+                    "resolved": "developers-3l4uiegr.kgns3.com"
+                }
+            ],
+            "responseHashes": [
+                "73db5c697c90e3108a972b7b2f7bc17d35d66bd4e6e30aa01d1bac8cfda2b076"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brunch.co.kr",
+                "m.cafe.daum.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "gslb1.kgns3.com",
+        "gslb2.kgns3.com"
+    ]
+}

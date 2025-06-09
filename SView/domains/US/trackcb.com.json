@@ -1,0 +1,80 @@
+{
+    "domain": "trackcb.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "sdk",
+        "tracking",
+        "db"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "trackcb\\.com\\/track\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk",
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "cd2dc1a7c80846457a48fe8460c7f8ec187ec9e0e882db99509282f63b455e49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seedsupreme.com",
+                "www.binoidcbd.com"
+            ]
+        },
+        {
+            "rule": "trackcb\\.com\\/track-view",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "db"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seedsupreme.com",
+                "www.binoidcbd.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "max.ns.cloudflare.com",
+        "jessica.ns.cloudflare.com"
+    ]
+}

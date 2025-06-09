@@ -1,0 +1,396 @@
+{
+    "domain": "optimonk.com",
+    "owner": {
+        "name": "WebShop Marketing Kft.",
+        "displayName": "WebShop Marketing Kft"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "onsite",
+        "cdn-asset",
+        "front",
+        "cdn-account",
+        "cdn-limit",
+        "gs-cdn",
+        "jfapiprod"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "optimonk\\.com\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "onsite"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "0a76b9b9f5186dbd36e3a2af1346b34266e91b4feef9445e8afa4612ed7e765e",
+                "cecbd7854afd4f0482beda625cd7a855cde2e8577e92a228050ff4c7ec8f1bde"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com",
+                "www.burdastyle.de"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/script\\.esm\\/embedded\\.6adbc22d\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-asset"
+            ],
+            "apis": {
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "aeeda9fcec1d6ce9e97fab23d4c0707e92a315e818b25c1d46fbbc1e158f66f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "optiMonkClientId": {
+                    "ttl": 31536009,
+                    "length": 36,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                },
+                "optiMonkClient": {
+                    "ttl": 31536009,
+                    "length": 82,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                },
+                "optiMonkExperiments": {
+                    "ttl": 31536010,
+                    "length": 277,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                },
+                "optiMonkSession": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.0002039775624681285,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com",
+                "www.burdastyle.de"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/script\\.esm\\/CartIntegration-19fa1934\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c085b516dcf95a10cf5136bfc85792dfee746206f4ef1167e7286b414642c166"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/shopify\\/appStatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/analytics\\/siteinfo\\/241759",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "df81a2c6d1639190dd029f1bf508796113acf7dd3d686a6dbba0d567cd575478"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/241759\\/accountInfo\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-account"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3503ba0e3283f49ee35b3e209cd629f9aef11eaa897a5394a0cb18e0955f129c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/public\\/241759\\/limit\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-limit"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9a5a3ea660986bf18eae6abb1029b34ec36fdabdf75ba2549072ab8f43a384d6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/241759\\/campaigns\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-account"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "8d0b5b91d2b8da5a40b1f1d9fde9ea8cde8d6958111dd71c0072835951418f7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/script\\.esm\\/objectWithoutPropertiesLoose-5546e819\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-asset"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "983fda9725053de0d9a9e8227b0783df4be757adae3f4d9b2b08e0d24f8d5f71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com",
+                "www.burdastyle.de"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/jfclientsdk\\/latest\\/jfclientsdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "gs-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Notification.permission": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "4ab1ee5d36aca5573635993fdce1e6da1f1b7fc616775ab43f060e5e2aece052"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com",
+                "www.burdastyle.de"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/public\\/241759\\/embedded\\/after-pre-init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7fc6f3a842a25e756433de970e7a39f9a5ae5ce25d9f1a1f75b233c8437f8558"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/script\\.esm\\/shopify-10a71069\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "6f5e93050a5293a562f94de4d9b0863ffd70d7eeed8edd7373b8d8903de112b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com"
+            ]
+        },
+        {
+            "rule": "optimonk\\.com\\/v2\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jfapiprod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "3e9b76cd18916b141392804403064f5b92bcbf054ca0b20036d44b04405fd854"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "segway.com",
+                "navimow.segway.com",
+                "www.burdastyle.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000102,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "trafficly.site",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "XHR": 12,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns1.mediacenter.hu",
+        "ns2.mediacenter.hu"
+    ]
+}

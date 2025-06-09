@@ -1,0 +1,94 @@
+{
+    "domain": "foureyes.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000495,
+    "sites": 7,
+    "subdomains": [
+        "scripts",
+        "ut"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "foureyes\\.io\\/fe-init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "a32a68404a747062093fc522a59f206ad8513142e7038a797a87593e1ba2f116"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unitedequip.com",
+                "agandturf.unitedequip.com",
+                "agriculture.papemachinery.com",
+                "www.fredbeans.com",
+                "www.fredandersontoyota.com",
+                "www.lithia.com",
+                "www.merrillgardens.com"
+            ]
+        },
+        {
+            "rule": "foureyes\\.io\\/",
+            "cookies": 0.0000212,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ut"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.permissions": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "cfe72f0f2ead97bb3ceda025318a35617c4860033de6e7f627aeb7a66999a43d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unitedequip.com",
+                "agandturf.unitedequip.com",
+                "agriculture.papemachinery.com",
+                "www.fredbeans.com",
+                "www.fredandersontoyota.com",
+                "www.lithia.com",
+                "www.merrillgardens.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000212,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "megan.ns.cloudflare.com",
+        "beau.ns.cloudflare.com"
+    ]
+}

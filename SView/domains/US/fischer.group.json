@@ -1,0 +1,101 @@
+{
+    "domain": "fischer.group",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000707,
+    "sites": 1,
+    "subdomains": [
+        "media",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "fischer\\.group\\/v7\\/_pim-media-prod_\\/Product%20Pictures\\/Product%20Pictures%20Big%20fischer\\/W1_P_G_VERFUELLSET_F_SALL_AQQ_V1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "a9fa84bb5042259b6c699ae699aa1ee55c44c0560a05f4c0162353a436ce17c2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fischer.de",
+                "www.fischer.de"
+            ]
+        },
+        {
+            "rule": "fischer\\.group\\/graphql-rebrush\\/blue",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "f5c8eeff9a71cbf812f3082747325ca8d0c9e2b2be2b2f9be991c58b38b16150"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fischer.de",
+                "www.fischer.de"
+            ]
+        },
+        {
+            "rule": "fischer\\.group\\/graphql-rebrush\\/blue",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fischer.de",
+                "www.fischer.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns.do-ex.net",
+        "ns.ugfischer.com",
+        "ns2.ugfischer.com",
+        "ns.do-ex.com"
+    ]
+}

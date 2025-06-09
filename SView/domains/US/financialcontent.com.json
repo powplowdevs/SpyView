@@ -1,0 +1,135 @@
+{
+    "domain": "financialcontent.com",
+    "owner": {
+        "name": "FinancialContent Services Inc",
+        "displayName": "FinancialContent Services"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "widgets",
+        "ads"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "financialcontent\\.com\\/tricubemedia\\/watchlist\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.userAgent": 2,
+                "Notification.permission": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "6be8845d58ebec511c733176670a29bcb9783c625cc28cc8affc4223a6a508e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appeal-democrat.com",
+                "www.lodinews.com",
+                "www.uniondemocrat.com"
+            ]
+        },
+        {
+            "rule": "financialcontent\\.com\\/clarkebroadcasting\\/watchlist\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.plugins": 2,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "94220313f3e2f329ea52fc67d44c11061bae38b90e2b1b68c3116d7532cd1acc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mymotherlode.com",
+                "www.mymotherlode.com"
+            ]
+        },
+        {
+            "rule": "financialcontent\\.com\\/www\\/delivery\\/afr\\.php",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mymotherlode.com",
+                "www.mymotherlode.com"
+            ]
+        },
+        {
+            "rule": "financialcontent\\.com\\/cision\\/stockquote\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "0e8838b617f46d1b54f94ca53156322ef97dd31efb2429d7a8168eadbd87d0fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newswire.ca",
+                "www.prnewswire.com",
+                "www.prweb.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-1444.awsdns-52.org",
+        "ns-657.awsdns-18.net",
+        "ns-1813.awsdns-34.co.uk",
+        "ns-102.awsdns-12.com"
+    ]
+}

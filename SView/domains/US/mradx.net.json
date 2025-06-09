@@ -1,0 +1,73 @@
+{
+    "domain": "mradx.net",
+    "owner": {
+        "name": "VK Company Ltd.",
+        "displayName": "VK"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000637,
+    "sites": 9,
+    "subdomains": [
+        "r"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mradx\\.net\\/img\\/CF\\/D4E54B\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "window.localStorage": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 3,
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "7fbce596895391f63c029c0c6fba5bb1f887dd128244b802f56470d4861e02e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fishki.net",
+                "food.ru",
+                "rutab.net",
+                "www.iamcook.ru",
+                "www.rbc.ru",
+                "www.russianfood.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "mail.ru",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns1.mail.ru",
+        "ns2.mail.ru"
+    ]
+}

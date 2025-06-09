@@ -1,0 +1,124 @@
+{
+    "domain": "libapps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "lgapi-us",
+        "columbiacollege-ca",
+        "umich",
+        "illinois",
+        "loc",
+        "purdue",
+        "harvard",
+        "berkeley",
+        "sll-state",
+        "uw",
+        "ctstatelibrary",
+        "princeton",
+        "missouri",
+        "law-utexas"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "libapps\\.com\\/widgets\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lgapi-us"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "2cbb17e2bcd46131c980fb4265b63a8b2ab2d679f4c0eef7d30e27aa883ccc2b",
+                "69b4f84c75157a6730e339518a88aa2edb8a4a3dee1f1d43a7b29625f59b0cb3",
+                "9827d87d3b3ed54170fe9522ff0396f5c66a261cc75019d8db620180b6547e97",
+                "227aa5581b348eb24780cfe588fc0f9bc8a7c8f8174e8a62376f39b3aa6849e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "waldenu.edu",
+                "academicguides.waldenu.edu",
+                "guides.lib.umich.edu",
+                "guides.library.cornell.edu",
+                "libguides.princeton.edu"
+            ]
+        },
+        {
+            "rule": "libapps\\.com\\/libapps\\/login_process\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "columbiacollege-ca",
+                "umich",
+                "illinois",
+                "loc",
+                "purdue",
+                "harvard",
+                "berkeley",
+                "sll-state",
+                "uw",
+                "ctstatelibrary",
+                "princeton",
+                "missouri",
+                "law-utexas"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [],
+            "responseHashes": [
+                "3198640b2393a65120a31565a794185cfa882d0b2faaecd8bb3c028df99130c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libguides.com",
+                "guides.lib.umich.edu",
+                "guides.library.illinois.edu",
+                "guides.loc.gov",
+                "guides.lib.purdue.edu",
+                "guides.library.harvard.edu",
+                "guides.lib.berkeley.edu",
+                "guides.sll.texas.gov",
+                "guides.lib.uw.edu",
+                "libguides.ctstatelibrary.org",
+                "libguides.princeton.edu",
+                "libraryguides.missouri.edu",
+                "tarlton.law.utexas.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "libguides.com",
+            "prevalence": 0.5416666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4583333333333333
+        }
+    ],
+    "types": {
+        "Script": 18
+    },
+    "nameservers": [
+        "ns-387.awsdns-48.com",
+        "ns-880.awsdns-46.net",
+        "ns-1667.awsdns-16.co.uk",
+        "ns-1078.awsdns-06.org"
+    ]
+}

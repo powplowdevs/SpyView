@@ -1,0 +1,112 @@
+{
+    "domain": "d1aqhv4sn5kxtx.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000424,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d1aqhv4sn5kxtx\\.cloudfront\\.net\\/actiontag\\/at\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.languages": 3,
+                "window.localStorage": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000354,
+            "cnames": [],
+            "responseHashes": [
+                "e9ba1f9b136ef9e570d34f453fca5dcfb0b213eb2f77227e455a3d58d21b3131"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucs.org",
+                "giffords.org",
+                "www.pcrm.org",
+                "www.seiu1199nw.org",
+                "www.trcp.org"
+            ]
+        },
+        {
+            "rule": "d1aqhv4sn5kxtx\\.cloudfront\\.net\\/actiontag\\/at\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "3f947a277e036a31b7d3b12ae21ccd19741abbca87551fd3dac5767de3863d74"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucs.org",
+                "www.pcrm.org",
+                "www.seiu1199nw.org",
+                "www.trcp.org"
+            ]
+        },
+        {
+            "rule": "d1aqhv4sn5kxtx\\.cloudfront\\.net\\/actiontag\\/extra\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "d5d184ccb49262d26b28a93384e6db83f1769e6a0d6ae8f10841e8cb284845c2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucs.org",
+                "www.pcrm.org",
+                "www.seiu1199nw.org",
+                "www.trcp.org"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Stylesheet": 8
+    },
+    "nameservers": [
+        "ns-67.awsdns-08.com",
+        "ns-1959.awsdns-52.co.uk",
+        "ns-733.awsdns-27.net",
+        "ns-1376.awsdns-44.org"
+    ]
+}

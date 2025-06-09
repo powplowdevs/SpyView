@@ -1,0 +1,86 @@
+{
+    "domain": "megpxs.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00132,
+    "sites": 187,
+    "subdomains": [
+        "nxst"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "megpxs\\.com\\/ndn\\.js",
+            "cookies": 0.00017,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nxst"
+            ],
+            "apis": {
+                "Document.cookie getter": 27,
+                "window.localStorage": 44,
+                "Document.cookie setter": 24,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 108,
+            "prevalence": 0.000764,
+            "cnames": [],
+            "responseHashes": [
+                "0fae7cb122b33949c45effba227d872943f35d08e48c352a1d92e8bd1936d9d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ndn": {
+                    "ttl": 31536001,
+                    "length": 50,
+                    "prevalence": 0.00016976007243096425,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehill.com",
+                "www.ktsm.com",
+                "ktla.com",
+                "www.valleycentral.com",
+                "www.kxnet.com",
+                "www.woodtv.com",
+                "www.wnct.com",
+                "www.rochesterfirst.com",
+                "whnt.com",
+                "www.wdtn.com",
+                "www.fox16.com",
+                "www.wivb.com",
+                "www.wfla.com",
+                "www.wavy.com",
+                "who13.com",
+                "www.myhighplains.com",
+                "www.fox44news.com",
+                "www.pahomepage.com",
+                "www.cwtv.com",
+                "www.wdhn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000361,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 108
+    },
+    "nameservers": [
+        "ns-954.awsdns-55.net",
+        "ns-339.awsdns-42.com",
+        "ns-1496.awsdns-59.org",
+        "ns-1694.awsdns-19.co.uk"
+    ]
+}

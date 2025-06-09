@@ -1,0 +1,77 @@
+{
+    "domain": "ptest.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ptest\\.dev\\/packs\\/js\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "aa8824eb27ad9302c3baeacbcc9186359503c54cb175ba7ea685107d8eb0dc94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pexuniverse.com",
+                "www.pexuniverse.com"
+            ]
+        },
+        {
+            "rule": "ptest\\.dev\\/widget",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pexuniverse.com",
+                "www.pexuniverse.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns10.domaincontrol.com",
+        "ns09.domaincontrol.com"
+    ]
+}

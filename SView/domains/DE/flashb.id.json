@@ -1,0 +1,146 @@
+{
+    "domain": "flashb.id",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000408,
+    "sites": 4,
+    "subdomains": [
+        "www",
+        "tn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "flashb\\.id\\/assets\\/js\\/hbdbrk_61dba7cad4a434d73501_m\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.connection": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.webkitTemporaryStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Performance.prototype.memory": 4,
+                "window.innerWidth": 1,
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "b5de7ebe88b62aa00b4295fabffd748b72f449e0ca700ef80d3374e208a242f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astroportal.com",
+                "www.kingmods.net",
+                "www.kita.de",
+                "www.koordinaten-umrechner.de"
+            ]
+        },
+        {
+            "rule": "flashb\\.id\\/assets\\/js\\/inc\\/pbjs_0718192091be8f7f94e8_m\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 4,
+                "NavigatorUAData.prototype.platform": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "101e28e245d9ddd36e522da1bb7c94616446f7d38599ef04136eaa0af9e42ab3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astroportal.com",
+                "www.kingmods.net",
+                "www.kita.de",
+                "www.koordinaten-umrechner.de"
+            ]
+        },
+        {
+            "rule": "flashb\\.id\\/assets\\/css\\/hbdbrk_61dba7cad4a434d73501\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "db644185c93c15f760d697b8bb1f792794a3084bb4d4e6d92011ad2e14e81bab"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astroportal.com",
+                "www.kingmods.net",
+                "www.kita.de",
+                "www.koordinaten-umrechner.de"
+            ]
+        },
+        {
+            "rule": "flashb\\.id\\/beacon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "6a562a5e05a89b0f07d9c7f80be0aaeb00adc60279819c09f1bc9904dcf667d8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astroportal.com",
+                "www.kingmods.net",
+                "www.kita.de",
+                "www.koordinaten-umrechner.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Stylesheet": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "alan.ns.cloudflare.com",
+        "veronica.ns.cloudflare.com"
+    ]
+}

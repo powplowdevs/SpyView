@@ -1,0 +1,105 @@
+{
+    "domain": "adobe.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "ssl-delivery"
+    ],
+    "cnames": [
+        {
+            "original": "geo2.adobe.com",
+            "resolved": "ssl-delivery.adobe.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "adobe\\.com\\.edgekey\\.net\\/json\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssl-delivery"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.00051,
+            "cnames": [
+                {
+                    "original": "geo2.adobe.com",
+                    "resolved": "ssl-delivery.adobe.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4983d25d5567b16223b1a55fdeb6d5ed83799c3526e73966b5197ce22aa7b6bf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "creativecloud.adobe.com",
+                "get.adobe.com",
+                "helpx.adobe.com",
+                "www.adobe.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\.edgekey\\.net\\/json\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssl-delivery"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000918,
+            "cnames": [
+                {
+                    "original": "geo2.adobe.com",
+                    "resolved": "ssl-delivery.adobe.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b1025a814743d9b5fe7e53d56b0a270d63d1b0bbe985190c35fe0a4667d51ae3",
+                "fd2c91e2143832941319a9ed71bb62362b5b504c557823ed642cedbbb6ed0d0c",
+                "fa7f7637368da258408c9d529f9e22233330748dee4b400d477ee0e7552b14d9",
+                "6a2dbd195fafde2de74b2bcc1efcf7e6e4d72bb38b2c26bff1f6a854407e6722",
+                "7717dfa4459ccf4ecc0af45573c46dd5195ff27ec7e9cc6bef0def1713307fbf",
+                "d7d245fdfd56a5a951af2935b40d763ad115d13614499c7da33c495159fd5821",
+                "7493cf7527f8063b51555adfc14ab24efb3792860fa6cdc0ef4c552a8b03f09a",
+                "5c6915a1cec38c13ff6b85c0bc3ecae963164ea5b185012667b1d7ba117cd204"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "color.adobe.com",
+                "community.adobe.com",
+                "creativecloud.adobe.com",
+                "fonts.adobe.com",
+                "get.adobe.com",
+                "stock.adobe.com",
+                "www.adobe.com",
+                "www.behance.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 5,
+        "Script": 9
+    },
+    "nameservers": []
+}

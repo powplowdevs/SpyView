@@ -1,0 +1,86 @@
+{
+    "domain": "birch.events",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [
+        "signals"
+    ],
+    "cnames": [
+        {
+            "original": "george.classaction.org",
+            "resolved": "signals.birch.events"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "birch\\.events\\/sdk\\/4164544415725248885\\/events\\.js",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "signals"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "george.classaction.org",
+                    "resolved": "signals.birch.events"
+                }
+            ],
+            "responseHashes": [
+                "c12063d66ad09123a237f68864c7a086e77150399bf92f6967ce089e6a5f579d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classaction.org",
+                "www.classaction.org"
+            ]
+        },
+        {
+            "rule": "birch\\.events\\/events\\/6935a64bd265d11127958ddd0d0d4cd21e5d44e66ef7e7a3cc84d3312ee32a71",
+            "cookies": 0.0000141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signals"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [
+                {
+                    "original": "george.classaction.org",
+                    "resolved": "signals.birch.events"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classaction.org",
+                "www.classaction.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "sean.ns.cloudflare.com",
+        "vivienne.ns.cloudflare.com"
+    ]
+}

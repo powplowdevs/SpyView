@@ -1,0 +1,337 @@
+{
+    "domain": "impactify.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000184,
+    "sites": 26,
+    "subdomains": [
+        "sonic",
+        "ad",
+        "logs",
+        "logger"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "impactify\\.media\\/bidder",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sonic"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000849,
+            "cnames": [],
+            "responseHashes": [
+                "d3150337fbaa88767694516ad7be56c7d2b79e008ac02845f6ffac130adebc37",
+                "23cd02758f9932f97320cf8101014ac60ac6081cc4287c482b1b8f9aeb48b866",
+                "26e022f8d20b27149637b3b039538ac4cea32b822e20dbee22f64c261e75fb8e",
+                "2ac617498f2f81d679c6d9d4be1011239f31f1b877d2ca8c3809d2211e086dc3",
+                "a44eb26bb6ba4b0a8d7c11b98efe385310aa3b7addb784367c81857801b5e6e6",
+                "35e1577345989dd3234c1bce6edfcc31410c7ced60977459bb3844dadabe4355",
+                "4d8067c05f773b51d2ffd0292e241ca1080983727185cff596a090338fcebf97",
+                "679362f355633df561f7356913d0bd0cbe5fb220fa408fc681807e2445ec4233",
+                "7fa9285fb3f641965412c37208632ea2fc716e6bebf6e9ae97efa54bed47a9b2",
+                "27fe3c47a2c9adf28b65ed69a6cb3c7e6ccfb13f3f8a6d933869822ef2bd2f07"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asuneta.com",
+                "dekiru.net",
+                "livejapan.com",
+                "mo-la.jp",
+                "ramendb.supleks.jp",
+                "utaten.com",
+                "www.die-tagespost.de",
+                "www.fcupdate.nl",
+                "www.moviemeter.nl",
+                "www.musicmeter.nl",
+                "www.olive-hitomawashi.com",
+                "www.tvkingdom.jp"
+            ]
+        },
+        {
+            "rule": "impactify\\.media\\/static\\/ad\\/v5-1\\.14\\.29\\/screen\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "window.sessionStorage": 12,
+                "Screen.prototype.width": 11,
+                "window.innerWidth": 12,
+                "Navigator.prototype.userAgent": 12,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 10,
+                "window.localStorage": 12,
+                "Navigator.prototype.language": 6,
+                "Notification.permission": 4,
+                "Navigator.prototype.plugins": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "window.innerHeight": 4,
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "Date.prototype.getTime": 2,
+                "Event.prototype.timeStamp": 3,
+                "Screen.prototype.height": 2
+            },
+            "sites": 14,
+            "prevalence": 0.000099,
+            "cnames": [],
+            "responseHashes": [
+                "3fd883422f6617e9c55df2aff21d110ba38758d8fdd19e646247ae4865b4b27c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowyat.net",
+                "gamergen.com",
+                "ontheflix.com",
+                "radarbangkalan.jawapos.com",
+                "radarjember.jawapos.com",
+                "radarlawu.jawapos.com",
+                "radarsemarang.jawapos.com",
+                "radarsolo.jawapos.com",
+                "solobalapan.jawapos.com",
+                "www.adeline-cuisine.fr",
+                "www.asiaone.com",
+                "www.citizenside.fr",
+                "www.forbes.fr",
+                "www.jawapos.com"
+            ]
+        },
+        {
+            "rule": "impactify\\.media\\/static\\/ad\\/v5-1\\.14\\.29\\/bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000495,
+            "cnames": [],
+            "responseHashes": [
+                "778c838bb3ebc9c91ba983521bf28537207effbaf6e583cd33bc4d359e2b6b0d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowyat.net",
+                "gamergen.com",
+                "ontheflix.com",
+                "radarsemarang.jawapos.com",
+                "www.adeline-cuisine.fr",
+                "www.citizenside.fr",
+                "www.forbes.fr"
+            ]
+        },
+        {
+            "rule": "impactify\\.media\\/static\\/ad\\/v5-1\\.14\\.29\\/lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [
+                "85c04c16466a51f3e7ec1a5c14adaa241872793224823a433cf84cf737e97584"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowyat.net",
+                "gamergen.com",
+                "ontheflix.com",
+                "www.adeline-cuisine.fr",
+                "www.citizenside.fr",
+                "www.forbes.fr"
+            ]
+        },
+        {
+            "rule": "impactify\\.media\\/tag\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowyat.net",
+                "gamergen.com",
+                "ontheflix.com",
+                "www.adeline-cuisine.fr",
+                "www.citizenside.fr",
+                "www.forbes.fr"
+            ]
+        },
+        {
+            "rule": "impactify\\.media\\/tag\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000424,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowyat.net",
+                "gamergen.com",
+                "ontheflix.com",
+                "www.adeline-cuisine.fr",
+                "www.citizenside.fr",
+                "www.forbes.fr"
+            ]
+        },
+        {
+            "rule": "impactify\\.media\\/static\\/ad\\/v5-1\\.14\\.29\\/standard\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "7b43c5512bc5362dffbd823425aeb2c072aa02f8200ba3cc8f2db252924b89b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowyat.net",
+                "gamergen.com",
+                "www.forbes.fr"
+            ]
+        },
+        {
+            "rule": "impactify\\.media\\/static\\/cookie_sync\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sonic"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000566,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamergen.com",
+                "ontheflix.com",
+                "radarsemarang.jawapos.com",
+                "www.adeline-cuisine.fr",
+                "www.citizenside.fr",
+                "www.die-tagespost.de",
+                "www.forbes.fr",
+                "www.olive-hitomawashi.com"
+            ]
+        },
+        {
+            "rule": "impactify\\.media\\/prebid\\/timeout",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logger"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livejapan.com",
+                "mo-la.jp",
+                "utaten.com",
+                "www.tvkingdom.jp"
+            ]
+        },
+        {
+            "rule": "impactify\\.media\\/prebid\\/timeout",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logger"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000283,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livejapan.com",
+                "mo-la.jp",
+                "utaten.com",
+                "www.tvkingdom.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000707,
+    "topInitiators": [
+        {
+            "domain": "impactify.io",
+            "prevalence": 0.4375
+        },
+        {
+            "domain": "anymind360.com",
+            "prevalence": 0.40625
+        },
+        {
+            "domain": "vlyby.com",
+            "prevalence": 0.15625
+        }
+    ],
+    "types": {
+        "Fetch": 22,
+        "Script": 23,
+        "Document": 15,
+        "Preflight": 10
+    },
+    "nameservers": [
+        "gns23.cloudns.net",
+        "gns22.cloudns.net",
+        "gns21.cloudns.net",
+        "gns24.cloudns.net"
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "domain": "regulatesleet.com",
+    "owner": {
+        "name": "Leven Labs, Inc. DBA Admiral",
+        "displayName": "Admiral"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000141,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "regulatesleet\\.com\\/v2jvwJdhqTsWYcFxl86yeaXIwJ-sWJqttJnlEw6BcUdmIfNk51eohfgA",
+            "cookies": 0.0000141,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.sessionStorage": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "CookieStore.prototype.getAll": 2,
+                "CookieStore.prototype.set": 2,
+                "Notification.permission": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "1da6d18f978689c36bf35fe0447f28937e45bd88a60edf732bb0344208df52f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laineygossip.com",
+                "www.laineygossip.com"
+            ]
+        },
+        {
+            "rule": "regulatesleet\\.com\\/submit\\/m1zd2pt\\/016d5cs3u8dhtu1z4sf8jun4w7btcbnvq3s",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "e7baa69f3255b28ded5066dc0fadbdcc5dda8efe76fa37dcfcdffdd9387c7470"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laineygossip.com",
+                "www.laineygossip.com"
+            ]
+        },
+        {
+            "rule": "regulatesleet\\.com\\/m1zoqae\\/g27li1el4eu8om008slg0pea0ukq0yuckiw",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000141,
+            "cnames": [],
+            "responseHashes": [
+                "33c70c297b1a729f965a6aca60b7b3bb7a3b06bd13efe07698516fa98ac8b9f9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laineygossip.com",
+                "www.laineygossip.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-151.awsdns-18.com",
+        "ns-801.awsdns-36.net",
+        "ns-1737.awsdns-25.co.uk",
+        "ns-1340.awsdns-39.org"
+    ]
+}

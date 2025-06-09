@@ -1,0 +1,120 @@
+{
+    "domain": "io.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000106,
+    "sites": 15,
+    "subdomains": [
+        "dc.oracleinfinity"
+    ],
+    "cnames": [
+        {
+            "original": "dc.oracleinfinity.io",
+            "resolved": "dc.oracleinfinity.io.akadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "io\\.akadns\\.net\\/v4\\/account\\/wh3g12c3gg\\/client\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc.oracleinfinity"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [
+                {
+                    "original": "dc.oracleinfinity.io",
+                    "resolved": "dc.oracleinfinity.io.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "4d2da0ce859c076bea0293e00401a28c7825e41fc59ed66d5795f44ee717c111",
+                "8397714c87efa0c94a97ab297dbd16724a29ad8472ee76c60b1f7dfce9a8ad23",
+                "ff5b0ecb7c6a2ee4a16b0ff0f3f5df1fb42fd9f7f50d1148fe9b88a5020eb982",
+                "cd2a9d2af72f9ae20e09b0b01c11f3fce803fa8bad02ea695f53718ee8d1563a",
+                "f95ecfd819e9847656c465349b353900bd0601cd9c2b14f844a4d167dcd9690c",
+                "44edd0511ac59e6f74b58714dc2569c6ffb6d98087ebc6125537221e752a0bf1",
+                "a5022175b43b58b63c96e7a6ac7f1db94bfd21acc163327881f102f2f4e17f25",
+                "dc7a42ba59157377b55b12d9682e13907206beb380f37a22c1afcfe89c550850",
+                "e5def8119a4d93caca05b57a7d30b48c13b5c5b0377d68e4fc3bbf0a7c099bfe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oracle.com",
+                "asktom.oracle.com",
+                "blogs.oracle.com",
+                "dev.mysql.com",
+                "docs.oracle.com",
+                "education.oracle.com",
+                "forums.mysql.com",
+                "forums.oracle.com",
+                "www.java.com",
+                "www.mysql.com"
+            ]
+        },
+        {
+            "rule": "io\\.akadns\\.net\\/wh3g12c3gg\\/dcs\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc.oracleinfinity"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000707,
+            "cnames": [
+                {
+                    "original": "dc.oracleinfinity.io",
+                    "resolved": "dc.oracleinfinity.io.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oracle.com",
+                "asktom.oracle.com",
+                "blogs.oracle.com",
+                "dev.mysql.com",
+                "docs.oracle.com",
+                "education.oracle.com",
+                "forums.mysql.com",
+                "forums.oracle.com",
+                "www.java.com",
+                "www.mysql.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 10,
+        "Image": 10
+    },
+    "nameservers": []
+}

@@ -1,0 +1,97 @@
+{
+    "domain": "ucoz.net",
+    "owner": {
+        "name": "Compubyte Limited",
+        "displayName": "Compubyte"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000212,
+    "sites": 3,
+    "subdomains": [
+        "sys000",
+        "s18",
+        "s57"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ucoz\\.net\\/cgi\\/uutils\\.fcg",
+            "cookies": 0.0000141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sys000",
+                "s18",
+                "s57"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000212,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "7ayaznaluSoc": {
+                    "ttl": -31535994,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "7ayaznaluSoc101": {
+                    "ttl": -31535994,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "7ayaznaluSoc102": {
+                    "ttl": -31535994,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "7ayaznaluSoc107": {
+                    "ttl": -31535994,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                },
+                "7ayaznaluSoc109": {
+                    "ttl": -31535994,
+                    "length": 1,
+                    "prevalence": 0.0000070733363512901765,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ayaznal.ru",
+                "basketballreplays.net",
+                "onlinesound.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns1.ucoz.net",
+        "ns2.ucoz.net",
+        "ns3.ucoz.net"
+    ]
+}

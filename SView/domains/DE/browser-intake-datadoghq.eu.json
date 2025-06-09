@@ -1,0 +1,189 @@
+{
+    "domain": "browser-intake-datadoghq.eu",
+    "owner": {
+        "name": "Datadog, Inc.",
+        "displayName": "Datadog"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00122,
+    "sites": 12,
+    "subdomains": [
+        "logs",
+        "rum",
+        "csp-report"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "browser-intake-datadoghq\\.eu\\/api\\/v2\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [],
+            "responseHashes": [
+                "039801755b3c292219a27e5f0f90375a1b2968e541786db0ac6ade90c06381c1",
+                "8933ae91f45da17b7465ec74319f67a48fd96a00b624035948b185242840278c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "docmorris.de",
+                "polymarket.com",
+                "www.blablacar.de",
+                "www.directferries.de"
+            ]
+        },
+        {
+            "rule": "browser-intake-datadoghq\\.eu\\/\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tchibo.de",
+                "www.tchibo.de"
+            ]
+        },
+        {
+            "rule": "browser-intake-datadoghq\\.eu\\/\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9956ba638cdb2438107cff63f542b3bf7f939fbf9d5c2b652561d55c87c19102"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tchibo.de",
+                "www.tchibo.de"
+            ]
+        },
+        {
+            "rule": "browser-intake-datadoghq\\.eu\\/api\\/v2\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csp-report"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eurowings.com",
+                "www.eurowings.com"
+            ]
+        },
+        {
+            "rule": "browser-intake-datadoghq\\.eu\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000612,
+            "cnames": [],
+            "responseHashes": [
+                "51063abe018a0bcbbf2a5bf67071e76120612ece8bdad72b6afd9636d4be8e73",
+                "85e434198f63ce3a053cafc2829dbb785710703cc129d83773cebc554a2b3519",
+                "80d79781767980a59e34d0271f438d489589800a509215db752042313c0e62bc",
+                "e62adf187685cab2ee7b924edeb78e62bd72cc23658b93395c86882fd4d96e25",
+                "f142bdcaa58f77215d36eb89b1321f3f6d360412e49dc758b52087dbc538f1f3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gartentraum.de",
+                "www.gartentraum.de",
+                "www.kamera-express.de",
+                "www.lexus.de",
+                "www.netto.de",
+                "www.toyota.de"
+            ]
+        },
+        {
+            "rule": "browser-intake-datadoghq\\.eu\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "1ced47388c2d28612665b08b3d61b98c05a004771d6562c6ced0e359ef8f1f17"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kamera-express.de",
+                "www.lexus.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.4883720930232558
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3953488372093023
+        },
+        {
+            "domain": "blablacar.com",
+            "prevalence": 0.06976744186046512
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.046511627906976744
+        }
+    ],
+    "types": {
+        "Fetch": 12,
+        "Preflight": 2,
+        "Other": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e1.googledomains.com"
+    ]
+}

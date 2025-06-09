@@ -1,0 +1,81 @@
+{
+    "domain": "cisco.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000134,
+    "sites": 19,
+    "subdomains": [
+        "id"
+    ],
+    "cnames": [
+        {
+            "original": "id.cisco.com",
+            "resolved": "id.cisco.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cisco\\.com\\.edgekey\\.net\\/oauth2\\/default\\/v1\\/authorize",
+            "cookies": 0.000092,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000092,
+            "cnames": [
+                {
+                    "original": "id.cisco.com",
+                    "resolved": "id.cisco.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "utag_main_vapi_domain": 0.0000070733363512901765
+            },
+            "exampleSites": [
+                "cisco.com",
+                "blogs.cisco.com",
+                "community.cisco.com",
+                "developer.cisco.com",
+                "duo.com",
+                "help.webex.com",
+                "investor.cisco.com",
+                "jobs.cisco.com",
+                "newsroom.cisco.com",
+                "software.cisco.com",
+                "umbrella.cisco.com",
+                "www.cisco.com",
+                "www.webex.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000134,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Image": 13
+    },
+    "nameservers": []
+}
