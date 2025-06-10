@@ -1,25 +1,30 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "SpyView - See Who's Watching",
   "version": "1.0",
   "description": "Detects and reveals trackers watching you in real time.",
-  "permissions": ["webRequest", "storage", "tabs", "notifications"],
-  "host_permissions": ["<all_urls>"],
+  "permissions": [
+    "webRequest",
+    "storage",
+    "tabs",
+    "notifications",
+    "<all_urls>"
+  ],
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"],
+    "persistent": false
   },
-  "action": {
-    "default_popup": "popup/popup.html", 
+  "browser_action": {
+    "default_popup": "popup/popup.html",
     "default_icon": "icons/icon128.png"
   },
   "icons": {
     "128": "icons/icon128.png"
   },
   "web_accessible_resources": [
-  {
-    "resources": ["trackerStorage/trackersLarge.json", "stats/stats.html", "stats/chart.min.js", "stats/leaflet/*"],
-    "matches": ["<all_urls>"]
-  }
-]
-
+    "trackerStorage/trackersLarge.json",
+    "stats/stats.html",
+    "stats/chart.min.js",
+    "stats/leaflet/*"
+  ]
 }

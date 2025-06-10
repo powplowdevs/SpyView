@@ -211,10 +211,45 @@ function setupToggles(){
     });
 }
 
-document.getElementById("infoIcon").addEventListener("click", () =>{
+document.getElementById("infoIcon").addEventListener("click", () => {
+    document.getElementById("settingsPanel").classList.add("hidden");
     document.getElementById("tutorial").classList.toggle("hidden");
 });
 
-document.getElementById("closeTutorial").addEventListener("click", () =>{
+document.getElementById("closeTutorial").addEventListener("click", () => {
     document.getElementById("tutorial").classList.add("hidden");
+});
+
+document.getElementById("settingsIcon").addEventListener("click", () => {
+    document.getElementById("tutorial").classList.add("hidden");
+    document.getElementById("settingsPanel").classList.remove("hidden");
+});
+
+document.getElementById("closeSettings").addEventListener("click", () => {
+    document.getElementById("settingsPanel").classList.add("hidden");
+});
+
+document.getElementById("minScoreSlider").addEventListener("input", (e) => {
+    const val = e.target.value;
+    document.getElementById("minScoreValue").textContent = val;
+    chrome.storage.local.set({ minNotifyScore: Number(val) });
+});
+
+document.getElementById("enableNotifications").addEventListener("change", (e) => {
+    chrome.storage.local.set({ enableNotifications: e.target.checked });
+});
+
+document.getElementById("clearStats").addEventListener("click", () => {
+    if (confirm("Are you sure you want to clear all stored tracker stats? This cannot be undone.")) {
+        chrome.storage.local.remove(["lastScan", "trackers", "trackerStatus", "detectionLog", "groupStatus"], () => {
+            location.reload();
+        });
+    }
+});
+
+// Load current settings
+chrome.storage.local.get(["enableNotifications", "minNotifyScore"], (res) => {
+    document.getElementById("enableNotifications").checked = res.enableNotifications !== false;
+    document.getElementById("minScoreSlider").value = res.minNotifyScore || 3;
+    document.getElementById("minScoreValue").textContent = res.minNotifyScore || 3;
 });

@@ -30,10 +30,14 @@
             </a>
         </div>
 
-        <div class="absolute top-3 right-3 cursor-pointer" id="infoIcon" title="Learn how scores work">
+        <div class="absolute top-3 right-10 cursor-pointer" id="settingsIcon" title="Open settings">
             <span class="text-white text-lg">
-                <sup>&#9432;</sup>
+                <sup>⚙️</sup>
             </span>
+        </div>
+
+        <div class="absolute top-3 right-3 cursor-pointer" id="infoIcon" title="Learn how scores work">
+            <img src="../icons/icon128.png" class="w-5 h-5 rounded" />
         </div>
 
         <div id="trackerList" class="space-y-3 text-sm mb-6">
@@ -42,7 +46,7 @@
 
         <div id="tutorial" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 bg-neutral-900 border border-neutral-700 text-sm p-5 rounded-xl shadow-2xl z-50 text-white">
             <h2 class="text-lg font-semibold mb-3 flex items-center gap-2">
-                <img src="icons/info.svg" class="w-5 h-5" /> SpyView Tracker Guide
+                <img src="../icons/icon128.png" class="w-5 h-5 rounded" /> SpyView Tracker Guide
             </h2>
             <p class="text-gray-400 mb-2">We analyze each domain and assign:</p>
             <ul class="space-y-1 text-sm">
@@ -59,6 +63,30 @@
             </p>
             <div class="flex justify-end mt-4">
                 <button id="closeTutorial" class="text-blue-400 hover:underline text-sm">Close</button>
+            </div>
+        </div>
+
+        <div id="settingsPanel" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 bg-neutral-900 border border-neutral-700 text-sm p-6 rounded-xl shadow-2xl z-50 text-white">
+            <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
+                <img src="../icons/icon128.png" class="w-5 h-5 rounded" /> SpyView Settings
+            </h2>
+
+            <div class="space-y-4">
+                <label class="block text-sm">
+                    <input type="checkbox" id="enableNotifications" class="mr-2" />
+                    Enable Notifications
+                </label>
+
+                <label class="block text-sm">
+                    Notify only for score ≥ <span id="minScoreValue">3</span>
+                    <input type="range" id="minScoreSlider" min="1" max="5" value="3" class="w-full mt-1">
+                </label>
+
+                <button id="clearStats" class="bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded text-sm w-full">Clear All Stats</button>
+            </div>
+
+            <div class="flex justify-end mt-6">
+                <button id="closeSettings" class="text-blue-400 hover:underline text-sm">Close</button>
             </div>
         </div>
 
