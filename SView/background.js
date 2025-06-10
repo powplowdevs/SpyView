@@ -225,7 +225,7 @@ async function getGeoData(domain) {
                     const toStore = { [cacheKey]: data };
                     // trim cahce
                     chrome.storage.local.set(toStore, () => {
-                        const geoEntries = Object.entries(allData) .filter(([key, val]) => key.startsWith("geo_") && val.ts).sort((a, b) => b[1].ts - a[1].ts);
+                        const geoEntries = Object.entries(res) .filter(([key, val]) => key.startsWith("geo_") && val.ts).sort((a, b) => b[1].ts - a[1].ts);
 
                         if (geoEntries.length <= MAX_GEO_CACHE) return;
 
