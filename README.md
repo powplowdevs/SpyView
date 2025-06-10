@@ -44,7 +44,7 @@ It monitors tracking and fingerprinting attempts in real-time, scores their risk
 
 ## 📦 Installation
 
-<p align="center"><i>Coming to the Chrome Web Store soon.</i></p>
+<p align="center"><i>Coming to the some form of a extension web store soon.</i></p>
 
 <p>In the meantime, you can install it manually:</p>
 
