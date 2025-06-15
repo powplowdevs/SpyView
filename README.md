@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>A Chrome extension that detects and classifies online trackers and fingerprinting activity in real-time locally, with no external sync or servers.</b>
+  <b>A browser extension that detects and classifies online trackers and fingerprinting activity in real-time locally, with no external sync or servers.</b>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 
 **SpyView** is a browser extension that lets you see what’s happening behind the scenes as you browse the web.
 
-It monitors tracking and fingerprinting attempts in real-time, scores their risk level, and gives you a simple view of which domains are trying to follow your activity, all processed locally in your browser.
+It monitors tracking and fingerprinting attempts in real-time, scores their risk level, and gives you a simple view of which domains are trying to follow your activity — all processed locally in your browser.
 
 ---
 
@@ -44,9 +44,15 @@ It monitors tracking and fingerprinting attempts in real-time, scores their risk
 
 ## 📦 Installation
 
-<p align="center"><i>Coming to the some form of a extension web store soon.</i></p>
+<p align="center"><b>🔥 Now available on Firefox Add-ons!</b></p>
 
-<p>In the meantime, you can install it manually:</p>
+<p align="center">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/spyview/" target="_blank">
+    👉 Install from Firefox Store
+  </a>
+</p>
+
+<p>To install manually on Chrome:</p>
 
 <ul>
   <li>Download this repo:
@@ -68,7 +74,7 @@ Tracker detection powered by
 <a href="https://github.com/duckduckgo/tracker-radar" target="_blank">DuckDuckGo's Tracker Radar</a>
 
 ---
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=460&lines=Track+the+trackers+tracking+you;Tongue+twister...;Watch+the+web+watching+you." />
 </p>
-
