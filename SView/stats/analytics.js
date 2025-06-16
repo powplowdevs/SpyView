@@ -71,51 +71,70 @@ function loadAnalyticsData(){
 }
 
 function renderTotals(totals){
-    const html = `
-        <li>📅 Today: ${totals.today}</li>
-        <li>🗓️ This Week: ${totals.week}</li>
-        <li>📅 This Month: ${totals.month}</li>
-        <li>📆 This Year: ${totals.year}</li>
-        <li>💻 This Session: ${totals.session}</li>
-        <li>🌐 All Time: ${totals.all}</li>
-    `;
-    document.getElementById("totals").innerHTML = html;
+    const container = document.getElementById("totals");
+    container.innerHTML = "";
+    const items = [
+        `📅 Today: ${totals.today}`,
+        `🗓️ This Week: ${totals.week}`,
+        `📅 This Month: ${totals.month}`,
+        `📆 This Year: ${totals.year}`,
+        `💻 This Session: ${totals.session}`,
+        `🌐 All Time: ${totals.all}`
+    ];
+
+    items.forEach(text => {
+        const li = document.createElement("li");
+        li.textContent = text;
+        container.appendChild(li);
+    });
 }
 
+
 function renderTopDomains(trackerHits){
+    const container = document.getElementById("topDomains");
+    container.innerHTML = "";
+
     const sorted = Object.entries(trackerHits).sort((a, b) => b[1] - a[1]).slice(0, 10);
-    const html = sorted.map(([name, count]) =>
-        `<li>${name} — <span class="text-blue-400">${count} detections</span></li>`
-    ).join("");
-    document.getElementById("topDomains").innerHTML = html;
+    sorted.forEach(([name, count]) => {
+        const li = document.createElement("li");
+        li.innerHTML = `${sanitizeHTML(name)} — <span class="text-blue-400">${count} detections</span>`;
+        container.appendChild(li);
+    });
 }
 
 function renderTopSites(siteHits){
     const container = document.getElementById("topSites");
     if (!container) return;
 
+    container.innerHTML = "";
     const sorted = Object.entries(siteHits).sort((a, b) => b[1] - a[1]).slice(0, 10);
-    container.innerHTML = sorted.map(([combo, count]) =>{
+    sorted.forEach(([combo, count]) => {
         const [url, domain] = combo.split("|");
-        return `<li>${url} → <span class="text-purple-300">${domain}</span> — <span class="text-green-400">${count} trackers</span></li>`;
-    }).join("");
+        const li = document.createElement("li");
+        li.innerHTML = `${sanitizeHTML(url)} → <span class="text-purple-300">${sanitizeHTML(domain)}</span> — <span class="text-green-400">${count} trackers</span>`;
+        container.appendChild(li);
+    });
 }
 
 function renderRecentHistory(history){
     const container = document.getElementById("recentHistory");
     if (!container) return;
 
+    container.innerHTML = "";
     const sorted = [...history].sort((a, b) => b.timestampRaw - a.timestampRaw).slice(0, 10);
-    container.innerHTML = sorted.map(h =>
-        `<li>
-            <span class="text-blue-300">${h.url}</span> → 
-            <span class="text-purple-300">${h.owner}</span><br/>
+    sorted.forEach(h => {
+        const li = document.createElement("li");
+        li.innerHTML = `
+            <span class="text-blue-300">${sanitizeHTML(h.url)}</span> → 
+            <span class="text-purple-300">${sanitizeHTML(h.owner)}</span><br/>
             <span class="text-gray-400 text-xs">
-                ${h.timestamp}, Tab: ${h.tabId}, Method: ${h.method}, Type: ${h.type}, Score: ${h.score}
+                ${sanitizeHTML(h.timestamp)}, Tab: ${sanitizeHTML(h.tabId)}, Method: ${sanitizeHTML(h.method)}, Type: ${sanitizeHTML(h.type)}, Score: ${h.score}
             </span>
-        </li>`
-    ).join("");
+        `;
+        container.appendChild(li);
+    });
 }
+
 
 function renderPrivacyScore(){
     const bar = document.getElementById("privacyScoreBar");
@@ -228,3 +247,11 @@ document.addEventListener("DOMContentLoaded", () =>{
     loadAnalyticsData();
     document.getElementById("refreshBtn").addEventListener("click", loadAnalyticsData);
 });
+
+
+// Needed to please firefox...
+function sanitizeHTML(str){
+    return String(str).replace(/[&<>"']/g, s => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
+    })[s]);
+}
